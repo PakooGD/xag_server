@@ -1,4 +1,5 @@
-import { Table, Column, Model, DataType, Unique, PrimaryKey, AutoIncrement, AllowNull, Default } from 'sequelize-typescript';
+import { Table, Column, Model, DataType, Unique, PrimaryKey, AutoIncrement, AllowNull, Default, HasMany  } from 'sequelize-typescript';
+import { Device } from './';
 
 @Table({
   tableName: 'users',
@@ -108,4 +109,7 @@ export class User extends Model {
   @AllowNull(false)
   @Column(DataType.STRING(64))
   password!: string;
+
+  @HasMany(() => Device)
+  devices!: Device[];
 }

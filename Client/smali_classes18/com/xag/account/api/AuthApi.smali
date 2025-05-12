@@ -653,7 +653,7 @@
     .end annotation
 
     .annotation runtime Lretrofit2/http/POST;
-        value = "/api/account/v1/user/token/login"
+        value = "http://127.0.0.1:5000/api/account/v1/user/token/login"
     .end annotation
 .end method
 

@@ -133,7 +133,7 @@
     .end annotation
 
     .annotation runtime Lretrofit2/http/GET;
-        value = "/api/equipment/device/lists"
+        value = "http://127.0.0.1:5000/api/equipment/device/lists"
     .end annotation
 
     .annotation runtime Lretrofit2/http/Headers;

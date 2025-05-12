@@ -43,7 +43,7 @@
     .end annotation
 
     .annotation runtime Lretrofit2/http/GET;
-        value = "/api/equipment/home/getIotUserSession"
+        value = "http://127.0.0.1:5000/api/equipment/home/getIotUserSession"
     .end annotation
 
     .annotation runtime Lretrofit2/http/Headers;
