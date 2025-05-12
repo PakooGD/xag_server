@@ -33,6 +33,10 @@ sequelize.authenticate()
     .then(async () => {
         console.log('Connection to PostgreSQL has been established successfully.');
         
+        app.listen(httpPort, () => {
+          console.log(`Server is running on port ${httpPort}`);
+        });
+
         // Sync models with database
         await sequelize.sync({ alter: true });
         console.log('Database models synchronized');
