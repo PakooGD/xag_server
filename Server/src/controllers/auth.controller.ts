@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import {AuthService}  from '../services/auth.service';
+import {AuthService}  from '../services';
 
 export class AuthController {
   static async Login(req: Request, res: Response): Promise<void> {
@@ -102,7 +102,7 @@ export class AuthController {
           status: 400
         });
       }
-
+//hardcoded
     res.json({
       data: {},
       message: "Successful",

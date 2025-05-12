@@ -1,3 +1,5 @@
 import { AuthController } from "./auth.controller";
+import { XagController } from "./xag.controller";
 
-export {AuthController}
+
+export {AuthController, XagController}
