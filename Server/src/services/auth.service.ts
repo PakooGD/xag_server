@@ -1,13 +1,12 @@
 import { User } from '../models/user.model';
-import externalApiService from './external-api.service';
+import { ExternalApiService } from './';
 import { Op } from 'sequelize';
 import { LoginData } from '../types/ITypes';
 
-class AuthService {
-  async login(loginData: LoginData) {
+export class AuthService {
+  static async login(loginData: LoginData) {
     const { phone, password, icc } = loginData;
 
-    // Проверяем, есть ли пользователь в нашей базе
     const existingUser = await User.findOne({
       where: {
         [Op.or]: [
@@ -18,27 +17,21 @@ class AuthService {
     });
 
     if (existingUser) {
-      // Если пользователь найден, возвращаем его данные
       return {
-        data: this.formatUserResponse(existingUser),
+        data: AuthService.formatUserResponse(existingUser),
         message: 'success',
         status: 200,
       };
     }
 
-    // Если пользователя нет, авторизуемся через внешний API
     try {
-      // Сначала получаем route (если нужно)
-      // const routeResponse = await externalApiService.getUserRoute(accountKey);
-
-      // Затем выполняем логин
-      const loginResponse = await externalApiService.login(phone, password, icc);
+      const loginResponse = await ExternalApiService.login(phone, password, icc);
 
       if (loginResponse.status === 200) {
         const userData = loginResponse.data;
         await User.create({
           guid: userData.guid,
-          account_key: '', // Можно получить из route если нужно
+          account_key: '',
           name: userData.name,
           nickname: userData.nickname,
           icc: userData.icc,
@@ -60,7 +53,7 @@ class AuthService {
           level: userData.level,
           language: userData.language,
           country_code: userData.country_code,
-          password, // В реальном приложении нужно хэшировать пароль!
+          password,
         });
       }
 
@@ -71,7 +64,7 @@ class AuthService {
     }
   }
 
-  private formatUserResponse(user: User) {
+  private static formatUserResponse(user: User) {
     return {
       id: user.id,
       guid: user.guid,
@@ -99,5 +92,3 @@ class AuthService {
     };
   }
 }
-
-export default new AuthService();

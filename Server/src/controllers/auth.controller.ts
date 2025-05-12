@@ -1,19 +1,20 @@
 import { Request, Response } from 'express';
-import authService from '../services/auth.service';
+import {AuthService}  from '../services/auth.service';
 
-class AuthController {
-  async login(req: Request, res: Response) {
+export class AuthController {
+  static async Login(req: Request, res: Response): Promise<void> {
     try {
       const { phone, password, icc } = req.body;
 
       if (!phone || !password || !icc) {
-        return res.status(400).json({
+        res.status(400).json({
           message: 'Phone, password and icc are required',
           status: 400,
         });
+        return;
       }
 
-      const result = await authService.login({ phone, password, icc });
+      const result = await AuthService.login({ phone, password, icc });
       res.status(result.status).json(result);
     } catch (error) {
       console.error('Login error:', error);
@@ -24,5 +25,3 @@ class AuthController {
     }
   }
 }
-
-export default new AuthController();

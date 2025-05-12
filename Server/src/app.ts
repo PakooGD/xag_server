@@ -1,6 +1,6 @@
 import express from 'express';
 import bodyParser from 'body-parser';
-import xagRoutes from './routes/xagRoutes';
+import xagRoutes from './routes/xag.routes';
 import { errorHandler } from './middleware/error.middleware';
 import cors from 'cors';
 import sequelize from './config/database';

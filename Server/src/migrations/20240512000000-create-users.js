@@ -1,123 +1,123 @@
-import { QueryInterface, DataTypes } from 'sequelize';
+'use strict';
 
 module.exports = {
-  up: async (queryInterface: QueryInterface) => {
+  up: async (queryInterface, Sequelize) => {
     await queryInterface.createTable('users', {
       id: {
-        type: DataTypes.INTEGER,
+        type: Sequelize.INTEGER,
         primaryKey: true,
         autoIncrement: true,
       },
       guid: {
-        type: DataTypes.STRING(64),
+        type: Sequelize.STRING(64),
         allowNull: false,
         unique: true,
       },
       account_key: {
-        type: DataTypes.STRING(64),
+        type: Sequelize.STRING(64),
         allowNull: false,
       },
       name: {
-        type: DataTypes.STRING(32),
+        type: Sequelize.STRING(32),
         allowNull: false,
       },
       nickname: {
-        type: DataTypes.STRING(32),
+        type: Sequelize.STRING(32),
         allowNull: false,
       },
       icc: {
-        type: DataTypes.STRING(10),
+        type: Sequelize.STRING(10),
         allowNull: false,
       },
       mobile: {
-        type: DataTypes.STRING(20),
+        type: Sequelize.STRING(20),
         allowNull: false,
         unique: true,
       },
       phone: {
-        type: DataTypes.STRING(20),
+        type: Sequelize.STRING(20),
         allowNull: false,
       },
       intro: {
-        type: DataTypes.TEXT,
+        type: Sequelize.TEXT,
       },
       username: {
-        type: DataTypes.STRING(32),
+        type: Sequelize.STRING(32),
         allowNull: false,
         unique: true,
       },
       token: {
-        type: DataTypes.STRING(64),
+        type: Sequelize.STRING(64),
         allowNull: false,
       },
       access_token: {
-        type: DataTypes.STRING(64),
+        type: Sequelize.STRING(64),
         allowNull: false,
       },
       expire_in: {
-        type: DataTypes.BIGINT,
+        type: Sequelize.BIGINT,
         allowNull: false,
       },
       refresh_token: {
-        type: DataTypes.STRING(64),
+        type: Sequelize.STRING(64),
         allowNull: false,
       },
       refresh_token_expire_in: {
-        type: DataTypes.BIGINT,
+        type: Sequelize.BIGINT,
         allowNull: false,
       },
       identity: {
-        type: DataTypes.INTEGER,
+        type: Sequelize.INTEGER,
         allowNull: false,
         defaultValue: 0,
       },
       wechat_bind: {
-        type: DataTypes.INTEGER,
+        type: Sequelize.INTEGER,
         allowNull: false,
         defaultValue: 0,
       },
       real_name: {
-        type: DataTypes.STRING,
+        type: Sequelize.STRING,
       },
       gender: {
-        type: DataTypes.STRING(10),
+        type: Sequelize.STRING(10),
         defaultValue: 'unknow',
       },
       avatar: {
-        type: DataTypes.TEXT,
+        type: Sequelize.TEXT,
       },
       area: {
-        type: DataTypes.STRING(10),
+        type: Sequelize.STRING(10),
         defaultValue: 'global',
       },
       level: {
-        type: DataTypes.STRING,
+        type: Sequelize.STRING,
       },
       language: {
-        type: DataTypes.STRING(10),
+        type: Sequelize.STRING(10),
         defaultValue: 'global',
       },
       country_code: {
-        type: DataTypes.STRING(5),
+        type: Sequelize.STRING(5),
         allowNull: false,
       },
       password: {
-        type: DataTypes.STRING(64),
+        type: Sequelize.STRING(64),
         allowNull: false,
       },
       created_at: {
-        type: DataTypes.DATE,
+        type: Sequelize.DATE,
         allowNull: false,
-        defaultValue: DataTypes.NOW,
+        defaultValue: Sequelize.literal('CURRENT_TIMESTAMP'),
       },
       updated_at: {
-        type: DataTypes.DATE,
+        type: Sequelize.DATE,
         allowNull: false,
-        defaultValue: DataTypes.NOW,
+        defaultValue: Sequelize.literal('CURRENT_TIMESTAMP'),
       },
     });
 
-    // Добавляем индексы для часто используемых полей
+    // Добавляем индексы
     await queryInterface.addIndex('users', ['phone']);
     await queryInterface.addIndex('users', ['mobile']);
     await queryInterface.addIndex('users', ['username']);
@@ -125,7 +125,7 @@ module.exports = {
     await queryInterface.addIndex('users', ['country_code']);
   },
 
-  down: async (queryInterface: QueryInterface) => {
+  down: async (queryInterface) => {
     await queryInterface.dropTable('users');
   },
 };
