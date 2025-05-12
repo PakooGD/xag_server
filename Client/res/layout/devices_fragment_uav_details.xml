@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/devices_background" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/status_bar" android:background="@color/devices_background" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/devices_actionbar">
+        <ImageButton android:layout_gravity="start|center" android:id="@id/btn_device_info_back" android:background="@drawable/devices_selector_button_transparent" android:layout_width="@dimen/devices_actionbar" android:layout_height="fill_parent" android:src="@drawable/operation_res_icon_btn_close_24" style="@style/Devices.Button" />
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.xa.core.cube.TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/devices_dev_state" style="@style/Devices.Text.title" />
+            <com.xa.core.cube.TextView android:textColor="?cube_color_project_primary" android:id="@id/tv_working" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/devices_working" style="@style/Cube.Font.Regular.Footnote" />
+            <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_secondary" android:id="@id/tv_offline" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/devices_main_module_offline" style="@style/Cube.Font.Regular.Footnote" />
+        </LinearLayout>
+        <android.widget.Button android:textColor="@color/cube_color_content_primary" android:layout_gravity="end|center" android:id="@id/btn_device_info_system" android:background="@drawable/devices_selector_button_transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/devices_system" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:id="@id/tab_device_info" android:background="@drawable/cube_shape_container_fill_base_8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/devices_margin_12" android:layout_marginRight="@dimen/devices_margin_12" />
+        <FrameLayout android:id="@id/fl_content" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <View android:background="@color/devices_divider" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+</LinearLayout>

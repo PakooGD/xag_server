@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tinet.threepart.keyboard.MeasureLinearLayout android:orientation="vertical" android:id="@id/viewRootForInput" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/tinet_session_refresh" />
+    <LinearLayout android:orientation="vertical" android:id="@id/layout_session_sendout_card_send" android:background="@color/ti_session_background_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/frg_session_sendout_card_send" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/recyclerViewLabel" android:background="@color/ti_quick_entry_rv_bg_color" android:paddingTop="@dimen/ti_quick_entry_vertical_spec" android:paddingBottom="@dimen/ti_quick_entry_vertical_spec" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    <View style="@style/tinetSessionDividerStyle" />
+    <com.tinet.oskit.widget.SessionInputView android:id="@id/inputView" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/tinetInputAreaStyle" />
+    <TextView android:textSize="@dimen/ti_chat_over_view_text_size" android:textColor="@color/ti_chat_over_view_text_color" android:gravity="center" android:id="@id/tvOver" android:background="@color/ti_chat_over_view_bg_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/ti_chat_over_view_height" />
+    <View android:id="@id/viewBottomDivider" style="@style/tinetSessionBottomDividerStyle" />
+    <RelativeLayout android:id="@id/viewMore" android:background="@color/ti_input_more_bg_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="246.0dip">
+        <com.tinet.threepart.emoji.EmotionLayout android:id="@id/emotionLayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:tinetShowDelete="@bool/tinetShowDelete" />
+        <ViewStub android:id="@id/vsEmoSend" android:layout="@layout/tinetEmoManagerLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" />
+        <include android:id="@id/moreLayout" android:visibility="gone" layout="@layout/frg_session_more" />
+    </RelativeLayout>
+</com.tinet.threepart.keyboard.MeasureLinearLayout>

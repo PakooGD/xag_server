@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:padding="@dimen/cube_dp_16" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_secondary" android:id="@id/tvText" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Cube.Font.Regular.Callout" />
+    <ImageView android:layout_gravity="end|center" android:layout_width="@dimen/cube_dp_12" android:layout_height="@dimen/cube_dp_16" android:src="@drawable/cube_ic_gen_chevron_right" android:scaleType="centerInside" />
+</LinearLayout>

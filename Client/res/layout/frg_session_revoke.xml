@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/frg_session_item_time" />
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/viewRevoke" android:background="@drawable/ti_shape_notification_bg" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+        <TextView android:textSize="@dimen/ti_notification_size" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center" android:id="@id/tvNotification" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+        <TextView android:textSize="@dimen/ti_notification_size" android:textColor="#ff1c69d4" android:gravity="center" android:layout_gravity="center" android:id="@id/tvReEdit" android:background="@drawable/ti_shape_notification_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ti_reedit" android:layout_marginStart="5.0dip" />
+    </LinearLayout>
+</LinearLayout>

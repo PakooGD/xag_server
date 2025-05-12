@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="right" android:background="@color/cube_color_container_bg_base" android:layout_width="312.0dip" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.xag.agri.v4.operation.res.widget.DialogTitleWidget android:id="@id/title_widget" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/mission_height_rv" android:background="@drawable/air_survey_v5_shape_white_round12" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cube_dp_4" android:layout_marginStart="@dimen/cube_dp_16" android:layout_marginEnd="@dimen/cube_dp_16" app:layout_constraintTop_toBottomOf="@id/title_widget" />
+</androidx.constraintlayout.widget.ConstraintLayout>

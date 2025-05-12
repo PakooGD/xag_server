@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:id="@id/panel_source_choose" android:background="@drawable/survey_new_home_blur_r8888_normal" android:layout_width="44.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/action_choose_source_ctrl" android:background="@drawable/survey_shape_r8800_white" android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@drawable/survey_new_selector_editor_ctrl" android:scaleType="centerInside" app:layout_constraintEnd_toEndOf="parent" />
+    <View android:background="#0a000000" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <ImageView android:id="@id/action_choose_source_uav" android:background="@drawable/survey_shape_r0088_white" android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@drawable/survey_new_selector_editor_uav" android:scaleType="centerInside" app:layout_constraintEnd_toEndOf="parent" />
+    <ImageView android:id="@id/action_choose_source_close" android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@drawable/operation_base_map_menu_close" android:scaleType="centerInside" app:layout_constraintEnd_toEndOf="parent" />
+</androidx.appcompat.widget.LinearLayoutCompat>

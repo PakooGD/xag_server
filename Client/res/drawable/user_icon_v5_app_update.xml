@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="48.0dip" android:width="48.0dip" android:viewportWidth="48.0" android:viewportHeight="48.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="?cube_color_project_primary" android:pathData="M11.661,39.75L11.661,39.726C5.987,39.358 1.5,34.701 1.5,29.011C1.5,23.662 5.466,19.226 10.656,18.408C12.201,12.563 17.59,8.25 24,8.25C30.41,8.25 35.799,12.563 37.345,18.409C42.534,19.226 46.5,23.662 46.5,29.011C46.5,34.701 42.013,39.358 36.339,39.726L36.339,39.75L11.661,39.75Z" android:fillType="evenOdd" />
+    <path android:fillColor="@color/cube_color_container_bg_tint" android:pathData="M23.25,18.75C23.25,18.336 23.586,18 24,18C24.414,18 24.75,18.336 24.75,18.75L24.75,30.439L27.97,27.22C28.11,27.079 28.301,27 28.5,27C28.914,27 29.25,27.336 29.25,27.75C29.25,27.949 29.171,28.14 29.03,28.28L24.531,32.78L24.531,32.78C24.395,32.916 24.207,33 24,33C23.793,33 23.605,32.916 23.469,32.78L23.469,32.78L18.97,28.28C18.829,28.14 18.75,27.949 18.75,27.75C18.75,27.336 19.086,27 19.5,27C19.699,27 19.89,27.079 20.03,27.22L23.25,30.439L23.25,18.75Z" android:fillType="evenOdd" />
+</vector>

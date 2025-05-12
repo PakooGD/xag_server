@@ -1,0 +1,80 @@
+{
+    "product_name": "植保系列",
+    "model_list": [
+        "UAV13",
+        "UAV14",
+        "UAV15",
+        "UAV17",
+        "UAV18",
+        "UAV19",
+        "UAV21",
+        "UAV22",
+        "UAV23",
+        "UAV24",
+        "UAV25",
+        "UAV26",
+        "UAV27",
+        "UAV29",
+        "UAV34",
+        "UAV35",
+        "UAV35X",
+        "UAV39",
+        "UAV40",
+        "UAV41"
+    ],
+    "modules": [
+        {
+            "code": "rc",
+            "name": "rc",
+            "events": [
+                {
+                    "alias": "I0005",
+                    "code": 5,
+                    "category": 0,
+                    "type": 3,
+                    "warn_des": "已接近禁飞区，请远离",
+                    "handle_des": "<p>请远离禁飞区。</p>",
+                    "lang_text": null
+                },
+                {
+                    "alias": "I0006",
+                    "code": 6,
+                    "category": 0,
+                    "type": 3,
+                    "warn_des": "在禁飞区内，无法起飞",
+                    "handle_des": "<p>请远离禁飞区。</p>",
+                    "lang_text": null
+                },
+                {
+                    "alias": "I0018",
+                    "code": 7,
+                    "category": 0,
+                    "type": 2,
+                    "warn_des": "距离禁飞区小于15m，请注意安全",
+                    "handle_des": "",
+                    "lang_text": null
+                },
+                {
+                    "alias": "I0019",
+                    "code": 8,
+                    "category": 0,
+                    "type": 2,
+                    "warn_des": "距离禁飞区小于60m，请注意安全",
+                    "handle_des": "",
+                    "lang_text": null
+                },
+                {
+                    "alias": "I0020",
+                    "code": 9,
+                    "category": 0,
+                    "type": 2,
+                    "warn_des": "距离禁飞区小于120m，请注意安全",
+                    "handle_des": "",
+                    "lang_text": null
+                }
+            ]
+        }
+    ],
+    "version_code": 136,
+    "lang": "zh"
+}

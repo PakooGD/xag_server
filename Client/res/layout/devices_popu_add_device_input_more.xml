@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="@dimen/devices_margin_12"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="start" android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/devices_shape_gray" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/cube_color_content_primary" android:id="@id/tv_add_device_input" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/devices_margin_14" android:layout_marginBottom="@dimen/devices_margin_14" android:text="@string/devices_dev_add_by_serial" android:layout_marginStart="@dimen/devices_margin_20" android:layout_marginEnd="@dimen/devices_margin_20" style="@style/Cube.Font.Regular.Body" />
+    </LinearLayout>
+</FrameLayout>

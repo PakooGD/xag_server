@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="layout" name="tinetEmoManagerLayout">@layout/ti_emo_empty</item>
+    <item type="layout" name="tinetSureDialogLayout">@layout/dlg_sure</item>
+    <item type="layout" name="tinet_message_send_failure_layout">@layout/frg_session_message_send_failure</item>
+    <item type="layout" name="tinet_message_sending_layout">@layout/frg_session_message_sending</item>
+    <item type="layout" name="tinet_session_refresh">@layout/frg_session_refresh_content</item>
+    <item type="layout" name="tinet_voice_popup_layout">@layout/frg_session_audio_popup</item>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/ivImg" android:background="@drawable/ti_rich_video_bg" android:layout_width="@dimen/ti_rich_video_width" android:layout_height="@dimen/ti_rich_video_height" android:scaleType="centerCrop"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ivCover" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/ivPlay" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginBottom="10.0dip" android:src="@drawable/ti_ic_video_play" android:layout_above="@id/pbProgress" android:layout_alignLeft="@id/pbProgress" />
+    <ImageView android:id="@id/ivFullScreen" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginBottom="10.0dip" android:src="@drawable/ti_ic_video_fullscreen" android:layout_above="@id/pbProgress" android:layout_alignRight="@id/pbProgress" />
+    <SurfaceView android:id="@id/svVideoPlay" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <ProgressBar android:id="@id/pbProgress" android:layout_width="fill_parent" android:layout_height="6.0dip" android:layout_marginBottom="14.0dip" android:indeterminateOnly="false" android:indeterminateDrawable="@drawable/ti_video_player_progress" android:layout_alignParentBottom="true" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+</RelativeLayout>

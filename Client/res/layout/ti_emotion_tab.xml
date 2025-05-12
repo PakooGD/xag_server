@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="44.0dip" android:layout_height="35.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ti_ivIcon" android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@drawable/ti_ic_tab_emoji" android:layout_centerInParent="true" />
+    <View android:background="@color/ti_line" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_alignParentRight="true" />
+</RelativeLayout>

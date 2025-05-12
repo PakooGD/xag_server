@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_idcard_cn_root_view" android:background="@android:color/white" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.xag.faceverify.megvii.view.IdcardTexture android:id="@id/idcardscan_cn_layout_surface" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.xag.faceverify.megvii.view.IDCardGuide android:id="@id/idcardscan_cn_layout_guide" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/iv_people_light_icon" android:background="@mipmap/bg_people_light_icon" android:visibility="gone" android:layout_width="347.0dip" android:layout_height="220.0dip" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/iv_china_light_icon" android:background="@mipmap/bg_china_light_icon" android:visibility="gone" android:layout_width="347.0dip" android:layout_height="220.0dip" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/ib_animal_breath_view" android:background="@mipmap/bg_sfz_light" android:visibility="gone" android:layout_width="347.0dip" android:layout_height="220.0dip" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/ib_animal_one_view" android:background="@mipmap/bg_sfz_light" android:visibility="gone" android:layout_width="347.0dip" android:layout_height="220.0dip" android:layout_centerInParent="true" />
+    <TextView android:textSize="20.0sp" android:textColor="#ffffffff" android:id="@id/tv_tip_text" android:visibility="gone" android:layout_width="286.0dip" android:layout_height="30.0dip" android:layout_centerInParent="true" />
+    <include layout="@layout/id_auth_view_toast" />
+    <com.xag.faceverify.megvii.view.IDCardGuideH android:id="@id/idcardscan_cn_layout_guide_h" android:focusable="false" android:visibility="visible" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/iv_idcard_cn_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageView android:id="@id/iv_icon_tick_all" android:background="@mipmap/icon_tick" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <RelativeLayout android:id="@id/rl_megvii_idcard_cn_tips" android:background="@android:color/white" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="150.0dip" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:layout_alignParentStart="true">
+        <TextView android:textSize="@dimen/idcard_cn_tips_text_size" android:textColor="@color/idcard_cn_tips_text_color" android:id="@id/tv_megvii_idcard_cn_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/idcard_cn_dimen_30" android:text="@string/id_auth_tips_face" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/idcard_cn_tips_text_size" android:textColor="@color/idcard_cn_tips_text_color" android:id="@id/tv_megvii_idcard_cn_h_tips" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/idcard_cn_horizontal_tips_margin_bottom" android:text="@string/id_auth_tips_emblem" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <include android:id="@id/in_idcard_cn_title_bar" layout="@layout/id_auth_view_title_bar" />
+    <RelativeLayout android:id="@id/rl_megvii_idcard_cn_title_bar_h" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/idcard_cn_dimen_10">
+        <RelativeLayout android:orientation="horizontal" android:id="@id/rl_megvii_idcard_cn_goback_h" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <TextView android:id="@id/tv_megvii_idcard_cn_bg_icon_h" android:background="@mipmap/iv_megvii_idcard_cn_back_h" android:layout_width="@dimen/idcard_cn_gb_icon_width" android:layout_height="@dimen/idcard_cn_gb_icon_height" android:layout_marginLeft="@dimen/idcard_cn_gb_icon_marg_left" android:layout_centerVertical="true" />
+            <TextView android:textSize="@dimen/idcard_cn_gb_text_size" android:textColor="@color/idcard_cn_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/id_auth_back" android:layout_toRightOf="@id/tv_megvii_idcard_cn_bg_icon_h" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/idcard_cn_gb_text_size" android:textColor="@color/idcard_cn_white" android:id="@id/tv_megvii_idcard_cn_tips_h" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <ImageView android:id="@id/iv_idcard_cn_bottom_logo_h" android:visibility="gone" android:layout_width="105.0dip" android:layout_height="12.0dip" android:layout_marginRight="@dimen/idcard_cn_dimen_20" android:layout_marginBottom="@dimen/idcard_cn_dimen_10" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

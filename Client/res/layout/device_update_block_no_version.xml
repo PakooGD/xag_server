@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/device_update_shape_panel_item" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.xa.core.cube.TextView android:gravity="top" android:id="@id/item_title" android:paddingLeft="@dimen/cube_dp_12" android:paddingTop="@dimen/cube_dp_16" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Cube.Font.Regular.Body" />
+    <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_secondary" android:id="@id/item_content" android:paddingLeft="@dimen/cube_dp_12" android:paddingRight="@dimen/cube_dp_12" android:paddingBottom="@dimen/cube_dp_12" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" app:layout_constraintTop_toBottomOf="@id/item_title" style="@style/Cube.Font.Regular.Callout" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ConstraintSet android:id="@id/start" />
+    <ConstraintSet android:id="@id/end">
+        <Constraint android:id="@id/layout_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    </ConstraintSet>
+    <Transition app:autoTransition="animateToEnd" app:constraintSetEnd="@id/end" app:constraintSetStart="@id/start" app:duration="200" app:motionInterpolator="@string/material_motion_easing_accelerated" />
+</MotionScene>

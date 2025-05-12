@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout style="@style/SurveyOrientationItem"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/page_top_bar_line" android:background="@drawable/ui_shape_content_quaternary_r2222" android:layout_width="@dimen/cube_dp_32" android:layout_height="@dimen/cube_dp_4" android:layout_marginTop="@dimen/cube_dp_6" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/page_top_bar_close" android:layout_marginEnd="@dimen/cube_dp_8" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/SurveyOrientationClose" />
+    <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:ellipsize="end" android:gravity="center" android:id="@id/page_top_bar_title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxWidth="210.0dip" android:singleLine="true" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" style="@style/Cube.Font.Medium.Title1" />
+</androidx.constraintlayout.widget.ConstraintLayout>

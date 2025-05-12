@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="devices_day">
+        <item quantity="other">%d天</item>
+        <item quantity="one">%d天</item>
+    </plurals>
+    <plurals name="devices_dev_units_day">
+        <item quantity="other">%ddays</item>
+        <item quantity="one">%dday</item>
+    </plurals>
+    <plurals name="devices_dev_units_hour">
+        <item quantity="other">%dhours</item>
+        <item quantity="one">%dhour</item>
+    </plurals>
+    <plurals name="devices_frequency">
+        <item quantity="other">%d次</item>
+        <item quantity="one">%d次</item>
+    </plurals>
+    <plurals name="devices_hour">
+        <item quantity="other">%dh</item>
+        <item quantity="one">%dh</item>
+    </plurals>
+    <plurals name="devices_hour2">
+        <item quantity="other">%d小时</item>
+        <item quantity="one">%d小时</item>
+    </plurals>
+    <plurals name="devices_money">
+        <item quantity="other">%d元</item>
+        <item quantity="one">%d元</item>
+    </plurals>
+    <plurals name="devices_percentage">
+        <item quantity="other">%d%%</item>
+        <item quantity="one">%d%%</item>
+    </plurals>
+    <plurals name="devices_temperature">
+        <item quantity="other">%s℃</item>
+        <item quantity="one">%s℃</item>
+    </plurals>
+    <plurals name="devices_voltage_current">
+        <item quantity="other">%1$sV/%2$sA</item>
+        <item quantity="one">%1$sV/%2$sA</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d new notifications</item>
+        <item quantity="one">%d new notification</item>
+    </plurals>
+</resources>

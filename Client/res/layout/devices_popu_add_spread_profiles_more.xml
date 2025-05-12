@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="@dimen/devices_margin_12"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="6.0dip" app:cardBackgroundColor="@color/cube_color_container_bg_tint" app:cardCornerRadius="@dimen/devices_radius_8" app:cardElevation="6.0dip" app:cardMaxElevation="6.0dip">
+        <LinearLayout android:gravity="left" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:id="@id/tv_add_spread_profiles" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/devices_margin_14" android:layout_marginBottom="@dimen/devices_margin_14" android:text="@string/devices_add_particles" android:layout_marginStart="@dimen/devices_margin_20" android:layout_marginEnd="@dimen/devices_margin_20" style="@style/Cube.Font.Regular.Body" />
+            <View android:background="@color/devices_divider" android:layout_width="fill_parent" android:layout_height="@dimen/devices_divider" />
+            <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:id="@id/tv_import_spread_profiles" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="@dimen/devices_margin_14" android:layout_marginBottom="@dimen/devices_margin_14" android:text="@string/devices_import_preset_particles" android:layout_marginStart="@dimen/devices_margin_20" android:layout_marginEnd="@dimen/devices_margin_20" style="@style/Cube.Font.Regular.Body" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

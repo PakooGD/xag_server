@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true">
+        <layer-list android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <item android:id="@android:id/background" android:layout_width="wrap_content" android:height="64.0dip">
+                <shape>
+                    <corners android:radius="32.0dip" />
+                    <solid android:color="@color/cube_color_container_fill_base" />
+                </shape>
+            </item>
+            <item android:gravity="center_vertical" android:id="@android:id/progress" android:height="54.0dip" android:start="6.0dip" android:end="6.0dip">
+                <clip>
+                    <shape>
+                        <padding android:left="12.0dip" android:top="6.0dip" android:right="12.0dip" android:bottom="6.0dip" />
+                        <corners android:radius="32.0dip" />
+                        <solid android:color="#ff00c378" />
+                    </shape>
+                </clip>
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_enabled="false">
+        <layer-list android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <item android:id="@android:id/background" android:layout_width="wrap_content" android:height="64.0dip">
+                <shape>
+                    <corners android:radius="32.0dip" />
+                    <solid android:color="@color/cube_color_container_fill_base" />
+                </shape>
+            </item>
+            <item android:gravity="center_vertical" android:id="@android:id/progress" android:height="54.0dip" android:start="6.0dip" android:end="6.0dip">
+                <clip>
+                    <shape>
+                        <padding android:left="5.0dip" android:top="6.0dip" android:right="5.0dip" android:bottom="6.0dip" />
+                        <corners android:radius="32.0dip" />
+                        <solid android:color="@color/cube_color_container_fill_base" />
+                    </shape>
+                </clip>
+            </item>
+        </layer-list>
+    </item>
+</selector>

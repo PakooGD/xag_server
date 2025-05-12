@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.smile525.albumcamerarecorder.widget.childclickable.ChildClickableRelativeLayout android:orientation="vertical" android:id="@id/rlMain" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.otaliastudios.cameraview.CameraView android:layout_gravity="center" android:id="@id/cameraView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" android:keepScreenOn="true" app:cameraAudio="on" app:cameraAutoFocusMarker="@string/cameraview_default_autofocus_marker" app:cameraEngine="camera1" app:cameraExperimental="true" app:cameraFacing="back" app:cameraFlash="auto" app:cameraGestureLongTap="none" app:cameraGesturePinch="zoom" app:cameraGestureScrollHorizontal="filterControl1" app:cameraGestureScrollVertical="exposureCorrection" app:cameraGestureTap="autoFocus" app:cameraGrid="off" app:cameraMode="video" app:cameraPlaySounds="true" app:cameraPreview="glSurface" app:cameraPreviewFrameRate="22" />
+    <com.smile525.albumcamerarecorder.widget.ImageViewTouch android:layout_gravity="center" android:id="@id/imgPhoto" android:background="#ff000000" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:adjustViewBounds="true" android:contentDescription="如果是单张照片便显示当前拍照的" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:orientation="horizontal" android:id="@id/clMenu" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize" android:layout_alignParentEnd="true">
+        <ImageView android:id="@id/imgFlash" android:padding="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" app:srcCompat="@drawable/ic_flash_on" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rlPhoto" android:background="#20000000" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_above="@id/vLine1" android:contentDescription="显示多个图片的" />
+    <View android:id="@id/vLine1" android:background="#20000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_above="@id/vLine2" />
+    <View android:id="@id/vLine2" android:background="#40000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_above="@id/pvLayout" />
+    <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <com.smile525.albumcamerarecorder.camera.widget.PhotoVideoLayout android:id="@id/pvLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" android:contentDescription="底部功能按钮" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <TextView android:textColor="@color/white" android:id="@id/ctvClose" android:padding="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="取消" />
+            <ImageView android:id="@id/imgSwitch" android:padding="15.0dip" android:layout_width="55.0dip" android:layout_height="55.0dip" android:layout_marginLeft="160.0dip" app:srcCompat="@mipmap/t_icon_change" />
+        </LinearLayout>
+    </RelativeLayout>
+</com.smile525.albumcamerarecorder.widget.childclickable.ChildClickableRelativeLayout>

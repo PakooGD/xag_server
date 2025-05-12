@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/layout_actionBar" layout="@layout/include_layout_actionbar" />
+    <RelativeLayout android:id="@id/rl_main_bottom" android:background="@color/album_navigation_bar_background" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignParentBottom="true">
+        <View android:background="@color/text_view_line" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/text_color_black" android:gravity="center" android:id="@id/tv_main_imageFolders" android:background="@drawable/select_button_background" android:paddingLeft="12.0dip" android:paddingTop="2.0dip" android:paddingRight="12.0dip" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="13.0dip" android:text="@string/all_media" android:drawableRight="@mipmap/icon_album_index" android:drawablePadding="5.0dip" android:layout_alignParentLeft="true" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/rl_main_bottom" android:layout_below="@id/layout_actionBar">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_main_images" android:background="@color/album_navigation_bar_background" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <TextView android:textColor="@color/album_navigation_bar_background" android:gravity="center_vertical" android:id="@id/tv_image_time" android:background="@color/text_bg_gray" android:paddingLeft="16.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="24.0dip" />
+    </RelativeLayout>
+</RelativeLayout>

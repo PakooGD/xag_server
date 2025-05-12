@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@drawable/spinner_item_select_bg_white" android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/imgFirst" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_centerVertical="true" />
+    <TextView android:id="@id/tvSign" android:background="@drawable/ic_orange_oval" android:visibility="invisible" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_margin="4.0dip" android:layout_alignEnd="@id/imgFirst" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/text_color_4d" android:id="@id/tvName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/z_multi_library_album_num" android:layout_marginStart="10.0dip" android:layout_toEndOf="@id/imgFirst" />
+</RelativeLayout>

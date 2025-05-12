@@ -1,0 +1,61 @@
+.class public interface abstract Lcom/xag/tsl/uav/p/UavPAction$Action$AutoMission$Input$GroupConfig$SpreadOption$OptionOrBuilder;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/google/protobuf/MessageOrBuilder;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/xag/tsl/uav/p/UavPAction$Action$AutoMission$Input$GroupConfig$SpreadOption;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "OptionOrBuilder"
+.end annotation
+
+
+# virtual methods
+.method public abstract getDosage()Lcom/google/protobuf/DoubleValue;
+.end method
+
+.method public abstract getDosageOrBuilder()Lcom/google/protobuf/DoubleValueOrBuilder;
+.end method
+
+.method public abstract getDroplet()Lcom/google/protobuf/Int32Value;
+.end method
+
+.method public abstract getDropletOrBuilder()Lcom/google/protobuf/Int32ValueOrBuilder;
+.end method
+
+.method public abstract getMissionId()Ljava/lang/String;
+.end method
+
+.method public abstract getMissionIdBytes()Lcom/google/protobuf/ByteString;
+.end method
+
+.method public abstract getParticle()Lcom/google/protobuf/Int32Value;
+.end method
+
+.method public abstract getParticleOrBuilder()Lcom/google/protobuf/Int32ValueOrBuilder;
+.end method
+
+.method public abstract getWidth()Lcom/google/protobuf/DoubleValue;
+.end method
+
+.method public abstract getWidthOrBuilder()Lcom/google/protobuf/DoubleValueOrBuilder;
+.end method
+
+.method public abstract hasDosage()Z
+.end method
+
+.method public abstract hasDroplet()Z
+.end method
+
+.method public abstract hasParticle()Z
+.end method
+
+.method public abstract hasWidth()Z
+.end method

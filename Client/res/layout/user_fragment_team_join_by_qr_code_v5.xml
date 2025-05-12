@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.xag.support.qrcode.ui.QRCodeView android:id="@id/qr_code_zing_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/lyTop" android:layout_width="fill_parent" android:layout_height="@dimen/cube_dp_44">
+        <ImageView android:id="@id/btnBack" android:paddingLeft="@dimen/cube_dp_16" android:paddingRight="@dimen/cube_dp_16" android:layout_width="wrap_content" android:layout_height="@dimen/cube_dp_0" android:src="@drawable/cube_ic_gen_chevron_left" android:paddingHorizontal="@dimen/cube_dp_16" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <com.xa.core.cube.TextView android:textColor="@color/cube_color_container_bg_tint" android:id="@id/user_textview19" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/user_scan_join_team" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Cube.Font.Medium.Title1" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

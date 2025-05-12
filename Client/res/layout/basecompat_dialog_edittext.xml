@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@drawable/basecompat_shape_divider_horizontal" android:showDividers="middle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="@color/basecompat_background" android:layout_width="fill_parent" android:layout_height="@dimen/basecompat_actionbar_height">
+        <ImageButton android:id="@id/btn_back" android:background="@drawable/basecompat_dialog_selector_button_transparent" android:layout_width="@dimen/basecompat_actionbar_height" android:layout_height="fill_parent" android:src="@drawable/basecompat_dialog_ic_back" android:contentDescription="TODO" />
+        <TextView android:textSize="@dimen/basecompat_text_size_h3" android:textColor="@color/basecompat_text" android:layout_gravity="center" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/basecompat_text_size_h4" android:textColor="@color/colorPrimary" android:gravity="center" android:layout_gravity="center|right" android:id="@id/btn_apply" android:paddingLeft="@dimen/basecompat_margin" android:paddingRight="@dimen/basecompat_margin" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="60.0dip" android:text="OK" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:background="@color/basecompat_background_dark" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/basecompat_text_size_h4" android:textColor="@color/basecompat_text_light" android:id="@id/tv_message" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/basecompat_margin" android:layout_marginTop="@dimen/basecompat_margin_2" android:layout_marginRight="@dimen/basecompat_margin" android:layout_marginBottom="@dimen/basecompat_margin" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <EditText android:textSize="@dimen/basecompat_text_size_h3" android:layout_gravity="center" android:id="@id/et_text" android:background="@drawable/basecompat_shape_bg_edittext" android:paddingLeft="@dimen/basecompat_margin" android:paddingRight="@dimen/basecompat_margin" android:layout_width="fill_parent" android:layout_height="@dimen/basecompat_button_height" android:inputType="text" />
+            <ImageButton android:layout_gravity="end|center" android:id="@id/base_btn_password_visible" android:background="@color/basecompat_transparent" android:padding="@dimen/basecompat_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/basecompat_ic_eye_closed" android:layout_marginEnd="@dimen/basecompat_margin_narrow" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

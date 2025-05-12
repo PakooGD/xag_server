@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="@dimen/cube_dp_68"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:ellipsize="end" android:id="@id/record_item_date" android:layout_width="250.0dip" android:layout_height="wrap_content" android:maxLines="2" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Cube.Font.Regular.Body" />
+        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_secondary" android:ellipsize="end" android:gravity="center" android:id="@id/record_item_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cube_dp_4" android:singleLine="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" style="@style/Cube.Font.Regular.Callout" />
+    </LinearLayout>
+    <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/cube_ic_gen_chevron_right" app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

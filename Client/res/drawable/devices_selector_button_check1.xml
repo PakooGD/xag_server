@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true" android:state_checked="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/cube_color_chromatic_red_primary" />
+            <stroke android:width="@dimen/devices_divider" android:color="@color/devices_divider" />
+            <corners android:radius="@dimen/cube_dp_6" />
+        </shape>
+    </item>
+    <item android:state_enabled="false" android:state_checked="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/cube_color_container_fill_base" />
+            <stroke android:width="@dimen/devices_divider" android:color="@color/devices_divider" />
+            <corners android:radius="@dimen/cube_dp_6" />
+        </shape>
+    </item>
+    <item android:state_checked="false">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/cube_color_container_bg_tint" />
+            <stroke android:width="@dimen/devices_divider" android:color="@color/devices_divider" />
+            <corners android:radius="@dimen/cube_dp_6" />
+        </shape>
+    </item>
+</selector>

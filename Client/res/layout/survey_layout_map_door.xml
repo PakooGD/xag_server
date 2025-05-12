@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/operation_base_shape_r4444_in_tertiary" android:layout_width="@dimen/cube_dp_32" android:layout_height="@dimen/cube_dp_32"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/temp3" android:layout_width="@dimen/cube_dp_20" android:layout_height="@dimen/cube_dp_20" android:src="@drawable/survey_new_home_map_door" android:scaleType="centerInside" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:layout_width="4.0dip" android:layout_height="@dimen/cube_dp_20" android:src="@drawable/survey_new_editor_arrow_right_white" android:scaleType="centerInside" android:layout_marginEnd="@dimen/cube_dp_3" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

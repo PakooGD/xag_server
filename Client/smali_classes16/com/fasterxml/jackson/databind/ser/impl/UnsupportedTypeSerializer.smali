@@ -1,0 +1,76 @@
+.class public Lcom/fasterxml/jackson/databind/ser/impl/UnsupportedTypeSerializer;
+.super Lcom/fasterxml/jackson/databind/ser/std/StdSerializer;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/fasterxml/jackson/databind/ser/std/StdSerializer<",
+        "Ljava/lang/Object;",
+        ">;"
+    }
+.end annotation
+
+
+# static fields
+.field private static final serialVersionUID:J = 0x1L
+
+
+# instance fields
+.field protected final _message:Ljava/lang/String;
+
+.field protected final _type:Lcom/fasterxml/jackson/databind/JavaType;
+
+
+# direct methods
+.method public constructor <init>(Lcom/fasterxml/jackson/databind/JavaType;Ljava/lang/String;)V
+    .locals 1
+
+    .line 1
+    const-class v0, Ljava/lang/Object;
+
+    .line 2
+    .line 3
+    invoke-direct {p0, v0}, Lcom/fasterxml/jackson/databind/ser/std/StdSerializer;-><init>(Ljava/lang/Class;)V
+
+    .line 4
+    .line 5
+    .line 6
+    iput-object p1, p0, Lcom/fasterxml/jackson/databind/ser/impl/UnsupportedTypeSerializer;->_type:Lcom/fasterxml/jackson/databind/JavaType;
+
+    .line 7
+    .line 8
+    iput-object p2, p0, Lcom/fasterxml/jackson/databind/ser/impl/UnsupportedTypeSerializer;->_message:Ljava/lang/String;
+
+    .line 9
+    .line 10
+    return-void
+.end method
+
+
+# virtual methods
+.method public serialize(Ljava/lang/Object;Lcom/fasterxml/jackson/core/JsonGenerator;Lcom/fasterxml/jackson/databind/m;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    .line 1
+    iget-object p1, p0, Lcom/fasterxml/jackson/databind/ser/impl/UnsupportedTypeSerializer;->_type:Lcom/fasterxml/jackson/databind/JavaType;
+
+    .line 2
+    .line 3
+    iget-object p2, p0, Lcom/fasterxml/jackson/databind/ser/impl/UnsupportedTypeSerializer;->_message:Ljava/lang/String;
+
+    .line 4
+    .line 5
+    invoke-virtual {p3, p1, p2}, Lcom/fasterxml/jackson/databind/m;->reportBadDefinition(Lcom/fasterxml/jackson/databind/JavaType;Ljava/lang/String;)Ljava/lang/Object;
+
+    .line 6
+    .line 7
+    .line 8
+    return-void
+.end method

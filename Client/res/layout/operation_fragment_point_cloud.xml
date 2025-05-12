@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/operation_white" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/ll_head" android:background="@color/operation_white" android:layout_width="0.0dip" android:layout_height="@dimen/operation_actionbar" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageButton android:id="@id/btn_webview_back" android:background="@drawable/operation_selector_button_transparent" android:padding="@dimen/operation_padding" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/operation_ic_back" />
+        <TextView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/operation_uav2_dsm_view" style="@style/Operation.Text.title" />
+    </FrameLayout>
+    <ProgressBar android:id="@id/pb_webview_progress" android:layout_width="fill_parent" android:layout_height="1.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/ll_head" style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+    <com.xag.support.webview.XWebView android:id="@id/webView" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/pb_webview_progress" />
+</androidx.constraintlayout.widget.ConstraintLayout>

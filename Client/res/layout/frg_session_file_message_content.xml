@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/layout" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/tinetFileContainerStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/cube_dp_16" android:paddingTop="@dimen/cube_dp_12" android:paddingRight="@dimen/cube_dp_16" android:paddingBottom="@dimen/cube_dp_12" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingHorizontal="@dimen/cube_dp_16" android:paddingVertical="@dimen/cube_dp_12">
+        <ImageView android:id="@id/ivBivPic" android:layout_width="@dimen/cube_dp_48" android:layout_height="@dimen/cube_dp_48" android:src="@drawable/ti_ic_file_default" android:scaleType="centerCrop" android:layout_alignParentRight="true" app:tint="@color/cube_color_state_green_primary" />
+        <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvFileName" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/tinetFileNameStyle" />
+    </LinearLayout>
+    <View android:layout_width="fill_parent" android:layout_height="1.0dip" style="@style/tinetFileDividerStyle" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvDown" android:layout_width="0.0dip" android:layout_height="0.0dip" style="@style/tinetFileDownloadStyle" />
+</LinearLayout>

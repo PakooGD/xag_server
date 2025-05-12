@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@color/devices_black_00" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:background="@drawable/devices_bg_layout_top" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/include_title" layout="@layout/devices_sheet_base_title" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/devices_margin_12" android:layout_marginBottom="@dimen/devices_margin_12">
+            <LinearLayout android:orientation="vertical" android:id="@id/ll_data_1" android:background="@drawable/devices_shape_white_round_outline" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/devices_margin_4" android:layout_marginStart="@dimen/devices_margin_16" android:layout_marginEnd="@dimen/devices_margin_16">
+                <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:layout_gravity="start" android:id="@id/tv_title_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/devices_margin_12" android:text="@string/devices_mobile_link_communication" android:layout_marginStart="@dimen/devices_margin_16" android:layout_marginEnd="@dimen/devices_margin_16" style="@style/Devices.Text" />
+                <FrameLayout android:id="@id/vg_iot_rssi" android:layout_width="fill_parent" android:layout_height="90.0dip" android:layout_margin="@dimen/devices_margin_4" />
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/devices_margin_12" android:layout_marginStart="@dimen/devices_margin_16" android:layout_marginEnd="@dimen/devices_margin_16">
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <com.xa.core.cube.TextView android:textSize="@dimen/devices_text_size_12" android:textColor="@color/cube_color_content_secondary" android:id="@id/tv_iot_off_on_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/devices_margin_4" style="@style/Devices.Text" />
+                        <com.xa.core.cube.TextView android:textSize="@dimen/devices_text_size_12" android:textColor="@color/cube_color_content_secondary" android:id="@id/tv_iot_off_on_tittle" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Devices.Text" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <com.xa.core.cube.TextView android:textSize="@dimen/devices_text_size_12" android:textColor="@color/cube_color_content_secondary" android:id="@id/tv_iot_delay" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Devices.Text" />
+                        <com.xa.core.cube.TextView android:textSize="@dimen/devices_text_size_12" android:textColor="@color/cube_color_content_secondary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/devices_link_delay" style="@style/Devices.Text" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <com.xa.core.cube.TextView android:textSize="@dimen/devices_text_size_12" android:textColor="@color/cube_color_content_secondary" android:id="@id/tv_iot_pack_loss" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Devices.Text" />
+                        <com.xa.core.cube.TextView android:textSize="@dimen/devices_text_size_12" android:textColor="@color/cube_color_content_secondary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/devices_link_loss" style="@style/Devices.Text" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/ll_data_2" android:background="@drawable/devices_shape_white_round_outline" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/devices_margin_12" android:layout_marginStart="@dimen/devices_margin_12" android:layout_marginEnd="@dimen/devices_margin_12">
+                <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:layout_gravity="start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/devices_margin_12" android:text="@string/devices_wifi_link_communication" android:layout_marginStart="@dimen/devices_margin_16" android:layout_marginEnd="@dimen/devices_margin_16" style="@style/Devices.Text" />
+                <FrameLayout android:id="@id/vg_wifi_rssi" android:layout_width="fill_parent" android:layout_height="90.0dip" android:layout_margin="@dimen/devices_margin_4" />
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/devices_margin_12" android:layout_marginStart="@dimen/devices_margin_16" android:layout_marginEnd="@dimen/devices_margin_16">
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <com.xa.core.cube.TextView android:textSize="@dimen/devices_text_size_12" android:textColor="@color/cube_color_content_secondary" android:id="@id/tv_wifi_off_on_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/devices_margin_4" style="@style/Devices.Text" />
+                        <com.xa.core.cube.TextView android:textSize="@dimen/devices_text_size_12" android:textColor="@color/cube_color_content_secondary" android:id="@id/tv_wifi_off_on_tittle" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Devices.Text" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <com.xa.core.cube.TextView android:textSize="@dimen/devices_text_size_12" android:textColor="@color/cube_color_content_secondary" android:id="@id/tv_wifi_delay" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Devices.Text" />
+                        <com.xa.core.cube.TextView android:textSize="@dimen/devices_text_size_12" android:textColor="@color/cube_color_content_secondary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/devices_link_delay" style="@style/Devices.Text" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <com.xa.core.cube.TextView android:textSize="@dimen/devices_text_size_12" android:textColor="@color/cube_color_content_secondary" android:id="@id/tv_wifi_pack_loss" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Devices.Text" />
+                        <com.xa.core.cube.TextView android:textSize="@dimen/devices_text_size_12" android:textColor="@color/cube_color_content_secondary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/devices_link_loss" style="@style/Devices.Text" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

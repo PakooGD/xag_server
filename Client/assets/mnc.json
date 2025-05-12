@@ -1,0 +1,6459 @@
+{
+  "470": {
+    "1": {
+      "default": "Grameenphone",
+      "en": "Grameenphone"
+    },
+    "2": {
+      "default": "Robi",
+      "en": "Robi"
+    },
+    "3": {
+      "default": "Banglalink",
+      "en": "Banglalink"
+    },
+    "4": {
+      "default": "TeleTalk",
+      "en": "TeleTalk"
+    },
+    "5": {
+      "default": "Citycell",
+      "en": "Citycell"
+    },
+    "6": {
+      "default": "Airtel formerly Warid Telcom",
+      "en": "Airtel formerly Warid Telcom"
+    }
+  },
+  "350": {
+    "1": {
+      "default": "Digicel Bermuda",
+      "en": "Digicel Bermuda"
+    },
+    "2": {
+      "default": "Mobility",
+      "en": "Mobility"
+    }
+  },
+  "230": {
+    "99": {
+      "default": "Vodafone",
+      "en": "Vodafone"
+    },
+    "1": {
+      "default": "T-Mobile",
+      "en": "T-Mobile"
+    },
+    "3": {
+      "default": "Vodafone",
+      "en": "Vodafone"
+    },
+    "4": {
+      "default": "U:fon",
+      "en": "U:fon"
+    },
+    "5": {
+      "default": "",
+      "en": ""
+    },
+    "6": {
+      "default": "",
+      "en": ""
+    },
+    "98": {
+      "default": "",
+      "en": ""
+    }
+  },
+  "472": {
+    "1": {
+      "default": "Dhiraagu",
+      "en": "Dhiraagu"
+    },
+    "2": {
+      "default": "Wataniya",
+      "en": "Wataniya"
+    }
+  },
+  "231": {
+    "99": {
+      "default": "ŽSR",
+      "en": "ŽSR"
+    },
+    "1": {
+      "default": "Orange",
+      "en": "Orange"
+    },
+    "2": {
+      "default": "T-Mobile",
+      "en": "T-Mobile"
+    },
+    "3": {
+      "default": "",
+      "en": ""
+    },
+    "4": {
+      "default": "T-Mobile",
+      "en": "T-Mobile"
+    }
+  },
+  "352": {
+    "110": {
+      "default": "Cable & Wireless",
+      "en": "Cable & Wireless"
+    },
+    "30": {
+      "default": "Digicel",
+      "en": "Digicel"
+    }
+  },
+  "232": {
+    "11": {
+      "default": "bob",
+      "en": "bob"
+    },
+    "1": {
+      "default": "A1",
+      "en": "A1"
+    },
+    "12": {
+      "default": "yesss",
+      "en": "yesss"
+    },
+    "3": {
+      "default": "T-Mobile",
+      "en": "T-Mobile"
+    },
+    "14": {
+      "default": "3",
+      "en": "3"
+    },
+    "15": {
+      "default": "Barablu",
+      "en": "Barablu"
+    },
+    "5": {
+      "default": "Orange",
+      "en": "Orange"
+    },
+    "7": {
+      "default": "tele.ring",
+      "en": "tele.ring"
+    },
+    "91": {
+      "default": "GSM-R A",
+      "en": "GSM-R A"
+    },
+    "9": {
+      "default": "A1",
+      "en": "A1"
+    },
+    "10": {
+      "default": "3",
+      "en": "3"
+    }
+  },
+  "234": {
+    "22": {
+      "default": "RoutoMessaging",
+      "en": "RoutoMessaging"
+    },
+    "24": {
+      "default": "Greenfone",
+      "en": "Greenfone"
+    },
+    "25": {
+      "default": "Truphone",
+      "en": "Truphone"
+    },
+    "50": {
+      "default": "JT-Wave",
+      "en": "JT-Wave"
+    },
+    "30": {
+      "default": "T-Mobile",
+      "en": "T-Mobile"
+    },
+    "31": {
+      "default": "Virgin",
+      "en": "Virgin"
+    },
+    "10": {
+      "default": "O2",
+      "en": "O2"
+    },
+    "32": {
+      "default": "Virgin",
+      "en": "Virgin"
+    },
+    "76": {
+      "default": "BT",
+      "en": "BT"
+    },
+    "11": {
+      "default": "O2",
+      "en": "O2"
+    },
+    "33": {
+      "default": "Orange",
+      "en": "Orange"
+    },
+    "55": {
+      "default": "Sure Mobile",
+      "en": "Sure Mobile"
+    },
+    "12": {
+      "default": "Railtrack",
+      "en": "Railtrack"
+    },
+    "34": {
+      "default": "Orange",
+      "en": "Orange"
+    },
+    "78": {
+      "default": "Airwave",
+      "en": "Airwave"
+    },
+    "13": {
+      "default": "Railtrack",
+      "en": "Railtrack"
+    },
+    "35": {
+      "default": "",
+      "en": ""
+    },
+    "14": {
+      "default": "Hay Systems Ltd",
+      "en": "Hay Systems Ltd"
+    },
+    "36": {
+      "default": "",
+      "en": ""
+    },
+    "58": {
+      "default": "Pronto GSM",
+      "en": "Pronto GSM"
+    },
+    "15": {
+      "default": "Vodafone",
+      "en": "Vodafone"
+    },
+    "37": {
+      "default": "",
+      "en": ""
+    },
+    "16": {
+      "default": "Talk Talk",
+      "en": "Talk Talk"
+    },
+    "17": {
+      "default": "",
+      "en": ""
+    },
+    "18": {
+      "default": "Cloud9",
+      "en": "Cloud9"
+    },
+    "19": {
+      "default": "Private Mobile Networks PMN",
+      "en": "Private Mobile Networks PMN"
+    },
+    "0": {
+      "default": "BT",
+      "en": "BT"
+    },
+    "1": {
+      "default": "Vectone Mobile",
+      "en": "Vectone Mobile"
+    },
+    "2": {
+      "default": "O2",
+      "en": "O2"
+    },
+    "3": {
+      "default": "Airtel Vodafone",
+      "en": "Airtel Vodafone"
+    },
+    "4": {
+      "default": "FMS Solutions Ltd",
+      "en": "FMS Solutions Ltd"
+    },
+    "5": {
+      "default": "",
+      "en": ""
+    },
+    "6": {
+      "default": "",
+      "en": ""
+    },
+    "7": {
+      "default": "",
+      "en": ""
+    },
+    "8": {
+      "default": "",
+      "en": ""
+    },
+    "9": {
+      "default": "Sure Mobile",
+      "en": "Sure Mobile"
+    },
+    "20": {
+      "default": "Three",
+      "en": "Three"
+    }
+  },
+  "235": {
+    "0": {
+      "default": "",
+      "en": ""
+    },
+    "77": {
+      "default": "BT",
+      "en": "BT"
+    },
+    "1": {
+      "default": "",
+      "en": ""
+    },
+    "2": {
+      "default": "",
+      "en": ""
+    },
+    "91": {
+      "default": "",
+      "en": ""
+    },
+    "92": {
+      "default": "",
+      "en": ""
+    },
+    "94": {
+      "default": "",
+      "en": ""
+    },
+    "95": {
+      "default": "",
+      "en": ""
+    }
+  },
+  "356": {
+    "110": {
+      "default": "",
+      "en": ""
+    },
+    "70": {
+      "default": "Chippie",
+      "en": "Chippie"
+    },
+    "50": {
+      "default": "Digicel",
+      "en": "Digicel"
+    }
+  },
+  "358": {
+    "110": {
+      "default": "",
+      "en": ""
+    },
+    "50": {
+      "default": "Digicel",
+      "en": "Digicel"
+    }
+  },
+  "238": {
+    "11": {
+      "default": "",
+      "en": ""
+    },
+    "77": {
+      "default": "Telenor",
+      "en": "Telenor"
+    },
+    "12": {
+      "default": "",
+      "en": ""
+    },
+    "1": {
+      "default": "TDC",
+      "en": "TDC"
+    },
+    "2": {
+      "default": "Telenor",
+      "en": "Telenor"
+    },
+    "3": {
+      "default": "",
+      "en": ""
+    },
+    "5": {
+      "default": "",
+      "en": ""
+    },
+    "6": {
+      "default": "3",
+      "en": "3"
+    },
+    "7": {
+      "default": "",
+      "en": ""
+    },
+    "9": {
+      "default": "",
+      "en": ""
+    },
+    "40": {
+      "default": "",
+      "en": ""
+    },
+    "30": {
+      "default": "Telia",
+      "en": "Telia"
+    },
+    "20": {
+      "default": "Telia",
+      "en": "Telia"
+    },
+    "10": {
+      "default": "TDC",
+      "en": "TDC"
+    }
+  },
+  "360": {
+    "110": {
+      "default": "Cable & Wireless",
+      "en": "Cable & Wireless"
+    },
+    "100": {
+      "default": "Cingular Wireless",
+      "en": "Cingular Wireless"
+    },
+    "70": {
+      "default": "Digicel",
+      "en": "Digicel"
+    }
+  },
+  "240": {
+    "11": {
+      "default": "",
+      "en": ""
+    },
+    "33": {
+      "default": "",
+      "en": ""
+    },
+    "12": {
+      "default": "",
+      "en": ""
+    },
+    "13": {
+      "default": "",
+      "en": ""
+    },
+    "24": {
+      "default": "Sweden 2G",
+      "en": "Sweden 2G"
+    },
+    "14": {
+      "default": "",
+      "en": ""
+    },
+    "25": {
+      "default": "",
+      "en": ""
+    },
+    "15": {
+      "default": "",
+      "en": ""
+    },
+    "26": {
+      "default": "",
+      "en": ""
+    },
+    "16": {
+      "default": "",
+      "en": ""
+    },
+    "17": {
+      "default": "Gotanet",
+      "en": "Gotanet"
+    },
+    "1": {
+      "default": "Telia",
+      "en": "Telia"
+    },
+    "2": {
+      "default": "3",
+      "en": "3"
+    },
+    "3": {
+      "default": "Ice.net",
+      "en": "Ice.net"
+    },
+    "4": {
+      "default": "",
+      "en": ""
+    },
+    "5": {
+      "default": "Sweden 3G",
+      "en": "Sweden 3G"
+    },
+    "6": {
+      "default": "Telenor",
+      "en": "Telenor"
+    },
+    "7": {
+      "default": "Tele2",
+      "en": "Tele2"
+    },
+    "8": {
+      "default": "Telenor",
+      "en": "Telenor"
+    },
+    "9": {
+      "default": "djuice",
+      "en": "djuice"
+    },
+    "20": {
+      "default": "",
+      "en": ""
+    },
+    "10": {
+      "default": "Spring Mobil",
+      "en": "Spring Mobil"
+    },
+    "21": {
+      "default": "MobiSir",
+      "en": "MobiSir"
+    }
+  },
+  "362": {
+    "69": {
+      "default": "Digicel",
+      "en": "Digicel"
+    },
+    "91": {
+      "default": "UTS",
+      "en": "UTS"
+    },
+    "94": {
+      "default": "Bayòs",
+      "en": "Bayòs"
+    },
+    "51": {
+      "default": "Telcell",
+      "en": "Telcell"
+    },
+    "95": {
+      "default": "MIO",
+      "en": "MIO"
+    }
+  },
+  "242": {
+    "11": {
+      "default": "SystemNet",
+      "en": "SystemNet"
+    },
+    "1": {
+      "default": "Telenor",
+      "en": "Telenor"
+    },
+    "23": {
+      "default": "Lyca",
+      "en": "Lyca"
+    },
+    "2": {
+      "default": "NetCom",
+      "en": "NetCom"
+    },
+    "3": {
+      "default": "Teletopia",
+      "en": "Teletopia"
+    },
+    "4": {
+      "default": "Tele2",
+      "en": "Tele2"
+    },
+    "5": {
+      "default": "Network Norway",
+      "en": "Network Norway"
+    },
+    "6": {
+      "default": "Ice",
+      "en": "Ice"
+    },
+    "7": {
+      "default": "Ventelo",
+      "en": "Ventelo"
+    },
+    "8": {
+      "default": "TDC",
+      "en": "TDC"
+    },
+    "9": {
+      "default": "Com4",
+      "en": "Com4"
+    },
+    "20": {
+      "default": "",
+      "en": ""
+    }
+  },
+  "363": {
+    "1": {
+      "default": "SETAR",
+      "en": "SETAR"
+    },
+    "2": {
+      "default": "Digicel",
+      "en": "Digicel"
+    }
+  },
+  "364": {
+    "390": {
+      "default": "BaTelCo",
+      "en": "BaTelCo"
+    }
+  },
+  "244": {
+    "11": {
+      "default": "VIRVE",
+      "en": "VIRVE"
+    },
+    "12": {
+      "default": "DNA",
+      "en": "DNA"
+    },
+    "3": {
+      "default": "DNA",
+      "en": "DNA"
+    },
+    "14": {
+      "default": "AMT",
+      "en": "AMT"
+    },
+    "15": {
+      "default": "SAMK",
+      "en": "SAMK"
+    },
+    "5": {
+      "default": "Elisa",
+      "en": "Elisa"
+    },
+    "7": {
+      "default": "Nokia",
+      "en": "Nokia"
+    },
+    "29": {
+      "default": "",
+      "en": ""
+    },
+    "8": {
+      "default": "",
+      "en": ""
+    },
+    "91": {
+      "default": "Sonera",
+      "en": "Sonera"
+    },
+    "10": {
+      "default": "",
+      "en": ""
+    },
+    "21": {
+      "default": "Saunalahti",
+      "en": "Saunalahti"
+    }
+  },
+  "365": {
+    "840": {
+      "default": "",
+      "en": ""
+    },
+    "10": {
+      "default": "",
+      "en": ""
+    }
+  },
+  "366": {
+    "110": {
+      "default": "",
+      "en": ""
+    },
+    "20": {
+      "default": "Digicel",
+      "en": "Digicel"
+    }
+  },
+  "246": {
+    "1": {
+      "default": "Omnitel",
+      "en": "Omnitel"
+    },
+    "2": {
+      "default": "BITE",
+      "en": "BITE"
+    },
+    "3": {
+      "default": "Tele 2",
+      "en": "Tele 2"
+    },
+    "5": {
+      "default": "LitRail",
+      "en": "LitRail"
+    },
+    "6": {
+      "default": "Mediafon",
+      "en": "Mediafon"
+    }
+  },
+  "247": {
+    "1": {
+      "default": "LMT",
+      "en": "LMT"
+    },
+    "2": {
+      "default": "Tele2",
+      "en": "Tele2"
+    },
+    "3": {
+      "default": "TRIATEL",
+      "en": "TRIATEL"
+    },
+    "5": {
+      "default": "Bite",
+      "en": "Bite"
+    },
+    "6": {
+      "default": "",
+      "en": ""
+    },
+    "7": {
+      "default": "MTS",
+      "en": "MTS"
+    },
+    "8": {
+      "default": "IZZI",
+      "en": "IZZI"
+    },
+    "9": {
+      "default": "Camel Mobile",
+      "en": "Camel Mobile"
+    }
+  },
+  "368": {
+    "1": {
+      "default": "CUBACEL",
+      "en": "CUBACEL"
+    }
+  },
+  "248": {
+    "1": {
+      "default": "EMT",
+      "en": "EMT"
+    },
+    "2": {
+      "default": "Elisa",
+      "en": "Elisa"
+    },
+    "3": {
+      "default": "Tele 2",
+      "en": "Tele 2"
+    },
+    "4": {
+      "default": "",
+      "en": ""
+    },
+    "5": {
+      "default": "",
+      "en": ""
+    },
+    "6": {
+      "default": "",
+      "en": ""
+    }
+  },
+  "370": {
+    "1": {
+      "default": "Orange",
+      "en": "Orange"
+    },
+    "2": {
+      "default": "Claro",
+      "en": "Claro"
+    },
+    "3": {
+      "default": "Tricom",
+      "en": "Tricom"
+    },
+    "4": {
+      "default": "Viva",
+      "en": "Viva"
+    }
+  },
+  "250": {
+    "44": {
+      "default": "",
+      "en": ""
+    },
+    "23": {
+      "default": "Mobicom - Novosibirsk",
+      "en": "Mobicom - Novosibirsk"
+    },
+    "28": {
+      "default": "Beeline",
+      "en": "Beeline"
+    },
+    "92": {
+      "default": "",
+      "en": ""
+    },
+    "93": {
+      "default": "",
+      "en": ""
+    },
+    "30": {
+      "default": "Megafon",
+      "en": "Megafon"
+    },
+    "10": {
+      "default": "DTC",
+      "en": "DTC"
+    },
+    "11": {
+      "default": "Yota",
+      "en": "Yota"
+    },
+    "99": {
+      "default": "Beeline",
+      "en": "Beeline"
+    },
+    "12": {
+      "default": "Akos",
+      "en": "Akos"
+    },
+    "13": {
+      "default": "KUGSM",
+      "en": "KUGSM"
+    },
+    "35": {
+      "default": "MOTIV",
+      "en": "MOTIV"
+    },
+    "15": {
+      "default": "SMARTS",
+      "en": "SMARTS"
+    },
+    "16": {
+      "default": "NTC",
+      "en": "NTC"
+    },
+    "38": {
+      "default": "Tambov GSM",
+      "en": "Tambov GSM"
+    },
+    "17": {
+      "default": "Utel",
+      "en": "Utel"
+    },
+    "39": {
+      "default": "Utel",
+      "en": "Utel"
+    },
+    "19": {
+      "default": "INDIGO",
+      "en": "INDIGO"
+    },
+    "1": {
+      "default": "MTS",
+      "en": "MTS"
+    },
+    "2": {
+      "default": "MegaFon",
+      "en": "MegaFon"
+    },
+    "3": {
+      "default": "NCC",
+      "en": "NCC"
+    },
+    "4": {
+      "default": "Sibchallenge",
+      "en": "Sibchallenge"
+    },
+    "5": {
+      "default": "ETK",
+      "en": "ETK"
+    },
+    "6": {
+      "default": "Skylink",
+      "en": "Skylink"
+    },
+    "7": {
+      "default": "SMARTS",
+      "en": "SMARTS"
+    },
+    "9": {
+      "default": "Skylink",
+      "en": "Skylink"
+    },
+    "20": {
+      "default": "Tele2",
+      "en": "Tele2"
+    }
+  },
+  "372": {
+    "1": {
+      "default": "Voila",
+      "en": "Voila"
+    },
+    "2": {
+      "default": "Digicel",
+      "en": "Digicel"
+    },
+    "3": {
+      "default": "NATCOM",
+      "en": "NATCOM"
+    }
+  },
+  "374": {
+    "12": {
+      "default": "bmobile",
+      "en": "bmobile"
+    },
+    "130": {
+      "default": "Digicel",
+      "en": "Digicel"
+    }
+  },
+  "255": {
+    "1": {
+      "default": "MTS",
+      "en": "MTS"
+    },
+    "23": {
+      "default": "CDMA Ukraine",
+      "en": "CDMA Ukraine"
+    },
+    "2": {
+      "default": "Beeline",
+      "en": "Beeline"
+    },
+    "3": {
+      "default": "Kyivstar",
+      "en": "Kyivstar"
+    },
+    "4": {
+      "default": "IT",
+      "en": "IT"
+    },
+    "5": {
+      "default": "Golden Telecom",
+      "en": "Golden Telecom"
+    },
+    "6": {
+      "default": "life:)",
+      "en": "life:)"
+    },
+    "7": {
+      "default": "Ukrtelecom",
+      "en": "Ukrtelecom"
+    },
+    "21": {
+      "default": "PEOPLEnet",
+      "en": "PEOPLEnet"
+    }
+  },
+  "376": {
+    "352": {
+      "default": "Islandcom",
+      "en": "Islandcom"
+    },
+    "350": {
+      "default": "C&W",
+      "en": "C&W"
+    }
+  },
+  "257": {
+    "1": {
+      "default": "velcom",
+      "en": "velcom"
+    },
+    "2": {
+      "default": "MTS",
+      "en": "MTS"
+    },
+    "3": {
+      "default": "DIALLOG",
+      "en": "DIALLOG"
+    },
+    "4": {
+      "default": "life:)",
+      "en": "life:)"
+    },
+    "501": {
+      "default": "BelCel JV",
+      "en": "BelCel JV"
+    }
+  },
+  "259": {
+    "99": {
+      "default": "Unité",
+      "en": "Unité"
+    },
+    "1": {
+      "default": "Orange",
+      "en": "Orange"
+    },
+    "2": {
+      "default": "Moldcell",
+      "en": "Moldcell"
+    },
+    "3": {
+      "default": "Unité",
+      "en": "Unité"
+    },
+    "4": {
+      "default": "Eventis",
+      "en": "Eventis"
+    },
+    "5": {
+      "default": "Unité",
+      "en": "Unité"
+    }
+  },
+  "260": {
+    "11": {
+      "default": "Nordisk Polska",
+      "en": "Nordisk Polska"
+    },
+    "12": {
+      "default": "Cyfrowy Polsat",
+      "en": "Cyfrowy Polsat"
+    },
+    "15": {
+      "default": "CenterNet",
+      "en": "CenterNet"
+    },
+    "16": {
+      "default": "Mobyland",
+      "en": "Mobyland"
+    },
+    "17": {
+      "default": "Aero2",
+      "en": "Aero2"
+    },
+    "1": {
+      "default": "Plus",
+      "en": "Plus"
+    },
+    "2": {
+      "default": "T-Mobile",
+      "en": "T-Mobile"
+    },
+    "3": {
+      "default": "Orange",
+      "en": "Orange"
+    },
+    "4": {
+      "default": "",
+      "en": ""
+    },
+    "5": {
+      "default": "",
+      "en": ""
+    },
+    "6": {
+      "default": "Play",
+      "en": "Play"
+    },
+    "7": {
+      "default": "Netia",
+      "en": "Netia"
+    },
+    "8": {
+      "default": "",
+      "en": ""
+    },
+    "9": {
+      "default": "",
+      "en": ""
+    },
+    "10": {
+      "default": "Sferia",
+      "en": "Sferia"
+    }
+  },
+  "262": {
+    "77": {
+      "default": "E-Plus",
+      "en": "E-Plus"
+    },
+    "12": {
+      "default": "",
+      "en": ""
+    },
+    "13": {
+      "default": "",
+      "en": ""
+    },
+    "14": {
+      "default": "",
+      "en": ""
+    },
+    "15": {
+      "default": "Airdata",
+      "en": "Airdata"
+    },
+    "16": {
+      "default": "Vistream",
+      "en": "Vistream"
+    },
+    "1": {
+      "default": "T-Mobile",
+      "en": "T-Mobile"
+    },
+    "2": {
+      "default": "Vodafone",
+      "en": "Vodafone"
+    },
+    "3": {
+      "default": "E-Plus",
+      "en": "E-Plus"
+    },
+    "4": {
+      "default": "Vodafone",
+      "en": "Vodafone"
+    },
+    "5": {
+      "default": "E-Plus",
+      "en": "E-Plus"
+    },
+    "6": {
+      "default": "T-Mobile",
+      "en": "T-Mobile"
+    },
+    "9": {
+      "default": "Vodafone",
+      "en": "Vodafone"
+    },
+    "92": {
+      "default": "Nash Technologies",
+      "en": "Nash Technologies"
+    },
+    "60": {
+      "default": "",
+      "en": ""
+    },
+    "901": {
+      "default": "Debitel",
+      "en": "Debitel"
+    },
+    "42": {
+      "default": "27C3",
+      "en": "27C3"
+    },
+    "10": {
+      "default": "",
+      "en": ""
+    },
+    "43": {
+      "default": "LYCA",
+      "en": "LYCA"
+    },
+    "76": {
+      "default": "",
+      "en": ""
+    }
+  },
+  "266": {
+    "1": {
+      "default": "GibTel",
+      "en": "GibTel"
+    },
+    "6": {
+      "default": "CTS Mobile",
+      "en": "CTS Mobile"
+    }
+  },
+  "268": {
+    "1": {
+      "default": "Vodafone",
+      "en": "Vodafone"
+    },
+    "3": {
+      "default": "Optimus",
+      "en": "Optimus"
+    },
+    "6": {
+      "default": "TMN",
+      "en": "TMN"
+    },
+    "21": {
+      "default": "Zapp",
+      "en": "Zapp"
+    }
+  },
+  "702": {
+    "99": {
+      "default": "Smart",
+      "en": "Smart"
+    },
+    "67": {
+      "default": "DigiCell",
+      "en": "DigiCell"
+    }
+  },
+  "704": {
+    "1": {
+      "default": "Claro",
+      "en": "Claro"
+    },
+    "2": {
+      "default": "Comcel / Tigo",
+      "en": "Comcel / Tigo"
+    },
+    "3": {
+      "default": "movistar",
+      "en": "movistar"
+    }
+  },
+  "706": {
+    "11": {
+      "default": "Claro",
+      "en": "Claro"
+    },
+    "1": {
+      "default": "CTE Telecom Personal",
+      "en": "CTE Telecom Personal"
+    },
+    "2": {
+      "default": "digicel",
+      "en": "digicel"
+    },
+    "3": {
+      "default": "Tigo",
+      "en": "Tigo"
+    },
+    "4": {
+      "default": "movistar",
+      "en": "movistar"
+    }
+  },
+  "708": {
+    "1": {
+      "default": "Claro",
+      "en": "Claro"
+    },
+    "2": {
+      "default": "Tigo",
+      "en": "Tigo"
+    },
+    "40": {
+      "default": "DIGICEL",
+      "en": "DIGICEL"
+    },
+    "30": {
+      "default": "Hondutel",
+      "en": "Hondutel"
+    }
+  },
+  "270": {
+    "77": {
+      "default": "Tango",
+      "en": "Tango"
+    },
+    "99": {
+      "default": "Orange",
+      "en": "Orange"
+    },
+    "1": {
+      "default": "LuxGSM",
+      "en": "LuxGSM"
+    }
+  },
+  "272": {
+    "11": {
+      "default": "",
+      "en": ""
+    },
+    "1": {
+      "default": "Vodafone",
+      "en": "Vodafone"
+    },
+    "3": {
+      "default": "Meteor",
+      "en": "Meteor"
+    },
+    "4": {
+      "default": "",
+      "en": ""
+    },
+    "5": {
+      "default": "3",
+      "en": "3"
+    },
+    "7": {
+      "default": "Eircom",
+      "en": "Eircom"
+    },
+    "9": {
+      "default": "",
+      "en": ""
+    }
+  },
+  "274": {
+    "11": {
+      "default": "Nova",
+      "en": "Nova"
+    },
+    "1": {
+      "default": "Síminn",
+      "en": "Síminn"
+    },
+    "12": {
+      "default": "Tal",
+      "en": "Tal"
+    },
+    "2": {
+      "default": "Vodafone",
+      "en": "Vodafone"
+    },
+    "3": {
+      "default": "Vodafone",
+      "en": "Vodafone"
+    },
+    "4": {
+      "default": "Viking",
+      "en": "Viking"
+    },
+    "6": {
+      "default": "",
+      "en": ""
+    },
+    "7": {
+      "default": "IceCell",
+      "en": "IceCell"
+    },
+    "8": {
+      "default": "On-waves",
+      "en": "On-waves"
+    }
+  },
+  "276": {
+    "1": {
+      "default": "AMC",
+      "en": "AMC"
+    },
+    "2": {
+      "default": "Vodafone",
+      "en": "Vodafone"
+    },
+    "3": {
+      "default": "Eagle Mobile",
+      "en": "Eagle Mobile"
+    },
+    "4": {
+      "default": "Plus Communication",
+      "en": "Plus Communication"
+    }
+  },
+  "278": {
+    "77": {
+      "default": "Melita",
+      "en": "Melita"
+    },
+    "1": {
+      "default": "Vodafone",
+      "en": "Vodafone"
+    },
+    "21": {
+      "default": "GO",
+      "en": "GO"
+    }
+  },
+  "710": {
+    "73": {
+      "default": "SERCOM",
+      "en": "SERCOM"
+    },
+    "30": {
+      "default": "movistar",
+      "en": "movistar"
+    },
+    "21": {
+      "default": "Claro",
+      "en": "Claro"
+    }
+  },
+  "712": {
+    "1": {
+      "default": "Kolbi ICE",
+      "en": "Kolbi ICE"
+    },
+    "2": {
+      "default": "Kolbi ICE",
+      "en": "Kolbi ICE"
+    },
+    "3": {
+      "default": "Claro",
+      "en": "Claro"
+    },
+    "4": {
+      "default": "movistar",
+      "en": "movistar"
+    }
+  },
+  "714": {
+    "1": {
+      "default": "Cable & Wireless",
+      "en": "Cable & Wireless"
+    },
+    "2": {
+      "default": "movistar",
+      "en": "movistar"
+    },
+    "3": {
+      "default": "Claro",
+      "en": "Claro"
+    },
+    "4": {
+      "default": "Digicel",
+      "en": "Digicel"
+    }
+  },
+  "716": {
+    "6": {
+      "default": "Movistar",
+      "en": "Movistar"
+    },
+    "7": {
+      "default": "NEXTEL",
+      "en": "NEXTEL"
+    },
+    "10": {
+      "default": "Claro",
+      "en": "Claro"
+    }
+  },
+  "280": {
+    "1": {
+      "default": "Cytamobile-Vodafone",
+      "en": "Cytamobile-Vodafone"
+    },
+    "10": {
+      "default": "MTN",
+      "en": "MTN"
+    }
+  },
+  "282": {
+    "1": {
+      "default": "Geocell",
+      "en": "Geocell"
+    },
+    "2": {
+      "default": "MagtiCom",
+      "en": "MagtiCom"
+    },
+    "3": {
+      "default": "MagtiCom",
+      "en": "MagtiCom"
+    },
+    "4": {
+      "default": "Beeline",
+      "en": "Beeline"
+    }
+  },
+  "283": {
+    "1": {
+      "default": "Beeline",
+      "en": "Beeline"
+    },
+    "5": {
+      "default": "VivaCell-MTS",
+      "en": "VivaCell-MTS"
+    },
+    "10": {
+      "default": "Orange",
+      "en": "Orange"
+    }
+  },
+  "284": {
+    "1": {
+      "default": "M-Tel",
+      "en": "M-Tel"
+    },
+    "3": {
+      "default": "Vivacom",
+      "en": "Vivacom"
+    },
+    "4": {
+      "default": "Undisclosed",
+      "en": "Undisclosed"
+    },
+    "5": {
+      "default": "GLOBUL",
+      "en": "GLOBUL"
+    }
+  },
+  "286": {
+    "1": {
+      "default": "Turkcell",
+      "en": "Turkcell"
+    },
+    "2": {
+      "default": "Vodafone",
+      "en": "Vodafone"
+    },
+    "3": {
+      "default": "Avea",
+      "en": "Avea"
+    },
+    "4": {
+      "default": "",
+      "en": ""
+    }
+  },
+  "288": {
+    "1": {
+      "default": "Faroese Telecom",
+      "en": "Faroese Telecom"
+    },
+    "2": {
+      "default": "Vodafone",
+      "en": "Vodafone"
+    }
+  },
+  "289": {
+    "88": {
+      "default": "A-Mobile",
+      "en": "A-Mobile"
+    },
+    "67": {
+      "default": "Aquafon",
+      "en": "Aquafon"
+    }
+  },
+  "722": {
+    "330": {
+      "default": "Claro",
+      "en": "Claro"
+    },
+    "341": {
+      "default": "Personal",
+      "en": "Personal"
+    },
+    "34": {
+      "default": "Personal",
+      "en": "Personal"
+    },
+    "320": {
+      "default": "Claro",
+      "en": "Claro"
+    },
+    "310": {
+      "default": "Claro",
+      "en": "Claro"
+    },
+    "36": {
+      "default": "Personal",
+      "en": "Personal"
+    },
+    "70": {
+      "default": "Movistar",
+      "en": "Movistar"
+    },
+    "20": {
+      "default": "Nextel",
+      "en": "Nextel"
+    },
+    "350": {
+      "default": "",
+      "en": ""
+    },
+    "10": {
+      "default": "Movistar",
+      "en": "Movistar"
+    }
+  },
+  "602": {
+    "1": {
+      "default": "Mobinil",
+      "en": "Mobinil"
+    },
+    "2": {
+      "default": "Vodafone",
+      "en": "Vodafone"
+    },
+    "3": {
+      "default": "Etisalat",
+      "en": "Etisalat"
+    }
+  },
+  "603": {
+    "1": {
+      "default": "Mobilis",
+      "en": "Mobilis"
+    },
+    "2": {
+      "default": "Djezzy",
+      "en": "Djezzy"
+    },
+    "3": {
+      "default": "Nedjma",
+      "en": "Nedjma"
+    }
+  },
+  "724": {
+    "11": {
+      "default": "Vivo",
+      "en": "Vivo"
+    },
+    "33": {
+      "default": "CTBC Celular",
+      "en": "CTBC Celular"
+    },
+    "23": {
+      "default": "Vivo",
+      "en": "Vivo"
+    },
+    "34": {
+      "default": "CTBC Celular",
+      "en": "CTBC Celular"
+    },
+    "15": {
+      "default": "CTBC Celular",
+      "en": "CTBC Celular"
+    },
+    "16": {
+      "default": "Brasil Telecom GSM",
+      "en": "Brasil Telecom GSM"
+    },
+    "39": {
+      "default": "Nextel",
+      "en": "Nextel"
+    },
+    "0": {
+      "default": "Nextel",
+      "en": "Nextel"
+    },
+    "2": {
+      "default": "TIM",
+      "en": "TIM"
+    },
+    "3": {
+      "default": "TIM",
+      "en": "TIM"
+    },
+    "4": {
+      "default": "TIM",
+      "en": "TIM"
+    },
+    "5": {
+      "default": "Claro BR",
+      "en": "Claro BR"
+    },
+    "6": {
+      "default": "Vivo",
+      "en": "Vivo"
+    },
+    "7": {
+      "default": "Sercomtel",
+      "en": "Sercomtel"
+    },
+    "31": {
+      "default": "Oi",
+      "en": "Oi"
+    },
+    "10": {
+      "default": "Vivo",
+      "en": "Vivo"
+    },
+    "32": {
+      "default": "CTBC Celular",
+      "en": "CTBC Celular"
+    }
+  },
+  "604": {
+    "0": {
+      "default": "Méditel",
+      "en": "Méditel"
+    },
+    "1": {
+      "default": "IAM",
+      "en": "IAM"
+    },
+    "2": {
+      "default": "INWI",
+      "en": "INWI"
+    }
+  },
+  "605": {
+    "1": {
+      "default": "Orange",
+      "en": "Orange"
+    },
+    "2": {
+      "default": "Tunicell",
+      "en": "Tunicell"
+    },
+    "3": {
+      "default": "Tunisiana",
+      "en": "Tunisiana"
+    }
+  },
+  "606": {
+    "0": {
+      "default": "Libyana",
+      "en": "Libyana"
+    },
+    "1": {
+      "default": "Madar",
+      "en": "Madar"
+    },
+    "2": {
+      "default": "Al-Jeel Phone",
+      "en": "Al-Jeel Phone"
+    },
+    "3": {
+      "default": "Libya Phone",
+      "en": "Libya Phone"
+    },
+    "6": {
+      "default": "Hatef Libya",
+      "en": "Hatef Libya"
+    }
+  },
+  "607": {
+    "1": {
+      "default": "Gamcel",
+      "en": "Gamcel"
+    },
+    "2": {
+      "default": "Africel",
+      "en": "Africel"
+    },
+    "3": {
+      "default": "Comium",
+      "en": "Comium"
+    },
+    "4": {
+      "default": "QCell",
+      "en": "QCell"
+    }
+  },
+  "608": {
+    "1": {
+      "default": "Orange",
+      "en": "Orange"
+    },
+    "2": {
+      "default": "Tigo",
+      "en": "Tigo"
+    },
+    "3": {
+      "default": "Expresso",
+      "en": "Expresso"
+    }
+  },
+  "609": {
+    "1": {
+      "default": "Mattel",
+      "en": "Mattel"
+    },
+    "2": {
+      "default": "Chinguitel",
+      "en": "Chinguitel"
+    },
+    "10": {
+      "default": "Mauritel",
+      "en": "Mauritel"
+    }
+  },
+  "290": {
+    "1": {
+      "default": "",
+      "en": ""
+    }
+  },
+  "292": {
+    "1": {
+      "default": "PRIMA",
+      "en": "PRIMA"
+    }
+  },
+  "293": {
+    "70": {
+      "default": "Tušmobil",
+      "en": "Tušmobil"
+    },
+    "40": {
+      "default": "Si.mobil",
+      "en": "Si.mobil"
+    },
+    "41": {
+      "default": "D3 Mobile",
+      "en": "D3 Mobile"
+    },
+    "64": {
+      "default": "T-2",
+      "en": "T-2"
+    }
+  },
+  "294": {
+    "1": {
+      "default": "T-Mobile MK",
+      "en": "T-Mobile MK"
+    },
+    "2": {
+      "default": "ONE",
+      "en": "ONE"
+    },
+    "3": {
+      "default": "Vip MK",
+      "en": "Vip MK"
+    }
+  },
+  "295": {
+    "77": {
+      "default": "Alpmobil",
+      "en": "Alpmobil"
+    },
+    "1": {
+      "default": "Swisscom",
+      "en": "Swisscom"
+    },
+    "2": {
+      "default": "Orange",
+      "en": "Orange"
+    },
+    "4": {
+      "default": "Cubic Telecom",
+      "en": "Cubic Telecom"
+    },
+    "5": {
+      "default": "FL1",
+      "en": "FL1"
+    }
+  },
+  "297": {
+    "1": {
+      "default": "Telenor",
+      "en": "Telenor"
+    },
+    "2": {
+      "default": "T-Mobile",
+      "en": "T-Mobile"
+    },
+    "3": {
+      "default": "m:tel CG",
+      "en": "m:tel CG"
+    },
+    "4": {
+      "default": "T-Mobile",
+      "en": "T-Mobile"
+    }
+  },
+  "730": {
+    "99": {
+      "default": "Will",
+      "en": "Will"
+    },
+    "1": {
+      "default": "entel",
+      "en": "entel"
+    },
+    "2": {
+      "default": "movistar",
+      "en": "movistar"
+    },
+    "3": {
+      "default": "Claro",
+      "en": "Claro"
+    },
+    "4": {
+      "default": "Nextel",
+      "en": "Nextel"
+    },
+    "8": {
+      "default": "VTR Móvil",
+      "en": "VTR Móvil"
+    },
+    "9": {
+      "default": "Nextel",
+      "en": "Nextel"
+    },
+    "10": {
+      "default": "entel",
+      "en": "entel"
+    }
+  },
+  "610": {
+    "1": {
+      "default": "Malitel",
+      "en": "Malitel"
+    },
+    "2": {
+      "default": "Orange",
+      "en": "Orange"
+    }
+  },
+  "611": {
+    "1": {
+      "default": "Orange S.A.",
+      "en": "Orange S.A."
+    },
+    "2": {
+      "default": "Sotelgui",
+      "en": "Sotelgui"
+    },
+    "3": {
+      "default": "Telecel Guinee",
+      "en": "Telecel Guinee"
+    },
+    "4": {
+      "default": "MTN",
+      "en": "MTN"
+    },
+    "5": {
+      "default": "Cellcom",
+      "en": "Cellcom"
+    }
+  },
+  "732": {
+    "1": {
+      "default": "",
+      "en": ""
+    },
+    "111": {
+      "default": "Tigo",
+      "en": "Tigo"
+    },
+    "2": {
+      "default": "Edatel",
+      "en": "Edatel"
+    },
+    "101": {
+      "default": "Comcel",
+      "en": "Comcel"
+    },
+    "123": {
+      "default": "movistar",
+      "en": "movistar"
+    },
+    "102": {
+      "default": "movistar",
+      "en": "movistar"
+    },
+    "103": {
+      "default": "Tigo",
+      "en": "Tigo"
+    }
+  },
+  "612": {
+    "1": {
+      "default": "",
+      "en": ""
+    },
+    "2": {
+      "default": "Moov",
+      "en": "Moov"
+    },
+    "3": {
+      "default": "Orange",
+      "en": "Orange"
+    },
+    "4": {
+      "default": "KoZ",
+      "en": "KoZ"
+    },
+    "5": {
+      "default": "MTN",
+      "en": "MTN"
+    },
+    "6": {
+      "default": "ORICEL",
+      "en": "ORICEL"
+    }
+  },
+  "613": {
+    "1": {
+      "default": "Telmob",
+      "en": "Telmob"
+    },
+    "2": {
+      "default": "Zain",
+      "en": "Zain"
+    },
+    "3": {
+      "default": "Telecel Faso",
+      "en": "Telecel Faso"
+    }
+  },
+  "734": {
+    "1": {
+      "default": "Digitel",
+      "en": "Digitel"
+    },
+    "2": {
+      "default": "Digitel",
+      "en": "Digitel"
+    },
+    "3": {
+      "default": "Digitel",
+      "en": "Digitel"
+    },
+    "4": {
+      "default": "movistar",
+      "en": "movistar"
+    },
+    "6": {
+      "default": "Movilnet",
+      "en": "Movilnet"
+    }
+  },
+  "614": {
+    "1": {
+      "default": "SahelCom",
+      "en": "SahelCom"
+    },
+    "2": {
+      "default": "Airtel",
+      "en": "Airtel"
+    },
+    "3": {
+      "default": "Telecel",
+      "en": "Telecel"
+    },
+    "4": {
+      "default": "Orange",
+      "en": "Orange"
+    }
+  },
+  "615": {
+    "1": {
+      "default": "Togo Cell",
+      "en": "Togo Cell"
+    },
+    "3": {
+      "default": "Moov",
+      "en": "Moov"
+    }
+  },
+  "736": {
+    "1": {
+      "default": "Nuevatel",
+      "en": "Nuevatel"
+    },
+    "2": {
+      "default": "Entel",
+      "en": "Entel"
+    },
+    "3": {
+      "default": "Tigo",
+      "en": "Tigo"
+    }
+  },
+  "616": {
+    "1": {
+      "default": "Libercom",
+      "en": "Libercom"
+    },
+    "2": {
+      "default": "Moov",
+      "en": "Moov"
+    },
+    "3": {
+      "default": "MTN",
+      "en": "MTN"
+    },
+    "4": {
+      "default": "BBCOM",
+      "en": "BBCOM"
+    },
+    "5": {
+      "default": "Glo",
+      "en": "Glo"
+    }
+  },
+  "617": {
+    "1": {
+      "default": "Orange",
+      "en": "Orange"
+    },
+    "2": {
+      "default": "MTML",
+      "en": "MTML"
+    },
+    "10": {
+      "default": "Emtel",
+      "en": "Emtel"
+    }
+  },
+  "738": {
+    "1": {
+      "default": "Digicel",
+      "en": "Digicel"
+    },
+    "2": {
+      "default": "GT&T Cellink Plus",
+      "en": "GT&T Cellink Plus"
+    }
+  },
+  "618": {
+    "1": {
+      "default": "Lonestar Cell",
+      "en": "Lonestar Cell"
+    },
+    "2": {
+      "default": "Libercell",
+      "en": "Libercell"
+    },
+    "4": {
+      "default": "Comium",
+      "en": "Comium"
+    },
+    "7": {
+      "default": "Cellcom",
+      "en": "Cellcom"
+    },
+    "20": {
+      "default": "LIBTELCO",
+      "en": "LIBTELCO"
+    }
+  },
+  "619": {
+    "1": {
+      "default": "Airtel",
+      "en": "Airtel"
+    },
+    "2": {
+      "default": "Tigo",
+      "en": "Tigo"
+    },
+    "3": {
+      "default": "Africell",
+      "en": "Africell"
+    },
+    "25": {
+      "default": "Mobitel",
+      "en": "Mobitel"
+    },
+    "4": {
+      "default": "Comium",
+      "en": "Comium"
+    },
+    "5": {
+      "default": "Africell",
+      "en": "Africell"
+    }
+  },
+  "740": {
+    "0": {
+      "default": "Movistar",
+      "en": "Movistar"
+    },
+    "1": {
+      "default": "Claro",
+      "en": "Claro"
+    },
+    "2": {
+      "default": "Alegro",
+      "en": "Alegro"
+    }
+  },
+  "620": {
+    "1": {
+      "default": "MTN",
+      "en": "MTN"
+    },
+    "2": {
+      "default": "Vodafone",
+      "en": "Vodafone"
+    },
+    "3": {
+      "default": "tiGO",
+      "en": "tiGO"
+    },
+    "4": {
+      "default": "Expresso",
+      "en": "Expresso"
+    },
+    "6": {
+      "default": "Airtel",
+      "en": "Airtel"
+    }
+  },
+  "621": {
+    "25": {
+      "default": "Visafone",
+      "en": "Visafone"
+    },
+    "60": {
+      "default": "Etisalat",
+      "en": "Etisalat"
+    },
+    "50": {
+      "default": "Glo",
+      "en": "Glo"
+    },
+    "40": {
+      "default": "M-Tel",
+      "en": "M-Tel"
+    },
+    "30": {
+      "default": "MTN",
+      "en": "MTN"
+    },
+    "20": {
+      "default": "Airtel",
+      "en": "Airtel"
+    }
+  },
+  "622": {
+    "1": {
+      "default": "Airtel",
+      "en": "Airtel"
+    },
+    "2": {
+      "default": "TAWALI",
+      "en": "TAWALI"
+    },
+    "3": {
+      "default": "",
+      "en": ""
+    },
+    "4": {
+      "default": "Salam",
+      "en": "Salam"
+    }
+  },
+  "502": {
+    "11": {
+      "default": "TM Homeline",
+      "en": "TM Homeline"
+    },
+    "12": {
+      "default": "Maxis",
+      "en": "Maxis"
+    },
+    "13": {
+      "default": "Celcom",
+      "en": "Celcom"
+    },
+    "14": {
+      "default": "",
+      "en": ""
+    },
+    "16": {
+      "default": "DiGi",
+      "en": "DiGi"
+    },
+    "17": {
+      "default": "Hotlink",
+      "en": "Hotlink"
+    },
+    "18": {
+      "default": "TM Homeline",
+      "en": "TM Homeline"
+    },
+    "19": {
+      "default": "Celcom",
+      "en": "Celcom"
+    },
+    "150": {
+      "default": "Tune Talk",
+      "en": "Tune Talk"
+    },
+    "151": {
+      "default": "",
+      "en": ""
+    },
+    "152": {
+      "default": "Yes",
+      "en": "Yes"
+    },
+    "1": {
+      "default": "ATUR 450",
+      "en": "ATUR 450"
+    },
+    "20": {
+      "default": "",
+      "en": ""
+    },
+    "10": {
+      "default": "",
+      "en": ""
+    }
+  },
+  "623": {
+    "1": {
+      "default": "CTP",
+      "en": "CTP"
+    },
+    "2": {
+      "default": "TC",
+      "en": "TC"
+    },
+    "3": {
+      "default": "Orange",
+      "en": "Orange"
+    },
+    "4": {
+      "default": "Nationlink",
+      "en": "Nationlink"
+    }
+  },
+  "744": {
+    "1": {
+      "default": "VOX",
+      "en": "VOX"
+    },
+    "2": {
+      "default": "Claro",
+      "en": "Claro"
+    },
+    "4": {
+      "default": "Tigo",
+      "en": "Tigo"
+    },
+    "5": {
+      "default": "Personal",
+      "en": "Personal"
+    },
+    "6": {
+      "default": "Copaco",
+      "en": "Copaco"
+    }
+  },
+  "624": {
+    "1": {
+      "default": "MTN Cameroon",
+      "en": "MTN Cameroon"
+    },
+    "2": {
+      "default": "Orange",
+      "en": "Orange"
+    },
+    "3": {
+      "default": "camtel",
+      "en": "camtel"
+    }
+  },
+  "625": {
+    "2": {
+      "default": "T+",
+      "en": "T+"
+    }
+  },
+  "746": {
+    "2": {
+      "default": "Telesur",
+      "en": "Telesur"
+    },
+    "3": {
+      "default": "Digicel",
+      "en": "Digicel"
+    },
+    "4": {
+      "default": "Uniqa",
+      "en": "Uniqa"
+    }
+  },
+  "505": {
+    "88": {
+      "default": "Localstar Holding Pty. Ltd.",
+      "en": "Localstar Holding Pty. Ltd."
+    },
+    "99": {
+      "default": "One.Tel",
+      "en": "One.Tel"
+    },
+    "12": {
+      "default": "3",
+      "en": "3"
+    },
+    "13": {
+      "default": "Railcorp",
+      "en": "Railcorp"
+    },
+    "24": {
+      "default": "Advance Communications Technologies Pty. Ltd.",
+      "en": "Advance Communications Technologies Pty. Ltd."
+    },
+    "14": {
+      "default": "AAPT",
+      "en": "AAPT"
+    },
+    "15": {
+      "default": "3GIS",
+      "en": "3GIS"
+    },
+    "16": {
+      "default": "Victorian Rail Track",
+      "en": "Victorian Rail Track"
+    },
+    "38": {
+      "default": "Crazy Johns",
+      "en": "Crazy Johns"
+    },
+    "1": {
+      "default": "Telstra",
+      "en": "Telstra"
+    },
+    "2": {
+      "default": "Optus",
+      "en": "Optus"
+    },
+    "3": {
+      "default": "沃达丰",
+      "en": "沃达丰"
+    },
+    "4": {
+      "default": "",
+      "en": ""
+    },
+    "5": {
+      "default": "Ozitel",
+      "en": "Ozitel"
+    },
+    "6": {
+      "default": "3",
+      "en": "3"
+    },
+    "90": {
+      "default": "Optus",
+      "en": "Optus"
+    },
+    "8": {
+      "default": "One.Tel",
+      "en": "One.Tel"
+    },
+    "9": {
+      "default": "Airnet",
+      "en": "Airnet"
+    },
+    "71": {
+      "default": "Telstra",
+      "en": "Telstra"
+    },
+    "72": {
+      "default": "Telstra",
+      "en": "Telstra"
+    },
+    "10": {
+      "default": "Norfolk Telecom",
+      "en": "Norfolk Telecom"
+    },
+    "21": {
+      "default": "SOUL",
+      "en": "SOUL"
+    }
+  },
+  "626": {
+    "1": {
+      "default": "CSTmovel",
+      "en": "CSTmovel"
+    }
+  },
+  "627": {
+    "1": {
+      "default": "Orange GQ",
+      "en": "Orange GQ"
+    },
+    "3": {
+      "default": "Hits GQ",
+      "en": "Hits GQ"
+    }
+  },
+  "748": {
+    "1": {
+      "default": "Antel",
+      "en": "Antel"
+    },
+    "7": {
+      "default": "Movistar",
+      "en": "Movistar"
+    },
+    "10": {
+      "default": "Claro UY",
+      "en": "Claro UY"
+    }
+  },
+  "628": {
+    "1": {
+      "default": "Libertis",
+      "en": "Libertis"
+    },
+    "2": {
+      "default": "Moov",
+      "en": "Moov"
+    },
+    "3": {
+      "default": "Airtel",
+      "en": "Airtel"
+    },
+    "4": {
+      "default": "Azur",
+      "en": "Azur"
+    }
+  },
+  "629": {
+    "1": {
+      "default": "Airtel",
+      "en": "Airtel"
+    },
+    "7": {
+      "default": "",
+      "en": ""
+    },
+    "10": {
+      "default": "Libertis Telecom",
+      "en": "Libertis Telecom"
+    }
+  },
+  "630": {
+    "1": {
+      "default": "Vodacom",
+      "en": "Vodacom"
+    },
+    "89": {
+      "default": "SAIT Telecom",
+      "en": "SAIT Telecom"
+    },
+    "2": {
+      "default": "Zain",
+      "en": "Zain"
+    },
+    "4": {
+      "default": "",
+      "en": ""
+    },
+    "5": {
+      "default": "Supercell",
+      "en": "Supercell"
+    },
+    "86": {
+      "default": "CCT",
+      "en": "CCT"
+    },
+    "10": {
+      "default": "Libertis Telecom",
+      "en": "Libertis Telecom"
+    }
+  },
+  "510": {
+    "11": {
+      "default": "XL",
+      "en": "XL"
+    },
+    "99": {
+      "default": "Esia",
+      "en": "Esia"
+    },
+    "89": {
+      "default": "3",
+      "en": "3"
+    },
+    "27": {
+      "default": "Ceria",
+      "en": "Ceria"
+    },
+    "28": {
+      "default": "Fren/Hepi",
+      "en": "Fren/Hepi"
+    },
+    "0": {
+      "default": "PSN",
+      "en": "PSN"
+    },
+    "1": {
+      "default": "INDOSAT",
+      "en": "INDOSAT"
+    },
+    "3": {
+      "default": "StarOne",
+      "en": "StarOne"
+    },
+    "7": {
+      "default": "TelkomFlexi",
+      "en": "TelkomFlexi"
+    },
+    "8": {
+      "default": "AXIS",
+      "en": "AXIS"
+    },
+    "9": {
+      "default": "SMART",
+      "en": "SMART"
+    },
+    "20": {
+      "default": "TELKOMMobile",
+      "en": "TELKOMMobile"
+    },
+    "10": {
+      "default": "Telkomsel",
+      "en": "Telkomsel"
+    },
+    "21": {
+      "default": "IM3",
+      "en": "IM3"
+    }
+  },
+  "631": {
+    "2": {
+      "default": "UNITEL",
+      "en": "UNITEL"
+    },
+    "4": {
+      "default": "MOVICEL",
+      "en": "MOVICEL"
+    }
+  },
+  "632": {
+    "2": {
+      "default": "Areeba",
+      "en": "Areeba"
+    },
+    "3": {
+      "default": "Orange",
+      "en": "Orange"
+    }
+  },
+  "633": {
+    "1": {
+      "default": "Cable & Wireless",
+      "en": "Cable & Wireless"
+    },
+    "2": {
+      "default": "Mediatech International",
+      "en": "Mediatech International"
+    },
+    "10": {
+      "default": "Airtel",
+      "en": "Airtel"
+    }
+  },
+  "634": {
+    "1": {
+      "default": "Zain SD",
+      "en": "Zain SD"
+    },
+    "2": {
+      "default": "MTN",
+      "en": "MTN"
+    },
+    "5": {
+      "default": "Vivacell",
+      "en": "Vivacell"
+    },
+    "7": {
+      "default": "Sudani One",
+      "en": "Sudani One"
+    }
+  },
+  "514": {
+    "2": {
+      "default": "",
+      "en": ""
+    }
+  },
+  "635": {
+    "12": {
+      "default": "Rwandatel",
+      "en": "Rwandatel"
+    },
+    "13": {
+      "default": "Tigo",
+      "en": "Tigo"
+    },
+    "10": {
+      "default": "MTN",
+      "en": "MTN"
+    }
+  },
+  "515": {
+    "11": {
+      "default": "",
+      "en": ""
+    },
+    "88": {
+      "default": "",
+      "en": ""
+    },
+    "1": {
+      "default": "Islacom",
+      "en": "Islacom"
+    },
+    "2": {
+      "default": "Globe",
+      "en": "Globe"
+    },
+    "3": {
+      "default": "Smart",
+      "en": "Smart"
+    },
+    "5": {
+      "default": "Sun",
+      "en": "Sun"
+    },
+    "18": {
+      "default": "Cure",
+      "en": "Cure"
+    }
+  },
+  "636": {
+    "1": {
+      "default": "ETH-MTN",
+      "en": "ETH-MTN"
+    }
+  },
+  "637": {
+    "1": {
+      "default": "Telesom",
+      "en": "Telesom"
+    },
+    "25": {
+      "default": "Hormuud",
+      "en": "Hormuud"
+    },
+    "4": {
+      "default": "Somafone",
+      "en": "Somafone"
+    },
+    "60": {
+      "default": "Nationlink Telecom",
+      "en": "Nationlink Telecom"
+    },
+    "82": {
+      "default": "Telcom",
+      "en": "Telcom"
+    },
+    "30": {
+      "default": "Golis",
+      "en": "Golis"
+    },
+    "10": {
+      "default": "Nationlink",
+      "en": "Nationlink"
+    }
+  },
+  "638": {
+    "1": {
+      "default": "Evatis",
+      "en": "Evatis"
+    }
+  },
+  "639": {
+    "2": {
+      "default": "Safaricom",
+      "en": "Safaricom"
+    },
+    "3": {
+      "default": "Airtel",
+      "en": "Airtel"
+    },
+    "5": {
+      "default": "yu",
+      "en": "yu"
+    },
+    "7": {
+      "default": "Orange Kenya",
+      "en": "Orange Kenya"
+    }
+  },
+  "640": {
+    "11": {
+      "default": "SmileCom",
+      "en": "SmileCom"
+    },
+    "2": {
+      "default": "tiGO",
+      "en": "tiGO"
+    },
+    "3": {
+      "default": "Zantel",
+      "en": "Zantel"
+    },
+    "4": {
+      "default": "Vodacom",
+      "en": "Vodacom"
+    },
+    "5": {
+      "default": "Airtel",
+      "en": "Airtel"
+    },
+    "6": {
+      "default": "Sasatel",
+      "en": "Sasatel"
+    },
+    "7": {
+      "default": "TTCL Mobile",
+      "en": "TTCL Mobile"
+    },
+    "8": {
+      "default": "Benson Online (BOL)",
+      "en": "Benson Online (BOL)"
+    },
+    "9": {
+      "default": "Hits",
+      "en": "Hits"
+    }
+  },
+  "520": {
+    "0": {
+      "default": "my CAT 3G+",
+      "en": "my CAT 3G+"
+    },
+    "88": {
+      "default": "True Move H",
+      "en": "True Move H"
+    },
+    "99": {
+      "default": "True Move",
+      "en": "True Move"
+    },
+    "1": {
+      "default": "AIS",
+      "en": "AIS"
+    },
+    "23": {
+      "default": "AIS GSM 1800",
+      "en": "AIS GSM 1800"
+    },
+    "2": {
+      "default": "CAT CDMA",
+      "en": "CAT CDMA"
+    },
+    "15": {
+      "default": "TOT 3G",
+      "en": "TOT 3G"
+    },
+    "18": {
+      "default": "dtac",
+      "en": "dtac"
+    },
+    "10": {
+      "default": " ?",
+      "en": " ?"
+    }
+  },
+  "641": {
+    "11": {
+      "default": "UTL",
+      "en": "UTL"
+    },
+    "22": {
+      "default": "Warid Telecom",
+      "en": "Warid Telecom"
+    },
+    "1": {
+      "default": "Airtel",
+      "en": "Airtel"
+    },
+    "14": {
+      "default": "Orange",
+      "en": "Orange"
+    },
+    "10": {
+      "default": "MTN",
+      "en": "MTN"
+    }
+  },
+  "400": {
+    "1": {
+      "default": "Azercell电信",
+      "en": "Azercell电信"
+    },
+    "2": {
+      "default": "Bakcell",
+      "en": "Bakcell"
+    },
+    "3": {
+      "default": "FONEX",
+      "en": "FONEX"
+    },
+    "4": {
+      "default": "Nar Mobile",
+      "en": "Nar Mobile"
+    }
+  },
+  "642": {
+    "1": {
+      "default": "Spacetel",
+      "en": "Spacetel"
+    },
+    "2": {
+      "default": "Africell",
+      "en": "Africell"
+    },
+    "3": {
+      "default": "Onatel",
+      "en": "Onatel"
+    },
+    "7": {
+      "default": "Smart Mobile",
+      "en": "Smart Mobile"
+    },
+    "8": {
+      "default": "HiTs Telecom",
+      "en": "HiTs Telecom"
+    },
+    "82": {
+      "default": "U-COM Burundi",
+      "en": "U-COM Burundi"
+    }
+  },
+  "401": {
+    "77": {
+      "default": "Mobile Telecom Service",
+      "en": "Mobile Telecom Service"
+    },
+    "1": {
+      "default": "Beeline",
+      "en": "Beeline"
+    },
+    "2": {
+      "default": "Kcell",
+      "en": "Kcell"
+    },
+    "7": {
+      "default": "Dalacom",
+      "en": "Dalacom"
+    },
+    "8": {
+      "default": "Kazakhtelecom",
+      "en": "Kazakhtelecom"
+    }
+  },
+  "643": {
+    "1": {
+      "default": "mCel",
+      "en": "mCel"
+    },
+    "4": {
+      "default": "Vodacom",
+      "en": "Vodacom"
+    }
+  },
+  "402": {
+    "11": {
+      "default": "B-Mobile",
+      "en": "B-Mobile"
+    },
+    "77": {
+      "default": "TashiCell",
+      "en": "TashiCell"
+    }
+  },
+  "645": {
+    "1": {
+      "default": "Airtel",
+      "en": "Airtel"
+    },
+    "2": {
+      "default": "MTN",
+      "en": "MTN"
+    },
+    "3": {
+      "default": "ZAMTEL",
+      "en": "ZAMTEL"
+    }
+  },
+  "404": {
+    "44": {
+      "default": "IDEA",
+      "en": "IDEA"
+    },
+    "88": {
+      "default": "Vodafone IN",
+      "en": "Vodafone IN"
+    },
+    "45": {
+      "default": "Airtel",
+      "en": "Airtel"
+    },
+    "89": {
+      "default": "Idea",
+      "en": "Idea"
+    },
+    "46": {
+      "default": "Vodafone IN",
+      "en": "Vodafone IN"
+    },
+    "48": {
+      "default": "Dishnet Wireless",
+      "en": "Dishnet Wireless"
+    },
+    "49": {
+      "default": "Airtel",
+      "en": "Airtel"
+    },
+    "90": {
+      "default": "AirTel",
+      "en": "AirTel"
+    },
+    "91": {
+      "default": "AIRCEL",
+      "en": "AIRCEL"
+    },
+    "92": {
+      "default": "AirTel",
+      "en": "AirTel"
+    },
+    "93": {
+      "default": "AirTel",
+      "en": "AirTel"
+    },
+    "51": {
+      "default": "CellOne",
+      "en": "CellOne"
+    },
+    "52": {
+      "default": "Reliance",
+      "en": "Reliance"
+    },
+    "96": {
+      "default": "AirTel",
+      "en": "AirTel"
+    },
+    "53": {
+      "default": "CellOne",
+      "en": "CellOne"
+    },
+    "10": {
+      "default": "AirTel",
+      "en": "AirTel"
+    },
+    "54": {
+      "default": "CellOne",
+      "en": "CellOne"
+    },
+    "11": {
+      "default": "Vodafone IN",
+      "en": "Vodafone IN"
+    },
+    "55": {
+      "default": "CellOne",
+      "en": "CellOne"
+    },
+    "12": {
+      "default": "IDEA",
+      "en": "IDEA"
+    },
+    "56": {
+      "default": "IDEA",
+      "en": "IDEA"
+    },
+    "13": {
+      "default": "Vodafone IN",
+      "en": "Vodafone IN"
+    },
+    "57": {
+      "default": "CellOne",
+      "en": "CellOne"
+    },
+    "14": {
+      "default": "IDEA",
+      "en": "IDEA"
+    },
+    "58": {
+      "default": "CellOne",
+      "en": "CellOne"
+    },
+    "15": {
+      "default": "Vodafone IN",
+      "en": "Vodafone IN"
+    },
+    "59": {
+      "default": "CellOne",
+      "en": "CellOne"
+    },
+    "17": {
+      "default": "AIRCEL",
+      "en": "AIRCEL"
+    },
+    "19": {
+      "default": "IDEA",
+      "en": "IDEA"
+    },
+    "1": {
+      "default": "Vodafone IN",
+      "en": "Vodafone IN"
+    },
+    "2": {
+      "default": "AirTel",
+      "en": "AirTel"
+    },
+    "3": {
+      "default": "AirTel",
+      "en": "AirTel"
+    },
+    "4": {
+      "default": "IDEA",
+      "en": "IDEA"
+    },
+    "5": {
+      "default": "Vodafone IN",
+      "en": "Vodafone IN"
+    },
+    "7": {
+      "default": "IDEA",
+      "en": "IDEA"
+    },
+    "9": {
+      "default": "Reliance",
+      "en": "Reliance"
+    },
+    "60": {
+      "default": "Vodafone IN",
+      "en": "Vodafone IN"
+    },
+    "62": {
+      "default": "CellOne",
+      "en": "CellOne"
+    },
+    "20": {
+      "default": "Vodafone IN",
+      "en": "Vodafone IN"
+    },
+    "64": {
+      "default": "CellOne",
+      "en": "CellOne"
+    },
+    "927": {
+      "default": "Uninor",
+      "en": "Uninor"
+    },
+    "21": {
+      "default": "Loop Mobile",
+      "en": "Loop Mobile"
+    },
+    "22": {
+      "default": "IDEA",
+      "en": "IDEA"
+    },
+    "66": {
+      "default": "CellOne",
+      "en": "CellOne"
+    },
+    "67": {
+      "default": "Reliance GSM",
+      "en": "Reliance GSM"
+    },
+    "24": {
+      "default": "IDEA",
+      "en": "IDEA"
+    },
+    "68": {
+      "default": "DOLPHIN",
+      "en": "DOLPHIN"
+    },
+    "25": {
+      "default": "AIRCEL",
+      "en": "AIRCEL"
+    },
+    "69": {
+      "default": "DOLPHIN",
+      "en": "DOLPHIN"
+    },
+    "27": {
+      "default": "Vodafone IN",
+      "en": "Vodafone IN"
+    },
+    "28": {
+      "default": "AIRCEL",
+      "en": "AIRCEL"
+    },
+    "29": {
+      "default": "AIRCEL",
+      "en": "AIRCEL"
+    },
+    "71": {
+      "default": "CellOne",
+      "en": "CellOne"
+    },
+    "72": {
+      "default": "CellOne",
+      "en": "CellOne"
+    },
+    "30": {
+      "default": "Vodafone IN",
+      "en": "Vodafone IN"
+    },
+    "74": {
+      "default": "CellOne",
+      "en": "CellOne"
+    },
+    "31": {
+      "default": "AirTel",
+      "en": "AirTel"
+    },
+    "76": {
+      "default": "CellOne",
+      "en": "CellOne"
+    },
+    "34": {
+      "default": "CellOne",
+      "en": "CellOne"
+    },
+    "78": {
+      "default": "Idea Cellular Ltd",
+      "en": "Idea Cellular Ltd"
+    },
+    "36": {
+      "default": "Reliance",
+      "en": "Reliance"
+    },
+    "37": {
+      "default": "Aircel",
+      "en": "Aircel"
+    },
+    "38": {
+      "default": "CellOne",
+      "en": "CellOne"
+    },
+    "80": {
+      "default": "BSNL MOBILE",
+      "en": "BSNL MOBILE"
+    },
+    "81": {
+      "default": "CellOne",
+      "en": "CellOne"
+    },
+    "82": {
+      "default": "Idea",
+      "en": "Idea"
+    },
+    "83": {
+      "default": "Reliance Smart GSM",
+      "en": "Reliance Smart GSM"
+    },
+    "84": {
+      "default": "Vodafone IN",
+      "en": "Vodafone IN"
+    },
+    "41": {
+      "default": "Aircel",
+      "en": "Aircel"
+    },
+    "85": {
+      "default": "Reliance",
+      "en": "Reliance"
+    },
+    "42": {
+      "default": "Aircel",
+      "en": "Aircel"
+    },
+    "86": {
+      "default": "Vodafone IN",
+      "en": "Vodafone IN"
+    },
+    "87": {
+      "default": "Idea",
+      "en": "Idea"
+    }
+  },
+  "525": {
+    "1": {
+      "default": "SingTel",
+      "en": "SingTel"
+    },
+    "12": {
+      "default": "",
+      "en": ""
+    },
+    "2": {
+      "default": "SingTel-G18",
+      "en": "SingTel-G18"
+    },
+    "3": {
+      "default": "M1",
+      "en": "M1"
+    },
+    "5": {
+      "default": "StarHub",
+      "en": "StarHub"
+    }
+  },
+  "646": {
+    "1": {
+      "default": "Airtel",
+      "en": "Airtel"
+    },
+    "2": {
+      "default": "Orange",
+      "en": "Orange"
+    },
+    "3": {
+      "default": "Sacel",
+      "en": "Sacel"
+    },
+    "4": {
+      "default": "Telma",
+      "en": "Telma"
+    }
+  },
+  "405": {
+    "44": {
+      "default": "TATA Teleservice",
+      "en": "TATA Teleservice"
+    },
+    "45": {
+      "default": "TATA Teleservice",
+      "en": "TATA Teleservice"
+    },
+    "46": {
+      "default": "TATA Teleservice",
+      "en": "TATA Teleservice"
+    },
+    "47": {
+      "default": "TATA Teleservice",
+      "en": "TATA Teleservice"
+    },
+    "750": {
+      "default": "Vodafone IN",
+      "en": "Vodafone IN"
+    },
+    "751": {
+      "default": "Vodafone IN",
+      "en": "Vodafone IN"
+    },
+    "752": {
+      "default": "Vodafone IN",
+      "en": "Vodafone IN"
+    },
+    "753": {
+      "default": "Vodafone IN",
+      "en": "Vodafone IN"
+    },
+    "754": {
+      "default": "Vodafone IN",
+      "en": "Vodafone IN"
+    },
+    "875": {
+      "default": "Uninor",
+      "en": "Uninor"
+    },
+    "755": {
+      "default": "Vodafone IN",
+      "en": "Vodafone IN"
+    },
+    "799": {
+      "default": "IDEA",
+      "en": "IDEA"
+    },
+    "756": {
+      "default": "Vodafone IN",
+      "en": "Vodafone IN"
+    },
+    "834": {
+      "default": "Videocon Datacom",
+      "en": "Videocon Datacom"
+    },
+    "912": {
+      "default": "Etisalat DB(cheers)",
+      "en": "Etisalat DB(cheers)"
+    },
+    "913": {
+      "default": "Etisalat DB(cheers)",
+      "en": "Etisalat DB(cheers)"
+    },
+    "51": {
+      "default": "AirTel",
+      "en": "AirTel"
+    },
+    "914": {
+      "default": "Etisalat DB(cheers)",
+      "en": "Etisalat DB(cheers)"
+    },
+    "52": {
+      "default": "AirTel",
+      "en": "AirTel"
+    },
+    "10": {
+      "default": "Reliance",
+      "en": "Reliance"
+    },
+    "54": {
+      "default": "AirTel",
+      "en": "AirTel"
+    },
+    "917": {
+      "default": "Etisalat DB(cheers)",
+      "en": "Etisalat DB(cheers)"
+    },
+    "55": {
+      "default": "Airtel",
+      "en": "Airtel"
+    },
+    "56": {
+      "default": "AirTel",
+      "en": "AirTel"
+    },
+    "13": {
+      "default": "Reliance",
+      "en": "Reliance"
+    },
+    "880": {
+      "default": "Uninor",
+      "en": "Uninor"
+    },
+    "1": {
+      "default": "Reliance",
+      "en": "Reliance"
+    },
+    "881": {
+      "default": "S Tel",
+      "en": "S Tel"
+    },
+    "3": {
+      "default": "Reliance",
+      "en": "Reliance"
+    },
+    "4": {
+      "default": "Reliance",
+      "en": "Reliance"
+    },
+    "5": {
+      "default": "Reliance",
+      "en": "Reliance"
+    },
+    "800": {
+      "default": "AIRCEL",
+      "en": "AIRCEL"
+    },
+    "844": {
+      "default": "Uninor",
+      "en": "Uninor"
+    },
+    "9": {
+      "default": "Reliance",
+      "en": "Reliance"
+    },
+    "801": {
+      "default": "AIRCEL",
+      "en": "AIRCEL"
+    },
+    "845": {
+      "default": "IDEA",
+      "en": "IDEA"
+    },
+    "802": {
+      "default": "AIRCEL",
+      "en": "AIRCEL"
+    },
+    "803": {
+      "default": "AIRCEL",
+      "en": "AIRCEL"
+    },
+    "804": {
+      "default": "AIRCEL",
+      "en": "AIRCEL"
+    },
+    "848": {
+      "default": "IDEA",
+      "en": "IDEA"
+    },
+    "805": {
+      "default": "AIRCEL",
+      "en": "AIRCEL"
+    },
+    "806": {
+      "default": "AIRCEL",
+      "en": "AIRCEL"
+    },
+    "807": {
+      "default": "AIRCEL",
+      "en": "AIRCEL"
+    },
+    "66": {
+      "default": "Vodafone IN",
+      "en": "Vodafone IN"
+    },
+    "808": {
+      "default": "AIRCEL",
+      "en": "AIRCEL"
+    },
+    "929": {
+      "default": "Uninor",
+      "en": "Uninor"
+    },
+    "809": {
+      "default": "AIRCEL",
+      "en": "AIRCEL"
+    },
+    "25": {
+      "default": "TATA Teleservice",
+      "en": "TATA Teleservice"
+    },
+    "26": {
+      "default": "TATA Teleservice",
+      "en": "TATA Teleservice"
+    },
+    "27": {
+      "default": "TATA Teleservice",
+      "en": "TATA Teleservice"
+    },
+    "29": {
+      "default": "TATA Teleservice",
+      "en": "TATA Teleservice"
+    },
+    "850": {
+      "default": "IDEA",
+      "en": "IDEA"
+    },
+    "810": {
+      "default": "AIRCEL",
+      "en": "AIRCEL"
+    },
+    "811": {
+      "default": "AIRCEL",
+      "en": "AIRCEL"
+    },
+    "855": {
+      "default": "Loop Mobile",
+      "en": "Loop Mobile"
+    },
+    "70": {
+      "default": "IDEA",
+      "en": "IDEA"
+    },
+    "812": {
+      "default": "AIRCEL",
+      "en": "AIRCEL"
+    },
+    "30": {
+      "default": "TATA Teleservice",
+      "en": "TATA Teleservice"
+    },
+    "31": {
+      "default": "TATA Teleservice",
+      "en": "TATA Teleservice"
+    },
+    "32": {
+      "default": "TATA Teleservice",
+      "en": "TATA Teleservice"
+    },
+    "818": {
+      "default": "Uninor",
+      "en": "Uninor"
+    },
+    "33": {
+      "default": "TATA Teleservice",
+      "en": "TATA Teleservice"
+    },
+    "819": {
+      "default": "Uninor",
+      "en": "Uninor"
+    },
+    "34": {
+      "default": "TATA Teleservice",
+      "en": "TATA Teleservice"
+    },
+    "35": {
+      "default": "TATA Teleservice",
+      "en": "TATA Teleservice"
+    },
+    "36": {
+      "default": "TATA Teleservice",
+      "en": "TATA Teleservice"
+    },
+    "37": {
+      "default": "TATA Teleservice",
+      "en": "TATA Teleservice"
+    },
+    "38": {
+      "default": "TATA Teleservice",
+      "en": "TATA Teleservice"
+    },
+    "39": {
+      "default": "TATA Teleservice",
+      "en": "TATA Teleservice"
+    },
+    "820": {
+      "default": "Uninor",
+      "en": "Uninor"
+    },
+    "864": {
+      "default": "Loop Mobile",
+      "en": "Loop Mobile"
+    },
+    "821": {
+      "default": "Uninor",
+      "en": "Uninor"
+    },
+    "865": {
+      "default": "Loop Mobile",
+      "en": "Loop Mobile"
+    },
+    "822": {
+      "default": "Uninor",
+      "en": "Uninor"
+    },
+    "824": {
+      "default": "Videocon Datacom",
+      "en": "Videocon Datacom"
+    },
+    "41": {
+      "default": "TATA Teleservice",
+      "en": "TATA Teleservice"
+    },
+    "827": {
+      "default": "Videocon Datacom",
+      "en": "Videocon Datacom"
+    },
+    "42": {
+      "default": "TATA Teleservice",
+      "en": "TATA Teleservice"
+    },
+    "86": {
+      "default": "IDEA",
+      "en": "IDEA"
+    },
+    "43": {
+      "default": "TATA Teleservice",
+      "en": "TATA Teleservice"
+    }
+  },
+  "647": {
+    "0": {
+      "default": "Orange",
+      "en": "Orange"
+    },
+    "2": {
+      "default": "Outremer",
+      "en": "Outremer"
+    },
+    "10": {
+      "default": "SFR Reunion",
+      "en": "SFR Reunion"
+    }
+  },
+  "648": {
+    "1": {
+      "default": "Net*One",
+      "en": "Net*One"
+    },
+    "3": {
+      "default": "Telecel",
+      "en": "Telecel"
+    },
+    "4": {
+      "default": "Econet",
+      "en": "Econet"
+    }
+  },
+  "528": {
+    "11": {
+      "default": "DSTCom",
+      "en": "DSTCom"
+    },
+    "1": {
+      "default": "",
+      "en": ""
+    },
+    "2": {
+      "default": "B-Mobile",
+      "en": "B-Mobile"
+    }
+  },
+  "649": {
+    "1": {
+      "default": "MTC",
+      "en": "MTC"
+    },
+    "2": {
+      "default": "switch",
+      "en": "switch"
+    },
+    "3": {
+      "default": "Leo",
+      "en": "Leo"
+    }
+  },
+  "650": {
+    "1": {
+      "default": "TNM",
+      "en": "TNM"
+    },
+    "10": {
+      "default": "Airtel",
+      "en": "Airtel"
+    }
+  },
+  "530": {
+    "0": {
+      "default": "Telecom",
+      "en": "Telecom"
+    },
+    "1": {
+      "default": "Vodafone",
+      "en": "Vodafone"
+    },
+    "2": {
+      "default": "Telecom",
+      "en": "Telecom"
+    },
+    "24": {
+      "default": "2degrees",
+      "en": "2degrees"
+    },
+    "3": {
+      "default": "Woosh",
+      "en": "Woosh"
+    },
+    "4": {
+      "default": "TelstraClear",
+      "en": "TelstraClear"
+    },
+    "5": {
+      "default": "XT Mobile Network",
+      "en": "XT Mobile Network"
+    },
+    "6": {
+      "default": "Skinny",
+      "en": "Skinny"
+    }
+  },
+  "651": {
+    "1": {
+      "default": "Vodacom",
+      "en": "Vodacom"
+    },
+    "2": {
+      "default": "",
+      "en": ""
+    }
+  },
+  "410": {
+    "1": {
+      "default": "Mobilink",
+      "en": "Mobilink"
+    },
+    "3": {
+      "default": "Ufone",
+      "en": "Ufone"
+    },
+    "4": {
+      "default": "Zong",
+      "en": "Zong"
+    },
+    "6": {
+      "default": "Telenor",
+      "en": "Telenor"
+    },
+    "7": {
+      "default": "Warid",
+      "en": "Warid"
+    }
+  },
+  "652": {
+    "1": {
+      "default": "Mascom",
+      "en": "Mascom"
+    },
+    "2": {
+      "default": "Orange",
+      "en": "Orange"
+    },
+    "4": {
+      "default": "BTC Mobile",
+      "en": "BTC Mobile"
+    }
+  },
+  "653": {
+    "10": {
+      "default": "",
+      "en": ""
+    }
+  },
+  "412": {
+    "1": {
+      "default": "AWCC",
+      "en": "AWCC"
+    },
+    "50": {
+      "default": "Etisalat",
+      "en": "Etisalat"
+    },
+    "40": {
+      "default": "MTN",
+      "en": "MTN"
+    },
+    "20": {
+      "default": "Roshan",
+      "en": "Roshan"
+    }
+  },
+  "654": {
+    "1": {
+      "default": "",
+      "en": ""
+    }
+  },
+  "413": {
+    "1": {
+      "default": "Mobitel",
+      "en": "Mobitel"
+    },
+    "2": {
+      "default": "Dialog",
+      "en": "Dialog"
+    },
+    "3": {
+      "default": "Etisalat",
+      "en": "Etisalat"
+    },
+    "5": {
+      "default": "Airtel",
+      "en": "Airtel"
+    },
+    "8": {
+      "default": "Hutch",
+      "en": "Hutch"
+    }
+  },
+  "655": {
+    "11": {
+      "default": "",
+      "en": ""
+    },
+    "33": {
+      "default": "",
+      "en": ""
+    },
+    "1": {
+      "default": "Vodacom",
+      "en": "Vodacom"
+    },
+    "2": {
+      "default": "Telkom Mobile / 8.ta",
+      "en": "Telkom Mobile / 8.ta"
+    },
+    "13": {
+      "default": "Neotel",
+      "en": "Neotel"
+    },
+    "6": {
+      "default": "Sentech",
+      "en": "Sentech"
+    },
+    "7": {
+      "default": "Cell C",
+      "en": "Cell C"
+    },
+    "30": {
+      "default": "",
+      "en": ""
+    },
+    "31": {
+      "default": "",
+      "en": ""
+    },
+    "10": {
+      "default": "MTN",
+      "en": "MTN"
+    },
+    "21": {
+      "default": "",
+      "en": ""
+    },
+    "32": {
+      "default": "",
+      "en": ""
+    }
+  },
+  "414": {
+    "1": {
+      "default": "MPT",
+      "en": "MPT"
+    }
+  },
+  "415": {
+    "1": {
+      "default": "Alfa",
+      "en": "Alfa"
+    },
+    "3": {
+      "default": "mtc touch",
+      "en": "mtc touch"
+    },
+    "5": {
+      "default": "Ogero Mobile",
+      "en": "Ogero Mobile"
+    }
+  },
+  "536": {
+    "2": {
+      "default": "Digicel",
+      "en": "Digicel"
+    }
+  },
+  "657": {
+    "1": {
+      "default": "Eritel",
+      "en": "Eritel"
+    }
+  },
+  "416": {
+    "77": {
+      "default": "Orange",
+      "en": "Orange"
+    },
+    "1": {
+      "default": "zain JO",
+      "en": "zain JO"
+    },
+    "2": {
+      "default": "XPress Telecom",
+      "en": "XPress Telecom"
+    },
+    "3": {
+      "default": "Umniah",
+      "en": "Umniah"
+    }
+  },
+  "537": {
+    "1": {
+      "default": "B-Mobile",
+      "en": "B-Mobile"
+    },
+    "3": {
+      "default": "Digicel",
+      "en": "Digicel"
+    }
+  },
+  "417": {
+    "1": {
+      "default": "Syriatel",
+      "en": "Syriatel"
+    },
+    "2": {
+      "default": "MTN",
+      "en": "MTN"
+    }
+  },
+  "418": {
+    "45": {
+      "default": "Mobitel",
+      "en": "Mobitel"
+    },
+    "5": {
+      "default": "Asia Cell",
+      "en": "Asia Cell"
+    },
+    "8": {
+      "default": "SanaTel",
+      "en": "SanaTel"
+    },
+    "92": {
+      "default": "Omnnea",
+      "en": "Omnnea"
+    },
+    "40": {
+      "default": "Korek",
+      "en": "Korek"
+    },
+    "30": {
+      "default": "Zain",
+      "en": "Zain"
+    },
+    "20": {
+      "default": "Zain",
+      "en": "Zain"
+    }
+  },
+  "539": {
+    "88": {
+      "default": "Digicel",
+      "en": "Digicel"
+    },
+    "1": {
+      "default": "",
+      "en": ""
+    },
+    "43": {
+      "default": "",
+      "en": ""
+    }
+  },
+  "419": {
+    "2": {
+      "default": "zain KW",
+      "en": "zain KW"
+    },
+    "3": {
+      "default": "Wataniya",
+      "en": "Wataniya"
+    },
+    "4": {
+      "default": "Viva",
+      "en": "Viva"
+    }
+  },
+  "540": {
+    "1": {
+      "default": "BREEZE",
+      "en": "BREEZE"
+    }
+  },
+  "420": {
+    "1": {
+      "default": "Al Jawal",
+      "en": "Al Jawal"
+    },
+    "3": {
+      "default": "Mobily",
+      "en": "Mobily"
+    },
+    "4": {
+      "default": "Zain SA",
+      "en": "Zain SA"
+    }
+  },
+  "541": {
+    "1": {
+      "default": "SMILE",
+      "en": "SMILE"
+    }
+  },
+  "421": {
+    "1": {
+      "default": "SabaFon",
+      "en": "SabaFon"
+    },
+    "2": {
+      "default": "MTN",
+      "en": "MTN"
+    },
+    "3": {
+      "default": "Yemen Mobile",
+      "en": "Yemen Mobile"
+    },
+    "4": {
+      "default": "HiTS-UNITEL",
+      "en": "HiTS-UNITEL"
+    }
+  },
+  "542": {
+    "1": {
+      "default": "Vodafone",
+      "en": "Vodafone"
+    },
+    "2": {
+      "default": "Digicel",
+      "en": "Digicel"
+    }
+  },
+  "422": {
+    "2": {
+      "default": "Oman Mobile",
+      "en": "Oman Mobile"
+    },
+    "3": {
+      "default": "Nawras",
+      "en": "Nawras"
+    }
+  },
+  "302": {
+    "290": {
+      "default": "",
+      "en": ""
+    },
+    "270": {
+      "default": "未知",
+      "en": "未知"
+    },
+    "490": {
+      "default": "WIND Mobile",
+      "en": "WIND Mobile"
+    },
+    "370": {
+      "default": "Fido",
+      "en": "Fido"
+    },
+    "350": {
+      "default": "FIRST",
+      "en": "FIRST"
+    },
+    "652": {
+      "default": "",
+      "en": ""
+    },
+    "510": {
+      "default": "Videotron",
+      "en": "Videotron"
+    },
+    "653": {
+      "default": "Telus",
+      "en": "Telus"
+    },
+    "610": {
+      "default": "Bell",
+      "en": "Bell"
+    },
+    "655": {
+      "default": "MTS",
+      "en": "MTS"
+    },
+    "710": {
+      "default": "Globalstar",
+      "en": "Globalstar"
+    },
+    "656": {
+      "default": "TBay",
+      "en": "TBay"
+    },
+    "657": {
+      "default": "Telus",
+      "en": "Telus"
+    },
+    "380": {
+      "default": "DMTS",
+      "en": "DMTS"
+    },
+    "360": {
+      "default": "MiKe",
+      "en": "MiKe"
+    },
+    "361": {
+      "default": "Telus",
+      "en": "Telus"
+    },
+    "680": {
+      "default": "SaskTel",
+      "en": "SaskTel"
+    },
+    "780": {
+      "default": "SaskTel",
+      "en": "SaskTel"
+    },
+    "220": {
+      "default": "Telus",
+      "en": "Telus"
+    },
+    "660": {
+      "default": "MTS",
+      "en": "MTS"
+    },
+    "880": {
+      "default": "Bell / Telus / SaskTel",
+      "en": "Bell / Telus / SaskTel"
+    },
+    "221": {
+      "default": "Telus",
+      "en": "Telus"
+    },
+    "320": {
+      "default": "Mobilicity",
+      "en": "Mobilicity"
+    },
+    "640": {
+      "default": "Bell",
+      "en": "Bell"
+    },
+    "620": {
+      "default": "ICE Wireless",
+      "en": "ICE Wireless"
+    },
+    "500": {
+      "default": "Videotron",
+      "en": "Videotron"
+    },
+    "720": {
+      "default": "Rogers Wireless",
+      "en": "Rogers Wireless"
+    },
+    "701": {
+      "default": "",
+      "en": ""
+    },
+    "702": {
+      "default": "",
+      "en": ""
+    },
+    "703": {
+      "default": "",
+      "en": ""
+    }
+  },
+  "544": {
+    "11": {
+      "default": "Bluesky",
+      "en": "Bluesky"
+    }
+  },
+  "424": {
+    "2": {
+      "default": "Etisalat",
+      "en": "Etisalat"
+    },
+    "3": {
+      "default": "du",
+      "en": "du"
+    }
+  },
+  "545": {
+    "9": {
+      "default": "Kiribati Frigate",
+      "en": "Kiribati Frigate"
+    }
+  },
+  "425": {
+    "77": {
+      "default": "Mirs",
+      "en": "Mirs"
+    },
+    "1": {
+      "default": "Orange",
+      "en": "Orange"
+    },
+    "2": {
+      "default": "Cellcom",
+      "en": "Cellcom"
+    },
+    "3": {
+      "default": "Pelephone",
+      "en": "Pelephone"
+    },
+    "5": {
+      "default": "Jawwal",
+      "en": "Jawwal"
+    },
+    "6": {
+      "default": "Wataniya",
+      "en": "Wataniya"
+    }
+  },
+  "546": {
+    "1": {
+      "default": "Mobilis",
+      "en": "Mobilis"
+    }
+  },
+  "426": {
+    "1": {
+      "default": "Batelco",
+      "en": "Batelco"
+    },
+    "2": {
+      "default": "zain BH",
+      "en": "zain BH"
+    },
+    "4": {
+      "default": "VIVA",
+      "en": "VIVA"
+    }
+  },
+  "547": {
+    "20": {
+      "default": "Vini",
+      "en": "Vini"
+    }
+  },
+  "427": {
+    "1": {
+      "default": "Qtel",
+      "en": "Qtel"
+    },
+    "2": {
+      "default": "Vodafone",
+      "en": "Vodafone"
+    },
+    "5": {
+      "default": "Ministry of Interior",
+      "en": "Ministry of Interior"
+    }
+  },
+  "548": {
+    "1": {
+      "default": "",
+      "en": ""
+    }
+  },
+  "428": {
+    "88": {
+      "default": "Unitel",
+      "en": "Unitel"
+    },
+    "99": {
+      "default": "MobiCom",
+      "en": "MobiCom"
+    },
+    "91": {
+      "default": "Skytel",
+      "en": "Skytel"
+    },
+    "98": {
+      "default": "G.Mobile",
+      "en": "G.Mobile"
+    }
+  },
+  "549": {
+    "1": {
+      "default": "Digicel",
+      "en": "Digicel"
+    },
+    "27": {
+      "default": "SamoaTel",
+      "en": "SamoaTel"
+    }
+  },
+  "308": {
+    "1": {
+      "default": "Ameris",
+      "en": "Ameris"
+    }
+  },
+  "429": {
+    "1": {
+      "default": "Namaste / NT Mobile",
+      "en": "Namaste / NT Mobile"
+    },
+    "2": {
+      "default": "Ncell",
+      "en": "Ncell"
+    },
+    "3": {
+      "default": "Sky/C-Phone",
+      "en": "Sky/C-Phone"
+    },
+    "4": {
+      "default": "SmartCell",
+      "en": "SmartCell"
+    }
+  },
+  "550": {
+    "1": {
+      "default": "",
+      "en": ""
+    }
+  },
+  "310": {
+    "190": {
+      "default": "Dutch Harbor",
+      "en": "Dutch Harbor"
+    },
+    "590": {
+      "default": "Alltel",
+      "en": "Alltel"
+    },
+    "470": {
+      "default": "nTelos",
+      "en": "nTelos"
+    },
+    "350": {
+      "default": "",
+      "en": ""
+    },
+    "230": {
+      "default": "",
+      "en": ""
+    },
+    "110": {
+      "default": "PTI Pacifica",
+      "en": "PTI Pacifica"
+    },
+    "990": {
+      "default": "",
+      "en": ""
+    },
+    "870": {
+      "default": "PACE",
+      "en": "PACE"
+    },
+    "630": {
+      "default": "AmeriLink PCS",
+      "en": "AmeriLink PCS"
+    },
+    "510": {
+      "default": "Airtel",
+      "en": "Airtel"
+    },
+    "90": {
+      "default": "AT&T",
+      "en": "AT&T"
+    },
+    "910": {
+      "default": "First Cellular",
+      "en": "First Cellular"
+    },
+    "10": {
+      "default": "",
+      "en": ""
+    },
+    "12": {
+      "default": "Verizon",
+      "en": "Verizon"
+    },
+    "13": {
+      "default": "MobileTel",
+      "en": "MobileTel"
+    },
+    "14": {
+      "default": "",
+      "en": ""
+    },
+    "16": {
+      "default": "",
+      "en": ""
+    },
+    "17": {
+      "default": "",
+      "en": ""
+    },
+    "480": {
+      "default": "",
+      "en": ""
+    },
+    "240": {
+      "default": "",
+      "en": ""
+    },
+    "120": {
+      "default": "Sprint",
+      "en": "Sprint"
+    },
+    "880": {
+      "default": "Advantage",
+      "en": "Advantage"
+    },
+    "760": {
+      "default": "Panhandle",
+      "en": "Panhandle"
+    },
+    "640": {
+      "default": "Airadigm",
+      "en": "Airadigm"
+    },
+    "520": {
+      "default": "VeriSign",
+      "en": "VeriSign"
+    },
+    "4": {
+      "default": "Verizon",
+      "en": "Verizon"
+    },
+    "400": {
+      "default": "i CAN_GSM",
+      "en": "i CAN_GSM"
+    },
+    "5": {
+      "default": "Verizon",
+      "en": "Verizon"
+    },
+    "800": {
+      "default": "",
+      "en": ""
+    },
+    "20": {
+      "default": "",
+      "en": ""
+    },
+    "26": {
+      "default": "T-Mobile",
+      "en": "T-Mobile"
+    },
+    "490": {
+      "default": "T-Mobile",
+      "en": "T-Mobile"
+    },
+    "370": {
+      "default": "docomo",
+      "en": "docomo"
+    },
+    "250": {
+      "default": "",
+      "en": ""
+    },
+    "890": {
+      "default": "Unicel",
+      "en": "Unicel"
+    },
+    "770": {
+      "default": "i wireless",
+      "en": "i wireless"
+    },
+    "650": {
+      "default": "Jasper",
+      "en": "Jasper"
+    },
+    "530": {
+      "default": "",
+      "en": ""
+    },
+    "410": {
+      "default": "AT&T",
+      "en": "AT&T"
+    },
+    "30": {
+      "default": "Centennial",
+      "en": "Centennial"
+    },
+    "32": {
+      "default": "IT&E Wireless",
+      "en": "IT&E Wireless"
+    },
+    "33": {
+      "default": "",
+      "en": ""
+    },
+    "34": {
+      "default": "Airpeak",
+      "en": "Airpeak"
+    },
+    "380": {
+      "default": "AT&T",
+      "en": "AT&T"
+    },
+    "260": {
+      "default": "",
+      "en": ""
+    },
+    "140": {
+      "default": "mPulse",
+      "en": "mPulse"
+    },
+    "780": {
+      "default": "",
+      "en": ""
+    },
+    "660": {
+      "default": "T-Mobile",
+      "en": "T-Mobile"
+    },
+    "540": {
+      "default": "Oklahoma Western",
+      "en": "Oklahoma Western"
+    },
+    "420": {
+      "default": "Cincinnati Bell",
+      "en": "Cincinnati Bell"
+    },
+    "300": {
+      "default": "iSmart Mobile",
+      "en": "iSmart Mobile"
+    },
+    "940": {
+      "default": "",
+      "en": ""
+    },
+    "40": {
+      "default": "Concho",
+      "en": "Concho"
+    },
+    "46": {
+      "default": "SIMMETRY",
+      "en": "SIMMETRY"
+    },
+    "390": {
+      "default": "Cellular One of East Texas",
+      "en": "Cellular One of East Texas"
+    },
+    "270": {
+      "default": "",
+      "en": ""
+    },
+    "150": {
+      "default": "AT&T",
+      "en": "AT&T"
+    },
+    "790": {
+      "default": "PinPoint",
+      "en": "PinPoint"
+    },
+    "670": {
+      "default": "Northstar",
+      "en": "Northstar"
+    },
+    "430": {
+      "default": "",
+      "en": ""
+    },
+    "310": {
+      "default": "",
+      "en": ""
+    },
+    "311": {
+      "default": "",
+      "en": ""
+    },
+    "950": {
+      "default": "XIT Wireless",
+      "en": "XIT Wireless"
+    },
+    "830": {
+      "default": "Caprock",
+      "en": "Caprock"
+    },
+    "53": {
+      "default": "",
+      "en": ""
+    },
+    "54": {
+      "default": "",
+      "en": ""
+    },
+    "59": {
+      "default": "Cellular One",
+      "en": "Cellular One"
+    },
+    "280": {
+      "default": "",
+      "en": ""
+    },
+    "160": {
+      "default": "",
+      "en": ""
+    },
+    "680": {
+      "default": "AT&T",
+      "en": "AT&T"
+    },
+    "560": {
+      "default": "AT&T",
+      "en": "AT&T"
+    },
+    "440": {
+      "default": "Cellular One",
+      "en": "Cellular One"
+    },
+    "320": {
+      "default": "Cellular One",
+      "en": "Cellular One"
+    },
+    "200": {
+      "default": "",
+      "en": ""
+    },
+    "960": {
+      "default": "Plateau Wireless",
+      "en": "Plateau Wireless"
+    },
+    "840": {
+      "default": "telna Mobile",
+      "en": "telna Mobile"
+    },
+    "60": {
+      "default": "",
+      "en": ""
+    },
+    "66": {
+      "default": "",
+      "en": ""
+    },
+    "290": {
+      "default": "",
+      "en": ""
+    },
+    "170": {
+      "default": "",
+      "en": ""
+    },
+    "690": {
+      "default": "Conestoga",
+      "en": "Conestoga"
+    },
+    "570": {
+      "default": "Cellular One",
+      "en": "Cellular One"
+    },
+    "450": {
+      "default": "Viaero",
+      "en": "Viaero"
+    },
+    "330": {
+      "default": "T-Mobile",
+      "en": "T-Mobile"
+    },
+    "210": {
+      "default": "",
+      "en": ""
+    },
+    "970": {
+      "default": "Globalstar",
+      "en": "Globalstar"
+    },
+    "850": {
+      "default": "Aeris",
+      "en": "Aeris"
+    },
+    "730": {
+      "default": "SeaMobile",
+      "en": "SeaMobile"
+    },
+    "610": {
+      "default": "Epic Touch",
+      "en": "Epic Touch"
+    },
+    "70": {
+      "default": "",
+      "en": ""
+    },
+    "180": {
+      "default": "West Central",
+      "en": "West Central"
+    },
+    "580": {
+      "default": "T-Mobile",
+      "en": "T-Mobile"
+    },
+    "460": {
+      "default": "Simmetry",
+      "en": "Simmetry"
+    },
+    "340": {
+      "default": "Westlink",
+      "en": "Westlink"
+    },
+    "220": {
+      "default": "",
+      "en": ""
+    },
+    "100": {
+      "default": "Plateau Wireless",
+      "en": "Plateau Wireless"
+    },
+    "980": {
+      "default": "",
+      "en": ""
+    },
+    "740": {
+      "default": "Convey",
+      "en": "Convey"
+    },
+    "620": {
+      "default": "Coleman County Telecom",
+      "en": "Coleman County Telecom"
+    },
+    "500": {
+      "default": "Alltel",
+      "en": "Alltel"
+    },
+    "80": {
+      "default": "Corr",
+      "en": "Corr"
+    },
+    "900": {
+      "default": "Mid-Rivers Wireless",
+      "en": "Mid-Rivers Wireless"
+    }
+  },
+  "552": {
+    "1": {
+      "default": "PNCC",
+      "en": "PNCC"
+    },
+    "80": {
+      "default": "Palau Mobile",
+      "en": "Palau Mobile"
+    }
+  },
+  "311": {
+    "190": {
+      "default": "",
+      "en": ""
+    },
+    "170": {
+      "default": "PetroCom",
+      "en": "PetroCom"
+    },
+    "150": {
+      "default": "",
+      "en": ""
+    },
+    "250": {
+      "default": "i CAN_GSM",
+      "en": "i CAN_GSM"
+    },
+    "130": {
+      "default": "",
+      "en": ""
+    },
+    "230": {
+      "default": "",
+      "en": ""
+    },
+    "110": {
+      "default": "",
+      "en": ""
+    },
+    "330": {
+      "default": "Bug Tussel Wireless",
+      "en": "Bug Tussel Wireless"
+    },
+    "210": {
+      "default": "",
+      "en": ""
+    },
+    "90": {
+      "default": "Long Lines Wireless",
+      "en": "Long Lines Wireless"
+    },
+    "70": {
+      "default": "Easterbrooke",
+      "en": "Easterbrooke"
+    },
+    "50": {
+      "default": "",
+      "en": ""
+    },
+    "30": {
+      "default": "",
+      "en": ""
+    },
+    "10": {
+      "default": "Chariton Valley",
+      "en": "Chariton Valley"
+    },
+    "180": {
+      "default": "",
+      "en": ""
+    },
+    "160": {
+      "default": "",
+      "en": ""
+    },
+    "480": {
+      "default": "Verizon",
+      "en": "Verizon"
+    },
+    "140": {
+      "default": "Sprocket",
+      "en": "Sprocket"
+    },
+    "120": {
+      "default": "",
+      "en": ""
+    },
+    "0": {
+      "default": "",
+      "en": ""
+    },
+    "220": {
+      "default": "",
+      "en": ""
+    },
+    "660": {
+      "default": "metroPCS",
+      "en": "metroPCS"
+    },
+    "100": {
+      "default": "",
+      "en": ""
+    },
+    "80": {
+      "default": "Pine Cellular",
+      "en": "Pine Cellular"
+    },
+    "60": {
+      "default": "Farmers Cellular",
+      "en": "Farmers Cellular"
+    },
+    "40": {
+      "default": "",
+      "en": ""
+    },
+    "20": {
+      "default": "",
+      "en": ""
+    }
+  },
+  "432": {
+    "11": {
+      "default": "IR-MCI",
+      "en": "IR-MCI"
+    },
+    "35": {
+      "default": "Irancell",
+      "en": "Irancell"
+    },
+    "14": {
+      "default": "TKC",
+      "en": "TKC"
+    },
+    "19": {
+      "default": "MTCE",
+      "en": "MTCE"
+    },
+    "70": {
+      "default": "TCI",
+      "en": "TCI"
+    },
+    "93": {
+      "default": "Iraphone",
+      "en": "Iraphone"
+    },
+    "32": {
+      "default": "Taliya",
+      "en": "Taliya"
+    }
+  },
+  "553": {
+    "1": {
+      "default": "TTC",
+      "en": "TTC"
+    }
+  },
+  "313": {
+    "100": {
+      "default": "700 MHz Public Safety Broadband",
+      "en": "700 MHz Public Safety Broadband"
+    }
+  },
+  "434": {
+    "1": {
+      "default": "",
+      "en": ""
+    },
+    "2": {
+      "default": "",
+      "en": ""
+    },
+    "4": {
+      "default": "Beeline",
+      "en": "Beeline"
+    },
+    "5": {
+      "default": "Ucell",
+      "en": "Ucell"
+    },
+    "6": {
+      "default": "Perfectum Mobile",
+      "en": "Perfectum Mobile"
+    },
+    "7": {
+      "default": "MTS",
+      "en": "MTS"
+    }
+  },
+  "555": {
+    "1": {
+      "default": "Telecom Niue",
+      "en": "Telecom Niue"
+    }
+  },
+  "436": {
+    "1": {
+      "default": "Tcell",
+      "en": "Tcell"
+    },
+    "12": {
+      "default": "Tcell",
+      "en": "Tcell"
+    },
+    "2": {
+      "default": "Tcell",
+      "en": "Tcell"
+    },
+    "3": {
+      "default": "MLT",
+      "en": "MLT"
+    },
+    "4": {
+      "default": "Babilon-M",
+      "en": "Babilon-M"
+    },
+    "5": {
+      "default": "Beeline",
+      "en": "Beeline"
+    }
+  },
+  "316": {
+    "11": {
+      "default": "",
+      "en": ""
+    },
+    "10": {
+      "default": "Nextel",
+      "en": "Nextel"
+    }
+  },
+  "437": {
+    "1": {
+      "default": "Beeline",
+      "en": "Beeline"
+    },
+    "3": {
+      "default": "Fonex",
+      "en": "Fonex"
+    },
+    "5": {
+      "default": "MegaCom",
+      "en": "MegaCom"
+    },
+    "9": {
+      "default": "O!",
+      "en": "O!"
+    }
+  },
+  "438": {
+    "1": {
+      "default": "MTS",
+      "en": "MTS"
+    },
+    "2": {
+      "default": "TM-Cell",
+      "en": "TM-Cell"
+    }
+  },
+  "440": {
+    "44": {
+      "default": "SoftBank",
+      "en": "SoftBank"
+    },
+    "88": {
+      "default": "KDDI",
+      "en": "KDDI"
+    },
+    "45": {
+      "default": "SoftBank",
+      "en": "SoftBank"
+    },
+    "89": {
+      "default": "KDDI",
+      "en": "KDDI"
+    },
+    "46": {
+      "default": "SoftBank",
+      "en": "SoftBank"
+    },
+    "47": {
+      "default": "SoftBank",
+      "en": "SoftBank"
+    },
+    "48": {
+      "default": "SoftBank",
+      "en": "SoftBank"
+    },
+    "49": {
+      "default": "DoCoMo",
+      "en": "DoCoMo"
+    },
+    "90": {
+      "default": "SoftBank",
+      "en": "SoftBank"
+    },
+    "92": {
+      "default": "SoftBank",
+      "en": "SoftBank"
+    },
+    "93": {
+      "default": "SoftBank",
+      "en": "SoftBank"
+    },
+    "50": {
+      "default": "KDDI",
+      "en": "KDDI"
+    },
+    "94": {
+      "default": "SoftBank",
+      "en": "SoftBank"
+    },
+    "51": {
+      "default": "KDDI",
+      "en": "KDDI"
+    },
+    "95": {
+      "default": "SoftBank",
+      "en": "SoftBank"
+    },
+    "52": {
+      "default": "KDDI",
+      "en": "KDDI"
+    },
+    "96": {
+      "default": "SoftBank",
+      "en": "SoftBank"
+    },
+    "53": {
+      "default": "KDDI",
+      "en": "KDDI"
+    },
+    "97": {
+      "default": "SoftBank",
+      "en": "SoftBank"
+    },
+    "10": {
+      "default": "NTT docomo",
+      "en": "NTT docomo"
+    },
+    "54": {
+      "default": "KDDI",
+      "en": "KDDI"
+    },
+    "98": {
+      "default": "SoftBank",
+      "en": "SoftBank"
+    },
+    "11": {
+      "default": "NTT docomo",
+      "en": "NTT docomo"
+    },
+    "55": {
+      "default": "KDDI",
+      "en": "KDDI"
+    },
+    "99": {
+      "default": "DoCoMo",
+      "en": "DoCoMo"
+    },
+    "12": {
+      "default": "NTT docomo",
+      "en": "NTT docomo"
+    },
+    "56": {
+      "default": "KDDI",
+      "en": "KDDI"
+    },
+    "13": {
+      "default": "NTT docomo",
+      "en": "NTT docomo"
+    },
+    "14": {
+      "default": "NTT docomo",
+      "en": "NTT docomo"
+    },
+    "58": {
+      "default": "DoCoMo",
+      "en": "DoCoMo"
+    },
+    "15": {
+      "default": "NTT docomo",
+      "en": "NTT docomo"
+    },
+    "16": {
+      "default": "NTT docomo",
+      "en": "NTT docomo"
+    },
+    "17": {
+      "default": "NTT docomo",
+      "en": "NTT docomo"
+    },
+    "18": {
+      "default": "NTT docomo",
+      "en": "NTT docomo"
+    },
+    "19": {
+      "default": "NTT docomo",
+      "en": "NTT docomo"
+    },
+    "0": {
+      "default": "eMobile",
+      "en": "eMobile"
+    },
+    "1": {
+      "default": "NTT docomo",
+      "en": "NTT docomo"
+    },
+    "2": {
+      "default": "NTT docomo",
+      "en": "NTT docomo"
+    },
+    "3": {
+      "default": "NTT docomo",
+      "en": "NTT docomo"
+    },
+    "4": {
+      "default": "SoftBank",
+      "en": "SoftBank"
+    },
+    "6": {
+      "default": "SoftBank",
+      "en": "SoftBank"
+    },
+    "7": {
+      "default": "KDDI",
+      "en": "KDDI"
+    },
+    "8": {
+      "default": "KDDI",
+      "en": "KDDI"
+    },
+    "9": {
+      "default": "NTT docomo",
+      "en": "NTT docomo"
+    },
+    "60": {
+      "default": "DoCoMo",
+      "en": "DoCoMo"
+    },
+    "61": {
+      "default": "DoCoMo",
+      "en": "DoCoMo"
+    },
+    "62": {
+      "default": "DoCoMo",
+      "en": "DoCoMo"
+    },
+    "63": {
+      "default": "DoCoMo",
+      "en": "DoCoMo"
+    },
+    "20": {
+      "default": "SoftBank",
+      "en": "SoftBank"
+    },
+    "64": {
+      "default": "DoCoMo",
+      "en": "DoCoMo"
+    },
+    "21": {
+      "default": "NTT docomo",
+      "en": "NTT docomo"
+    },
+    "65": {
+      "default": "DoCoMo",
+      "en": "DoCoMo"
+    },
+    "22": {
+      "default": "NTT docomo",
+      "en": "NTT docomo"
+    },
+    "66": {
+      "default": "DoCoMo",
+      "en": "DoCoMo"
+    },
+    "23": {
+      "default": "DoCoMo",
+      "en": "DoCoMo"
+    },
+    "67": {
+      "default": "DoCoMo",
+      "en": "DoCoMo"
+    },
+    "24": {
+      "default": "DoCoMo",
+      "en": "DoCoMo"
+    },
+    "68": {
+      "default": "DoCoMo",
+      "en": "DoCoMo"
+    },
+    "25": {
+      "default": "DoCoMo",
+      "en": "DoCoMo"
+    },
+    "69": {
+      "default": "DoCoMo",
+      "en": "DoCoMo"
+    },
+    "26": {
+      "default": "DoCoMo",
+      "en": "DoCoMo"
+    },
+    "27": {
+      "default": "DoCoMo",
+      "en": "DoCoMo"
+    },
+    "28": {
+      "default": "DoCoMo",
+      "en": "DoCoMo"
+    },
+    "29": {
+      "default": "DoCoMo",
+      "en": "DoCoMo"
+    },
+    "70": {
+      "default": "au",
+      "en": "au"
+    },
+    "71": {
+      "default": "KDDI",
+      "en": "KDDI"
+    },
+    "72": {
+      "default": "KDDI",
+      "en": "KDDI"
+    },
+    "73": {
+      "default": "KDDI",
+      "en": "KDDI"
+    },
+    "30": {
+      "default": "DoCoMo",
+      "en": "DoCoMo"
+    },
+    "74": {
+      "default": "KDDI",
+      "en": "KDDI"
+    },
+    "31": {
+      "default": "DoCoMo",
+      "en": "DoCoMo"
+    },
+    "75": {
+      "default": "KDDI",
+      "en": "KDDI"
+    },
+    "32": {
+      "default": "DoCoMo",
+      "en": "DoCoMo"
+    },
+    "76": {
+      "default": "KDDI",
+      "en": "KDDI"
+    },
+    "33": {
+      "default": "DoCoMo",
+      "en": "DoCoMo"
+    },
+    "77": {
+      "default": "KDDI",
+      "en": "KDDI"
+    },
+    "34": {
+      "default": "DoCoMo",
+      "en": "DoCoMo"
+    },
+    "78": {
+      "default": "",
+      "en": ""
+    },
+    "35": {
+      "default": "DoCoMo",
+      "en": "DoCoMo"
+    },
+    "79": {
+      "default": "KDDI",
+      "en": "KDDI"
+    },
+    "36": {
+      "default": "DoCoMo",
+      "en": "DoCoMo"
+    },
+    "37": {
+      "default": "DoCoMo",
+      "en": "DoCoMo"
+    },
+    "38": {
+      "default": "DoCoMo",
+      "en": "DoCoMo"
+    },
+    "39": {
+      "default": "DoCoMo",
+      "en": "DoCoMo"
+    },
+    "80": {
+      "default": "TU-KA",
+      "en": "TU-KA"
+    },
+    "81": {
+      "default": "TU-KA",
+      "en": "TU-KA"
+    },
+    "82": {
+      "default": "TU-KA",
+      "en": "TU-KA"
+    },
+    "83": {
+      "default": "TU-KA",
+      "en": "TU-KA"
+    },
+    "40": {
+      "default": "SoftBank",
+      "en": "SoftBank"
+    },
+    "84": {
+      "default": "TU-KA",
+      "en": "TU-KA"
+    },
+    "41": {
+      "default": "SoftBank",
+      "en": "SoftBank"
+    },
+    "85": {
+      "default": "TU-KA",
+      "en": "TU-KA"
+    },
+    "42": {
+      "default": "SoftBank",
+      "en": "SoftBank"
+    },
+    "86": {
+      "default": "TU-KA",
+      "en": "TU-KA"
+    },
+    "43": {
+      "default": "SoftBank",
+      "en": "SoftBank"
+    },
+    "87": {
+      "default": "DoCoMo",
+      "en": "DoCoMo"
+    }
+  },
+  "202": {
+    "1": {
+      "default": "Cosmote",
+      "en": "Cosmote"
+    },
+    "5": {
+      "default": "Vodafone",
+      "en": "Vodafone"
+    },
+    "9": {
+      "default": "Wind",
+      "en": "Wind"
+    },
+    "10": {
+      "default": "Wind",
+      "en": "Wind"
+    }
+  },
+  "204": {
+    "22": {
+      "default": "",
+      "en": ""
+    },
+    "23": {
+      "default": "",
+      "en": ""
+    },
+    "67": {
+      "default": "",
+      "en": ""
+    },
+    "24": {
+      "default": "",
+      "en": ""
+    },
+    "68": {
+      "default": "",
+      "en": ""
+    },
+    "25": {
+      "default": "",
+      "en": ""
+    },
+    "69": {
+      "default": "",
+      "en": ""
+    },
+    "26": {
+      "default": "",
+      "en": ""
+    },
+    "27": {
+      "default": "",
+      "en": ""
+    },
+    "10": {
+      "default": "KPN",
+      "en": "KPN"
+    },
+    "12": {
+      "default": "Telfort",
+      "en": "Telfort"
+    },
+    "13": {
+      "default": "",
+      "en": ""
+    },
+    "14": {
+      "default": "6Gmobile",
+      "en": "6Gmobile"
+    },
+    "15": {
+      "default": "",
+      "en": ""
+    },
+    "16": {
+      "default": "T-Mobile",
+      "en": "T-Mobile"
+    },
+    "17": {
+      "default": "Intercity Zakelijk",
+      "en": "Intercity Zakelijk"
+    },
+    "18": {
+      "default": "",
+      "en": ""
+    },
+    "19": {
+      "default": "",
+      "en": ""
+    },
+    "1": {
+      "default": "",
+      "en": ""
+    },
+    "2": {
+      "default": "Tele2",
+      "en": "Tele2"
+    },
+    "3": {
+      "default": "",
+      "en": ""
+    },
+    "4": {
+      "default": "Vodafone",
+      "en": "Vodafone"
+    },
+    "5": {
+      "default": "",
+      "en": ""
+    },
+    "6": {
+      "default": "",
+      "en": ""
+    },
+    "7": {
+      "default": "",
+      "en": ""
+    },
+    "8": {
+      "default": "KPN",
+      "en": "KPN"
+    },
+    "9": {
+      "default": "Lycamobile",
+      "en": "Lycamobile"
+    },
+    "20": {
+      "default": "T-Mobile",
+      "en": "T-Mobile"
+    },
+    "21": {
+      "default": "",
+      "en": ""
+    }
+  },
+  "206": {
+    "1": {
+      "default": "Proximus",
+      "en": "Proximus"
+    },
+    "5": {
+      "default": "Telenet",
+      "en": "Telenet"
+    },
+    "20": {
+      "default": "BASE",
+      "en": "BASE"
+    },
+    "10": {
+      "default": "Mobistar",
+      "en": "Mobistar"
+    }
+  },
+  "208": {
+    "11": {
+      "default": "SFR",
+      "en": "SFR"
+    },
+    "22": {
+      "default": "Transatel Mobile",
+      "en": "Transatel Mobile"
+    },
+    "88": {
+      "default": "Bouygues",
+      "en": "Bouygues"
+    },
+    "13": {
+      "default": "SFR",
+      "en": "SFR"
+    },
+    "14": {
+      "default": "Free Mobile",
+      "en": "Free Mobile"
+    },
+    "15": {
+      "default": "Free Mobile",
+      "en": "Free Mobile"
+    },
+    "0": {
+      "default": "Orange",
+      "en": "Orange"
+    },
+    "1": {
+      "default": "Orange",
+      "en": "Orange"
+    },
+    "2": {
+      "default": "Orange",
+      "en": "Orange"
+    },
+    "5": {
+      "default": "",
+      "en": ""
+    },
+    "6": {
+      "default": "",
+      "en": ""
+    },
+    "7": {
+      "default": "",
+      "en": ""
+    },
+    "20": {
+      "default": "Bouygues",
+      "en": "Bouygues"
+    },
+    "10": {
+      "default": "SFR",
+      "en": "SFR"
+    },
+    "21": {
+      "default": "Bouygues",
+      "en": "Bouygues"
+    }
+  },
+  "450": {
+    "2": {
+      "default": "KT",
+      "en": "KT"
+    },
+    "3": {
+      "default": "Power 017",
+      "en": "Power 017"
+    },
+    "4": {
+      "default": "KT",
+      "en": "KT"
+    },
+    "5": {
+      "default": "SKT",
+      "en": "SKT"
+    },
+    "6": {
+      "default": "LGU+",
+      "en": "LGU+"
+    },
+    "8": {
+      "default": "olleh",
+      "en": "olleh"
+    }
+  },
+  "330": {
+    "0": {
+      "default": "Open Mobile",
+      "en": "Open Mobile"
+    },
+    "110": {
+      "default": "Claro",
+      "en": "Claro"
+    }
+  },
+  "452": {
+    "1": {
+      "default": "MobiFone",
+      "en": "MobiFone"
+    },
+    "2": {
+      "default": "Vinaphone",
+      "en": "Vinaphone"
+    },
+    "3": {
+      "default": "S-Fone",
+      "en": "S-Fone"
+    },
+    "4": {
+      "default": "Viettel Mobile",
+      "en": "Viettel Mobile"
+    },
+    "5": {
+      "default": "Vietnamobile",
+      "en": "Vietnamobile"
+    },
+    "6": {
+      "default": "EVNTelecom",
+      "en": "EVNTelecom"
+    },
+    "7": {
+      "default": "Beeline VN",
+      "en": "Beeline VN"
+    },
+    "8": {
+      "default": "3G EVNTelecom",
+      "en": "3G EVNTelecom"
+    }
+  },
+  "212": {
+    "1": {
+      "default": "Office des Telephones",
+      "en": "Office des Telephones"
+    }
+  },
+  "454": {
+    "11": {
+      "default": "",
+      "en": ""
+    },
+    "12": {
+      "default": "CMCC HK",
+      "en": "CMCC HK"
+    },
+    "13": {
+      "default": "CMCC HK",
+      "en": "CMCC HK"
+    },
+    "14": {
+      "default": "",
+      "en": ""
+    },
+    "15": {
+      "default": "",
+      "en": ""
+    },
+    "16": {
+      "default": "PCCW Mobile (2G)",
+      "en": "PCCW Mobile (2G)"
+    },
+    "17": {
+      "default": "",
+      "en": ""
+    },
+    "18": {
+      "default": "",
+      "en": ""
+    },
+    "29": {
+      "default": "PCCW Mobile (CDMA)",
+      "en": "PCCW Mobile (CDMA)"
+    },
+    "19": {
+      "default": "PCCW Mobile (3G)",
+      "en": "PCCW Mobile (3G)"
+    },
+    "0": {
+      "default": "1O1O / One2Free",
+      "en": "1O1O / One2Free"
+    },
+    "1": {
+      "default": "",
+      "en": ""
+    },
+    "2": {
+      "default": "",
+      "en": ""
+    },
+    "3": {
+      "default": "3 (3G)",
+      "en": "3 (3G)"
+    },
+    "4": {
+      "default": "3 (2G)",
+      "en": "3 (2G)"
+    },
+    "5": {
+      "default": "3 (CDMA)",
+      "en": "3 (CDMA)"
+    },
+    "6": {
+      "default": "SmarTone",
+      "en": "SmarTone"
+    },
+    "7": {
+      "default": "",
+      "en": ""
+    },
+    "8": {
+      "default": "",
+      "en": ""
+    },
+    "9": {
+      "default": "",
+      "en": ""
+    },
+    "10": {
+      "default": "New World Mobility",
+      "en": "New World Mobility"
+    }
+  },
+  "213": {
+    "3": {
+      "default": "Mobiland",
+      "en": "Mobiland"
+    }
+  },
+  "334": {
+    "50": {
+      "default": "Iusacell",
+      "en": "Iusacell"
+    },
+    "40": {
+      "default": "Iusacell / Unefon",
+      "en": "Iusacell / Unefon"
+    },
+    "30": {
+      "default": "movistar",
+      "en": "movistar"
+    },
+    "20": {
+      "default": "Telcel",
+      "en": "Telcel"
+    },
+    "10": {
+      "default": "Nextel",
+      "en": "Nextel"
+    }
+  },
+  "455": {
+    "0": {
+      "default": "SmarTone",
+      "en": "SmarTone"
+    },
+    "1": {
+      "default": "CTM",
+      "en": "CTM"
+    },
+    "2": {
+      "default": "China Telecom",
+      "en": "China Telecom"
+    },
+    "3": {
+      "default": "3",
+      "en": "3"
+    },
+    "4": {
+      "default": "CTM",
+      "en": "CTM"
+    },
+    "5": {
+      "default": "3",
+      "en": "3"
+    }
+  },
+  "214": {
+    "22": {
+      "default": "DigiMobil",
+      "en": "DigiMobil"
+    },
+    "23": {
+      "default": "Barablu",
+      "en": "Barablu"
+    },
+    "24": {
+      "default": "Eroski",
+      "en": "Eroski"
+    },
+    "25": {
+      "default": "LycaMobile",
+      "en": "LycaMobile"
+    },
+    "15": {
+      "default": "BT",
+      "en": "BT"
+    },
+    "16": {
+      "default": "TeleCable",
+      "en": "TeleCable"
+    },
+    "17": {
+      "default": "Móbil R",
+      "en": "Móbil R"
+    },
+    "18": {
+      "default": "ONO",
+      "en": "ONO"
+    },
+    "19": {
+      "default": "Simyo",
+      "en": "Simyo"
+    },
+    "1": {
+      "default": "Vodafone",
+      "en": "Vodafone"
+    },
+    "3": {
+      "default": "Orange",
+      "en": "Orange"
+    },
+    "4": {
+      "default": "Yoigo",
+      "en": "Yoigo"
+    },
+    "5": {
+      "default": "TME",
+      "en": "TME"
+    },
+    "6": {
+      "default": "Vodafone",
+      "en": "Vodafone"
+    },
+    "7": {
+      "default": "movistar",
+      "en": "movistar"
+    },
+    "8": {
+      "default": "Euskaltel",
+      "en": "Euskaltel"
+    },
+    "9": {
+      "default": "Orange",
+      "en": "Orange"
+    },
+    "20": {
+      "default": "Fonyou",
+      "en": "Fonyou"
+    },
+    "21": {
+      "default": "Jazztel",
+      "en": "Jazztel"
+    }
+  },
+  "456": {
+    "11": {
+      "default": "Excell",
+      "en": "Excell"
+    },
+    "1": {
+      "default": "Mobitel",
+      "en": "Mobitel"
+    },
+    "2": {
+      "default": "hello",
+      "en": "hello"
+    },
+    "3": {
+      "default": "",
+      "en": ""
+    },
+    "4": {
+      "default": "qb",
+      "en": "qb"
+    },
+    "5": {
+      "default": "Star-Cell",
+      "en": "Star-Cell"
+    },
+    "6": {
+      "default": "Smart Mobile",
+      "en": "Smart Mobile"
+    },
+    "18": {
+      "default": "Mfone",
+      "en": "Mfone"
+    },
+    "8": {
+      "default": "Metfone",
+      "en": "Metfone"
+    },
+    "9": {
+      "default": "Beeline",
+      "en": "Beeline"
+    }
+  },
+  "457": {
+    "1": {
+      "default": "LTC",
+      "en": "LTC"
+    },
+    "2": {
+      "default": "ETL",
+      "en": "ETL"
+    },
+    "3": {
+      "default": "Unitel",
+      "en": "Unitel"
+    },
+    "8": {
+      "default": "Tigo",
+      "en": "Tigo"
+    }
+  },
+  "216": {
+    "1": {
+      "default": "Telenor",
+      "en": "Telenor"
+    },
+    "70": {
+      "default": "Vodafone",
+      "en": "Vodafone"
+    },
+    "30": {
+      "default": "T-Mobile",
+      "en": "T-Mobile"
+    }
+  },
+  "338": {
+    "5": {
+      "default": "Digicel",
+      "en": "Digicel"
+    },
+    "70": {
+      "default": "Claro",
+      "en": "Claro"
+    },
+    "180": {
+      "default": "LIME",
+      "en": "LIME"
+    },
+    "50": {
+      "default": "Digicel",
+      "en": "Digicel"
+    },
+    "20": {
+      "default": "LIME",
+      "en": "LIME"
+    }
+  },
+  "218": {
+    "3": {
+      "default": "HT-ERONET",
+      "en": "HT-ERONET"
+    },
+    "5": {
+      "default": "m:tel",
+      "en": "m:tel"
+    },
+    "90": {
+      "default": "BH Mobile",
+      "en": "BH Mobile"
+    }
+  },
+  "219": {
+    "1": {
+      "default": "T-Mobile",
+      "en": "T-Mobile"
+    },
+    "2": {
+      "default": "Tele2",
+      "en": "Tele2"
+    },
+    "10": {
+      "default": "Vip",
+      "en": "Vip"
+    }
+  },
+  "460": {
+    "11": {
+      "default": "China Telecom",
+      "en": "China Telecom",
+      "cn": "中国电信"
+    },
+    "12": {
+      "default": "China Telecom",
+      "en": "China Telecom",
+      "cn": "中国电信"
+    },
+    "13": {
+      "default": "China Mobile",
+      "en": "China Mobile",
+      "cn": "中国移动"
+    },
+    "0": {
+      "default": "China Mobile",
+      "en": "China Mobile",
+      "cn": "中国移动"
+    },
+    "1": {
+      "default": "China Unicom",
+      "en": "China Unicom",
+      "cn": "中国联通"
+    },
+    "2": {
+      "default": "China Mobile",
+      "en": "China Mobile",
+      "cn": "中国移动"
+    },
+    "3": {
+      "default": "China Telecom",
+      "en": "China Telecom",
+      "cn": "中国电信"
+    },
+    "4": {
+      "default": "China Mobile",
+      "en": "China Mobile",
+      "cn": "中国移动"
+    },
+    "5": {
+      "default": "China Telecom",
+      "en": "China Telecom",
+      "cn": "中国电信"
+    },
+    "6": {
+      "default": "China Unicom",
+      "en": "China Unicom",
+      "cn": "中国联通"
+    },
+    "7": {
+      "default": "China Mobile",
+      "en": "China Mobile",
+      "cn": "中国移动"
+    },
+    "8": {
+      "default": "China Mobile",
+      "en": "China Mobile",
+      "cn": "中国移动"
+    },
+    "9": {
+      "default": "China Unicom",
+      "en": "China Unicom",
+      "cn": "中国联通"
+    },
+    "20": {
+      "default": "China Tietong",
+      "en": "China Tietong",
+      "cn": "中国铁通"
+    },
+    "10": {
+      "default": "China Unicom",
+      "en": "China Unicom",
+      "cn": "中国联通"
+    },
+    "15": {
+      "default": "China Broadnet",
+      "en": "China Broadnet",
+      "cn": "中国广电"
+    },
+    "24": {
+      "default": "China Mobile",
+      "en": "China Mobile",
+      "cn": "中国移动"
+    }
+  },
+  "340": {
+    "1": {
+      "default": "Orange",
+      "en": "Orange"
+    },
+    "2": {
+      "default": "Outremer",
+      "en": "Outremer"
+    },
+    "3": {
+      "default": "Telcell",
+      "en": "Telcell"
+    },
+    "8": {
+      "default": "Dauphin",
+      "en": "Dauphin"
+    },
+    "20": {
+      "default": "Digicel",
+      "en": "Digicel"
+    }
+  },
+  "220": {
+    "1": {
+      "default": "Telenor",
+      "en": "Telenor"
+    },
+    "2": {
+      "default": "Telenor",
+      "en": "Telenor"
+    },
+    "3": {
+      "default": "mt:s",
+      "en": "mt:s"
+    },
+    "5": {
+      "default": "VIP",
+      "en": "VIP"
+    }
+  },
+  "342": {
+    "750": {
+      "default": "Digicel",
+      "en": "Digicel"
+    },
+    "600": {
+      "default": "LIME",
+      "en": "LIME"
+    },
+    "820": {
+      "default": "",
+      "en": ""
+    }
+  },
+  "222": {
+    "77": {
+      "default": "IPSE 2000",
+      "en": "IPSE 2000"
+    },
+    "88": {
+      "default": "Wind",
+      "en": "Wind"
+    },
+    "99": {
+      "default": "3 Italia",
+      "en": "3 Italia"
+    },
+    "1": {
+      "default": "TIM",
+      "en": "TIM"
+    },
+    "2": {
+      "default": "Elsacom",
+      "en": "Elsacom"
+    },
+    "7": {
+      "default": "Noverca",
+      "en": "Noverca"
+    },
+    "30": {
+      "default": "RFI",
+      "en": "RFI"
+    },
+    "10": {
+      "default": "Vodafone",
+      "en": "Vodafone"
+    },
+    "98": {
+      "default": "Blu",
+      "en": "Blu"
+    }
+  },
+  "344": {
+    "920": {
+      "default": "LIME",
+      "en": "LIME"
+    },
+    "30": {
+      "default": "APUA",
+      "en": "APUA"
+    }
+  },
+  "466": {
+    "11": {
+      "default": "Chunghwa LDM",
+      "en": "Chunghwa LDM"
+    },
+    "88": {
+      "default": "和信电讯",
+      "en": "和信电讯"
+    },
+    "99": {
+      "default": "泛亚电信",
+      "en": "泛亚电信"
+    },
+    "1": {
+      "default": "远传电信",
+      "en": "远传电信"
+    },
+    "89": {
+      "default": "威宝电信",
+      "en": "威宝电信"
+    },
+    "5": {
+      "default": "亚太电信",
+      "en": "亚太电信"
+    },
+    "6": {
+      "default": "Tuntex",
+      "en": "Tuntex"
+    },
+    "92": {
+      "default": "中华电信",
+      "en": "中华电信"
+    },
+    "93": {
+      "default": "东信电讯",
+      "en": "东信电讯"
+    },
+    "97": {
+      "default": "台湾大哥大",
+      "en": "台湾大哥大"
+    }
+  },
+  "346": {
+    "50": {
+      "default": "Digicel",
+      "en": "Digicel"
+    },
+    "140": {
+      "default": "LIME",
+      "en": "LIME"
+    }
+  },
+  "467": {
+    "192": {
+      "default": "Koryolink",
+      "en": "Koryolink"
+    },
+    "193": {
+      "default": "SunNet",
+      "en": "SunNet"
+    }
+  },
+  "226": {
+    "11": {
+      "default": "Enigma-System",
+      "en": "Enigma-System"
+    },
+    "1": {
+      "default": "Vodafone",
+      "en": "Vodafone"
+    },
+    "2": {
+      "default": "Romtelecom",
+      "en": "Romtelecom"
+    },
+    "3": {
+      "default": "Cosmote",
+      "en": "Cosmote"
+    },
+    "4": {
+      "default": "Cosmote",
+      "en": "Cosmote"
+    },
+    "5": {
+      "default": "Digi.Mobil",
+      "en": "Digi.Mobil"
+    },
+    "6": {
+      "default": "Cosmote",
+      "en": "Cosmote"
+    },
+    "10": {
+      "default": "Orange",
+      "en": "Orange"
+    }
+  },
+  "348": {
+    "770": {
+      "default": "Digicel",
+      "en": "Digicel"
+    },
+    "170": {
+      "default": "LIME",
+      "en": "LIME"
+    },
+    "570": {
+      "default": "CCT Boatphone",
+      "en": "CCT Boatphone"
+    }
+  },
+  "228": {
+    "1": {
+      "default": "Swisscom",
+      "en": "Swisscom"
+    },
+    "2": {
+      "default": "Sunrise",
+      "en": "Sunrise"
+    },
+    "3": {
+      "default": "Orange",
+      "en": "Orange"
+    },
+    "5": {
+      "default": "",
+      "en": ""
+    },
+    "6": {
+      "default": "SBB-CFF-FFS",
+      "en": "SBB-CFF-FFS"
+    },
+    "7": {
+      "default": "IN&Phone",
+      "en": "IN&Phone"
+    },
+    "8": {
+      "default": "Tele2",
+      "en": "Tele2"
+    },
+    "50": {
+      "default": "",
+      "en": ""
+    },
+    "51": {
+      "default": "",
+      "en": ""
+    }
+  },
+  "901": {
+    "23": {
+      "default": "",
+      "en": ""
+    },
+    "24": {
+      "default": "iNum",
+      "en": "iNum"
+    },
+    "26": {
+      "default": "TIM",
+      "en": "TIM"
+    },
+    "28": {
+      "default": "Vodafone",
+      "en": "Vodafone"
+    },
+    "29": {
+      "default": "Telenor",
+      "en": "Telenor"
+    },
+    "10": {
+      "default": "ACeS",
+      "en": "ACeS"
+    },
+    "11": {
+      "default": "Inmarsat",
+      "en": "Inmarsat"
+    },
+    "12": {
+      "default": "Telenor",
+      "en": "Telenor"
+    },
+    "13": {
+      "default": "GSM.AQ",
+      "en": "GSM.AQ"
+    },
+    "14": {
+      "default": "",
+      "en": ""
+    },
+    "15": {
+      "default": "",
+      "en": ""
+    },
+    "16": {
+      "default": "",
+      "en": ""
+    },
+    "17": {
+      "default": "Navitas",
+      "en": "Navitas"
+    },
+    "18": {
+      "default": "Cellular @Sea",
+      "en": "Cellular @Sea"
+    },
+    "19": {
+      "default": "",
+      "en": ""
+    },
+    "1": {
+      "default": "ICO",
+      "en": "ICO"
+    },
+    "2": {
+      "default": "",
+      "en": ""
+    },
+    "3": {
+      "default": "Iridium",
+      "en": "Iridium"
+    },
+    "4": {
+      "default": "Globalstar",
+      "en": "Globalstar"
+    },
+    "5": {
+      "default": "",
+      "en": ""
+    },
+    "6": {
+      "default": "",
+      "en": ""
+    },
+    "7": {
+      "default": "Ellipso",
+      "en": "Ellipso"
+    },
+    "8": {
+      "default": "",
+      "en": ""
+    },
+    "9": {
+      "default": "",
+      "en": ""
+    },
+    "21": {
+      "default": "Seanet",
+      "en": "Seanet"
+    }
+  }
+}

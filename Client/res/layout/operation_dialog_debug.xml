@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="320.0dip" android:layout_height="wrap_content" android:divider="@color/operation_divider" android:minHeight="200.0dip" android:showDividers="end|middle"
+      xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+        <TextView android:layout_width="fill_parent" android:layout_height="@dimen/operation_actionbar" android:text="调试" style="@style/Operation.Text" />
+        <Button android:id="@id/btn_debug_options" android:background="@drawable/operation_selector_button_transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="选项" />
+        <Button android:id="@id/btn_debug_restart" android:background="@drawable/operation_selector_button_transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="重启APP" />
+        <Button android:id="@id/btn_debug_emulator" android:background="@drawable/operation_selector_button_transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="开启模拟器" />
+        <Button android:id="@id/btn_debug_electronic_key" android:background="@drawable/operation_selector_button_transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="开启电子钥匙" />
+    </LinearLayout>
+</FrameLayout>

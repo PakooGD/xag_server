@@ -1,0 +1,51 @@
+.class public Lha/h;
+.super Lha/c;
+.source "SourceFile"
+
+
+# annotations
+.annotation runtime Ljava/lang/Deprecated;
+.end annotation
+
+
+# direct methods
+.method public constructor <init>(Landroid/content/Context;Lha/b;Lha/d;)V
+    .locals 1
+
+    sget-object v0, Lcom/apm/insight/CrashType;->CUSTOM_JAVA:Lcom/apm/insight/CrashType;
+
+    invoke-direct {p0, v0, p1, p2, p3}, Lha/c;-><init>(Lcom/apm/insight/CrashType;Landroid/content/Context;Lha/b;Lha/d;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public b(Lcom/apm/insight/entity/a;)Lcom/apm/insight/entity/a;
+    .locals 1
+
+    .line 1
+    invoke-super {p0, p1}, Lha/c;->b(Lcom/apm/insight/entity/a;)Lcom/apm/insight/entity/a;
+
+    move-result-object p1
+
+    iget-object v0, p0, Lha/c;->b:Landroid/content/Context;
+
+    invoke-static {v0}, Lcom/apm/insight/entity/Header;->a(Landroid/content/Context;)Lcom/apm/insight/entity/Header;
+
+    move-result-object v0
+
+    invoke-static {v0}, Lcom/apm/insight/entity/Header;->a(Lcom/apm/insight/entity/Header;)Lcom/apm/insight/entity/Header;
+
+    invoke-static {v0}, Lcom/apm/insight/entity/Header;->b(Lcom/apm/insight/entity/Header;)V
+
+    invoke-virtual {v0}, Lcom/apm/insight/entity/Header;->c()Lorg/json/JSONObject;
+
+    invoke-virtual {v0}, Lcom/apm/insight/entity/Header;->d()Lorg/json/JSONObject;
+
+    invoke-virtual {v0}, Lcom/apm/insight/entity/Header;->e()Lorg/json/JSONObject;
+
+    invoke-virtual {p1, v0}, Lcom/apm/insight/entity/a;->a(Lcom/apm/insight/entity/Header;)Lcom/apm/insight/entity/a;
+
+    return-object p1
+.end method

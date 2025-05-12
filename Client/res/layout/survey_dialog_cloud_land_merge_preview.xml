@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/content_root" android:background="@color/cube_color_content_tertiary" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="#ff000000" android:layout_width="1.0px" android:layout_height="1.0px" />
+    <View android:layout_gravity="end|bottom|center" android:background="#ff000000" android:layout_width="1.0px" android:layout_height="1.0px" />
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/survey_shape_r16161616_white" android:paddingTop="24.0dip" android:layout_width="304.0dip" android:layout_height="wrap_content" android:minWidth="270.0dip">
+        <TextView android:textSize="18.0sp" android:textColor="@color/survey_color_black" android:gravity="center" android:id="@id/survey_dialog_yesNo_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/survey_preview" />
+        <FrameLayout android:id="@id/fl_map" android:layout_width="fill_parent" android:layout_height="200.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="12.0dip" android:layout_marginHorizontal="12.0dip" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/obs_check_panel" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_marginHorizontal="12.0dip">
+            <Switch android:id="@id/sw_obstacles" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/basecompat_margin_3" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Survey_Switch" />
+            <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/basecompat_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/survey_show_cloud_obstacle" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/sw_obstacles" app:layout_constraintTop_toTopOf="parent" style="@style/BaseCompat.Text" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <View android:background="#1a000000" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/survey_dialog_tips_bottom" android:layout_width="fill_parent" android:layout_height="44.0dip">
+            <androidx.appcompat.widget.AppCompatButton android:textSize="16.0sp" android:textColor="@color/survey_color_e0000000" android:gravity="center" android:id="@id/survey_dialog_No" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/survey_str_cancel" android:layout_weight="1.0" style="@style/Widget.AppCompat.Toolbar.Button.Navigation" />
+            <View android:background="#1a000000" android:layout_width="0.5dip" android:layout_height="fill_parent" />
+            <androidx.appcompat.widget.AppCompatButton android:textSize="16.0sp" android:textColor="@color/survey_theme_1" android:gravity="center" android:id="@id/survey_dialog_Yes" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/survey_str_ok" android:layout_weight="1.0" style="@style/Widget.AppCompat.Toolbar.Button.Navigation" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

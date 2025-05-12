@@ -1,0 +1,28 @@
+.class public interface abstract Lcom/xag/session/protocol2/proto/superx/uav/test/sync/UavTestSubDevSync$c;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/google/protobuf/MessageOrBuilder;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/xag/session/protocol2/proto/superx/uav/test/sync/UavTestSubDevSync;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "c"
+.end annotation
+
+
+# virtual methods
+.method public abstract getUploadSubdevSnFile()Lcom/xag/session/protocol2/proto/superx/uav/test/sync/UavTestSubDevSync$UploadSubdevSnFileRequest;
+.end method
+
+.method public abstract getUploadSubdevSnFileOrBuilder()Lcom/xag/session/protocol2/proto/superx/uav/test/sync/UavTestSubDevSync$f;
+.end method
+
+.method public abstract hasUploadSubdevSnFile()Z
+.end method

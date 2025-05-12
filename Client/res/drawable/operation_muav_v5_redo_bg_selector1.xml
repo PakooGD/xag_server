@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false">
+        <shape>
+            <solid android:color="@color/cube_color_container_bg_deep" />
+            <corners android:topLeftRadius="@dimen/cube_dp_8" android:bottomLeftRadius="@dimen/cube_dp_8" />
+        </shape>
+    </item>
+    <item android:state_enabled="true">
+        <shape>
+            <solid android:color="@color/cube_color_container_bg_deep" />
+            <corners android:topLeftRadius="@dimen/cube_dp_8" android:bottomLeftRadius="@dimen/cube_dp_8" />
+        </shape>
+    </item>
+</selector>

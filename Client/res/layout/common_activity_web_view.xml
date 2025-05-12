@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/ly" android:background="@color/cube_color_container_bg_base" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/lyMain" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/lyWebTitle" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/cube_dp_48" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <ImageView android:id="@id/btnWebBack" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/cube_ic_gen_chevron_left" android:contentDescription="@null" android:paddingStart="@dimen/cube_dp_20" android:paddingEnd="@dimen/cube_dp_12" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <com.xa.core.cube.TextView android:textSize="@dimen/cube_dp_18" android:textColor="@color/cube_color_content_primary" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/tvWebTitle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cube_dp_60" android:layout_marginRight="@dimen/cube_dp_60" android:maxLines="1" android:layout_centerInParent="true" android:layout_marginHorizontal="@dimen/cube_dp_60" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Cube.Font.Medium.Title1" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <FrameLayout android:id="@id/lyContent" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.tencent.smtt.sdk.WebView android:layout_gravity="center" android:id="@id/care_web" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/lyNoNet" android:background="@color/cube_color_container_bg_base" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/common_ic_no_network" android:contentDescription="@null" />
+                    <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/common_retry_and_check_net_again" style="@style/Cube.Font.Medium.Body" />
+                    <com.xa.core.cube.TextView android:textColor="@color/cube_color_on_primary" android:id="@id/btnRetry" android:background="@drawable/operation_res_bg_cube_project_primary_8dp" android:paddingLeft="@dimen/cube_dp_16" android:paddingTop="@dimen/cube_dp_8" android:paddingRight="@dimen/cube_dp_16" android:paddingBottom="@dimen/cube_dp_8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/basecompat_margin_dp_24" android:text="@string/common_retry" android:paddingHorizontal="@dimen/cube_dp_16" android:paddingVertical="@dimen/cube_dp_8" style="@style/Cube.Font.Medium.Callout" />
+                </LinearLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </FrameLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/flFullScreenVideo" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

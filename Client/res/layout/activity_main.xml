@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Button android:textSize="20.0sp" android:textColor="@android:color/black" android:id="@id/bt_action_yy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="动作有源" />
+    <Button android:textSize="20.0sp" android:textColor="@android:color/black" android:id="@id/bt_action_wy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="动作无源" />
+    <Button android:textSize="20.0sp" android:textColor="@android:color/black" android:id="@id/bt_fmp_yy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="静默有源" />
+    <Button android:textSize="20.0sp" android:textColor="@android:color/black" android:id="@id/bt_fmp_wy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="静默无源" />
+    <Button android:textSize="20.0sp" android:textColor="@android:color/black" android:id="@id/bt_flash_wy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="炫彩无源" />
+    <Button android:textSize="20.0sp" android:textColor="@android:color/black" android:id="@id/bt_flash_yy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="炫彩有源" />
+</LinearLayout>

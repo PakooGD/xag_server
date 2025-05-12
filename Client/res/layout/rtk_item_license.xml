@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/iv_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:src="@drawable/devices_img_network_trial" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.xa.core.cube.TextView android:textSize="26.0sp" android:textColor="@color/devices_black" android:id="@id/tv_license_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="61.0dip" app:layout_constraintEnd_toEndOf="@id/iv_bg" app:layout_constraintStart_toStartOf="@id/iv_bg" app:layout_constraintTop_toTopOf="@id/iv_bg" />
+    <com.xa.core.cube.TextView android:textSize="17.0sp" android:textColor="@color/devices_white" android:id="@id/tv_code" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="102.0dip" app:layout_constraintEnd_toEndOf="@id/iv_bg" app:layout_constraintStart_toStartOf="@id/iv_bg" app:layout_constraintTop_toTopOf="@id/iv_bg" />
+</androidx.constraintlayout.widget.ConstraintLayout>

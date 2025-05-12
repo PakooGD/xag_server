@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/devices_background" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/devices_actionbar">
+        <ImageButton android:id="@id/btn_spread_manual_check_back" android:background="@drawable/devices_selector_button_transparent" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/cube_ic_gen_chevron_left" android:paddingStart="@dimen/devices_padding" android:paddingEnd="@dimen/devices_padding" android:layout_marginStart="@dimen/devices_margin_8" />
+        <com.xa.core.cube.TextView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/devices_spread_pellet" style="@style/Devices.Text.title" />
+        <ImageButton android:layout_gravity="end|center" android:id="@id/btn_spread_profiles_add" android:background="@drawable/devices_selector_button_transparent" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/gen_add_24" android:paddingStart="@dimen/devices_padding" android:paddingEnd="@dimen/devices_padding" app:tint="@color/cube_color_content_primary" />
+    </FrameLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/cube_dp_16">
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.0" />
+        <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center_horizontal" android:id="@id/rcv_spread_profiles" android:background="@drawable/devices_shape_white_round" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.6668" />
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.0" />
+    </LinearLayout>
+</LinearLayout>

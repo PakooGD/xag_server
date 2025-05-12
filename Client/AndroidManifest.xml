@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="34" android:compileSdkVersionCodename="14" package="com.xag.agri.operation" platformBuildVersionCode="34" platformBuildVersionName="14">
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+    <permission-group android:name="com.xag.agri.operation.andpermission"/>
+    <queries>
+        <package android:name="com.tencent.mm"/>
+        <intent>
+            <action android:name="com.hihonor.push.action.BIND_PUSH_SERVICE"/>
+        </intent>
+        <intent>
+            <action android:name="com.huawei.hms.core.aidlservice"/>
+        </intent>
+        <intent>
+            <action android:name="com.huawei.hms.core"/>
+        </intent>
+    </queries>
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.TTS_SERVICE"/>
+        </intent>
+    </queries>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="com.hihonor.push.permission.READ_PUSH_NOTIFICATION_INFO"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.ACCESS_LOCATION"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO"/>
+    <uses-feature android:name="android.hardware.usb.host"/>
+    <uses-permission android:name="android.hardware.usb.host" android:required="true"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.READ_PROFILE"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <permission android:name="com.xag.agri.operation.permission.JOPERATE_MESSAGE" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.xag.agri.operation.permission.JOPERATE_MESSAGE"/>
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-feature android:name="android.hardware.camera.autofocus"/>
+    <uses-permission android:name="android.permission.FLASHLIGHT"/>
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <permission android:name="com.xag.agri.operation.andpermission.bridge" android:permissionGroup="com.xag.agri.operation.andpermission" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.xag.agri.operation.andpermission.bridge"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-feature android:name="android.hardware.camera.front" android:required="false"/>
+    <uses-feature android:name="android.hardware.microphone" android:required="false"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-feature android:glEsVersion="0x00020000" android:required="true"/>
+    <uses-feature android:name="android.hardware.wifi" android:required="false"/>
+    <permission android:name="com.xag.agri.operation.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.xag.agri.operation.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    <permission android:name="com.xag.agri.operation.permission.PROCESS_PUSH_MSG" android:protectionLevel="signature"/>
+    <permission android:name="com.xag.agri.operation.permission.PUSH_PROVIDER" android:protectionLevel="signature"/>
+    <permission android:name="com.xag.agri.operation.permission.PUSH_WRITE_PROVIDER" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.xag.agri.operation.permission.PROCESS_PUSH_MSG"/>
+    <uses-permission android:name="com.xag.agri.operation.permission.PUSH_PROVIDER"/>
+    <uses-permission android:name="com.coloros.mcs.permission.RECIEVE_MCS_MESSAGE"/>
+    <uses-permission android:name="com.heytap.mcs.permission.RECIEVE_MCS_MESSAGE"/>
+    <permission android:name="com.xag.agri.operation.permission.MIPUSH_RECEIVE" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.xag.agri.operation.permission.MIPUSH_RECEIVE"/>
+    <uses-permission android:name="com.asus.msa.SupplementaryDID.ACCESS"/>
+    <permission android:name="com.xag.agri.operation.permission.JPUSH_MESSAGE" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.xag.agri.operation.permission.JPUSH_MESSAGE"/>
+    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE"/>
+    <uses-permission android:name="com.vivo.notification.permission.BADGE_ICON"/>
+    <uses-permission android:name="com.hihonor.android.launcher.permission.CHANGE_BADGE"/>
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION"/>
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <application android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:extractNativeLibs="false" android:hardwareAccelerated="true" android:icon="@mipmap/operation_ic_launcher" android:label="@string/app_name" android:largeHeap="true" android:name="com.xag.agri.operation.SophixStubApplication" android:networkSecurityConfig="@xml/network_security_config" android:requestLegacyExternalStorage="true" android:roundIcon="@mipmap/operation_ic_launcher_round" android:supportsRtl="true" android:theme="@style/XagTheme.APP">
+        <profileable android:shell="true"/>
+        <meta-data android:name="com.huawei.hms.client.appid" android:value="107459989"/>
+        <meta-data android:name="com.huawei.hms.client.cpid" android:value="\ 890086000102251460"/>
+        <activity android:exported="true" android:name="com.xag.agri.auth.ui.SplashActivity" android:screenOrientation="unspecified" android:windowSoftInputMode="adjustNothing">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <meta-data android:name="com.google.firebase.messaging.default_notification_icon" android:resource="@mipmap/operation_ic_launcher"/>
+        <meta-data android:name="WX_APP_ID" android:value="wx001044f37a9f99af"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="true" android:launchMode="singleTask" android:name="com.sensorsdata.analytics.android.sdk.dialog.SchemeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="saf348bd2e"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:hardwareAccelerated="true" android:name="com.megvii.meglive_sdk.detect.fmp.FmpLivenessActivity" android:screenOrientation="portrait" android:theme="@style/sdkTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:hardwareAccelerated="true" android:name="com.megvii.meglive_sdk.detect.action.ActionLivenessActivity" android:screenOrientation="portrait" android:theme="@style/sdkTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.megvii.meglive_sdk.detect.color.FmpColorfulActivity" android:screenOrientation="portrait" android:theme="@style/sdkTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.megvii.meglive_sdk.detect.guide.GrantActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.megvii.meglive_sdk.detect.agreement.UserAgreementActivity" android:theme="@android:style/Theme.Light.NoTitleBar"/>
+        <meta-data android:name="com.hihonor.push.sdk_version" android:value="7.0.1.103"/>
+        <meta-data android:name="sdkVersion" android:value="3100"/>
+        <activity android:exported="false" android:name="com.xag.agri.v4.operation.uav.v2.prescription.PrescriptionActivityV5" android:screenOrientation="behind"/>
+        <service android:name="com.xag.agri.v4.operation.uav.v2.mission.records.MissionRecordSubmitLocalService"/>
+        <activity android:exported="false" android:name="com.xag.agri.v4.records.ui.table.HistoryRecordTableActivityV5" android:screenOrientation="behind"/>
+        <activity android:exported="false" android:name="com.xag.agri.v4.records.ui.table.CreateTableActivityV5" android:screenOrientation="behind"/>
+        <activity android:exported="false" android:name="com.xag.agri.v4.records.ui.table.RecordTableActivityV5" android:screenOrientation="behind"/>
+        <activity android:exported="false" android:name="com.xag.agri.v4.records.ui.migrate.MigrateRecordActivityV5" android:screenOrientation="behind"/>
+        <activity android:exported="false" android:name="com.xag.agri.v4.records.ui.offline.RecordsTaskReportActivityV5" android:screenOrientation="behind"/>
+        <activity android:exported="false" android:name="com.xag.agri.v4.records.ui.offline.RecordOfflineReportActivityV5" android:screenOrientation="behind"/>
+        <activity android:name="com.xag.agri.v4.land.business.core.XRouterActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.xag.agri.v4.land.business.core.XMapActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.xag.agri.v4.land.business.core.home.hdmap.HdMapDetailActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.xag.agri.v4.land.business.core.home.hdmap.HdMapDetailNewActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.xag.agri.v4.land.business.core.home.hdmap.HDMapNewCheckDataActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.xag.agri.v4.land.business.core.offline.SurveyOfflineActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.xag.agri.v4.land.business.core.editor.Survey3DevOperationTipPage" android:screenOrientation="behind"/>
+        <activity android:name="com.xag.agri.v4.land.business.core.home.land.Survey3LandPrescriptionMapPage" android:screenOrientation="behind"/>
+        <activity android:name="com.xag.agri.v4.land.business.core.home.list.Survey3LocalHdMapsActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.xag.agri.v4.land.business.core.local.cloud.Survey3CloudLocalListPage" android:screenOrientation="behind"/>
+        <activity android:name="com.xag.agri.v4.land.business.core.local.cloud.Survey3FileBrowserPage" android:screenOrientation="behind"/>
+        <activity android:name="com.xag.agri.v4.land.business.core.local.hdmap.SurveyRemoteHDMapEnableListActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.xag.agri.v4.land.business.core.local.hdmap.SurveyRemoteHDMapWorkActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.xag.agri.v4.land.business.core.home.list.batch.Survey3BatchLandDeleteActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.xag.agri.v4.land.business.core.home.list.batch.Survey3BatchPrescriptionDeleteActivity" android:screenOrientation="behind"/>
+        <provider android:authorities="com.xag.agri.operation.local.hdmap.fileprovider" android:exported="false" android:grantUriPermissions="true" android:name="com.xag.agri.v4.land.business.core.comm.LocalHDMapFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/survey_file_paths"/>
+        </provider>
+        <activity android:exported="false" android:name="com.xag.agri.v4.user.ui.v5.migrate.normal.DateMigrateOperationActivity" android:screenOrientation="behind"/>
+        <activity android:exported="false" android:name="com.xag.agri.v4.user.ui.v5.setting.NoFlyZoneManagerPreviewActivityV5" android:screenOrientation="behind"/>
+        <activity android:exported="false" android:name="com.xag.agri.v4.user.ui.v5.setting.NoFlyZoneManagerActivityV5" android:screenOrientation="behind"/>
+        <activity android:exported="false" android:name="com.xag.agri.v4.user.ui.v5.src4.SRC4AppUpdateActivity" android:screenOrientation="landscape"/>
+        <activity android:exported="false" android:name="com.xag.agri.v4.user.ui.v5.team.TeamRenameActivityV5" android:screenOrientation="behind"/>
+        <activity android:exported="false" android:name="com.xag.agri.v4.user.ui.v5.team.TeamMemberRemoveActivityV5" android:screenOrientation="behind"/>
+        <activity android:exported="false" android:name="com.xag.agri.v4.user.ui.v5.team.TeamMemberAddActivityV5" android:screenOrientation="behind"/>
+        <activity android:exported="false" android:name="com.xag.agri.v4.user.ui.v5.team.TeamLeaderTransferActivityV5" android:screenOrientation="behind"/>
+        <activity android:exported="false" android:name="com.xag.agri.v4.user.ui.v5.team.TeamJoinActivityV5" android:screenOrientation="behind"/>
+        <activity android:exported="false" android:name="com.xag.agri.v4.user.ui.v5.team.TeamCardActivityV5" android:screenOrientation="behind"/>
+        <activity android:exported="false" android:name="com.xag.agri.v4.user.ui.v5.team.TeamJoinByQRCodeActivityV5" android:screenOrientation="behind"/>
+        <activity android:exported="false" android:name="com.xag.agri.v4.user.ui.v5.team.TeamCreateActivityV5" android:screenOrientation="behind"/>
+        <activity android:exported="false" android:name="com.xag.agri.v4.user.ui.v5.personcenter.AvatarPreviewActivityV5" android:screenOrientation="behind"/>
+        <activity android:exported="false" android:name="com.xag.agri.v4.user.ui.v5.team.TeamDetailActivityV5" android:screenOrientation="behind"/>
+        <activity android:exported="false" android:name="com.xag.agri.v4.user.ui.v5.team.TeamListActivityV5" android:screenOrientation="behind"/>
+        <activity android:exported="false" android:name="com.xag.agri.v4.user.ui.v5.personcenter.IdAuthActivityV5" android:screenOrientation="behind"/>
+        <activity android:exported="false" android:name="com.xag.agri.v4.user.ui.v5.personcenter.UserNameModifyActivityV5" android:screenOrientation="behind"/>
+        <activity android:exported="false" android:name="com.xag.agri.v4.user.ui.v5.personcenter.PersonEditActivityV5" android:screenOrientation="behind"/>
+        <activity android:exported="false" android:name="com.xag.agri.v4.user.ui.v5.personcenter.PersonCenterActivityV5" android:screenOrientation="behind"/>
+        <activity android:exported="false" android:name="com.xag.agri.v4.user.ui.v5.template.OperationTemplateActivityV5" android:screenOrientation="behind"/>
+        <activity android:exported="false" android:name="com.xag.agri.v4.user.ui.v5.service.ServiceActivityV5" android:screenOrientation="behind"/>
+        <activity android:exported="false" android:name="com.xag.agri.v4.user.ui.v5.setting.SettingActivityV5" android:screenOrientation="behind"/>
+        <activity android:exported="false" android:name="com.xag.agri.v4.user.ui.v5.setting.UnitActivityV5" android:screenOrientation="behind"/>
+        <activity android:exported="false" android:name="com.xag.agri.v4.user.ui.v5.setting.DataSyncActivity" android:screenOrientation="behind"/>
+        <provider android:authorities="com.xag.agri.operation.user.provider" android:exported="false" android:grantUriPermissions="true" android:name="com.xag.agri.v4.user.util.UserProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths"/>
+        </provider>
+        <activity android:launchMode="singleTask" android:name="com.xag.agri.v4.home.core.HomeActivity" android:screenOrientation="behind"/>
+        <activity android:exported="false" android:name="com.xag.agri.auth.ui.SimpleWebActivity"/>
+        <activity android:exported="false" android:name="com.xag.agri.auth.ui.DateMigrateProgressActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustNothing"/>
+        <activity android:exported="false" android:name="com.xag.agri.auth.ui.ReLoginActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustNothing"/>
+        <activity android:exported="false" android:name="com.xag.agri.auth.ui.IdentityByQrCodeActivity" android:screenOrientation="landscape"/>
+        <activity android:exported="false" android:launchMode="singleTop" android:name="com.xag.agri.auth.ui.LoginActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustNothing"/>
+        <activity android:launchMode="singleTask" android:name="com.xag.agri.v4.devices.DevicesActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.xag.agri.v4.devices.DeviceDetailActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.xag.agri.v4.devices.acs2.ACS2DetailActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.xag.agri.v4.devices.acs4.ACS4DetailActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.xag.agri.v4.devices.datalink.DL1DetailActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.xag.agri.v4.devices.arc.ARCDetailActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.xag.agri.v4.devices.xrtk.XRTK6DetailActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.xag.agri.v4.devices.uav.module.UavDetailsActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.xag.agri.v4.devices.components.add.AddDeviceActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.xag.agri.v4.devices.components.add.ComposeActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.xag.agri.v4.devices.components.add.AddDeviceConfirmActivity" android:screenOrientation="behind" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.xag.agri.v4.devices.components.lock.DevLockActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.xag.agri.v4.devices.uav.debug.UavDebugActivityV2" android:screenOrientation="behind"/>
+        <activity android:name="com.xag.agri.v4.devices.components.apn.APNDevicesSelectActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.xag.agri.v4.devices.components.apn.APNSettingActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.xag.agri.v4.devices.components.apn.APNSettingXRTKActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.xag.agri.v4.devices.muav.module.MUavDetailsActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.xag.agri.v4.devices.components.rc.pairing.RcPairingActivity" android:screenOrientation="behind"/>
+        <activity android:exported="true" android:name="com.xag.agri.v4.devices.components.mesh.DeviceMeshActivityNew" android:screenOrientation="behind"/>
+        <activity android:name="com.xag.agri.v4.devices.battery.BatteryDetailActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.xag.agri.v4.devices.gc.GCDetailActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.xag.agri.v4.devices.charger.ChargerDetailActivity" android:screenOrientation="behind"/>
+        <activity android:exported="true" android:name="com.xag.agri.v4.devices.src4.SRC4DetailActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.xag.agri.v4.devices.components.add.AddDeviceConfirmActivity2024" android:screenOrientation="behind" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.xag.agri.v4.devices.components.add.AddSRC4DeviceConfirmActivity" android:screenOrientation="behind"/>
+        <activity android:exported="true" android:name="com.xag.agri.v4.devices.src4.SRC4SystemDetailActivity" android:screenOrientation="behind"/>
+        <activity android:exported="true" android:name="com.xag.agri.v4.devices.src4.SRC4RemotePoleModeActivity" android:screenOrientation="behind"/>
+        <activity android:exported="true" android:name="com.xag.agri.v4.devices.src4.calibration.SRC4RemotePoleCalibrationActivity" android:screenOrientation="behind"/>
+        <activity android:exported="true" android:name="com.xag.agri.v4.devices.components.base.view.EditActivity" android:screenOrientation="behind"/>
+        <activity android:exported="true" android:name="com.xag.agri.v4.devices.src4.SRC4NetworkModeSetActivity" android:screenOrientation="behind"/>
+        <activity android:exported="true" android:name="com.xag.agri.v4.devices.linkcenter.LinkCenterActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.xag.agri.v4.devices.uav.module.power.PaddleTypeScanActivity" android:screenOrientation="behind"/>
+        <activity android:exported="true" android:name="com.xag.agri.v4.devices.components.channel.ChannelSetActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.xag.agri.v4.devices.xrtk.station.XRTK6FixLocationEditActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.xag.agri.v4.devices.xrtk.station.XRTK6FixLocationViewActivity" android:screenOrientation="behind"/>
+        <activity android:exported="true" android:name="com.xag.agri.v4.devices.components.router.DeviceRouterActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.xag.agri.v4.devices.xrtk4.XRTK4DetailActivity" android:screenOrientation="behind"/>
+        <activity android:exported="true" android:name="com.xag.agri.v4.devices.components.connect.DeviceMeshActivity" android:screenOrientation="behind"/>
+        <activity android:exported="true" android:name="com.xag.agri.v4.devices.components.channel.XRTK7ChannelSetActivity" android:screenOrientation="behind"/>
+        <activity android:exported="true" android:launchMode="singleTask" android:name="com.xag.agri.v4.operation.device.update.DeviceUpdateActivity" android:screenOrientation="behind"/>
+        <activity android:exported="true" android:launchMode="singleTask" android:name="com.xag.agri.v4.operation.device.update_v5.DeviceThingUpdateActivity" android:screenOrientation="behind"/>
+        <activity android:exported="true" android:launchMode="singleTask" android:name="com.xag.agri.v4.operation.device.update_v6.SRC4SystemActivity" android:screenOrientation="behind"/>
+        <activity android:exported="true" android:launchMode="singleTask" android:name="com.xag.agri.v4.operation.device.update_offline.ui.OTAChannelDataActivity" android:screenOrientation="behind"/>
+        <activity android:exported="true" android:launchMode="singleTask" android:name="com.xag.agri.v4.operation.device.update_offline.ui.OTAChannelsActivity" android:screenOrientation="behind"/>
+        <activity android:exported="true" android:launchMode="singleTask" android:name="com.xag.agri.v4.operation.device.update_offline.ui.OTASNSettingActivity" android:screenOrientation="behind"/>
+        <activity android:exported="true" android:launchMode="singleTask" android:name="com.xag.agri.v4.operation.device.upgrade.DeviceUpgradeMainActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.xag.agri.v4.traffic.ui.TrafficBuyActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.xag.agri.v4.traffic.ui.TrafficActivity" android:screenOrientation="behind"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xag.agri.v4.care.ui.webactivity.QRCodePayingActivity" android:screenOrientation="behind"/>
+        <activity android:exported="false" android:name="com.xag.agri.v4.care.ui.webactivity.offline.faultreport.OfflineFaultReportActivity" android:screenOrientation="behind">
+            <meta-data android:name="android.app.lib_name" android:value=""/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.xag.agri.v4.care.ui.webactivity.MoreServiceActivity" android:screenOrientation="behind">
+            <meta-data android:name="android.app.lib_name" android:value=""/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.xag.agri.v4.care.ui.webactivity.CareDetailActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.xag.agri.v4.care.ui.webactivity.CareActivityV2"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.xag.agri.v4.care.ui.webactivity.SelfInsuranceActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.xag.agri.v4.care.ui.devices.AddDeviceScanActivity" android:screenOrientation="behind"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.xag.agri.v4.care.ui.webactivity.FaultReportActivity" android:screenOrientation="behind"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.xag.agri.v4.care.ui.webactivity.ThirdCareActivity" android:screenOrientation="behind"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.xag.agri.v4.care.ui.webactivity.DevicesOldTradeNewActivity" android:screenOrientation="behind"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.xag.agri.v4.care.ui.webactivity.NetworkPointActivity" android:screenOrientation="behind"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.xag.agri.v4.care.ui.webactivity.DigitalFarmlandActivity" android:screenOrientation="behind"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.xag.agri.v4.care.ui.webactivity.TestUrlActivity" android:screenOrientation="behind"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.xag.agri.v4.care.ui.webactivity.YouZanActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.xag.agri.v4.care.ui.webactivity.YouZanQrCodeActivity" android:screenOrientation="behind"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.xag.agri.v4.care.ui.webactivity.XagLyceumActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.xag.agri.v4.care.ui.webactivity.XagCustomerActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.xag.agri.v4.care.ui.WebViewActivityV5" android:screenOrientation="behind"/>
+        <provider android:authorities="com.xag.agri.operation.fileProvider" android:exported="false" android:grantUriPermissions="true" android:name="androidx.core.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths"/>
+        </provider>
+        <activity android:name="com.xag.agri.v4.customer.service.ui.device.SelectDeviceActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.xag.agri.v4.customer.service.ui.guaranteeform.SelectGuaranteeFormActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.xag.agri.v4.customer.service.ui.worktask.SelectWorkTaskActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.xag.agri.v4.customer.service.ui.CustomerServiceWebViewActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.xag.agri.v4.customer.service.base.OpenChatActivity" android:screenOrientation="behind"/>
+        <receiver android:name="com.xag.agri.v4.customer.service.receiver.PushReceiver" android:screenOrientation="behind"/>
+        <activity android:name="com.xag.agri.v4.message.center.ui.MessageActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.xag.agri.v4.message.center.ui.DeviceEquipmentHealthActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.xag.agri.v4.message.center.ui.DeviceEquipmentHealthDetailActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.xag.agri.v4.message.center.base.BaseWebViewActivity" android:screenOrientation="behind"/>
+        <activity android:configChanges="keyboard|keyboardHidden|navigation" android:exported="true" android:name="com.xag.agri.v4.map.data.ui.importmap.ImportResultActivity" android:screenOrientation="locked">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="application/x-tar" android:scheme="content"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:name="com.xag.agri.v4.map.data.ui.importmap.fragment.result.ImportProgressActivity" android:screenOrientation="locked"/>
+        <activity android:exported="true" android:name="com.xag.agri.v4.map.data.ui.manager.ManagerResultActivity" android:screenOrientation="locked"/>
+        <activity android:exported="true" android:name="com.xag.agri.v4.map.data.ui.exportresult.ExportResultActivity" android:screenOrientation="locked"/>
+        <activity android:exported="true" android:name="com.xag.agri.v4.map.data.ui.backup.BackupActivity" android:screenOrientation="locked"/>
+        <activity android:exported="true" android:name="com.xag.agri.v4.map.data.ui.prescription.MapDataPrescriptionActivity" android:screenOrientation="locked"/>
+        <meta-data android:name="FPV_SDK_VERSION" android:value="1.9.3"/>
+        <activity android:name="com.xa.ability.ui.rtk.ui.XRTKDetailActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.xa.ability.ui.rtk.components.base.EditActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.xa.ability.ui.rtk.components.channel.XRTKChannelSetActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.xa.ability.ui.rtk.components.router.DeviceRouterActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.xa.ability.ui.rtk.ui.station.XRTK6FixLocationViewActivity" android:screenOrientation="behind"/>
+        <activity android:name="com.xa.ability.ui.rtk.ui.station.XRTK6FixLocationEditActivity" android:screenOrientation="behind"/>
+        <activity android:exported="false" android:hardwareAccelerated="true" android:name="com.xag.agri.operation.common.h5.CommonWebViewActivity" android:screenOrientation="behind"/>
+        <provider android:authorities="com.xag.agri.operation.androidx-startup" android:exported="false" android:name="androidx.startup.InitializationProvider">
+            <meta-data android:name="com.xag.nofly2.app.ModuleInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="com.xag.support.map.base.MapInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.work.WorkManagerInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.lifecycle.ProcessLifecycleInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.emoji2.text.EmojiCompatInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.profileinstaller.ProfileInstallerInitializer" android:value="androidx.startup"/>
+        </provider>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.xag.support.webview.XWebViewActivity" android:screenOrientation="behind"/>
+        <receiver android:exported="false" android:name="com.xag.tencent.sdk.WXRegisterBroadcast" android:permission="com.tencent.mm.plugin.permission.SEND">
+            <intent-filter>
+                <action android:name="com.tencent.mm.plugin.openapi.Intent.ACTION_REFRESH_WXAPP"/>
+            </intent-filter>
+        </receiver>
+        <activity android:exported="true" android:launchMode="singleTask" android:name="com.xag.tencent.sdk.WXEntryActivity"/>
+        <activity-alias android:exported="true" android:name="com.xag.agri.operation.wxapi.WXEntryActivity" android:targetActivity="com.xag.tencent.sdk.WXEntryActivity"/>
+        <activity android:exported="true" android:launchMode="singleTask" android:name="com.xag.tencent.sdk.WXPayEntryActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="wx001044f37a9f99af"/>
+            </intent-filter>
+        </activity>
+        <activity-alias android:exported="true" android:name="com.xag.agri.operation.wxapi.WXPayEntryActivity" android:targetActivity="com.xag.tencent.sdk.WXPayEntryActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="true" android:name="cn.jpush.android.ui.PushActivity" android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="cn.jpush.android.ui.PushActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="com.xag.agri.operation"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="true" android:name="cn.jpush.android.ui.PopWinActivity" android:theme="@style/MyDialogStyle">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="cn.jpush.android.ui.PopWinActivity"/>
+                <category android:name="com.xag.agri.operation"/>
+            </intent-filter>
+        </activity>
+        <receiver android:exported="true" android:name="com.xag.agri.push.receiver.PushReceiver">
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.RECEIVE_MESSAGE"/>
+                <category android:name="com.xag.agri.operation.push"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="true" android:exported="false" android:name="com.xag.agri.push.service.PushService" android:process=":pushcore">
+            <intent-filter>
+                <action android:name="cn.jiguang.user.service.action"/>
+            </intent-filter>
+        </service>
+        <activity android:exported="false" android:name="com.xa.ability.customservice.ui.web.WebViewActivity"/>
+        <activity android:exported="false" android:name="com.xa.ability.customservice.ui.file.CustomServiceFileDetailActivity"/>
+        <activity android:exported="false" android:name="com.xa.ability.customservice.ui.file.pdf.CustomPdfViewActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize" android:exported="false" android:name="com.xa.ability.customservice.ui.ChatActivity"/>
+        <provider android:authorities="com.xag.agri.operation.sobot_fileprovider" android:exported="false" android:grantUriPermissions="true" android:name="com.xa.ability.customservice.provider.SobotFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/sobot_provider_paths"/>
+        </provider>
+        <activity android:name="com.xag.faceverify.ui.AuthMainActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="com.xag.faceverify.megvii.activity.IDCardDetectActivity" android:screenOrientation="portrait"/>
+        <provider android:authorities="com.xag.agri.operation.face.fileProvider" android:exported="false" android:grantUriPermissions="true" android:name="com.xag.faceverify.utils.FaceFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/id_auth_provider_paths"/>
+        </provider>
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+        <activity android:exported="false" android:name="com.lcw.library.imagepicker.activity.ImagePickerActivity" android:screenOrientation="portrait" android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:exported="false" android:name="com.lcw.library.imagepicker.activity.ImagePreActivity" android:screenOrientation="portrait" android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <provider android:authorities="com.xag.agri.operation.provider" android:exported="false" android:grantUriPermissions="true" android:name="com.lcw.library.imagepicker.provider.ImagePickerProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/image_picker"/>
+        </provider>
+        <activity android:exported="false" android:name="com.tinet.oskit.aty.CaptureAty" android:theme="@style/Theme.MaterialComponents.Light.NoActionBar"/>
+        <activity android:exported="false" android:name="com.tinet.oskit.aty.ImageAty" android:theme="@style/Theme.MaterialComponents.Light.NoActionBar"/>
+        <activity android:exported="false" android:name="com.tinet.oskit.aty.ChatLeaveMessageAty" android:theme="@style/Theme.MaterialComponents.Light.NoActionBar"/>
+        <activity android:exported="false" android:name="com.tinet.oskit.aty.VideoPlayAty" android:theme="@style/Theme.MaterialComponents.Light.NoActionBar"/>
+        <activity android:excludeFromRecents="false" android:name="com.tinet.oskit.aty.webview.ChatLeaveMessageWebActivity" android:theme="@style/Theme.MaterialComponents.Light.NoActionBar"/>
+        <activity android:configChanges="orientation|screenSize" android:hardwareAccelerated="true" android:launchMode="singleTop" android:name="com.smile525.albumcamerarecorder.TCameraActivity" android:screenOrientation="locked"/>
+        <activity android:configChanges="orientation|screenSize" android:launchMode="singleTop" android:name="com.smile525.albumcamerarecorder.preview.AlbumPreviewActivity" android:screenOrientation="locked"/>
+        <activity android:configChanges="orientation|screenSize" android:launchMode="singleTop" android:name="com.smile525.albumcamerarecorder.camera.ui.previewvideo.PreviewVideoActivity" android:screenOrientation="locked"/>
+        <provider android:authorities="com.xag.agri.operation.therouter.TheRouteContentProvider" android:exported="false" android:name="com.therouter.InnerTheRouterContentProvider"/>
+        <activity android:exported="false" android:label="" android:name="pub.devrel.easypermissions.AppSettingsDialogHolderActivity" android:theme="@style/EasyPermissions.Transparent"/>
+        <service android:exported="false" android:name="com.yanzhenjie.permission.bridge.BridgeService" android:permission="com.xag.agri.operation.andpermission.bridge" android:process=":permission">
+            <intent-filter>
+                <action android:name="com.xag.agri.operation.andpermission.bridge"/>
+            </intent-filter>
+        </service>
+        <activity android:configChanges="orientation" android:exported="false" android:name="com.yanzhenjie.permission.bridge.BridgeActivity" android:permission="com.xag.agri.operation.andpermission.bridge" android:process=":permission" android:theme="@style/Permission.Theme.Activity.Transparent"/>
+        <provider android:authorities="com.xag.agri.operation.file.path.share" android:exported="false" android:grantUriPermissions="true" android:name="com.yanzhenjie.permission.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/permission_file_paths"/>
+        </provider>
+        <receiver android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+            </intent-filter>
+            <meta-data android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED" android:value="true"/>
+        </receiver>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.firebase.messaging.FirebaseMessagingService">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.firebase.components.ComponentDiscoveryService">
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <provider android:authorities="com.xag.agri.operation.firebaseinitprovider" android:directBootAware="true" android:exported="false" android:initOrder="100" android:name="com.google.firebase.provider.FirebaseInitProvider"/>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_alarm_service_default" android:exported="false" android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"/>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_job_service_default" android:exported="true" android:name="androidx.work.impl.background.systemjob.SystemJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_foreground_service_default" android:exported="false" android:name="androidx.work.impl.foreground.SystemForegroundService"/>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="false" android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"/>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.BATTERY_OKAY"/>
+                <action android:name="android.intent.action.BATTERY_LOW"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.DEVICE_STORAGE_LOW"/>
+                <action android:name="android.intent.action.DEVICE_STORAGE_OK"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="@bool/enable_system_alarm_service_default" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver">
+            <intent-filter>
+                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="true" android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver" android:permission="android.permission.DUMP">
+            <intent-filter>
+                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS"/>
+            </intent-filter>
+        </receiver>
+        <service android:directBootAware="true" android:exported="false" android:name="androidx.room.MultiInstanceInvalidationService"/>
+        <uses-library android:name="androidx.window.extensions" android:required="false"/>
+        <uses-library android:name="androidx.window.sidecar" android:required="false"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <service android:enabled="true" android:name="com.baidu.location.f" android:process=":remote"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.blankj.utilcode.util.UtilsTransActivity4MainProcess" android:theme="@style/ActivityTranslucent" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:multiprocess="true" android:name="com.blankj.utilcode.util.UtilsTransActivity" android:theme="@style/ActivityTranslucent" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <provider android:authorities="com.xag.agri.operation.utilcode.provider" android:exported="false" android:grantUriPermissions="true" android:name="com.blankj.utilcode.util.UtilsFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/util_code_provider_paths"/>
+        </provider>
+        <service android:exported="false" android:name="com.blankj.utilcode.util.MessengerUtils$ServerService">
+            <intent-filter>
+                <action android:name="com.xag.agri.operation.messenger"/>
+            </intent-filter>
+        </service>
+        <provider android:authorities="com.xag.agri.operation.EasyFloatInitializer" android:exported="false" android:multiprocess="true" android:name="com.lzf.easyfloat.EasyFloatInitializer"/>
+        <provider android:authorities="com.xag.agri.operation.apm" android:exported="false" android:name="com.bytedance.frameworks.core.apm.contentprovider.MonitorContentProvider"/>
+        <service android:enabled="true" android:exported="false" android:name="com.bytedance.apm6.traffic.TrafficTransportService"/>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="true" android:name="androidx.profileinstaller.ProfileInstallReceiver" android:permission="android.permission.DUMP">
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SKIP_FILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery">
+            <meta-data android:name="backend:com.google.android.datatransport.cct.CctBackendFactory" android:value="cct"/>
+        </service>
+        <service android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"/>
+        <receiver android:directBootAware="true" android:exported="true" android:name="com.huawei.hms.support.api.push.PushMsgReceiver" android:permission="com.xag.agri.operation.permission.PROCESS_PUSH_MSG">
+            <intent-filter>
+                <action android:name="com.huawei.intent.action.PUSH_DELAY_NOTIFY"/>
+                <action android:name="com.huawei.intent.action.PUSH"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="true" android:exported="true" android:name="com.huawei.hms.support.api.push.PushReceiver" android:permission="com.xag.agri.operation.permission.PROCESS_PUSH_MSG">
+            <intent-filter>
+                <action android:name="com.huawei.android.push.intent.REGISTRATION"/>
+                <action android:name="com.huawei.android.push.intent.RECEIVE"/>
+            </intent-filter>
+        </receiver>
+        <service android:directBootAware="true" android:enabled="true" android:exported="true" android:name="com.huawei.hms.support.api.push.service.HmsMsgService" android:process=":pushservice">
+            <intent-filter>
+                <action android:name="com.huawei.push.msg.NOTIFY_MSG"/>
+                <action android:name="com.huawei.push.msg.PASSBY_MSG"/>
+            </intent-filter>
+        </service>
+        <provider android:authorities="com.xag.agri.operation.huawei.push.provider" android:exported="true" android:name="com.huawei.hms.support.api.push.PushProvider" android:readPermission="com.xag.agri.operation.permission.PUSH_PROVIDER" android:writePermission="com.xag.agri.operation.permission.PUSH_WRITE_PROVIDER"/>
+        <meta-data android:name="com.huawei.hms.client.service.name:push" android:value="push:6.5.0.300"/>
+        <meta-data android:name="com.huawei.hms.min_api_level:push:push" android:value="1"/>
+        <activity android:exported="false" android:name="com.huawei.hms.support.api.push.TransActivity"/>
+        <service android:exported="false" android:name="cn.jpush.android.service.PluginHuaweiPlatformsService">
+            <intent-filter>
+                <action android:name="com.huawei.push.action.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="cn.jpush.android.service.JHonorService">
+            <intent-filter>
+                <action android:name="com.hihonor.push.action.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <meta-data android:name="com.hihonor.push.app_id" android:value="104408671"/>
+        <receiver android:exported="false" android:name="cn.jpush.android.service.PluginVivoMessageReceiver">
+            <intent-filter>
+                <action android:name="com.vivo.pushclient.action.RECEIVE"/>
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="sdk_version_vivo" android:value="484"/>
+        <service android:exported="true" android:name="com.vivo.push.sdk.service.CommandClientService" android:permission="com.push.permission.UPSTAGESERVICE"/>
+        <activity android:exported="false" android:name="com.vivo.push.sdk.LinkProxyClientActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <meta-data android:name="local_iv" android:value="MzMsMzQsMzUsMzYsMzcsMzgsMzksNDAsNDEsMzIsMzgsMzcsMzYsMzUsMzQsMzMsI0AzNCwzMiwzMywzNywzMywzNCwzMiwzMywzMywzMywzNCw0MSwzNSwzNSwzMiwzMiwjQDMzLDM0LDM1LDM2LDM3LDM4LDM5LDQwLDQxLDMyLDM4LDM3LDMzLDM1LDM0LDMzLCNAMzQsMzIsMzMsMzcsMzMsMzQsMzIsMzMsMzMsMzMsMzQsNDEsMzUsMzIsMzIsMzI"/>
+        <meta-data android:name="com.vivo.push.api_key" android:value="d73ab55383b60b01eab860df2f8c80be"/>
+        <meta-data android:name="com.vivo.push.app_id" android:value="105612306"/>
+        <service android:exported="true" android:name="cn.jpush.android.service.PluginOppoPushService" android:permission="com.coloros.mcs.permission.SEND_MCS_MESSAGE">
+            <intent-filter>
+                <action android:name="com.coloros.mcs.action.RECEIVE_MCS_MESSAGE"/>
+            </intent-filter>
+        </service>
+        <service android:exported="true" android:name="com.heytap.msp.push.service.CompatibleDataMessageCallbackService" android:permission="com.coloros.mcs.permission.SEND_MCS_MESSAGE">
+            <intent-filter>
+                <action android:name="com.coloros.mcs.action.RECEIVE_MCS_MESSAGE"/>
+            </intent-filter>
+        </service>
+        <service android:exported="true" android:name="com.heytap.msp.push.service.DataMessageCallbackService" android:permission="com.heytap.mcs.permission.SEND_PUSH_MESSAGE">
+            <intent-filter>
+                <action android:name="com.heytap.mcs.action.RECEIVE_MCS_MESSAGE"/>
+                <action android:name="com.heytap.msp.push.RECEIVE_MCS_MESSAGE"/>
+            </intent-filter>
+        </service>
+        <meta-data android:name="OPPO_APPKEY" android:value="OP-8ff397e6d3204d8f807f65da84fb4feb"/>
+        <meta-data android:name="OPPO_APPID" android:value="OP-30676837"/>
+        <meta-data android:name="OPPO_APPSECRET" android:value="OP-10824b78b7ba46478b7736197dca0349"/>
+        <meta-data android:name="XIAOMI_APPID" android:value="MI-小米的APPID"/>
+        <meta-data android:name="XIAOMI_APPKEY" android:value="MI-小米的APPKEY"/>
+        <service android:enabled="true" android:exported="false" android:name="com.xiaomi.push.service.XMJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:process=":pushservice"/>
+        <service android:enabled="true" android:name="com.xiaomi.push.service.XMPushService" android:process=":pushservice"/>
+        <service android:enabled="true" android:exported="true" android:name="com.xiaomi.mipush.sdk.PushMessageHandler"/>
+        <service android:enabled="true" android:name="com.xiaomi.mipush.sdk.MessageHandleService"/>
+        <receiver android:exported="false" android:name="com.xiaomi.push.service.receivers.PingReceiver" android:process=":pushservice">
+            <intent-filter>
+                <action android:name="com.xiaomi.push.PING_TIMER"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="cn.jpush.android.service.PluginXiaomiPlatformsReceiver">
+            <intent-filter>
+                <action android:name="com.xiaomi.mipush.RECEIVE_MESSAGE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.xiaomi.mipush.MESSAGE_ARRIVED"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.xiaomi.mipush.ERROR"/>
+            </intent-filter>
+        </receiver>
+        <activity android:enabled="true" android:excludeFromRecents="true" android:exported="true" android:launchMode="singleInstance" android:name="com.xiaomi.mipush.sdk.NotificationClickedActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <meta-data android:name="supportStyle" android:value="scene|voip"/>
+        </activity>
+        <service android:exported="false" android:name="cn.jpush.android.service.PluginFCMMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:exported="true" android:name="com.taobao.sophix.aidl.DownloadService">
+            <intent-filter>
+                <action android:name="com.taobao.hotfix.action"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </service>
+        <provider android:authorities="com.xag.agri.operation.aaidinitprovider" android:exported="false" android:initOrder="500" android:name="com.huawei.hms.aaid.InitProvider"/>
+        <meta-data android:name="com.huawei.hms.client.service.name:opendevice" android:value="opendevice:6.3.0.305"/>
+        <meta-data android:name="com.huawei.hms.min_api_level:opendevice:push" android:value="1"/>
+        <service android:enabled="true" android:exported="false" android:name="cn.jpush.android.service.PushService" android:process=":pushcore">
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.REGISTER"/>
+                <action android:name="cn.jpush.android.intent.REPORT"/>
+                <action android:name="cn.jpush.android.intent.PushService"/>
+                <action android:name="cn.jpush.android.intent.PUSH_TIME"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:exported="true" android:name="cn.jpush.android.service.DaemonService">
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.DaemonService"/>
+                <category android:name="com.xag.agri.operation"/>
+            </intent-filter>
+        </service>
+        <activity android:enabled="true" android:exported="true" android:name="cn.jpush.android.service.DActivity" android:taskAffinity="" android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.DActivity"/>
+                <category android:name="com.xag.agri.operation"/>
+            </intent-filter>
+        </activity>
+        <receiver android:enabled="true" android:exported="false" android:name="cn.jpush.android.service.PushReceiver">
+            <intent-filter android:priority="1000">
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY"/>
+                <category android:name="com.xag.agri.operation"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="cn.jpush.android.service.AlarmReceiver"/>
+        <receiver android:exported="false" android:name="cn.jpush.android.service.SchedulerReceiver"/>
+        <provider android:authorities="com.xag.agri.operation.DataProvider" android:exported="false" android:name="cn.jpush.android.service.DataProvider" android:process=":pushcore"/>
+        <provider android:authorities="com.xag.agri.operation.DownloadProvider" android:exported="true" android:name="cn.jpush.android.service.DownloadProvider"/>
+        <activity android:exported="true" android:name="cn.jpush.android.service.JNotifyActivity" android:taskAffinity="" android:theme="@style/JPushTheme">
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.JNotifyActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="com.xag.agri.operation"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:name="cn.android.service.JTransitActivity" android:taskAffinity="" android:theme="@style/JPushTheme">
+            <intent-filter>
+                <action android:name="cn.android.service.JTransitActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="com.xag.agri.operation"/>
+            </intent-filter>
+        </activity>
+        <receiver android:exported="false" android:name="cn.jpush.android.asus.AsusPushMessageReceiver"/>
+        <meta-data android:name="JPUSH_CHANNEL" android:value="default_developer"/>
+        <meta-data android:name="JPUSH_APPKEY" android:value="78c98ce239b5afbbd7104b18"/>
+        <meta-data android:name="com.huawei.hms.client.service.name:base" android:value="base:6.5.0.300"/>
+        <meta-data android:name="com.huawei.hms.min_api_level:base:hmscore" android:value="1"/>
+        <meta-data android:name="availableLoaded" android:value="yes"/>
+        <activity android:configChanges="fontScale|layoutDirection|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:excludeFromRecents="true" android:exported="false" android:hardwareAccelerated="true" android:name="com.huawei.hms.activity.BridgeActivity" android:screenOrientation="behind" android:theme="@style/Base_Translucent">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.Translucent"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.huawei.hms.activity.EnableServiceActivity"/>
+        <provider android:authorities="com.xag.agri.operation.AGCInitializeProvider" android:exported="false" android:name="com.huawei.agconnect.core.provider.AGConnectInitializeProvider"/>
+        <service android:exported="false" android:name="com.huawei.agconnect.core.ServiceDiscovery"/>
+        <provider android:authorities="com.xag.agri.operation.SensorsDataContentProvider" android:enabled="true" android:exported="false" android:name="com.sensorsdata.analytics.android.sdk.data.SensorsDataContentProvider"/>
+        <meta-data android:name="com.sensorsdata.analytics.android.MainProcessName" android:value="com.xag.agri.operation"/>
+        <meta-data android:name="com.sensorsdata.analytics.android.version" android:value="0.2.6"/>
+    </application>
+</manifest>

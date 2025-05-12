@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/cube_color_container_bg_tint" />
+    <corners android:radius="@dimen/care_radius_8" />
+    <stroke android:width="@dimen/cube_dp_0.5" android:color="@color/cube_color_container_fill_deep" />
+</shape>

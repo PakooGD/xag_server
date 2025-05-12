@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/operation_base_shape_r4444_in_tertiary" android:layout_width="wrap_content" android:layout_height="@dimen/cube_dp_32" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@id/panel_device_infos"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/comm_source_touch" android:padding="@dimen/cube_dp_6" android:layout_width="@dimen/cube_dp_32" android:layout_height="@dimen/cube_dp_32" android:src="@drawable/survey_new_selector_editor_touch_white" android:scaleType="centerInside" />
+    <View android:id="@id/comm_source_div_2" android:background="@color/cube_color_on_tertiary" android:layout_width="1.0px" android:layout_height="@dimen/cube_dp_14" />
+    <ImageView android:id="@id/comm_source_cross" android:padding="@dimen/cube_dp_5" android:layout_width="@dimen/cube_dp_32" android:layout_height="@dimen/cube_dp_32" android:src="@drawable/survey_new_selector_editor_cross_white" android:scaleType="fitXY" />
+    <View android:id="@id/comm_source_div_1" android:background="@color/cube_color_on_tertiary" android:layout_width="1.0px" android:layout_height="@dimen/cube_dp_14" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/comm_source_device" android:layout_width="@dimen/cube_dp_32" android:layout_height="@dimen/cube_dp_32">
+        <ImageView android:id="@id/comm_source_device_image" android:padding="@dimen/cube_dp_6" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/survey_new_selector_editor_ctrl_white" android:scaleType="centerInside" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="@dimen/cube_dp_6" android:src="@drawable/survey_editor_source_arrow_down" android:scaleType="center" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

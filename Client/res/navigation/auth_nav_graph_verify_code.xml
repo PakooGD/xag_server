@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/auth_nav_graph_verify_code" app:startDestination="@id/auth_inputverifycodefragment2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="InputVerifyCodeFragment" android:name="com.xag.agri.auth.ui.InputVerifyCodeFragment" android:id="@id/auth_inputverifycodefragment2">
+        <action android:id="@id/VerifyCodeToPasswordSettingPage" app:destination="@id/auth_passwordsettingfragment2" app:enterAnim="@anim/common_fragment_open_enter" app:exitAnim="@anim/common_fragment_open_exit" app:popEnterAnim="@anim/common_fragment_close_enter" app:popExitAnim="@anim/common_fragment_close_exit" />
+        <action android:id="@id/VerifyCodeToPasswordResetPage" app:destination="@id/auth_resetpasswordfragment2" app:enterAnim="@anim/common_fragment_open_enter" app:exitAnim="@anim/common_fragment_open_exit" app:popEnterAnim="@anim/common_fragment_close_enter" app:popExitAnim="@anim/common_fragment_close_exit" />
+    </fragment>
+    <fragment android:label="PasswordSettingFragment" android:name="com.xag.agri.auth.ui.PasswordSettingFragment" android:id="@id/auth_passwordsettingfragment2" />
+    <fragment android:label="ResetPasswordFragment" android:name="com.xag.agri.auth.ui.ResetPasswordFragment" android:id="@id/auth_resetpasswordfragment2" />
+</navigation>

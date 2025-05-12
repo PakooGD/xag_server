@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/devices_background" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:background="@color/devices_background" android:layout_width="fill_parent" android:layout_height="@dimen/devices_button_height_48">
+        <ImageButton android:id="@id/btn_back" android:background="@drawable/devices_selector_button_transparent" android:padding="@dimen/devices_padding_12" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/cube_ic_gen_chevron_left" />
+        <com.xa.core.cube.TextView android:textSize="@dimen/devices_text_size_16" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/devices_dev_remote_pole_mode" style="@style/Devices.Text.title" />
+    </FrameLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.1666" />
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.6668">
+            <LinearLayout android:orientation="horizontal" android:background="@drawable/cube_shape_container_fill_base_8" android:padding="@dimen/cube_dp_1" android:layout_width="fill_parent" android:layout_height="@dimen/devices_item_height_28" android:layout_marginLeft="@dimen/devices_margin_16" android:layout_marginRight="@dimen/devices_margin_16">
+                <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_secondary" android:gravity="center" android:id="@id/tv_item_japan" android:background="@drawable/devices_shape_white_round_outline" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/devices_dev_remote_pole_japan" android:layout_weight="1.0" />
+                <com.xa.core.cube.TextView android:textSize="@dimen/devices_text_size_14" android:textColor="@color/cube_color_content_secondary" android:gravity="center" android:id="@id/tv_item_us" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/devices_dev_remote_pole_us" android:layout_weight="1.0" />
+                <com.xa.core.cube.TextView android:textSize="@dimen/devices_text_size_14" android:textColor="@color/cube_color_content_secondary" android:gravity="center" android:id="@id/tv_item_china" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/devices_dev_remote_pole_china" android:layout_weight="1.0" />
+            </LinearLayout>
+            <androidx.viewpager2.widget.ViewPager2 android:id="@id/vp_device_info" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </LinearLayout>
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.1666" />
+    </LinearLayout>
+</LinearLayout>

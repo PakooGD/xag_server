@@ -1,0 +1,32 @@
+.class public final synthetic Laws/smithy/kotlin/runtime/retries/h;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lvf0/l;
+
+
+# direct methods
+.method public synthetic constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    .line 1
+    check-cast p1, Laws/smithy/kotlin/runtime/retries/delay/k;
+
+    invoke-static {p1}, Laws/smithy/kotlin/runtime/retries/StandardRetryStrategy$b$a;->a(Laws/smithy/kotlin/runtime/retries/delay/k;)Lvf0/l;
+
+    move-result-object p1
+
+    return-object p1
+.end method

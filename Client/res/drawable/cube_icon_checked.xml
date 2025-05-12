@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/cube_dp_20" android:width="@dimen/cube_dp_20" android:viewportWidth="20.0" android:viewportHeight="20.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="?cube_color_project_primary" android:pathData="M10,1L10,1A9,9 0,0 1,19 10L19,10A9,9 0,0 1,10 19L10,19A9,9 0,0 1,1 10L1,10A9,9 0,0 1,10 1z" />
+    <path android:fillColor="@color/cube_color_on_primary" android:pathData="M13.6648,6.8903C13.437,6.6633 13.0678,6.6633 12.84,6.8903L8.7156,10.3788L7.3204,9.281C7.0926,9.054 6.7233,9.054 6.4956,9.281L5.6708,10.1032C5.4431,10.3303 5.4431,10.6984 5.6708,10.9255L7.4749,12.724L7.4784,12.7275L8.3032,13.5497C8.3886,13.6349 8.4939,13.6881 8.6042,13.7094C8.6364,13.7156 8.6691,13.7191 8.7018,13.7199C8.8556,13.7235 9.0106,13.6668 9.128,13.5497L9.9527,12.7275L9.9567,12.7235L14.3292,8.3645C14.5569,8.1374 14.5569,7.7693 14.3292,7.5423L13.6648,6.8903Z" />
+</vector>

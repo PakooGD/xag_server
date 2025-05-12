@@ -1,0 +1,160 @@
+.class public Lbq0/v;
+.super Luk0/w;
+.source "SourceFile"
+
+# interfaces
+.implements Luk0/g;
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lbq0/v$a;
+    }
+.end annotation
+
+
+# static fields
+.field public static final c:I = 0x0
+
+.field public static final d:I = 0x1
+
+.field public static final e:I = 0x2
+
+
+# instance fields
+.field public final a:I
+
+.field public final b:Luk0/h;
+
+
+# direct methods
+.method public constructor <init>(ILuk0/h;)V
+    .locals 0
+
+    invoke-direct {p0}, Luk0/w;-><init>()V
+
+    iput p1, p0, Lbq0/v;->a:I
+
+    iput-object p2, p0, Lbq0/v;->b:Luk0/h;
+
+    return-void
+.end method
+
+.method public static v(Ljava/lang/Object;)Lbq0/v;
+    .locals 3
+
+    .line 1
+    instance-of v0, p0, Lbq0/v;
+
+    if-eqz v0, :cond_0
+
+    check-cast p0, Lbq0/v;
+
+    return-object p0
+
+    :cond_0
+    invoke-static {p0}, Luk0/n0;->Q(Ljava/lang/Object;)Luk0/n0;
+
+    move-result-object p0
+
+    invoke-virtual {p0}, Luk0/n0;->g()I
+
+    move-result v0
+
+    if-eqz v0, :cond_2
+
+    const/4 v1, 0x1
+
+    if-ne v0, v1, :cond_1
+
+    goto :goto_0
+
+    :cond_1
+    new-instance v0, Ljava/lang/IllegalStateException;
+
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v2, "unknown choice "
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {p0}, Luk0/n0;->g()I
+
+    move-result p0
+
+    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p0
+
+    invoke-direct {v0, p0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+
+    :cond_2
+    :goto_0
+    new-instance v0, Lbq0/v$a;
+
+    invoke-direct {v0}, Lbq0/v$a;-><init>()V
+
+    invoke-virtual {p0}, Luk0/n0;->g()I
+
+    move-result v1
+
+    invoke-virtual {v0, v1}, Lbq0/v$a;->b(I)Lbq0/v$a;
+
+    move-result-object v0
+
+    invoke-virtual {p0}, Luk0/n0;->S()Luk0/c0;
+
+    move-result-object p0
+
+    invoke-virtual {v0, p0}, Lbq0/v$a;->c(Luk0/h;)Lbq0/v$a;
+
+    move-result-object p0
+
+    invoke-virtual {p0}, Lbq0/v$a;->a()Lbq0/v;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+
+# virtual methods
+.method public n()Luk0/c0;
+    .locals 3
+
+    .line 1
+    new-instance v0, Luk0/n2;
+
+    iget v1, p0, Lbq0/v;->a:I
+
+    iget-object v2, p0, Lbq0/v;->b:Luk0/h;
+
+    invoke-direct {v0, v1, v2}, Luk0/n2;-><init>(ILuk0/h;)V
+
+    return-object v0
+.end method
+
+.method public u()I
+    .locals 1
+
+    .line 1
+    iget v0, p0, Lbq0/v;->a:I
+
+    return v0
+.end method
+
+.method public w()Luk0/h;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lbq0/v;->b:Luk0/h;
+
+    return-object v0
+.end method

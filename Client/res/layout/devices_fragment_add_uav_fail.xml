@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.xa.core.cube.TextView android:textStyle="bold" android:textColor="@color/cube_color_content_primary" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/devices_dev_add_fail_2" android:drawableTop="@drawable/devices_ic_fail" android:drawablePadding="@dimen/cube_dp_8" style="@style/Cube.Font.Regular.Body" />
+    <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_secondary" android:id="@id/tv_fail_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cube_dp_4" style="@style/Cube.Font.Regular.Callout" />
+    <com.xa.core.cube.TextView android:textSize="14.0sp" android:textColor="#66000000" android:id="@id/tv_device_sn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cube_dp_4" style="@style/Cube.Font.Regular.Callout" />
+    <androidx.appcompat.widget.AppCompatButton android:textSize="@dimen/devices_text_size_16" android:textColor="@drawable/devices_selector_text_white" android:gravity="center" android:id="@id/btn_add_device_fail" android:background="@drawable/devices_selector_button_green" android:layout_width="wrap_content" android:layout_height="@dimen/cube_dp_36" android:layout_marginTop="@dimen/cube_dp_4" android:minWidth="96.0dip" android:text="@string/devices_dev_add_restart" />
+</androidx.appcompat.widget.LinearLayoutCompat>

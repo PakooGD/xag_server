@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/basecompat_actionbar_height">
+        <ImageButton android:id="@id/btn_webview_back" android:background="@drawable/basecompat_dialog_selector_button_transparent" android:layout_width="46.0dip" android:layout_height="fill_parent" android:src="@drawable/basecompat_dialog_ic_back" />
+        <TextView android:layout_gravity="center" android:id="@id/tv_webview_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" style="@style/BaseCompat.Text" />
+        <ImageButton android:layout_gravity="end" android:id="@id/btn_webview_home" android:background="@drawable/basecompat_dialog_selector_button_transparent" android:layout_width="46.0dip" android:layout_height="fill_parent" android:src="@drawable/webview_ic_home" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="center" android:id="@id/vg_webview_content" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

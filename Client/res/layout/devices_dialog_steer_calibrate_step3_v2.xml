@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/devices_background" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_step1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:background="@color/devices_background" android:layout_width="fill_parent" android:layout_height="@dimen/devices_actionbar_48">
+            <ImageButton android:id="@id/btn_steer_calibrate_back" android:background="@drawable/devices_selector_button_transparent" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/cube_ic_gen_chevron_left" android:paddingStart="@dimen/devices_padding" android:paddingEnd="@dimen/devices_padding" />
+            <com.xa.core.cube.TextView android:layout_gravity="center" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/devices_steering_calibration2" style="@style/Devices.Text.title" />
+        </FrameLayout>
+        <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.0" />
+                <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.6668">
+                    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                <FrameLayout android:background="@drawable/devices_shape_white_round_outline" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/devices_margin_24" android:layout_marginStart="@dimen/devices_margin_16" android:layout_marginEnd="@dimen/devices_margin_16">
+                                    <ImageView android:id="@id/iv_sketch_map" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/devices_steer_calibrate_tips_right" />
+                                </FrameLayout>
+                                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/devices_margin_12">
+                                    <LinearLayout android:gravity="top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/devices_margin_20" android:layout_marginEnd="@dimen/devices_margin_20">
+                                        <com.xa.core.cube.TextView android:textColor="@color/cube_color_container_bg_tint" android:background="@drawable/devices_shape_circular_green" android:layout_width="@dimen/cube_dp_20" android:layout_height="@dimen/cube_dp_20" android:text="1" style="@style/Devices.Text" />
+                                        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:gravity="start|center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/devices_steering_check_tips5" android:layout_marginStart="@dimen/devices_margin_4" style="@style/Devices.Text" />
+                                    </LinearLayout>
+                                    <LinearLayout android:gravity="top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/devices_margin_12" android:layout_marginStart="@dimen/devices_margin_20" android:layout_marginEnd="@dimen/devices_margin_20">
+                                        <com.xa.core.cube.TextView android:textColor="@color/cube_color_container_bg_tint" android:background="@drawable/devices_shape_circular_green" android:layout_width="@dimen/cube_dp_20" android:layout_height="@dimen/cube_dp_20" android:text="2" style="@style/Devices.Text" />
+                                        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:gravity="start|center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/devices_steering_check_tips6" android:layout_marginStart="@dimen/devices_margin_4" style="@style/Devices.Text" />
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+                        </androidx.core.widget.NestedScrollView>
+                        <com.xa.core.cube.TextView android:textColor="@color/cube_color_chromatic_orange_primary" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cube_dp_12" android:layout_marginBottom="@dimen/devices_margin_12" android:text="@string/devices_steering_check_tips7" android:layout_marginStart="@dimen/devices_margin_4" style="@style/Cube.Font.Regular.Footnote" />
+                    </LinearLayout>
+                </LinearLayout>
+                <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.0" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+        <android.widget.Button android:enabled="true" android:textColor="@drawable/devices_selector_text_white" android:layout_gravity="center" android:id="@id/btn_steer_calibrate_start" android:background="@drawable/devices_selector_button_green" android:layout_width="fill_parent" android:layout_height="@dimen/devices_button_height_48" android:layout_marginBottom="@dimen/devices_margin_12" android:text="@string/devices_auto_steering_begin" android:layout_marginStart="@dimen/devices_margin_12" android:layout_marginEnd="@dimen/devices_margin_12" style="@style/Devices.Button" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_step2" android:background="@color/black" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/devices_actionbar_48">
+            <ImageButton android:id="@id/btn_step2_close" android:background="@drawable/devices_selector_button_transparent" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/devices_ic_close_1" android:tint="@color/cube_color_container_bg_tint" android:paddingStart="@dimen/devices_padding_8" android:paddingEnd="@dimen/devices_padding_8" android:layout_marginStart="@dimen/cube_dp_16" />
+            <com.xa.core.cube.TextView android:textColor="@color/cube_color_chromatic_green1_primary" android:layout_gravity="center|right" android:id="@id/tv_problem" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cube_dp_16" android:layout_marginRight="@dimen/cube_dp_16" android:text="@string/devices_steering_calibration_manual" android:layout_marginHorizontal="@dimen/cube_dp_16" style="@style/Devices.Text.title" />
+        </FrameLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                    <View android:id="@id/v_top1" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                    <View android:id="@id/v_top2" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                    <View android:id="@id/v_bottom2" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+                    <View android:id="@id/v_bottom1" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                </LinearLayout>
+            </LinearLayout>
+            <com.xa.core.cube.TextView android:textColor="@color/cube_color_container_bg_tint" android:id="@id/tv_title_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="28.0dip" android:text="@string/devices_steering_status1" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Cube.Font.Regular.Title3" />
+            <com.xa.core.cube.TextView android:textColor="@color/cube_color_container_bg_tint" android:id="@id/tv_title_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/devices_steering_check_tips8" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tv_title_1" style="@style/Cube.Font.Regular.Body" />
+            <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="108.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+                <androidx.constraintlayout.widget.ConstraintLayout android:visibility="visible" android:layout_width="fill_parent" android:layout_height="108.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+                    <com.xa.core.cube.TextView android:textSize="72.0sp" android:textColor="@color/cube_color_content_primary" android:id="@id/tv_top1" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="54.0dip" android:text="50°" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="108.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+                    <com.xa.core.cube.TextView android:textSize="72.0sp" android:textColor="@color/cube_color_container_bg_tint" android:id="@id/tv_top2" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="54.0dip" android:text="50°" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="108.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+                <androidx.constraintlayout.widget.ConstraintLayout android:visibility="visible" android:layout_width="wrap_content" android:layout_height="108.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+                    <com.xa.core.cube.TextView android:textSize="72.0sp" android:textColor="@color/cube_color_content_primary" android:gravity="bottom" android:id="@id/tv_bottom1" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="42.0dip" android:layout_marginTop="54.0dip" android:layout_marginBottom="12.0dip" android:text="50°" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="108.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+                    <com.xa.core.cube.TextView android:textSize="72.0sp" android:textColor="@color/cube_color_container_bg_tint" android:gravity="bottom" android:id="@id/tv_bottom2" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="42.0dip" android:layout_marginBottom="12.0dip" android:text="50°" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <com.xa.core.cube.TextView android:textColor="@color/cube_color_container_bg_tint" android:gravity="bottom" android:id="@id/tv_fc_angle" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/cube_dp_24" android:text="@string/devices_now_fc_angle" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" style="@style/Cube.Font.Regular.Title1" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_step3" android:background="@color/devices_background" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/devices_ic_done" />
+                <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/devices_steering_status2" style="@style/Cube.Font.Regular.Body" />
+            </LinearLayout>
+            <android.widget.Button android:enabled="true" android:textColor="@drawable/devices_selector_text_white" android:layout_gravity="center_horizontal" android:id="@id/btn_steer_calibrate_done" android:background="@drawable/devices_selector_button_green" android:layout_width="fill_parent" android:layout_height="@dimen/devices_button_height_48" android:layout_marginBottom="@dimen/devices_margin_12" android:text="@string/devices_dev_done" android:layout_marginStart="@dimen/devices_margin_16" android:layout_marginEnd="@dimen/devices_margin_16" style="@style/Devices.Button" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

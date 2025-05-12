@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@color/devices_black_00" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:background="@drawable/devices_bg_layout_top" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/devices_actionbar_48">
+            <com.xa.core.cube.TextView android:layout_gravity="center" android:id="@id/tv_value_picker_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/devices_fan_level" style="@style/Devices.Text.title" />
+            <LinearLayout android:layout_gravity="end|center" android:id="@id/btn_value_picker_close" android:padding="@dimen/devices_padding_12" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/devices_dialog_close" />
+            </LinearLayout>
+        </FrameLayout>
+        <com.xag.agri.operation.common.widget.slide.XaArrayPickerView android:id="@id/valuePickerView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/devices_margin_16" android:layout_marginRight="@dimen/devices_margin_16" android:layout_marginBottom="@dimen/devices_margin_24" android:layout_marginHorizontal="@dimen/devices_margin_16" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="@dimen/cube_dp_44">
+        <ImageView android:id="@id/btnBack" android:paddingLeft="@dimen/cube_dp_16" android:paddingRight="@dimen/cube_dp_16" android:layout_width="wrap_content" android:layout_height="@dimen/cube_dp_0" android:src="@drawable/cube_ic_gen_chevron_left" android:paddingHorizontal="@dimen/cube_dp_16" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/user_template_farm_content_title" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Cube.Font.Medium.Title1" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <ScrollView android:layout_gravity="center" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="@dimen/cube_dp_0" android:layout_marginTop="@dimen/cube_dp_16" android:layout_weight="1.0">
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/llMain" android:paddingLeft="@dimen/cube_dp_16" android:paddingRight="@dimen/cube_dp_16" android:paddingBottom="@dimen/cube_dp_32" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/cube_dp_16">
+            <LinearLayout android:orientation="vertical" android:background="@drawable/operation_res_bg_cube_bg_tint_8dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/common_shape_divider_horizontal_left_padding_16dp" android:showDividers="middle">
+                <FrameLayout android:padding="@dimen/cube_dp_16" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/user_template_farm_crop" style="@style/Cube.Font.Regular.Body" />
+                    <com.xa.core.cube.TextView android:layout_gravity="end" android:id="@id/tvCrop" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </FrameLayout>
+                <FrameLayout android:padding="@dimen/cube_dp_16" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:id="@id/tvTitleType" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/user_template_farm_spray_pesticide" style="@style/Cube.Font.Regular.Body" />
+                    <com.xa.core.cube.TextView android:layout_gravity="end" android:id="@id/tvInsecticide" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </FrameLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@drawable/operation_res_bg_cube_bg_tint_8dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cube_dp_12" android:divider="@drawable/common_shape_divider_horizontal_left_padding_16dp" android:showDividers="middle">
+                <FrameLayout android:padding="@dimen/cube_dp_16" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/user_template_farm_desc" style="@style/Cube.Font.Regular.Body" />
+                    <com.xa.core.cube.TextView android:gravity="end" android:layout_gravity="end" android:id="@id/tvNote" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/cube_dp_196" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

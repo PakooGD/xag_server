@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/devices_background" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:background="@color/devices_background" android:layout_width="fill_parent" android:layout_height="@dimen/devices_actionbar_48">
+        <ImageButton android:id="@id/btn_steer_calibrate_back" android:background="@drawable/devices_selector_button_transparent" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/cube_ic_gen_chevron_left" android:paddingStart="@dimen/devices_padding_8" android:paddingEnd="@dimen/devices_padding_8" />
+        <com.xa.core.cube.TextView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/devices_dev_ready" style="@style/Devices.Text.title" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.1666" />
+                <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.6668">
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                <com.airbnb.lottie.LottieAnimationView android:background="@drawable/devices_shape_white_c" android:padding="@dimen/devices_padding_20" android:layout_width="fill_parent" android:layout_height="240.0dip" android:layout_marginTop="24.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" app:lottie_autoPlay="true" app:lottie_fileName="animation_blade_unfold.json" app:lottie_loop="true" />
+                                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/devices_margin_12">
+                                    <LinearLayout android:gravity="top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/devices_margin_20" android:layout_marginEnd="@dimen/devices_margin_20">
+                                        <com.xa.core.cube.TextView android:textColor="@color/cube_color_container_bg_tint" android:background="@drawable/devices_shape_circular_green" android:layout_width="@dimen/cube_dp_20" android:layout_height="@dimen/cube_dp_20" android:text="1" style="@style/Devices.Text" />
+                                        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:gravity="start|center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/devices_steering_check_tips1" android:layout_marginStart="@dimen/devices_margin_4" style="@style/Devices.Text" />
+                                    </LinearLayout>
+                                    <LinearLayout android:gravity="top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/devices_margin_12" android:layout_marginStart="@dimen/devices_margin_20" android:layout_marginEnd="@dimen/devices_margin_20">
+                                        <com.xa.core.cube.TextView android:textColor="@color/cube_color_container_bg_tint" android:background="@drawable/devices_shape_circular_green" android:layout_width="@dimen/cube_dp_20" android:layout_height="@dimen/cube_dp_20" android:text="2" style="@style/Devices.Text" />
+                                        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:gravity="start|center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/devices_steering_check_tips2" android:layout_marginStart="@dimen/devices_margin_4" style="@style/Devices.Text" />
+                                    </LinearLayout>
+                                    <LinearLayout android:gravity="top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/devices_margin_12" android:layout_marginStart="@dimen/devices_margin_20" android:layout_marginEnd="@dimen/devices_margin_20">
+                                        <com.xa.core.cube.TextView android:textColor="@color/cube_color_container_bg_tint" android:background="@drawable/devices_shape_circular_green" android:layout_width="@dimen/cube_dp_20" android:layout_height="@dimen/cube_dp_20" android:text="3" style="@style/Devices.Text" />
+                                        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:gravity="start|center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/devices_steering_check_tips3" android:layout_marginStart="@dimen/devices_margin_4" style="@style/Devices.Text" />
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+                        </androidx.core.widget.NestedScrollView>
+                    </LinearLayout>
+                </LinearLayout>
+                <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.1666" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+    <android.widget.Button android:textColor="@drawable/devices_selector_text_white" android:gravity="center" android:layout_gravity="center" android:id="@id/btn_steer_calibrate_step1_next" android:background="@drawable/devices_selector_button_green" android:layout_width="@dimen/cube_dp_160" android:layout_height="@dimen/devices_button_height_40" android:layout_marginTop="@dimen/cube_dp_12" android:layout_marginBottom="@dimen/devices_margin_12" android:text="@string/devices_dev_act_next" android:layout_marginStart="@dimen/devices_margin_12" android:layout_marginEnd="@dimen/devices_margin_12" style="@style/Cube.Font.Regular.Callout" />
+</LinearLayout>

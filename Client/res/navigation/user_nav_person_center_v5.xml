@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/user_nav_person_center_v5" app:startDestination="@id/user_personcenterfragmentv5"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="PersonCenterFragmentV5" android:name="com.xag.agri.v4.user.ui.v5.personcenter.PersonCenterFragmentV5" android:id="@id/user_personcenterfragmentv5">
+        <action android:id="@id/toPersonEdit" app:destination="@id/user_personeditverticalfragmentv5" app:enterAnim="@anim/common_fragment_open_enter" app:exitAnim="@anim/common_fragment_open_exit" app:popEnterAnim="@anim/common_fragment_close_enter" app:popExitAnim="@anim/common_fragment_close_exit" />
+        <action android:id="@id/toIdAuth" app:destination="@id/user_idauthfragmentv5" app:enterAnim="@anim/common_fragment_open_enter" app:exitAnim="@anim/common_fragment_open_exit" app:popEnterAnim="@anim/common_fragment_close_enter" app:popExitAnim="@anim/common_fragment_close_exit" />
+        <action android:id="@id/toTeamList" app:destination="@id/user_teamlistfragmentv5" app:enterAnim="@anim/common_fragment_open_enter" app:exitAnim="@anim/common_fragment_open_exit" app:popEnterAnim="@anim/common_fragment_close_enter" app:popExitAnim="@anim/common_fragment_close_exit" />
+        <action android:id="@id/toTeamDetail" app:destination="@id/user_teamdetailfragmentv5" app:enterAnim="@anim/common_fragment_open_enter" app:exitAnim="@anim/common_fragment_open_exit" app:popEnterAnim="@anim/common_fragment_close_enter" app:popExitAnim="@anim/common_fragment_close_exit" />
+    </fragment>
+    <fragment android:label="user_fragment_person_edit_vertical_v5" android:name="com.xag.agri.v4.user.ui.v5.personcenter.PersonEditFragmentV5" android:id="@id/user_personeditverticalfragmentv5">
+        <action android:id="@id/toUserNameModify" app:destination="@id/user_usernamemodifyverticalfragmentv5" app:enterAnim="@anim/common_fragment_open_enter" app:exitAnim="@anim/common_fragment_open_exit" app:popEnterAnim="@anim/common_fragment_close_enter" app:popExitAnim="@anim/common_fragment_close_exit" />
+        <action android:id="@id/toAvatarPreview" app:destination="@id/user_avatarpreviewfragmentv5" app:enterAnim="@anim/common_fragment_open_enter" app:exitAnim="@anim/common_fragment_open_exit" app:popEnterAnim="@anim/common_fragment_close_enter" app:popExitAnim="@anim/common_fragment_close_exit" />
+    </fragment>
+    <fragment android:label="user_fragment_user_name_modify_vertical_v5" android:name="com.xag.agri.v4.user.ui.v5.personcenter.UserNameModifyFragmentV5" android:id="@id/user_usernamemodifyverticalfragmentv5" />
+    <fragment android:label="user_fragment_avatar_preview_v5" android:name="com.xag.agri.v4.user.ui.v5.personcenter.AvatarPreviewFragmentV5" android:id="@id/user_avatarpreviewfragmentv5" />
+    <fragment android:label="user_fragment_id_auth_v5" android:name="com.xag.agri.v4.user.ui.v5.personcenter.IdAuthFragmentV5" android:id="@id/user_idauthfragmentv5" />
+    <fragment android:label="user_fragment_team_list_v5" android:name="com.xag.agri.v4.user.ui.v5.team.TeamListFragmentV5" android:id="@id/user_teamlistfragmentv5">
+        <action android:id="@id/returnPersonCenter" app:destination="@id/user_personcenterfragmentv5" app:enterAnim="@anim/user_3d_reversal_enter" app:exitAnim="@anim/user_3d_reversal_exit" app:popEnterAnim="@anim/user_second_3d_reversal_enter" app:popExitAnim="@anim/user_second_3d_reversal_exit" app:popUpTo="@id/user_personcenterfragmentv5" app:popUpToInclusive="true" />
+        <action android:id="@id/toCreateTeam" app:destination="@id/user_teamcreatefragmentv5" app:enterAnim="@anim/common_fragment_open_enter" app:exitAnim="@anim/common_fragment_open_exit" app:popEnterAnim="@anim/common_fragment_close_enter" app:popExitAnim="@anim/common_fragment_close_exit" />
+        <action android:id="@id/toScanJoinTeam" app:destination="@id/user_teamjoinbyqrcodefragmentv5" app:enterAnim="@anim/common_fragment_open_enter" app:exitAnim="@anim/common_fragment_open_exit" app:popEnterAnim="@anim/common_fragment_close_enter" app:popExitAnim="@anim/common_fragment_close_exit" />
+    </fragment>
+    <fragment android:label="user_fragment_team_detail_v5" android:name="com.xag.agri.v4.user.ui.v5.team.TeamDetailFragmentV5" android:id="@id/user_teamdetailfragmentv5">
+        <action android:id="@id/toRenameTeam" app:destination="@id/user_teamrenamefragmentv5" app:enterAnim="@anim/common_fragment_open_enter" app:exitAnim="@anim/common_fragment_open_exit" app:popEnterAnim="@anim/common_fragment_close_enter" app:popExitAnim="@anim/common_fragment_close_exit" />
+        <action android:id="@id/toTeamCard" app:destination="@id/user_teamcardfragmentv5" app:enterAnim="@anim/common_fragment_open_enter" app:exitAnim="@anim/common_fragment_open_exit" app:popEnterAnim="@anim/common_fragment_close_enter" app:popExitAnim="@anim/common_fragment_close_exit" />
+        <action android:id="@id/toTeamLeaderTransfer" app:destination="@id/user_teamleadertransferfragmentv5" app:enterAnim="@anim/common_fragment_open_enter" app:exitAnim="@anim/common_fragment_open_exit" app:popEnterAnim="@null" app:popExitAnim="@null" />
+        <action android:id="@id/toTeamAddMember" app:destination="@id/user_teammemberaddfragmentv5" app:enterAnim="@anim/common_fragment_open_enter" app:exitAnim="@anim/common_fragment_open_exit" app:popEnterAnim="@null" app:popExitAnim="@null" />
+        <action android:id="@id/toTeamRemoveMember" app:destination="@id/user_teammemberremovefragmentv5" app:enterAnim="@anim/common_fragment_open_enter" app:exitAnim="@anim/common_fragment_open_exit" app:popEnterAnim="@null" app:popExitAnim="@null" />
+    </fragment>
+    <fragment android:label="user_fragment_team_rename_v5" android:name="com.xag.agri.v4.user.ui.v5.team.TeamRenameFragmentV5" android:id="@id/user_teamrenamefragmentv5" />
+    <fragment android:label="user_fragment_team_card_v5" android:name="com.xag.agri.v4.user.ui.v5.team.TeamCardFragmentV5" android:id="@id/user_teamcardfragmentv5" />
+    <fragment android:label="user_fragment_team_leader_transfer_v5" android:name="com.xag.agri.v4.user.ui.v5.team.TeamLeaderTransferFragmentV5" android:id="@id/user_teamleadertransferfragmentv5" />
+    <fragment android:label="user_fragment_team_member_add_v5" android:name="com.xag.agri.v4.user.ui.v5.team.TeamMemberAddFragmentV5" android:id="@id/user_teammemberaddfragmentv5" />
+    <fragment android:label="user_fragment_team_member_remove_v5" android:name="com.xag.agri.v4.user.ui.v5.team.TeamMemberRemoveFragmentV5" android:id="@id/user_teammemberremovefragmentv5" />
+    <fragment android:label="user_fragment_team_create_v5" android:name="com.xag.agri.v4.user.ui.v5.team.TeamCreateFragmentV5" android:id="@id/user_teamcreatefragmentv5" />
+    <fragment android:label="user_fragment_team_join_by_qr_code_v5" android:name="com.xag.agri.v4.user.ui.v5.team.TeamJoinByQRCodeFragmentV5" android:id="@id/user_teamjoinbyqrcodefragmentv5">
+        <action android:id="@id/toJoinTeam" app:destination="@id/user_teamjoinfragmentv5" app:enterAnim="@anim/common_fragment_open_enter" app:exitAnim="@anim/common_fragment_open_exit" app:popEnterAnim="@null" app:popExitAnim="@null" />
+    </fragment>
+    <fragment android:label="user_fragment_team_join_v5" android:name="com.xag.agri.v4.user.ui.v5.team.TeamJoinFragmentV5" android:id="@id/user_teamjoinfragmentv5" />
+</navigation>

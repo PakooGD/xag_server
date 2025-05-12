@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center_horizontal" android:layout_width="304.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/cube_shape_container_bg_tint_8" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/op_color_content_transp1" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="24.0dip" android:text="@string/survey_remote_key_tip" />
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="160.0dip" android:src="@drawable/survey_acs_key" android:scaleType="fitXY" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" />
+        <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="25.0dip" android:layout_marginTop="12.0dip" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip">
+            <TextView android:textSize="16.0sp" android:textColor="@color/cube_color_content_primary" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="A" android:layout_marginEnd="12.0dip" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/cube_color_content_secondary" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/survey_remote_key_short_press" android:layout_marginEnd="2.0dip" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/cube_color_content_primary" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/survey_str_dot" android:layout_marginEnd="12.0dip" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/cube_color_content_secondary" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/survey_remote_key_long_press" android:layout_marginEnd="2.0dip" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/cube_color_content_primary" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/survey_auto_close" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="25.0dip" android:layout_marginTop="12.0dip" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip">
+            <TextView android:textSize="16.0sp" android:textColor="@color/cube_color_content_primary" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="B" android:layout_marginEnd="12.0dip" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/cube_color_content_secondary" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/survey_remote_key_short_press" android:layout_marginEnd="2.0dip" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/cube_color_content_primary" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/survey_str_undo_dot" android:layout_marginEnd="12.0dip" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <TextView android:textSize="16.0sp" android:textColor="@color/cube_color_content_secondary" android:layout_gravity="center_horizontal" android:id="@id/done_ignore" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="24.0dip" android:text="@string/survey_editor_tip_13" android:drawableStart="@drawable/survey_selector_checkbox_square" />
+        <View android:background="@color/basecompat_black_10" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/cube_color_content_primary" android:gravity="center" android:id="@id/done_ok" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/operation_base_i_know" />
+    </LinearLayout>
+</FrameLayout>

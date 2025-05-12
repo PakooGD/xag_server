@@ -1,0 +1,2375 @@
+{
+        "product_id": "8-2-8",
+        "config_version_code": 70,
+        "model": "8-2-8",
+        "config_json": {
+            "app_list": [
+                {
+                    "pkg_name": "com.xag.xagone.config.app.operation.template",
+                    "config_json": {
+                        "A": {
+                            "dosage": {
+                                "default": "1.500",
+                                "min": "0.150",
+                                "max": "30.000"
+                            },
+                            "work_width": {
+                                "default": "8.0",
+                                "min": "1.0",
+                                "max": "50.0"
+                            },
+                            "atomize_size": {
+                                "default": "100",
+                                "size": [
+                                    60,
+                                    65,
+                                    70,
+                                    80,
+                                    90,
+                                    100,
+                                    110,
+                                    130,
+                                    150,
+                                    200,
+                                    280,
+                                    350,
+                                    400,
+                                    450,
+                                    500,
+                                    1500
+                                ]
+                            },
+                            "spread_amount": {
+                                "default": "1.500",
+                                "min": "0.150",
+                                "max": "30.000"
+                            },
+                            "speed": {
+                                "default": "5.0",
+                                "min": "1.0",
+                                "max": "13.8"
+                            },
+                            "height": {
+                                "default": "2.5",
+                                "min": "1.5",
+                                "max": "30.0"
+                            }
+                        },
+                        "B": {
+                            "dosage": {
+                                "default": "1.500",
+                                "min": "0.150",
+                                "max": "30.000"
+                            },
+                            "work_width": {
+                                "default": "8.0",
+                                "min": "1.0",
+                                "max": "50.0"
+                            },
+                            "atomize_size": {
+                                "default": "100",
+                                "size": [
+                                    60,
+                                    65,
+                                    70,
+                                    80,
+                                    90,
+                                    100,
+                                    110,
+                                    130,
+                                    150,
+                                    200,
+                                    280,
+                                    350,
+                                    400,
+                                    450,
+                                    500,
+                                    1500
+                                ]
+                            },
+                            "spread_amount": {
+                                "default": "1.500",
+                                "min": "0.150",
+                                "max": "30.000"
+                            },
+                            "speed": {
+                                "default": "5.0",
+                                "min": "1.0",
+                                "max": "13.8"
+                            },
+                            "height": {
+                                "default": "2.5",
+                                "min": "1.5",
+                                "max": "100.0"
+                            }
+                        }
+                    },
+                    "config_version_code": 4
+                },
+                {
+                    "pkg_name": "com.xag.xagone.config.app.feature",
+                    "config_json": {
+                        "features": [
+                            {
+                                "solutions": [
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [
+                                            "86"
+                                        ],
+                                        "name": "on",
+                                        "description": "支持",
+                                        "id": "solution_on",
+                                        "countries": [
+                                            "CN",
+                                            "ICC_86"
+                                        ]
+                                    },
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [
+                                            "ICC_OTHERS"
+                                        ],
+                                        "name": "off",
+                                        "description": "不支持",
+                                        "id": "solution_off",
+                                        "countries": [
+                                            "OTHERS",
+                                            "DEFAULT",
+                                            "ICC_NOT_86"
+                                        ]
+                                    }
+                                ],
+                                "name": "实名认证（登录/个人中心）",
+                                "description": "实名认证（登录/个人中心）",
+                                "id": "feature_real_name_verification",
+                                "type": 0
+                            },
+                            {
+                                "solutions": [
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [
+                                            "86"
+                                        ],
+                                        "name": "on",
+                                        "description": "支持",
+                                        "id": "solution_on",
+                                        "countries": [
+                                            "CN",
+                                            "ICC_86"
+                                        ]
+                                    },
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [
+                                            "ICC_OTHERS"
+                                        ],
+                                        "name": "off",
+                                        "description": "不支持",
+                                        "id": "solution_off",
+                                        "countries": [
+                                            "OTHERS",
+                                            "DEFAULT",
+                                            "ICC_NOT_86"
+                                        ]
+                                    }
+                                ],
+                                "name": "无人机实名登记检查",
+                                "description": "无人机实名登记检查",
+                                "id": "feature_uav_real_name_registration_check",
+                                "type": 0
+                            },
+                            {
+                                "solutions": [
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [
+                                            "86"
+                                        ],
+                                        "name": "on",
+                                        "description": "支持",
+                                        "id": "solution_on",
+                                        "countries": [
+                                            "CN",
+                                            "ICC_86"
+                                        ]
+                                    },
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [
+                                            "ICC_OTHERS"
+                                        ],
+                                        "name": "off",
+                                        "description": "不支持",
+                                        "id": "solution_off",
+                                        "countries": [
+                                            "OTHERS",
+                                            "DEFAULT",
+                                            "ICC_NOT_86"
+                                        ]
+                                    }
+                                ],
+                                "name": "用户操作证书检查",
+                                "description": "用户操作证书检查",
+                                "id": "feature_user_certificate_check",
+                                "type": 0
+                            },
+                            {
+                                "solutions": [
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [
+                                            "86"
+                                        ],
+                                        "name": "on",
+                                        "description": "支持",
+                                        "id": "solution_on",
+                                        "countries": [
+                                            "CN",
+                                            "ICC_86"
+                                        ]
+                                    },
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [
+                                            "ICC_OTHERS"
+                                        ],
+                                        "name": "off",
+                                        "description": "不支持",
+                                        "id": "solution_off",
+                                        "countries": [
+                                            "OTHERS",
+                                            "DEFAULT",
+                                            "ICC_NOT_86"
+                                        ]
+                                    }
+                                ],
+                                "name": "无人机三责险和商业保险",
+                                "description": "无人机三责险和商业保险",
+                                "id": "feature_uav_insurance",
+                                "type": 0
+                            },
+                            {
+                                "solutions": [
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [
+                                            "86"
+                                        ],
+                                        "name": "on",
+                                        "description": "支持",
+                                        "id": "solution_on",
+                                        "countries": [
+                                            "CN",
+                                            "ICC_86"
+                                        ]
+                                    },
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [
+                                            "ICC_OTHERS"
+                                        ],
+                                        "name": "off",
+                                        "description": "不支持",
+                                        "id": "solution_off",
+                                        "countries": [
+                                            "OTHERS",
+                                            "DEFAULT",
+                                            "ICC_NOT_86"
+                                        ]
+                                    }
+                                ],
+                                "name": "云端极云地图",
+                                "description": "云端极云地图",
+                                "id": "feature_cloud_xag_map",
+                                "type": 0
+                            },
+                            {
+                                "solutions": [
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [
+                                            "86"
+                                        ],
+                                        "name": "on",
+                                        "description": "支持",
+                                        "id": "solution_on",
+                                        "countries": [
+                                            "CN",
+                                            "ICC_86"
+                                        ]
+                                    },
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [
+                                            "ICC_OTHERS"
+                                        ],
+                                        "name": "off",
+                                        "description": "不支持",
+                                        "id": "solution_off",
+                                        "countries": [
+                                            "OTHERS",
+                                            "DEFAULT",
+                                            "ICC_NOT_86"
+                                        ]
+                                    }
+                                ],
+                                "name": "本地极云地图",
+                                "description": "本地极云地图",
+                                "id": "feature_local_xag_map",
+                                "type": 0
+                            },
+                            {
+                                "solutions": [
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [
+                                            "86"
+                                        ],
+                                        "name": "on",
+                                        "description": "支持",
+                                        "id": "solution_on",
+                                        "countries": [
+                                            "CN",
+                                            "ICC_86"
+                                        ]
+                                    },
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [
+                                            "ICC_OTHERS"
+                                        ],
+                                        "name": "off",
+                                        "description": "不支持",
+                                        "id": "solution_off",
+                                        "countries": [
+                                            "OTHERS",
+                                            "DEFAULT",
+                                            "ICC_NOT_86"
+                                        ]
+                                    }
+                                ],
+                                "name": "数字农场服务",
+                                "description": "数字农场服务",
+                                "id": "feature_digital_farm_services",
+                                "type": 0
+                            },
+                            {
+                                "solutions": [
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [
+                                            "86"
+                                        ],
+                                        "name": "on",
+                                        "description": "支持",
+                                        "id": "solution_on",
+                                        "countries": [
+                                            "CN",
+                                            "ICC_86"
+                                        ]
+                                    },
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [
+                                            "ICC_OTHERS"
+                                        ],
+                                        "name": "off",
+                                        "description": "不支持",
+                                        "id": "solution_off",
+                                        "countries": [
+                                            "OTHERS",
+                                            "DEFAULT",
+                                            "ICC_NOT_86"
+                                        ]
+                                    }
+                                ],
+                                "name": "故障预警",
+                                "description": "故障预警",
+                                "id": "feature_fault_alert",
+                                "type": 0
+                            },
+                            {
+                                "solutions": [
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [
+                                            "86",
+                                            "66"
+                                        ],
+                                        "name": "on",
+                                        "description": "支持",
+                                        "id": "solution_on",
+                                        "countries": [
+                                            "CN",
+                                            "TH",
+                                            "ICC_86"
+                                        ]
+                                    },
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [
+                                            "ICC_OTHERS"
+                                        ],
+                                        "name": "off",
+                                        "description": "不支持",
+                                        "id": "solution_off",
+                                        "countries": [
+                                            "OTHERS",
+                                            "DEFAULT",
+                                            "ICC_NOT_86"
+                                        ]
+                                    }
+                                ],
+                                "name": "服务",
+                                "description": "服务",
+                                "id": "feature_xag_services",
+                                "type": 0
+                            },
+                            {
+                                "solutions": [
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [
+                                            "86"
+                                        ],
+                                        "name": "on",
+                                        "description": "支持",
+                                        "id": "solution_on",
+                                        "countries": [
+                                            "CN",
+                                            "ICC_86"
+                                        ]
+                                    },
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [
+                                            "ICC_OTHERS"
+                                        ],
+                                        "name": "off",
+                                        "description": "不支持",
+                                        "id": "solution_off",
+                                        "countries": [
+                                            "OTHERS",
+                                            "DEFAULT",
+                                            "ICC_NOT_86"
+                                        ]
+                                    }
+                                ],
+                                "name": "商城",
+                                "description": "商城",
+                                "id": "feature_mall",
+                                "type": 0
+                            },
+                            {
+                                "solutions": [
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [
+                                            "86"
+                                        ],
+                                        "name": "on",
+                                        "description": "支持",
+                                        "id": "solution_on",
+                                        "countries": [
+                                            "CN",
+                                            "ICC_86"
+                                        ]
+                                    },
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [
+                                            "ICC_OTHERS"
+                                        ],
+                                        "name": "off",
+                                        "description": "不支持",
+                                        "id": "solution_off",
+                                        "countries": [
+                                            "OTHERS",
+                                            "DEFAULT",
+                                            "ICC_NOT_86"
+                                        ]
+                                    }
+                                ],
+                                "name": "学园",
+                                "description": "学园",
+                                "id": "feature_academy",
+                                "type": 0
+                            },
+                            {
+                                "solutions": [
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [
+                                            "86"
+                                        ],
+                                        "name": "on",
+                                        "description": "支持",
+                                        "id": "solution_on",
+                                        "countries": [
+                                            "CN",
+                                            "ICC_86"
+                                        ]
+                                    },
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [
+                                            "ICC_OTHERS"
+                                        ],
+                                        "name": "off",
+                                        "description": "不支持",
+                                        "id": "solution_off",
+                                        "countries": [
+                                            "OTHERS",
+                                            "DEFAULT",
+                                            "ICC_NOT_86"
+                                        ]
+                                    }
+                                ],
+                                "name": "客服",
+                                "description": "客服",
+                                "id": "feature_customer_service",
+                                "type": 0
+                            },
+                            {
+                                "solutions": [
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [
+                                            "86",
+                                            "ICC_OTHERS"
+                                        ],
+                                        "name": "on",
+                                        "description": "支持",
+                                        "id": "solution_on",
+                                        "countries": [
+                                            "CN",
+                                            "TW",
+                                            "GE",
+                                            "UA",
+                                            "BR",
+                                            "KH",
+                                            "GR",
+                                            "IL",
+                                            "GB",
+                                            "MZ",
+                                            "CH",
+                                            "NZ",
+                                            "TR",
+                                            "BY",
+                                            "PL",
+                                            "HU",
+                                            "TH",
+                                            "MY",
+                                            "KZ",
+                                            "BG",
+                                            "LV",
+                                            "RU",
+                                            "AU",
+                                            "MD",
+                                            "LT",
+                                            "JP",
+                                            "KR",
+                                            "VN",
+                                            "OTHERS",
+                                            "ICC_86",
+                                            "ICC_NOT_86"
+                                        ]
+                                    },
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [],
+                                        "name": "off",
+                                        "description": "不支持",
+                                        "id": "solution_off",
+                                        "countries": [
+                                            "DEFAULT"
+                                        ]
+                                    }
+                                ],
+                                "name": "定位系统-云基站服务（旧）",
+                                "description": "定位系统-云基站服务（旧）",
+                                "id": "feature_cloud_base_station_service",
+                                "type": 0
+                            },
+                            {
+                                "solutions": [
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [
+                                            "86"
+                                        ],
+                                        "name": "on",
+                                        "description": "支持",
+                                        "id": "solution_on",
+                                        "countries": [
+                                            "GE",
+                                            "UA",
+                                            "BR",
+                                            "KH",
+                                            "GR",
+                                            "IL",
+                                            "GB",
+                                            "MZ",
+                                            "CH",
+                                            "NZ",
+                                            "TR",
+                                            "BY",
+                                            "PL",
+                                            "HU",
+                                            "TH",
+                                            "MY",
+                                            "KZ",
+                                            "BG",
+                                            "LV",
+                                            "RU",
+                                            "AU",
+                                            "MD",
+                                            "LT",
+                                            "TW",
+                                            "JP",
+                                            "KR",
+                                            "VN",
+                                            "CN",
+                                            "ICC_86"
+                                        ]
+                                    },
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [
+                                            "ICC_OTHERS"
+                                        ],
+                                        "name": "off",
+                                        "description": "不支持",
+                                        "id": "solution_off",
+                                        "countries": [
+                                            "OTHERS",
+                                            "DEFAULT",
+                                            "ICC_NOT_86"
+                                        ]
+                                    }
+                                ],
+                                "name": "定位系统-网络 RTK 服务（新）",
+                                "description": "定位系统-网络 RTK 服务（新）",
+                                "id": "feature_network_rtk_service",
+                                "type": 0
+                            },
+                            {
+                                "solutions": [
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [
+                                            "86"
+                                        ],
+                                        "name": "on",
+                                        "description": "支持",
+                                        "id": "solution_on",
+                                        "countries": [
+                                            "CN",
+                                            "ICC_86"
+                                        ]
+                                    },
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [
+                                            "ICC_OTHERS"
+                                        ],
+                                        "name": "off",
+                                        "description": "不支持",
+                                        "id": "solution_off",
+                                        "countries": [
+                                            "OTHERS",
+                                            "DEFAULT",
+                                            "ICC_NOT_86"
+                                        ]
+                                    }
+                                ],
+                                "name": "省心飞",
+                                "description": "省心飞",
+                                "id": "feature_concerned_flight",
+                                "type": 0
+                            },
+                            {
+                                "solutions": [
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [
+                                            "86"
+                                        ],
+                                        "name": "on",
+                                        "description": "支持",
+                                        "id": "solution_on",
+                                        "countries": [
+                                            "CN",
+                                            "ICC_86"
+                                        ]
+                                    },
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [
+                                            "ICC_OTHERS"
+                                        ],
+                                        "name": "off",
+                                        "description": "不支持",
+                                        "id": "solution_off",
+                                        "countries": [
+                                            "OTHERS",
+                                            "DEFAULT",
+                                            "ICC_NOT_86"
+                                        ]
+                                    }
+                                ],
+                                "name": "4G图传",
+                                "description": "4G图传",
+                                "id": "feature_4g_fpv",
+                                "type": 0
+                            },
+                            {
+                                "solutions": [
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [],
+                                        "name": "on",
+                                        "description": "支持",
+                                        "id": "solution_on",
+                                        "countries": [
+                                            "US"
+                                        ]
+                                    },
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [
+                                            "86",
+                                            "ICC_OTHERS"
+                                        ],
+                                        "name": "off",
+                                        "description": "不支持",
+                                        "id": "solution_off",
+                                        "countries": [
+                                            "OTHERS",
+                                            "DEFAULT"
+                                        ]
+                                    }
+                                ],
+                                "name": "美国服务器节点4G图传",
+                                "description": "美国服务器节点4G图传",
+                                "id": "feature_4g_fpv_us_server",
+                                "type": 0
+                            },
+                            {
+                                "solutions": [
+                                    {
+                                        "endpoints": [
+                                            "china"
+                                        ],
+                                        "phoneAreaCodes": [],
+                                        "name": "on",
+                                        "description": "支持",
+                                        "id": "solution_on",
+                                        "countries": []
+                                    },
+                                    {
+                                        "endpoints": [
+                                            "america"
+                                        ],
+                                        "phoneAreaCodes": [],
+                                        "name": "off",
+                                        "description": "不支持",
+                                        "id": "solution_off",
+                                        "countries": []
+                                    }
+                                ],
+                                "name": "导入（极飞农业）地块",
+                                "description": "导入（极飞农业）地块",
+                                "id": "feature_import_land",
+                                "type": 1
+                            },
+                            {
+                                "solutions": [
+                                    {
+                                        "endpoints": [
+                                            "china"
+                                        ],
+                                        "phoneAreaCodes": [],
+                                        "name": "on",
+                                        "description": "支持",
+                                        "id": "solution_on",
+                                        "countries": []
+                                    },
+                                    {
+                                        "endpoints": [
+                                            "america"
+                                        ],
+                                        "phoneAreaCodes": [],
+                                        "name": "off",
+                                        "description": "不支持",
+                                        "id": "solution_off",
+                                        "countries": []
+                                    }
+                                ],
+                                "name": "导入高清图（M 系列）",
+                                "description": "导入高清图（M 系列）",
+                                "id": "feature_import_hd_map",
+                                "type": 1
+                            },
+                            {
+                                "solutions": [
+                                    {
+                                        "endpoints": [
+                                            "china",
+                                            "america"
+                                        ],
+                                        "phoneAreaCodes": [],
+                                        "name": "on",
+                                        "description": "支持",
+                                        "id": "solution_on",
+                                        "countries": []
+                                    },
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [],
+                                        "name": "off",
+                                        "description": "不支持",
+                                        "id": "solution_off",
+                                        "countries": []
+                                    }
+                                ],
+                                "name": "IoT（4G 通信链路）（21-23款机型）",
+                                "description": "IoT（4G 通信链路）（21-23款机型）",
+                                "id": "feature_iot_4g_x4",
+                                "type": 1
+                            },
+                            {
+                                "solutions": [
+                                    {
+                                        "endpoints": [
+                                            "china",
+                                            "america"
+                                        ],
+                                        "phoneAreaCodes": [],
+                                        "name": "on",
+                                        "description": "支持",
+                                        "id": "solution_on",
+                                        "countries": []
+                                    },
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [],
+                                        "name": "off",
+                                        "description": "不支持",
+                                        "id": "solution_off",
+                                        "countries": []
+                                    }
+                                ],
+                                "name": "IoT（4G 通信链路）（24款及更新机型）",
+                                "description": "IoT（4G 通信链路）（24款及更新机型）",
+                                "id": "feature_iot_4g_x5",
+                                "type": 1
+                            },
+                            {
+                                "solutions": [
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [
+                                            "86"
+                                        ],
+                                        "name": "A",
+                                        "description": "IoT链路组网图文指引",
+                                        "id": "solution_iot_link_guide",
+                                        "countries": [
+                                            "CN",
+                                            "ICC_86"
+                                        ]
+                                    },
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [
+                                            "ICC_OTHERS"
+                                        ],
+                                        "name": "B",
+                                        "description": "Wi-Fi链路组网图文指引",
+                                        "id": "solution_wifi_link_guide",
+                                        "countries": [
+                                            "OTHERS",
+                                            "DEFAULT",
+                                            "ICC_NOT_86"
+                                        ]
+                                    }
+                                ],
+                                "name": "添加设备图文指引",
+                                "description": "添加设备图文指引",
+                                "id": "feature_add_device_guide",
+                                "type": 0
+                            },
+                            {
+                                "solutions": [
+                                    {
+                                        "endpoints": [
+                                            "china"
+                                        ],
+                                        "phoneAreaCodes": [],
+                                        "name": "on",
+                                        "description": "支持",
+                                        "id": "solution_on",
+                                        "countries": []
+                                    },
+                                    {
+                                        "endpoints": [
+                                            "america"
+                                        ],
+                                        "phoneAreaCodes": [],
+                                        "name": "off",
+                                        "description": "不支持",
+                                        "id": "solution_off",
+                                        "countries": []
+                                    }
+                                ],
+                                "name": "新三维航线，请求检索云端高清图",
+                                "description": "新三维航线，请求检索云端高清图",
+                                "id": "feature_new_3d_route_request_cloud_hd_map",
+                                "type": 1
+                            },
+                            {
+                                "solutions": [
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [],
+                                        "name": "on",
+                                        "description": "支持",
+                                        "id": "solution_on",
+                                        "countries": [
+                                            "CN",
+                                            "EMPTY"
+                                        ]
+                                    },
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [],
+                                        "name": "off",
+                                        "description": "不支持",
+                                        "id": "solution_off",
+                                        "countries": [
+                                            "OTHERS",
+                                            "DEFAULT"
+                                        ]
+                                    }
+                                ],
+                                "name": "设备数据流量",
+                                "description": "设备数据流量",
+                                "id": "feature_device_mobile_data_traffic",
+                                "type": 2
+                            },
+                            {
+                                "solutions": [
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [
+                                            "86"
+                                        ],
+                                        "name": "A",
+                                        "description": "按标识A进行配置",
+                                        "id": "solution_config_a",
+                                        "countries": [
+                                            "CN",
+                                            "ICC_86"
+                                        ]
+                                    },
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [
+                                            "ICC_OTHERS"
+                                        ],
+                                        "name": "B",
+                                        "description": "按标识B进行配置",
+                                        "id": "solution_config_b",
+                                        "countries": [
+                                            "OTHERS",
+                                            "DEFAULT",
+                                            "ICC_NOT_86"
+                                        ]
+                                    }
+                                ],
+                                "name": "作业模板参数",
+                                "description": "作业模板参数",
+                                "id": "feature_operation_template",
+                                "type": 0
+                            },
+                            {
+                                "solutions": [
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [
+                                            "86"
+                                        ],
+                                        "name": "on",
+                                        "description": "支持",
+                                        "id": "solution_on",
+                                        "countries": [
+                                            "CN",
+                                            "ICC_86"
+                                        ]
+                                    },
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [
+                                            "ICC_OTHERS"
+                                        ],
+                                        "name": "off",
+                                        "description": "不支持",
+                                        "id": "solution_off",
+                                        "countries": [
+                                            "OTHERS",
+                                            "DEFAULT",
+                                            "ICC_NOT_86"
+                                        ]
+                                    }
+                                ],
+                                "name": "关于本机-ICP备案号",
+                                "description": "关于本机-ICP备案号",
+                                "id": "feature_icp_filing_number",
+                                "type": 0
+                            },
+                            {
+                                "solutions": [
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [
+                                            "86"
+                                        ],
+                                        "name": "on",
+                                        "description": "支持申请解禁",
+                                        "id": "solution_on",
+                                        "countries": [
+                                            "CN",
+                                            "ICC_86"
+                                        ]
+                                    },
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [
+                                            "ICC_OTHERS"
+                                        ],
+                                        "name": "off",
+                                        "description": "不支持申请解禁",
+                                        "id": "solution_off",
+                                        "countries": [
+                                            "OTHERS",
+                                            "DEFAULT",
+                                            "ICC_NOT_86"
+                                        ]
+                                    }
+                                ],
+                                "name": "申请禁飞区许可",
+                                "description": "申请禁飞区许可",
+                                "id": "feature_nofly_zone_permit",
+                                "type": 0
+                            },
+                            {
+                                "solutions": [
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [
+                                            "ICC_OTHERS"
+                                        ],
+                                        "name": "A",
+                                        "description": "公顷（默认）、英亩",
+                                        "id": "solution_config_a",
+                                        "countries": [
+                                            "DEFAULT",
+                                            "OTHERS",
+                                            "ICC_NOT_86"
+                                        ]
+                                    },
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [
+                                            "86"
+                                        ],
+                                        "name": "B",
+                                        "description": "亩（默认）、公顷、英亩",
+                                        "id": "solution_config_b",
+                                        "countries": [
+                                            "CN",
+                                            "ICC_86"
+                                        ]
+                                    },
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [],
+                                        "name": "C",
+                                        "description": "公顷（默认）、英亩、莱",
+                                        "id": "solution_config_c",
+                                        "countries": [
+                                            "TH"
+                                        ]
+                                    },
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [],
+                                        "name": "D",
+                                        "description": "公顷、英亩（默认）",
+                                        "id": "solution_config_d",
+                                        "countries": [
+                                            "TR",
+                                            "US"
+                                        ]
+                                    }
+                                ],
+                                "name": "面积单位",
+                                "description": "面积单位默认方案",
+                                "id": "feature_unit_area",
+                                "type": 0
+                            },
+                            {
+                                "solutions": [
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [
+                                            "86",
+                                            "ICC_OTHERS"
+                                        ],
+                                        "name": "A",
+                                        "description": "米 & 千米（默认）、英尺 & 英里",
+                                        "id": "solution_config_a",
+                                        "countries": [
+                                            "DEFAULT",
+                                            "OTHERS",
+                                            "ICC_86",
+                                            "ICC_NOT_86"
+                                        ]
+                                    },
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [],
+                                        "name": "B",
+                                        "description": "米 & 千米、英尺 & 英里（默认）",
+                                        "id": "solution_config_b",
+                                        "countries": [
+                                            "US"
+                                        ]
+                                    }
+                                ],
+                                "name": "长度单位",
+                                "description": "长度单位默认方案",
+                                "id": "feature_unit_length",
+                                "type": 0
+                            },
+                            {
+                                "solutions": [
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [
+                                            "86",
+                                            "ICC_OTHERS"
+                                        ],
+                                        "name": "A",
+                                        "description": "升（默认）、加仑 (美)",
+                                        "id": "solution_config_a",
+                                        "countries": [
+                                            "DEFAULT",
+                                            "OTHERS",
+                                            "ICC_86",
+                                            "ICC_NOT_86"
+                                        ]
+                                    },
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [],
+                                        "name": "B",
+                                        "description": "升、加仑 (美)（默认）",
+                                        "id": "solution_config_b",
+                                        "countries": [
+                                            "US"
+                                        ]
+                                    },
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [],
+                                        "name": "C",
+                                        "description": "升（默认）、加仑 (英)",
+                                        "id": "solution_config_c",
+                                        "countries": [
+                                            "SE",
+                                            "ES",
+                                            "PT",
+                                            "NL",
+                                            "MT",
+                                            "LU",
+                                            "IT",
+                                            "IE",
+                                            "GB",
+                                            "GR",
+                                            "DE",
+                                            "FR",
+                                            "FI",
+                                            "DK",
+                                            "CY",
+                                            "BE",
+                                            "AT",
+                                            "MK",
+                                            "EE",
+                                            "LT",
+                                            "LV",
+                                            "BA",
+                                            "PL",
+                                            "RS",
+                                            "SI",
+                                            "UA",
+                                            "MD",
+                                            "RO",
+                                            "SK",
+                                            "CZ",
+                                            "BG",
+                                            "AL",
+                                            "HR",
+                                            "HU",
+                                            "BY",
+                                            "RU",
+                                            "ME",
+                                            "CA"
+                                        ]
+                                    }
+                                ],
+                                "name": "容积单位",
+                                "description": "容积单位默认方案",
+                                "id": "feature_unit_volume",
+                                "type": 0
+                            },
+                            {
+                                "solutions": [
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [
+                                            "86",
+                                            "ICC_OTHERS"
+                                        ],
+                                        "name": "A",
+                                        "description": "千克（默认）、磅",
+                                        "id": "solution_config_a",
+                                        "countries": [
+                                            "DEFAULT",
+                                            "OTHERS",
+                                            "ICC_86",
+                                            "ICC_NOT_86"
+                                        ]
+                                    },
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [],
+                                        "name": "B",
+                                        "description": "千克、磅（默认）",
+                                        "id": "solution_config_b",
+                                        "countries": [
+                                            "US"
+                                        ]
+                                    }
+                                ],
+                                "name": "质量单位",
+                                "description": "质量单位默认方案",
+                                "id": "feature_unit_quality",
+                                "type": 0
+                            },
+                            {
+                                "solutions": [
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [
+                                            "86",
+                                            "ICC_OTHERS"
+                                        ],
+                                        "name": "A",
+                                        "description": "米/秒（默认）、千米/时、英里/时",
+                                        "id": "solution_config_a",
+                                        "countries": [
+                                            "DEFAULT",
+                                            "OTHERS",
+                                            "ICC_86",
+                                            "ICC_NOT_86"
+                                        ]
+                                    },
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [],
+                                        "name": "B",
+                                        "description": "米/秒、千米/时、英里/时（默认）",
+                                        "id": "solution_config_b",
+                                        "countries": [
+                                            "US"
+                                        ]
+                                    }
+                                ],
+                                "name": "速度单位",
+                                "description": "速度单位默认方案",
+                                "id": "feature_unit_speed",
+                                "type": 0
+                            },
+                            {
+                                "solutions": [
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [
+                                            "86",
+                                            "ICC_OTHERS"
+                                        ],
+                                        "name": "on",
+                                        "description": "国家/地区可选",
+                                        "id": "solution_on",
+                                        "countries": [
+                                            "OTHERS",
+                                            "DEFAULT",
+                                            "ICC_86",
+                                            "ICC_NOT_86"
+                                        ]
+                                    },
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [],
+                                        "name": "off",
+                                        "description": "国家/地区不可选",
+                                        "id": "solution_off",
+                                        "countries": [
+                                            "IR",
+                                            "SY",
+                                            "KP",
+                                            "CU"
+                                        ]
+                                    }
+                                ],
+                                "name": "用户可设置的国家码",
+                                "description": "用户可设置的国家码",
+                                "id": "feature_set_country_code",
+                                "type": 0
+                            },
+                            {
+                                "solutions": [
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [],
+                                        "name": "on",
+                                        "description": "支持",
+                                        "id": "solution_on",
+                                        "countries": [
+                                            "CN",
+                                            "EMPTY"
+                                        ]
+                                    },
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [],
+                                        "name": "off",
+                                        "description": "不支持",
+                                        "id": "solution_off",
+                                        "countries": [
+                                            "OTHERS",
+                                            "DEFAULT"
+                                        ]
+                                    }
+                                ],
+                                "name": "定位服务购买（网络RTK&云基站）",
+                                "description": "定位服务购买（网络RTK&云基站）",
+                                "id": "feature_device_buy_location_service",
+                                "type": 2
+                            },
+                            {
+                                "solutions": [
+                                    {
+                                        "endpoints": [
+                                            "china"
+                                        ],
+                                        "phoneAreaCodes": [],
+                                        "name": "A",
+                                        "description": "中国大陆隐私政策（中国大陆节点）",
+                                        "id": "solution_config_a",
+                                        "countries": []
+                                    },
+                                    {
+                                        "endpoints": [
+                                            "america"
+                                        ],
+                                        "phoneAreaCodes": [],
+                                        "name": "B",
+                                        "description": "海外隐私政策（美国节点）",
+                                        "id": "solution_config_b",
+                                        "countries": []
+                                    },
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [],
+                                        "name": "C",
+                                        "description": "海外隐私政策（备用1）",
+                                        "id": "solution_config_c",
+                                        "countries": []
+                                    },
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [],
+                                        "name": "D",
+                                        "description": "海外隐私政策（备用2）",
+                                        "id": "solution_config_d",
+                                        "countries": []
+                                    }
+                                ],
+                                "name": "隐私政策",
+                                "description": "隐私政策",
+                                "id": "feature_user_private_policy",
+                                "type": 1
+                            },
+                            {
+                                "solutions": [
+                                    {
+                                        "endpoints": [
+                                            "china"
+                                        ],
+                                        "phoneAreaCodes": [],
+                                        "name": "on",
+                                        "description": "支持",
+                                        "id": "solution_on",
+                                        "countries": []
+                                    },
+                                    {
+                                        "endpoints": [
+                                            "america"
+                                        ],
+                                        "phoneAreaCodes": [],
+                                        "name": "off",
+                                        "description": "不支持",
+                                        "id": "solution_off",
+                                        "countries": []
+                                    }
+                                ],
+                                "name": "下载云端高清图",
+                                "description": "下载云端高清图",
+                                "id": "feature_download_hd_map",
+                                "type": 1
+                            },
+                            {
+                                "solutions": [
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [],
+                                        "name": "on",
+                                        "description": "显示Remote ID入口",
+                                        "id": "solution_on",
+                                        "countries": [
+                                            "ES",
+                                            "SI",
+                                            "SK",
+                                            "RO",
+                                            "PT",
+                                            "PL",
+                                            "NL",
+                                            "MT",
+                                            "LT",
+                                            "LV",
+                                            "IT",
+                                            "IE",
+                                            "HU",
+                                            "GR",
+                                            "DE",
+                                            "FR",
+                                            "FI",
+                                            "EE",
+                                            "DK",
+                                            "CZ",
+                                            "CY",
+                                            "BG",
+                                            "LU",
+                                            "HR",
+                                            "BE",
+                                            "AT",
+                                            "US",
+                                            "SE"
+                                        ]
+                                    },
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [],
+                                        "name": "off",
+                                        "description": "显示Remote ID入口",
+                                        "id": "solution_off",
+                                        "countries": [
+                                            "OTHERS",
+                                            "DEFAULT",
+                                            "EMPTY"
+                                        ]
+                                    }
+                                ],
+                                "name": "设备-关于本机-Remote ID",
+                                "description": "设备-关于本机-Remote ID",
+                                "id": "feature_show_remote_id",
+                                "type": 2
+                            },
+                            {
+                                "solutions": [
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [],
+                                        "name": "on",
+                                        "description": "无人机显示接入互联网方式入口",
+                                        "id": "solution_on",
+                                        "countries": [
+                                            "OTHERS"
+                                        ]
+                                    },
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [],
+                                        "name": "off",
+                                        "description": "无人机隐藏接入互联网方式入口",
+                                        "id": "solution_off",
+                                        "countries": [
+                                            "CN",
+                                            "EMPTY",
+                                            "DEFAULT"
+                                        ]
+                                    }
+                                ],
+                                "name": "无人机接入互联网方式",
+                                "description": "无人机接入互联网方式",
+                                "id": "feature_device_access_internet",
+                                "type": 2
+                            },
+                            {
+                                "solutions": [
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [],
+                                        "name": "on",
+                                        "description": "无人机显示切换到运输执行入口",
+                                        "id": "solution_on",
+                                        "countries": [
+                                            "CN",
+                                            "EMPTY"
+                                        ]
+                                    },
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [],
+                                        "name": "off",
+                                        "description": "无人机隐藏切换到运输执行入口",
+                                        "id": "solution_off",
+                                        "countries": [
+                                            "OTHERS",
+                                            "DEFAULT"
+                                        ]
+                                    }
+                                ],
+                                "name": "设备切到运输执行",
+                                "description": "设备切到运输执行",
+                                "id": "feature_device_system_switch_to_ship",
+                                "type": 2
+                            },
+                            {
+                                "solutions": [
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [
+                                            "ICC_OTHERS"
+                                        ],
+                                        "name": "on",
+                                        "description": "支持自定义数据同步设置",
+                                        "id": "solution_on",
+                                        "countries": [
+                                            "OTHERS",
+                                            "DEFAULT",
+                                            "ICC_NOT_86"
+                                        ]
+                                    },
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [
+                                            "86"
+                                        ],
+                                        "name": "off",
+                                        "description": "不支持自定义数据同步设置，默认上传",
+                                        "id": "solution_off",
+                                        "countries": [
+                                            "CN",
+                                            "ICC_86"
+                                        ]
+                                    }
+                                ],
+                                "name": "数据同步设置",
+                                "description": "数据同步设置",
+                                "id": "feature_data_synchronization_settings",
+                                "type": 0
+                            },
+                            {
+                                "solutions": [
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [],
+                                        "name": "A",
+                                        "description": "跳转至智齿客服SDK（现有方案）",
+                                        "id": "solution_config_a",
+                                        "countries": []
+                                    },
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [
+                                            "86",
+                                            "ICC_OTHERS"
+                                        ],
+                                        "name": "B",
+                                        "description": "跳转至天润客服H5（新方案）",
+                                        "id": "solution_config_b",
+                                        "countries": [
+                                            "CN",
+                                            "ICC_86",
+                                            "OTHERS",
+                                            "DEFAULT",
+                                            "ICC_NOT_86"
+                                        ]
+                                    }
+                                ],
+                                "name": "客服系统",
+                                "description": "客服系统",
+                                "id": "feature_customer_service_provider",
+                                "type": 0
+                            },
+                            {
+                                "solutions": [
+                                    {
+                                        "endpoints": [
+                                            "china"
+                                        ],
+                                        "phoneAreaCodes": [],
+                                        "name": "on",
+                                        "description": "支持",
+                                        "id": "solution_on",
+                                        "countries": []
+                                    },
+                                    {
+                                        "endpoints": [
+                                            "america"
+                                        ],
+                                        "phoneAreaCodes": [],
+                                        "name": "off",
+                                        "description": "不支持",
+                                        "id": "solution_off",
+                                        "countries": []
+                                    }
+                                ],
+                                "name": "21-23 款 IoT 链路支持断点续飞航线优化",
+                                "description": "21-23 款 IoT 链路支持断点续飞航线优化",
+                                "id": "feature_iot_x4_route_rearrangement",
+                                "type": 1
+                            },
+                            {
+                                "solutions": [
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [
+                                            "86"
+                                        ],
+                                        "name": "A",
+                                        "description": "国内方案",
+                                        "id": "solution_config_a",
+                                        "countries": [
+                                            "CN",
+                                            "ICC_86"
+                                        ]
+                                    },
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [
+                                            "66",
+                                            "84",
+                                            "55",
+                                            "1",
+                                            "90",
+                                            "ICC_OTHERS"
+                                        ],
+                                        "name": "B",
+                                        "description": "海外方案",
+                                        "id": "solution_config_b",
+                                        "countries": [
+                                            "US",
+                                            "TH",
+                                            "VN",
+                                            "BR",
+                                            "TR",
+                                            "OTHERS",
+                                            "DEFAULT",
+                                            "ICC_NOT_86"
+                                        ]
+                                    }
+                                ],
+                                "name": "我的-服务列表菜单方案",
+                                "description": "我的-服务列表菜单方案",
+                                "id": "feature_service_menu_config",
+                                "type": 0
+                            },
+                            {
+                                "solutions": [
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [
+                                            "86"
+                                        ],
+                                        "name": "A",
+                                        "description": "国内方案",
+                                        "id": "solution_config_a",
+                                        "countries": [
+                                            "CN",
+                                            "ICC_86"
+                                        ]
+                                    },
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [
+                                            "ICC_OTHERS"
+                                        ],
+                                        "name": "B",
+                                        "description": "海外方案",
+                                        "id": "solution_config_b",
+                                        "countries": [
+                                            "OTHERS",
+                                            "DEFAULT",
+                                            "ICC_NOT_86"
+                                        ]
+                                    }
+                                ],
+                                "name": "个人信息收集清单",
+                                "description": "个人信息收集清单",
+                                "id": "feature_personal_data_gathering_list",
+                                "type": 0
+                            },
+                            {
+                                "solutions": [
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [
+                                            "86"
+                                        ],
+                                        "name": "A",
+                                        "description": "国内方案",
+                                        "id": "solution_config_a",
+                                        "countries": [
+                                            "CN",
+                                            "ICC_86"
+                                        ]
+                                    },
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [
+                                            "ICC_OTHERS"
+                                        ],
+                                        "name": "B",
+                                        "description": "海外方案",
+                                        "id": "solution_config_b",
+                                        "countries": [
+                                            "OTHERS",
+                                            "DEFAULT",
+                                            "ICC_NOT_86"
+                                        ]
+                                    }
+                                ],
+                                "name": "应用权限使用清单",
+                                "description": "应用权限使用清单",
+                                "id": "feature_app_permissions_list",
+                                "type": 0
+                            },
+                            {
+                                "solutions": [
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [
+                                            "86"
+                                        ],
+                                        "name": "A",
+                                        "description": "国内方案",
+                                        "id": "solution_config_a",
+                                        "countries": [
+                                            "CN",
+                                            "ICC_86"
+                                        ]
+                                    },
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [
+                                            "ICC_OTHERS"
+                                        ],
+                                        "name": "B",
+                                        "description": "海外方案",
+                                        "id": "solution_config_b",
+                                        "countries": [
+                                            "OTHERS",
+                                            "DEFAULT",
+                                            "ICC_NOT_86"
+                                        ]
+                                    }
+                                ],
+                                "name": "第三方共享信息清单",
+                                "description": "第三方共享信息清单",
+                                "id": "feature_third_party_data_sharing_list",
+                                "type": 0
+                            },
+                            {
+                                "solutions": [
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [
+                                            "86"
+                                        ],
+                                        "name": "on",
+                                        "description": "支持",
+                                        "id": "solution_on",
+                                        "countries": [
+                                            "CN",
+                                            "EMPTY",
+                                            "ICC_86"
+                                        ]
+                                    },
+                                    {
+                                        "endpoints": [],
+                                        "phoneAreaCodes": [
+                                            "ICC_OTHERS"
+                                        ],
+                                        "name": "off",
+                                        "description": "不支持",
+                                        "id": "solution_off",
+                                        "countries": [
+                                            "OTHERS",
+                                            "DEFAULT",
+                                            "ICC_NOT_86"
+                                        ]
+                                    }
+                                ],
+                                "name": "导入预置颗粒",
+                                "description": "导入预置颗粒",
+                                "id": "feature_preset_particles_information",
+                                "type": 0
+                            }
+                        ],
+                        "version": 5
+                    },
+                    "config_version_code": 33
+                },
+                {
+                    "pkg_name": "com.xag.xagone.config.app.endpoint",
+                    "config_json": {
+                        "data": [
+                            {
+                                "endpoint": "china",
+                                "test_domain": {
+                                    "app_manage": "https://prelease-platform.xa.com",
+                                    "device_warn_h5": "http://127.0.0.1",
+                                    "ota_ge25": "https://prelease.xa.com",
+                                    "agis_xair": "https://aerial-survey-test.xa.com",
+                                    "mgr_xrtk": "https://mgr.xrtk.xaggeo.com",
+                                    "device_file": "https://device-oss.xag.cn",
+                                    "geomatics": "https://geomatics.xaggeo.com",
+                                    "training": "https://training.xa.com",
+                                    "factory_test": "https://factory.xag.cn",
+                                    "iot": "https://iot.xa.com",
+                                    "ntrip_api": "https://ntrip-api.xaggeo.com",
+                                    "xaccount": "https://passport-test.xag.cn",
+                                    "iot_ap2": "https://ap2.iot.xa.com",
+                                    "x_config": "https://prelease.xa.com",
+                                    "iot_ap1": "https://ap1.iot.xa.com",
+                                    "iot_tcp": "api.iot.xa.com",
+                                    "xag_academy": "https://xag-academy-dev.xa.com",
+                                    "devicehealth": "https://devicehealth.xa.com",
+                                    "agri_iot": "https://agri.iot.xa.com",
+                                    "event": "https://event.xa.com",
+                                    "xmap": "https://xmap.xag.cn",
+                                    "rpe2": "https://rpe.xag.cn",
+                                    "app": "https://app.xag.cn:8022",
+                                    "xiot_link": "shadow.iot.xa.com",
+                                    "factory_xservice": "http://121.43.199.134:8990",
+                                    "v2_fw": "https://v2-fw-test.xag.cn",
+                                    "dservice": "https://dservice-test.xa.com",
+                                    "pay": "https://pay-test.xair.cn",
+                                    "message": "https://message-test.xa.com",
+                                    "iot_new2": "https://new2.iot.xa.com",
+                                    "xservice": "http://121.43.199.134:8990",
+                                    "iot_new1": "https://new1.iot.xa.com",
+                                    "xrtk-coverage": "https://xrtk-coverage.xaggeo.com",
+                                    "common_file": "https://common-file.xa.com",
+                                    "dfs": "https://dfs-test2.xaggeo.com/api-digital",
+                                    "factory_warn": "http://47.114.199.225:30028",
+                                    "xts": "https://xts.xag.cn:8089",
+                                    "xag_hdmap_geo": "https://hdmap.xaggeo.com",
+                                    "xshop_sys": "https://xshop-sys.xa.com",
+                                    "no_fly_old": "https://nofly.xag.cn",
+                                    "xbus_link": "new.iot.xa.com",
+                                    "xservice_old": "https://xservice.xair.cn",
+                                    "device": "https://prelease.xa.com",
+                                    "poster": "https://prelease-platform.xa.com",
+                                    "pay-test": "https://pay-test.xair.cn",
+                                    "config": "https://config.xa.com",
+                                    "geofencing": "https://geofencing-test.xa.com",
+                                    "agri_service": "https://agri-service-test.xair.cn:9093"
+                                },
+                                "domain": {
+                                    "app_manage": "https://release-platform.xa.com",
+                                    "device_warn_h5": "https://cloud-health.xag.cn",
+                                    "ota_ge25": "https://device.xa.com",
+                                    "agis_xair": "https://aerial-survey.xa.com",
+                                    "mgr_xrtk": "https://mgr.xrtk.xaggeo.com",
+                                    "device_file": "https://device-oss.xag.cn",
+                                    "geomatics": "https://geomatics.xaggeo.com",
+                                    "training": "https://training.xa.com",
+                                    "factory_test": "https://factory.xag.cn",
+                                    "iot": "https://iot.xa.com",
+                                    "ntrip_api": "https://ntrip-api.xaggeo.com",
+                                    "xaccount": "https://passport.xag.cn",
+                                    "iot_ap2": "https://ap2.iot.xa.com",
+                                    "x_config": "https://device.xa.com",
+                                    "iot_ap1": "https://ap1.iot.xa.com",
+                                    "iot_tcp": "api.iot.xa.com",
+                                    "xag_academy": "https://xag-academy.xa.com",
+                                    "devicehealth": "https://devicehealth.xa.com",
+                                    "agri_iot": "https://agri.iot.xa.com",
+                                    "event": "https://event.xa.com",
+                                    "xmap": "https://xmap.xag.cn",
+                                    "rpe2": "https://rpe.xag.cn",
+                                    "app": "https://app.xag.cn:8022",
+                                    "xiot_link": "shadow.iot.xa.com",
+                                    "factory_xservice": "https://xservice.xa.com",
+                                    "v2_fw": "https://v2.fw.xag.cn",
+                                    "dservice": "https://dservice.xa.com",
+                                    "pay": "https://pay.xaircraft.com",
+                                    "message": "https://message.xa.com",
+                                    "iot_new2": "https://new2.iot.xa.com",
+                                    "xservice": "https://xservice.xa.com",
+                                    "iot_new1": "https://new1.iot.xa.com",
+                                    "xrtk-coverage": "https://xrtk-coverage.xaggeo.com",
+                                    "common_file": "https://common-file.xa.com",
+                                    "dfs": "https://dfs.xaggeo.com",
+                                    "factory_warn": "http://cloud.xa.com:30024",
+                                    "xts": "https://xts.xag.cn:8089",
+                                    "xag_hdmap_geo": "https://hdmap.xaggeo.com",
+                                    "xshop_sys": "https://xshop-sys.xa.com",
+                                    "no_fly_old": "https://nofly.xag.cn",
+                                    "xbus_link": "new.iot.xa.com",
+                                    "xservice_old": "https://xservice.xag.cn",
+                                    "device": "https://device.xa.com",
+                                    "poster": "https://release-platform.xa.com",
+                                    "pay-test": "https://pay-test.xair.cn",
+                                    "config": "https://config.xa.com",
+                                    "geofencing": "https://geofencing.xa.com",
+                                    "agri_service": "https://argi-service-front.xag.cn"
+                                },
+                                "endpoint_country": "CN",
+                                "country_codes": [
+                                    "CN",
+                                    "AL",
+                                    "DZ",
+                                    "AF",
+                                    "AE",
+                                    "AW",
+                                    "OM",
+                                    "AZ",
+                                    "EG",
+                                    "ET",
+                                    "IE",
+                                    "EE",
+                                    "AD",
+                                    "AO",
+                                    "AU",
+                                    "AT",
+                                    "AX",
+                                    "PG",
+                                    "PK",
+                                    "PS",
+                                    "BH",
+                                    "BY",
+                                    "BG",
+                                    "MP",
+                                    "BJ",
+                                    "BE",
+                                    "IS",
+                                    "PL",
+                                    "BA",
+                                    "BW",
+                                    "BT",
+                                    "BF",
+                                    "BI",
+                                    "BV",
+                                    "KP",
+                                    "DK",
+                                    "DE",
+                                    "TL",
+                                    "TG",
+                                    "DM",
+                                    "RU",
+                                    "ER",
+                                    "FR",
+                                    "FO",
+                                    "PF",
+                                    "TF",
+                                    "VA",
+                                    "PH",
+                                    "FJ",
+                                    "FI",
+                                    "CV",
+                                    "FK",
+                                    "GM",
+                                    "CG",
+                                    "CD",
+                                    "GG",
+                                    "GL",
+                                    "GP",
+                                    "GU",
+                                    "KZ",
+                                    "KR",
+                                    "NL",
+                                    "HM",
+                                    "KI",
+                                    "DJ",
+                                    "KG",
+                                    "GN",
+                                    "GW",
+                                    "GH",
+                                    "GA",
+                                    "KH",
+                                    "CZ",
+                                    "ZW",
+                                    "CM",
+                                    "QA",
+                                    "CC",
+                                    "KM",
+                                    "CI",
+                                    "KW",
+                                    "HR",
+                                    "KE",
+                                    "CK",
+                                    "LV",
+                                    "LS",
+                                    "LA",
+                                    "LB",
+                                    "LR",
+                                    "LY",
+                                    "LT",
+                                    "LI",
+                                    "RE",
+                                    "LU",
+                                    "RW",
+                                    "RO",
+                                    "MG",
+                                    "MV",
+                                    "MT",
+                                    "MW",
+                                    "MY",
+                                    "ML",
+                                    "MK",
+                                    "MH",
+                                    "YT",
+                                    "IM",
+                                    "MU",
+                                    "MR",
+                                    "AS",
+                                    "UM",
+                                    "MN",
+                                    "BD",
+                                    "FM",
+                                    "MM",
+                                    "MD",
+                                    "MA",
+                                    "MC",
+                                    "MZ",
+                                    "NA",
+                                    "ZA",
+                                    "GS",
+                                    "NR",
+                                    "NP",
+                                    "NE",
+                                    "NG",
+                                    "NU",
+                                    "NO",
+                                    "NF",
+                                    "PW",
+                                    "PN",
+                                    "PT",
+                                    "GE",
+                                    "JP",
+                                    "SE",
+                                    "CH",
+                                    "WS",
+                                    "SL",
+                                    "SN",
+                                    "CY",
+                                    "SC",
+                                    "SA",
+                                    "CX",
+                                    "ST",
+                                    "SH",
+                                    "KN",
+                                    "SM",
+                                    "PM",
+                                    "LK",
+                                    "SK",
+                                    "SI",
+                                    "SJ",
+                                    "SZ",
+                                    "SD",
+                                    "SB",
+                                    "SO",
+                                    "TJ",
+                                    "TH",
+                                    "TZ",
+                                    "TO",
+                                    "TC",
+                                    "TN",
+                                    "TV",
+                                    "TR",
+                                    "TM",
+                                    "TK",
+                                    "WF",
+                                    "VU",
+                                    "VI",
+                                    "BN",
+                                    "UG",
+                                    "UA",
+                                    "UZ",
+                                    "ES",
+                                    "GR",
+                                    "SG",
+                                    "NC",
+                                    "NZ",
+                                    "HU",
+                                    "SY",
+                                    "AM",
+                                    "YE",
+                                    "IQ",
+                                    "IR",
+                                    "IL",
+                                    "IT",
+                                    "IN",
+                                    "ID",
+                                    "GB",
+                                    "IO",
+                                    "JO",
+                                    "VN",
+                                    "ZM",
+                                    "JE",
+                                    "TD",
+                                    "GI",
+                                    "CF",
+                                    "BQ",
+                                    "CW",
+                                    "GQ",
+                                    "HK",
+                                    "MO",
+                                    "ME",
+                                    "BL",
+                                    "MF",
+                                    "RS",
+                                    "SX",
+                                    "SS",
+                                    "TW",
+                                    "EH",
+                                    "AR",
+                                    "AI",
+                                    "AG",
+                                    "BB",
+                                    "BS",
+                                    "PY",
+                                    "PA",
+                                    "BR",
+                                    "BM",
+                                    "PR",
+                                    "BO",
+                                    "BZ",
+                                    "DO",
+                                    "EC",
+                                    "GF",
+                                    "CO",
+                                    "CR",
+                                    "GD",
+                                    "CU",
+                                    "GY",
+                                    "HT",
+                                    "HN",
+                                    "CA",
+                                    "KY",
+                                    "MQ",
+                                    "MS",
+                                    "PE",
+                                    "MX",
+                                    "NI",
+                                    "SV",
+                                    "LC",
+                                    "VC",
+                                    "SR",
+                                    "TT",
+                                    "GT",
+                                    "VG",
+                                    "VE",
+                                    "UY",
+                                    "JM",
+                                    "CL"
+                                ]
+                            },
+                            {
+                                "endpoint": "america",
+                                "test_domain": {
+                                    "app_manage": "https://app-test-us.xa.com",
+                                    "device_warn_h5": "http://127.0.0.1",
+                                    "ota_ge25": "https://prelease.xa.com",
+                                    "agis_xair": "https://aerial-survey-test-us.xa.com",
+                                    "mgr_xrtk": "https://mgr.xrtk.xaggeo.com",
+                                    "device_file": "https://device-oss-test-us.xa.com",
+                                    "geomatics": "http://127.0.0.1",
+                                    "training": "http://127.0.0.1",
+                                    "factory_test": "http://127.0.0.1",
+                                    "iot": "http://127.0.0.1",
+                                    "ntrip_api": "https://ntrip-api.xaggeo.com",
+                                    "xaccount": "https://account-test-us.xa.com",
+                                    "iot_ap2": "http://127.0.0.1",
+                                    "x_config": "https://prelease.xa.com",
+                                    "iot_ap1": "http://127.0.0.1",
+                                    "iot_tcp": "api-us.iot.xa.com",
+                                    "xag_academy": "http://127.0.0.1",
+                                    "devicehealth": "http://127.0.0.1",
+                                    "agri_iot": "https://agri-us.iot.xa.com",
+                                    "event": "https://event-test-us.xa.com",
+                                    "xmap": "https://xmap-us.xa.com",
+                                    "rpe2": "http://127.0.0.1",
+                                    "app": "https://app-test-us.xa.com",
+                                    "xiot_link": "shadow-us.iot.xa.com",
+                                    "factory_xservice": "http://121.43.199.134:8990",
+                                    "v2_fw": "https://fw-test-us.xa.com",
+                                    "dservice": "https://dservice-test-us.xa.com",
+                                    "pay": "http://127.0.0.1",
+                                    "message": "https://message-test-us.xa.com",
+                                    "iot_new2": "http://127.0.0.1",
+                                    "xservice": "http://121.43.199.134:8990",
+                                    "iot_new1": "http://127.0.0.1",
+                                    "xrtk-coverage": "https://xrtk-coverage.xaggeo.com",
+                                    "common_file": "https://common-file-us.xa.com",
+                                    "dfs": "http://127.0.0.1",
+                                    "factory_warn": "http://127.0.0.1",
+                                    "xts": "http://127.0.0.1",
+                                    "xag_hdmap_geo": "http://127.0.0.1",
+                                    "xshop_sys": "http://127.0.0.1",
+                                    "no_fly_old": "https://nofly.xag.cn",
+                                    "xbus_link": "new-us.iot.xa.com",
+                                    "xservice_old": "http://127.0.0.1",
+                                    "device": "https://device-test-us.xa.com",
+                                    "poster": "https://prelease-platform.xa.com",
+                                    "pay-test": "http://127.0.0.1",
+                                    "config": "https://config-test-us.xa.com",
+                                    "geofencing": "https://geofencing-test.xa.com",
+                                    "agri_service": "http://127.0.0.1"
+                                },
+                                "domain": {
+                                    "app_manage": "https://app-us.xa.com",
+                                    "device_warn_h5": "http://127.0.0.1",
+                                    "ota_ge25": "https://device.xa.com",
+                                    "agis_xair": "https://aerial-survey-us.xa.com",
+                                    "mgr_xrtk": "https://mgr.xrtk.xaggeo.com",
+                                    "device_file": "https://device-oss-us.xa.com",
+                                    "geomatics": "http://127.0.0.1",
+                                    "training": "http://127.0.0.1",
+                                    "factory_test": "http://127.0.0.1",
+                                    "iot": "http://127.0.0.1",
+                                    "ntrip_api": "https://ntrip-api.xaggeo.com",
+                                    "xaccount": "https://account-us.xa.com",
+                                    "iot_ap2": "http://127.0.0.1",
+                                    "x_config": "https://device.xa.com",
+                                    "iot_ap1": "http://127.0.0.1",
+                                    "iot_tcp": "api-us.iot.xa.com",
+                                    "xag_academy": "http://127.0.0.1",
+                                    "devicehealth": "http://127.0.0.1",
+                                    "agri_iot": "https://agri-us.iot.xa.com",
+                                    "event": "https://event-us.xa.com",
+                                    "xmap": "https://xmap-us.xa.com",
+                                    "rpe2": "http://127.0.0.1",
+                                    "app": "https://app-us.xa.com",
+                                    "xiot_link": "shadow-us.iot.xa.com",
+                                    "factory_xservice": "https://xservice.xa.com",
+                                    "v2_fw": "https://fw-us.xa.com",
+                                    "dservice": "https://dservice-us.xa.com",
+                                    "pay": "http://127.0.0.1",
+                                    "message": "https://message-us.xa.com",
+                                    "iot_new2": "http://127.0.0.1",
+                                    "xservice": "http://127.0.0.1",
+                                    "iot_new1": "http://127.0.0.1",
+                                    "xrtk-coverage": "https://xrtk-coverage.xaggeo.com",
+                                    "common_file": "https://common-file-us.xa.com",
+                                    "dfs": "http://127.0.0.1",
+                                    "factory_warn": "http://127.0.0.1",
+                                    "xts": "http://127.0.0.1",
+                                    "xag_hdmap_geo": "http://127.0.0.1",
+                                    "xshop_sys": "http://127.0.0.1",
+                                    "no_fly_old": "https://nofly.xag.cn",
+                                    "xbus_link": "new-us.iot.xa.com",
+                                    "xservice_old": "http://127.0.0.1",
+                                    "device": "https://device-us.xa.com",
+                                    "poster": "https://release-platform.xa.com",
+                                    "pay-test": "http://127.0.0.1",
+                                    "config": "https://config-us.xa.com",
+                                    "geofencing": "https://geofencing.xa.com",
+                                    "agri_service": "http://127.0.0.1"
+                                },
+                                "endpoint_country": "US",
+                                "country_codes": [
+                                    "US"
+                                ]
+                            }
+                        ],
+                        "versions": 3,
+                        "type": "endpoint"
+                    },
+                    "config_version_code": 42
+                },
+                {
+                    "pkg_name": "com.xag.xagone.config.app.global",
+                    "config_json": {
+                        "featureSolutionConfig": {
+                            "business_yuntu_switch_carriers": [
+                                {
+                                    "solutionName": "",
+                                    "solutionConfig": "[{\"name\":\"中国移动\",\"key\":\"china_mobile\",\"enable\":true},{\"name\":\"中国联通\",\"key\":\"china_unicom\",\"enable\":false},{\"name\":\"中国电信\",\"key\":\"china_telecom\",\"enable\":true}]"
+                                }
+                            ],
+                            "feature_preset_particles_information": [
+                                {
+                                    "solutionName": "Device24",
+                                    "solutionConfig": "[{\"name\":\"尿素 (预置)\",\"key\":\"devices_24_preset_particles_urea\",\"detail\":\"大号绞龙，约 2mm\",\"detailKey\":\"devices_24_particles_details_urea\",\"type\":3,\"dosage\":16728,\"rpm\":1080,\"angle\":69.0,\"tipUrl\":\"https://app-content.xag.cn/release/app_config_platform/help_doc/cv3rr5eheq3cf4qs1hl0.png\"},{\"name\":\"复合肥 (预置)\",\"key\":\"devices_24_preset_particles_compound_fertilizer\",\"detail\":\"大号绞龙，约 4mm\",\"detailKey\":\"devices_24_particles_details_compound_fertilizer\",\"type\":3,\"dosage\":19186,\"rpm\":1080,\"angle\":148.0,\"tipUrl\":\"https://app-content.xag.cn/release/app_config_platform/help_doc/cv3rs2eheq3cf4qs1hlg.png\"},{\"name\":\"发芽水稻 (预置)\",\"key\":\"devices_24_preset_particles_sprouted_rice\",\"detail\":\"中号绞龙，约 8mm\",\"detailKey\":\"devices_24_particles_details_sprouted_rice\",\"type\":2,\"dosage\":3888,\"rpm\":1080,\"angle\":47.0,\"tipUrl\":\"https://app-content.xag.cn/release/app_config_platform/help_doc/cv3rseuheq3cf4qs1hm0.png\"},{\"name\":\"硫磺粉 (预置)\",\"key\":\"devices_24_preset_particles_sulfur\",\"detail\":\"中号绞龙，约 0.1mm\",\"detailKey\":\"devices_24_particles_details_sulfur\",\"type\":2,\"dosage\":7243,\"rpm\":1080,\"angle\":46.0,\"tipUrl\":\"https://app-content.xag.cn/release/app_config_platform/help_doc/cv3rspuheq3cf4qs1hmg.png\"},{\"name\":\"油菜籽 (预置)\",\"key\":\"devices_24_preset_particles_rapeseed\",\"detail\":\"小号绞龙，约 2mm\",\"detailKey\":\"devices_24_particles_details_rapeseed\",\"type\":1,\"dosage\":475,\"rpm\":1080,\"angle\":84.0,\"tipUrl\":\"https://app-content.xag.cn/release/app_config_platform/help_doc/cv3rtn6heq3cf4qs1hn0.png\"}]"
+                                },
+                                {
+                                    "solutionName": "Device25",
+                                    "solutionConfig": "[{\"name\":\"尿素 (预置)\",\"key\":\"devices_25_preset_particles_urea\",\"detail\":\"大号绞龙，约 2mm\",\"detailKey\":\"devices_25_particles_details_urea\",\"type\":3,\"dosage\":29266,\"rpm\":1872,\"angle\":78.0,\"tipUrl\":\"https://app-content.xag.cn/release/app_config_platform/help_doc/cv3ru26heq3cf4qs1hng.png\"},{\"name\":\"复合肥 (预置)\",\"key\":\"devices_25_preset_particles_compound_fertilizer\",\"detail\":\"大号绞龙，约 4mm\",\"detailKey\":\"devices_25_particles_details_compound_fertilizer\",\"type\":3,\"dosage\":28814,\"rpm\":1572,\"angle\":178.0,\"tipUrl\":\"https://app-content.xag.cn/release/app_config_platform/help_doc/cv3ru8uheq3cf4qs1ho0.png\"},{\"name\":\"发芽水稻 (预置)\",\"key\":\"devices_25_preset_particles_sprouted_rice\",\"detail\":\"中号绞龙，约 8mm\",\"detailKey\":\"devices_25_particles_details_sprouted_rice\",\"type\":2,\"dosage\":6562,\"rpm\":1871,\"angle\":258.0,\"tipUrl\":\"https://app-content.xag.cn/release/app_config_platform/help_doc/cv3ruheheq3cf4qs1hp0.png\"},{\"name\":\"硫磺粉 (预置)\",\"key\":\"devices_25_preset_particles_sulfur\",\"detail\":\"中号绞龙，约 0.1mm\",\"detailKey\":\"devices_25_particles_details_sulfur\",\"type\":2,\"dosage\":15665,\"rpm\":1873,\"angle\":59.0,\"tipUrl\":\"https://app-content.xag.cn/release/app_config_platform/help_doc/cv3rut6heq3cf4qs1hpg.png\"},{\"name\":\"油菜籽 (预置)\",\"key\":\"devices_25_preset_particles_rapeseed\",\"detail\":\"小号绞龙，约 2mm\",\"detailKey\":\"devices_25_particles_details_rapeseed\",\"type\":1,\"dosage\":790,\"rpm\":1872,\"angle\":34.0,\"tipUrl\":\"https://app-content.xag.cn/release/app_config_platform/help_doc/cv3rv3uheq3cf4qs1hq0.png\"}]"
+                                }
+                            ],
+                            "business_safe_distance_offset": [
+                                {
+                                    "solutionName": "",
+                                    "solutionConfig": "{\"distanceOffset\":0.3}"
+                                }
+                            ],
+                            "feature_operation_template": [
+                                {
+                                    "solutionName": "A",
+                                    "solutionConfig": "{\"dosage\": {\"min\": \"0.150\", \"max\": \"30.000\", \"default\": \"1.500\"}, \"atomize_size\": {\"size\": [60, 65, 70, 80, 90, 100, 110, 130, 150, 200, 280, 350, 400, 450, 500, 1500], \"default\": \"100\"}, \"spread_amount\": {\"min\": \"0.150\", \"max\": \"30.000\", \"default\": \"1.500\"}, \"speed\": {\"min\": \"1.0\", \"max\": \"13.8\", \"default\": \"5.0\"}, \"height\": {\"min\": \"1.5\", \"max\": \"30.0\", \"default\": \"2.5\"}, \"work_width\": {\"min\": \"1.0\", \"max\": \"50.0\", \"default\": \"8.0\"}}"
+                                },
+                                {
+                                    "solutionName": "B",
+                                    "solutionConfig": "{\"dosage\": {\"min\": \"0.150\", \"max\": \"30.000\", \"default\": \"1.500\"}, \"atomize_size\": {\"size\": [60, 65, 70, 80, 90, 100, 110, 130, 150, 200, 280, 350, 400, 450, 500, 1500], \"default\": \"100\"}, \"spread_amount\": {\"min\": \"0.150\", \"max\": \"30.000\", \"default\": \"1.500\"}, \"speed\": {\"min\": \"1.0\", \"max\": \"13.8\", \"default\": \"5.0\"}, \"height\": {\"min\": \"1.5\", \"max\": \"100.0\", \"default\": \"2.5\"}, \"work_width\": {\"min\": \"1.0\", \"max\": \"50.0\", \"default\": \"8.0\"}}"
+                                }
+                            ],
+                            "feature_service_menu_config": [
+                                {
+                                    "solutionName": "A",
+                                    "solutionConfig": "[{\"func\":\"我的订单\",\"funcKey\":\"user_my_orders\",\"groupName\":\"\",\"groupNameKey\":\"\",\"enableOffline\":true,\"productionUrl\":\"https://passport.xag.cn/app/order/h5/benefit/order\",\"testUrl\":\"https://passport-test.xag.cn/app/order/h5/benefit/order\"},{\"func\":\"故障报修\",\"funcKey\":\"user_fault_report\",\"groupName\":\"售后服务\",\"groupNameKey\":\"user_after_sales_service\",\"enableOffline\":true,\"productionUrl\":\"https://xservice.xa.com/devices\",\"testUrl\":\"http://121.43.199.134:9013/devices\"},{\"func\":\"服务网点\",\"funcKey\":\"user_service_outlets\",\"groupName\":\"售后服务\",\"groupNameKey\":\"user_after_sales_service\",\"enableOffline\":true,\"productionUrl\":\"https://xservice.xa.com/networkpoints\",\"testUrl\":\"http://121.43.199.134:9013/networkpoints\"},{\"func\":\"保障服务\",\"funcKey\":\"user_insurance_services\",\"groupName\":\"售后服务\",\"groupNameKey\":\"user_after_sales_service\",\"enableOffline\":true,\"productionUrl\":\"https://xservice.xa.com/insurance/three-liability-list\",\"testUrl\":\"https://agri-service-test.xair.cn:9093/#/purchase-guidelines\"},{\"func\":\"数字农场服务\",\"funcKey\":\"user_digital_farm\",\"groupName\":\"数据服务\",\"groupNameKey\":\"user_data_service\",\"enableOffline\":true,\"productionUrl\":\"http://dfs.xaggeo.com/h5/digital-farm/entry\",\"testUrl\":\"\"},{\"func\":\"作业数据推送\",\"funcKey\":\"user_tasks_push\",\"groupName\":\"数据服务\",\"groupNameKey\":\"user_data_service\",\"enableOffline\":true,\"productionUrl\":\"https://nf.xa.com/app/tasks/push/list\",\"testUrl\":\"\"},{\"func\":\"老用户邀请有礼\",\"funcKey\":\"user_invite_rewards\",\"groupName\":\"产品服务\",\"groupNameKey\":\"user_product_service\",\"enableOffline\":true,\"productionUrl\":\"https://xservice.xa.com/old-brings-new\",\"testUrl\":\"\"},{\"func\":\"优惠购机活动\",\"funcKey\":\"user_discount_sale\",\"groupName\":\"产品服务\",\"groupNameKey\":\"user_product_service\",\"enableOffline\":true,\"productionUrl\":\"https://xservice.xa.com/device-replace\",\"testUrl\":\"http://121.43.199.134:9013/device-replace\"},{\"func\":\"更多\",\"funcKey\":\"user_more\",\"groupName\":\"产品服务\",\"groupNameKey\":\"user_product_service\",\"enableOffline\":true,\"productionUrl\":\"https://xservice.xa.com/complete-machine-delivery/delivery-service\",\"testUrl\":\"http://121.43.199.134:9013/complete-machine-delivery/delivery-service\"}]"
+                                },
+                                {
+                                    "solutionName": "B",
+                                    "solutionConfig": "[{\"func\":\"故障报修\",\"funcKey\":\"user_fault_report_overseas\",\"groupName\":\"售后服务\",\"groupNameKey\":\"user_after_sales_service\",\"enableOffline\":true,\"productionUrl\":\"https://oversea-service-app.xa.com/malfunction-repair/order-list\",\"testUrl\":\"https://after-sale-oversea.xair.cn/malfunction-repair/order-list\"}]"
+                                }
+                            ]
+                        },
+                        "version": 1
+                    },
+                    "config_version_code": 4
+                }
+            ],
+            "config_version_code": 70,
+            "model": "xag_one_alpha"
+        }
+    }

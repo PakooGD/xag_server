@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:background="@drawable/cube_shape_container_bg_tint_8" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/action_add_group" android:layout_width="@dimen/cube_dp_160" android:layout_height="@dimen/cube_dp_48">
+        <TextView android:textSize="16.0sp" android:textColor="@color/cube_color_content_primary" android:gravity="center_vertical" android:paddingLeft="@dimen/cube_dp_16" android:paddingRight="@dimen/cube_dp_16" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/device_update_delete" android:paddingHorizontal="@dimen/cube_dp_16" />
+        <ImageView android:layout_gravity="end|center" android:id="@id/action_choose_bound_check" android:layout_width="@dimen/cube_dp_24" android:layout_height="@dimen/cube_dp_24" android:layout_marginLeft="@dimen/cube_dp_1" android:layout_marginRight="@dimen/cube_dp_1" android:src="@drawable/device_update_system_delete" android:layout_marginHorizontal="@dimen/cube_dp_1" />
+    </FrameLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

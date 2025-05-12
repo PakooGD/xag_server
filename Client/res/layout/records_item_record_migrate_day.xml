@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/lyTop" android:paddingTop="@dimen/cube_dp_12" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/cube_dp_32">
+        <CheckBox android:id="@id/cbAll" android:background="@drawable/op_res_select_check_box" android:clickable="false" android:layout_width="@dimen/cube_dp_24" android:layout_height="@dimen/cube_dp_24" android:button="@null" />
+        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:id="@id/tvTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/cube_dp_8" style="@style/Cube.Font.Medium.Body" />
+        <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_secondary" android:id="@id/tvArea" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/cube_dp_8" android:layout_marginEnd="@dimen/cube_dp_36" style="@style/Cube.Font.Regular.Callout" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rvRecord" android:background="@drawable/records_bg_cube_bg_tint_8dp_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cube_dp_16" android:layout_marginTop="@dimen/dp_10" android:layout_marginRight="@dimen/cube_dp_16" android:layout_marginHorizontal="@dimen/cube_dp_16" />
+</LinearLayout>

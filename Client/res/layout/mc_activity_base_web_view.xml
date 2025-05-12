@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/cube_color_container_bg_base" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="@dimen/mc_actionbar">
+        <ImageView android:id="@id/iv_close" android:padding="@dimen/mc_padding_12" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/mc_general_icon_arrow_left_24" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:tint="@color/black" />
+        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.tencent.smtt.sdk.WebView android:id="@id/webView" android:layout_width="fill_parent" android:layout_height="@dimen/cube_dp_0" android:layout_weight="1.0" />
+</LinearLayout>

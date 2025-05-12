@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:id="@id/content_root" android:background="@color/cube_color_container_bg_base" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="@dimen/devices_item_height_44">
+        <ImageView android:textColor="@color/cube_color_content_primary" android:gravity="center" android:id="@id/page_back" android:paddingLeft="@dimen/devices_padding_16" android:paddingRight="@dimen/devices_padding_16" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/cube_ic_gen_chevron_left" android:paddingHorizontal="@dimen/devices_padding_16" app:layout_constraintStart_toStartOf="parent" style="@style/Cube.Font.Regular.Body" />
+        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:gravity="center" android:paddingLeft="@dimen/devices_padding_16" android:paddingRight="@dimen/devices_padding_16" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/devices_xrtk_gps_single_location" android:paddingHorizontal="@dimen/devices_padding_16" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" style="@style/Devices.Text.title" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.0" />
+            <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/devices_padding_16" android:paddingTop="@dimen/devices_padding_12" android:paddingRight="@dimen/devices_padding_16" android:paddingBottom="@dimen/devices_padding_12" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.6668" android:paddingHorizontal="@dimen/devices_padding_16" android:paddingVertical="@dimen/devices_padding_12">
+                <LinearLayout android:orientation="vertical" android:background="@drawable/cube_shape_container_bg_tint_8" android:padding="@dimen/devices_padding_16" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cube_dp_24" android:minHeight="@dimen/cube_dp_144">
+                    <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_secondary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/devices_xrtk_network_gps_introduction" style="@style/Cube.Font.Regular.Callout" />
+                    <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cube_dp_4" android:text="@string/devices_xrtk_gps_single_location_introduction" style="@style/Cube.Font.Regular.Body" />
+                </LinearLayout>
+            </LinearLayout>
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.0" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.appcompat.widget.LinearLayoutCompat>

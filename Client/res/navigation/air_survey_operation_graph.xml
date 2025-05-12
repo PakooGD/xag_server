@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/navigation_air_survey_operation_graph" app:startDestination="@id/nav_main_fragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="SurveyCoreOperationFragmentV5" android:name="com.xag.agri.v4.survey.air.v2.business.display.SurveyCoreOperationFragmentV5" android:id="@id/nav_main_fragment">
+        <action android:id="@id/nav_main_fragment_to_new_hd_fragment" app:destination="@id/nav_new_hd_fragment" />
+        <action android:id="@id/nav_main_fragment_to_choose_task_fragment" app:destination="@id/nav_choose_task_fragment" />
+    </fragment>
+    <fragment android:label="NewHdMapFragment" android:name="com.xag.agri.v4.survey.air.v2.business.display.fragments.v5.hdmap.create.NewHdMapFragment" android:id="@id/nav_new_hd_fragment" />
+    <fragment android:label="ChooseTaskFragment" android:name="com.xag.agri.v4.survey.air.v2.business.display.fragments.v5.missionsetting.ChooseTaskFragment" android:id="@id/nav_choose_task_fragment" />
+</navigation>

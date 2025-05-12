@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/map_data_dialog_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.xa.core.cube.TextView android:textSize="16.0sp" android:textColor="@color/cube_color_content_primary" android:gravity="center" android:id="@id/dialog_title" android:layout_width="@dimen/cube_dp_0" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cube_dp_24" android:fontFamily="sans-serif-medium" android:layout_marginStart="@dimen/cube_dp_32" android:layout_marginEnd="@dimen/cube_dp_32" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.core.widget.NestedScrollView android:layout_width="@dimen/cube_dp_0" android:layout_height="@dimen/cube_dp_0" android:layout_marginTop="@dimen/map_data_dp_4" android:layout_marginBottom="@dimen/map_data_dp_12" app:layout_constraintBottom_toTopOf="@id/bottom_layout" app:layout_constraintEnd_toEndOf="@id/dialog_title" app:layout_constraintStart_toStartOf="@id/dialog_title" app:layout_constraintTop_toBottomOf="@id/dialog_title">
+        <com.xa.core.cube.TextView android:textSize="16.0sp" android:textColor="@color/cube_color_content_secondary" android:gravity="center" android:id="@id/dialog_message" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </androidx.core.widget.NestedScrollView>
+    <View android:background="@color/cube_color_container_fill_deep" android:layout_width="fill_parent" android:layout_height="@dimen/cube_dp_0.5" app:layout_constraintBottom_toTopOf="@id/bottom_layout" />
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:id="@id/bottom_layout" android:layout_width="fill_parent" android:layout_height="@dimen/cube_dp_46" app:layout_constraintBottom_toBottomOf="parent">
+        <com.xa.core.cube.TextView android:textSize="16.0sp" android:textColor="@color/cube_color_content_primary" android:gravity="center" android:id="@id/close_btn" android:layout_width="@dimen/cube_dp_0" android:layout_height="fill_parent" android:text="@string/map_data_cancel" android:layout_weight="1.0" />
+        <View android:id="@id/middle_line" android:background="@color/cube_color_container_fill_deep" android:layout_width="@dimen/cube_dp_0.5" android:layout_height="fill_parent" />
+        <com.xa.core.cube.TextView android:textSize="16.0sp" android:textColor="?cube_color_project_primary" android:gravity="center" android:id="@id/sure_btn" android:layout_width="@dimen/cube_dp_0" android:layout_height="fill_parent" android:text="@string/map_data_sure" android:layout_weight="1.0" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.constraintlayout.widget.ConstraintLayout>

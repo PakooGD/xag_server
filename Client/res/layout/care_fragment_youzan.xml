@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@color/cube_color_container_bg_base" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/lyTop" android:layout_width="fill_parent" android:layout_height="@dimen/cube_dp_48">
+            <ImageView android:id="@id/ivClose" android:padding="@dimen/cube_dp_12" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/cube_ic_gen_chevron_left" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Cube.Font.Medium.Title1" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <cn.bingoogolapple.refreshlayout.BGARefreshLayout android:id="@id/refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.youzan.androidsdkx5.YouzanBrowser android:id="@id/you_zan_view" android:paddingBottom="@dimen/basecompat_margin_8" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </cn.bingoogolapple.refreshlayout.BGARefreshLayout>
+    </LinearLayout>
+</FrameLayout>

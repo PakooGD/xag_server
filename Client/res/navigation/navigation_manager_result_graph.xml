@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/navigation_manager_result_graph" app:startDestination="@id/nav_result_manager_fragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="ResultManagerFragment" android:name="com.xag.agri.v4.map.data.ui.manager.fragment.ResultManagerFragment" android:id="@id/nav_result_manager_fragment">
+        <action android:id="@id/nav_result_manager_to_result_delete_fragment" app:destination="@id/nav_result_delete_fragment" app:enterAnim="@anim/map_data_slide_in_right" app:exitAnim="@anim/map_data_slide_out_left" app:popEnterAnim="@anim/map_data_slide_in_left" app:popExitAnim="@anim/map_data_slide_out_right" />
+    </fragment>
+    <fragment android:label="ResultDeleteFragment" android:name="com.xag.agri.v4.map.data.ui.manager.fragment.ResultDeleteFragment" android:id="@id/nav_result_delete_fragment" />
+</navigation>

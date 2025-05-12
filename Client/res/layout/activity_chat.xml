@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/main" android:background="@color/cube_color_container_bg_base" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/layout_title" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/sobot_layout_titlebar" />
+    <FrameLayout android:id="@id/layout_chat_container" android:background="@color/cube_color_container_bg_base" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintTop_toBottomOf="@id/layout_title" />
+    <include android:id="@id/sobot_welcome" android:visibility="visible" layout="@layout/sobot_layout_chat_loading" />
+</LinearLayout>

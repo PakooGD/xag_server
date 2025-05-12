@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="#00000020" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textColor="#ffffffff" android:id="@id/tvTip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textSize="8.0sp" android:textColor="@color/white" android:id="@id/tvSectionRecord" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/z_multi_library_default_to_record" app:drawableTopCompat="@drawable/ic_record_section_24" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="140.0dip">
+        <com.smile525.albumcamerarecorder.widget.clickorlongbutton.ClickOrLongButton android:id="@id/btnClickOrLong" android:focusable="true" android:layout_width="120.0dip" android:layout_height="120.0dip" android:layout_centerInParent="true" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageView android:id="@id/btnCancel" android:visibility="gone" android:layout_width="80.0dip" android:layout_height="80.0dip" android:src="@mipmap/t_icon_return" />
+            <ImageView android:id="@id/btnConfirm" android:visibility="gone" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_marginLeft="80.0dip" android:src="@mipmap/t_icon_finish" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

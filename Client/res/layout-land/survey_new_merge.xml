@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/content_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/business_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/close" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_margin="16.0dip" android:src="@drawable/survey_new_page_close" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textColor="@color/white" android:id="@id/merge_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:text="14sp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+        <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:orientation="vertical" android:id="@id/action_merge" android:background="@drawable/ui_shape_project_primary_r8888" android:layout_width="88.0dip" android:layout_height="40.0dip" android:layout_margin="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent">
+            <TextView android:textSize="12.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/survey_merge" android:drawableTop="@drawable/survey_new_editor_check_mark" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <FrameLayout android:id="@id/other_root" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.scwang.smart.refresh.layout.SmartRefreshLayout android:id="@id/refreshLayout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.xag.agri.v4.land.business.ui.widget.MyClassicHeader android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="18.0sp" android:textColor="@color/cube_color_content_primary" android:gravity="center" android:layout_gravity="center" android:id="@id/shared_list_empty" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="96.0dip" android:text="@string/survey_no_record" android:drawableTop="@drawable/survey_new_empty_hdmap_work" android:drawablePadding="8.0dip" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_shared_list" android:background="@drawable/cube_shape_container_bg_tint_8" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="8.0dip" android:overScrollMode="never" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+        </FrameLayout>
+    </androidx.core.widget.NestedScrollView>
+    <com.scwang.smart.refresh.footer.ClassicsFooter android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</com.scwang.smart.refresh.layout.SmartRefreshLayout>

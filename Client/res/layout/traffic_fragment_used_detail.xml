@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/top" layout="@layout/traffic_commom_top" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="@dimen/cube_dp_44">
+        <com.google.android.material.tabs.TabLayout android:id="@id/tabs" android:layout_width="fill_parent" android:layout_height="fill_parent" app:tabGravity="fill" app:tabIndicatorColor="?cube_color_project_primary" app:tabIndicatorFullWidth="false" app:tabMode="fixed" app:tabSelectedTextColor="@color/cube_color_content_primary" app:tabTextColor="@color/cube_color_content_secondary" />
+        <View android:background="@color/cube_color_container_fill_deep" android:layout_width="fill_parent" android:layout_height="@dimen/cube_dp_0.5" app:layout_constraintBottom_toBottomOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <FrameLayout android:id="@id/fl_child" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

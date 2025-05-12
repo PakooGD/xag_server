@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="devices_dev_units_day">
+        <item quantity="other">%ddays</item>
+    </plurals>
+    <plurals name="devices_dev_units_hour">
+        <item quantity="other">%dhours</item>
+    </plurals>
+</resources>

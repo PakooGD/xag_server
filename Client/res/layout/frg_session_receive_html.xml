@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/frg_session_item_time" />
+    <LinearLayout android:layout_gravity="left" android:orientation="horizontal" android:paddingRight="@dimen/ti_message_max_span" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.tinet.oskit.widget.UserHeaderView android:id="@id/userHeader" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/tinetHeaderStyle" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <include layout="@layout/frg_session_item_name" />
+            <LinearLayout android:orientation="vertical" android:id="@id/ll_content" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/tinetReceiveMessageStyle.tinetContainerStyle">
+                <include layout="@layout/frg_session_item_layout_replied" />
+                <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/recyclerView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layerType="software" app:layoutManager="com.tinet.oskit.adapter.layout.NoScrollLinearLayoutManager" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

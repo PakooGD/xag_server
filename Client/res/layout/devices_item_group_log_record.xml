@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_secondary" android:id="@id/tvTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/devices_margin_32" android:layout_marginTop="@dimen/devices_margin_32" android:layout_marginRight="@dimen/devices_margin_32" android:layout_marginHorizontal="@dimen/devices_margin_32" style="@style/Cube.Font.Regular.Callout" />
+    <LinearLayout android:background="@drawable/devices_shape_white_round_outline" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/devices_padding_16" android:layout_marginTop="@dimen/devices_margin_8" android:layout_marginRight="@dimen/devices_padding_16" android:layout_marginHorizontal="@dimen/devices_padding_16">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rcvData" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

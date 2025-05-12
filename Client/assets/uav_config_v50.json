@@ -1,0 +1,100 @@
+{
+  "OaSwitchOff": {
+    "Speed": {
+      "Min": 1,
+      "Max": 12,
+      "Default": 5
+    },
+    "DigitalTerrainSpeed": {
+      "Min": 1,
+      "Max": 6,
+      "Default": 5
+    },
+    "Height": {
+      "Default": 2.5,
+      "Max": 30,
+      "Min": 1.5
+    }
+  },
+  "OaSwitchOn": {
+    "Speed": {
+      "Min": 1,
+      "Max": 8,
+      "Default": 5
+    },
+    "DigitalTerrainSpeed": {
+      "Min": 1,
+      "Max": 6,
+      "Default": 5
+    },
+    "Height": {
+      "Default": 2.5,
+      "Max": 30,
+      "Min": 1.5
+    }
+  },
+  "Speed": {
+    "Min": 1,
+    "Max": 12,
+    "Default": 5,
+    "OaSwitchOn": {
+      "Default": 5,
+      "Max": 8,
+      "Min": 1
+    },
+    "Terrain": {
+      "Default": 5,
+      "Max": 12,
+      "Min": 1
+    },
+    "DigitalTerrain": {
+      "Default": 5,
+      "Max": 6,
+      "Min": 1
+    }
+  },
+  "Height": {
+    "Min": 1.5,
+    "Max": 30,
+    "Default": 2.5,
+    "OaSwitchOn": {
+      "Default": 2.5,
+      "Max": 30,
+      "Min": 2
+    },
+    "Terrain": {
+      "Default": 2.5,
+      "Max": 30,
+      "Min": 1.5
+    },
+    "DigitalTerrain": {
+      "Default": 2.5,
+      "Max": 30,
+      "Min": 1.5
+    }
+  },
+  "TerrainHeight": {
+    "Min": 2,
+    "Max": 30,
+    "Default": 2.5
+  },
+  "AirLineSpacing": {
+    "Min": 1,
+    "Max": 20,
+    "Default": 8
+  },
+  "BoundSafeDistance": {
+    "Min": 1,
+    "Max": 10,
+    "Default": 2
+  },
+  "ObstacleSafeDistance": {
+    "Min": 2,
+    "Max": 10,
+    "Default": 2
+  },
+  "HomeRemainSoc": {
+    "Min": 10,
+    "Max": 25
+  }
+}

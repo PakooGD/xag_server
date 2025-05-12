@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="@dimen/cube_dp_44">
+        <ImageView android:id="@id/btnBack" android:paddingLeft="@dimen/cube_dp_16" android:paddingRight="@dimen/cube_dp_16" android:layout_width="wrap_content" android:layout_height="@dimen/cube_dp_0" android:src="@drawable/cube_ic_gen_chevron_left" android:paddingHorizontal="@dimen/cube_dp_16" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:id="@id/user_textview19" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/user_join_team" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Cube.Font.Medium.Title1" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.core.widget.NestedScrollView android:layout_gravity="center" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="@dimen/cube_dp_0" android:layout_marginTop="@dimen/cube_dp_16" android:layout_weight="1.0">
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/llMain" android:paddingLeft="@dimen/cube_dp_16" android:paddingRight="@dimen/cube_dp_16" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/cube_dp_16">
+            <LinearLayout android:orientation="vertical" android:background="@drawable/operation_res_bg_cube_bg_tint_8dp" android:paddingLeft="@dimen/cube_dp_12" android:paddingTop="@dimen/cube_dp_16" android:paddingRight="@dimen/cube_dp_12" android:paddingBottom="@dimen/cube_dp_16" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/cube_dp_12" android:paddingVertical="@dimen/cube_dp_16">
+                <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:gravity="center" android:id="@id/tv_team_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawableTop="@drawable/user_svg_team_def_logo" android:drawablePadding="@dimen/cube_dp_12" style="@style/Cube.Font.Regular.Body" />
+                <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_secondary" android:gravity="center" android:id="@id/tv_team_creator" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cube_dp_8" style="@style/Cube.Font.Regular.Callout" />
+            </LinearLayout>
+            <Button android:textColor="@drawable/user_selector_tv_gray_white_v5" android:id="@id/btn_join" android:background="@drawable/user_selector_btn_bg_green_white_v5" android:layout_width="fill_parent" android:layout_height="@dimen/cube_dp_48" android:layout_marginTop="@dimen/cube_dp_40" android:text="@string/user_ok" style="@style/Cube.Font.Medium.Body" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

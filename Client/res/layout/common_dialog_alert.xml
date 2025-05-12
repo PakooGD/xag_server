@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:id="@id/content_root" android:background="@drawable/common_shape_r16161616_white" android:layout_width="304.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/dialog_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" />
+    <TextView android:textStyle="bold" android:textColor="@color/cube_color_content_primary" android:gravity="center" android:id="@id/dialog_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="24.0dip" android:layout_marginHorizontal="24.0dip" style="@style/Cube.Font.Medium.Title1" />
+    <TextView android:textColor="@color/cube_color_content_secondary" android:gravity="center" android:id="@id/dialog_content" android:visibility="gone" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="24.0dip" android:maxHeight="230.0dip" android:layout_marginHorizontal="24.0dip" style="@style/Cube.Font.Regular.Body" />
+    <View android:background="@color/cube_color_container_fill_deep" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="24.0dip" />
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <TextView android:textColor="@color/cube_xone_100" android:gravity="center" android:id="@id/dialog_ok" android:layout_width="0.0dip" android:layout_height="48.0dip" android:layout_weight="1.0" style="@style/Cube.Font.Regular.Body" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

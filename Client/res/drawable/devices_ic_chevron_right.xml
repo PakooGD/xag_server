@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:height="@dimen/cube_dp_16" android:width="@dimen/cube_dp_8" android:drawable="@drawable/cube_ic_gen_chevron_right" />
+</layer-list>

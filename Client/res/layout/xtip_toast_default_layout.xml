@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:background="@drawable/xtip_toast_default_bg" android:paddingLeft="@dimen/cube_dp_16" android:paddingTop="@dimen/cube_dp_12" android:paddingRight="@dimen/cube_dp_16" android:paddingBottom="@dimen/cube_dp_12" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/cube_dp_16" android:paddingVertical="@dimen/cube_dp_12"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:visibility="gone" android:layout_marginEnd="@dimen/cube_dp_4" style="@style/Cube.Icon.020" />
+    <com.xa.core.cube.TextView android:textColor="@color/cube_color_on_primary" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Cube.Font.Medium.Callout" />
+</androidx.appcompat.widget.LinearLayoutCompat>

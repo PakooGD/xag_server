@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/tvText" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentStart="true" android:layout_alignParentEnd="true" style="@style/tinetRobotClassicTitleStyle" />
+    <TextView android:id="@id/tvGuess" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ti_guess" android:layout_below="@id/tvText" style="@style/tinetRobotClassicGuessStyle" />
+    <com.google.android.material.tabs.TabLayout android:id="@id/tabLayout" android:layout_below="@id/tvGuess" android:layout_alignParentStart="true" android:layout_alignParentEnd="true" style="@style/tinetRobotClassicTabStyle" />
+    <View android:id="@id/viewLine" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginBottom="@dimen/ti_guess_question_span" android:layout_below="@id/tabLayout" style="@style/tinetRobotClassicDividerStyle" />
+    <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/recyclerView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/viewLine" android:layout_alignParentBottom="true" android:layout_alignParentStart="true" android:layout_alignParentEnd="true" app:layoutManager="com.tinet.oskit.adapter.layout.NoScrollLinearLayoutManager" />
+    <TextView android:layout_gravity="right" android:id="@id/tvChanged" android:drawableLeft="@drawable/ti_ic_refresh_change" style="@style/tinetQuestionChangeStyle" />
+</LinearLayout>

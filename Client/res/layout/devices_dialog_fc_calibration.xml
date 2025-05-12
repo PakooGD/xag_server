@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/devices_background" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/devices_actionbar">
+        <ImageButton android:id="@id/btn_fc_calibration_back" android:background="@drawable/devices_selector_button_transparent" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/cube_ic_gen_chevron_left" android:paddingStart="@dimen/devices_padding_8" android:paddingEnd="@dimen/devices_padding_8" />
+        <com.xa.core.cube.TextView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/devices_fc_calibration_title" style="@style/Devices.Text.title" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/vg_fc_calibration_content" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

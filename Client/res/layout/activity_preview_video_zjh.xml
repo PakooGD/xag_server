@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <VideoView android:id="@id/vvPreview" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:contentDescription="显示当前摄像的" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/clMenu" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="160.0dip" android:layout_alignParentBottom="true">
+        <ImageView android:id="@id/imgClose" android:layout_width="80.0dip" android:layout_height="80.0dip" android:src="@mipmap/t_icon_return" app:layout_constraintBottom_toBottomOf="@id/btnConfirm" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/btnConfirm" />
+        <ImageView android:id="@id/btnConfirm" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_marginLeft="80.0dip" android:src="@mipmap/t_icon_finish" app:layout_constraintBottom_toBottomOf="@id/btnConfirm" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/btnConfirm" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="bottom" android:orientation="vertical" android:background="@color/devices_black" android:paddingTop="@dimen/devices_padding_16" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/devices_shape_white_top_round" android:paddingLeft="@dimen/devices_margin_16" android:paddingRight="@dimen/devices_margin_16" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingHorizontal="@dimen/devices_margin_16">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/devices_actionbar_48" />
+        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/devices_mesh_center_tips1" style="@style/Cube.Font.Medium.Title3" />
+        <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <com.airbnb.lottie.LottieAnimationView android:background="@drawable/devices_shape_white_c" android:paddingTop="@dimen/devices_padding_20" android:paddingBottom="@dimen/devices_padding_20" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingVertical="@dimen/devices_padding_20" app:lottie_autoPlay="true" app:lottie_fileName="devices_link_center_tips.json" app:lottie_loop="true" />
+        </LinearLayout>
+        <com.xa.core.cube.TextView android:enabled="true" android:textColor="@color/cube_color_content_secondary" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/devices_mesh_center_tips2" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" style="@style/Cube.Font.Regular.Callout" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.xa.core.cube.TextView android:enabled="true" android:textColor="@drawable/devices_selector_text_white" android:gravity="center" android:id="@id/btn_sure" android:background="@drawable/devices_selector_button_green" android:layout_width="0.0dip" android:layout_height="@dimen/devices_item_height" android:layout_marginTop="@dimen/devices_margin_16" android:layout_marginBottom="32.0dip" android:text="@string/devices_mesh_center_phone_wifi_fail_i_know" android:layout_weight="1.0" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" style="@style/Cube.Font.Medium.Body" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/devices_background" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/devices_framelayout6" android:layout_width="fill_parent" android:layout_height="@dimen/devices_actionbar_48" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageButton android:id="@id/btn_back" android:background="@drawable/devices_selector_button_transparent" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/cube_ic_gen_chevron_left" android:paddingStart="@dimen/devices_padding_12" android:paddingEnd="@dimen/devices_padding_12" />
+        <com.xa.core.cube.TextView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/devices_battery_information" style="@style/Devices.Text.title" />
+    </FrameLayout>
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.1666" />
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.6668">
+                <LinearLayout android:orientation="vertical" android:background="@drawable/devices_shape_white_round_outline" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/devices_shape_divider" android:showDividers="middle" android:paddingStart="@dimen/devices_padding_16" android:layout_marginStart="@dimen/devices_margin_16" android:layout_marginEnd="@dimen/devices_margin_16">
+                    <FrameLayout android:id="@id/vg_device_info_location_station_id" android:background="@drawable/devices_selector_button_transparent" android:layout_width="fill_parent" android:layout_height="@dimen/devices_item_height">
+                        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:gravity="start|center" android:layout_gravity="start|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/devices_dev_battery_info" style="@style/Cube.Font.Regular.Body" />
+                        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_secondary" android:gravity="start|center" android:layout_gravity="end|center" android:id="@id/tv_battery_status_voltage_current" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/devices_margin_16" style="@style/Cube.Font.Regular.Body" />
+                    </FrameLayout>
+                </LinearLayout>
+                <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_secondary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/devices_margin_24" android:text="@string/devices_dev_battery_press" android:layout_marginStart="@dimen/devices_margin_32" style="@style/Cube.Font.Regular.Callout" />
+                <LinearLayout android:orientation="vertical" android:background="@drawable/devices_shape_white_round_outline" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/devices_margin_8" android:layout_marginStart="@dimen/devices_margin_16" android:layout_marginEnd="@dimen/devices_margin_16">
+                    <FrameLayout android:id="@id/vg_container_chart" android:layout_width="fill_parent" android:layout_height="@dimen/cube_dp_160" android:layout_margin="@dimen/devices_margin_16" />
+                </LinearLayout>
+                <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_secondary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/devices_margin_24" android:text="@string/devices_vio_system_temp" android:layout_marginStart="@dimen/devices_margin_32" style="@style/Cube.Font.Regular.Callout" />
+                <LinearLayout android:orientation="vertical" android:background="@drawable/devices_shape_white_round_outline" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:divider="@drawable/devices_shape_divider" android:showDividers="middle" android:paddingStart="@dimen/devices_padding_16" android:layout_marginStart="@dimen/devices_margin_16" android:layout_marginEnd="@dimen/devices_margin_16">
+                    <FrameLayout android:background="@drawable/devices_selector_button_transparent" android:layout_width="fill_parent" android:layout_height="@dimen/devices_item_height">
+                        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:gravity="start|center" android:layout_gravity="start|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/devices_dev_battery_temp" style="@style/Cube.Font.Regular.Body" />
+                        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_secondary" android:gravity="start|center" android:layout_gravity="end|center" android:id="@id/tv_battery_cell_temp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/devices_margin_16" style="@style/Cube.Font.Regular.Body" />
+                    </FrameLayout>
+                    <FrameLayout android:background="@drawable/devices_selector_button_transparent" android:layout_width="fill_parent" android:layout_height="@dimen/devices_item_height">
+                        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:gravity="start|center" android:layout_gravity="start|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/devices_pcb_temp" style="@style/Cube.Font.Regular.Body" />
+                        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_secondary" android:gravity="start|center" android:layout_gravity="end|center" android:id="@id/tv_battery_pcb_temp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/devices_margin_16" style="@style/Cube.Font.Regular.Body" />
+                    </FrameLayout>
+                    <FrameLayout android:background="@drawable/devices_selector_button_transparent" android:layout_width="fill_parent" android:layout_height="@dimen/devices_item_height">
+                        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:gravity="start|center" android:layout_gravity="start|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/devices_mos_temperature" style="@style/Cube.Font.Regular.Body" />
+                        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_secondary" android:gravity="start|center" android:layout_gravity="end|center" android:id="@id/tv_battery_mos_temp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/devices_margin_16" style="@style/Cube.Font.Regular.Body" />
+                    </FrameLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.1666" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/vg_binding_acs2_root_view" android:background="@color/devices_background" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/devices_actionbar">
+            <ImageButton android:id="@id/btn_dialog_mesh_pairing_back" android:background="@drawable/devices_selector_button_transparent" android:padding="@dimen/devices_padding_12" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/cube_ic_gen_chevron_left" />
+            <com.xa.core.cube.TextView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/devices_dev_bind_rc" style="@style/Devices.Text.title" />
+        </FrameLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/devices_shape_white_round_outline" android:paddingTop="@dimen/basecompat_margin_32" android:paddingBottom="@dimen/devices_margin_40" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/devices_margin_16" android:layout_marginEnd="@dimen/devices_margin_16">
+            <ImageView android:layout_width="@dimen/cube_dp_80" android:layout_height="@dimen/cube_dp_80" android:src="@drawable/devices_icon_unbind_acs2" />
+            <com.xa.core.cube.TextView android:textStyle="bold" android:textColor="@color/cube_color_content_secondary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/devices_margin_8" android:text="@string/devices_rc_unbind_rc" style="@style/Cube.Font.Regular.Body" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/fl_have_data" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/devices_margin_12">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_secondary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/devices_margin_12" android:text="@string/devices_dev_bind_target2" android:layout_marginStart="@dimen/devices_margin_32" style="@style/Cube.Font.Regular.Callout" />
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/rcv_binging_arcs2_rc" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_margin="@dimen/devices_margin_8" android:layout_weight="1.0" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                <android.widget.Button android:textColor="@drawable/devices_selector_text_white" android:id="@id/btn_binding_acs2_bind" android:background="@drawable/devices_selector_button_green" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/devices_margin_12" android:layout_marginBottom="@dimen/devices_margin_36" android:text="@string/devices_dev_bind" android:layout_marginStart="@dimen/devices_margin_16" android:layout_marginEnd="@dimen/devices_margin_16" app:layout_constraintBottom_toBottomOf="parent" style="@style/Devices.Button" />
+            </LinearLayout>
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_no_data" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/devices_margin_12">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_secondary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/devices_margin_12" android:text="@string/devices_dev_bind_target2" android:layout_marginStart="@dimen/devices_margin_32" style="@style/Cube.Font.Regular.Callout" />
+            </LinearLayout>
+            <FrameLayout android:id="@id/btn_none_binding_rc_add" android:background="@drawable/devices_shape_white_round_outline" android:layout_width="fill_parent" android:layout_height="@dimen/cube_dp_72" android:layout_marginTop="@dimen/devices_margin_8" android:layout_marginStart="@dimen/devices_margin_16" android:layout_marginEnd="@dimen/devices_margin_16">
+                <com.xa.core.cube.TextView android:textStyle="bold" android:textColor="@color/cube_color_state_green_primary" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/devices_btn_add_rc" android:drawablePadding="@dimen/devices_padding_4" android:drawableStart="@drawable/devices_icon_deploy" style="@style/Cube.Font.Regular.Body" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

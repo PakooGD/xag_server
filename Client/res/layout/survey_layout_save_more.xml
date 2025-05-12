@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/comm_action_more" android:background="@drawable/operation_base_shape_r8888_white_press" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_marginEnd="@dimen/cube_dp_8">
+        <ImageView android:layout_width="wrap_content" android:layout_height="16.0dip" android:src="@drawable/survey_new_editor_more" />
+        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/survey_str_more" style="@style/Cube.Font.Medium.Footnote" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/comm_action_save" android:background="@drawable/common_selector_btn_enable_r8888_green" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:layout_width="wrap_content" android:layout_height="16.0dip" android:src="@drawable/survey_new_editor_save_selector" />
+        <com.xa.core.cube.TextView android:enabled="false" android:textColor="@color/common_selector_btn_enable_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/survey_save" style="@style/Cube.Font.Medium.Footnote" />
+    </LinearLayout>
+</LinearLayout>

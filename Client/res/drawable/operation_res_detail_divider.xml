@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetLeft="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape>
+        <solid android:color="@color/cube_color_container_fill_deep" />
+        <size android:height="@dimen/cube_dp_0.5" />
+    </shape>
+</inset>

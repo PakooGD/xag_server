@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@color/devices_black_00" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:background="@drawable/devices_bg_layout_top" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/include_title" layout="@layout/devices_sheet_base_title" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/devices_margin_12" android:layout_marginBottom="@dimen/devices_margin_24">
+            <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_secondary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/devices_rtk_mobile_nearby_finding" android:layout_marginStart="@dimen/devices_margin_32" style="@style/Cube.Font.Regular.Callout" />
+                <ImageView android:id="@id/iv_loading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/devices_anim_loading_black" android:layout_marginStart="@dimen/devices_margin_8" app:tint="@color/cube_color_content_primary" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/ll_have_data" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="@dimen/devices_margin_8" android:layout_weight="1.0">
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/rcv_data" android:background="@drawable/devices_shape_white_round_outline" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/operation_margin_16" android:layout_marginRight="@dimen/operation_margin_16" android:layout_marginHorizontal="@dimen/operation_margin_16" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_not_have_data" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/devices_mobile_base_station_empty" />
+                <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/devices_rtk_mobile_nearby_no_found" style="@style/Cube.Font.Regular.Callout" />
+            </LinearLayout>
+            <com.xa.core.cube.TextView android:textStyle="normal" android:textColor="?cube_color_project_primary" android:layout_gravity="center_horizontal" android:id="@id/tv_not_find_device" android:padding="@dimen/cube_dp_16" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/devices_rtk_mobile_nearby_no_found_tips" style="@style/Cube.Font.Regular.Callout" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

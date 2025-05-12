@@ -1,0 +1,184 @@
+.class public abstract Lcom/xag/agri/v4/care/db/MyOfflineFaultReportDateBase;
+.super Landroidx/room/RoomDatabase;
+.source "SourceFile"
+
+
+# annotations
+.annotation build Landroidx/room/Database;
+    entities = {
+        Lcom/xag/agri/v4/care/db/entity/OfflineFaultReportEntity;
+    }
+    exportSchema = false
+    version = 0x2
+.end annotation
+
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/xag/agri/v4/care/db/MyOfflineFaultReportDateBase$a;
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u0010\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0006\u0008!\u0018\u0000 \u00072\u00020\u0001:\u0001\u0007B\u0007\u00a2\u0006\u0004\u0008\u0005\u0010\u0006J\u000f\u0010\u0003\u001a\u00020\u0002H&\u00a2\u0006\u0004\u0008\u0003\u0010\u0004\u00a8\u0006\u0008"
+    }
+    d2 = {
+        "Lcom/xag/agri/v4/care/db/MyOfflineFaultReportDateBase;",
+        "Landroidx/room/RoomDatabase;",
+        "Lls/a;",
+        "f",
+        "()Lls/a;",
+        "<init>",
+        "()V",
+        "a",
+        "support-care_release"
+    }
+    k = 0x1
+    mv = {
+        0x1,
+        0x9,
+        0x0
+    }
+.end annotation
+
+
+# static fields
+.field public static final a:Lcom/xag/agri/v4/care/db/MyOfflineFaultReportDateBase$a;
+    .annotation build Las0/k;
+    .end annotation
+.end field
+
+.field public static b:Lcom/xag/agri/v4/care/db/MyOfflineFaultReportDateBase;
+    .annotation build Las0/l;
+    .end annotation
+.end field
+
+.field public static c:Ljava/lang/String;
+    .annotation build Las0/k;
+    .end annotation
+.end field
+
+.field public static final d:Landroidx/room/migration/Migration;
+    .annotation build Las0/k;
+    .end annotation
+.end field
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 2
+
+    .line 1
+    new-instance v0, Lcom/xag/agri/v4/care/db/MyOfflineFaultReportDateBase$a;
+
+    .line 2
+    .line 3
+    const/4 v1, 0x0
+
+    .line 4
+    invoke-direct {v0, v1}, Lcom/xag/agri/v4/care/db/MyOfflineFaultReportDateBase$a;-><init>(Lkotlin/jvm/internal/u;)V
+
+    .line 5
+    .line 6
+    .line 7
+    sput-object v0, Lcom/xag/agri/v4/care/db/MyOfflineFaultReportDateBase;->a:Lcom/xag/agri/v4/care/db/MyOfflineFaultReportDateBase$a;
+
+    .line 8
+    .line 9
+    const-string v0, "care_fault_report"
+
+    .line 10
+    .line 11
+    sput-object v0, Lcom/xag/agri/v4/care/db/MyOfflineFaultReportDateBase;->c:Ljava/lang/String;
+
+    .line 12
+    .line 13
+    new-instance v0, Lcom/xag/agri/v4/care/db/MyOfflineFaultReportDateBase$Companion$MIGRATION_1_2$1;
+
+    .line 14
+    .line 15
+    invoke-direct {v0}, Lcom/xag/agri/v4/care/db/MyOfflineFaultReportDateBase$Companion$MIGRATION_1_2$1;-><init>()V
+
+    .line 16
+    .line 17
+    .line 18
+    sput-object v0, Lcom/xag/agri/v4/care/db/MyOfflineFaultReportDateBase;->d:Landroidx/room/migration/Migration;
+
+    .line 19
+    .line 20
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Landroidx/room/RoomDatabase;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+.method public static final synthetic a()Landroidx/room/migration/Migration;
+    .locals 1
+
+    .line 1
+    sget-object v0, Lcom/xag/agri/v4/care/db/MyOfflineFaultReportDateBase;->d:Landroidx/room/migration/Migration;
+
+    .line 2
+    .line 3
+    return-object v0
+.end method
+
+.method public static final synthetic b()Lcom/xag/agri/v4/care/db/MyOfflineFaultReportDateBase;
+    .locals 1
+
+    .line 1
+    sget-object v0, Lcom/xag/agri/v4/care/db/MyOfflineFaultReportDateBase;->b:Lcom/xag/agri/v4/care/db/MyOfflineFaultReportDateBase;
+
+    .line 2
+    .line 3
+    return-object v0
+.end method
+
+.method public static final synthetic c()Ljava/lang/String;
+    .locals 1
+
+    .line 1
+    sget-object v0, Lcom/xag/agri/v4/care/db/MyOfflineFaultReportDateBase;->c:Ljava/lang/String;
+
+    .line 2
+    .line 3
+    return-object v0
+.end method
+
+.method public static final synthetic d(Lcom/xag/agri/v4/care/db/MyOfflineFaultReportDateBase;)V
+    .locals 0
+
+    .line 1
+    sput-object p0, Lcom/xag/agri/v4/care/db/MyOfflineFaultReportDateBase;->b:Lcom/xag/agri/v4/care/db/MyOfflineFaultReportDateBase;
+
+    .line 2
+    .line 3
+    return-void
+.end method
+
+.method public static final synthetic e(Ljava/lang/String;)V
+    .locals 0
+
+    .line 1
+    sput-object p0, Lcom/xag/agri/v4/care/db/MyOfflineFaultReportDateBase;->c:Ljava/lang/String;
+
+    .line 2
+    .line 3
+    return-void
+.end method
+
+
+# virtual methods
+.method public abstract f()Lls/a;
+    .annotation build Las0/k;
+    .end annotation
+.end method

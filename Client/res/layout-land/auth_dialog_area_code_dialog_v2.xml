@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/cube_color_container_bg_base" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/flTop" android:layout_width="fill_parent" android:layout_height="@dimen/cube_dp_48">
+        <androidx.appcompat.widget.AppCompatImageButton android:id="@id/ibBack" android:paddingLeft="@dimen/cube_dp_12" android:paddingRight="@dimen/cube_dp_12" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/cube_ic_gen_xmark" android:scaleType="centerInside" android:minWidth="@dimen/cube_dp_0" android:paddingHorizontal="@dimen/cube_dp_12" style="@style/Widget.AppCompat.Toolbar.Button.Navigation" />
+        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:layout_gravity="center" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/auth_country_icc" style="@style/Cube.Font.Medium.Title1" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.xag.agri.auth.widget.SearchView android:layout_gravity="center" android:id="@id/searchView" android:paddingLeft="@dimen/cube_dp_16" android:paddingRight="@dimen/cube_dp_16" android:layout_width="@dimen/cube_dp_400" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cube_dp_8" android:paddingHorizontal="@dimen/cube_dp_16" />
+            <androidx.core.widget.NestedScrollView android:id="@id/scrollView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/cube_dp_12">
+                <LinearLayout android:layout_gravity="center|top" android:orientation="vertical" android:id="@id/lyList" android:layout_width="@dimen/cube_dp_400" android:layout_height="wrap_content" />
+            </androidx.core.widget.NestedScrollView>
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView android:layout_gravity="end|center" android:id="@id/recLetter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/cube_dp_8" />
+    </FrameLayout>
+</LinearLayout>

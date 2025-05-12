@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/sobot_layout_titlebar" android:background="@color/cube_color_container_bg_base" android:layout_width="fill_parent" android:layout_height="@dimen/cube_dp_44"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:ellipsize="end" android:gravity="center" android:id="@id/sobot_text_title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxWidth="@dimen/cube_dp_170" android:singleLine="true" android:layout_centerInParent="true" android:layout_marginStart="@dimen/cube_dp_50" android:layout_marginEnd="@dimen/cube_dp_50" style="@style/Cube.Font.Medium.Title1" />
+    <TextView android:gravity="center_vertical" android:id="@id/sobot_tv_left" android:layout_width="wrap_content" android:layout_height="fill_parent" android:drawablePadding="@dimen/cube_dp_12" android:drawableStart="@drawable/cube_ic_gen_chevron_left" android:paddingStart="@dimen/cube_dp_12" />
+</RelativeLayout>

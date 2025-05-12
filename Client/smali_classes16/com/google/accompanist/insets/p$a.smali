@@ -1,0 +1,132 @@
+.class public final Lcom/google/accompanist/insets/p$a;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/accompanist/insets/p;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "a"
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u0010\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0008\u0008\u0086\u0003\u0018\u00002\u00020\u0001B\t\u0008\u0002\u00a2\u0006\u0004\u0008\u0008\u0010\tR\u0017\u0010\u0007\u001a\u00020\u00028\u0006\u00a2\u0006\u000c\n\u0004\u0008\u0003\u0010\u0004\u001a\u0004\u0008\u0005\u0010\u0006\u00a8\u0006\n"
+    }
+    d2 = {
+        "Lcom/google/accompanist/insets/p$a;",
+        "",
+        "Lcom/google/accompanist/insets/p;",
+        "b",
+        "Lcom/google/accompanist/insets/p;",
+        "a",
+        "()Lcom/google/accompanist/insets/p;",
+        "Empty",
+        "<init>",
+        "()V",
+        "insets_release"
+    }
+    k = 0x1
+    mv = {
+        0x1,
+        0x5,
+        0x1
+    }
+.end annotation
+
+
+# static fields
+.field public static final synthetic a:Lcom/google/accompanist/insets/p$a;
+
+.field public static final b:Lcom/google/accompanist/insets/p;
+    .annotation build Las0/k;
+    .end annotation
+.end field
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 8
+
+    .line 1
+    new-instance v0, Lcom/google/accompanist/insets/p$a;
+
+    .line 2
+    .line 3
+    invoke-direct {v0}, Lcom/google/accompanist/insets/p$a;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    sput-object v0, Lcom/google/accompanist/insets/p$a;->a:Lcom/google/accompanist/insets/p$a;
+
+    .line 7
+    .line 8
+    new-instance v0, Lcom/google/accompanist/insets/d;
+
+    .line 9
+    .line 10
+    const/16 v6, 0xf
+
+    .line 11
+    .line 12
+    const/4 v7, 0x0
+
+    .line 13
+    const/4 v2, 0x0
+
+    .line 14
+    const/4 v3, 0x0
+
+    .line 15
+    const/4 v4, 0x0
+
+    .line 16
+    const/4 v5, 0x0
+
+    .line 17
+    move-object v1, v0
+
+    .line 18
+    invoke-direct/range {v1 .. v7}, Lcom/google/accompanist/insets/d;-><init>(Lcom/google/accompanist/insets/p$b;Lcom/google/accompanist/insets/p$b;Lcom/google/accompanist/insets/p$b;Lcom/google/accompanist/insets/p$b;ILkotlin/jvm/internal/u;)V
+
+    .line 19
+    .line 20
+    .line 21
+    sput-object v0, Lcom/google/accompanist/insets/p$a;->b:Lcom/google/accompanist/insets/p;
+
+    .line 22
+    .line 23
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a()Lcom/google/accompanist/insets/p;
+    .locals 1
+    .annotation build Las0/k;
+    .end annotation
+
+    .line 1
+    sget-object v0, Lcom/google/accompanist/insets/p$a;->b:Lcom/google/accompanist/insets/p;
+
+    .line 2
+    .line 3
+    return-object v0
+.end method

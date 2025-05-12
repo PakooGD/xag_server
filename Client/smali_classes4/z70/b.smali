@@ -1,0 +1,256 @@
+.class public final Lz70/b;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u001c\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0007\n\u0002\u0008\u0008\u0008\u00c6\u0002\u0018\u00002\u00020\u0001B\t\u0008\u0002\u00a2\u0006\u0004\u0008\u000c\u0010\rJ%\u0010\u0008\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00022\u0006\u0010\u0005\u001a\u00020\u00042\u0006\u0010\u0007\u001a\u00020\u0006\u00a2\u0006\u0004\u0008\u0008\u0010\tJ\u001d\u0010\n\u001a\u00020\u00022\u0006\u0010\u0003\u001a\u00020\u00022\u0006\u0010\u0007\u001a\u00020\u0006\u00a2\u0006\u0004\u0008\n\u0010\u000b\u00a8\u0006\u000e"
+    }
+    d2 = {
+        "Lz70/b;",
+        "",
+        "Landroid/content/Context;",
+        "context",
+        "Landroid/content/res/Resources;",
+        "resources",
+        "",
+        "fontScale",
+        "b",
+        "(Landroid/content/Context;Landroid/content/res/Resources;F)Landroid/content/res/Resources;",
+        "a",
+        "(Landroid/content/Context;F)Landroid/content/Context;",
+        "<init>",
+        "()V",
+        "lib_basecompat_release"
+    }
+    k = 0x1
+    mv = {
+        0x1,
+        0x9,
+        0x0
+    }
+.end annotation
+
+
+# static fields
+.field public static final a:Lz70/b;
+    .annotation build Las0/k;
+    .end annotation
+.end field
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, Lz70/b;
+
+    invoke-direct {v0}, Lz70/b;-><init>()V
+
+    sput-object v0, Lz70/b;->a:Lz70/b;
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Landroid/content/Context;F)Landroid/content/Context;
+    .locals 1
+    .param p1    # Landroid/content/Context;
+        .annotation build Las0/k;
+        .end annotation
+    .end param
+    .annotation build Las0/k;
+    .end annotation
+
+    .line 1
+    const-string v0, "context"
+
+    .line 2
+    .line 3
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 4
+    .line 5
+    .line 6
+    invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+
+    .line 7
+    .line 8
+    .line 9
+    move-result-object v0
+
+    .line 10
+    invoke-virtual {v0}, Landroid/content/res/Resources;->getConfiguration()Landroid/content/res/Configuration;
+
+    .line 11
+    .line 12
+    .line 13
+    move-result-object v0
+
+    .line 14
+    iput p2, v0, Landroid/content/res/Configuration;->fontScale:F
+
+    .line 15
+    .line 16
+    invoke-virtual {p1, v0}, Landroid/content/Context;->createConfigurationContext(Landroid/content/res/Configuration;)Landroid/content/Context;
+
+    .line 17
+    .line 18
+    .line 19
+    move-result-object p1
+
+    .line 20
+    const-string p2, "createConfigurationContext(...)"
+
+    .line 21
+    .line 22
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 23
+    .line 24
+    .line 25
+    return-object p1
+.end method
+
+.method public final b(Landroid/content/Context;Landroid/content/res/Resources;F)Landroid/content/res/Resources;
+    .locals 6
+    .param p1    # Landroid/content/Context;
+        .annotation build Las0/k;
+        .end annotation
+    .end param
+    .param p2    # Landroid/content/res/Resources;
+        .annotation build Las0/k;
+        .end annotation
+    .end param
+    .annotation build Las0/k;
+    .end annotation
+
+    .line 1
+    const-string v0, "context"
+
+    .line 2
+    .line 3
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 4
+    .line 5
+    .line 6
+    const-string v0, "resources"
+
+    .line 7
+    .line 8
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 9
+    .line 10
+    .line 11
+    invoke-virtual {p2}, Landroid/content/res/Resources;->getConfiguration()Landroid/content/res/Configuration;
+
+    .line 12
+    .line 13
+    .line 14
+    move-result-object v0
+
+    .line 15
+    invoke-virtual {p2}, Landroid/content/res/Resources;->getDisplayMetrics()Landroid/util/DisplayMetrics;
+
+    .line 16
+    .line 17
+    .line 18
+    move-result-object v1
+
+    .line 19
+    iget v2, v0, Landroid/content/res/Configuration;->fontScale:F
+
+    .line 20
+    .line 21
+    sub-float/2addr v2, p3
+
+    .line 22
+    invoke-static {v2}, Ljava/lang/Math;->abs(F)F
+
+    .line 23
+    .line 24
+    .line 25
+    move-result v2
+
+    .line 26
+    float-to-double v2, v2
+
+    .line 27
+    const-wide v4, 0x3e7ad7f29abcaf48L    # 1.0E-7
+
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    cmpl-double v2, v2, v4
+
+    .line 33
+    .line 34
+    if-lez v2, :cond_0
+
+    .line 35
+    .line 36
+    iput p3, v0, Landroid/content/res/Configuration;->fontScale:F
+
+    .line 37
+    .line 38
+    iget p2, v1, Landroid/util/DisplayMetrics;->density:F
+
+    .line 39
+    .line 40
+    mul-float/2addr p2, p3
+
+    .line 41
+    iput p2, v1, Landroid/util/DisplayMetrics;->scaledDensity:F
+
+    .line 42
+    .line 43
+    invoke-virtual {p1, v0}, Landroid/content/Context;->createConfigurationContext(Landroid/content/res/Configuration;)Landroid/content/Context;
+
+    .line 44
+    .line 45
+    .line 46
+    move-result-object p1
+
+    .line 47
+    invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+
+    .line 48
+    .line 49
+    .line 50
+    move-result-object p1
+
+    .line 51
+    const-string p2, "getResources(...)"
+
+    .line 52
+    .line 53
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 54
+    .line 55
+    .line 56
+    return-object p1
+
+    .line 57
+    :cond_0
+    return-object p2
+.end method

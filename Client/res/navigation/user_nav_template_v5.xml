@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/user_nav_template_v5" app:startDestination="@id/user_operationtemplatefragmentv5"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="user_fragment_operation_template_v5" android:name="com.xag.agri.v4.user.ui.v5.template.OperationTemplateFragmentV5" android:id="@id/user_operationtemplatefragmentv5">
+        <action android:id="@id/toNewTemplate" app:destination="@id/user_operationtemplateeditfragmentv5" app:enterAnim="@anim/common_fragment_open_enter" app:exitAnim="@anim/common_fragment_open_exit" app:popEnterAnim="@anim/common_fragment_close_enter" app:popExitAnim="@anim/common_fragment_close_exit" />
+        <action android:id="@id/toTemplateDetail" app:destination="@id/user_nav_template_detail_v5" app:enterAnim="@anim/common_fragment_open_enter" app:exitAnim="@anim/common_fragment_open_exit" app:popEnterAnim="@anim/common_fragment_close_enter" app:popExitAnim="@anim/common_fragment_close_exit" />
+    </fragment>
+    <include app:graph="@navigation/user_nav_template_detail_v5" />
+    <fragment android:label="user_fragment_operation_template_edit_v5" android:name="com.xag.agri.v4.user.ui.v5.template.OperationTemplateEditFragmentV5" android:id="@id/user_operationtemplateeditfragmentv5">
+        <action android:id="@id/toFarmContentEdit" app:destination="@id/user_farmcontenteditfragmentv5" app:enterAnim="@anim/common_fragment_open_enter" app:exitAnim="@anim/common_fragment_open_exit" app:popEnterAnim="@anim/common_fragment_close_enter" app:popExitAnim="@anim/common_fragment_close_exit" />
+    </fragment>
+    <fragment android:label="user_fragment_farm_content_edit_v5" android:name="com.xag.agri.v4.user.ui.v5.template.FarmContentEditFragmentV5" android:id="@id/user_farmcontenteditfragmentv5" />
+</navigation>

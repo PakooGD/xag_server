@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@color/devices_black_00" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:background="@drawable/devices_bg_layout_top" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/include_title" layout="@layout/devices_sheet_base_title" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/devices_shape_white_round_outline" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/devices_margin_12" android:layout_marginTop="@dimen/devices_margin_12" android:layout_marginRight="@dimen/devices_margin_12" android:layout_marginBottom="@dimen/devices_margin_12" android:divider="@color/devices_divider">
+            <com.xa.core.cube.TextView android:textSize="@dimen/devices_text_size_20" android:textColor="@color/cube_color_chromatic_green1_primary" android:id="@id/tv_value_picker_value2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/devices_margin_16" android:text="@string/devices_fan_level_unit" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/devices_margin_16">
+                <ImageButton android:id="@id/btn_value_picker_decrease" android:background="@drawable/devices_selector_button_circle_transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/devices_ic_decrease" android:layout_marginStart="@dimen/devices_margin_12" />
+                <androidx.appcompat.widget.AppCompatSeekBar android:id="@id/sb_value_picker_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxHeight="4.0dip" android:progressDrawable="@drawable/devices_seek_bar_bg" android:minHeight="4.0dip" android:thumb="@drawable/devices_seek_bar_thumb" android:thumbOffset="0.0dip" android:layout_weight="1.0" />
+                <ImageButton android:id="@id/btn_value_picker_increase" android:background="@drawable/devices_selector_button_circle_transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/devices_ic_increase" android:minHeight="4.0dip" android:layout_marginEnd="@dimen/devices_margin_12" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+            </LinearLayout>
+            <com.xa.core.cube.TextView android:textSize="@dimen/devices_text_size_20" android:textColor="@color/cube_color_chromatic_green1_primary" android:id="@id/tv_value_picker_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/devices_margin_16" android:layout_marginBottom="@dimen/devices_margin_12" android:text="@string/devices_fan_level_unit" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

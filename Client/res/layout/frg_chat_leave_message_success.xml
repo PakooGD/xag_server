@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/viewSuccess" android:paddingLeft="@dimen/cube_dp_16" android:paddingRight="@dimen/cube_dp_16" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingHorizontal="@dimen/cube_dp_16"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cube_dp_60" android:src="@drawable/ti_ic_commit_success" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cube_dp_30" android:text="@string/ti_chat_leave_success" style="@style/Cube.Font.Medium.Title1" />
+    <TextView android:id="@id/tvChatLeaveMessageSuccess" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cube_dp_16" android:text="@string/ti_chat_leave_success" style="@style/Cube.Font.Regular.Body.ContentSecondary" />
+</LinearLayout>

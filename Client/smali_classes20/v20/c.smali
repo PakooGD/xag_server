@@ -1,0 +1,507 @@
+.class public final Lv20/c;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/xag/operation/land/repository2/DigitRepository;
+
+
+# annotations
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000@\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u0006\n\u0002\u0008\u0004\n\u0002\u0010 \n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000e\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u0008\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0008\u0008\u00c0\u0002\u0018\u00002\u00020\u0001B\t\u0008\u0002\u00a2\u0006\u0004\u0008#\u0010$J6\u0010\t\u001a\u0008\u0012\u0004\u0012\u00020\u00080\u00072\u0006\u0010\u0003\u001a\u00020\u00022\u0006\u0010\u0004\u001a\u00020\u00022\u0006\u0010\u0005\u001a\u00020\u00022\u0006\u0010\u0006\u001a\u00020\u0002H\u0096@\u00a2\u0006\u0004\u0008\t\u0010\nJ6\u0010\u000c\u001a\u0008\u0012\u0004\u0012\u00020\u000b0\u00072\u0006\u0010\u0003\u001a\u00020\u00022\u0006\u0010\u0004\u001a\u00020\u00022\u0006\u0010\u0005\u001a\u00020\u00022\u0006\u0010\u0006\u001a\u00020\u0002H\u0096@\u00a2\u0006\u0004\u0008\u000c\u0010\nJ\u001e\u0010\u000f\u001a\u0008\u0012\u0004\u0012\u00020\u00080\u00072\u0006\u0010\u000e\u001a\u00020\rH\u0096@\u00a2\u0006\u0004\u0008\u000f\u0010\u0010J\u001e\u0010\u0011\u001a\u0008\u0012\u0004\u0012\u00020\u00080\u00072\u0006\u0010\u000e\u001a\u00020\rH\u0096@\u00a2\u0006\u0004\u0008\u0011\u0010\u0010J\u0016\u0010\u0013\u001a\u0008\u0012\u0004\u0012\u00020\u00120\u0007H\u0096@\u00a2\u0006\u0004\u0008\u0013\u0010\u0014J\u001a\u0010\u0016\u001a\u0004\u0018\u00010\u00082\u0006\u0010\u0015\u001a\u00020\rH\u0096@\u00a2\u0006\u0004\u0008\u0016\u0010\u0010J\u001a\u0010\u0017\u001a\u0004\u0018\u00010\u00082\u0006\u0010\u0015\u001a\u00020\rH\u0096@\u00a2\u0006\u0004\u0008\u0017\u0010\u0010J \u0010\u0019\u001a\u0004\u0018\u00010\u00082\u000c\u0010\u0018\u001a\u0008\u0012\u0004\u0012\u00020\u00080\u0007H\u0096@\u00a2\u0006\u0004\u0008\u0019\u0010\u001aJ\u0017\u0010\u001e\u001a\u00020\u001d2\u0006\u0010\u001c\u001a\u00020\u001bH\u0016\u00a2\u0006\u0004\u0008\u001e\u0010\u001fR\u0014\u0010\"\u001a\u00020\u00018\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008 \u0010!\u00a8\u0006%"
+    }
+    d2 = {
+        "Lv20/c;",
+        "Lcom/xag/operation/land/repository2/DigitRepository;",
+        "",
+        "south",
+        "north",
+        "west",
+        "east",
+        "",
+        "Lcom/xag/operation/land/model/Land;",
+        "getLandsByMapWin",
+        "(DDDDLkotlin/coroutines/c;)Ljava/lang/Object;",
+        "Lcom/xag/support/geo/LatLng;",
+        "getLandsGeoByMapWin",
+        "",
+        "taskCode",
+        "getLandsByTaskCode",
+        "(Ljava/lang/String;Lkotlin/coroutines/c;)Ljava/lang/Object;",
+        "getLandObsByTaskCode",
+        "Lcom/xag/operation/land/model/DigitFarm;",
+        "getFarms",
+        "(Lkotlin/coroutines/c;)Ljava/lang/Object;",
+        "guid",
+        "getLand",
+        "getObs",
+        "lands",
+        "mergeLand",
+        "(Ljava/util/List;Lkotlin/coroutines/c;)Ljava/lang/Object;",
+        "Lcom/xag/operation/land/repository2/SyncCondition;",
+        "condition",
+        "Lkotlin/z1;",
+        "sync",
+        "(Lcom/xag/operation/land/repository2/SyncCondition;)V",
+        "b",
+        "Lcom/xag/operation/land/repository2/DigitRepository;",
+        "repo",
+        "<init>",
+        "()V",
+        "data_release"
+    }
+    k = 0x1
+    mv = {
+        0x1,
+        0x9,
+        0x0
+    }
+.end annotation
+
+
+# static fields
+.field public static final a:Lv20/c;
+    .annotation build Las0/k;
+    .end annotation
+.end field
+
+.field public static final b:Lcom/xag/operation/land/repository2/DigitRepository;
+    .annotation build Las0/k;
+    .end annotation
+.end field
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    .line 1
+    new-instance v0, Lv20/c;
+
+    .line 2
+    .line 3
+    invoke-direct {v0}, Lv20/c;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    sput-object v0, Lv20/c;->a:Lv20/c;
+
+    .line 7
+    .line 8
+    sget-object v0, Lt20/b;->a:Lt20/b;
+
+    .line 9
+    .line 10
+    invoke-virtual {v0}, Lt20/b;->c()Lcom/xag/operation/land/repository2/DigitRepository;
+
+    .line 11
+    .line 12
+    .line 13
+    move-result-object v0
+
+    .line 14
+    sput-object v0, Lv20/c;->b:Lcom/xag/operation/land/repository2/DigitRepository;
+
+    .line 15
+    .line 16
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+
+# virtual methods
+.method public getFarms(Lkotlin/coroutines/c;)Ljava/lang/Object;
+    .locals 1
+    .param p1    # Lkotlin/coroutines/c;
+        .annotation build Las0/k;
+        .end annotation
+    .end param
+    .annotation build Las0/l;
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lkotlin/coroutines/c<",
+            "-",
+            "Ljava/util/List<",
+            "Lcom/xag/operation/land/model/DigitFarm;",
+            ">;>;)",
+            "Ljava/lang/Object;"
+        }
+    .end annotation
+
+    .line 1
+    sget-object v0, Lv20/c;->b:Lcom/xag/operation/land/repository2/DigitRepository;
+
+    .line 2
+    .line 3
+    invoke-interface {v0, p1}, Lcom/xag/operation/land/repository2/DigitRepository;->getFarms(Lkotlin/coroutines/c;)Ljava/lang/Object;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object p1
+
+    .line 7
+    return-object p1
+.end method
+
+.method public getLand(Ljava/lang/String;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    .locals 1
+    .param p1    # Ljava/lang/String;
+        .annotation build Las0/k;
+        .end annotation
+    .end param
+    .param p2    # Lkotlin/coroutines/c;
+        .annotation build Las0/k;
+        .end annotation
+    .end param
+    .annotation build Las0/l;
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/String;",
+            "Lkotlin/coroutines/c<",
+            "-",
+            "Lcom/xag/operation/land/model/Land;",
+            ">;)",
+            "Ljava/lang/Object;"
+        }
+    .end annotation
+
+    .line 1
+    sget-object v0, Lv20/c;->b:Lcom/xag/operation/land/repository2/DigitRepository;
+
+    .line 2
+    .line 3
+    invoke-interface {v0, p1, p2}, Lcom/xag/operation/land/repository2/DigitRepository;->getLand(Ljava/lang/String;Lkotlin/coroutines/c;)Ljava/lang/Object;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object p1
+
+    .line 7
+    return-object p1
+.end method
+
+.method public getLandObsByTaskCode(Ljava/lang/String;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    .locals 1
+    .param p1    # Ljava/lang/String;
+        .annotation build Las0/k;
+        .end annotation
+    .end param
+    .param p2    # Lkotlin/coroutines/c;
+        .annotation build Las0/k;
+        .end annotation
+    .end param
+    .annotation build Las0/l;
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/String;",
+            "Lkotlin/coroutines/c<",
+            "-",
+            "Ljava/util/List<",
+            "Lcom/xag/operation/land/model/Land;",
+            ">;>;)",
+            "Ljava/lang/Object;"
+        }
+    .end annotation
+
+    .line 1
+    sget-object v0, Lv20/c;->b:Lcom/xag/operation/land/repository2/DigitRepository;
+
+    .line 2
+    .line 3
+    invoke-interface {v0, p1, p2}, Lcom/xag/operation/land/repository2/DigitRepository;->getLandObsByTaskCode(Ljava/lang/String;Lkotlin/coroutines/c;)Ljava/lang/Object;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object p1
+
+    .line 7
+    return-object p1
+.end method
+
+.method public getLandsByMapWin(DDDDLkotlin/coroutines/c;)Ljava/lang/Object;
+    .locals 10
+    .param p9    # Lkotlin/coroutines/c;
+        .annotation build Las0/k;
+        .end annotation
+    .end param
+    .annotation build Las0/l;
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(DDDD",
+            "Lkotlin/coroutines/c<",
+            "-",
+            "Ljava/util/List<",
+            "Lcom/xag/operation/land/model/Land;",
+            ">;>;)",
+            "Ljava/lang/Object;"
+        }
+    .end annotation
+
+    .line 1
+    sget-object v0, Lv20/c;->b:Lcom/xag/operation/land/repository2/DigitRepository;
+
+    .line 2
+    .line 3
+    move-wide v1, p1
+
+    .line 4
+    move-wide v3, p3
+
+    .line 5
+    move-wide v5, p5
+
+    .line 6
+    move-wide/from16 v7, p7
+
+    .line 7
+    .line 8
+    move-object/from16 v9, p9
+
+    .line 9
+    .line 10
+    invoke-interface/range {v0 .. v9}, Lcom/xag/operation/land/repository2/DigitRepository;->getLandsByMapWin(DDDDLkotlin/coroutines/c;)Ljava/lang/Object;
+
+    .line 11
+    .line 12
+    .line 13
+    move-result-object v0
+
+    .line 14
+    return-object v0
+.end method
+
+.method public getLandsByTaskCode(Ljava/lang/String;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    .locals 1
+    .param p1    # Ljava/lang/String;
+        .annotation build Las0/k;
+        .end annotation
+    .end param
+    .param p2    # Lkotlin/coroutines/c;
+        .annotation build Las0/k;
+        .end annotation
+    .end param
+    .annotation build Las0/l;
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/String;",
+            "Lkotlin/coroutines/c<",
+            "-",
+            "Ljava/util/List<",
+            "Lcom/xag/operation/land/model/Land;",
+            ">;>;)",
+            "Ljava/lang/Object;"
+        }
+    .end annotation
+
+    .line 1
+    sget-object v0, Lv20/c;->b:Lcom/xag/operation/land/repository2/DigitRepository;
+
+    .line 2
+    .line 3
+    invoke-interface {v0, p1, p2}, Lcom/xag/operation/land/repository2/DigitRepository;->getLandsByTaskCode(Ljava/lang/String;Lkotlin/coroutines/c;)Ljava/lang/Object;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object p1
+
+    .line 7
+    return-object p1
+.end method
+
+.method public getLandsGeoByMapWin(DDDDLkotlin/coroutines/c;)Ljava/lang/Object;
+    .locals 10
+    .param p9    # Lkotlin/coroutines/c;
+        .annotation build Las0/k;
+        .end annotation
+    .end param
+    .annotation build Las0/l;
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(DDDD",
+            "Lkotlin/coroutines/c<",
+            "-",
+            "Ljava/util/List<",
+            "Lcom/xag/support/geo/LatLng;",
+            ">;>;)",
+            "Ljava/lang/Object;"
+        }
+    .end annotation
+
+    .line 1
+    sget-object v0, Lv20/c;->b:Lcom/xag/operation/land/repository2/DigitRepository;
+
+    .line 2
+    .line 3
+    move-wide v1, p1
+
+    .line 4
+    move-wide v3, p3
+
+    .line 5
+    move-wide v5, p5
+
+    .line 6
+    move-wide/from16 v7, p7
+
+    .line 7
+    .line 8
+    move-object/from16 v9, p9
+
+    .line 9
+    .line 10
+    invoke-interface/range {v0 .. v9}, Lcom/xag/operation/land/repository2/DigitRepository;->getLandsGeoByMapWin(DDDDLkotlin/coroutines/c;)Ljava/lang/Object;
+
+    .line 11
+    .line 12
+    .line 13
+    move-result-object v0
+
+    .line 14
+    return-object v0
+.end method
+
+.method public getObs(Ljava/lang/String;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    .locals 1
+    .param p1    # Ljava/lang/String;
+        .annotation build Las0/k;
+        .end annotation
+    .end param
+    .param p2    # Lkotlin/coroutines/c;
+        .annotation build Las0/k;
+        .end annotation
+    .end param
+    .annotation build Las0/l;
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/String;",
+            "Lkotlin/coroutines/c<",
+            "-",
+            "Lcom/xag/operation/land/model/Land;",
+            ">;)",
+            "Ljava/lang/Object;"
+        }
+    .end annotation
+
+    .line 1
+    sget-object v0, Lv20/c;->b:Lcom/xag/operation/land/repository2/DigitRepository;
+
+    .line 2
+    .line 3
+    invoke-interface {v0, p1, p2}, Lcom/xag/operation/land/repository2/DigitRepository;->getObs(Ljava/lang/String;Lkotlin/coroutines/c;)Ljava/lang/Object;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object p1
+
+    .line 7
+    return-object p1
+.end method
+
+.method public mergeLand(Ljava/util/List;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    .locals 1
+    .param p1    # Ljava/util/List;
+        .annotation build Las0/k;
+        .end annotation
+    .end param
+    .param p2    # Lkotlin/coroutines/c;
+        .annotation build Las0/k;
+        .end annotation
+    .end param
+    .annotation build Las0/l;
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/List<",
+            "Lcom/xag/operation/land/model/Land;",
+            ">;",
+            "Lkotlin/coroutines/c<",
+            "-",
+            "Lcom/xag/operation/land/model/Land;",
+            ">;)",
+            "Ljava/lang/Object;"
+        }
+    .end annotation
+
+    .line 1
+    sget-object v0, Lv20/c;->b:Lcom/xag/operation/land/repository2/DigitRepository;
+
+    .line 2
+    .line 3
+    invoke-interface {v0, p1, p2}, Lcom/xag/operation/land/repository2/DigitRepository;->mergeLand(Ljava/util/List;Lkotlin/coroutines/c;)Ljava/lang/Object;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object p1
+
+    .line 7
+    return-object p1
+.end method
+
+.method public sync(Lcom/xag/operation/land/repository2/SyncCondition;)V
+    .locals 1
+    .param p1    # Lcom/xag/operation/land/repository2/SyncCondition;
+        .annotation build Las0/k;
+        .end annotation
+    .end param
+
+    .line 1
+    const-string v0, "condition"
+
+    .line 2
+    .line 3
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 4
+    .line 5
+    .line 6
+    sget-object v0, Lv20/c;->b:Lcom/xag/operation/land/repository2/DigitRepository;
+
+    .line 7
+    .line 8
+    invoke-interface {v0, p1}, Lcom/xag/operation/land/repository2/Syncable;->sync(Lcom/xag/operation/land/repository2/SyncCondition;)V
+
+    .line 9
+    .line 10
+    .line 11
+    return-void
+.end method

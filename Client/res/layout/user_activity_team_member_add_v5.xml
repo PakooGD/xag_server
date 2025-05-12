@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.fragment.app.FragmentContainerView android:name="com.xag.agri.v4.user.ui.v5.team.TeamMemberAddFragmentV5" android:id="@id/flContent" android:background="@color/cube_color_container_bg_base" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

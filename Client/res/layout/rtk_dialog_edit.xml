@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/devices_background" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/devices_actionbar">
+        <ImageButton android:id="@id/tv_edit_dialog_back" android:background="@drawable/devices_selector_button_transparent" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/cube_ic_gen_chevron_left" android:paddingStart="@dimen/devices_padding" android:paddingEnd="@dimen/devices_padding" />
+        <com.xa.core.cube.TextView android:layout_gravity="center" android:id="@id/tv_edit_dialog_title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Devices.Text.title" />
+    </FrameLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.0" />
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.6668">
+            <EditText android:textColor="@color/cube_color_content_primary" android:id="@id/et_edit_dialog_value" android:background="@drawable/devices_shape_white_round_outline" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="@dimen/devices_item_height" android:layout_margin="@dimen/devices_padding_16" android:maxLines="1" android:singleLine="true" android:windowSoftInputMode="adjustPan" android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen" android:textCursorDrawable="@drawable/devices_shape_edit_text_cursor" android:paddingStart="@dimen/devices_padding_16" android:paddingEnd="@dimen/devices_padding_16" style="@style/Devices.Text.Edit" />
+            <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <android.widget.Button android:textColor="@drawable/devices_selector_text_white" android:id="@id/btn_edit_dialog_ok" android:background="@drawable/devices_selector_button_green" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/devices_margin_36" android:text="@string/devices_confirm" android:layout_marginStart="@dimen/devices_margin_12" android:layout_marginEnd="@dimen/devices_margin_12" style="@style/Devices.Button" />
+        </LinearLayout>
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.0" />
+    </LinearLayout>
+</LinearLayout>

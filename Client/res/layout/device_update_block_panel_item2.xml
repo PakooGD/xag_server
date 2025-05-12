@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/device_update_select_panel_item" android:layout_width="fill_parent" android:layout_height="@dimen/dev_update_fm_detail_item_hei"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.xa.core.cube.TextView android:gravity="center_vertical" android:id="@id/item_title" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/cube_dp_12" android:text="固件" style="@style/Cube.Font.Regular.Body" />
+    <View android:id="@id/item_anchor" android:layout_width="1.0px" android:layout_height="1.0px" android:layout_marginRight="@dimen/cube_dp_12" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/item_arrow" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/device_update_ic_go_gray" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintRight_toLeftOf="@id/item_anchor" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.xa.core.cube.TextView android:textColor="?cube_color_project_primary" android:gravity="center_vertical" android:layout_gravity="end" android:id="@id/item_content" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="1.9.1" app:layout_constraintRight_toLeftOf="@id/item_arrow" style="@style/Cube.Font.Regular.Callout" />
+</androidx.constraintlayout.widget.ConstraintLayout>

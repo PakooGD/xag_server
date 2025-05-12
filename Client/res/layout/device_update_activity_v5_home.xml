@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/cube_color_container_bg_base" android:layout_width="fill_parent" android:layout_height="fill_parent" android:keepScreenOn="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/door_title" app:layout_constraintTop_toTopOf="parent" layout="@layout/device_update_view_def_head" />
+    <FrameLayout android:id="@id/main_root" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/device_app_list" app:layout_constraintTop_toBottomOf="@id/door_title">
+        <include android:id="@id/page_check" layout="@layout/device_update_fragment_new_check" />
+        <include android:id="@id/page_update" android:visibility="gone" layout="@layout/device_update_fragment_new_update" />
+    </FrameLayout>
+    <com.xa.core.cube.TextView android:textColor="?cube_color_project_primary" android:id="@id/device_app_list" android:paddingBottom="@dimen/cube_dp_16" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/device_update_current_version" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" style="@style/Cube.Font.Regular.Callout" />
+</androidx.constraintlayout.widget.ConstraintLayout>

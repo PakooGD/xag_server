@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/map_data_loading_dialog_bg" android:layout_width="@dimen/cube_dp_120" android:layout_height="@dimen/cube_dp_120"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.xag.agri.v4.map.data.widget.dialog.LoadingView android:id="@id/indicator_view" android:layout_width="@dimen/cube_dp_32" android:layout_height="@dimen/cube_dp_32" />
+    <com.xa.core.cube.TextView android:textSize="@dimen/map_data_sp_14" android:textColor="@color/cube_color_container_bg_tint" android:id="@id/message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/map_data_dp_12" android:text="正在加载..." />
+</LinearLayout>

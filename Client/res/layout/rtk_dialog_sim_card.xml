@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/devices_background" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:background="@color/devices_background" android:layout_width="fill_parent" android:layout_height="@dimen/devices_actionbar">
+        <ImageButton android:id="@id/btn_mobile_operator_back" android:background="@drawable/devices_selector_button_transparent" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/cube_ic_gen_chevron_left" android:paddingStart="@dimen/devices_padding" android:paddingEnd="@dimen/devices_padding" />
+        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/devices_sms" style="@style/Devices.Text.title" />
+    </FrameLayout>
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.0" />
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.6668">
+                <LinearLayout android:orientation="vertical" android:id="@id/ll_sim" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/devices_margin_16" android:layout_marginTop="@dimen/devices_margin_12" android:layout_marginRight="@dimen/devices_margin_16" android:layout_marginHorizontal="@dimen/devices_margin_16">
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_secondary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/devices_sms_sim" android:layout_marginStart="@dimen/devices_margin_16" style="@style/Cube.Font.Regular.Callout" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="vertical" android:background="@drawable/devices_shape_white_round_outline" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/devices_margin_8" android:divider="@drawable/devices_shape_divider" android:showDividers="middle" android:paddingStart="@dimen/devices_margin_16">
+                            <LinearLayout android:id="@id/ll_operator" android:layout_width="fill_parent" android:layout_height="@dimen/devices_item_height">
+                                <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:gravity="start|center" android:layout_gravity="start|center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/devices_sms_mcc" android:layout_weight="1.0" style="@style/Cube.Font.Regular.Body" />
+                                <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_secondary" android:gravity="start|center" android:layout_gravity="end|center" android:id="@id/tv_operator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/devices_margin_16" style="@style/Cube.Font.Regular.Body" />
+                            </LinearLayout>
+                            <LinearLayout android:id="@id/ll_sim_status" android:layout_width="fill_parent" android:layout_height="@dimen/devices_item_height">
+                                <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:gravity="start|center" android:layout_gravity="start|center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/devices_dev_status_network" android:layout_weight="1.0" style="@style/Cube.Font.Regular.Body" />
+                                <ImageView android:layout_gravity="center" android:id="@id/iv_signal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/operation_res_icon_device_signal_offline" app:tint="@color/cube_color_content_primary" />
+                                <com.xa.core.cube.TextView android:textSize="@dimen/devices_text_size_16" android:textColor="@color/devices_text_light2" android:gravity="start|center" android:layout_gravity="end|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableEnd="@drawable/devices_ic_chevron_right" android:layout_marginEnd="@dimen/devices_margin_16" />
+                            </LinearLayout>
+                            <LinearLayout android:id="@id/ll_apn" android:layout_width="fill_parent" android:layout_height="@dimen/devices_item_height">
+                                <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:gravity="start|center" android:layout_gravity="start|center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/devices_dev_apn" android:layout_weight="1.0" style="@style/Cube.Font.Regular.Body" />
+                                <com.xa.core.cube.TextView android:textColor="?cube_color_project_primary" android:gravity="start|center" android:layout_gravity="end|center" android:id="@id/tv_apn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableEnd="@drawable/devices_ic_chevron_right" android:layout_marginEnd="@dimen/devices_margin_16" style="@style/Cube.Font.Regular.Body" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.0" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

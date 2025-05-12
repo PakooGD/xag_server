@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/SurveySupportPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="72.0dip">
+        <include android:id="@id/page_bar" layout="@layout/survey_new_layout_page_top_bar" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginHorizontal="16.0dip">
+            <ImageView android:background="@drawable/ui_shape_container_fill_tint_r8888" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/survey_ic_farm_black" android:scaleType="centerInside" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginStart="8.0dip">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/survey_textSize_18sp" android:textStyle="bold" android:textColor="@color/cube_color_content_primary" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tv_land_name" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxWidth="250.0dip" android:text="XXXX" />
+                    <ImageView android:id="@id/iv_more" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/survey_new_home_digit_info" android:scaleType="centerInside" android:layout_marginStart="2.0dip" />
+                </LinearLayout>
+                <TextView android:textSize="12.0sp" android:textColor="@color/cube_color_content_secondary" android:id="@id/tv_desc" android:layout_width="wrap_content" android:layout_height="20.0dip" android:text="XXXX" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+    <include layout="@layout/survey_new_layout_home_divide" />
+    <LinearLayout android:orientation="vertical" android:background="@drawable/cube_shape_container_bg_tint_8" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/basecompat_margin_12">
+        <include android:id="@id/home_tab" android:layout_width="fill_parent" android:layout_height="32.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="12.0dip" android:layout_marginHorizontal="16.0dip" android:layout_marginVertical="12.0dip" layout="@layout/survey_new_layout_home_tab2" />
+        <include layout="@layout/survey_new_layout_home_divide" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rcv_data" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+</LinearLayout>

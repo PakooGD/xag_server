@@ -1,0 +1,48 @@
+{
+    "device": "mnn",
+    "version": "2.4.0",
+    "graph": {
+        "Inputs": [
+            {
+                "name": "data",
+                "shape": [
+                    1,
+                    3,
+                    256,
+                    256
+                ],
+                "format": "nchw",
+                "dim_num": 4,
+                "qtype": "fp16",
+                "fl": 0
+            }
+        ],
+        "Outputs": [
+            {
+                "name": "output",
+                "shape": [
+                    1,
+                    1360,
+                    33
+                ],
+                "format": "nchw",
+                "dim_num": 3,
+                "qtype": "fp16",
+                "fl": 0
+            }
+        ]
+    },
+    "preproc": {
+        "mean": [
+            103.53,
+            116.28,
+            123.675
+        ],
+        "scale": [
+            0.017429193899782137,
+            0.01750700280112045,
+            0.017124753831663668
+        ]
+    },
+    "json_version": "0.0.2"
+}

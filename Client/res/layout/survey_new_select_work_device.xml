@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/SurveySupportPage"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/page_bar" layout="@layout/survey_new_layout_page_top_bar" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip" android:layout_marginHorizontal="16.0dip">
+        <include android:id="@id/empty_bar" layout="@layout/survey_new_home_layout_empty_data" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_devices" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    </FrameLayout>
+</LinearLayout>

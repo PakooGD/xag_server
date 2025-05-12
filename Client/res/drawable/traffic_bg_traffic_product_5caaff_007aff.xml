@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient android:startColor="@color/cube_color_state_blue_primary" android:endColor="#ff5caaff" android:angle="135.0" />
+    <corners android:radius="@dimen/cube_dp_4" />
+</shape>

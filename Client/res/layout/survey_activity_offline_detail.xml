@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/cube_dp_44">
+        <ImageView android:id="@id/offline_close" android:layout_width="@dimen/cube_dp_44" android:layout_height="fill_parent" android:src="@drawable/cube_ic_gen_chevron_left" android:scaleType="centerInside" android:paddingEnd="12.0dip" />
+        <com.xa.core.cube.TextView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/survey_offline_opt_display_1" style="@style/Cube.Font.Medium.Title1" />
+    </FrameLayout>
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/content_root" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/offline_set_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/survey_item_hdmap_local_permission" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/offline_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/cube_dp_16" />
+    </LinearLayout>
+</LinearLayout>

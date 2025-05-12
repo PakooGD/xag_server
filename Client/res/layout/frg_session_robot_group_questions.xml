@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/tvText" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentStart="true" android:layout_alignParentEnd="true" style="@style/tinetRobotClassicTitleStyle" />
+    <TextView android:id="@id/tvGuess" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ti_guess" style="@style/tinetRobotClassicGuessStyle" />
+    <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/recyclerView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_below="@id/tvGuess" app:layoutManager="com.tinet.oskit.adapter.layout.NoScrollLinearLayoutManager" />
+    <TextView android:id="@id/tvChanged" android:layout_marginLeft="8.0dip" android:layout_below="@id/recyclerView" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" style="@style/tinetQuestionChangeStyle" />
+</RelativeLayout>

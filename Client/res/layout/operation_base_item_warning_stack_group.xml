@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="132.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/white" android:gravity="start" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/operation_margin_8" style="@style/Operation.Text.small" />
+        <TextView android:textSize="10.0sp" android:textColor="@color/white" android:gravity="start" android:id="@id/tv_sn" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Operation.Text.small" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/traffic_shape_more_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:divider="@drawable/traffic_shape_divider_vertical" android:showDividers="middle" android:layout_marginEnd="@dimen/cube_dp_12">
+        <com.xa.core.cube.TextView android:textSize="16.0sp" android:textColor="@color/cube_color_content_primary" android:gravity="center_vertical" android:id="@id/tv_statistics" android:paddingLeft="@dimen/cube_dp_20" android:paddingRight="@dimen/cube_dp_20" android:layout_width="fill_parent" android:layout_height="@dimen/cube_dp_56" android:text="@string/traffic_statistics" android:paddingHorizontal="@dimen/cube_dp_20" />
+        <com.xa.core.cube.TextView android:textSize="16.0sp" android:textColor="@color/cube_color_content_primary" android:gravity="center_vertical" android:id="@id/tv_order" android:paddingLeft="@dimen/cube_dp_20" android:paddingRight="@dimen/cube_dp_20" android:layout_width="fill_parent" android:layout_height="@dimen/cube_dp_56" android:text="@string/traffic_order" android:paddingHorizontal="@dimen/cube_dp_20" />
+    </LinearLayout>
+</FrameLayout>

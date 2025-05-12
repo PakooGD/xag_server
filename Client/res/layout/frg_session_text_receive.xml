@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/frg_session_item_time" />
+    <LinearLayout android:layout_gravity="left" android:orientation="horizontal" android:paddingRight="@dimen/ti_message_max_span" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.tinet.oskit.widget.UserHeaderView android:id="@id/userHeader" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/tinetHeaderStyle" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <include layout="@layout/frg_session_item_name" />
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.tinet.oskit.view.TinetTextView android:id="@id/tvText" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/tinetTextStyle.tinetTextReceiveStyle" />
+                <TextView android:textSize="@dimen/ti_receive_bubble_text_size" android:textColor="@color/ti_white" android:gravity="center" android:id="@id/state" android:background="@drawable/ti_state_bg" android:visibility="gone" android:layout_width="60.0dip" android:layout_height="25.0dip" android:layout_marginTop="5.0dip" android:text="已评价" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

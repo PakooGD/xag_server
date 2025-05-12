@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/devices_background" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/devices_actionbar">
+        <ImageButton android:id="@id/btn_back" android:background="@drawable/devices_selector_button_transparent" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/cube_ic_gen_chevron_left" android:paddingStart="@dimen/devices_padding" android:paddingEnd="@dimen/devices_padding" />
+        <com.xa.core.cube.TextView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/cube_dp_200" android:text="@string/devices_wifi_link_communication" style="@style/Devices.Text.title" />
+        <com.xa.core.cube.TextView android:gravity="center" android:layout_gravity="end|center" android:id="@id/btn_diagnostic" android:paddingLeft="@dimen/cube_dp_16" android:paddingRight="@dimen/cube_dp_16" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/cube_dp_100" android:text="@string/devices_restart_diagnosis" android:paddingHorizontal="@dimen/cube_dp_16" style="@style/Cube.Font.Regular.Body.ProjectPrimary" />
+    </FrameLayout>
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.1666" />
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.6668">
+                <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_diagnostic" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/iv_status" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_marginTop="@dimen/devices_padding_24" android:src="@drawable/devices_network_health_diagnosis_normal" />
+                    <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:id="@id/tv_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cube_dp_16" android:layout_marginRight="@dimen/cube_dp_16" android:layout_marginHorizontal="@dimen/cube_dp_16" style="@style/Cube.Font.Regular.Title1" />
+                    <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_secondary" android:id="@id/tv_message_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cube_dp_16" android:layout_marginRight="@dimen/cube_dp_16" android:layout_marginBottom="@dimen/cube_dp_12" android:layout_marginHorizontal="@dimen/cube_dp_16" style="@style/Cube.Font.Regular.Body" />
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/devices_shape_white_round_outline" android:paddingLeft="@dimen/devices_margin_16" android:paddingTop="@dimen/devices_padding_12" android:paddingRight="@dimen/devices_margin_16" android:paddingBottom="@dimen/devices_padding_12" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/devices_margin_16" android:layout_marginEnd="@dimen/devices_margin_16" android:paddingHorizontal="@dimen/devices_margin_16" android:paddingVertical="@dimen/devices_padding_12">
+                        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:id="@id/tv_mobile_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/devices_lnt_pair_device_rc" style="@style/Cube.Font.Regular.Body" />
+                            <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_secondary" android:id="@id/tv_mobile_status" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/devices_margin_4" android:text="@string/devices_network_diagnosis_status_diagnosed" style="@style/Cube.Font.Regular.Callout" />
+                        </LinearLayout>
+                        <ImageView android:id="@id/iv_mobile_status" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/ll_communication_quality" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cube_dp_12">
+                    <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_secondary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cube_dp_32" android:layout_marginRight="@dimen/cube_dp_32" android:text="@string/devices_communication_quality" android:layout_marginHorizontal="@dimen/cube_dp_32" style="@style/Cube.Font.Regular.Callout" />
+                    <LinearLayout android:orientation="vertical" android:id="@id/ll_data_1" android:background="@drawable/devices_shape_white_round_outline" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/devices_margin_8" android:layout_marginStart="@dimen/devices_margin_16" android:layout_marginEnd="@dimen/devices_margin_16">
+                        <FrameLayout android:id="@id/vg_iot_rssi" android:layout_width="fill_parent" android:layout_height="90.0dip" android:layout_margin="@dimen/devices_margin_4" />
+                        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/devices_margin_12" android:layout_marginStart="@dimen/devices_margin_16" android:layout_marginEnd="@dimen/devices_margin_16">
+                            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                                <com.xa.core.cube.TextView android:textSize="@dimen/devices_text_size_12" android:textColor="@color/cube_color_content_secondary" android:id="@id/tv_iot_off_on_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/devices_margin_4" style="@style/Devices.Text" />
+                                <com.xa.core.cube.TextView android:textSize="@dimen/devices_text_size_12" android:textColor="@color/cube_color_content_secondary" android:id="@id/tv_iot_off_on_tittle" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Devices.Text" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                                <com.xa.core.cube.TextView android:textSize="@dimen/devices_text_size_12" android:textColor="@color/cube_color_content_secondary" android:id="@id/tv_iot_delay" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Devices.Text" />
+                                <com.xa.core.cube.TextView android:textSize="@dimen/devices_text_size_12" android:textColor="@color/cube_color_content_secondary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/devices_link_delay" style="@style/Devices.Text" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                                <com.xa.core.cube.TextView android:textSize="@dimen/devices_text_size_12" android:textColor="@color/cube_color_content_secondary" android:id="@id/tv_iot_pack_loss" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Devices.Text" />
+                                <com.xa.core.cube.TextView android:textSize="@dimen/devices_text_size_12" android:textColor="@color/cube_color_content_secondary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/devices_link_loss" style="@style/Devices.Text" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.1666" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

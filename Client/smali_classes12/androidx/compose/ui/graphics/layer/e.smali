@@ -1,0 +1,14 @@
+.class public final synthetic Landroidx/compose/ui/graphics/layer/e;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# direct methods
+.method public static bridge synthetic a(Landroid/graphics/RenderNode;Landroid/graphics/Matrix;)V
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0, p1}, Landroid/graphics/RenderNode;->getMatrix(Landroid/graphics/Matrix;)V
+
+    return-void
+.end method

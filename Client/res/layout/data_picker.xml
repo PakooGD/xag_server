@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/cs_date_picker_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.xa.core.cube.TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/cube_color_content_secondary" android:id="@id/tv_cancel" android:paddingLeft="@dimen/cube_dp_12" android:paddingTop="@dimen/cube_dp_16" android:paddingRight="@dimen/cube_dp_12" android:paddingBottom="@dimen/cube_dp_16" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cs_cancel" />
+        <com.xa.core.cube.TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/cube_color_content_primary" android:gravity="center" android:paddingLeft="@dimen/cube_dp_12" android:paddingTop="@dimen/cube_dp_16" android:paddingRight="@dimen/cube_dp_12" android:paddingBottom="@dimen/cube_dp_16" android:layout_width="@dimen/cube_dp_0" android:layout_height="wrap_content" android:text="@string/cs_select_date_scope" android:layout_weight="1.0" />
+        <com.xa.core.cube.TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/cube_color_chromatic_green1_primary" android:id="@id/tv_done" android:paddingLeft="@dimen/cube_dp_12" android:paddingTop="@dimen/cube_dp_16" android:paddingRight="@dimen/cube_dp_12" android:paddingBottom="@dimen/cube_dp_16" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cs_confirm" />
+    </LinearLayout>
+    <View android:background="@color/cube_color_container_fill_deep" android:layout_width="fill_parent" android:layout_height="@dimen/cube_dp_0.5" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="@dimen/cube_dp_0" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.xa.core.cube.TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/cube_color_content_primary" android:gravity="center" android:id="@id/tv_start_date" android:paddingTop="@dimen/cube_dp_8" android:paddingBottom="@dimen/cube_dp_8" android:layout_width="fill_parent" android:layout_height="@dimen/cube_dp_40" android:text="2021年7月13日" />
+            <View android:id="@id/v_line_1" android:background="@drawable/cs_btn_bg" android:layout_width="@dimen/cube_dp_108" android:layout_height="@dimen/cube_dp_2" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="@dimen/cube_dp_84" android:layout_height="wrap_content">
+            <com.xa.core.cube.TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/cube_color_content_secondary" android:gravity="center" android:paddingTop="@dimen/cube_dp_8" android:paddingBottom="@dimen/cube_dp_8" android:layout_width="fill_parent" android:layout_height="@dimen/cube_dp_40" android:text="至" />
+            <View android:layout_width="@dimen/cube_dp_108" android:layout_height="@dimen/cube_dp_2" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="@dimen/cube_dp_0" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.xa.core.cube.TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/cube_color_content_primary" android:gravity="center" android:id="@id/tv_end_date" android:paddingTop="@dimen/cube_dp_8" android:paddingBottom="@dimen/cube_dp_8" android:layout_width="fill_parent" android:layout_height="@dimen/cube_dp_40" android:text="2021年7月13日" />
+            <View android:id="@id/v_line_2" android:background="@color/cube_color_container_bg_tint" android:layout_width="@dimen/cube_dp_110" android:layout_height="@dimen/cube_dp_2" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="@color/cube_color_container_fill_deep" android:layout_width="fill_parent" android:layout_height="@dimen/cube_dp_0.5" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="@dimen/cube_dp_0" android:layout_height="@dimen/cube_dp_220" android:layout_weight="1.0">
+            <com.xag.agri.v4.customer.service.widget.loopview.LoopView android:id="@id/wv_year" android:layout_width="fill_parent" android:layout_height="fill_parent" app:awv_centerTextColor="@color/cube_color_content_primary" app:awv_textsize="16" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="@dimen/cube_dp_84" android:layout_height="@dimen/cube_dp_220">
+            <com.xag.agri.v4.customer.service.widget.loopview.LoopView android:id="@id/wv_month" android:layout_width="fill_parent" android:layout_height="fill_parent" app:awv_centerTextColor="@color/cube_color_content_primary" app:awv_textsize="16" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="@dimen/cube_dp_0" android:layout_height="@dimen/cube_dp_220" android:layout_weight="1.0">
+            <com.xag.agri.v4.customer.service.widget.loopview.LoopView android:id="@id/wv_day" android:layout_width="fill_parent" android:layout_height="fill_parent" app:awv_centerTextColor="@color/cube_color_content_primary" app:awv_textsize="16" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

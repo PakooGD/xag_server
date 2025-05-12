@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/survey_shape_r121200_white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/survey_shape_divider_vertical" android:showDividers="middle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/survey_textSize_18sp" android:textColor="@color/cube_color_content_primary" android:gravity="center" android:id="@id/tv_title" android:layout_width="fill_parent" android:layout_height="64.0dip" android:text="@string/survey_str_save_edit_tip" />
+    <androidx.appcompat.widget.AppCompatButton android:textSize="16.0sp" android:textColor="@color/cube_color_content_primary" android:gravity="center" android:id="@id/dialog_land_save" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/survey_save_draft" style="@style/Widget.AppCompat.Toolbar.Button.Navigation" />
+    <androidx.appcompat.widget.AppCompatButton android:textSize="16.0sp" android:textColor="@color/survey_color_FFFF4D4F" android:gravity="center" android:id="@id/dialog_land_no_save" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/survey_str_not_save" style="@style/Widget.AppCompat.Toolbar.Button.Navigation" />
+    <View android:background="@color/survey_color_1A000000" android:layout_width="fill_parent" android:layout_height="4.0dip" />
+    <androidx.appcompat.widget.AppCompatButton android:textSize="16.0sp" android:textColor="@color/survey_color_99000000" android:gravity="center" android:id="@id/dialog_land_cancel" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/survey_str_cancel" style="@style/Widget.AppCompat.Toolbar.Button.Navigation" />
+</LinearLayout>

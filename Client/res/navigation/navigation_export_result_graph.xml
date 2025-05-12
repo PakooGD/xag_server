@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/navigation_export_result_graph" app:startDestination="@id/nav_export_home_fragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="ExportHomeFragment" android:name="com.xag.agri.v4.map.data.ui.exportresult.fragment.ExportHomeFragment" android:id="@id/nav_export_home_fragment">
+        <action android:id="@id/nav_export_home_to_export_file_folder_fragment" app:destination="@id/nav_export_file_folder_fragment" app:enterAnim="@anim/map_data_slide_in_right" app:exitAnim="@anim/map_data_slide_out_left" app:popEnterAnim="@anim/map_data_slide_in_left" app:popExitAnim="@anim/map_data_slide_out_right" />
+        <action android:id="@id/nav_export_home_to_export_document_folder_fragment" app:destination="@id/nav_export_document_folder_fragment" app:enterAnim="@anim/map_data_slide_in_right" app:exitAnim="@anim/map_data_slide_out_left" app:popEnterAnim="@anim/map_data_slide_in_left" app:popExitAnim="@anim/map_data_slide_out_right" />
+    </fragment>
+    <fragment android:label="ExportFileFolderFragment" android:name="com.xag.agri.v4.map.data.ui.exportresult.fragment.ExportFileFolderFragment" android:id="@id/nav_export_file_folder_fragment" />
+    <fragment android:label="ExportDocumentFragment" android:name="com.xag.agri.v4.map.data.ui.exportresult.fragment.ExportDocumentFragment" android:id="@id/nav_export_document_folder_fragment" />
+</navigation>

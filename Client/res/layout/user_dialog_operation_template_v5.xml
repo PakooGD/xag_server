@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.fragment.app.FragmentContainerView android:name="androidx.navigation.fragment.NavHostFragment" android:id="@id/navigation" android:background="@color/cube_color_container_bg_base" android:layout_width="fill_parent" android:layout_height="fill_parent" app:defaultNavHost="true" app:navGraph="@navigation/user_nav_template_v5"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

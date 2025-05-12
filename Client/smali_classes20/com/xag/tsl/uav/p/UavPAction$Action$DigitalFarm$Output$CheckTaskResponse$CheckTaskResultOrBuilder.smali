@@ -1,0 +1,28 @@
+.class public interface abstract Lcom/xag/tsl/uav/p/UavPAction$Action$DigitalFarm$Output$CheckTaskResponse$CheckTaskResultOrBuilder;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/google/protobuf/MessageOrBuilder;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/xag/tsl/uav/p/UavPAction$Action$DigitalFarm$Output$CheckTaskResponse;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "CheckTaskResultOrBuilder"
+.end annotation
+
+
+# virtual methods
+.method public abstract getResult()Z
+.end method
+
+.method public abstract getTaskUuid()Ljava/lang/String;
+.end method
+
+.method public abstract getTaskUuidBytes()Lcom/google/protobuf/ByteString;
+.end method

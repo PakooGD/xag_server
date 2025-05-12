@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="300.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardBackgroundColor="@color/basecompat_transparent" app:cardCornerRadius="8.0dip">
+        <LinearLayout android:orientation="vertical" android:background="#8000ff00" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:background="#ff00ff00" android:layout_width="fill_parent" android:layout_height="40.0dip">
+                <TextView android:gravity="center_vertical" android:layout_gravity="left" android:id="@id/tv_ai_chat_title" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginLeft="8.0dip" android:text="Chat with me" style="@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle" />
+                <Button android:layout_gravity="right" android:id="@id/btn_close" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginRight="8.0dip" android:text="退出" style="@style/Widget.AppCompat.Button.Borderless" />
+            </FrameLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <EditText android:id="@id/et_message" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_weight="1.0" />
+                <Button android:enabled="false" android:id="@id/btn_send" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:text="发送" />
+            </LinearLayout>
+            <TextView android:id="@id/tv_response" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="8.0dip" android:maxHeight="300.0dip" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

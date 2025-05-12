@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/vg_sense_radar_status_uav_on_air" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/iv_air" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/devices_spray_v50_2022_normal" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <ImageView android:layout_width="64.0dip" android:layout_height="64.0dip" android:src="@drawable/devices_uav_power_instructions_v2_left" android:layout_marginEnd="180.0dip" app:layout_constraintBottom_toBottomOf="@id/iv_air" app:layout_constraintEnd_toEndOf="@id/iv_air" app:layout_constraintStart_toStartOf="@id/iv_air" app:layout_constraintTop_toTopOf="@id/iv_air" />
+        <ImageView android:layout_width="64.0dip" android:layout_height="64.0dip" android:src="@drawable/devices_uav_power_instructions_v2_right" android:layout_marginStart="180.0dip" app:layout_constraintBottom_toBottomOf="@id/iv_air" app:layout_constraintEnd_toEndOf="@id/iv_air" app:layout_constraintStart_toStartOf="@id/iv_air" app:layout_constraintTop_toTopOf="@id/iv_air" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

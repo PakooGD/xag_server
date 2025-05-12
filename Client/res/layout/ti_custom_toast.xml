@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/ti_shape_custom_toast_bg" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ti_custom_toast_image" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginTop="18.0dip" />
+    <TextView android:textSize="16.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/ti_custom_toast_text" android:layout_width="120.0dip" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:layout_marginBottom="18.0dip" />
+</LinearLayout>

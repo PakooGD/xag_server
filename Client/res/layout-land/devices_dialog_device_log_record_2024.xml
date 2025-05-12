@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/devices_background" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/devices_actionbar">
+        <ImageButton android:id="@id/btnBack" android:background="@drawable/devices_selector_button_transparent" android:paddingLeft="@dimen/devices_margin_16" android:paddingRight="@dimen/devices_margin_16" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/cube_ic_gen_chevron_left" android:paddingHorizontal="@dimen/devices_margin_16" />
+        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/devices_dev_log_upload_records" style="@style/Devices.Text.title" />
+    </FrameLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.1666" />
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_content" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.6668">
+            <LinearLayout android:id="@id/ll_have_data" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_log" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/devices_shape_divider" android:overScrollMode="never" android:nestedScrollingEnabled="false" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_no_data" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/devices_img_anomaly_server" />
+                <com.xa.core.cube.TextView android:textSize="@dimen/devices_text_size_16" android:textColor="@color/cube_color_content_primary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/devices_margin_12" android:text="@string/devices_not_data" style="@style/Cube.Font.Regular.Body" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.1666" />
+    </LinearLayout>
+</LinearLayout>

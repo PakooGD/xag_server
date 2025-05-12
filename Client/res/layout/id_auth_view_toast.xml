@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/layout_toast" android:background="@drawable/id_auth_toast_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_auth_toast_tip" android:background="@mipmap/icon_auth_toast_tip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_centerVertical="true" />
+    <TextView android:textSize="@dimen/checktrue_toast_text_size" android:textColor="@color/toast_checktrue_text_color" android:id="@id/toast_tv" android:paddingLeft="40.0dip" android:paddingTop="6.0dip" android:paddingRight="40.0dip" android:paddingBottom="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="请将身份证四边与线框对齐" />
+</RelativeLayout>

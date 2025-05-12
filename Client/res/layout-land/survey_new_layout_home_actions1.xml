@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/cube_dp_16" android:paddingTop="@dimen/cube_dp_12" android:paddingRight="@dimen/cube_dp_16" android:paddingBottom="@dimen/cube_dp_12" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/cube_dp_16" android:paddingVertical="@dimen/cube_dp_12"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/action_1_panel" android:background="@drawable/ui_shape_project_primary_r8888" android:layout_width="0.0dip" android:layout_height="@dimen/cube_dp_40" android:layout_weight="1.0">
+        <com.xa.core.cube.TextView android:textColor="@color/cube_color_on_primary" android:id="@id/action_1_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/survey_offline_opt_display_5" android:drawableTop="@drawable/survey_new_home_editor" style="@style/Cube.Font.Medium.Footnote" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/action_2_panel" android:background="@drawable/ui_shape_container_fill_tint_r8888" android:layout_width="@dimen/cube_dp_40" android:layout_height="@dimen/cube_dp_40" android:layout_marginStart="@dimen/cube_dp_12">
+        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:id="@id/action_2_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/survey_str_more" android:drawableTop="@drawable/survey_new_home_more" style="@style/Cube.Font.Medium.Footnote" />
+    </LinearLayout>
+</LinearLayout>

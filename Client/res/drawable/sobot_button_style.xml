@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient android:angle="90.0" />
+    <stroke android:width="0.5dip" android:color="@color/sobot_line_1dp" />
+    <corners android:radius="5.0dip" />
+</shape>

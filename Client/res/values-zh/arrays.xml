@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="devices_comm_latency">
+        <item>延时:%1$s</item>
+        <item>通信延时</item>
+    </string-array>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:paddingLeft="@dimen/cube_dp_16" android:paddingRight="@dimen/cube_dp_16" android:layout_width="fill_parent" android:layout_height="@dimen/cube_dp_36" android:layout_marginTop="@dimen/cube_dp_8" android:paddingHorizontal="@dimen/cube_dp_16">
+        <com.xag.agri.auth.widget.WatcherClearEditText android:textColor="@color/cube_color_content_primary" android:textColorHint="@color/cube_color_content_tertiary" android:gravity="center_vertical" android:id="@id/etSearch" android:background="@drawable/operation_res_bg_cube_bg_tint_8dp" android:paddingLeft="@dimen/cube_dp_16" android:paddingRight="@dimen/cube_dp_16" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="@string/auth_search" android:singleLine="true" android:drawablePadding="@dimen/cube_dp_4" android:drawableStart="@drawable/cube_ic_gen_magnify" android:drawableEnd="@drawable/common_system_circle_clear" android:paddingHorizontal="@dimen/cube_dp_16" app:layout_constraintEnd_toStartOf="parent" app:layout_constraintStart_toStartOf="parent" style="@style/Cube.Font.Regular.Body" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <FrameLayout android:id="@id/flSearchRes" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cube_dp_12">
+        <com.xa.core.cube.TextView android:layout_gravity="center_horizontal" android:id="@id/tvEmpty" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cube_dp_56" style="@style/Cube.Font.Medium.Title1" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rvSearch" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/flList" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rvAreaCode" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/cube_dp_12" android:overScrollMode="never" />
+    </FrameLayout>
+</LinearLayout>

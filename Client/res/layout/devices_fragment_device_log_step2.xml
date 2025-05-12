@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/devices_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/devices_margin_48" android:text="@string/devices_dev_log_tips3" style="@style/Devices.Text.title" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_log" android:background="@drawable/devices_shape_white_round_outline" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/devices_margin_12" android:divider="@drawable/devices_shape_divider" android:overScrollMode="never" android:layout_marginStart="@dimen/devices_margin_12" android:layout_marginEnd="@dimen/devices_margin_12" android:nestedScrollingEnabled="false" />
+    </LinearLayout>
+    <android.widget.Button android:textColor="@drawable/devices_selector_text_white" android:id="@id/btn_next" android:background="@drawable/devices_selector_button_green" android:layout_width="fill_parent" android:layout_height="@dimen/devices_button_height_48" android:layout_marginTop="@dimen/devices_margin_12" android:layout_marginBottom="@dimen/devices_margin_36" android:text="@string/devices_dev_act_next" android:layout_marginStart="@dimen/devices_margin_12" android:layout_marginEnd="@dimen/devices_margin_12" style="@style/Devices.Button" />
+</LinearLayout>

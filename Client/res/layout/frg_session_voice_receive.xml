@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/frg_session_item_time" />
+    <LinearLayout android:layout_gravity="left" android:orientation="horizontal" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.tinet.oskit.widget.UserHeaderView android:id="@id/userHeader" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/tinetHeaderStyle" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <include layout="@layout/frg_session_item_name" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:id="@id/viewAudio" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/tinetAudioContainerStyle.tinetAudioContainerReceiverStyle">
+                    <ImageView android:id="@id/ivAudio" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/tinetAudioIconStyle.tinetAudioIconReceiveStyle" />
+                    <TextView android:id="@id/tvDuration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="6''" style="@style/tinetAudioContentStyle.tinetAudioContentReceiveStyle" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/traffic_nav_home" app:startDestination="@id/homeFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include app:graph="@navigation/traffic_nav_buy" />
+    <fragment android:label="HomeFragment" android:name="com.xag.agri.v4.traffic.ui.HomeFragment" android:id="@id/homeFragment">
+        <action android:id="@id/action_homeFragment_to_traffic_buy_graph" app:destination="@id/traffic_buy_graph" />
+        <action android:id="@id/action_homeFragment_to_trafficQuestionFragment" app:destination="@id/trafficQuestionFragment" />
+        <action android:id="@id/action_homeFragment_to_monthStatisticsFragment" app:destination="@id/monthStatisticsFragment" />
+        <action android:id="@id/action_homeFragment_to_sourcesFragment" app:destination="@id/sourcesFragment" />
+    </fragment>
+    <fragment android:label="OrderDetailFragment" android:name="com.xag.agri.v4.traffic.ui.OrderDetailFragment" android:id="@id/orderDetailFragment" />
+    <fragment android:label="TrafficQuestionFragment" android:name="com.xag.agri.v4.traffic.ui.TrafficQuestionFragment" android:id="@id/trafficQuestionFragment" />
+    <fragment android:label="MonthStatisticsFragment" android:name="com.xag.agri.v4.traffic.ui.MonthStatisticsFragment" android:id="@id/monthStatisticsFragment">
+        <action android:id="@id/action_monthStatisticsFragment_to_trafficQuestionFragment" app:destination="@id/trafficQuestionFragment" />
+    </fragment>
+    <fragment android:label="SourcesFragment" android:name="com.xag.agri.v4.traffic.ui.SourcesFragment" android:id="@id/sourcesFragment">
+        <action android:id="@id/action_sourcesFragment_to_orderDetailFragment" app:destination="@id/orderDetailFragment" />
+    </fragment>
+</navigation>

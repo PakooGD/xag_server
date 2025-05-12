@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="16.0dip" android:paddingTop="8.0dip" android:paddingRight="16.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="16.0dip" android:paddingVertical="8.0dip">
+        <ImageView android:id="@id/ivBivPic" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/ti_ic_file_default" android:scaleType="centerCrop" android:layout_alignParentRight="true" />
+        <TextView android:textSize="@dimen/ti_receive_bubble_text_size" android:textColor="@android:color/black" android:ellipsize="end" android:id="@id/tvFileName" android:paddingLeft="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:lineSpacingExtra="1.0dip" />
+    </LinearLayout>
+    <View android:background="#0f000000" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <TextView android:textSize="@dimen/ti_receive_bubble_text_size" android:textColor="#ff4385ff" android:gravity="center" android:id="@id/tvDown" android:layout_width="wrap_content" android:layout_height="30.0dip" android:text="@string/ti_file_down" />
+</LinearLayout>

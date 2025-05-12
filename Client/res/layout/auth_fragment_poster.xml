@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_ad" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:adjustViewBounds="true" />
+    <com.xa.core.cube.TextView android:textColor="@color/cube_color_on_primary" android:gravity="center" android:layout_gravity="right" android:id="@id/btn_skip" android:background="@drawable/shape_skip_txt_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cube_dp_46" android:layout_marginRight="@dimen/cube_dp_16" android:minWidth="@dimen/cube_dp_80" android:minHeight="@dimen/cube_dp_30" style="@style/Widget.AppCompat.Toolbar.Button.Navigation" />
+</FrameLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/traffic_buy_graph" app:startDestination="@id/buyFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="BuyFragment" android:name="com.xag.agri.v4.traffic.ui.BuyFragment" android:id="@id/buyFragment">
+        <action android:id="@id/action_buyFragment_to_resultBuyFragment" app:destination="@id/resultBuyFragment" app:popUpTo="@id/buyFragment" app:popUpToInclusive="true" />
+    </fragment>
+    <fragment android:label="ResultBuyFragment" android:name="com.xag.agri.v4.traffic.ui.ResultBuyFragment" android:id="@id/resultBuyFragment" />
+</navigation>

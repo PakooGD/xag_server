@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="87.0dip" android:width="140.0dip" android:viewportWidth="140.0" android:viewportHeight="87.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="#fff6f6f8" android:pathData="M70,86.8C108.66,86.8 140,78.52 140,68.3C140,58.09 108.66,49.8 70,49.8C31.34,49.8 0,58.09 0,68.3C0,78.52 31.34,86.8 70,86.8Z" />
+    <path android:fillColor="@drawable/$ti_ic_search_empty_data__0" android:pathData="M23.27,58.55H68.82V0L23.27,11.58V58.55Z" />
+    <path android:fillColor="#ffe0e5ec" android:pathData="M118.92,38.86H68.75V0L118.92,12.16V38.86Z" />
+    <path android:fillColor="@drawable/$ti_ic_search_empty_data__1" android:pathData="M6.56,28.96L22.97,11.73L18.05,34.52L6.56,28.96Z" />
+    <path android:fillColor="@drawable/$ti_ic_search_empty_data__2" android:pathData="M73.32,82.42L23.27,62.43V11.58L73.32,24.84V82.42Z" />
+    <path android:fillColor="@drawable/$ti_ic_search_empty_data__3" android:pathData="M73.32,82.42L118.92,60.61V12.16L73.32,24.84V82.42Z" />
+    <path android:fillColor="@drawable/$ti_ic_search_empty_data__4" android:pathData="M118.92,12.16L133.98,30.46L85.93,49.2L73.28,25.08L118.92,12.16Z" />
+    <path android:fillColor="@drawable/$ti_ic_search_empty_data__5" android:pathData="M22.84,11.18L9.3,33.1L63.5,49.81L73.28,25.07L22.84,11.18Z" />
+</vector>

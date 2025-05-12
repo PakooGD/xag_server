@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/basecompat_sp_16" android:textColor="@color/basecompat_text_80" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/basecompat_margin_16" android:layout_marginBottom="@dimen/basecompat_margin_16" android:layout_marginStart="@dimen/basecompat_margin_12" android:layout_marginVertical="@dimen/basecompat_margin_16" />
+    <TextView android:textSize="@dimen/basecompat_sp_14" android:textColor="@color/basecompat_text_40" android:ellipsize="end" android:gravity="end" android:layout_gravity="center_vertical" android:id="@id/tv_content" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" android:layout_marginStart="@dimen/basecompat_margin_12" android:layout_marginEnd="@dimen/basecompat_margin_8" />
+    <Switch android:layout_gravity="center_vertical" android:id="@id/s_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:thumb="@drawable/basecompat_ic_circle_white" android:track="@drawable/basecompat_bg_switch" android:layout_marginEnd="@dimen/basecompat_margin_12" />
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/content_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/map_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/map_real" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.xa.core.cube.TextView android:textSize="15.0sp" android:textColor="@color/white" android:id="@id/map_level" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <View android:id="@id/map_toggle" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/business_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/vg_content" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/vg_home_navigation_bar" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <FrameLayout android:id="@id/vg_content_forever" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/vg_home_navigation_bar" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/vg_home_navigation_bar" android:background="@color/cube_color_container_bg_tint" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/cube_dp_50">
+                <FrameLayout android:id="@id/btn_field" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <com.xa.core.cube.TextView android:textColor="@color/home_selector_tab_txt" android:gravity="center" android:layout_gravity="center" android:id="@id/btn_field_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/home_core_tab_home_page" android:drawableTop="@drawable/home_selector_tab_home" android:drawablePadding="2.0dip" style="@style/Cube.Font.Medium.Caption" />
+                </FrameLayout>
+                <FrameLayout android:id="@id/btn_record" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <com.xa.core.cube.TextView android:textColor="@color/home_selector_tab_txt" android:gravity="center" android:layout_gravity="center" android:id="@id/btn_record_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/home_core_home_tab_record" android:drawableTop="@drawable/home_selector_tab_record" android:drawablePadding="2.0dip" style="@style/Cube.Font.Medium.Caption" />
+                </FrameLayout>
+                <FrameLayout android:id="@id/btn_user" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <com.xa.core.cube.TextView android:textColor="@color/home_selector_tab_txt" android:gravity="center" android:layout_gravity="center" android:id="@id/btn_user_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/home_core_home_tab_user" android:drawableTop="@drawable/home_selector_tab_profile" android:drawablePadding="2.0dip" style="@style/Cube.Font.Medium.Caption" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/vg_home_navigation_bar_ext" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/home_top_bar_record" android:background="@drawable/home_shape_rmax_white" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="16.0dip" android:src="@drawable/home_bar_record" android:scaleType="centerInside" android:layout_marginEnd="128.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <ImageView android:id="@id/home_top_bar_user" android:background="@drawable/home_shape_rmax_white" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="16.0dip" android:src="@drawable/home_bar_profile" android:scaleType="centerInside" android:layout_marginEnd="128.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <FrameLayout android:id="@id/fpv_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/cube_dp_8" android:layout_marginRight="@dimen/cube_dp_8" android:layout_marginHorizontal="@dimen/cube_dp_8" />
+    <androidx.appcompat.widget.LinearLayoutCompat android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="40.0dip" android:layout_height="wrap_content" android:layout_marginStart="-50.0dip">
+        <androidx.appcompat.widget.AppCompatButton android:id="@id/auto_test_map_15" android:tag="15" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <androidx.appcompat.widget.AppCompatButton android:id="@id/auto_test_map_16" android:tag="16" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <androidx.appcompat.widget.AppCompatButton android:id="@id/auto_test_map_17" android:tag="17" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <androidx.appcompat.widget.AppCompatButton android:id="@id/auto_test_map_18" android:tag="18" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <androidx.appcompat.widget.AppCompatButton android:id="@id/auto_test_map_19" android:tag="19" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <androidx.appcompat.widget.AppCompatButton android:id="@id/auto_test_map_20" android:tag="20" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/cube_dp_56"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/choose_state" android:layout_width="@dimen/cube_dp_52" android:layout_height="fill_parent" android:src="@drawable/survey_file_choose_state" android:scaleType="centerInside" android:paddingStart="@dimen/cube_dp_16" android:paddingEnd="@dimen/cube_dp_12" />
+    <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:gravity="center_vertical" android:id="@id/choose_file_name" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/Cube.Font.Regular.Body" />
+    <ImageView android:id="@id/choose_next_dir" android:visibility="visible" android:layout_width="@dimen/cube_dp_16" android:layout_height="fill_parent" android:src="@drawable/survey_system_arrow_right_16_16_gray" android:scaleType="centerInside" android:layout_marginEnd="@dimen/cube_dp_16" />
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/user_nav_setting_v5" app:startDestination="@id/user_settingfragmentv5"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="user_fragment_setting_v5" android:name="com.xag.agri.v4.user.ui.v5.setting.SettingFragmentV5" android:id="@id/user_settingfragmentv5">
+        <action android:id="@id/toDebugSetting" app:destination="@id/user_debugfragmentv5" app:enterAnim="@anim/common_fragment_open_enter" app:exitAnim="@anim/common_fragment_open_exit" app:popEnterAnim="@anim/common_fragment_close_enter" app:popExitAnim="@anim/common_fragment_close_exit" />
+        <action android:id="@id/toNotifySetting" app:destination="@id/user_notifyfragmentv5" app:enterAnim="@anim/common_fragment_open_enter" app:exitAnim="@anim/common_fragment_open_exit" app:popEnterAnim="@anim/common_fragment_close_enter" app:popExitAnim="@anim/common_fragment_close_exit" />
+        <action android:id="@id/toDisplaySetting" app:destination="@id/user_displaysettingfragmentv5" app:enterAnim="@anim/common_fragment_open_enter" app:exitAnim="@anim/common_fragment_open_exit" app:popEnterAnim="@anim/common_fragment_close_enter" app:popExitAnim="@anim/common_fragment_close_exit" />
+        <action android:id="@id/toLanguageSetting" app:destination="@id/user_languagesettingfragmentv5" app:enterAnim="@anim/common_fragment_open_enter" app:exitAnim="@anim/common_fragment_open_exit" app:popEnterAnim="@anim/common_fragment_close_enter" app:popExitAnim="@anim/common_fragment_close_exit" />
+        <action android:id="@id/toAccountAndSecurity" app:destination="@id/user_accountandsecurityfragmentv5" app:enterAnim="@anim/common_fragment_open_enter" app:exitAnim="@anim/common_fragment_open_exit" app:popEnterAnim="@anim/common_fragment_close_enter" app:popExitAnim="@anim/common_fragment_close_exit" />
+        <action android:id="@id/toNoFlyZoneManager" app:destination="@id/user_noflyzonemanagerfragmentv5" app:enterAnim="@anim/common_fragment_open_enter" app:exitAnim="@anim/common_fragment_open_exit" app:popEnterAnim="@anim/common_fragment_close_enter" app:popExitAnim="@anim/common_fragment_close_exit" />
+        <action android:id="@id/toNetworkTest" app:destination="@id/user_networktestfragmentv5" app:enterAnim="@anim/common_fragment_open_enter" app:exitAnim="@anim/common_fragment_open_exit" app:popEnterAnim="@anim/common_fragment_close_enter" app:popExitAnim="@anim/common_fragment_close_exit" />
+        <action android:id="@id/toAppLogUpload" app:destination="@id/user_loguploadfragmentv5" app:enterAnim="@anim/common_fragment_open_enter" app:exitAnim="@anim/common_fragment_open_exit" app:popEnterAnim="@anim/common_fragment_close_enter" app:popExitAnim="@anim/common_fragment_close_exit" />
+        <action android:id="@id/toAppUpdateCheck" app:destination="@id/user_appupdatecheckfragmentv5" app:enterAnim="@anim/common_fragment_open_enter" app:exitAnim="@anim/common_fragment_open_exit" app:popEnterAnim="@anim/common_fragment_close_enter" app:popExitAnim="@anim/common_fragment_close_exit" />
+        <action android:id="@id/toAbout" app:destination="@id/user_aboutfragmentv5" app:enterAnim="@anim/common_fragment_open_enter" app:exitAnim="@anim/common_fragment_open_exit" app:popEnterAnim="@anim/common_fragment_close_enter" app:popExitAnim="@anim/common_fragment_close_exit" />
+    </fragment>
+    <fragment android:label="user_fragment_debug_v5" android:name="com.xag.agri.v4.user.ui.v5.setting.DebugFragmentV5" android:id="@id/user_debugfragmentv5" />
+    <fragment android:label="user_fragment_notify_v5" android:name="com.xag.agri.v4.user.ui.v5.setting.NotifyFragmentV5" android:id="@id/user_notifyfragmentv5" />
+    <fragment android:label="user_fragment_display_setting_v5" android:name="com.xag.agri.v4.user.ui.v5.setting.DisplaySettingFragmentV5" android:id="@id/user_displaysettingfragmentv5" />
+    <fragment android:label="user_fragment_language_setting_v5" android:name="com.xag.agri.v4.user.ui.v5.setting.LanguageSettingFragmentV5" android:id="@id/user_languagesettingfragmentv5" />
+    <fragment android:label="user_fragment_account_and_security_v5" android:name="com.xag.agri.v4.user.ui.v5.setting.AccountAndSecurityFragmentV5" android:id="@id/user_accountandsecurityfragmentv5" />
+    <fragment android:label="user_fragment_no_fly_zone_manager_v5" android:name="com.xag.agri.v4.user.ui.v5.setting.NoFlyZoneManagerFragmentV5" android:id="@id/user_noflyzonemanagerfragmentv5" />
+    <fragment android:label="user_fragment_network_test_v5" android:name="com.xag.agri.v4.user.ui.v5.setting.NetworkTestFragmentV5" android:id="@id/user_networktestfragmentv5" />
+    <fragment android:label="user_fragment_log_upload_v5" android:name="com.xag.agri.v4.user.ui.v5.setting.LogUploadFragmentV5" android:id="@id/user_loguploadfragmentv5" />
+    <fragment android:label="user_fragment_app_update_check_v5" android:name="com.xag.agri.v4.user.ui.v5.setting.AppUpdateCheckFragmentV5" android:id="@id/user_appupdatecheckfragmentv5" />
+    <fragment android:label="user_fragment_about_v5" android:name="com.xag.agri.v4.user.ui.v5.setting.AboutFragmentV5" android:id="@id/user_aboutfragmentv5" />
+</navigation>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="center" android:id="@id/iv_fpv_wifi_rssi" android:visibility="visible" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/info_psl_wifi_offline" android:scaleType="center" />
+    <com.xag.agri.v4.operation.res.widget.StrokeTextView android:textSize="12.0sp" android:textColor="@color/cube_color_state_red_secondary" android:gravity="center" android:id="@id/tv_fpv_wifi_rssi" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_marginStart="2.0dip" android:textFontWeight="500" />
+    <ImageView android:id="@id/iv_fpv_wifi_rssi_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/operation_base_fpv_arrow_red" />
+</merge>

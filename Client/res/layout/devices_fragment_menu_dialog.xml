@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@color/devices_black_00" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:background="@drawable/cube_shape_container_bg_tint_8_top" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/xdk_rv_menu" android:background="@color/devices_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cube_dp_16" />
+        <LinearLayout android:gravity="center_vertical" android:id="@id/xdk_vg_menu_dismiss" android:background="@drawable/cube_shape_container_bg_tint_8" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/devices_button_height" android:paddingStart="@dimen/devices_padding" android:paddingEnd="@dimen/devices_padding">
+            <ImageView android:id="@id/mapping_iv_item_menu_icon" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginEnd="@dimen/devices_padding" />
+            <com.xa.core.cube.TextView android:gravity="start|center" android:id="@id/mapping_tv_item_menu_label" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/devices_button_cancel" style="@style/Devices.Text" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

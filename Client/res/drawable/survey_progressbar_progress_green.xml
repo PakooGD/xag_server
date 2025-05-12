@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background" android:height="4.0dip" android:top="10.0dip" android:bottom="10.0dip">
+        <shape>
+            <corners android:radius="20.0dip" />
+            <solid android:color="@color/cube_color_container_fill_deep" />
+        </shape>
+    </item>
+    <item android:id="@android:id/progress" android:height="4.0dip" android:top="10.0dip" android:bottom="10.0dip">
+        <clip>
+            <shape>
+                <corners android:radius="20.0dip" />
+                <solid android:color="?cube_color_project_primary" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>

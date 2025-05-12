@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/basecompat_bg_edti_sao_item" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="36.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <EditText android:textSize="14.0sp" android:textColor="@color/basecompat_black" android:textColorHint="#ff999999" android:id="@id/sao_edit" android:background="@null" android:paddingLeft="12.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <ImageView android:id="@id/sao_clear" android:paddingLeft="20.0dip" android:paddingRight="10.0dip" android:layout_width="46.0dip" android:layout_height="fill_parent" android:src="@drawable/basecompat_ic_sao_edit_clear" android:scaleType="center" />
+</LinearLayout>

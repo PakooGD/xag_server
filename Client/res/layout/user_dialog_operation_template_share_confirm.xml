@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/user_shape_white_radius_12" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cube_dp_32" android:layout_marginTop="@dimen/cube_dp_24" android:layout_marginRight="@dimen/cube_dp_32" android:text="将作业模板分享给该账号？" android:layout_marginHorizontal="@dimen/cube_dp_32" style="@style/Cube.Font.Medium.Title1" />
+    <ImageView android:id="@id/imgAvatar" android:layout_width="@dimen/cube_dp_48" android:layout_height="@dimen/cube_dp_48" android:layout_marginTop="@dimen/cube_dp_16" />
+    <com.xa.core.cube.TextView android:textSize="14.0sp" android:textColor="@color/cube_color_content_primary" android:id="@id/tvName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cube_dp_32" android:layout_marginTop="@dimen/cube_dp_8" android:layout_marginRight="@dimen/cube_dp_32" android:layout_marginHorizontal="@dimen/cube_dp_32" style="@style/Cube.Font.Medium.Callout" />
+    <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_secondary" android:id="@id/tvAccount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cube_dp_32" android:layout_marginTop="@dimen/cube_dp_4" android:layout_marginRight="@dimen/cube_dp_32" android:layout_marginHorizontal="@dimen/cube_dp_32" style="@style/Cube.Font.Regular.Callout" />
+    <View android:background="@color/operation_res_ui_g34" android:layout_width="fill_parent" android:layout_height="@dimen/cube_dp_0.5" android:layout_marginTop="@dimen/cube_dp_24" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/cube_dp_48">
+        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:gravity="center" android:id="@id/btnCancel" android:layout_width="@dimen/cube_dp_0" android:layout_height="fill_parent" android:text="@string/user_cancel" android:layout_weight="1.0" style="@style/Cube.Font.Regular.Body" />
+        <View android:background="@color/operation_res_ui_g34" android:layout_width="@dimen/cube_dp_0.5" android:layout_height="fill_parent" />
+        <com.xa.core.cube.TextView android:textColor="@color/cube_color_state_green_primary" android:gravity="center" android:id="@id/btnConfirm" android:layout_width="@dimen/cube_dp_0" android:layout_height="fill_parent" android:text="@string/user_ok" android:layout_weight="1.0" style="@style/Cube.Font.Medium.Body" />
+    </LinearLayout>
+</LinearLayout>

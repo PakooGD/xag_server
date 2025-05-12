@@ -1,0 +1,354 @@
+.class final Laws/sdk/kotlin/runtime/auth/credentials/ProfileCredentialsProvider$resolve$region$1;
+.super Lkotlin/coroutines/jvm/internal/SuspendLambda;
+.source "SourceFile"
+
+# interfaces
+.implements Lvf0/l;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Laws/sdk/kotlin/runtime/auth/credentials/ProfileCredentialsProvider;->resolve(Laws/smithy/kotlin/runtime/collections/b;Lkotlin/coroutines/c;)Ljava/lang/Object;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lkotlin/coroutines/jvm/internal/SuspendLambda;",
+        "Lvf0/l<",
+        "Lkotlin/coroutines/c<",
+        "-",
+        "Ljava/lang/String;",
+        ">;",
+        "Ljava/lang/Object;",
+        ">;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u0006\n\u0000\n\u0002\u0010\u000e\u0010\u0000\u001a\u0004\u0018\u00010\u0001H\n"
+    }
+    d2 = {
+        "<anonymous>",
+        ""
+    }
+    k = 0x3
+    mv = {
+        0x2,
+        0x0,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+.annotation runtime Lmf0/d;
+    c = "aws.sdk.kotlin.runtime.auth.credentials.ProfileCredentialsProvider$resolve$region$1"
+    f = "ProfileCredentialsProvider.kt"
+    i = {}
+    l = {
+        0x7d
+    }
+    m = "invokeSuspend"
+    n = {}
+    s = {}
+.end annotation
+
+
+# instance fields
+.field final synthetic $attributes:Laws/smithy/kotlin/runtime/collections/b;
+
+.field final synthetic $profileOverride:Laws/sdk/kotlin/runtime/config/profile/i;
+
+.field label:I
+
+.field final synthetic this$0:Laws/sdk/kotlin/runtime/auth/credentials/ProfileCredentialsProvider;
+
+
+# direct methods
+.method public constructor <init>(Laws/sdk/kotlin/runtime/auth/credentials/ProfileCredentialsProvider;Laws/sdk/kotlin/runtime/config/profile/i;Laws/smithy/kotlin/runtime/collections/b;Lkotlin/coroutines/c;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Laws/sdk/kotlin/runtime/auth/credentials/ProfileCredentialsProvider;",
+            "Laws/sdk/kotlin/runtime/config/profile/i;",
+            "Laws/smithy/kotlin/runtime/collections/b;",
+            "Lkotlin/coroutines/c<",
+            "-",
+            "Laws/sdk/kotlin/runtime/auth/credentials/ProfileCredentialsProvider$resolve$region$1;",
+            ">;)V"
+        }
+    .end annotation
+
+    iput-object p1, p0, Laws/sdk/kotlin/runtime/auth/credentials/ProfileCredentialsProvider$resolve$region$1;->this$0:Laws/sdk/kotlin/runtime/auth/credentials/ProfileCredentialsProvider;
+
+    iput-object p2, p0, Laws/sdk/kotlin/runtime/auth/credentials/ProfileCredentialsProvider$resolve$region$1;->$profileOverride:Laws/sdk/kotlin/runtime/config/profile/i;
+
+    iput-object p3, p0, Laws/sdk/kotlin/runtime/auth/credentials/ProfileCredentialsProvider$resolve$region$1;->$attributes:Laws/smithy/kotlin/runtime/collections/b;
+
+    const/4 p1, 0x1
+
+    invoke-direct {p0, p1, p4}, Lkotlin/coroutines/jvm/internal/SuspendLambda;-><init>(ILkotlin/coroutines/c;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final create(Lkotlin/coroutines/c;)Lkotlin/coroutines/c;
+    .locals 4
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lkotlin/coroutines/c<",
+            "*>;)",
+            "Lkotlin/coroutines/c<",
+            "Lkotlin/z1;",
+            ">;"
+        }
+    .end annotation
+
+    new-instance v0, Laws/sdk/kotlin/runtime/auth/credentials/ProfileCredentialsProvider$resolve$region$1;
+
+    iget-object v1, p0, Laws/sdk/kotlin/runtime/auth/credentials/ProfileCredentialsProvider$resolve$region$1;->this$0:Laws/sdk/kotlin/runtime/auth/credentials/ProfileCredentialsProvider;
+
+    iget-object v2, p0, Laws/sdk/kotlin/runtime/auth/credentials/ProfileCredentialsProvider$resolve$region$1;->$profileOverride:Laws/sdk/kotlin/runtime/config/profile/i;
+
+    iget-object v3, p0, Laws/sdk/kotlin/runtime/auth/credentials/ProfileCredentialsProvider$resolve$region$1;->$attributes:Laws/smithy/kotlin/runtime/collections/b;
+
+    invoke-direct {v0, v1, v2, v3, p1}, Laws/sdk/kotlin/runtime/auth/credentials/ProfileCredentialsProvider$resolve$region$1;-><init>(Laws/sdk/kotlin/runtime/auth/credentials/ProfileCredentialsProvider;Laws/sdk/kotlin/runtime/config/profile/i;Laws/smithy/kotlin/runtime/collections/b;Lkotlin/coroutines/c;)V
+
+    return-object v0
+.end method
+
+.method public bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    .line 1
+    check-cast p1, Lkotlin/coroutines/c;
+
+    invoke-virtual {p0, p1}, Laws/sdk/kotlin/runtime/auth/credentials/ProfileCredentialsProvider$resolve$region$1;->invoke(Lkotlin/coroutines/c;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public final invoke(Lkotlin/coroutines/c;)Ljava/lang/Object;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lkotlin/coroutines/c<",
+            "-",
+            "Ljava/lang/String;",
+            ">;)",
+            "Ljava/lang/Object;"
+        }
+    .end annotation
+
+    .line 2
+    invoke-virtual {p0, p1}, Laws/sdk/kotlin/runtime/auth/credentials/ProfileCredentialsProvider$resolve$region$1;->create(Lkotlin/coroutines/c;)Lkotlin/coroutines/c;
+
+    move-result-object p1
+
+    check-cast p1, Laws/sdk/kotlin/runtime/auth/credentials/ProfileCredentialsProvider$resolve$region$1;
+
+    sget-object v0, Lkotlin/z1;->a:Lkotlin/z1;
+
+    invoke-virtual {p1, v0}, Laws/sdk/kotlin/runtime/auth/credentials/ProfileCredentialsProvider$resolve$region$1;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 5
+
+    .line 1
+    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->l()Ljava/lang/Object;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v0
+
+    .line 5
+    iget v1, p0, Laws/sdk/kotlin/runtime/auth/credentials/ProfileCredentialsProvider$resolve$region$1;->label:I
+
+    .line 6
+    .line 7
+    const/4 v2, 0x1
+
+    .line 8
+    if-eqz v1, :cond_1
+
+    .line 9
+    .line 10
+    if-ne v1, v2, :cond_0
+
+    .line 11
+    .line 12
+    invoke-static {p1}, Lkotlin/t0;->n(Ljava/lang/Object;)V
+
+    .line 13
+    .line 14
+    .line 15
+    goto :goto_1
+
+    .line 16
+    :cond_0
+    new-instance p1, Ljava/lang/IllegalStateException;
+
+    .line 17
+    .line 18
+    const-string v0, "call to \'resume\' before \'invoke\' with coroutine"
+
+    .line 19
+    .line 20
+    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+
+    .line 21
+    .line 22
+    .line 23
+    throw p1
+
+    .line 24
+    :cond_1
+    invoke-static {p1}, Lkotlin/t0;->n(Ljava/lang/Object;)V
+
+    .line 25
+    .line 26
+    .line 27
+    iget-object p1, p0, Laws/sdk/kotlin/runtime/auth/credentials/ProfileCredentialsProvider$resolve$region$1;->this$0:Laws/sdk/kotlin/runtime/auth/credentials/ProfileCredentialsProvider;
+
+    .line 28
+    .line 29
+    invoke-virtual {p1}, Laws/sdk/kotlin/runtime/auth/credentials/ProfileCredentialsProvider;->U()Ljava/lang/String;
+
+    .line 30
+    .line 31
+    .line 32
+    move-result-object p1
+
+    .line 33
+    if-nez p1, :cond_4
+
+    .line 34
+    .line 35
+    iget-object p1, p0, Laws/sdk/kotlin/runtime/auth/credentials/ProfileCredentialsProvider$resolve$region$1;->$profileOverride:Laws/sdk/kotlin/runtime/config/profile/i;
+
+    .line 36
+    .line 37
+    const/4 v1, 0x2
+
+    .line 38
+    const/4 v3, 0x0
+
+    .line 39
+    if-eqz p1, :cond_2
+
+    .line 40
+    .line 41
+    const-string v4, "region"
+
+    .line 42
+    .line 43
+    invoke-static {p1, v4, v3, v1, v3}, Laws/sdk/kotlin/runtime/config/profile/i;->i(Laws/sdk/kotlin/runtime/config/profile/i;Ljava/lang/String;Ljava/lang/String;ILjava/lang/Object;)Ljava/lang/String;
+
+    .line 44
+    .line 45
+    .line 46
+    move-result-object p1
+
+    .line 47
+    goto :goto_0
+
+    .line 48
+    :cond_2
+    move-object p1, v3
+
+    .line 49
+    :goto_0
+    if-nez p1, :cond_4
+
+    .line 50
+    .line 51
+    iget-object p1, p0, Laws/sdk/kotlin/runtime/auth/credentials/ProfileCredentialsProvider$resolve$region$1;->$attributes:Laws/smithy/kotlin/runtime/collections/b;
+
+    .line 52
+    .line 53
+    sget-object v4, Lg0/a;->a:Lg0/a;
+
+    .line 54
+    .line 55
+    invoke-virtual {v4}, Lg0/a;->b()Laws/smithy/kotlin/runtime/collections/a;
+
+    .line 56
+    .line 57
+    .line 58
+    move-result-object v4
+
+    .line 59
+    invoke-interface {p1, v4}, Laws/smithy/kotlin/runtime/collections/b;->b(Laws/smithy/kotlin/runtime/collections/a;)Ljava/lang/Object;
+
+    .line 60
+    .line 61
+    .line 62
+    move-result-object p1
+
+    .line 63
+    check-cast p1, Ljava/lang/String;
+
+    .line 64
+    .line 65
+    if-nez p1, :cond_4
+
+    .line 66
+    .line 67
+    iget-object p1, p0, Laws/sdk/kotlin/runtime/auth/credentials/ProfileCredentialsProvider$resolve$region$1;->this$0:Laws/sdk/kotlin/runtime/auth/credentials/ProfileCredentialsProvider;
+
+    .line 68
+    .line 69
+    invoke-virtual {p1}, Laws/sdk/kotlin/runtime/auth/credentials/ProfileCredentialsProvider;->A()Laws/smithy/kotlin/runtime/util/z;
+
+    .line 70
+    .line 71
+    .line 72
+    move-result-object p1
+
+    .line 73
+    iput v2, p0, Laws/sdk/kotlin/runtime/auth/credentials/ProfileCredentialsProvider$resolve$region$1;->label:I
+
+    .line 74
+    .line 75
+    invoke-static {p1, v3, p0, v1, v3}, Laws/sdk/kotlin/runtime/region/ResolveRegionKt;->b(Laws/smithy/kotlin/runtime/util/z;Laws/smithy/kotlin/runtime/util/t;Lkotlin/coroutines/c;ILjava/lang/Object;)Ljava/lang/Object;
+
+    .line 76
+    .line 77
+    .line 78
+    move-result-object p1
+
+    .line 79
+    if-ne p1, v0, :cond_3
+
+    .line 80
+    .line 81
+    return-object v0
+
+    .line 82
+    :cond_3
+    :goto_1
+    check-cast p1, Ljava/lang/String;
+
+    .line 83
+    .line 84
+    :cond_4
+    return-object p1
+.end method

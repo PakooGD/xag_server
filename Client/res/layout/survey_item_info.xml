@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="@dimen/cube_dp_16" android:layout_height="1.0px" />
+    <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/info_title" android:layout_width="@dimen/cube_dp_110" android:layout_height="@dimen/cube_dp_56" android:maxWidth="100.0dip" android:maxLines="2" style="@style/Cube.Font.Regular.Body" />
+    <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_secondary" android:gravity="end|center" android:id="@id/info_content" android:paddingLeft="@dimen/cube_dp_4" android:paddingTop="@dimen/cube_dp_16" android:paddingRight="@dimen/cube_dp_4" android:paddingBottom="@dimen/cube_dp_16" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxWidth="250.0dip" android:minHeight="@dimen/cube_dp_56" android:layout_weight="1.0" android:paddingHorizontal="@dimen/cube_dp_4" android:paddingVertical="@dimen/cube_dp_16" style="@style/Cube.Font.Regular.Body" />
+    <ImageView android:id="@id/info_copy" android:visibility="gone" android:layout_width="@dimen/cube_dp_20" android:layout_height="@dimen/cube_dp_20" android:src="@drawable/cube_ic_gen_document_stack" android:scaleType="centerInside" />
+    <View android:layout_width="@dimen/cube_dp_16" android:layout_height="1.0px" />
+</LinearLayout>

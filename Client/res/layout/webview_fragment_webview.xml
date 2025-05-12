@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/pb_webview_progress" android:layout_width="fill_parent" android:layout_height="1.0dip" style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/vg_web_view_fragment_content" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/iv_fragment_webview_loading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/webview_ic_loading_black_big" />
+            <TextView android:id="@id/tv_fragment_webview_loading_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="加载中..." style="@style/BaseCompat.Text" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

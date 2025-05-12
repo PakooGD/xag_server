@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/frg_session_item_time" />
+    <LinearLayout android:gravity="right" android:layout_gravity="right" android:orientation="horizontal" android:paddingLeft="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <TextView android:textSize="10.0sp" android:textColor="@color/ti_customer_not_read" android:id="@id/tvReadStatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" android:text="@string/ti_customer_is_not_read" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="right" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <include layout="@layout/frg_session_item_name" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <include layout="@layout/tinet_message_sending_layout" />
+                <include layout="@layout/tinet_message_send_failure_layout" />
+                <include layout="@layout/frg_session_audit_message_hint" />
+                <RelativeLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/tinetVideoContainerStyle.tinetVideoContainerSendStyle">
+                    <com.google.android.material.imageview.ShapeableImageView android:id="@id/ivBivPic" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/tinetVideoStyle.tinetVideoSendStyle" />
+                    <com.tinet.oskit.widget.CircularProgressBar android:visibility="gone" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="41.0dip" android:layout_centerInParent="true" />
+                    <ImageView android:id="@id/ivPlay" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/tinetVideoIconStyle.tinetVideoIconSendStyle" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <com.tinet.oskit.widget.UserHeaderView android:id="@id/userHeader" android:layout_width="wrap_content" android:layout_height="wrap_content" app:tinetHeaderIsLeft="false" style="@style/tinetHeaderStyle" />
+    </LinearLayout>
+    <include layout="@layout/frg_session_audit_message_right_view" />
+</LinearLayout>

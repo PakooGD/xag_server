@@ -1,0 +1,58 @@
+.class public interface abstract Lcom/xag/session/protocol2/proto/superx/ugv/xri/xri_service/UgvXriService$y;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/google/protobuf/MessageOrBuilder;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/xag/session/protocol2/proto/superx/ugv/xri/xri_service/UgvXriService;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "y"
+.end annotation
+
+
+# virtual methods
+.method public abstract getFixPoint()Lcom/xag/session/protocol2/proto/superx/ugv/xri/xri_service/UgvXriService$Waypoint;
+.end method
+
+.method public abstract getFixPointOrBuilder()Lcom/xag/session/protocol2/proto/superx/ugv/xri/xri_service/UgvXriService$z;
+.end method
+
+.method public abstract getMissionId()Ljava/lang/String;
+.end method
+
+.method public abstract getMissionIdBytes()Lcom/google/protobuf/ByteString;
+.end method
+
+.method public abstract getMissionSource()I
+.end method
+
+.method public abstract getMissionType()Lcom/xag/session/protocol2/proto/superx/ugv/xri/xri_service/UgvXriService$MissionType;
+.end method
+
+.method public abstract getMissionTypeValue()I
+.end method
+
+.method public abstract getSafetyPoint()Lcom/xag/session/protocol2/proto/superx/ugv/xri/xri_service/UgvXriService$Waypoint;
+.end method
+
+.method public abstract getSafetyPointOrBuilder()Lcom/xag/session/protocol2/proto/superx/ugv/xri/xri_service/UgvXriService$z;
+.end method
+
+.method public abstract getWaypointSegment()Lcom/xag/session/protocol2/proto/superx/ugv/xri/xri_service/UgvXriService$WaypointSegment;
+.end method
+
+.method public abstract getWaypointSegmentValue()I
+.end method
+
+.method public abstract hasFixPoint()Z
+.end method
+
+.method public abstract hasSafetyPoint()Z
+.end method

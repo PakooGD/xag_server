@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true" android:state_selected="true">
+        <layer-list>
+            <item>
+                <shape>
+                    <solid android:color="?cube_color_project_quaternary" />
+                    <corners android:radius="@dimen/cube_dp_8" />
+                </shape>
+            </item>
+            <item android:gravity="bottom|center|right" android:height="@dimen/cube_dp_20" android:width="@dimen/cube_dp_20" android:drawable="@drawable/air_survey_v5_ic_radio_check_enable" />
+        </layer-list>
+    </item>
+    <item android:state_enabled="false" android:state_selected="true">
+        <layer-list>
+            <item>
+                <shape>
+                    <solid android:color="?cube_color_project_quaternary" />
+                    <corners android:radius="@dimen/cube_dp_8" />
+                </shape>
+            </item>
+            <item android:gravity="bottom|center|right" android:height="@dimen/cube_dp_20" android:width="@dimen/cube_dp_20" android:drawable="@drawable/air_survey_v5_ic_radio_check_disable" />
+        </layer-list>
+    </item>
+    <item android:state_enabled="true" android:state_selected="false">
+        <shape>
+            <solid android:color="@color/cube_color_container_fill_tint" />
+            <corners android:radius="@dimen/cube_dp_8" />
+        </shape>
+    </item>
+    <item android:state_enabled="false" android:state_selected="false">
+        <shape>
+            <solid android:color="@color/cube_color_container_fill_tint" />
+            <corners android:radius="@dimen/cube_dp_8" />
+        </shape>
+    </item>
+</selector>

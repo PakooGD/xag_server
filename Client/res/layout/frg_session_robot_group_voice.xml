@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center|left" android:orientation="horizontal" android:background="@drawable/ti_send_bubble_bg" android:paddingLeft="5.0dip" android:paddingTop="3.0dip" android:paddingRight="5.0dip" android:paddingBottom="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:maxWidth="150.0dip" android:paddingHorizontal="5.0dip" android:paddingVertical="3.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center|left" android:orientation="horizontal" android:id="@id/viewAudio" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="150.0dip">
+        <ImageView android:id="@id/ivAudio" android:background="@drawable/ti_audio_animation_left_list" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" />
+        <TextView android:textSize="14.0sp" android:textColor="#ff262626" android:id="@id/tvDuration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" />
+    </LinearLayout>
+    <View android:id="@id/viewVoiceRedDot" android:background="@drawable/ti_shape_voice_red_dot" android:visibility="gone" android:layout_width="5.0dip" android:layout_height="5.0dip" android:layout_marginLeft="5.0dip" />
+</LinearLayout>

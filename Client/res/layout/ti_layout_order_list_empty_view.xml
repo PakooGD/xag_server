@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0sp" android:textColor="#ffbfbfbf" android:gravity="center" android:id="@id/tv_order_no_more_data_hint" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="24.0dip" android:text="没有更多数据了~" />
+</LinearLayout>

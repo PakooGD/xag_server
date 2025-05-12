@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape>
+            <solid android:color="@color/ti_rich_video_progress_bg_color" />
+            <corners android:radius="4.0dip" />
+        </shape>
+    </item>
+    <item android:id="@android:id/progress">
+        <shape>
+            <solid android:color="@color/ti_rich_video_foreground_color" />
+            <corners android:radius="4.0dip" />
+        </shape>
+    </item>
+</layer-list>

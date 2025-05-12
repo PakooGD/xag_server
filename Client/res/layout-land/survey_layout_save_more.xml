@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/common_shape_r4444_green_base" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/comm_action_save" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:layout_width="@dimen/cube_dp_16" android:layout_height="fill_parent" android:src="@drawable/survey_new_editor_save_selector2" android:scaleType="centerInside" />
+        <com.xa.core.cube.TextView android:textColor="@color/common_selector_btn_enable_white2" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/survey_save" style="@style/Cube.Font.Medium.Callout" />
+    </LinearLayout>
+    <View android:id="@id/comm_action_divide" android:background="@color/cube_color_on_tertiary" android:layout_width="2.0px" android:layout_height="fill_parent" android:layout_marginTop="@dimen/cube_dp_6" android:layout_marginBottom="@dimen/cube_dp_6" android:layout_marginVertical="@dimen/cube_dp_6" />
+    <ImageView android:id="@id/comm_action_more" android:padding="@dimen/cube_dp_8" android:layout_width="@dimen/cube_dp_32" android:layout_height="fill_parent" android:src="@drawable/survey_new_editor_more_white" android:scaleType="center" />
+</LinearLayout>

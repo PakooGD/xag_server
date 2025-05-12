@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@color/devices_black_00" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:background="@drawable/devices_bg_layout_top" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/include_title" layout="@layout/devices_sheet_base_title" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:id="@id/vg_container_chart" android:layout_width="fill_parent" android:layout_height="160.0dip" android:layout_margin="@dimen/devices_margin_12" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="56.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:id="@id/tv_start_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/devices_margin_16" style="@style/Cube.Font.Regular.Body" />
+        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_secondary" android:id="@id/tv_end_time" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/devices_margin_16" style="@style/Cube.Font.Regular.Callout" />
+        <Space android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:id="@id/tv_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/devices_dev_log_status_1" android:layout_marginStart="@dimen/devices_margin_8" android:layout_marginEnd="@dimen/devices_margin_12" style="@style/Cube.Font.Regular.Body" />
+    </LinearLayout>
+    <View android:id="@id/v_line" android:background="@color/devices_divider" android:layout_width="fill_parent" android:layout_height="@dimen/devices_divider" android:layout_marginStart="@dimen/devices_margin_12" app:layout_constraintBottom_toBottomOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

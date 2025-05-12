@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/frg_session_item_time" />
+    <LinearLayout android:layout_gravity="left" android:orientation="horizontal" android:paddingRight="@dimen/ti_message_max_span" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.tinet.oskit.widget.UserHeaderView android:id="@id/userHeader" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/tinetHeaderStyle" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <include layout="@layout/frg_session_item_name" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/ti_receive_bubble_text_size" android:textColor="@color/ti_44" android:textColorLink="@color/ti_66" android:gravity="center|left" android:id="@id/tvText" android:background="@drawable/ti_receive_bubble_bg" android:paddingTop="@dimen/ti_content_paddingTop" android:paddingBottom="@dimen/ti_content_paddingBottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/ti_content_paddingLeft" android:paddingEnd="@dimen/ti_content_paddingRight" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

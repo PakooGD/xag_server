@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/lyMain" android:paddingLeft="@dimen/cube_dp_16" android:paddingTop="@dimen/cube_dp_12" android:paddingRight="@dimen/cube_dp_16" android:paddingBottom="@dimen/cube_dp_12" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/cube_dp_16" android:paddingVertical="@dimen/cube_dp_12">
+        <ImageView android:layout_gravity="end|center" android:id="@id/imgArrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/common_cube_ic_chevron_right" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:id="@id/tvPermit" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Cube.Font.Regular.Body" />
+            <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_secondary" android:id="@id/tvTime" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Cube.Font.Regular.Callout" />
+        </LinearLayout>
+    </FrameLayout>
+    <View android:id="@id/divider" android:background="@color/cube_color_container_fill_deep" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/cube_dp_0.5" />
+</LinearLayout>

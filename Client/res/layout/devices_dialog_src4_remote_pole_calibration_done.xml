@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/devices_background" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/status_bar" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/devices_actionbar">
+        <ImageButton android:id="@id/btn_back" android:background="@drawable/devices_selector_button_transparent" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/cube_ic_gen_chevron_left" android:paddingStart="@dimen/devices_padding" android:paddingEnd="@dimen/devices_padding" />
+        <com.xa.core.cube.TextView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/devices_dev_remote_pole_calibration" style="@style/Devices.Text.title" />
+    </FrameLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/devices_margin_24">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/devices_ic_done" />
+        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:id="@id/tv_sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/devices_steering_status2" style="@style/Cube.Font.Medium.Body" />
+    </LinearLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="436.0dip" android:layout_margin="@dimen/devices_margin_12" android:layout_marginTop="12.0dip">
+        <ImageView android:id="@id/iv_device" android:layout_width="375.0dip" android:layout_height="346.0dip" android:layout_marginTop="16.0dip" android:src="@drawable/guide_calib_general_m" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <ImageView android:id="@id/iv_bg_1" android:layout_width="92.0dip" android:layout_height="92.0dip" android:layout_marginLeft="67.0dip" android:layout_marginTop="119.0dip" android:src="@drawable/devices_img_rc_calibration_initial" app:layout_constraintStart_toStartOf="@id/iv_device" app:layout_constraintTop_toTopOf="@id/iv_device" />
+        <ImageView android:id="@id/iv_bg_2" android:layout_width="92.0dip" android:layout_height="92.0dip" android:layout_marginTop="119.0dip" android:layout_marginRight="67.0dip" android:src="@drawable/devices_img_rc_calibration_initial" app:layout_constraintRight_toRightOf="@id/iv_device" app:layout_constraintTop_toTopOf="@id/iv_device" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <Space android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/vg_done" android:background="@drawable/devices_shape_green_round_radius8" android:paddingTop="@dimen/devices_padding_8" android:paddingBottom="@dimen/devices_padding_8" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/devices_item_height" android:layout_marginLeft="@dimen/devices_margin_16" android:layout_marginTop="@dimen/devices_margin_12" android:layout_marginRight="@dimen/devices_margin_16" android:layout_marginBottom="@dimen/devices_margin_24" app:layout_constraintBottom_toBottomOf="parent">
+        <com.xa.core.cube.TextView android:textColor="@color/cube_color_on_primary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/devices_dev_done" style="@style/Cube.Font.Medium.Body" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/cube_color_container_bg_base" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/door_title" layout="@layout/device_update_view_def_head" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/cube_dp_6" android:layout_marginBottom="@dimen/cube_dp_16" android:layout_marginEnd="@dimen/cube_dp_16">
+        <View android:id="@id/temp1" android:layout_width="0.0dip" android:layout_height="fill_parent" app:layout_constraintEnd_toStartOf="@id/real_content_panel" app:layout_constraintHorizontal_weight="0.166" app:layout_constraintStart_toStartOf="parent" />
+        <View android:id="@id/temp2" android:layout_width="0.0dip" android:layout_height="fill_parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_weight="0.166" app:layout_constraintStart_toEndOf="@id/real_content_panel" />
+        <FrameLayout android:id="@id/real_content_panel" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/temp2" app:layout_constraintHorizontal_weight="0.666" app:layout_constraintStart_toEndOf="@id/temp1" app:layout_constraintTop_toTopOf="parent">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/fragment_recycler_list" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

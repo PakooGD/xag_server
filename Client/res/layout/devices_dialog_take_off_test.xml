@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/devices_background" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="@color/devices_background" android:layout_width="fill_parent" android:layout_height="@dimen/devices_actionbar_48">
+        <ImageButton android:id="@id/btn_take_off_back" android:background="@drawable/devices_selector_button_transparent" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/cube_ic_gen_chevron_left" android:paddingStart="@dimen/devices_padding_12" android:paddingEnd="@dimen/devices_padding_12" />
+        <com.xa.core.cube.TextView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/devices_uav_take_off_test" style="@style/Devices.Text.title" />
+    </FrameLayout>
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.0" />
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.6668">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="horizontal" android:background="@drawable/devices_shape_gray1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/devices_margin_16">
+                        <ImageView android:layout_width="@dimen/cube_dp_20" android:layout_height="@dimen/cube_dp_20" android:layout_marginTop="@dimen/devices_margin_12" android:src="@drawable/devices_ic_warming" android:layout_marginStart="@dimen/devices_margin_16" />
+                        <com.xa.core.cube.TextView android:gravity="start" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/devices_margin_12" android:layout_marginBottom="@dimen/devices_margin_12" android:text="@string/devices_dev_before_fly_alert" android:layout_marginStart="@dimen/devices_margin_8" android:layout_marginEnd="@dimen/devices_margin_16" style="@style/Cube.Font.Regular.Callout" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:background="@drawable/devices_shape_white_round_outline" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/devices_margin_8" android:layout_marginStart="@dimen/devices_margin_16" android:layout_marginEnd="@dimen/devices_margin_16">
+                        <ImageView android:id="@id/fl_device_status" android:background="@drawable/devices_img_uav_sensor_bg" android:layout_width="fill_parent" android:layout_height="248.0dip" />
+                        <View android:background="@color/devices_divider" android:layout_width="fill_parent" android:layout_height="@dimen/devices_divider" />
+                        <FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/devices_button_height_60">
+                            <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:layout_gravity="start|center" android:id="@id/tv_take_off_test_spray_spread_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/devices_spray_seeding" android:layout_marginStart="@dimen/devices_margin_16" style="@style/Cube.Font.Regular.Body" />
+                            <Switch android:layout_gravity="end|center" android:id="@id/sc_take_off_test_spray_spread_toggle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/devices_margin_16" style="@style/devices_Switch_1" />
+                        </FrameLayout>
+                    </LinearLayout>
+                    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/devices_margin_16" android:layout_marginStart="@dimen/devices_margin_16" android:layout_marginEnd="@dimen/devices_margin_16">
+                        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:layout_gravity="center" android:id="@id/tv_take_off_test_hint" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/devices_take_on_warning" style="@style/Cube.Font.Regular.Body" />
+                        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:layout_gravity="center" android:id="@id/tv_take_off_test_device_height" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/devices_height_2_5m" style="@style/Cube.Font.Regular.Body" />
+                    </FrameLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.0" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <android.widget.Button android:textColor="@drawable/devices_selector_text_white" android:gravity="center" android:id="@id/btn_take_off_test_start" android:background="@drawable/devices_selector_button_green" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cube_dp_12" android:layout_marginBottom="@dimen/cube_dp_12" android:text="@string/devices_take_off_place" android:layout_marginStart="@dimen/devices_margin_16" android:layout_marginEnd="@dimen/devices_margin_16" android:layout_marginVertical="@dimen/cube_dp_12" style="@style/Cube.Font.Regular.Body" />
+        <android.widget.Button android:textColor="@drawable/devices_selector_text_white" android:gravity="center" android:id="@id/btn_take_off_test_stop" android:background="@drawable/devices_selector_button_red1" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cube_dp_12" android:layout_marginBottom="@dimen/cube_dp_12" android:text="@string/devices_land_place" android:layout_marginStart="@dimen/devices_margin_16" android:layout_marginEnd="@dimen/devices_margin_16" android:layout_marginVertical="@dimen/cube_dp_12" style="@style/Cube.Font.Regular.Body" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/frg_session_item_time" />
+    <LinearLayout android:layout_gravity="left" android:orientation="horizontal" android:paddingTop="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.tinet.oskit.widget.UserHeaderView android:id="@id/userHeader" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/tinetHeaderStyle" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <include layout="@layout/frg_session_item_name" />
+            <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/tinetImageContainerStyle.tinetImageContainerReceiveStyle">
+                <com.tinet.oskit.widget.TinetImageView android:id="@id/ivBivPic" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/tinetImageStyle.tinetImageReceiveStyle" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

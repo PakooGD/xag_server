@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:background="@drawable/ui_shape_container_material_strong_r8888" android:layout_width="@dimen/cube_dp_44" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/cube_dp_12"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/comm_source_device" android:layout_width="@dimen/cube_dp_44" android:layout_height="@dimen/cube_dp_44">
+        <ImageView android:id="@id/comm_source_device_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/survey_new_selector_editor_ctrl" android:scaleType="centerInside" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View android:id="@id/comm_source_div_1" android:background="@color/cube_color_container_fill_deep" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <ImageView android:id="@id/comm_source_cross" android:layout_width="@dimen/cube_dp_44" android:layout_height="@dimen/cube_dp_44" android:src="@drawable/survey_new_selector_editor_croass" android:scaleType="centerInside" />
+    <View android:id="@id/comm_source_div_2" android:background="@color/cube_color_container_fill_deep" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <ImageView android:id="@id/comm_source_touch" android:layout_width="@dimen/cube_dp_44" android:layout_height="@dimen/cube_dp_44" android:src="@drawable/survey_new_selector_editor_touch" android:scaleType="centerInside" />
+</androidx.appcompat.widget.LinearLayoutCompat>

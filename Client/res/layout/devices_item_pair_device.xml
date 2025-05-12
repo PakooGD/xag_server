@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:id="@id/ll_item" android:paddingTop="@dimen/devices_padding_12" android:paddingBottom="@dimen/devices_padding_12" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/devices_padding_12">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/devices_margin_8">
+            <com.xa.core.cube.TextView android:textSize="@dimen/devices_text_size_16" android:textColor="@color/devices_black_88" android:id="@id/tv_name" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/v_line" android:background="@color/cube_color_container_fill_deep" android:layout_width="fill_parent" android:layout_height="@dimen/devices_dp_05" android:layout_marginStart="@dimen/devices_margin_12" />
+</LinearLayout>

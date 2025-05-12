@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:drawable="@drawable/survey_new_list_check_2" />
+    <item android:state_selected="true" android:drawable="@drawable/survey_new_list_check_1" />
+    <item android:drawable="@drawable/survey_new_list_check_0" />
+</selector>

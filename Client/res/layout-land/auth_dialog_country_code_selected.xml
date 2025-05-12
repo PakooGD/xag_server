@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/cube_color_container_bg_base" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/flTop" android:layout_width="fill_parent" android:layout_height="@dimen/cube_dp_48">
+        <androidx.appcompat.widget.AppCompatImageButton android:id="@id/ibBack" android:paddingLeft="@dimen/cube_dp_24" android:paddingRight="@dimen/cube_dp_24" android:layout_width="wrap_content" android:layout_height="39.0dip" android:src="@drawable/cube_ic_gen_xmark" android:minWidth="@dimen/cube_dp_0" android:paddingHorizontal="@dimen/cube_dp_24" style="@style/Widget.AppCompat.Toolbar.Button.Navigation" />
+        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:layout_gravity="center" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/auth_country_region" style="@style/Cube.Font.Medium.Title1" />
+    </FrameLayout>
+    <androidx.fragment.app.FragmentContainerView android:name="com.xag.agri.auth.ui.dialog.countrycode.CountryCodeSelectedFragmentV2" android:id="@id/fragment" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

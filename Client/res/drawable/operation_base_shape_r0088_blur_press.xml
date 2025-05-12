@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@drawable/operation_base_shape_r0088_blur_weak" />
+    <item android:drawable="@drawable/operation_base_shape_r0088_blur_normal" />
+</selector>

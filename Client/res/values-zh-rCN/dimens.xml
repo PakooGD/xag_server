@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="livenessExitLeftPromptSize">18.0sp</dimen>
+    <dimen name="livenessExitRightPromptSize">18.0sp</dimen>
+    <dimen name="livenessExitTitlePromptSize">18.0sp</dimen>
+    <dimen name="livenessGuideImageSize">100.0dip</dimen>
+    <dimen name="livenessHomePromptSize">20.0sp</dimen>
+    <dimen name="livenessRetryLeftPromptSize">18.0sp</dimen>
+    <dimen name="livenessRetryRightPromptSize">18.0sp</dimen>
+    <dimen name="livenessRetryTitlePromptSize">18.0sp</dimen>
+</resources>

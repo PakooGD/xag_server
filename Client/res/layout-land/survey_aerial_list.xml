@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/content_root" android:background="@color/cube_color_container_bg_base" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/top_bar" layout="@layout/survey_common_top" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:id="@id/temp1" android:layout_width="0.0dip" android:layout_height="fill_parent" app:layout_constraintEnd_toStartOf="@id/real_content_panel" app:layout_constraintHorizontal_weight="0.1666" app:layout_constraintStart_toStartOf="parent" />
+        <View android:id="@id/temp2" android:layout_width="0.0dip" android:layout_height="fill_parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_weight="0.1666" app:layout_constraintStart_toEndOf="@id/real_content_panel" />
+        <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:id="@id/real_content_panel" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/temp2" app:layout_constraintHorizontal_weight="0.667" app:layout_constraintStart_toEndOf="@id/temp1" app:layout_constraintTop_toTopOf="parent">
+            <TextView android:textColor="@color/cube_color_content_primary" android:gravity="center_vertical" android:id="@id/tv_record" android:background="@drawable/cube_shape_container_bg_tint_8" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip" android:text="@string/survey_str_import_record" android:drawableLeft="@drawable/survey_icon_import_record" android:drawableRight="@drawable/survey_system_arrow_right_16_16_gray" android:drawablePadding="8.0dip" android:layout_marginHorizontal="16.0dip" android:paddingHorizontal="16.0dip" style="@style/XagTheme.Typography.RegularBody" />
+            <com.scwang.smart.refresh.layout.SmartRefreshLayout android:id="@id/refreshLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="12.0dip">
+                <com.xag.agri.v4.land.business.ui.widget.MyClassicHeader android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_aerial" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip" android:overScrollMode="never" android:layout_marginHorizontal="16.0dip" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+                <com.scwang.smart.refresh.footer.ClassicsFooter android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </com.scwang.smart.refresh.layout.SmartRefreshLayout>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

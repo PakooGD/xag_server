@@ -1,0 +1,44 @@
+.class public final synthetic Lcom/xa/ability/logger/oss/a;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/alibaba/sdk/android/oss/callback/OSSProgressCallback;
+
+
+# instance fields
+.field public final synthetic a:Lcom/xa/ability/logger/oss/OssCallBack;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcom/xa/ability/logger/oss/OssCallBack;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/xa/ability/logger/oss/a;->a:Lcom/xa/ability/logger/oss/OssCallBack;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onProgress(Ljava/lang/Object;JJ)V
+    .locals 6
+
+    .line 1
+    iget-object v0, p0, Lcom/xa/ability/logger/oss/a;->a:Lcom/xa/ability/logger/oss/OssCallBack;
+
+    move-object v1, p1
+
+    check-cast v1, Lcom/alibaba/sdk/android/oss/model/PutObjectRequest;
+
+    move-wide v2, p2
+
+    move-wide v4, p4
+
+    invoke-static/range {v0 .. v5}, Lcom/xa/ability/logger/oss/OssManager;->a(Lcom/xa/ability/logger/oss/OssCallBack;Lcom/alibaba/sdk/android/oss/model/PutObjectRequest;JJ)V
+
+    return-void
+.end method

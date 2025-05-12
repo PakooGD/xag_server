@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/fl_map" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/business_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:id="@id/fl_top_default" android:layout_width="0.0dip" android:layout_height="44.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/btn_top_back" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:src="@drawable/survey_system_close_white" android:layout_marginHorizontal="16.0dip" style="@style/Widget.AppCompat.Toolbar.Button.Navigation" />
+            <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/cube_color_on_primary" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/top_title" android:layout_width="0.0dip" android:layout_height="32.0dip" android:text="@string/survey_hdmap_info" android:maxLines="1" android:layout_weight="1.0" style="@style/XagTheme.Typography.MediumTittle3" />
+            <androidx.appcompat.widget.AppCompatImageButton android:layout_gravity="end|center" android:id="@id/btn_top_import" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/survey_system_info" style="@style/Widget.AppCompat.Toolbar.Button.Navigation" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

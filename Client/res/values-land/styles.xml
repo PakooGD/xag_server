@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DeviceUpdateActionBtn" parent="@style/Cube.Font.Medium.Body">
+        <item name="android:textColor">@color/cube_color_on_primary</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/device_update_selector_btn_green_8</item>
+        <item name="android:layout_width">@dimen/cube_dp_180</item>
+        <item name="android:layout_height">@dimen/cube_dp_40</item>
+        <item name="android:layout_marginLeft">@dimen/cube_dp_16</item>
+        <item name="android:layout_marginRight">@dimen/cube_dp_16</item>
+        <item name="android:layout_marginBottom">@dimen/cube_dp_12</item>
+    </style>
+    <style name="OperationBaseSupportOrientationBig">
+        <item name="android:layout_width">360.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="OperationBaseSupportOrientationPage">
+        <item name="android:layout_width">312.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="SurveyOrientationClose">
+        <item name="android:padding">@dimen/cube_dp_6</item>
+        <item name="android:layout_width">@dimen/cube_dp_40</item>
+        <item name="android:layout_height">@dimen/cube_dp_40</item>
+        <item name="android:src">@drawable/survey_new_system_circle_close_selector</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:layout_marginEnd">@dimen/cube_dp_8</item>
+    </style>
+    <style name="SurveyOrientationItem">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/cube_dp_48</item>
+    </style>
+    <style name="SurveyOrientationItemBig">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/cube_dp_64</item>
+    </style>
+    <style name="SurveyOrientationItemSmall">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/cube_dp_40</item>
+    </style>
+    <style name="SurveyOrientationItemSmallText" parent="@style/Cube.Font.Regular.Body">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/cube_dp_40</item>
+    </style>
+    <style name="SurveyOrientationItemText" parent="@style/Cube.Font.Regular.Body">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/cube_dp_48</item>
+    </style>
+    <style name="SurveySupportPage" parent="@style/OperationBaseSupportOrientationPage">
+        <item name="android:id">@id/content_root</item>
+        <item name="android:background">@color/cube_color_container_bg_base</item>
+        <item name="android:maxHeight">2001.0dip</item>
+    </style>
+    <style name="Widget.Design.TabLayout" parent="@style/Base.Widget.Design.TabLayout">
+        <item name="tabGravity">center</item>
+        <item name="tabMode">fixed</item>
+    </style>
+    <style name="Widget.MaterialComponents.MaterialCalendar.HeaderSelection" parent="@style/Widget.AppCompat.TextView">
+        <item name="android:textAppearance">?textAppearanceHeadline6</item>
+        <item name="android:textColor">?colorOnPrimary</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_gravity">start|center|top</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">@integer/mtrl_calendar_selection_text_lines</item>
+    </style>
+    <style name="Widget.MaterialComponents.MaterialCalendar.HeaderToggleButton" parent="@style/Base.Widget.MaterialComponents.MaterialCalendar.HeaderToggleButton">
+        <item name="android:layout_gravity">start|bottom|center</item>
+    </style>
+    <style name="XagTheme.APP" parent="@style/Cube.Small">
+        <item name="colorAccent">?cube_color_project_primary</item>
+    </style>
+</resources>

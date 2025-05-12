@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="@dimen/cube_dp_56"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/records_top_bar_left_image_btn" android:visibility="gone" android:layout_width="@dimen/cube_dp_34" android:layout_height="fill_parent" android:src="@drawable/records_ic_topbar_back" android:scaleType="center" android:layout_marginStart="@dimen/cube_dp_12" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/records_top_bar_title_layout" android:layout_width="@dimen/cube_dp_0" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/cube_dp_50" android:layout_marginRight="@dimen/cube_dp_50" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.xa.core.cube.TextView android:ellipsize="end" android:gravity="center" android:id="@id/records_top_bar_title_text" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Cube.Font.Medium.Title1" />
+        <com.xa.core.cube.TextView android:ellipsize="end" android:gravity="center" android:id="@id/records_top_bar_sub_title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_4" />
+    </LinearLayout>
+    <ImageView android:id="@id/records_top_bar_right_image_btn" android:visibility="gone" android:layout_width="@dimen/cube_dp_48" android:layout_height="@dimen/cube_dp_48" android:layout_marginRight="@dimen/cube_dp_8" android:scaleType="center" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

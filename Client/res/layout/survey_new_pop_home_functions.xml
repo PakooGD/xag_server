@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:background="@drawable/ui_shape_container_material_strong_r8888" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/action_add_group" android:layout_width="@dimen/cube_dp_168" android:layout_height="@dimen/cube_dp_48">
+        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:ellipsize="end" android:gravity="center_vertical" android:paddingLeft="@dimen/cube_dp_16" android:paddingRight="@dimen/cube_dp_16" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxWidth="130.0dip" android:text="@string/survey_team_create_land_group" android:maxLines="2" android:paddingHorizontal="@dimen/cube_dp_16" style="@style/Cube.Font.Regular.Body" />
+        <ImageView android:layout_gravity="end|center" android:id="@id/action_choose_bound_check" android:layout_width="@dimen/cube_dp_24" android:layout_height="@dimen/cube_dp_24" android:src="@drawable/survey_new_home_add_group" android:scaleType="centerInside" android:layout_marginEnd="@dimen/cube_dp_16" />
+    </FrameLayout>
+    <View android:id="@id/action_add_group_line" android:background="@color/cube_color_container_fill_deep" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <FrameLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/action_import" android:layout_width="@dimen/cube_dp_168" android:layout_height="@dimen/cube_dp_48">
+        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:ellipsize="end" android:gravity="center_vertical" android:paddingLeft="@dimen/cube_dp_16" android:paddingRight="@dimen/cube_dp_16" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxWidth="130.0dip" android:text="@string/survey_import_data" android:maxLines="2" android:paddingHorizontal="@dimen/cube_dp_16" style="@style/Cube.Font.Regular.Body" />
+        <ImageView android:layout_gravity="end|center" android:layout_width="@dimen/cube_dp_24" android:layout_height="@dimen/cube_dp_24" android:src="@drawable/survey_new_home_import_data" android:scaleType="centerInside" android:layout_marginEnd="@dimen/cube_dp_16" />
+    </FrameLayout>
+    <View android:id="@id/action_add_device_line" android:background="@color/cube_color_container_fill_deep" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <FrameLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/action_add_device" android:layout_width="@dimen/cube_dp_168" android:layout_height="@dimen/cube_dp_48">
+        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:ellipsize="end" android:gravity="center_vertical" android:paddingLeft="@dimen/cube_dp_16" android:paddingRight="@dimen/cube_dp_16" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxWidth="130.0dip" android:text="@string/survey_add_device" android:maxLines="2" android:paddingHorizontal="@dimen/cube_dp_16" style="@style/Cube.Font.Regular.Body" />
+        <ImageView android:layout_gravity="end|center" android:layout_width="@dimen/cube_dp_24" android:layout_height="@dimen/cube_dp_24" android:src="@drawable/survey_new_home_add_device" android:scaleType="centerInside" android:layout_marginEnd="@dimen/cube_dp_16" />
+    </FrameLayout>
+    <View android:id="@id/action_add_magic_line" android:background="@color/cube_color_container_fill_deep" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <FrameLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/action_add_magic" android:layout_width="@dimen/cube_dp_168" android:layout_height="@dimen/cube_dp_48">
+        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="魔法添加地块" android:paddingStart="@dimen/cube_dp_16" style="@style/Cube.Font.Regular.Body" />
+        <ImageView android:layout_gravity="end|center" android:layout_width="@dimen/cube_dp_24" android:layout_height="@dimen/cube_dp_24" android:src="@drawable/survey_new_home_add_device" android:scaleType="centerInside" android:layout_marginEnd="@dimen/cube_dp_16" />
+    </FrameLayout>
+    <FrameLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/action_test1" android:layout_width="@dimen/cube_dp_168" android:layout_height="@dimen/cube_dp_48">
+        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="Copilot" android:paddingStart="@dimen/cube_dp_16" style="@style/Cube.Font.Regular.Body" />
+        <ImageView android:layout_gravity="end|center" android:layout_width="@dimen/cube_dp_24" android:layout_height="@dimen/cube_dp_24" android:src="@drawable/survey_new_home_add_device" android:scaleType="centerInside" android:layout_marginEnd="@dimen/cube_dp_16" />
+    </FrameLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

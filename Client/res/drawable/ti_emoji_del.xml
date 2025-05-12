@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="@color/cube_color_container_bg_base" />
+            <size android:height="90.0dip" android:width="84.0dip" />
+        </shape>
+    </item>
+    <item android:top="10.0dip" android:bottom="50.0dip" android:start="34.0dip">
+        <shape>
+            <solid android:color="@color/cube_color_container_bg_tint" />
+            <corners android:radius="@dimen/cube_dp_4" />
+            <size android:height="30.0dip" android:width="50.0dip" />
+        </shape>
+    </item>
+    <item android:top="12.5dip" android:bottom="50.0dip" android:start="45.0dip" android:end="10.0dip">
+        <bitmap android:src="@drawable/ti_ic_emoji_del" />
+        <size android:height="25.0dip" android:width="25.0dip" />
+    </item>
+</layer-list>

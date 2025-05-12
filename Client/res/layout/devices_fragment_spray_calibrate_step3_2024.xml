@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/devices_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.0" />
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.6668">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/devices_shape_white_round_outline" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/devices_margin_16" android:layout_marginTop="@dimen/devices_margin_32" android:layout_marginRight="@dimen/devices_margin_16" android:layout_marginHorizontal="@dimen/devices_margin_16">
+                    <com.xa.core.cube.TextView android:id="@id/tv_spray_calibrate_step1_indicate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/devices_margin_24" android:text="@string/devices_dev_calibration_progress1" style="@style/Devices.Text.title" />
+                    <ProgressBar android:id="@id/progressBar" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="6.0dip" android:layout_marginLeft="50.0dip" android:layout_marginTop="@dimen/devices_margin_16" android:layout_marginRight="50.0dip" android:max="100" android:progress="20" android:progressDrawable="@drawable/devices_seek_bar_bg" android:layout_marginHorizontal="50.0dip" style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+                    <ImageView android:id="@id/iv_spray_calibrate_load" android:visibility="gone" android:layout_width="26.0dip" android:layout_height="26.0dip" android:layout_marginTop="@dimen/devices_margin_12" android:src="@drawable/devices_anim_loading_green" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                    <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_secondary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/devices_margin_48" android:text="@string/devices_dev_calc_check_tips7" style="@style/Cube.Font.Regular.Body" />
+                    <com.xa.core.cube.TextView android:textSize="40.0sp" android:textColor="@color/cube_color_content_primary" android:id="@id/tv_spray_calibrate_container_residue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/devices_margin_48" style="@style/Devices.Text.title" />
+                </LinearLayout>
+            </LinearLayout>
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.0" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <android.widget.Button android:textColor="@drawable/devices_selector_text_red" android:id="@id/btn_cancel" android:background="@drawable/devices_selector_button_gray_c8_ol" android:layout_width="fill_parent" android:layout_height="@dimen/devices_button_height_48" android:layout_marginTop="@dimen/devices_margin_16" android:layout_marginBottom="@dimen/devices_margin_36" android:text="@string/devices_cancel" android:layout_marginStart="@dimen/devices_margin_16" android:layout_marginEnd="@dimen/devices_margin_16" style="@style/Devices.Button" />
+</LinearLayout>

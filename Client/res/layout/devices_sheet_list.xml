@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@color/devices_black_00" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:background="@drawable/devices_bg_layout_top" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/devices_actionbar_48">
+            <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:layout_gravity="center" android:id="@id/tv_sheet_list_title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Devices.Text.title" />
+            <com.xa.core.cube.TextView android:textColor="@drawable/devices_selector_text_black" android:layout_gravity="start|center" android:id="@id/btn_sheet_list_cancel" android:background="@drawable/devices_selector_button_transparent" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/devices_dev_spread_act_cancel" android:paddingStart="@dimen/devices_padding_16" android:paddingEnd="@dimen/devices_padding_16" android:layout_marginStart="@dimen/devices_margin_12" style="@style/Devices.Text" />
+            <LinearLayout android:layout_gravity="end|center" android:id="@id/ll_close" android:padding="@dimen/devices_padding_12" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/devices_dialog_close" />
+            </LinearLayout>
+        </FrameLayout>
+        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_secondary" android:id="@id/tv_sheet_list_description" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="32.0dip" android:layout_marginRight="32.0dip" android:layout_marginHorizontal="32.0dip" style="@style/Cube.Font.Regular.Callout" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rcv_sheet_list" android:background="@drawable/devices_shape_white_round_outline" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/devices_margin_12" />
+    </LinearLayout>
+</FrameLayout>

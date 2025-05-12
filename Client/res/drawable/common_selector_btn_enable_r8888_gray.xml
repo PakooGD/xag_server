@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:drawable="@drawable/common_shape_r8888_gray_disable" />
+    <item android:drawable="@drawable/ui_shape_container_fill_tint_r8888" />
+</selector>

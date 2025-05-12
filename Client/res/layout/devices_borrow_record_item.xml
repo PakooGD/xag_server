@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:padding="@dimen/devices_margin_16" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:id="@id/tv_icc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="+XX" style="@style/Cube.Font.Regular.Callout" />
+    <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:id="@id/tv_phone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="XXX XXXX XXXX" android:layout_marginStart="@dimen/devices_margin_12" style="@style/Cube.Font.Regular.Callout" />
+    <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:id="@id/tv_username" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="(XX)" style="@style/Cube.Font.Regular.Callout" />
+</LinearLayout>

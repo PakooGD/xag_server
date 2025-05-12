@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="@dimen/devices_item_height_28"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.xa.core.cube.TextView android:textSize="@dimen/devices_text_size_14" android:textColor="@color/devices_black_88" android:gravity="center" android:id="@id/tv_title" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="TAB" />
+</LinearLayout>

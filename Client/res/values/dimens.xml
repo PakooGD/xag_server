@@ -1,0 +1,3155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_action_bar_content_inset_material">16.0dip</dimen>
+    <dimen name="abc_action_bar_content_inset_with_nav">72.0dip</dimen>
+    <dimen name="abc_action_bar_default_height_material">56.0dip</dimen>
+    <dimen name="abc_action_bar_default_padding_end_material">0.0dip</dimen>
+    <dimen name="abc_action_bar_default_padding_start_material">0.0dip</dimen>
+    <dimen name="abc_action_bar_elevation_material">4.0dip</dimen>
+    <dimen name="abc_action_bar_icon_vertical_padding_material">16.0dip</dimen>
+    <dimen name="abc_action_bar_overflow_padding_end_material">10.0dip</dimen>
+    <dimen name="abc_action_bar_overflow_padding_start_material">6.0dip</dimen>
+    <dimen name="abc_action_bar_stacked_max_height">48.0dip</dimen>
+    <dimen name="abc_action_bar_stacked_tab_max_width">180.0dip</dimen>
+    <dimen name="abc_action_bar_subtitle_bottom_margin_material">5.0dip</dimen>
+    <dimen name="abc_action_bar_subtitle_top_margin_material">-3.0dip</dimen>
+    <dimen name="abc_action_button_min_height_material">48.0dip</dimen>
+    <dimen name="abc_action_button_min_width_material">48.0dip</dimen>
+    <dimen name="abc_action_button_min_width_overflow_material">36.0dip</dimen>
+    <dimen name="abc_alert_dialog_button_bar_height">48.0dip</dimen>
+    <dimen name="abc_alert_dialog_button_dimen">48.0dip</dimen>
+    <item type="dimen" name="abc_button_inset_horizontal_material">@dimen/abc_control_inset_material</item>
+    <dimen name="abc_button_inset_vertical_material">6.0dip</dimen>
+    <dimen name="abc_button_padding_horizontal_material">8.0dip</dimen>
+    <item type="dimen" name="abc_button_padding_vertical_material">@dimen/abc_control_padding_material</item>
+    <dimen name="abc_cascading_menus_min_smallest_width">720.0dip</dimen>
+    <dimen name="abc_config_prefDialogWidth">320.0dip</dimen>
+    <dimen name="abc_control_corner_material">2.0dip</dimen>
+    <dimen name="abc_control_inset_material">4.0dip</dimen>
+    <dimen name="abc_control_padding_material">4.0dip</dimen>
+    <dimen name="abc_dialog_corner_radius_material">2.0dip</dimen>
+    <item type="dimen" name="abc_dialog_fixed_height_major">79.99999%</item>
+    <item type="dimen" name="abc_dialog_fixed_height_minor">100.0%</item>
+    <dimen name="abc_dialog_fixed_width_major">320.0dip</dimen>
+    <dimen name="abc_dialog_fixed_width_minor">320.0dip</dimen>
+    <dimen name="abc_dialog_list_padding_bottom_no_buttons">8.0dip</dimen>
+    <dimen name="abc_dialog_list_padding_top_no_title">8.0dip</dimen>
+    <item type="dimen" name="abc_dialog_min_width_major">65.0%</item>
+    <item type="dimen" name="abc_dialog_min_width_minor">95.00001%</item>
+    <dimen name="abc_dialog_padding_material">24.0dip</dimen>
+    <dimen name="abc_dialog_padding_top_material">18.0dip</dimen>
+    <dimen name="abc_dialog_title_divider_material">8.0dip</dimen>
+    <item type="dimen" name="abc_disabled_alpha_material_dark">0.3</item>
+    <item type="dimen" name="abc_disabled_alpha_material_light">0.26</item>
+    <dimen name="abc_dropdownitem_icon_width">32.0dip</dimen>
+    <dimen name="abc_dropdownitem_text_padding_left">8.0dip</dimen>
+    <dimen name="abc_dropdownitem_text_padding_right">8.0dip</dimen>
+    <dimen name="abc_edit_text_inset_bottom_material">7.0dip</dimen>
+    <dimen name="abc_edit_text_inset_horizontal_material">4.0dip</dimen>
+    <dimen name="abc_edit_text_inset_top_material">10.0dip</dimen>
+    <dimen name="abc_floating_window_z">16.0dip</dimen>
+    <dimen name="abc_list_item_height_large_material">80.0dip</dimen>
+    <dimen name="abc_list_item_height_material">64.0dip</dimen>
+    <dimen name="abc_list_item_height_small_material">48.0dip</dimen>
+    <item type="dimen" name="abc_list_item_padding_horizontal_material">@dimen/abc_action_bar_content_inset_material</item>
+    <dimen name="abc_panel_menu_list_width">296.0dip</dimen>
+    <dimen name="abc_progress_bar_height_material">4.0dip</dimen>
+    <dimen name="abc_search_view_preferred_height">48.0dip</dimen>
+    <dimen name="abc_search_view_preferred_width">320.0dip</dimen>
+    <dimen name="abc_seekbar_track_background_height_material">2.0dip</dimen>
+    <dimen name="abc_seekbar_track_progress_height_material">2.0dip</dimen>
+    <dimen name="abc_select_dialog_padding_start_material">20.0dip</dimen>
+    <dimen name="abc_star_big">48.0dip</dimen>
+    <dimen name="abc_star_medium">36.0dip</dimen>
+    <dimen name="abc_star_small">16.0dip</dimen>
+    <dimen name="abc_switch_padding">0.0px</dimen>
+    <dimen name="abc_text_size_body_1_material">14.0sp</dimen>
+    <dimen name="abc_text_size_body_2_material">14.0sp</dimen>
+    <dimen name="abc_text_size_button_material">14.0sp</dimen>
+    <dimen name="abc_text_size_caption_material">12.0sp</dimen>
+    <dimen name="abc_text_size_display_1_material">34.0sp</dimen>
+    <dimen name="abc_text_size_display_2_material">45.0sp</dimen>
+    <dimen name="abc_text_size_display_3_material">56.0sp</dimen>
+    <dimen name="abc_text_size_display_4_material">112.0sp</dimen>
+    <dimen name="abc_text_size_headline_material">24.0sp</dimen>
+    <dimen name="abc_text_size_large_material">22.0sp</dimen>
+    <dimen name="abc_text_size_medium_material">18.0sp</dimen>
+    <dimen name="abc_text_size_menu_header_material">14.0sp</dimen>
+    <dimen name="abc_text_size_menu_material">16.0sp</dimen>
+    <dimen name="abc_text_size_small_material">14.0sp</dimen>
+    <dimen name="abc_text_size_subhead_material">16.0sp</dimen>
+    <dimen name="abc_text_size_subtitle_material_toolbar">16.0dip</dimen>
+    <dimen name="abc_text_size_title_material">20.0sp</dimen>
+    <dimen name="abc_text_size_title_material_toolbar">20.0dip</dimen>
+    <dimen name="activity_horizontal_margin">16.0dip</dimen>
+    <dimen name="activity_vertical_margin">16.0dip</dimen>
+    <dimen name="agree_toast_height">90.0dip</dimen>
+    <dimen name="agree_toast_text_size">16.0sp</dimen>
+    <dimen name="agree_toast_width">200.0dip</dimen>
+    <dimen name="air_survey_text_size_10">10.0sp</dimen>
+    <dimen name="air_survey_text_size_12">12.0sp</dimen>
+    <dimen name="air_survey_text_size_16">16.0sp</dimen>
+    <dimen name="appcompat_dialog_background_inset">16.0dip</dimen>
+    <dimen name="base_dpi">300.0dip</dimen>
+    <item type="dimen" name="basecompat_actionbar_height">@dimen/basecompat_button_height_2</item>
+    <dimen name="basecompat_border">1.0dip</dimen>
+    <item type="dimen" name="basecompat_button_height">@dimen/basecompat_button_height_2</item>
+    <dimen name="basecompat_button_height_1">40.0dip</dimen>
+    <dimen name="basecompat_button_height_2">46.0dip</dimen>
+    <dimen name="basecompat_button_height_3">50.0dip</dimen>
+    <dimen name="basecompat_button_height_4">60.0dip</dimen>
+    <dimen name="basecompat_button_height_5">78.0dip</dimen>
+    <item type="dimen" name="basecompat_button_height_small">@dimen/basecompat_button_height_1</item>
+    <dimen name="basecompat_button_min_width">180.0dip</dimen>
+    <dimen name="basecompat_content_padding_bottom">20.0dip</dimen>
+    <dimen name="basecompat_content_padding_top">16.0dip</dimen>
+    <dimen name="basecompat_corner_radius_1">4.0dip</dimen>
+    <dimen name="basecompat_corner_radius_2">6.0dip</dimen>
+    <dimen name="basecompat_corner_radius_3">8.0dip</dimen>
+    <dimen name="basecompat_corner_radius_dp_2">2.0dip</dimen>
+    <dimen name="basecompat_dialog_button_size">40.0dip</dimen>
+    <dimen name="basecompat_dialog_content_padding_horizon">30.0dip</dimen>
+    <dimen name="basecompat_dialog_corner_radius">12.0dip</dimen>
+    <item type="dimen" name="basecompat_dialog_height">@dimen/basecompat_dialog_height_2</item>
+    <dimen name="basecompat_dialog_height_1">300.0dip</dimen>
+    <dimen name="basecompat_dialog_height_2">380.0dip</dimen>
+    <dimen name="basecompat_dialog_height_3">450.0dip</dimen>
+    <dimen name="basecompat_dialog_icon_padding_top">28.0dip</dimen>
+    <dimen name="basecompat_dialog_title_padding_top">20.0dip</dimen>
+    <item type="dimen" name="basecompat_dialog_width">@dimen/basecompat_dialog_width_2</item>
+    <dimen name="basecompat_dialog_width_1">270.0dip</dimen>
+    <dimen name="basecompat_dialog_width_2">300.0dip</dimen>
+    <dimen name="basecompat_dialog_width_3">320.0dip</dimen>
+    <dimen name="basecompat_dialog_width_dp_304">304.0dip</dimen>
+    <dimen name="basecompat_divider">0.5dip</dimen>
+    <dimen name="basecompat_height_16">16.0dip</dimen>
+    <dimen name="basecompat_height_32">32.0dip</dimen>
+    <dimen name="basecompat_height_48">48.0dip</dimen>
+    <dimen name="basecompat_ic_height_16">16.0dip</dimen>
+    <dimen name="basecompat_ic_width_16">16.0dip</dimen>
+    <item type="dimen" name="basecompat_item_divider">@dimen/basecompat_item_divider_5</item>
+    <dimen name="basecompat_item_divider_1">0.5dip</dimen>
+    <dimen name="basecompat_item_divider_2">1.0dip</dimen>
+    <dimen name="basecompat_item_divider_3">2.0dip</dimen>
+    <dimen name="basecompat_item_divider_4">4.0dip</dimen>
+    <dimen name="basecompat_item_divider_5">6.0dip</dimen>
+    <item type="dimen" name="basecompat_item_divider_small">@dimen/basecompat_item_divider_2</item>
+    <item type="dimen" name="basecompat_item_height">@dimen/basecompat_item_height_2</item>
+    <dimen name="basecompat_item_height_1">40.0dip</dimen>
+    <dimen name="basecompat_item_height_2">46.0dip</dimen>
+    <dimen name="basecompat_item_height_3">50.0dip</dimen>
+    <dimen name="basecompat_item_height_4">60.0dip</dimen>
+    <dimen name="basecompat_item_height_group">30.0dip</dimen>
+    <item type="dimen" name="basecompat_item_height_small">@dimen/basecompat_item_height_1</item>
+    <item type="dimen" name="basecompat_item_padding">@dimen/basecompat_padding_3</item>
+    <item type="dimen" name="basecompat_margin">@dimen/basecompat_margin_2</item>
+    <dimen name="basecompat_margin_1">4.0dip</dimen>
+    <dimen name="basecompat_margin_10">10.0dip</dimen>
+    <dimen name="basecompat_margin_12">12.0dip</dimen>
+    <dimen name="basecompat_margin_14">14.0dip</dimen>
+    <dimen name="basecompat_margin_16">16.0dip</dimen>
+    <dimen name="basecompat_margin_2">8.0dip</dimen>
+    <dimen name="basecompat_margin_3">16.0dip</dimen>
+    <dimen name="basecompat_margin_32">32.0dip</dimen>
+    <dimen name="basecompat_margin_4">24.0dip</dimen>
+    <dimen name="basecompat_margin_44">44.0dip</dimen>
+    <dimen name="basecompat_margin_48">48.0dip</dimen>
+    <dimen name="basecompat_margin_8">8.0dip</dimen>
+    <dimen name="basecompat_margin_dp_24">24.0dip</dimen>
+    <dimen name="basecompat_margin_dp_32">32.0dip</dimen>
+    <dimen name="basecompat_margin_dp_6">6.0dip</dimen>
+    <dimen name="basecompat_margin_interval">4.0dip</dimen>
+    <item type="dimen" name="basecompat_margin_narrow">@dimen/basecompat_margin_1</item>
+    <item type="dimen" name="basecompat_padding">@dimen/basecompat_padding_2</item>
+    <dimen name="basecompat_padding_1">4.0dip</dimen>
+    <dimen name="basecompat_padding_2">8.0dip</dimen>
+    <dimen name="basecompat_padding_3">16.0dip</dimen>
+    <dimen name="basecompat_padding_4">24.0dip</dimen>
+    <dimen name="basecompat_padding_5dp">5.0dip</dimen>
+    <dimen name="basecompat_padding_dp_6">6.0dip</dimen>
+    <item type="dimen" name="basecompat_padding_narrow">@dimen/basecompat_padding_1</item>
+    <dimen name="basecompat_saoitem_button_top">9.0dip</dimen>
+    <dimen name="basecompat_saoitem_ic_help_size">14.0dip</dimen>
+    <dimen name="basecompat_saoitem_margin">16.0dip</dimen>
+    <dimen name="basecompat_saoitem_margin_description_top">8.0dip</dimen>
+    <dimen name="basecompat_saoitem_min56_height">56.0dip</dimen>
+    <dimen name="basecompat_saoitem_min_height">46.0dip</dimen>
+    <dimen name="basecompat_saoitem_padding_bottom">14.0dip</dimen>
+    <dimen name="basecompat_saoitem_padding_left">16.0dip</dimen>
+    <dimen name="basecompat_saoitem_padding_right">16.0dip</dimen>
+    <dimen name="basecompat_saoitem_padding_top">14.0dip</dimen>
+    <dimen name="basecompat_saoitem_text_max_width">160.0dip</dimen>
+    <dimen name="basecompat_saoitem_text_top">14.0dip</dimen>
+    <dimen name="basecompat_saoitem_title_max_width">160.0dip</dimen>
+    <dimen name="basecompat_sp_10">10.0sp</dimen>
+    <dimen name="basecompat_sp_12">12.0sp</dimen>
+    <dimen name="basecompat_sp_14">14.0sp</dimen>
+    <dimen name="basecompat_sp_16">16.0sp</dimen>
+    <item type="dimen" name="basecompat_text">@dimen/basecompat_text_size_h3</item>
+    <dimen name="basecompat_text_annotate">12.0sp</dimen>
+    <dimen name="basecompat_text_label">10.0sp</dimen>
+    <dimen name="basecompat_text_main">16.0sp</dimen>
+    <dimen name="basecompat_text_secondary">14.0sp</dimen>
+    <dimen name="basecompat_text_size_h1">18.0sp</dimen>
+    <dimen name="basecompat_text_size_h2">16.0sp</dimen>
+    <dimen name="basecompat_text_size_h3">14.0sp</dimen>
+    <dimen name="basecompat_text_size_h4">12.0sp</dimen>
+    <dimen name="basecompat_text_size_h5">10.0sp</dimen>
+    <dimen name="basecompat_text_size_sp_6">6.0sp</dimen>
+    <dimen name="basecompat_text_size_sp_7">7.0sp</dimen>
+    <dimen name="basecompat_text_size_sp_8">8.0sp</dimen>
+    <item type="dimen" name="basecompat_text_small">@dimen/basecompat_text_size_h5</item>
+    <dimen name="basecompat_text_title">17.0sp</dimen>
+    <dimen name="basecompat_text_title_main">18.0sp</dimen>
+    <dimen name="basecompat_width_16">16.0dip</dimen>
+    <dimen name="basecompat_width_32">32.0dip</dimen>
+    <dimen name="basecompat_width_48">48.0dip</dimen>
+    <dimen name="bottom_bar_height">43.0dip</dimen>
+    <dimen name="bottom_bar_textsize">10.0sp</dimen>
+    <dimen name="cardview_compat_inset_shadow">1.0dip</dimen>
+    <dimen name="cardview_default_elevation">2.0dip</dimen>
+    <dimen name="cardview_default_radius">2.0dip</dimen>
+    <dimen name="care_actionbar">48.0dip</dimen>
+    <dimen name="care_divider">0.5dip</dimen>
+    <dimen name="care_divider_8">8.0dip</dimen>
+    <dimen name="care_item_height_14">14.0dip</dimen>
+    <dimen name="care_item_height_16">16.0dip</dimen>
+    <dimen name="care_item_height_20">20.0dip</dimen>
+    <dimen name="care_item_height_24">24.0dip</dimen>
+    <dimen name="care_item_height_28">28.0dip</dimen>
+    <dimen name="care_item_height_32">36.0dip</dimen>
+    <dimen name="care_item_height_36">36.0dip</dimen>
+    <dimen name="care_item_height_40">40.0dip</dimen>
+    <dimen name="care_item_height_44">44.0dip</dimen>
+    <dimen name="care_item_height_48">48.0dip</dimen>
+    <dimen name="care_item_height_52">52.0dip</dimen>
+    <dimen name="care_item_height_56">56.0dip</dimen>
+    <dimen name="care_item_height_60">60.0dip</dimen>
+    <dimen name="care_item_height_64">64.0dip</dimen>
+    <dimen name="care_item_height_72">72.0dip</dimen>
+    <dimen name="care_item_height_96">96.0dip</dimen>
+    <dimen name="care_margin_10">10.0dip</dimen>
+    <dimen name="care_margin_12">12.0dip</dimen>
+    <dimen name="care_margin_14">14.0dip</dimen>
+    <dimen name="care_margin_16">16.0dip</dimen>
+    <dimen name="care_margin_18">18.0dip</dimen>
+    <dimen name="care_margin_2">2.0dip</dimen>
+    <dimen name="care_margin_20">20.0dip</dimen>
+    <dimen name="care_margin_24">24.0dip</dimen>
+    <dimen name="care_margin_32">32.0dip</dimen>
+    <dimen name="care_margin_36">36.0dip</dimen>
+    <dimen name="care_margin_4">4.0dip</dimen>
+    <dimen name="care_margin_40">40.0dip</dimen>
+    <dimen name="care_margin_44">44.0dip</dimen>
+    <dimen name="care_margin_46">46.0dip</dimen>
+    <dimen name="care_margin_48">48.0dip</dimen>
+    <dimen name="care_margin_6">6.0dip</dimen>
+    <dimen name="care_margin_64">64.0dip</dimen>
+    <dimen name="care_margin_8">8.0dip</dimen>
+    <item type="dimen" name="care_padding">@dimen/care_padding_8</item>
+    <dimen name="care_padding_10">10.0dip</dimen>
+    <dimen name="care_padding_12">12.0dip</dimen>
+    <dimen name="care_padding_16">16.0dip</dimen>
+    <dimen name="care_padding_2">2.0dip</dimen>
+    <dimen name="care_padding_20">20.0dip</dimen>
+    <dimen name="care_padding_24">24.0dip</dimen>
+    <dimen name="care_padding_36">36.0dip</dimen>
+    <dimen name="care_padding_4">4.0dip</dimen>
+    <dimen name="care_padding_48">48.0dip</dimen>
+    <dimen name="care_padding_8">8.0dip</dimen>
+    <dimen name="care_radius_12">12.0dip</dimen>
+    <dimen name="care_radius_16">16.0dip</dimen>
+    <dimen name="care_radius_2">2.0dip</dimen>
+    <dimen name="care_radius_20">20.0dip</dimen>
+    <dimen name="care_radius_24">24.0dip</dimen>
+    <dimen name="care_radius_4">4.0dip</dimen>
+    <dimen name="care_radius_8">8.0dip</dimen>
+    <dimen name="care_text_size_10">10.0sp</dimen>
+    <dimen name="care_text_size_12">12.0sp</dimen>
+    <dimen name="care_text_size_14">14.0sp</dimen>
+    <dimen name="care_text_size_16">16.0sp</dimen>
+    <dimen name="care_text_size_18">18.0sp</dimen>
+    <dimen name="care_text_size_20">20.0sp</dimen>
+    <dimen name="care_text_size_24">24.0sp</dimen>
+    <dimen name="care_text_size_28">28.0sp</dimen>
+    <dimen name="center_img_size">286.0dip</dimen>
+    <dimen name="check_box_size">12.0dip</dimen>
+    <dimen name="checktrue_bg_tick_bg_height">35.0dip</dimen>
+    <dimen name="checktrue_bg_tick_left_margin">28.0dip</dimen>
+    <dimen name="checktrue_bg_tick_top_margin">32.0dip</dimen>
+    <dimen name="checktrue_title_bar_height">44.0dip</dimen>
+    <dimen name="checktrue_toast_text_padding_height">10.0dip</dimen>
+    <dimen name="checktrue_toast_text_size">16.0sp</dimen>
+    <dimen name="clock_face_margin_start">64.0dip</dimen>
+    <dimen name="compat_button_inset_horizontal_material">4.0dip</dimen>
+    <dimen name="compat_button_inset_vertical_material">6.0dip</dimen>
+    <dimen name="compat_button_padding_horizontal_material">8.0dip</dimen>
+    <dimen name="compat_button_padding_vertical_material">4.0dip</dimen>
+    <dimen name="compat_control_corner_material">2.0dip</dimen>
+    <dimen name="compat_notification_large_icon_max_height">320.0dip</dimen>
+    <dimen name="compat_notification_large_icon_max_width">320.0dip</dimen>
+    <dimen name="cube_dp_0">0.0dip</dimen>
+    <dimen name="cube_dp_0.5">0.5dip</dimen>
+    <dimen name="cube_dp_1">1.0dip</dimen>
+    <dimen name="cube_dp_10">10.0dip</dimen>
+    <dimen name="cube_dp_100">100.0dip</dimen>
+    <dimen name="cube_dp_1000">1000.0dip</dimen>
+    <dimen name="cube_dp_102">102.0dip</dimen>
+    <dimen name="cube_dp_1024">1024.0dip</dimen>
+    <dimen name="cube_dp_104">104.0dip</dimen>
+    <dimen name="cube_dp_106">106.0dip</dimen>
+    <dimen name="cube_dp_108">108.0dip</dimen>
+    <dimen name="cube_dp_1080">1080.0dip</dimen>
+    <dimen name="cube_dp_110">110.0dip</dimen>
+    <dimen name="cube_dp_112">112.0dip</dimen>
+    <dimen name="cube_dp_114">114.0dip</dimen>
+    <dimen name="cube_dp_116">116.0dip</dimen>
+    <dimen name="cube_dp_118">118.0dip</dimen>
+    <dimen name="cube_dp_12">12.0dip</dimen>
+    <dimen name="cube_dp_120">120.0dip</dimen>
+    <dimen name="cube_dp_122">122.0dip</dimen>
+    <dimen name="cube_dp_124">124.0dip</dimen>
+    <dimen name="cube_dp_126">126.0dip</dimen>
+    <dimen name="cube_dp_128">128.0dip</dimen>
+    <dimen name="cube_dp_1280">1280.0dip</dimen>
+    <dimen name="cube_dp_130">130.0dip</dimen>
+    <dimen name="cube_dp_132">132.0dip</dimen>
+    <dimen name="cube_dp_134">134.0dip</dimen>
+    <dimen name="cube_dp_136">136.0dip</dimen>
+    <dimen name="cube_dp_1365">1365.0dip</dimen>
+    <dimen name="cube_dp_138">138.0dip</dimen>
+    <dimen name="cube_dp_14">14.0dip</dimen>
+    <dimen name="cube_dp_140">140.0dip</dimen>
+    <dimen name="cube_dp_142">142.0dip</dimen>
+    <dimen name="cube_dp_144">144.0dip</dimen>
+    <dimen name="cube_dp_1440">1440.0dip</dimen>
+    <dimen name="cube_dp_146">146.0dip</dimen>
+    <dimen name="cube_dp_148">148.0dip</dimen>
+    <dimen name="cube_dp_1480">1480.0dip</dimen>
+    <dimen name="cube_dp_150">150.0dip</dimen>
+    <dimen name="cube_dp_152">152.0dip</dimen>
+    <dimen name="cube_dp_154">154.0dip</dimen>
+    <dimen name="cube_dp_156">156.0dip</dimen>
+    <dimen name="cube_dp_158">158.0dip</dimen>
+    <dimen name="cube_dp_16">16.0dip</dimen>
+    <dimen name="cube_dp_160">160.0dip</dimen>
+    <dimen name="cube_dp_1600">1600.0dip</dimen>
+    <dimen name="cube_dp_162">162.0dip</dimen>
+    <dimen name="cube_dp_164">164.0dip</dimen>
+    <dimen name="cube_dp_166">166.0dip</dimen>
+    <dimen name="cube_dp_168">168.0dip</dimen>
+    <dimen name="cube_dp_170">170.0dip</dimen>
+    <dimen name="cube_dp_172">172.0dip</dimen>
+    <dimen name="cube_dp_174">174.0dip</dimen>
+    <dimen name="cube_dp_176">176.0dip</dimen>
+    <dimen name="cube_dp_178">178.0dip</dimen>
+    <dimen name="cube_dp_18">18.0dip</dimen>
+    <dimen name="cube_dp_180">180.0dip</dimen>
+    <dimen name="cube_dp_182">182.0dip</dimen>
+    <dimen name="cube_dp_184">184.0dip</dimen>
+    <dimen name="cube_dp_186">186.0dip</dimen>
+    <dimen name="cube_dp_188">188.0dip</dimen>
+    <dimen name="cube_dp_190">190.0dip</dimen>
+    <dimen name="cube_dp_192">192.0dip</dimen>
+    <dimen name="cube_dp_1920">1920.0dip</dimen>
+    <dimen name="cube_dp_194">194.0dip</dimen>
+    <dimen name="cube_dp_196">196.0dip</dimen>
+    <dimen name="cube_dp_198">198.0dip</dimen>
+    <dimen name="cube_dp_2">2.0dip</dimen>
+    <dimen name="cube_dp_20">20.0dip</dimen>
+    <dimen name="cube_dp_200">200.0dip</dimen>
+    <dimen name="cube_dp_210">210.0dip</dimen>
+    <dimen name="cube_dp_22">22.0dip</dimen>
+    <dimen name="cube_dp_220">220.0dip</dimen>
+    <dimen name="cube_dp_230">230.0dip</dimen>
+    <dimen name="cube_dp_24">24.0dip</dimen>
+    <dimen name="cube_dp_240">240.0dip</dimen>
+    <dimen name="cube_dp_250">250.0dip</dimen>
+    <dimen name="cube_dp_26">26.0dip</dimen>
+    <dimen name="cube_dp_260">260.0dip</dimen>
+    <dimen name="cube_dp_270">270.0dip</dimen>
+    <dimen name="cube_dp_28">28.0dip</dimen>
+    <dimen name="cube_dp_280">280.0dip</dimen>
+    <dimen name="cube_dp_290">290.0dip</dimen>
+    <dimen name="cube_dp_3">3.0dip</dimen>
+    <dimen name="cube_dp_30">30.0dip</dimen>
+    <dimen name="cube_dp_300">300.0dip</dimen>
+    <dimen name="cube_dp_32">32.0dip</dimen>
+    <dimen name="cube_dp_320">320.0dip</dimen>
+    <dimen name="cube_dp_34">34.0dip</dimen>
+    <dimen name="cube_dp_340">340.0dip</dimen>
+    <dimen name="cube_dp_36">36.0dip</dimen>
+    <dimen name="cube_dp_360">360.0dip</dimen>
+    <dimen name="cube_dp_38">38.0dip</dimen>
+    <dimen name="cube_dp_4">4.0dip</dimen>
+    <dimen name="cube_dp_40">40.0dip</dimen>
+    <dimen name="cube_dp_400">400.0dip</dimen>
+    <dimen name="cube_dp_42">42.0dip</dimen>
+    <dimen name="cube_dp_44">44.0dip</dimen>
+    <dimen name="cube_dp_46">46.0dip</dimen>
+    <dimen name="cube_dp_48">48.0dip</dimen>
+    <dimen name="cube_dp_480">480.0dip</dimen>
+    <dimen name="cube_dp_5">5.0dip</dimen>
+    <dimen name="cube_dp_50">50.0dip</dimen>
+    <dimen name="cube_dp_500">500.0dip</dimen>
+    <dimen name="cube_dp_512">512.0dip</dimen>
+    <dimen name="cube_dp_52">52.0dip</dimen>
+    <dimen name="cube_dp_54">54.0dip</dimen>
+    <dimen name="cube_dp_56">56.0dip</dimen>
+    <dimen name="cube_dp_58">58.0dip</dimen>
+    <dimen name="cube_dp_6">6.0dip</dimen>
+    <dimen name="cube_dp_60">60.0dip</dimen>
+    <dimen name="cube_dp_600">600.0dip</dimen>
+    <dimen name="cube_dp_62">62.0dip</dimen>
+    <dimen name="cube_dp_64">64.0dip</dimen>
+    <dimen name="cube_dp_640">640.0dip</dimen>
+    <dimen name="cube_dp_66">66.0dip</dimen>
+    <dimen name="cube_dp_68">68.0dip</dimen>
+    <dimen name="cube_dp_7">7.0dip</dimen>
+    <dimen name="cube_dp_70">70.0dip</dimen>
+    <dimen name="cube_dp_700">700.0dip</dimen>
+    <dimen name="cube_dp_72">72.0dip</dimen>
+    <dimen name="cube_dp_720">720.0dip</dimen>
+    <dimen name="cube_dp_74">74.0dip</dimen>
+    <dimen name="cube_dp_76">76.0dip</dimen>
+    <dimen name="cube_dp_78">78.0dip</dimen>
+    <dimen name="cube_dp_8">8.0dip</dimen>
+    <dimen name="cube_dp_80">80.0dip</dimen>
+    <dimen name="cube_dp_800">800.0dip</dimen>
+    <dimen name="cube_dp_82">82.0dip</dimen>
+    <dimen name="cube_dp_84">84.0dip</dimen>
+    <dimen name="cube_dp_86">86.0dip</dimen>
+    <dimen name="cube_dp_88">88.0dip</dimen>
+    <dimen name="cube_dp_9">9.0dip</dimen>
+    <dimen name="cube_dp_90">90.0dip</dimen>
+    <dimen name="cube_dp_900">900.0dip</dimen>
+    <dimen name="cube_dp_92">92.0dip</dimen>
+    <dimen name="cube_dp_94">94.0dip</dimen>
+    <dimen name="cube_dp_96">96.0dip</dimen>
+    <dimen name="cube_dp_960">960.0dip</dimen>
+    <dimen name="cube_dp_98">98.0dip</dimen>
+    <dimen name="cube_dp_n_1">-1.0dip</dimen>
+    <dimen name="cube_dp_n_10">-10.0dip</dimen>
+    <dimen name="cube_dp_n_100">-100.0dip</dimen>
+    <dimen name="cube_dp_n_12">-12.0dip</dimen>
+    <dimen name="cube_dp_n_14">-14.0dip</dimen>
+    <dimen name="cube_dp_n_16">-16.0dip</dimen>
+    <dimen name="cube_dp_n_18">-18.0dip</dimen>
+    <dimen name="cube_dp_n_2">-2.0dip</dimen>
+    <dimen name="cube_dp_n_20">-20.0dip</dimen>
+    <dimen name="cube_dp_n_22">-22.0dip</dimen>
+    <dimen name="cube_dp_n_24">-24.0dip</dimen>
+    <dimen name="cube_dp_n_26">-26.0dip</dimen>
+    <dimen name="cube_dp_n_28">-28.0dip</dimen>
+    <dimen name="cube_dp_n_3">-3.0dip</dimen>
+    <dimen name="cube_dp_n_30">-30.0dip</dimen>
+    <dimen name="cube_dp_n_4">-4.0dip</dimen>
+    <dimen name="cube_dp_n_40">-40.0dip</dimen>
+    <dimen name="cube_dp_n_5">-5.0dip</dimen>
+    <dimen name="cube_dp_n_50">-50.0dip</dimen>
+    <dimen name="cube_dp_n_6">-6.0dip</dimen>
+    <dimen name="cube_dp_n_60">-60.0dip</dimen>
+    <dimen name="cube_dp_n_7">-7.0dip</dimen>
+    <dimen name="cube_dp_n_70">-70.0dip</dimen>
+    <dimen name="cube_dp_n_8">-8.0dip</dimen>
+    <dimen name="cube_dp_n_80">-80.0dip</dimen>
+    <dimen name="cube_dp_n_9">-9.0dip</dimen>
+    <dimen name="cube_dp_n_90">-90.0dip</dimen>
+    <item type="dimen" name="cube_space_0">@dimen/cube_dp_0</item>
+    <item type="dimen" name="cube_space_1">@dimen/cube_dp_1</item>
+    <item type="dimen" name="cube_space_10">@dimen/cube_dp_10</item>
+    <item type="dimen" name="cube_space_100">@dimen/cube_dp_100</item>
+    <item type="dimen" name="cube_space_12">@dimen/cube_dp_12</item>
+    <item type="dimen" name="cube_space_14">@dimen/cube_dp_14</item>
+    <item type="dimen" name="cube_space_16">@dimen/cube_dp_16</item>
+    <item type="dimen" name="cube_space_18">@dimen/cube_dp_18</item>
+    <item type="dimen" name="cube_space_2">@dimen/cube_dp_2</item>
+    <item type="dimen" name="cube_space_20">@dimen/cube_dp_20</item>
+    <item type="dimen" name="cube_space_22">@dimen/cube_dp_22</item>
+    <item type="dimen" name="cube_space_24">@dimen/cube_dp_24</item>
+    <item type="dimen" name="cube_space_26">@dimen/cube_dp_26</item>
+    <item type="dimen" name="cube_space_28">@dimen/cube_dp_28</item>
+    <item type="dimen" name="cube_space_3">@dimen/cube_dp_3</item>
+    <item type="dimen" name="cube_space_30">@dimen/cube_dp_30</item>
+    <item type="dimen" name="cube_space_32">@dimen/cube_dp_32</item>
+    <item type="dimen" name="cube_space_34">@dimen/cube_dp_34</item>
+    <item type="dimen" name="cube_space_36">@dimen/cube_dp_36</item>
+    <item type="dimen" name="cube_space_38">@dimen/cube_dp_38</item>
+    <item type="dimen" name="cube_space_4">@dimen/cube_dp_4</item>
+    <item type="dimen" name="cube_space_40">@dimen/cube_dp_40</item>
+    <item type="dimen" name="cube_space_42">@dimen/cube_dp_42</item>
+    <item type="dimen" name="cube_space_44">@dimen/cube_dp_44</item>
+    <item type="dimen" name="cube_space_46">@dimen/cube_dp_46</item>
+    <item type="dimen" name="cube_space_48">@dimen/cube_dp_48</item>
+    <item type="dimen" name="cube_space_5">@dimen/cube_dp_5</item>
+    <item type="dimen" name="cube_space_50">@dimen/cube_dp_50</item>
+    <item type="dimen" name="cube_space_52">@dimen/cube_dp_52</item>
+    <item type="dimen" name="cube_space_54">@dimen/cube_dp_54</item>
+    <item type="dimen" name="cube_space_56">@dimen/cube_dp_56</item>
+    <item type="dimen" name="cube_space_58">@dimen/cube_dp_58</item>
+    <item type="dimen" name="cube_space_6">@dimen/cube_dp_6</item>
+    <item type="dimen" name="cube_space_60">@dimen/cube_dp_60</item>
+    <item type="dimen" name="cube_space_62">@dimen/cube_dp_62</item>
+    <item type="dimen" name="cube_space_64">@dimen/cube_dp_64</item>
+    <item type="dimen" name="cube_space_66">@dimen/cube_dp_66</item>
+    <item type="dimen" name="cube_space_68">@dimen/cube_dp_68</item>
+    <item type="dimen" name="cube_space_7">@dimen/cube_dp_7</item>
+    <item type="dimen" name="cube_space_70">@dimen/cube_dp_70</item>
+    <item type="dimen" name="cube_space_72">@dimen/cube_dp_72</item>
+    <item type="dimen" name="cube_space_74">@dimen/cube_dp_74</item>
+    <item type="dimen" name="cube_space_76">@dimen/cube_dp_76</item>
+    <item type="dimen" name="cube_space_78">@dimen/cube_dp_78</item>
+    <item type="dimen" name="cube_space_8">@dimen/cube_dp_8</item>
+    <item type="dimen" name="cube_space_80">@dimen/cube_dp_80</item>
+    <item type="dimen" name="cube_space_82">@dimen/cube_dp_82</item>
+    <item type="dimen" name="cube_space_84">@dimen/cube_dp_84</item>
+    <item type="dimen" name="cube_space_86">@dimen/cube_dp_86</item>
+    <item type="dimen" name="cube_space_88">@dimen/cube_dp_88</item>
+    <item type="dimen" name="cube_space_9">@dimen/cube_dp_9</item>
+    <item type="dimen" name="cube_space_90">@dimen/cube_dp_90</item>
+    <item type="dimen" name="cube_space_92">@dimen/cube_dp_92</item>
+    <item type="dimen" name="cube_space_94">@dimen/cube_dp_94</item>
+    <item type="dimen" name="cube_space_96">@dimen/cube_dp_96</item>
+    <item type="dimen" name="cube_space_98">@dimen/cube_dp_98</item>
+    <dimen name="def_drawer_elevation">10.0dip</dimen>
+    <dimen name="default_gap">8.0dip</dimen>
+    <dimen name="design_appbar_elevation">4.0dip</dimen>
+    <dimen name="design_bottom_navigation_active_item_max_width">168.0dip</dimen>
+    <dimen name="design_bottom_navigation_active_item_min_width">96.0dip</dimen>
+    <dimen name="design_bottom_navigation_active_text_size">14.0sp</dimen>
+    <dimen name="design_bottom_navigation_elevation">8.0dip</dimen>
+    <dimen name="design_bottom_navigation_height">56.0dip</dimen>
+    <dimen name="design_bottom_navigation_icon_size">24.0dip</dimen>
+    <dimen name="design_bottom_navigation_item_max_width">96.0dip</dimen>
+    <dimen name="design_bottom_navigation_item_min_width">56.0dip</dimen>
+    <dimen name="design_bottom_navigation_label_padding">10.0dip</dimen>
+    <dimen name="design_bottom_navigation_margin">8.0dip</dimen>
+    <dimen name="design_bottom_navigation_shadow_height">1.0dip</dimen>
+    <dimen name="design_bottom_navigation_text_size">12.0sp</dimen>
+    <dimen name="design_bottom_sheet_elevation">8.0dip</dimen>
+    <dimen name="design_bottom_sheet_modal_elevation">16.0dip</dimen>
+    <dimen name="design_bottom_sheet_peek_height_min">64.0dip</dimen>
+    <dimen name="design_fab_border_width">0.5dip</dimen>
+    <dimen name="design_fab_elevation">6.0dip</dimen>
+    <dimen name="design_fab_image_size">24.0dip</dimen>
+    <dimen name="design_fab_size_mini">40.0dip</dimen>
+    <dimen name="design_fab_size_normal">56.0dip</dimen>
+    <dimen name="design_fab_translation_z_hovered_focused">6.0dip</dimen>
+    <dimen name="design_fab_translation_z_pressed">6.0dip</dimen>
+    <dimen name="design_navigation_elevation">16.0dip</dimen>
+    <dimen name="design_navigation_icon_padding">32.0dip</dimen>
+    <dimen name="design_navigation_icon_size">24.0dip</dimen>
+    <dimen name="design_navigation_item_horizontal_padding">16.0dip</dimen>
+    <dimen name="design_navigation_item_icon_padding">32.0dip</dimen>
+    <dimen name="design_navigation_item_vertical_padding">4.0dip</dimen>
+    <dimen name="design_navigation_max_width">280.0dip</dimen>
+    <dimen name="design_navigation_padding_bottom">8.0dip</dimen>
+    <dimen name="design_navigation_separator_vertical_padding">8.0dip</dimen>
+    <dimen name="design_snackbar_action_inline_max_width">128.0dip</dimen>
+    <item type="dimen" name="design_snackbar_action_text_color_alpha">1.0</item>
+    <dimen name="design_snackbar_background_corner_radius">0.0dip</dimen>
+    <dimen name="design_snackbar_elevation">6.0dip</dimen>
+    <dimen name="design_snackbar_extra_spacing_horizontal">0.0dip</dimen>
+    <dimen name="design_snackbar_max_width">-1.0px</dimen>
+    <dimen name="design_snackbar_min_width">-1.0px</dimen>
+    <dimen name="design_snackbar_padding_horizontal">12.0dip</dimen>
+    <dimen name="design_snackbar_padding_vertical">14.0dip</dimen>
+    <dimen name="design_snackbar_padding_vertical_2lines">16.0dip</dimen>
+    <dimen name="design_snackbar_text_size">14.0sp</dimen>
+    <dimen name="design_tab_max_width">264.0dip</dimen>
+    <dimen name="design_tab_scrollable_min_width">72.0dip</dimen>
+    <dimen name="design_tab_text_size">14.0sp</dimen>
+    <dimen name="design_tab_text_size_2line">12.0sp</dimen>
+    <dimen name="design_textinput_caption_translate_y">5.0dip</dimen>
+    <dimen name="detect_tips_text_size">20.0sp</dimen>
+    <dimen name="dev_update2_action_btn_hei">48.0dip</dimen>
+    <dimen name="dev_update2_actionbar_hei">44.0dip</dimen>
+    <dimen name="dev_update2_fm_detail_item_hei">56.0dip</dimen>
+    <dimen name="dev_update_action_btn_hei">48.0dip</dimen>
+    <dimen name="dev_update_actionbar_hei">44.0dip</dimen>
+    <dimen name="dev_update_fm_detail_item_hei">56.0dip</dimen>
+    <item type="dimen" name="devices_actionbar">@dimen/devices_actionbar_48</item>
+    <item type="dimen" name="devices_actionbar_48">@dimen/cube_dp_48</item>
+    <item type="dimen" name="devices_actionbar_56">@dimen/cube_dp_56</item>
+    <item type="dimen" name="devices_actionbar_64">@dimen/cube_dp_64</item>
+    <item type="dimen" name="devices_button_height">@dimen/devices_button_height_46</item>
+    <item type="dimen" name="devices_button_height_2">@dimen/cube_dp_2</item>
+    <item type="dimen" name="devices_button_height_30">@dimen/cube_dp_30</item>
+    <item type="dimen" name="devices_button_height_36">@dimen/cube_dp_36</item>
+    <item type="dimen" name="devices_button_height_4">@dimen/cube_dp_4</item>
+    <item type="dimen" name="devices_button_height_40">@dimen/cube_dp_40</item>
+    <item type="dimen" name="devices_button_height_44">@dimen/cube_dp_44</item>
+    <item type="dimen" name="devices_button_height_46">@dimen/cube_dp_46</item>
+    <item type="dimen" name="devices_button_height_48">@dimen/cube_dp_48</item>
+    <item type="dimen" name="devices_button_height_50">@dimen/cube_dp_50</item>
+    <item type="dimen" name="devices_button_height_60">@dimen/cube_dp_60</item>
+    <item type="dimen" name="devices_button_height_78">@dimen/cube_dp_78</item>
+    <item type="dimen" name="devices_divider">@dimen/cube_dp_0.5</item>
+    <item type="dimen" name="devices_divider_8">@dimen/cube_dp_8</item>
+    <item type="dimen" name="devices_dp_05">@dimen/cube_dp_0.5</item>
+    <item type="dimen" name="devices_dp_20">@dimen/cube_dp_20</item>
+    <item type="dimen" name="devices_item_height">@dimen/cube_dp_56</item>
+    <item type="dimen" name="devices_item_height_14">@dimen/cube_dp_14</item>
+    <item type="dimen" name="devices_item_height_16">@dimen/cube_dp_16</item>
+    <item type="dimen" name="devices_item_height_20">@dimen/cube_dp_20</item>
+    <item type="dimen" name="devices_item_height_24">@dimen/cube_dp_24</item>
+    <item type="dimen" name="devices_item_height_28">@dimen/cube_dp_28</item>
+    <item type="dimen" name="devices_item_height_30">@dimen/cube_dp_30</item>
+    <item type="dimen" name="devices_item_height_32">@dimen/cube_dp_32</item>
+    <item type="dimen" name="devices_item_height_34">@dimen/cube_dp_34</item>
+    <item type="dimen" name="devices_item_height_36">@dimen/cube_dp_36</item>
+    <item type="dimen" name="devices_item_height_40">@dimen/cube_dp_40</item>
+    <item type="dimen" name="devices_item_height_44">@dimen/cube_dp_44</item>
+    <item type="dimen" name="devices_item_height_52">@dimen/cube_dp_52</item>
+    <item type="dimen" name="devices_item_height_60">@dimen/cube_dp_60</item>
+    <item type="dimen" name="devices_item_height_64">@dimen/cube_dp_64</item>
+    <item type="dimen" name="devices_item_height_72">@dimen/cube_dp_72</item>
+    <item type="dimen" name="devices_item_height_76">@dimen/cube_dp_76</item>
+    <item type="dimen" name="devices_item_height_96">@dimen/cube_dp_96</item>
+    <item type="dimen" name="devices_map_bound_border">@dimen/devices_map_line_size_2</item>
+    <item type="dimen" name="devices_map_bound_border_split">@dimen/devices_map_line_size_2</item>
+    <dimen name="devices_map_line_size_1">1.0dip</dimen>
+    <dimen name="devices_map_line_size_2">2.0dip</dimen>
+    <dimen name="devices_map_line_size_3">3.0dip</dimen>
+    <dimen name="devices_map_line_size_4">4.0dip</dimen>
+    <item type="dimen" name="devices_map_obstacle_border">@dimen/devices_map_line_size_1</item>
+    <dimen name="devices_map_point_border">2.0dip</dimen>
+    <dimen name="devices_map_point_radius">2.0dip</dimen>
+    <dimen name="devices_map_point_radius_activated">3.0dip</dimen>
+    <dimen name="devices_map_point_radius_last">3.0dip</dimen>
+    <dimen name="devices_map_point_radius_path">4.0dip</dimen>
+    <dimen name="devices_map_point_radius_selected">5.0dip</dimen>
+    <item type="dimen" name="devices_map_route_border">@dimen/devices_map_line_size_2</item>
+    <item type="dimen" name="devices_map_spiral_border">@dimen/devices_map_line_size_1</item>
+    <dimen name="devices_map_text_shadow">1.0dip</dimen>
+    <dimen name="devices_map_text_size_1">8.0sp</dimen>
+    <dimen name="devices_map_text_size_2">10.0sp</dimen>
+    <dimen name="devices_map_text_size_3">12.0sp</dimen>
+    <dimen name="devices_map_text_size_4">14.0sp</dimen>
+    <item type="dimen" name="devices_map_unspray_border">@dimen/devices_map_line_size_1</item>
+    <item type="dimen" name="devices_margin">@dimen/devices_margin_16</item>
+    <item type="dimen" name="devices_margin_10">@dimen/cube_dp_10</item>
+    <item type="dimen" name="devices_margin_12">@dimen/cube_dp_12</item>
+    <item type="dimen" name="devices_margin_14">@dimen/cube_dp_14</item>
+    <item type="dimen" name="devices_margin_16">@dimen/cube_dp_16</item>
+    <item type="dimen" name="devices_margin_18">@dimen/cube_dp_18</item>
+    <item type="dimen" name="devices_margin_2">@dimen/cube_dp_2</item>
+    <item type="dimen" name="devices_margin_20">@dimen/cube_dp_20</item>
+    <item type="dimen" name="devices_margin_24">@dimen/cube_dp_24</item>
+    <item type="dimen" name="devices_margin_28">@dimen/cube_dp_28</item>
+    <item type="dimen" name="devices_margin_30">@dimen/cube_dp_30</item>
+    <item type="dimen" name="devices_margin_32">@dimen/cube_dp_32</item>
+    <item type="dimen" name="devices_margin_36">@dimen/cube_dp_36</item>
+    <item type="dimen" name="devices_margin_4">@dimen/cube_dp_4</item>
+    <item type="dimen" name="devices_margin_40">@dimen/cube_dp_40</item>
+    <item type="dimen" name="devices_margin_44">@dimen/cube_dp_44</item>
+    <item type="dimen" name="devices_margin_46">@dimen/cube_dp_46</item>
+    <item type="dimen" name="devices_margin_48">@dimen/cube_dp_48</item>
+    <item type="dimen" name="devices_margin_6">@dimen/cube_dp_6</item>
+    <item type="dimen" name="devices_margin_64">@dimen/cube_dp_64</item>
+    <item type="dimen" name="devices_margin_8">@dimen/cube_dp_8</item>
+    <item type="dimen" name="devices_padding">@dimen/devices_padding_12</item>
+    <item type="dimen" name="devices_padding_10">@dimen/cube_dp_10</item>
+    <item type="dimen" name="devices_padding_12">@dimen/cube_dp_12</item>
+    <item type="dimen" name="devices_padding_16">@dimen/cube_dp_16</item>
+    <item type="dimen" name="devices_padding_2">@dimen/cube_dp_2</item>
+    <item type="dimen" name="devices_padding_20">@dimen/cube_dp_20</item>
+    <item type="dimen" name="devices_padding_24">@dimen/cube_dp_24</item>
+    <item type="dimen" name="devices_padding_36">@dimen/cube_dp_36</item>
+    <item type="dimen" name="devices_padding_4">@dimen/cube_dp_4</item>
+    <item type="dimen" name="devices_padding_48">@dimen/cube_dp_48</item>
+    <item type="dimen" name="devices_padding_8">@dimen/cube_dp_8</item>
+    <item type="dimen" name="devices_radius">@dimen/devices_radius_4</item>
+    <item type="dimen" name="devices_radius_12">@dimen/cube_dp_12</item>
+    <item type="dimen" name="devices_radius_16">@dimen/cube_dp_16</item>
+    <item type="dimen" name="devices_radius_2">@dimen/cube_dp_2</item>
+    <item type="dimen" name="devices_radius_20">@dimen/cube_dp_20</item>
+    <item type="dimen" name="devices_radius_24">@dimen/cube_dp_24</item>
+    <item type="dimen" name="devices_radius_4">@dimen/cube_dp_2</item>
+    <item type="dimen" name="devices_radius_8">@dimen/cube_dp_8</item>
+    <item type="dimen" name="devices_text">@dimen/devices_text_size_14</item>
+    <item type="dimen" name="devices_text_size_10">@dimen/cube_dp_10</item>
+    <item type="dimen" name="devices_text_size_12">@dimen/cube_dp_12</item>
+    <item type="dimen" name="devices_text_size_14">@dimen/cube_dp_14</item>
+    <item type="dimen" name="devices_text_size_16">@dimen/cube_dp_16</item>
+    <item type="dimen" name="devices_text_size_18">@dimen/cube_dp_18</item>
+    <item type="dimen" name="devices_text_size_20">@dimen/cube_dp_20</item>
+    <item type="dimen" name="devices_text_size_24">@dimen/cube_dp_24</item>
+    <item type="dimen" name="devices_text_size_28">@dimen/cube_dp_28</item>
+    <item type="dimen" name="devices_text_size_32">@dimen/cube_dp_32</item>
+    <item type="dimen" name="devices_text_small">@dimen/devices_text_size_10</item>
+    <item type="dimen" name="devices_text_title">@dimen/devices_text_size_16</item>
+    <dimen name="dialog_content_margin_top">20.0sp</dimen>
+    <dimen name="dialog_content_text_size">14.0sp</dimen>
+    <dimen name="dialog_item_height">50.0dip</dimen>
+    <dimen name="dialog_line_margin_top">20.0dip</dimen>
+    <dimen name="dialog_text_size">18.0sp</dimen>
+    <dimen name="dimen_1">1.0dip</dimen>
+    <dimen name="dimen_2">2.0dip</dimen>
+    <dimen name="dimen_3">3.0dip</dimen>
+    <dimen name="dimen_5">5.0dip</dimen>
+    <dimen name="dimen_90">90.0dip</dimen>
+    <item type="dimen" name="disabled_alpha_material_dark">0.3</item>
+    <item type="dimen" name="disabled_alpha_material_light">0.26</item>
+    <item type="dimen" name="dp_10">@dimen/cube_dp_10</item>
+    <item type="dimen" name="dp_4">@dimen/cube_dp_4</item>
+    <item type="dimen" name="dp_40">@dimen/cube_dp_40</item>
+    <dimen name="face_bg_height">16.0dip</dimen>
+    <dimen name="face_bg_margin">4.5dip</dimen>
+    <dimen name="face_bg_width">53.0dip</dimen>
+    <dimen name="face_lib_px_0">0.0dip</dimen>
+    <dimen name="face_lib_px_1">0.41999996dip</dimen>
+    <dimen name="face_lib_px_10">4.169983dip</dimen>
+    <dimen name="face_lib_px_100">41.669983dip</dimen>
+    <dimen name="face_lib_px_1000">416.66406dip</dimen>
+    <dimen name="face_lib_px_1001">417.07812dip</dimen>
+    <dimen name="face_lib_px_1002">417.5dip</dimen>
+    <dimen name="face_lib_px_1003">417.91406dip</dimen>
+    <dimen name="face_lib_px_1004">418.32812dip</dimen>
+    <dimen name="face_lib_px_1005">418.75dip</dimen>
+    <dimen name="face_lib_px_1006">419.16406dip</dimen>
+    <dimen name="face_lib_px_1007">419.57812dip</dimen>
+    <dimen name="face_lib_px_1008">420.0dip</dimen>
+    <dimen name="face_lib_px_1009">420.41406dip</dimen>
+    <dimen name="face_lib_px_101">42.079987dip</dimen>
+    <dimen name="face_lib_px_1010">420.82812dip</dimen>
+    <dimen name="face_lib_px_1011">421.25dip</dimen>
+    <dimen name="face_lib_px_1012">421.66406dip</dimen>
+    <dimen name="face_lib_px_1013">422.07812dip</dimen>
+    <dimen name="face_lib_px_1014">422.5dip</dimen>
+    <dimen name="face_lib_px_1015">422.91406dip</dimen>
+    <dimen name="face_lib_px_1016">423.32812dip</dimen>
+    <dimen name="face_lib_px_1017">423.75dip</dimen>
+    <dimen name="face_lib_px_1018">424.16406dip</dimen>
+    <dimen name="face_lib_px_1019">424.57812dip</dimen>
+    <dimen name="face_lib_px_102">42.5dip</dimen>
+    <dimen name="face_lib_px_1020">425.0dip</dimen>
+    <dimen name="face_lib_px_1021">425.41406dip</dimen>
+    <dimen name="face_lib_px_1022">425.82812dip</dimen>
+    <dimen name="face_lib_px_1023">426.25dip</dimen>
+    <dimen name="face_lib_px_1024">426.66406dip</dimen>
+    <dimen name="face_lib_px_1025">427.07812dip</dimen>
+    <dimen name="face_lib_px_1026">427.5dip</dimen>
+    <dimen name="face_lib_px_1027">427.91406dip</dimen>
+    <dimen name="face_lib_px_1028">428.32812dip</dimen>
+    <dimen name="face_lib_px_1029">428.75dip</dimen>
+    <dimen name="face_lib_px_103">42.919983dip</dimen>
+    <dimen name="face_lib_px_1030">429.16406dip</dimen>
+    <dimen name="face_lib_px_1031">429.57812dip</dimen>
+    <dimen name="face_lib_px_1032">430.0dip</dimen>
+    <dimen name="face_lib_px_1033">430.41406dip</dimen>
+    <dimen name="face_lib_px_1034">430.82812dip</dimen>
+    <dimen name="face_lib_px_1035">431.25dip</dimen>
+    <dimen name="face_lib_px_1036">431.66406dip</dimen>
+    <dimen name="face_lib_px_1037">432.07812dip</dimen>
+    <dimen name="face_lib_px_1038">432.5dip</dimen>
+    <dimen name="face_lib_px_1039">432.91406dip</dimen>
+    <dimen name="face_lib_px_104">43.329987dip</dimen>
+    <dimen name="face_lib_px_1040">433.32812dip</dimen>
+    <dimen name="face_lib_px_1041">433.75dip</dimen>
+    <dimen name="face_lib_px_1042">434.16406dip</dimen>
+    <dimen name="face_lib_px_1043">434.57812dip</dimen>
+    <dimen name="face_lib_px_1044">435.0dip</dimen>
+    <dimen name="face_lib_px_1045">435.41406dip</dimen>
+    <dimen name="face_lib_px_1046">435.82812dip</dimen>
+    <dimen name="face_lib_px_1047">436.25dip</dimen>
+    <dimen name="face_lib_px_1048">436.66406dip</dimen>
+    <dimen name="face_lib_px_1049">437.07812dip</dimen>
+    <dimen name="face_lib_px_105">43.75dip</dimen>
+    <dimen name="face_lib_px_1050">437.5dip</dimen>
+    <dimen name="face_lib_px_1051">437.91406dip</dimen>
+    <dimen name="face_lib_px_1052">438.32812dip</dimen>
+    <dimen name="face_lib_px_1053">438.75dip</dimen>
+    <dimen name="face_lib_px_1054">439.16406dip</dimen>
+    <dimen name="face_lib_px_1055">439.57812dip</dimen>
+    <dimen name="face_lib_px_1056">440.0dip</dimen>
+    <dimen name="face_lib_px_1057">440.41406dip</dimen>
+    <dimen name="face_lib_px_1058">440.82812dip</dimen>
+    <dimen name="face_lib_px_1059">441.25dip</dimen>
+    <dimen name="face_lib_px_106">44.169983dip</dimen>
+    <dimen name="face_lib_px_1060">441.66406dip</dimen>
+    <dimen name="face_lib_px_1061">442.07812dip</dimen>
+    <dimen name="face_lib_px_1062">442.5dip</dimen>
+    <dimen name="face_lib_px_1063">442.91406dip</dimen>
+    <dimen name="face_lib_px_1064">443.32812dip</dimen>
+    <dimen name="face_lib_px_1065">443.75dip</dimen>
+    <dimen name="face_lib_px_1066">444.16406dip</dimen>
+    <dimen name="face_lib_px_1067">444.57812dip</dimen>
+    <dimen name="face_lib_px_1068">445.0dip</dimen>
+    <dimen name="face_lib_px_1069">445.41406dip</dimen>
+    <dimen name="face_lib_px_107">44.579987dip</dimen>
+    <dimen name="face_lib_px_1070">445.82812dip</dimen>
+    <dimen name="face_lib_px_1071">446.25dip</dimen>
+    <dimen name="face_lib_px_1072">446.66406dip</dimen>
+    <dimen name="face_lib_px_1073">447.07812dip</dimen>
+    <dimen name="face_lib_px_1074">447.5dip</dimen>
+    <dimen name="face_lib_px_1075">447.91406dip</dimen>
+    <dimen name="face_lib_px_1076">448.32812dip</dimen>
+    <dimen name="face_lib_px_1077">448.75dip</dimen>
+    <dimen name="face_lib_px_1078">449.16406dip</dimen>
+    <dimen name="face_lib_px_1079">449.57812dip</dimen>
+    <dimen name="face_lib_px_108">45.0dip</dimen>
+    <dimen name="face_lib_px_1080">450.0dip</dimen>
+    <dimen name="face_lib_px_1081">450.41406dip</dimen>
+    <dimen name="face_lib_px_1082">450.82812dip</dimen>
+    <dimen name="face_lib_px_1083">451.25dip</dimen>
+    <dimen name="face_lib_px_1084">451.66406dip</dimen>
+    <dimen name="face_lib_px_1085">452.07812dip</dimen>
+    <dimen name="face_lib_px_1086">452.5dip</dimen>
+    <dimen name="face_lib_px_1087">452.91406dip</dimen>
+    <dimen name="face_lib_px_1088">453.32812dip</dimen>
+    <dimen name="face_lib_px_1089">453.75dip</dimen>
+    <dimen name="face_lib_px_109">45.419983dip</dimen>
+    <dimen name="face_lib_px_1090">454.16406dip</dimen>
+    <dimen name="face_lib_px_1091">454.57812dip</dimen>
+    <dimen name="face_lib_px_1092">455.0dip</dimen>
+    <dimen name="face_lib_px_1093">455.41406dip</dimen>
+    <dimen name="face_lib_px_1094">455.82812dip</dimen>
+    <dimen name="face_lib_px_1095">456.25dip</dimen>
+    <dimen name="face_lib_px_1096">456.66406dip</dimen>
+    <dimen name="face_lib_px_1097">457.07812dip</dimen>
+    <dimen name="face_lib_px_1098">457.5dip</dimen>
+    <dimen name="face_lib_px_1099">457.91406dip</dimen>
+    <dimen name="face_lib_px_11">4.5799866dip</dimen>
+    <dimen name="face_lib_px_110">45.829987dip</dimen>
+    <dimen name="face_lib_px_1100">458.32812dip</dimen>
+    <dimen name="face_lib_px_1101">458.75dip</dimen>
+    <dimen name="face_lib_px_1102">459.16406dip</dimen>
+    <dimen name="face_lib_px_1103">459.57812dip</dimen>
+    <dimen name="face_lib_px_1104">460.0dip</dimen>
+    <dimen name="face_lib_px_1105">460.41406dip</dimen>
+    <dimen name="face_lib_px_1106">460.82812dip</dimen>
+    <dimen name="face_lib_px_1107">461.25dip</dimen>
+    <dimen name="face_lib_px_1108">461.66406dip</dimen>
+    <dimen name="face_lib_px_1109">462.07812dip</dimen>
+    <dimen name="face_lib_px_111">46.25dip</dimen>
+    <dimen name="face_lib_px_1110">462.5dip</dimen>
+    <dimen name="face_lib_px_1111">462.91406dip</dimen>
+    <dimen name="face_lib_px_1112">463.32812dip</dimen>
+    <dimen name="face_lib_px_1113">463.75dip</dimen>
+    <dimen name="face_lib_px_1114">464.16406dip</dimen>
+    <dimen name="face_lib_px_1115">464.57812dip</dimen>
+    <dimen name="face_lib_px_1116">465.0dip</dimen>
+    <dimen name="face_lib_px_1117">465.41406dip</dimen>
+    <dimen name="face_lib_px_1118">465.82812dip</dimen>
+    <dimen name="face_lib_px_1119">466.25dip</dimen>
+    <dimen name="face_lib_px_112">46.669983dip</dimen>
+    <dimen name="face_lib_px_1120">466.66406dip</dimen>
+    <dimen name="face_lib_px_1121">467.07812dip</dimen>
+    <dimen name="face_lib_px_1122">467.5dip</dimen>
+    <dimen name="face_lib_px_1123">467.91406dip</dimen>
+    <dimen name="face_lib_px_1124">468.32812dip</dimen>
+    <dimen name="face_lib_px_1125">468.75dip</dimen>
+    <dimen name="face_lib_px_1126">469.16406dip</dimen>
+    <dimen name="face_lib_px_1127">469.57812dip</dimen>
+    <dimen name="face_lib_px_1128">470.0dip</dimen>
+    <dimen name="face_lib_px_1129">470.41406dip</dimen>
+    <dimen name="face_lib_px_113">47.079987dip</dimen>
+    <dimen name="face_lib_px_1130">470.82812dip</dimen>
+    <dimen name="face_lib_px_1131">471.25dip</dimen>
+    <dimen name="face_lib_px_1132">471.66406dip</dimen>
+    <dimen name="face_lib_px_1133">472.07812dip</dimen>
+    <dimen name="face_lib_px_1134">472.5dip</dimen>
+    <dimen name="face_lib_px_1135">472.91406dip</dimen>
+    <dimen name="face_lib_px_1136">473.32812dip</dimen>
+    <dimen name="face_lib_px_1137">473.75dip</dimen>
+    <dimen name="face_lib_px_1138">474.16406dip</dimen>
+    <dimen name="face_lib_px_1139">474.57812dip</dimen>
+    <dimen name="face_lib_px_114">47.5dip</dimen>
+    <dimen name="face_lib_px_1140">475.0dip</dimen>
+    <dimen name="face_lib_px_1141">475.41406dip</dimen>
+    <dimen name="face_lib_px_1142">475.82812dip</dimen>
+    <dimen name="face_lib_px_1143">476.25dip</dimen>
+    <dimen name="face_lib_px_1144">476.66406dip</dimen>
+    <dimen name="face_lib_px_1145">477.07812dip</dimen>
+    <dimen name="face_lib_px_1146">477.5dip</dimen>
+    <dimen name="face_lib_px_1147">477.91406dip</dimen>
+    <dimen name="face_lib_px_1148">478.32812dip</dimen>
+    <dimen name="face_lib_px_1149">478.75dip</dimen>
+    <dimen name="face_lib_px_115">47.919983dip</dimen>
+    <dimen name="face_lib_px_1150">479.16406dip</dimen>
+    <dimen name="face_lib_px_1151">479.57812dip</dimen>
+    <dimen name="face_lib_px_1152">480.0dip</dimen>
+    <dimen name="face_lib_px_1153">480.41406dip</dimen>
+    <dimen name="face_lib_px_1154">480.82812dip</dimen>
+    <dimen name="face_lib_px_1155">481.25dip</dimen>
+    <dimen name="face_lib_px_1156">481.66406dip</dimen>
+    <dimen name="face_lib_px_1157">482.07812dip</dimen>
+    <dimen name="face_lib_px_1158">482.5dip</dimen>
+    <dimen name="face_lib_px_1159">482.91406dip</dimen>
+    <dimen name="face_lib_px_116">48.329987dip</dimen>
+    <dimen name="face_lib_px_1160">483.32812dip</dimen>
+    <dimen name="face_lib_px_1161">483.75dip</dimen>
+    <dimen name="face_lib_px_1162">484.16406dip</dimen>
+    <dimen name="face_lib_px_1163">484.57812dip</dimen>
+    <dimen name="face_lib_px_1164">485.0dip</dimen>
+    <dimen name="face_lib_px_1165">485.41406dip</dimen>
+    <dimen name="face_lib_px_1166">485.82812dip</dimen>
+    <dimen name="face_lib_px_1167">486.25dip</dimen>
+    <dimen name="face_lib_px_1168">486.66406dip</dimen>
+    <dimen name="face_lib_px_1169">487.07812dip</dimen>
+    <dimen name="face_lib_px_117">48.75dip</dimen>
+    <dimen name="face_lib_px_1170">487.5dip</dimen>
+    <dimen name="face_lib_px_1171">487.91406dip</dimen>
+    <dimen name="face_lib_px_1172">488.32812dip</dimen>
+    <dimen name="face_lib_px_1173">488.75dip</dimen>
+    <dimen name="face_lib_px_1174">489.16406dip</dimen>
+    <dimen name="face_lib_px_1175">489.57812dip</dimen>
+    <dimen name="face_lib_px_1176">490.0dip</dimen>
+    <dimen name="face_lib_px_1177">490.41406dip</dimen>
+    <dimen name="face_lib_px_1178">490.82812dip</dimen>
+    <dimen name="face_lib_px_1179">491.25dip</dimen>
+    <dimen name="face_lib_px_118">49.169983dip</dimen>
+    <dimen name="face_lib_px_1180">491.66406dip</dimen>
+    <dimen name="face_lib_px_1181">492.07812dip</dimen>
+    <dimen name="face_lib_px_1182">492.5dip</dimen>
+    <dimen name="face_lib_px_1183">492.91406dip</dimen>
+    <dimen name="face_lib_px_1184">493.32812dip</dimen>
+    <dimen name="face_lib_px_1185">493.75dip</dimen>
+    <dimen name="face_lib_px_1186">494.16406dip</dimen>
+    <dimen name="face_lib_px_1187">494.57812dip</dimen>
+    <dimen name="face_lib_px_1188">495.0dip</dimen>
+    <dimen name="face_lib_px_1189">495.41406dip</dimen>
+    <dimen name="face_lib_px_119">49.579987dip</dimen>
+    <dimen name="face_lib_px_1190">495.82812dip</dimen>
+    <dimen name="face_lib_px_1191">496.25dip</dimen>
+    <dimen name="face_lib_px_1192">496.66406dip</dimen>
+    <dimen name="face_lib_px_1193">497.07812dip</dimen>
+    <dimen name="face_lib_px_1194">497.5dip</dimen>
+    <dimen name="face_lib_px_1195">497.91406dip</dimen>
+    <dimen name="face_lib_px_1196">498.32812dip</dimen>
+    <dimen name="face_lib_px_1197">498.75dip</dimen>
+    <dimen name="face_lib_px_1198">499.16406dip</dimen>
+    <dimen name="face_lib_px_1199">499.57812dip</dimen>
+    <dimen name="face_lib_px_12">5.0dip</dimen>
+    <dimen name="face_lib_px_120">50.0dip</dimen>
+    <dimen name="face_lib_px_1200">500.0dip</dimen>
+    <dimen name="face_lib_px_1201">500.41406dip</dimen>
+    <dimen name="face_lib_px_1202">500.82812dip</dimen>
+    <dimen name="face_lib_px_1203">501.25dip</dimen>
+    <dimen name="face_lib_px_1204">501.66406dip</dimen>
+    <dimen name="face_lib_px_1205">502.07812dip</dimen>
+    <dimen name="face_lib_px_1206">502.5dip</dimen>
+    <dimen name="face_lib_px_1207">502.91406dip</dimen>
+    <dimen name="face_lib_px_1208">503.32812dip</dimen>
+    <dimen name="face_lib_px_1209">503.75dip</dimen>
+    <dimen name="face_lib_px_121">50.419983dip</dimen>
+    <dimen name="face_lib_px_1210">504.16406dip</dimen>
+    <dimen name="face_lib_px_1211">504.57812dip</dimen>
+    <dimen name="face_lib_px_1212">505.0dip</dimen>
+    <dimen name="face_lib_px_1213">505.41406dip</dimen>
+    <dimen name="face_lib_px_1214">505.82812dip</dimen>
+    <dimen name="face_lib_px_1215">506.25dip</dimen>
+    <dimen name="face_lib_px_1216">506.66406dip</dimen>
+    <dimen name="face_lib_px_1217">507.07812dip</dimen>
+    <dimen name="face_lib_px_1218">507.5dip</dimen>
+    <dimen name="face_lib_px_1219">507.91406dip</dimen>
+    <dimen name="face_lib_px_122">50.829987dip</dimen>
+    <dimen name="face_lib_px_1220">508.32812dip</dimen>
+    <dimen name="face_lib_px_1221">508.75dip</dimen>
+    <dimen name="face_lib_px_1222">509.16406dip</dimen>
+    <dimen name="face_lib_px_1223">509.57812dip</dimen>
+    <dimen name="face_lib_px_1224">510.0dip</dimen>
+    <dimen name="face_lib_px_1225">510.41406dip</dimen>
+    <dimen name="face_lib_px_1226">510.82812dip</dimen>
+    <dimen name="face_lib_px_1227">511.25dip</dimen>
+    <dimen name="face_lib_px_1228">511.66406dip</dimen>
+    <dimen name="face_lib_px_1229">512.0781dip</dimen>
+    <dimen name="face_lib_px_123">51.25dip</dimen>
+    <dimen name="face_lib_px_1230">512.5dip</dimen>
+    <dimen name="face_lib_px_1231">512.91406dip</dimen>
+    <dimen name="face_lib_px_1232">513.3281dip</dimen>
+    <dimen name="face_lib_px_1233">513.75dip</dimen>
+    <dimen name="face_lib_px_1234">514.16406dip</dimen>
+    <dimen name="face_lib_px_1235">514.5781dip</dimen>
+    <dimen name="face_lib_px_1236">515.0dip</dimen>
+    <dimen name="face_lib_px_1237">515.41406dip</dimen>
+    <dimen name="face_lib_px_1238">515.8281dip</dimen>
+    <dimen name="face_lib_px_1239">516.25dip</dimen>
+    <dimen name="face_lib_px_124">51.669983dip</dimen>
+    <dimen name="face_lib_px_1240">516.66406dip</dimen>
+    <dimen name="face_lib_px_1241">517.0781dip</dimen>
+    <dimen name="face_lib_px_1242">517.5dip</dimen>
+    <dimen name="face_lib_px_1243">517.91406dip</dimen>
+    <dimen name="face_lib_px_1244">518.3281dip</dimen>
+    <dimen name="face_lib_px_1245">518.75dip</dimen>
+    <dimen name="face_lib_px_1246">519.16406dip</dimen>
+    <dimen name="face_lib_px_1247">519.5781dip</dimen>
+    <dimen name="face_lib_px_1248">520.0dip</dimen>
+    <dimen name="face_lib_px_1249">520.41406dip</dimen>
+    <dimen name="face_lib_px_125">52.079987dip</dimen>
+    <dimen name="face_lib_px_1250">520.8281dip</dimen>
+    <dimen name="face_lib_px_1251">521.25dip</dimen>
+    <dimen name="face_lib_px_1252">521.66406dip</dimen>
+    <dimen name="face_lib_px_1253">522.0781dip</dimen>
+    <dimen name="face_lib_px_1254">522.5dip</dimen>
+    <dimen name="face_lib_px_1255">522.91406dip</dimen>
+    <dimen name="face_lib_px_1256">523.3281dip</dimen>
+    <dimen name="face_lib_px_1257">523.75dip</dimen>
+    <dimen name="face_lib_px_1258">524.16406dip</dimen>
+    <dimen name="face_lib_px_1259">524.5781dip</dimen>
+    <dimen name="face_lib_px_126">52.5dip</dimen>
+    <dimen name="face_lib_px_1260">525.0dip</dimen>
+    <dimen name="face_lib_px_1261">525.41406dip</dimen>
+    <dimen name="face_lib_px_1262">525.8281dip</dimen>
+    <dimen name="face_lib_px_1263">526.25dip</dimen>
+    <dimen name="face_lib_px_1264">526.66406dip</dimen>
+    <dimen name="face_lib_px_1265">527.0781dip</dimen>
+    <dimen name="face_lib_px_1266">527.5dip</dimen>
+    <dimen name="face_lib_px_1267">527.91406dip</dimen>
+    <dimen name="face_lib_px_1268">528.3281dip</dimen>
+    <dimen name="face_lib_px_1269">528.75dip</dimen>
+    <dimen name="face_lib_px_127">52.919983dip</dimen>
+    <dimen name="face_lib_px_1270">529.16406dip</dimen>
+    <dimen name="face_lib_px_1271">529.5781dip</dimen>
+    <dimen name="face_lib_px_1272">530.0dip</dimen>
+    <dimen name="face_lib_px_1273">530.41406dip</dimen>
+    <dimen name="face_lib_px_1274">530.8281dip</dimen>
+    <dimen name="face_lib_px_1275">531.25dip</dimen>
+    <dimen name="face_lib_px_1276">531.66406dip</dimen>
+    <dimen name="face_lib_px_1277">532.0781dip</dimen>
+    <dimen name="face_lib_px_1278">532.5dip</dimen>
+    <dimen name="face_lib_px_1279">532.91406dip</dimen>
+    <dimen name="face_lib_px_128">53.329987dip</dimen>
+    <dimen name="face_lib_px_1280">533.3281dip</dimen>
+    <dimen name="face_lib_px_129">53.75dip</dimen>
+    <dimen name="face_lib_px_13">5.419983dip</dimen>
+    <dimen name="face_lib_px_130">54.169983dip</dimen>
+    <dimen name="face_lib_px_131">54.579987dip</dimen>
+    <dimen name="face_lib_px_132">55.0dip</dimen>
+    <dimen name="face_lib_px_133">55.419983dip</dimen>
+    <dimen name="face_lib_px_134">55.829987dip</dimen>
+    <dimen name="face_lib_px_135">56.25dip</dimen>
+    <dimen name="face_lib_px_136">56.669983dip</dimen>
+    <dimen name="face_lib_px_137">57.079987dip</dimen>
+    <dimen name="face_lib_px_138">57.5dip</dimen>
+    <dimen name="face_lib_px_139">57.919983dip</dimen>
+    <dimen name="face_lib_px_14">5.8299866dip</dimen>
+    <dimen name="face_lib_px_140">58.329987dip</dimen>
+    <dimen name="face_lib_px_141">58.75dip</dimen>
+    <dimen name="face_lib_px_142">59.169983dip</dimen>
+    <dimen name="face_lib_px_143">59.579987dip</dimen>
+    <dimen name="face_lib_px_144">60.0dip</dimen>
+    <dimen name="face_lib_px_145">60.419983dip</dimen>
+    <dimen name="face_lib_px_146">60.829987dip</dimen>
+    <dimen name="face_lib_px_147">61.25dip</dimen>
+    <dimen name="face_lib_px_148">61.669983dip</dimen>
+    <dimen name="face_lib_px_149">62.079987dip</dimen>
+    <dimen name="face_lib_px_15">6.25dip</dimen>
+    <dimen name="face_lib_px_150">62.5dip</dimen>
+    <dimen name="face_lib_px_151">62.919983dip</dimen>
+    <dimen name="face_lib_px_152">63.329987dip</dimen>
+    <dimen name="face_lib_px_153">63.75dip</dimen>
+    <dimen name="face_lib_px_154">64.16998dip</dimen>
+    <dimen name="face_lib_px_155">64.57999dip</dimen>
+    <dimen name="face_lib_px_156">65.0dip</dimen>
+    <dimen name="face_lib_px_157">65.41998dip</dimen>
+    <dimen name="face_lib_px_158">65.82999dip</dimen>
+    <dimen name="face_lib_px_159">66.25dip</dimen>
+    <dimen name="face_lib_px_16">6.669983dip</dimen>
+    <dimen name="face_lib_px_160">66.66998dip</dimen>
+    <dimen name="face_lib_px_161">67.07999dip</dimen>
+    <dimen name="face_lib_px_162">67.5dip</dimen>
+    <dimen name="face_lib_px_163">67.91998dip</dimen>
+    <dimen name="face_lib_px_164">68.32999dip</dimen>
+    <dimen name="face_lib_px_165">68.75dip</dimen>
+    <dimen name="face_lib_px_166">69.16998dip</dimen>
+    <dimen name="face_lib_px_167">69.57999dip</dimen>
+    <dimen name="face_lib_px_168">70.0dip</dimen>
+    <dimen name="face_lib_px_169">70.41998dip</dimen>
+    <dimen name="face_lib_px_17">7.0799866dip</dimen>
+    <dimen name="face_lib_px_170">70.82999dip</dimen>
+    <dimen name="face_lib_px_171">71.25dip</dimen>
+    <dimen name="face_lib_px_172">71.66998dip</dimen>
+    <dimen name="face_lib_px_173">72.07999dip</dimen>
+    <dimen name="face_lib_px_174">72.5dip</dimen>
+    <dimen name="face_lib_px_175">72.91998dip</dimen>
+    <dimen name="face_lib_px_176">73.32999dip</dimen>
+    <dimen name="face_lib_px_177">73.75dip</dimen>
+    <dimen name="face_lib_px_178">74.16998dip</dimen>
+    <dimen name="face_lib_px_179">74.57999dip</dimen>
+    <dimen name="face_lib_px_18">7.5dip</dimen>
+    <dimen name="face_lib_px_180">75.0dip</dimen>
+    <dimen name="face_lib_px_181">75.41998dip</dimen>
+    <dimen name="face_lib_px_182">75.82999dip</dimen>
+    <dimen name="face_lib_px_183">76.25dip</dimen>
+    <dimen name="face_lib_px_184">76.66998dip</dimen>
+    <dimen name="face_lib_px_185">77.07999dip</dimen>
+    <dimen name="face_lib_px_186">77.5dip</dimen>
+    <dimen name="face_lib_px_187">77.91998dip</dimen>
+    <dimen name="face_lib_px_188">78.32999dip</dimen>
+    <dimen name="face_lib_px_189">78.75dip</dimen>
+    <dimen name="face_lib_px_19">7.919983dip</dimen>
+    <dimen name="face_lib_px_190">79.16998dip</dimen>
+    <dimen name="face_lib_px_191">79.57999dip</dimen>
+    <dimen name="face_lib_px_192">80.0dip</dimen>
+    <dimen name="face_lib_px_193">80.41998dip</dimen>
+    <dimen name="face_lib_px_194">80.82999dip</dimen>
+    <dimen name="face_lib_px_195">81.25dip</dimen>
+    <dimen name="face_lib_px_196">81.66998dip</dimen>
+    <dimen name="face_lib_px_197">82.07999dip</dimen>
+    <dimen name="face_lib_px_198">82.5dip</dimen>
+    <dimen name="face_lib_px_199">82.91998dip</dimen>
+    <dimen name="face_lib_px_2">0.83000004dip</dimen>
+    <dimen name="face_lib_px_20">8.329987dip</dimen>
+    <dimen name="face_lib_px_200">83.32999dip</dimen>
+    <dimen name="face_lib_px_201">83.75dip</dimen>
+    <dimen name="face_lib_px_202">84.16998dip</dimen>
+    <dimen name="face_lib_px_203">84.57999dip</dimen>
+    <dimen name="face_lib_px_204">85.0dip</dimen>
+    <dimen name="face_lib_px_205">85.41998dip</dimen>
+    <dimen name="face_lib_px_206">85.82999dip</dimen>
+    <dimen name="face_lib_px_207">86.25dip</dimen>
+    <dimen name="face_lib_px_208">86.66998dip</dimen>
+    <dimen name="face_lib_px_209">87.07999dip</dimen>
+    <dimen name="face_lib_px_21">8.75dip</dimen>
+    <dimen name="face_lib_px_210">87.5dip</dimen>
+    <dimen name="face_lib_px_211">87.91998dip</dimen>
+    <dimen name="face_lib_px_212">88.32999dip</dimen>
+    <dimen name="face_lib_px_213">88.75dip</dimen>
+    <dimen name="face_lib_px_214">89.16998dip</dimen>
+    <dimen name="face_lib_px_215">89.57999dip</dimen>
+    <dimen name="face_lib_px_216">90.0dip</dimen>
+    <dimen name="face_lib_px_217">90.41998dip</dimen>
+    <dimen name="face_lib_px_218">90.82999dip</dimen>
+    <dimen name="face_lib_px_219">91.25dip</dimen>
+    <dimen name="face_lib_px_22">9.169983dip</dimen>
+    <dimen name="face_lib_px_220">91.66998dip</dimen>
+    <dimen name="face_lib_px_221">92.07999dip</dimen>
+    <dimen name="face_lib_px_222">92.5dip</dimen>
+    <dimen name="face_lib_px_223">92.91998dip</dimen>
+    <dimen name="face_lib_px_224">93.32999dip</dimen>
+    <dimen name="face_lib_px_225">93.75dip</dimen>
+    <dimen name="face_lib_px_226">94.16998dip</dimen>
+    <dimen name="face_lib_px_227">94.57999dip</dimen>
+    <dimen name="face_lib_px_228">95.0dip</dimen>
+    <dimen name="face_lib_px_229">95.41998dip</dimen>
+    <dimen name="face_lib_px_23">9.579987dip</dimen>
+    <dimen name="face_lib_px_230">95.82999dip</dimen>
+    <dimen name="face_lib_px_231">96.25dip</dimen>
+    <dimen name="face_lib_px_232">96.66998dip</dimen>
+    <dimen name="face_lib_px_233">97.07999dip</dimen>
+    <dimen name="face_lib_px_234">97.5dip</dimen>
+    <dimen name="face_lib_px_235">97.91998dip</dimen>
+    <dimen name="face_lib_px_236">98.32999dip</dimen>
+    <dimen name="face_lib_px_237">98.75dip</dimen>
+    <dimen name="face_lib_px_238">99.16998dip</dimen>
+    <dimen name="face_lib_px_239">99.57999dip</dimen>
+    <dimen name="face_lib_px_24">10.0dip</dimen>
+    <dimen name="face_lib_px_240">100.0dip</dimen>
+    <dimen name="face_lib_px_241">100.41998dip</dimen>
+    <dimen name="face_lib_px_242">100.82999dip</dimen>
+    <dimen name="face_lib_px_243">101.25dip</dimen>
+    <dimen name="face_lib_px_244">101.66998dip</dimen>
+    <dimen name="face_lib_px_245">102.07999dip</dimen>
+    <dimen name="face_lib_px_246">102.5dip</dimen>
+    <dimen name="face_lib_px_247">102.91998dip</dimen>
+    <dimen name="face_lib_px_248">103.32999dip</dimen>
+    <dimen name="face_lib_px_249">103.75dip</dimen>
+    <dimen name="face_lib_px_25">10.419983dip</dimen>
+    <dimen name="face_lib_px_250">104.16998dip</dimen>
+    <dimen name="face_lib_px_251">104.57999dip</dimen>
+    <dimen name="face_lib_px_252">105.0dip</dimen>
+    <dimen name="face_lib_px_253">105.41998dip</dimen>
+    <dimen name="face_lib_px_254">105.82999dip</dimen>
+    <dimen name="face_lib_px_255">106.25dip</dimen>
+    <dimen name="face_lib_px_256">106.66998dip</dimen>
+    <dimen name="face_lib_px_257">107.07999dip</dimen>
+    <dimen name="face_lib_px_258">107.5dip</dimen>
+    <dimen name="face_lib_px_259">107.91998dip</dimen>
+    <dimen name="face_lib_px_26">10.829987dip</dimen>
+    <dimen name="face_lib_px_260">108.32999dip</dimen>
+    <dimen name="face_lib_px_261">108.75dip</dimen>
+    <dimen name="face_lib_px_262">109.16998dip</dimen>
+    <dimen name="face_lib_px_263">109.57999dip</dimen>
+    <dimen name="face_lib_px_264">110.0dip</dimen>
+    <dimen name="face_lib_px_265">110.41998dip</dimen>
+    <dimen name="face_lib_px_266">110.82999dip</dimen>
+    <dimen name="face_lib_px_267">111.25dip</dimen>
+    <dimen name="face_lib_px_268">111.66998dip</dimen>
+    <dimen name="face_lib_px_269">112.07999dip</dimen>
+    <dimen name="face_lib_px_27">11.25dip</dimen>
+    <dimen name="face_lib_px_270">112.5dip</dimen>
+    <dimen name="face_lib_px_271">112.91998dip</dimen>
+    <dimen name="face_lib_px_272">113.32999dip</dimen>
+    <dimen name="face_lib_px_273">113.75dip</dimen>
+    <dimen name="face_lib_px_274">114.16998dip</dimen>
+    <dimen name="face_lib_px_275">114.57999dip</dimen>
+    <dimen name="face_lib_px_276">115.0dip</dimen>
+    <dimen name="face_lib_px_277">115.41998dip</dimen>
+    <dimen name="face_lib_px_278">115.82999dip</dimen>
+    <dimen name="face_lib_px_279">116.25dip</dimen>
+    <dimen name="face_lib_px_28">11.669983dip</dimen>
+    <dimen name="face_lib_px_280">116.66998dip</dimen>
+    <dimen name="face_lib_px_281">117.07999dip</dimen>
+    <dimen name="face_lib_px_282">117.5dip</dimen>
+    <dimen name="face_lib_px_283">117.91998dip</dimen>
+    <dimen name="face_lib_px_284">118.32999dip</dimen>
+    <dimen name="face_lib_px_285">118.75dip</dimen>
+    <dimen name="face_lib_px_286">119.16998dip</dimen>
+    <dimen name="face_lib_px_287">119.57999dip</dimen>
+    <dimen name="face_lib_px_288">120.0dip</dimen>
+    <dimen name="face_lib_px_289">120.41998dip</dimen>
+    <dimen name="face_lib_px_29">12.079987dip</dimen>
+    <dimen name="face_lib_px_290">120.82999dip</dimen>
+    <dimen name="face_lib_px_291">121.25dip</dimen>
+    <dimen name="face_lib_px_292">121.66998dip</dimen>
+    <dimen name="face_lib_px_293">122.07999dip</dimen>
+    <dimen name="face_lib_px_294">122.5dip</dimen>
+    <dimen name="face_lib_px_295">122.91998dip</dimen>
+    <dimen name="face_lib_px_296">123.32999dip</dimen>
+    <dimen name="face_lib_px_297">123.75dip</dimen>
+    <dimen name="face_lib_px_298">124.16998dip</dimen>
+    <dimen name="face_lib_px_299">124.57999dip</dimen>
+    <dimen name="face_lib_px_3">1.25dip</dimen>
+    <dimen name="face_lib_px_30">12.5dip</dimen>
+    <dimen name="face_lib_px_300">125.0dip</dimen>
+    <dimen name="face_lib_px_301">125.41998dip</dimen>
+    <dimen name="face_lib_px_302">125.82999dip</dimen>
+    <dimen name="face_lib_px_303">126.25dip</dimen>
+    <dimen name="face_lib_px_304">126.66998dip</dimen>
+    <dimen name="face_lib_px_305">127.07999dip</dimen>
+    <dimen name="face_lib_px_306">127.5dip</dimen>
+    <dimen name="face_lib_px_307">127.91998dip</dimen>
+    <dimen name="face_lib_px_308">128.32999dip</dimen>
+    <dimen name="face_lib_px_309">128.75dip</dimen>
+    <dimen name="face_lib_px_31">12.919983dip</dimen>
+    <dimen name="face_lib_px_310">129.16998dip</dimen>
+    <dimen name="face_lib_px_311">129.57999dip</dimen>
+    <dimen name="face_lib_px_312">130.0dip</dimen>
+    <dimen name="face_lib_px_313">130.41998dip</dimen>
+    <dimen name="face_lib_px_314">130.82999dip</dimen>
+    <dimen name="face_lib_px_315">131.25dip</dimen>
+    <dimen name="face_lib_px_316">131.66998dip</dimen>
+    <dimen name="face_lib_px_317">132.07999dip</dimen>
+    <dimen name="face_lib_px_318">132.5dip</dimen>
+    <dimen name="face_lib_px_319">132.91998dip</dimen>
+    <dimen name="face_lib_px_32">13.329987dip</dimen>
+    <dimen name="face_lib_px_320">133.32999dip</dimen>
+    <dimen name="face_lib_px_321">133.75dip</dimen>
+    <dimen name="face_lib_px_322">134.16998dip</dimen>
+    <dimen name="face_lib_px_323">134.57999dip</dimen>
+    <dimen name="face_lib_px_324">135.0dip</dimen>
+    <dimen name="face_lib_px_325">135.41998dip</dimen>
+    <dimen name="face_lib_px_326">135.82999dip</dimen>
+    <dimen name="face_lib_px_327">136.25dip</dimen>
+    <dimen name="face_lib_px_328">136.66998dip</dimen>
+    <dimen name="face_lib_px_329">137.07999dip</dimen>
+    <dimen name="face_lib_px_33">13.75dip</dimen>
+    <dimen name="face_lib_px_330">137.5dip</dimen>
+    <dimen name="face_lib_px_331">137.91998dip</dimen>
+    <dimen name="face_lib_px_332">138.32999dip</dimen>
+    <dimen name="face_lib_px_333">138.75dip</dimen>
+    <dimen name="face_lib_px_334">139.16998dip</dimen>
+    <dimen name="face_lib_px_335">139.57999dip</dimen>
+    <dimen name="face_lib_px_336">140.0dip</dimen>
+    <dimen name="face_lib_px_337">140.41998dip</dimen>
+    <dimen name="face_lib_px_338">140.82999dip</dimen>
+    <dimen name="face_lib_px_339">141.25dip</dimen>
+    <dimen name="face_lib_px_34">14.169983dip</dimen>
+    <dimen name="face_lib_px_340">141.66998dip</dimen>
+    <dimen name="face_lib_px_341">142.07999dip</dimen>
+    <dimen name="face_lib_px_342">142.5dip</dimen>
+    <dimen name="face_lib_px_343">142.91998dip</dimen>
+    <dimen name="face_lib_px_344">143.32999dip</dimen>
+    <dimen name="face_lib_px_345">143.75dip</dimen>
+    <dimen name="face_lib_px_346">144.16998dip</dimen>
+    <dimen name="face_lib_px_347">144.57999dip</dimen>
+    <dimen name="face_lib_px_348">145.0dip</dimen>
+    <dimen name="face_lib_px_349">145.41998dip</dimen>
+    <dimen name="face_lib_px_35">14.579987dip</dimen>
+    <dimen name="face_lib_px_350">145.82999dip</dimen>
+    <dimen name="face_lib_px_351">146.25dip</dimen>
+    <dimen name="face_lib_px_352">146.66998dip</dimen>
+    <dimen name="face_lib_px_353">147.07999dip</dimen>
+    <dimen name="face_lib_px_354">147.5dip</dimen>
+    <dimen name="face_lib_px_355">147.91998dip</dimen>
+    <dimen name="face_lib_px_356">148.32999dip</dimen>
+    <dimen name="face_lib_px_357">148.75dip</dimen>
+    <dimen name="face_lib_px_358">149.16998dip</dimen>
+    <dimen name="face_lib_px_359">149.57999dip</dimen>
+    <dimen name="face_lib_px_36">15.0dip</dimen>
+    <dimen name="face_lib_px_360">150.0dip</dimen>
+    <dimen name="face_lib_px_361">150.41998dip</dimen>
+    <dimen name="face_lib_px_362">150.82999dip</dimen>
+    <dimen name="face_lib_px_363">151.25dip</dimen>
+    <dimen name="face_lib_px_364">151.66998dip</dimen>
+    <dimen name="face_lib_px_365">152.07999dip</dimen>
+    <dimen name="face_lib_px_366">152.5dip</dimen>
+    <dimen name="face_lib_px_367">152.91998dip</dimen>
+    <dimen name="face_lib_px_368">153.32999dip</dimen>
+    <dimen name="face_lib_px_369">153.75dip</dimen>
+    <dimen name="face_lib_px_37">15.419983dip</dimen>
+    <dimen name="face_lib_px_370">154.16998dip</dimen>
+    <dimen name="face_lib_px_371">154.57999dip</dimen>
+    <dimen name="face_lib_px_372">155.0dip</dimen>
+    <dimen name="face_lib_px_373">155.41998dip</dimen>
+    <dimen name="face_lib_px_374">155.82999dip</dimen>
+    <dimen name="face_lib_px_375">156.25dip</dimen>
+    <dimen name="face_lib_px_376">156.66998dip</dimen>
+    <dimen name="face_lib_px_377">157.07999dip</dimen>
+    <dimen name="face_lib_px_378">157.5dip</dimen>
+    <dimen name="face_lib_px_379">157.91998dip</dimen>
+    <dimen name="face_lib_px_38">15.829987dip</dimen>
+    <dimen name="face_lib_px_380">158.32999dip</dimen>
+    <dimen name="face_lib_px_381">158.75dip</dimen>
+    <dimen name="face_lib_px_382">159.16998dip</dimen>
+    <dimen name="face_lib_px_383">159.57999dip</dimen>
+    <dimen name="face_lib_px_384">160.0dip</dimen>
+    <dimen name="face_lib_px_385">160.41998dip</dimen>
+    <dimen name="face_lib_px_386">160.82999dip</dimen>
+    <dimen name="face_lib_px_387">161.25dip</dimen>
+    <dimen name="face_lib_px_388">161.66998dip</dimen>
+    <dimen name="face_lib_px_389">162.07999dip</dimen>
+    <dimen name="face_lib_px_39">16.25dip</dimen>
+    <dimen name="face_lib_px_390">162.5dip</dimen>
+    <dimen name="face_lib_px_391">162.91998dip</dimen>
+    <dimen name="face_lib_px_392">163.32999dip</dimen>
+    <dimen name="face_lib_px_393">163.75dip</dimen>
+    <dimen name="face_lib_px_394">164.16998dip</dimen>
+    <dimen name="face_lib_px_395">164.57999dip</dimen>
+    <dimen name="face_lib_px_396">165.0dip</dimen>
+    <dimen name="face_lib_px_397">165.41998dip</dimen>
+    <dimen name="face_lib_px_398">165.82999dip</dimen>
+    <dimen name="face_lib_px_399">166.25dip</dimen>
+    <dimen name="face_lib_px_4">1.6699829dip</dimen>
+    <dimen name="face_lib_px_40">16.669983dip</dimen>
+    <dimen name="face_lib_px_400">166.66998dip</dimen>
+    <dimen name="face_lib_px_401">167.07999dip</dimen>
+    <dimen name="face_lib_px_402">167.5dip</dimen>
+    <dimen name="face_lib_px_403">167.91998dip</dimen>
+    <dimen name="face_lib_px_404">168.32999dip</dimen>
+    <dimen name="face_lib_px_405">168.75dip</dimen>
+    <dimen name="face_lib_px_406">169.16998dip</dimen>
+    <dimen name="face_lib_px_407">169.57999dip</dimen>
+    <dimen name="face_lib_px_408">170.0dip</dimen>
+    <dimen name="face_lib_px_409">170.41998dip</dimen>
+    <dimen name="face_lib_px_41">17.079987dip</dimen>
+    <dimen name="face_lib_px_410">170.82999dip</dimen>
+    <dimen name="face_lib_px_411">171.25dip</dimen>
+    <dimen name="face_lib_px_412">171.66998dip</dimen>
+    <dimen name="face_lib_px_413">172.07999dip</dimen>
+    <dimen name="face_lib_px_414">172.5dip</dimen>
+    <dimen name="face_lib_px_415">172.91998dip</dimen>
+    <dimen name="face_lib_px_416">173.32999dip</dimen>
+    <dimen name="face_lib_px_417">173.75dip</dimen>
+    <dimen name="face_lib_px_418">174.16998dip</dimen>
+    <dimen name="face_lib_px_419">174.57999dip</dimen>
+    <dimen name="face_lib_px_42">17.5dip</dimen>
+    <dimen name="face_lib_px_420">175.0dip</dimen>
+    <dimen name="face_lib_px_421">175.41998dip</dimen>
+    <dimen name="face_lib_px_422">175.82999dip</dimen>
+    <dimen name="face_lib_px_423">176.25dip</dimen>
+    <dimen name="face_lib_px_424">176.66998dip</dimen>
+    <dimen name="face_lib_px_425">177.07999dip</dimen>
+    <dimen name="face_lib_px_426">177.5dip</dimen>
+    <dimen name="face_lib_px_427">177.91998dip</dimen>
+    <dimen name="face_lib_px_428">178.32999dip</dimen>
+    <dimen name="face_lib_px_429">178.75dip</dimen>
+    <dimen name="face_lib_px_43">17.919983dip</dimen>
+    <dimen name="face_lib_px_430">179.16998dip</dimen>
+    <dimen name="face_lib_px_431">179.57999dip</dimen>
+    <dimen name="face_lib_px_432">180.0dip</dimen>
+    <dimen name="face_lib_px_433">180.41998dip</dimen>
+    <dimen name="face_lib_px_434">180.82999dip</dimen>
+    <dimen name="face_lib_px_435">181.25dip</dimen>
+    <dimen name="face_lib_px_436">181.66998dip</dimen>
+    <dimen name="face_lib_px_437">182.07999dip</dimen>
+    <dimen name="face_lib_px_438">182.5dip</dimen>
+    <dimen name="face_lib_px_439">182.91998dip</dimen>
+    <dimen name="face_lib_px_44">18.329987dip</dimen>
+    <dimen name="face_lib_px_440">183.32999dip</dimen>
+    <dimen name="face_lib_px_441">183.75dip</dimen>
+    <dimen name="face_lib_px_442">184.16998dip</dimen>
+    <dimen name="face_lib_px_443">184.57999dip</dimen>
+    <dimen name="face_lib_px_444">185.0dip</dimen>
+    <dimen name="face_lib_px_445">185.41998dip</dimen>
+    <dimen name="face_lib_px_446">185.82999dip</dimen>
+    <dimen name="face_lib_px_447">186.25dip</dimen>
+    <dimen name="face_lib_px_448">186.66998dip</dimen>
+    <dimen name="face_lib_px_449">187.07999dip</dimen>
+    <dimen name="face_lib_px_45">18.75dip</dimen>
+    <dimen name="face_lib_px_450">187.5dip</dimen>
+    <dimen name="face_lib_px_451">187.91998dip</dimen>
+    <dimen name="face_lib_px_452">188.32999dip</dimen>
+    <dimen name="face_lib_px_453">188.75dip</dimen>
+    <dimen name="face_lib_px_454">189.16998dip</dimen>
+    <dimen name="face_lib_px_455">189.57999dip</dimen>
+    <dimen name="face_lib_px_456">190.0dip</dimen>
+    <dimen name="face_lib_px_457">190.41998dip</dimen>
+    <dimen name="face_lib_px_458">190.82999dip</dimen>
+    <dimen name="face_lib_px_459">191.25dip</dimen>
+    <dimen name="face_lib_px_46">19.169983dip</dimen>
+    <dimen name="face_lib_px_460">191.66998dip</dimen>
+    <dimen name="face_lib_px_461">192.07999dip</dimen>
+    <dimen name="face_lib_px_462">192.5dip</dimen>
+    <dimen name="face_lib_px_463">192.91998dip</dimen>
+    <dimen name="face_lib_px_464">193.32999dip</dimen>
+    <dimen name="face_lib_px_465">193.75dip</dimen>
+    <dimen name="face_lib_px_466">194.16998dip</dimen>
+    <dimen name="face_lib_px_467">194.57999dip</dimen>
+    <dimen name="face_lib_px_468">195.0dip</dimen>
+    <dimen name="face_lib_px_469">195.41998dip</dimen>
+    <dimen name="face_lib_px_47">19.579987dip</dimen>
+    <dimen name="face_lib_px_470">195.82999dip</dimen>
+    <dimen name="face_lib_px_471">196.25dip</dimen>
+    <dimen name="face_lib_px_472">196.66998dip</dimen>
+    <dimen name="face_lib_px_473">197.07999dip</dimen>
+    <dimen name="face_lib_px_474">197.5dip</dimen>
+    <dimen name="face_lib_px_475">197.91998dip</dimen>
+    <dimen name="face_lib_px_476">198.32999dip</dimen>
+    <dimen name="face_lib_px_477">198.75dip</dimen>
+    <dimen name="face_lib_px_478">199.16998dip</dimen>
+    <dimen name="face_lib_px_479">199.57999dip</dimen>
+    <dimen name="face_lib_px_48">20.0dip</dimen>
+    <dimen name="face_lib_px_480">200.0dip</dimen>
+    <dimen name="face_lib_px_481">200.41998dip</dimen>
+    <dimen name="face_lib_px_482">200.82999dip</dimen>
+    <dimen name="face_lib_px_483">201.25dip</dimen>
+    <dimen name="face_lib_px_484">201.66998dip</dimen>
+    <dimen name="face_lib_px_485">202.07999dip</dimen>
+    <dimen name="face_lib_px_486">202.5dip</dimen>
+    <dimen name="face_lib_px_487">202.91998dip</dimen>
+    <dimen name="face_lib_px_488">203.32999dip</dimen>
+    <dimen name="face_lib_px_489">203.75dip</dimen>
+    <dimen name="face_lib_px_49">20.419983dip</dimen>
+    <dimen name="face_lib_px_490">204.16998dip</dimen>
+    <dimen name="face_lib_px_491">204.57999dip</dimen>
+    <dimen name="face_lib_px_492">205.0dip</dimen>
+    <dimen name="face_lib_px_493">205.41998dip</dimen>
+    <dimen name="face_lib_px_494">205.82999dip</dimen>
+    <dimen name="face_lib_px_495">206.25dip</dimen>
+    <dimen name="face_lib_px_496">206.66998dip</dimen>
+    <dimen name="face_lib_px_497">207.07999dip</dimen>
+    <dimen name="face_lib_px_498">207.5dip</dimen>
+    <dimen name="face_lib_px_499">207.91998dip</dimen>
+    <dimen name="face_lib_px_5">2.0799866dip</dimen>
+    <dimen name="face_lib_px_50">20.829987dip</dimen>
+    <dimen name="face_lib_px_500">208.32999dip</dimen>
+    <dimen name="face_lib_px_501">208.75dip</dimen>
+    <dimen name="face_lib_px_502">209.16998dip</dimen>
+    <dimen name="face_lib_px_503">209.57999dip</dimen>
+    <dimen name="face_lib_px_504">210.0dip</dimen>
+    <dimen name="face_lib_px_505">210.41998dip</dimen>
+    <dimen name="face_lib_px_506">210.82999dip</dimen>
+    <dimen name="face_lib_px_507">211.25dip</dimen>
+    <dimen name="face_lib_px_508">211.66998dip</dimen>
+    <dimen name="face_lib_px_509">212.07999dip</dimen>
+    <dimen name="face_lib_px_51">21.25dip</dimen>
+    <dimen name="face_lib_px_510">212.5dip</dimen>
+    <dimen name="face_lib_px_511">212.91998dip</dimen>
+    <dimen name="face_lib_px_512">213.32999dip</dimen>
+    <dimen name="face_lib_px_513">213.75dip</dimen>
+    <dimen name="face_lib_px_514">214.16998dip</dimen>
+    <dimen name="face_lib_px_515">214.57999dip</dimen>
+    <dimen name="face_lib_px_516">215.0dip</dimen>
+    <dimen name="face_lib_px_517">215.41998dip</dimen>
+    <dimen name="face_lib_px_518">215.82999dip</dimen>
+    <dimen name="face_lib_px_519">216.25dip</dimen>
+    <dimen name="face_lib_px_52">21.669983dip</dimen>
+    <dimen name="face_lib_px_520">216.66998dip</dimen>
+    <dimen name="face_lib_px_521">217.07999dip</dimen>
+    <dimen name="face_lib_px_522">217.5dip</dimen>
+    <dimen name="face_lib_px_523">217.91998dip</dimen>
+    <dimen name="face_lib_px_524">218.32999dip</dimen>
+    <dimen name="face_lib_px_525">218.75dip</dimen>
+    <dimen name="face_lib_px_526">219.16998dip</dimen>
+    <dimen name="face_lib_px_527">219.57999dip</dimen>
+    <dimen name="face_lib_px_528">220.0dip</dimen>
+    <dimen name="face_lib_px_529">220.41998dip</dimen>
+    <dimen name="face_lib_px_53">22.079987dip</dimen>
+    <dimen name="face_lib_px_530">220.82999dip</dimen>
+    <dimen name="face_lib_px_531">221.25dip</dimen>
+    <dimen name="face_lib_px_532">221.66998dip</dimen>
+    <dimen name="face_lib_px_533">222.07999dip</dimen>
+    <dimen name="face_lib_px_534">222.5dip</dimen>
+    <dimen name="face_lib_px_535">222.91998dip</dimen>
+    <dimen name="face_lib_px_536">223.32999dip</dimen>
+    <dimen name="face_lib_px_537">223.75dip</dimen>
+    <dimen name="face_lib_px_538">224.16998dip</dimen>
+    <dimen name="face_lib_px_539">224.57999dip</dimen>
+    <dimen name="face_lib_px_54">22.5dip</dimen>
+    <dimen name="face_lib_px_540">225.0dip</dimen>
+    <dimen name="face_lib_px_541">225.41998dip</dimen>
+    <dimen name="face_lib_px_542">225.82999dip</dimen>
+    <dimen name="face_lib_px_543">226.25dip</dimen>
+    <dimen name="face_lib_px_544">226.66998dip</dimen>
+    <dimen name="face_lib_px_545">227.07999dip</dimen>
+    <dimen name="face_lib_px_546">227.5dip</dimen>
+    <dimen name="face_lib_px_547">227.91998dip</dimen>
+    <dimen name="face_lib_px_548">228.32999dip</dimen>
+    <dimen name="face_lib_px_549">228.75dip</dimen>
+    <dimen name="face_lib_px_55">22.919983dip</dimen>
+    <dimen name="face_lib_px_550">229.16998dip</dimen>
+    <dimen name="face_lib_px_551">229.57999dip</dimen>
+    <dimen name="face_lib_px_552">230.0dip</dimen>
+    <dimen name="face_lib_px_553">230.41998dip</dimen>
+    <dimen name="face_lib_px_554">230.82999dip</dimen>
+    <dimen name="face_lib_px_555">231.25dip</dimen>
+    <dimen name="face_lib_px_556">231.66998dip</dimen>
+    <dimen name="face_lib_px_557">232.07999dip</dimen>
+    <dimen name="face_lib_px_558">232.5dip</dimen>
+    <dimen name="face_lib_px_559">232.91998dip</dimen>
+    <dimen name="face_lib_px_56">23.329987dip</dimen>
+    <dimen name="face_lib_px_560">233.32999dip</dimen>
+    <dimen name="face_lib_px_561">233.75dip</dimen>
+    <dimen name="face_lib_px_562">234.16998dip</dimen>
+    <dimen name="face_lib_px_563">234.57999dip</dimen>
+    <dimen name="face_lib_px_564">235.0dip</dimen>
+    <dimen name="face_lib_px_565">235.41998dip</dimen>
+    <dimen name="face_lib_px_566">235.82999dip</dimen>
+    <dimen name="face_lib_px_567">236.25dip</dimen>
+    <dimen name="face_lib_px_568">236.66998dip</dimen>
+    <dimen name="face_lib_px_569">237.07999dip</dimen>
+    <dimen name="face_lib_px_57">23.75dip</dimen>
+    <dimen name="face_lib_px_570">237.5dip</dimen>
+    <dimen name="face_lib_px_571">237.91998dip</dimen>
+    <dimen name="face_lib_px_572">238.32999dip</dimen>
+    <dimen name="face_lib_px_573">238.75dip</dimen>
+    <dimen name="face_lib_px_574">239.16998dip</dimen>
+    <dimen name="face_lib_px_575">239.57999dip</dimen>
+    <dimen name="face_lib_px_576">240.0dip</dimen>
+    <dimen name="face_lib_px_577">240.41998dip</dimen>
+    <dimen name="face_lib_px_578">240.82999dip</dimen>
+    <dimen name="face_lib_px_579">241.25dip</dimen>
+    <dimen name="face_lib_px_58">24.169983dip</dimen>
+    <dimen name="face_lib_px_580">241.66998dip</dimen>
+    <dimen name="face_lib_px_581">242.07999dip</dimen>
+    <dimen name="face_lib_px_582">242.5dip</dimen>
+    <dimen name="face_lib_px_583">242.91998dip</dimen>
+    <dimen name="face_lib_px_584">243.32999dip</dimen>
+    <dimen name="face_lib_px_585">243.75dip</dimen>
+    <dimen name="face_lib_px_586">244.16998dip</dimen>
+    <dimen name="face_lib_px_587">244.57999dip</dimen>
+    <dimen name="face_lib_px_588">245.0dip</dimen>
+    <dimen name="face_lib_px_589">245.41998dip</dimen>
+    <dimen name="face_lib_px_59">24.579987dip</dimen>
+    <dimen name="face_lib_px_590">245.82999dip</dimen>
+    <dimen name="face_lib_px_591">246.25dip</dimen>
+    <dimen name="face_lib_px_592">246.66998dip</dimen>
+    <dimen name="face_lib_px_593">247.07999dip</dimen>
+    <dimen name="face_lib_px_594">247.5dip</dimen>
+    <dimen name="face_lib_px_595">247.91998dip</dimen>
+    <dimen name="face_lib_px_596">248.32999dip</dimen>
+    <dimen name="face_lib_px_597">248.75dip</dimen>
+    <dimen name="face_lib_px_598">249.16998dip</dimen>
+    <dimen name="face_lib_px_599">249.57999dip</dimen>
+    <dimen name="face_lib_px_6">2.5dip</dimen>
+    <dimen name="face_lib_px_60">25.0dip</dimen>
+    <dimen name="face_lib_px_600">250.0dip</dimen>
+    <dimen name="face_lib_px_601">250.41998dip</dimen>
+    <dimen name="face_lib_px_602">250.82999dip</dimen>
+    <dimen name="face_lib_px_603">251.25dip</dimen>
+    <dimen name="face_lib_px_604">251.66998dip</dimen>
+    <dimen name="face_lib_px_605">252.07999dip</dimen>
+    <dimen name="face_lib_px_606">252.5dip</dimen>
+    <dimen name="face_lib_px_607">252.91998dip</dimen>
+    <dimen name="face_lib_px_608">253.32999dip</dimen>
+    <dimen name="face_lib_px_609">253.75dip</dimen>
+    <dimen name="face_lib_px_61">25.419983dip</dimen>
+    <dimen name="face_lib_px_610">254.16998dip</dimen>
+    <dimen name="face_lib_px_611">254.57999dip</dimen>
+    <dimen name="face_lib_px_612">255.0dip</dimen>
+    <dimen name="face_lib_px_613">255.41998dip</dimen>
+    <dimen name="face_lib_px_614">255.82999dip</dimen>
+    <dimen name="face_lib_px_615">256.25dip</dimen>
+    <dimen name="face_lib_px_616">256.66406dip</dimen>
+    <dimen name="face_lib_px_617">257.07812dip</dimen>
+    <dimen name="face_lib_px_618">257.5dip</dimen>
+    <dimen name="face_lib_px_619">257.91406dip</dimen>
+    <dimen name="face_lib_px_62">25.829987dip</dimen>
+    <dimen name="face_lib_px_620">258.32812dip</dimen>
+    <dimen name="face_lib_px_621">258.75dip</dimen>
+    <dimen name="face_lib_px_622">259.16406dip</dimen>
+    <dimen name="face_lib_px_623">259.57812dip</dimen>
+    <dimen name="face_lib_px_624">260.0dip</dimen>
+    <dimen name="face_lib_px_625">260.41406dip</dimen>
+    <dimen name="face_lib_px_626">260.82812dip</dimen>
+    <dimen name="face_lib_px_627">261.25dip</dimen>
+    <dimen name="face_lib_px_628">261.66406dip</dimen>
+    <dimen name="face_lib_px_629">262.07812dip</dimen>
+    <dimen name="face_lib_px_63">26.25dip</dimen>
+    <dimen name="face_lib_px_630">262.5dip</dimen>
+    <dimen name="face_lib_px_631">262.91406dip</dimen>
+    <dimen name="face_lib_px_632">263.32812dip</dimen>
+    <dimen name="face_lib_px_633">263.75dip</dimen>
+    <dimen name="face_lib_px_634">264.16406dip</dimen>
+    <dimen name="face_lib_px_635">264.57812dip</dimen>
+    <dimen name="face_lib_px_636">265.0dip</dimen>
+    <dimen name="face_lib_px_637">265.41406dip</dimen>
+    <dimen name="face_lib_px_638">265.82812dip</dimen>
+    <dimen name="face_lib_px_639">266.25dip</dimen>
+    <dimen name="face_lib_px_64">26.669983dip</dimen>
+    <dimen name="face_lib_px_640">266.66406dip</dimen>
+    <dimen name="face_lib_px_641">267.07812dip</dimen>
+    <dimen name="face_lib_px_642">267.5dip</dimen>
+    <dimen name="face_lib_px_643">267.91406dip</dimen>
+    <dimen name="face_lib_px_644">268.32812dip</dimen>
+    <dimen name="face_lib_px_645">268.75dip</dimen>
+    <dimen name="face_lib_px_646">269.16406dip</dimen>
+    <dimen name="face_lib_px_647">269.57812dip</dimen>
+    <dimen name="face_lib_px_648">270.0dip</dimen>
+    <dimen name="face_lib_px_649">270.41406dip</dimen>
+    <dimen name="face_lib_px_65">27.079987dip</dimen>
+    <dimen name="face_lib_px_650">270.82812dip</dimen>
+    <dimen name="face_lib_px_651">271.25dip</dimen>
+    <dimen name="face_lib_px_652">271.66406dip</dimen>
+    <dimen name="face_lib_px_653">272.07812dip</dimen>
+    <dimen name="face_lib_px_654">272.5dip</dimen>
+    <dimen name="face_lib_px_655">272.91406dip</dimen>
+    <dimen name="face_lib_px_656">273.32812dip</dimen>
+    <dimen name="face_lib_px_657">273.75dip</dimen>
+    <dimen name="face_lib_px_658">274.16406dip</dimen>
+    <dimen name="face_lib_px_659">274.57812dip</dimen>
+    <dimen name="face_lib_px_66">27.5dip</dimen>
+    <dimen name="face_lib_px_660">275.0dip</dimen>
+    <dimen name="face_lib_px_661">275.41406dip</dimen>
+    <dimen name="face_lib_px_662">275.82812dip</dimen>
+    <dimen name="face_lib_px_663">276.25dip</dimen>
+    <dimen name="face_lib_px_664">276.66406dip</dimen>
+    <dimen name="face_lib_px_665">277.07812dip</dimen>
+    <dimen name="face_lib_px_666">277.5dip</dimen>
+    <dimen name="face_lib_px_667">277.91406dip</dimen>
+    <dimen name="face_lib_px_668">278.32812dip</dimen>
+    <dimen name="face_lib_px_669">278.75dip</dimen>
+    <dimen name="face_lib_px_67">27.919983dip</dimen>
+    <dimen name="face_lib_px_670">279.16406dip</dimen>
+    <dimen name="face_lib_px_671">279.57812dip</dimen>
+    <dimen name="face_lib_px_672">280.0dip</dimen>
+    <dimen name="face_lib_px_673">280.41406dip</dimen>
+    <dimen name="face_lib_px_674">280.82812dip</dimen>
+    <dimen name="face_lib_px_675">281.25dip</dimen>
+    <dimen name="face_lib_px_676">281.66406dip</dimen>
+    <dimen name="face_lib_px_677">282.07812dip</dimen>
+    <dimen name="face_lib_px_678">282.5dip</dimen>
+    <dimen name="face_lib_px_679">282.91406dip</dimen>
+    <dimen name="face_lib_px_68">28.329987dip</dimen>
+    <dimen name="face_lib_px_680">283.32812dip</dimen>
+    <dimen name="face_lib_px_681">283.75dip</dimen>
+    <dimen name="face_lib_px_682">284.16406dip</dimen>
+    <dimen name="face_lib_px_683">284.57812dip</dimen>
+    <dimen name="face_lib_px_684">285.0dip</dimen>
+    <dimen name="face_lib_px_685">285.41406dip</dimen>
+    <dimen name="face_lib_px_686">285.82812dip</dimen>
+    <dimen name="face_lib_px_687">286.25dip</dimen>
+    <dimen name="face_lib_px_688">286.66406dip</dimen>
+    <dimen name="face_lib_px_689">287.07812dip</dimen>
+    <dimen name="face_lib_px_69">28.75dip</dimen>
+    <dimen name="face_lib_px_690">287.5dip</dimen>
+    <dimen name="face_lib_px_691">287.91406dip</dimen>
+    <dimen name="face_lib_px_692">288.32812dip</dimen>
+    <dimen name="face_lib_px_693">288.75dip</dimen>
+    <dimen name="face_lib_px_694">289.16406dip</dimen>
+    <dimen name="face_lib_px_695">289.57812dip</dimen>
+    <dimen name="face_lib_px_696">290.0dip</dimen>
+    <dimen name="face_lib_px_697">290.41406dip</dimen>
+    <dimen name="face_lib_px_698">290.82812dip</dimen>
+    <dimen name="face_lib_px_699">291.25dip</dimen>
+    <dimen name="face_lib_px_7">2.919983dip</dimen>
+    <dimen name="face_lib_px_70">29.169983dip</dimen>
+    <dimen name="face_lib_px_700">291.66406dip</dimen>
+    <dimen name="face_lib_px_701">292.07812dip</dimen>
+    <dimen name="face_lib_px_702">292.5dip</dimen>
+    <dimen name="face_lib_px_703">292.91406dip</dimen>
+    <dimen name="face_lib_px_704">293.32812dip</dimen>
+    <dimen name="face_lib_px_705">293.75dip</dimen>
+    <dimen name="face_lib_px_706">294.16406dip</dimen>
+    <dimen name="face_lib_px_707">294.57812dip</dimen>
+    <dimen name="face_lib_px_708">295.0dip</dimen>
+    <dimen name="face_lib_px_709">295.41406dip</dimen>
+    <dimen name="face_lib_px_71">29.579987dip</dimen>
+    <dimen name="face_lib_px_710">295.82812dip</dimen>
+    <dimen name="face_lib_px_711">296.25dip</dimen>
+    <dimen name="face_lib_px_712">296.66406dip</dimen>
+    <dimen name="face_lib_px_713">297.07812dip</dimen>
+    <dimen name="face_lib_px_714">297.5dip</dimen>
+    <dimen name="face_lib_px_715">297.91406dip</dimen>
+    <dimen name="face_lib_px_716">298.32812dip</dimen>
+    <dimen name="face_lib_px_717">298.75dip</dimen>
+    <dimen name="face_lib_px_718">299.16406dip</dimen>
+    <dimen name="face_lib_px_719">299.57812dip</dimen>
+    <dimen name="face_lib_px_72">30.0dip</dimen>
+    <dimen name="face_lib_px_720">300.0dip</dimen>
+    <dimen name="face_lib_px_721">300.41406dip</dimen>
+    <dimen name="face_lib_px_722">300.82812dip</dimen>
+    <dimen name="face_lib_px_723">301.25dip</dimen>
+    <dimen name="face_lib_px_724">301.66406dip</dimen>
+    <dimen name="face_lib_px_725">302.07812dip</dimen>
+    <dimen name="face_lib_px_726">302.5dip</dimen>
+    <dimen name="face_lib_px_727">302.91406dip</dimen>
+    <dimen name="face_lib_px_728">303.32812dip</dimen>
+    <dimen name="face_lib_px_729">303.75dip</dimen>
+    <dimen name="face_lib_px_73">30.419983dip</dimen>
+    <dimen name="face_lib_px_730">304.16406dip</dimen>
+    <dimen name="face_lib_px_731">304.57812dip</dimen>
+    <dimen name="face_lib_px_732">305.0dip</dimen>
+    <dimen name="face_lib_px_733">305.41406dip</dimen>
+    <dimen name="face_lib_px_734">305.82812dip</dimen>
+    <dimen name="face_lib_px_735">306.25dip</dimen>
+    <dimen name="face_lib_px_736">306.66406dip</dimen>
+    <dimen name="face_lib_px_737">307.07812dip</dimen>
+    <dimen name="face_lib_px_738">307.5dip</dimen>
+    <dimen name="face_lib_px_739">307.91406dip</dimen>
+    <dimen name="face_lib_px_74">30.829987dip</dimen>
+    <dimen name="face_lib_px_740">308.32812dip</dimen>
+    <dimen name="face_lib_px_741">308.75dip</dimen>
+    <dimen name="face_lib_px_742">309.16406dip</dimen>
+    <dimen name="face_lib_px_743">309.57812dip</dimen>
+    <dimen name="face_lib_px_744">310.0dip</dimen>
+    <dimen name="face_lib_px_745">310.41406dip</dimen>
+    <dimen name="face_lib_px_746">310.82812dip</dimen>
+    <dimen name="face_lib_px_747">311.25dip</dimen>
+    <dimen name="face_lib_px_748">311.66406dip</dimen>
+    <dimen name="face_lib_px_749">312.07812dip</dimen>
+    <dimen name="face_lib_px_75">31.25dip</dimen>
+    <dimen name="face_lib_px_750">312.5dip</dimen>
+    <dimen name="face_lib_px_751">312.91406dip</dimen>
+    <dimen name="face_lib_px_752">313.32812dip</dimen>
+    <dimen name="face_lib_px_753">313.75dip</dimen>
+    <dimen name="face_lib_px_754">314.16406dip</dimen>
+    <dimen name="face_lib_px_755">314.57812dip</dimen>
+    <dimen name="face_lib_px_756">315.0dip</dimen>
+    <dimen name="face_lib_px_757">315.41406dip</dimen>
+    <dimen name="face_lib_px_758">315.82812dip</dimen>
+    <dimen name="face_lib_px_759">316.25dip</dimen>
+    <dimen name="face_lib_px_76">31.669983dip</dimen>
+    <dimen name="face_lib_px_760">316.66406dip</dimen>
+    <dimen name="face_lib_px_761">317.07812dip</dimen>
+    <dimen name="face_lib_px_762">317.5dip</dimen>
+    <dimen name="face_lib_px_763">317.91406dip</dimen>
+    <dimen name="face_lib_px_764">318.32812dip</dimen>
+    <dimen name="face_lib_px_765">318.75dip</dimen>
+    <dimen name="face_lib_px_766">319.16406dip</dimen>
+    <dimen name="face_lib_px_767">319.57812dip</dimen>
+    <dimen name="face_lib_px_768">320.0dip</dimen>
+    <dimen name="face_lib_px_769">320.41406dip</dimen>
+    <dimen name="face_lib_px_77">32.079987dip</dimen>
+    <dimen name="face_lib_px_770">320.82812dip</dimen>
+    <dimen name="face_lib_px_771">321.25dip</dimen>
+    <dimen name="face_lib_px_772">321.66406dip</dimen>
+    <dimen name="face_lib_px_773">322.07812dip</dimen>
+    <dimen name="face_lib_px_774">322.5dip</dimen>
+    <dimen name="face_lib_px_775">322.91406dip</dimen>
+    <dimen name="face_lib_px_776">323.32812dip</dimen>
+    <dimen name="face_lib_px_777">323.75dip</dimen>
+    <dimen name="face_lib_px_778">324.16406dip</dimen>
+    <dimen name="face_lib_px_779">324.57812dip</dimen>
+    <dimen name="face_lib_px_78">32.5dip</dimen>
+    <dimen name="face_lib_px_780">325.0dip</dimen>
+    <dimen name="face_lib_px_781">325.41406dip</dimen>
+    <dimen name="face_lib_px_782">325.82812dip</dimen>
+    <dimen name="face_lib_px_783">326.25dip</dimen>
+    <dimen name="face_lib_px_784">326.66406dip</dimen>
+    <dimen name="face_lib_px_785">327.07812dip</dimen>
+    <dimen name="face_lib_px_786">327.5dip</dimen>
+    <dimen name="face_lib_px_787">327.91406dip</dimen>
+    <dimen name="face_lib_px_788">328.32812dip</dimen>
+    <dimen name="face_lib_px_789">328.75dip</dimen>
+    <dimen name="face_lib_px_79">32.919983dip</dimen>
+    <dimen name="face_lib_px_790">329.16406dip</dimen>
+    <dimen name="face_lib_px_791">329.57812dip</dimen>
+    <dimen name="face_lib_px_792">330.0dip</dimen>
+    <dimen name="face_lib_px_793">330.41406dip</dimen>
+    <dimen name="face_lib_px_794">330.82812dip</dimen>
+    <dimen name="face_lib_px_795">331.25dip</dimen>
+    <dimen name="face_lib_px_796">331.66406dip</dimen>
+    <dimen name="face_lib_px_797">332.07812dip</dimen>
+    <dimen name="face_lib_px_798">332.5dip</dimen>
+    <dimen name="face_lib_px_799">332.91406dip</dimen>
+    <dimen name="face_lib_px_8">3.3299866dip</dimen>
+    <dimen name="face_lib_px_80">33.329987dip</dimen>
+    <dimen name="face_lib_px_800">333.32812dip</dimen>
+    <dimen name="face_lib_px_801">333.75dip</dimen>
+    <dimen name="face_lib_px_802">334.16406dip</dimen>
+    <dimen name="face_lib_px_803">334.57812dip</dimen>
+    <dimen name="face_lib_px_804">335.0dip</dimen>
+    <dimen name="face_lib_px_805">335.41406dip</dimen>
+    <dimen name="face_lib_px_806">335.82812dip</dimen>
+    <dimen name="face_lib_px_807">336.25dip</dimen>
+    <dimen name="face_lib_px_808">336.66406dip</dimen>
+    <dimen name="face_lib_px_809">337.07812dip</dimen>
+    <dimen name="face_lib_px_81">33.75dip</dimen>
+    <dimen name="face_lib_px_810">337.5dip</dimen>
+    <dimen name="face_lib_px_811">337.91406dip</dimen>
+    <dimen name="face_lib_px_812">338.32812dip</dimen>
+    <dimen name="face_lib_px_813">338.75dip</dimen>
+    <dimen name="face_lib_px_814">339.16406dip</dimen>
+    <dimen name="face_lib_px_815">339.57812dip</dimen>
+    <dimen name="face_lib_px_816">340.0dip</dimen>
+    <dimen name="face_lib_px_817">340.41406dip</dimen>
+    <dimen name="face_lib_px_818">340.82812dip</dimen>
+    <dimen name="face_lib_px_819">341.25dip</dimen>
+    <dimen name="face_lib_px_82">34.169983dip</dimen>
+    <dimen name="face_lib_px_820">341.66406dip</dimen>
+    <dimen name="face_lib_px_821">342.07812dip</dimen>
+    <dimen name="face_lib_px_822">342.5dip</dimen>
+    <dimen name="face_lib_px_823">342.91406dip</dimen>
+    <dimen name="face_lib_px_824">343.32812dip</dimen>
+    <dimen name="face_lib_px_825">343.75dip</dimen>
+    <dimen name="face_lib_px_826">344.16406dip</dimen>
+    <dimen name="face_lib_px_827">344.57812dip</dimen>
+    <dimen name="face_lib_px_828">345.0dip</dimen>
+    <dimen name="face_lib_px_829">345.41406dip</dimen>
+    <dimen name="face_lib_px_83">34.579987dip</dimen>
+    <dimen name="face_lib_px_830">345.82812dip</dimen>
+    <dimen name="face_lib_px_831">346.25dip</dimen>
+    <dimen name="face_lib_px_832">346.66406dip</dimen>
+    <dimen name="face_lib_px_833">347.07812dip</dimen>
+    <dimen name="face_lib_px_834">347.5dip</dimen>
+    <dimen name="face_lib_px_835">347.91406dip</dimen>
+    <dimen name="face_lib_px_836">348.32812dip</dimen>
+    <dimen name="face_lib_px_837">348.75dip</dimen>
+    <dimen name="face_lib_px_838">349.16406dip</dimen>
+    <dimen name="face_lib_px_839">349.57812dip</dimen>
+    <dimen name="face_lib_px_84">35.0dip</dimen>
+    <dimen name="face_lib_px_840">350.0dip</dimen>
+    <dimen name="face_lib_px_841">350.41406dip</dimen>
+    <dimen name="face_lib_px_842">350.82812dip</dimen>
+    <dimen name="face_lib_px_843">351.25dip</dimen>
+    <dimen name="face_lib_px_844">351.66406dip</dimen>
+    <dimen name="face_lib_px_845">352.07812dip</dimen>
+    <dimen name="face_lib_px_846">352.5dip</dimen>
+    <dimen name="face_lib_px_847">352.91406dip</dimen>
+    <dimen name="face_lib_px_848">353.32812dip</dimen>
+    <dimen name="face_lib_px_849">353.75dip</dimen>
+    <dimen name="face_lib_px_85">35.419983dip</dimen>
+    <dimen name="face_lib_px_850">354.16406dip</dimen>
+    <dimen name="face_lib_px_851">354.57812dip</dimen>
+    <dimen name="face_lib_px_852">355.0dip</dimen>
+    <dimen name="face_lib_px_853">355.41406dip</dimen>
+    <dimen name="face_lib_px_854">355.82812dip</dimen>
+    <dimen name="face_lib_px_855">356.25dip</dimen>
+    <dimen name="face_lib_px_856">356.66406dip</dimen>
+    <dimen name="face_lib_px_857">357.07812dip</dimen>
+    <dimen name="face_lib_px_858">357.5dip</dimen>
+    <dimen name="face_lib_px_859">357.91406dip</dimen>
+    <dimen name="face_lib_px_86">35.829987dip</dimen>
+    <dimen name="face_lib_px_860">358.32812dip</dimen>
+    <dimen name="face_lib_px_861">358.75dip</dimen>
+    <dimen name="face_lib_px_862">359.16406dip</dimen>
+    <dimen name="face_lib_px_863">359.57812dip</dimen>
+    <dimen name="face_lib_px_864">360.0dip</dimen>
+    <dimen name="face_lib_px_865">360.41406dip</dimen>
+    <dimen name="face_lib_px_866">360.82812dip</dimen>
+    <dimen name="face_lib_px_867">361.25dip</dimen>
+    <dimen name="face_lib_px_868">361.66406dip</dimen>
+    <dimen name="face_lib_px_869">362.07812dip</dimen>
+    <dimen name="face_lib_px_87">36.25dip</dimen>
+    <dimen name="face_lib_px_870">362.5dip</dimen>
+    <dimen name="face_lib_px_871">362.91406dip</dimen>
+    <dimen name="face_lib_px_872">363.32812dip</dimen>
+    <dimen name="face_lib_px_873">363.75dip</dimen>
+    <dimen name="face_lib_px_874">364.16406dip</dimen>
+    <dimen name="face_lib_px_875">364.57812dip</dimen>
+    <dimen name="face_lib_px_876">365.0dip</dimen>
+    <dimen name="face_lib_px_877">365.41406dip</dimen>
+    <dimen name="face_lib_px_878">365.82812dip</dimen>
+    <dimen name="face_lib_px_879">366.25dip</dimen>
+    <dimen name="face_lib_px_88">36.669983dip</dimen>
+    <dimen name="face_lib_px_880">366.66406dip</dimen>
+    <dimen name="face_lib_px_881">367.07812dip</dimen>
+    <dimen name="face_lib_px_882">367.5dip</dimen>
+    <dimen name="face_lib_px_883">367.91406dip</dimen>
+    <dimen name="face_lib_px_884">368.32812dip</dimen>
+    <dimen name="face_lib_px_885">368.75dip</dimen>
+    <dimen name="face_lib_px_886">369.16406dip</dimen>
+    <dimen name="face_lib_px_887">369.57812dip</dimen>
+    <dimen name="face_lib_px_888">370.0dip</dimen>
+    <dimen name="face_lib_px_889">370.41406dip</dimen>
+    <dimen name="face_lib_px_89">37.079987dip</dimen>
+    <dimen name="face_lib_px_890">370.82812dip</dimen>
+    <dimen name="face_lib_px_891">371.25dip</dimen>
+    <dimen name="face_lib_px_892">371.66406dip</dimen>
+    <dimen name="face_lib_px_893">372.07812dip</dimen>
+    <dimen name="face_lib_px_894">372.5dip</dimen>
+    <dimen name="face_lib_px_895">372.91406dip</dimen>
+    <dimen name="face_lib_px_896">373.32812dip</dimen>
+    <dimen name="face_lib_px_897">373.75dip</dimen>
+    <dimen name="face_lib_px_898">374.16406dip</dimen>
+    <dimen name="face_lib_px_899">374.57812dip</dimen>
+    <dimen name="face_lib_px_9">3.75dip</dimen>
+    <dimen name="face_lib_px_90">37.5dip</dimen>
+    <dimen name="face_lib_px_900">375.0dip</dimen>
+    <dimen name="face_lib_px_901">375.41406dip</dimen>
+    <dimen name="face_lib_px_902">375.82812dip</dimen>
+    <dimen name="face_lib_px_903">376.25dip</dimen>
+    <dimen name="face_lib_px_904">376.66406dip</dimen>
+    <dimen name="face_lib_px_905">377.07812dip</dimen>
+    <dimen name="face_lib_px_906">377.5dip</dimen>
+    <dimen name="face_lib_px_907">377.91406dip</dimen>
+    <dimen name="face_lib_px_908">378.32812dip</dimen>
+    <dimen name="face_lib_px_909">378.75dip</dimen>
+    <dimen name="face_lib_px_91">37.919983dip</dimen>
+    <dimen name="face_lib_px_910">379.16406dip</dimen>
+    <dimen name="face_lib_px_911">379.57812dip</dimen>
+    <dimen name="face_lib_px_912">380.0dip</dimen>
+    <dimen name="face_lib_px_913">380.41406dip</dimen>
+    <dimen name="face_lib_px_914">380.82812dip</dimen>
+    <dimen name="face_lib_px_915">381.25dip</dimen>
+    <dimen name="face_lib_px_916">381.66406dip</dimen>
+    <dimen name="face_lib_px_917">382.07812dip</dimen>
+    <dimen name="face_lib_px_918">382.5dip</dimen>
+    <dimen name="face_lib_px_919">382.91406dip</dimen>
+    <dimen name="face_lib_px_92">38.329987dip</dimen>
+    <dimen name="face_lib_px_920">383.32812dip</dimen>
+    <dimen name="face_lib_px_921">383.75dip</dimen>
+    <dimen name="face_lib_px_922">384.16406dip</dimen>
+    <dimen name="face_lib_px_923">384.57812dip</dimen>
+    <dimen name="face_lib_px_924">385.0dip</dimen>
+    <dimen name="face_lib_px_925">385.41406dip</dimen>
+    <dimen name="face_lib_px_926">385.82812dip</dimen>
+    <dimen name="face_lib_px_927">386.25dip</dimen>
+    <dimen name="face_lib_px_928">386.66406dip</dimen>
+    <dimen name="face_lib_px_929">387.07812dip</dimen>
+    <dimen name="face_lib_px_93">38.75dip</dimen>
+    <dimen name="face_lib_px_930">387.5dip</dimen>
+    <dimen name="face_lib_px_931">387.91406dip</dimen>
+    <dimen name="face_lib_px_932">388.32812dip</dimen>
+    <dimen name="face_lib_px_933">388.75dip</dimen>
+    <dimen name="face_lib_px_934">389.16406dip</dimen>
+    <dimen name="face_lib_px_935">389.57812dip</dimen>
+    <dimen name="face_lib_px_936">390.0dip</dimen>
+    <dimen name="face_lib_px_937">390.41406dip</dimen>
+    <dimen name="face_lib_px_938">390.82812dip</dimen>
+    <dimen name="face_lib_px_939">391.25dip</dimen>
+    <dimen name="face_lib_px_94">39.169983dip</dimen>
+    <dimen name="face_lib_px_940">391.66406dip</dimen>
+    <dimen name="face_lib_px_941">392.07812dip</dimen>
+    <dimen name="face_lib_px_942">392.5dip</dimen>
+    <dimen name="face_lib_px_943">392.91406dip</dimen>
+    <dimen name="face_lib_px_944">393.32812dip</dimen>
+    <dimen name="face_lib_px_945">393.75dip</dimen>
+    <dimen name="face_lib_px_946">394.16406dip</dimen>
+    <dimen name="face_lib_px_947">394.57812dip</dimen>
+    <dimen name="face_lib_px_948">395.0dip</dimen>
+    <dimen name="face_lib_px_949">395.41406dip</dimen>
+    <dimen name="face_lib_px_95">39.579987dip</dimen>
+    <dimen name="face_lib_px_950">395.82812dip</dimen>
+    <dimen name="face_lib_px_951">396.25dip</dimen>
+    <dimen name="face_lib_px_952">396.66406dip</dimen>
+    <dimen name="face_lib_px_953">397.07812dip</dimen>
+    <dimen name="face_lib_px_954">397.5dip</dimen>
+    <dimen name="face_lib_px_955">397.91406dip</dimen>
+    <dimen name="face_lib_px_956">398.32812dip</dimen>
+    <dimen name="face_lib_px_957">398.75dip</dimen>
+    <dimen name="face_lib_px_958">399.16406dip</dimen>
+    <dimen name="face_lib_px_959">399.57812dip</dimen>
+    <dimen name="face_lib_px_96">40.0dip</dimen>
+    <dimen name="face_lib_px_960">400.0dip</dimen>
+    <dimen name="face_lib_px_961">400.41406dip</dimen>
+    <dimen name="face_lib_px_962">400.82812dip</dimen>
+    <dimen name="face_lib_px_963">401.25dip</dimen>
+    <dimen name="face_lib_px_964">401.66406dip</dimen>
+    <dimen name="face_lib_px_965">402.07812dip</dimen>
+    <dimen name="face_lib_px_966">402.5dip</dimen>
+    <dimen name="face_lib_px_967">402.91406dip</dimen>
+    <dimen name="face_lib_px_968">403.32812dip</dimen>
+    <dimen name="face_lib_px_969">403.75dip</dimen>
+    <dimen name="face_lib_px_97">40.419983dip</dimen>
+    <dimen name="face_lib_px_970">404.16406dip</dimen>
+    <dimen name="face_lib_px_971">404.57812dip</dimen>
+    <dimen name="face_lib_px_972">405.0dip</dimen>
+    <dimen name="face_lib_px_973">405.41406dip</dimen>
+    <dimen name="face_lib_px_974">405.82812dip</dimen>
+    <dimen name="face_lib_px_975">406.25dip</dimen>
+    <dimen name="face_lib_px_976">406.66406dip</dimen>
+    <dimen name="face_lib_px_977">407.07812dip</dimen>
+    <dimen name="face_lib_px_978">407.5dip</dimen>
+    <dimen name="face_lib_px_979">407.91406dip</dimen>
+    <dimen name="face_lib_px_98">40.829987dip</dimen>
+    <dimen name="face_lib_px_980">408.32812dip</dimen>
+    <dimen name="face_lib_px_981">408.75dip</dimen>
+    <dimen name="face_lib_px_982">409.16406dip</dimen>
+    <dimen name="face_lib_px_983">409.57812dip</dimen>
+    <dimen name="face_lib_px_984">410.0dip</dimen>
+    <dimen name="face_lib_px_985">410.41406dip</dimen>
+    <dimen name="face_lib_px_986">410.82812dip</dimen>
+    <dimen name="face_lib_px_987">411.25dip</dimen>
+    <dimen name="face_lib_px_988">411.66406dip</dimen>
+    <dimen name="face_lib_px_989">412.07812dip</dimen>
+    <dimen name="face_lib_px_99">41.25dip</dimen>
+    <dimen name="face_lib_px_990">412.5dip</dimen>
+    <dimen name="face_lib_px_991">412.91406dip</dimen>
+    <dimen name="face_lib_px_992">413.32812dip</dimen>
+    <dimen name="face_lib_px_993">413.75dip</dimen>
+    <dimen name="face_lib_px_994">414.16406dip</dimen>
+    <dimen name="face_lib_px_995">414.57812dip</dimen>
+    <dimen name="face_lib_px_996">415.0dip</dimen>
+    <dimen name="face_lib_px_997">415.41406dip</dimen>
+    <dimen name="face_lib_px_998">415.82812dip</dimen>
+    <dimen name="face_lib_px_999">416.25dip</dimen>
+    <dimen name="fastscroll_default_thickness">8.0dip</dimen>
+    <dimen name="fastscroll_margin">0.0dip</dimen>
+    <dimen name="fastscroll_minimum_range">50.0dip</dimen>
+    <dimen name="go_back_bt_height">19.0dip</dimen>
+    <dimen name="go_back_bt_width">11.0dip</dimen>
+    <item type="dimen" name="highlight_alpha_material_colored">0.26</item>
+    <item type="dimen" name="highlight_alpha_material_dark">0.2</item>
+    <item type="dimen" name="highlight_alpha_material_light">0.12</item>
+    <item type="dimen" name="hint_alpha_material_dark">0.5</item>
+    <item type="dimen" name="hint_alpha_material_light">0.38</item>
+    <item type="dimen" name="hint_pressed_alpha_material_dark">0.7</item>
+    <item type="dimen" name="hint_pressed_alpha_material_light">0.54</item>
+    <dimen name="idcard_checktrue_rect_big_offset">16.0dip</dimen>
+    <dimen name="idcard_checktrue_rect_little_offset">8.0dip</dimen>
+    <dimen name="idcard_cn_check_box_size">13.5dip</dimen>
+    <dimen name="idcard_cn_dialog_content_margin_left">25.0dip</dimen>
+    <dimen name="idcard_cn_dialog_content_margin_top">15.0dip</dimen>
+    <dimen name="idcard_cn_dialog_line_margin_top">22.0dip</dimen>
+    <dimen name="idcard_cn_dimen_1">1.0dip</dimen>
+    <dimen name="idcard_cn_dimen_10">10.0dip</dimen>
+    <dimen name="idcard_cn_dimen_15">15.0dip</dimen>
+    <dimen name="idcard_cn_dimen_16">16.0dip</dimen>
+    <dimen name="idcard_cn_dimen_20">20.0dip</dimen>
+    <dimen name="idcard_cn_dimen_28">28.0dip</dimen>
+    <dimen name="idcard_cn_dimen_3">3.0dip</dimen>
+    <dimen name="idcard_cn_dimen_30">30.0dip</dimen>
+    <dimen name="idcard_cn_dimen_4">4.0dip</dimen>
+    <dimen name="idcard_cn_dimen_5">5.0dip</dimen>
+    <dimen name="idcard_cn_dimen_60">60.0dip</dimen>
+    <dimen name="idcard_cn_dimen_90">90.0dip</dimen>
+    <dimen name="idcard_cn_falsh_page_start_btn_text">16.0sp</dimen>
+    <dimen name="idcard_cn_flash_image_height">170.0dip</dimen>
+    <dimen name="idcard_cn_flash_image_width">258.0dip</dimen>
+    <dimen name="idcard_cn_flash_page_big_text">32.0sp</dimen>
+    <dimen name="idcard_cn_flash_page_big_text_margin">40.0dip</dimen>
+    <dimen name="idcard_cn_gb_icon_height">18.0dip</dimen>
+    <dimen name="idcard_cn_gb_icon_marg_left">16.0dip</dimen>
+    <dimen name="idcard_cn_gb_icon_width">18.0dip</dimen>
+    <dimen name="idcard_cn_gb_text_size">18.0sp</dimen>
+    <dimen name="idcard_cn_horizontal_tips_margin_bottom">24.0dip</dimen>
+    <dimen name="idcard_cn_image_desc_text_size">14.0sp</dimen>
+    <dimen name="idcard_cn_info_text_size">14.0sp</dimen>
+    <dimen name="idcard_cn_result_big_text_size">30.0sp</dimen>
+    <dimen name="idcard_cn_result_item_height">50.0dip</dimen>
+    <dimen name="idcard_cn_result_small_text_size">18.0sp</dimen>
+    <dimen name="idcard_cn_start_bt_height">44.0dip</dimen>
+    <dimen name="idcard_cn_start_bt_margin_bottom">80.0dip</dimen>
+    <dimen name="idcard_cn_start_bt_width">300.0dip</dimen>
+    <dimen name="idcard_cn_tips_bg_height">190.0dip</dimen>
+    <dimen name="idcard_cn_tips_text_detail_size">14.0sp</dimen>
+    <dimen name="idcard_cn_tips_text_size">32.0sp</dimen>
+    <dimen name="idcard_cn_title_bar_height">44.0dip</dimen>
+    <dimen name="idcard_cn_toast_text_padding_left">25.0dip</dimen>
+    <dimen name="idcard_cn_toast_text_padding_top">7.0dip</dimen>
+    <dimen name="idcard_cn_toast_text_size">12.0sp</dimen>
+    <dimen name="idcard_cn_user_agree_text_margin_left">8.0dip</dimen>
+    <dimen name="idcard_cn_user_agree_text_size">12.0sp</dimen>
+    <dimen name="idcard_cn_warning_small_text_margin">10.0dip</dimen>
+    <dimen name="idcard_guide_landscape_round_rect_height">254.0dip</dimen>
+    <dimen name="idcard_guide_landscape_round_rect_width">398.0dip</dimen>
+    <dimen name="idcard_guide_round_rect_left">15.0dip</dimen>
+    <dimen name="image_desc_text_size">18.0sp</dimen>
+    <dimen name="image_desc_text_size_middle">14.0sp</dimen>
+    <dimen name="image_desc_text_size_small">12.5sp</dimen>
+    <dimen name="item_touch_helper_max_drag_scroll_per_frame">20.0dip</dimen>
+    <dimen name="item_touch_helper_swipe_escape_max_velocity">800.0dip</dimen>
+    <dimen name="item_touch_helper_swipe_escape_velocity">120.0dip</dimen>
+    <dimen name="livenessExitLeftPromptSize">18.0sp</dimen>
+    <dimen name="livenessExitRightPromptSize">18.0sp</dimen>
+    <dimen name="livenessExitTitlePromptSize">18.0sp</dimen>
+    <dimen name="livenessGuideImageSize">100.0dip</dimen>
+    <dimen name="livenessHomePromptSize">20.0sp</dimen>
+    <dimen name="livenessHomeUpperInfoTextFontSize">14.0sp</dimen>
+    <dimen name="livenessRetryLeftPromptSize">18.0sp</dimen>
+    <dimen name="livenessRetryRightPromptSize">18.0sp</dimen>
+    <dimen name="livenessRetryTitlePromptSize">18.0sp</dimen>
+    <dimen name="liveness_progress_maxsize">64.0dip</dimen>
+    <dimen name="liveness_progress_minsize">25.0dip</dimen>
+    <dimen name="load_img_height">285.0dip</dimen>
+    <dimen name="load_img_width">285.0dip</dimen>
+    <dimen name="m3_alert_dialog_action_bottom_padding">14.0dip</dimen>
+    <dimen name="m3_alert_dialog_action_top_padding">14.0dip</dimen>
+    <dimen name="m3_alert_dialog_corner_size">28.0dip</dimen>
+    <item type="dimen" name="m3_alert_dialog_elevation">@dimen/m3_sys_elevation_level3</item>
+    <dimen name="m3_alert_dialog_icon_margin">16.0dip</dimen>
+    <dimen name="m3_alert_dialog_icon_size">24.0dip</dimen>
+    <dimen name="m3_alert_dialog_title_bottom_margin">16.0dip</dimen>
+    <dimen name="m3_appbar_expanded_title_margin_bottom">16.0dip</dimen>
+    <dimen name="m3_appbar_expanded_title_margin_horizontal">16.0dip</dimen>
+    <dimen name="m3_appbar_scrim_height_trigger">96.0dip</dimen>
+    <dimen name="m3_appbar_scrim_height_trigger_large">112.0dip</dimen>
+    <dimen name="m3_appbar_scrim_height_trigger_medium">112.0dip</dimen>
+    <item type="dimen" name="m3_appbar_size_compact">@dimen/m3_comp_top_app_bar_small_container_height</item>
+    <item type="dimen" name="m3_appbar_size_large">@dimen/m3_comp_top_app_bar_large_container_height</item>
+    <item type="dimen" name="m3_appbar_size_medium">@dimen/m3_comp_top_app_bar_medium_container_height</item>
+    <dimen name="m3_back_progress_bottom_container_max_scale_x_distance">48.0dip</dimen>
+    <dimen name="m3_back_progress_bottom_container_max_scale_y_distance">24.0dip</dimen>
+    <dimen name="m3_back_progress_main_container_max_translation_y">24.0dip</dimen>
+    <dimen name="m3_back_progress_main_container_min_edge_gap">8.0dip</dimen>
+    <dimen name="m3_back_progress_side_container_max_scale_x_distance_grow">12.0dip</dimen>
+    <dimen name="m3_back_progress_side_container_max_scale_x_distance_shrink">24.0dip</dimen>
+    <dimen name="m3_back_progress_side_container_max_scale_y_distance">48.0dip</dimen>
+    <dimen name="m3_badge_horizontal_offset">1.5dip</dimen>
+    <dimen name="m3_badge_offset">6.0dip</dimen>
+    <item type="dimen" name="m3_badge_size">@dimen/m3_comp_badge_size</item>
+    <dimen name="m3_badge_vertical_offset">1.5dip</dimen>
+    <dimen name="m3_badge_with_text_horizontal_offset">3.0dip</dimen>
+    <dimen name="m3_badge_with_text_offset">12.0dip</dimen>
+    <item type="dimen" name="m3_badge_with_text_size">@dimen/m3_comp_badge_large_size</item>
+    <dimen name="m3_badge_with_text_vertical_offset">4.0dip</dimen>
+    <dimen name="m3_badge_with_text_vertical_padding">2.0dip</dimen>
+    <item type="dimen" name="m3_bottom_nav_item_active_indicator_height">@dimen/m3_comp_navigation_bar_active_indicator_height</item>
+    <dimen name="m3_bottom_nav_item_active_indicator_margin_horizontal">4.0dip</dimen>
+    <item type="dimen" name="m3_bottom_nav_item_active_indicator_width">@dimen/m3_comp_navigation_bar_active_indicator_width</item>
+    <dimen name="m3_bottom_nav_item_padding_bottom">16.0dip</dimen>
+    <dimen name="m3_bottom_nav_item_padding_top">12.0dip</dimen>
+    <item type="dimen" name="m3_bottom_nav_min_height">@dimen/m3_comp_navigation_bar_container_height</item>
+    <dimen name="m3_bottom_sheet_drag_handle_bottom_padding">20.0dip</dimen>
+    <item type="dimen" name="m3_bottom_sheet_elevation">@dimen/m3_sys_elevation_level1</item>
+    <item type="dimen" name="m3_bottom_sheet_modal_elevation">@dimen/m3_sys_elevation_level1</item>
+    <dimen name="m3_bottomappbar_fab_cradle_margin">6.0dip</dimen>
+    <dimen name="m3_bottomappbar_fab_cradle_rounded_corner_radius">4.0dip</dimen>
+    <dimen name="m3_bottomappbar_fab_cradle_vertical_offset">12.0dip</dimen>
+    <dimen name="m3_bottomappbar_fab_end_margin">16.0dip</dimen>
+    <item type="dimen" name="m3_bottomappbar_height">@dimen/m3_comp_bottom_app_bar_container_height</item>
+    <dimen name="m3_bottomappbar_horizontal_padding">4.0dip</dimen>
+    <dimen name="m3_btn_dialog_btn_min_width">64.0dip</dimen>
+    <dimen name="m3_btn_dialog_btn_spacing">8.0dip</dimen>
+    <dimen name="m3_btn_disabled_elevation">0.0dip</dimen>
+    <dimen name="m3_btn_disabled_translation_z">0.0dip</dimen>
+    <item type="dimen" name="m3_btn_elevated_btn_elevation">@dimen/m3_comp_elevated_button_container_elevation</item>
+    <dimen name="m3_btn_elevation">0.0dip</dimen>
+    <dimen name="m3_btn_icon_btn_padding_left">16.0dip</dimen>
+    <dimen name="m3_btn_icon_btn_padding_right">24.0dip</dimen>
+    <dimen name="m3_btn_icon_only_default_padding">10.0dip</dimen>
+    <dimen name="m3_btn_icon_only_default_size">20.0dip</dimen>
+    <dimen name="m3_btn_icon_only_icon_padding">0.0dip</dimen>
+    <dimen name="m3_btn_icon_only_min_width">20.0dip</dimen>
+    <dimen name="m3_btn_inset">4.0dip</dimen>
+    <dimen name="m3_btn_max_width">320.0dip</dimen>
+    <dimen name="m3_btn_padding_bottom">6.0dip</dimen>
+    <dimen name="m3_btn_padding_left">24.0dip</dimen>
+    <dimen name="m3_btn_padding_right">24.0dip</dimen>
+    <dimen name="m3_btn_padding_top">6.0dip</dimen>
+    <dimen name="m3_btn_stroke_size">1.0dip</dimen>
+    <dimen name="m3_btn_text_btn_icon_padding_left">12.0dip</dimen>
+    <dimen name="m3_btn_text_btn_icon_padding_right">16.0dip</dimen>
+    <dimen name="m3_btn_text_btn_padding_left">12.0dip</dimen>
+    <dimen name="m3_btn_text_btn_padding_right">12.0dip</dimen>
+    <dimen name="m3_btn_translation_z_base">0.0dip</dimen>
+    <dimen name="m3_btn_translation_z_hovered">1.0dip</dimen>
+    <dimen name="m3_card_disabled_z">0.0dip</dimen>
+    <dimen name="m3_card_dragged_z">6.0dip</dimen>
+    <dimen name="m3_card_elevated_disabled_z">0.0dip</dimen>
+    <dimen name="m3_card_elevated_dragged_z">7.0dip</dimen>
+    <item type="dimen" name="m3_card_elevated_elevation">@dimen/m3_comp_elevated_card_container_elevation</item>
+    <dimen name="m3_card_elevated_hovered_z">2.0dip</dimen>
+    <item type="dimen" name="m3_card_elevation">@dimen/m3_sys_elevation_level0</item>
+    <dimen name="m3_card_hovered_z">1.0dip</dimen>
+    <dimen name="m3_card_stroke_width">1.0dip</dimen>
+    <dimen name="m3_carousel_debug_keyline_width">2.0dip</dimen>
+    <dimen name="m3_carousel_extra_small_item_size">10.0dip</dimen>
+    <dimen name="m3_carousel_gone_size">1.0dip</dimen>
+    <dimen name="m3_carousel_small_item_default_corner_size">28.0dip</dimen>
+    <dimen name="m3_carousel_small_item_size_max">56.0dip</dimen>
+    <dimen name="m3_carousel_small_item_size_min">40.0dip</dimen>
+    <dimen name="m3_chip_checked_hovered_translation_z">1.0dip</dimen>
+    <dimen name="m3_chip_corner_size">8.0dip</dimen>
+    <dimen name="m3_chip_disabled_translation_z">-1.0dip</dimen>
+    <dimen name="m3_chip_dragged_translation_z">7.0dip</dimen>
+    <dimen name="m3_chip_elevated_elevation">1.0dip</dimen>
+    <dimen name="m3_chip_hovered_translation_z">2.0dip</dimen>
+    <dimen name="m3_chip_icon_size">18.0dip</dimen>
+    <dimen name="m3_comp_assist_chip_container_height">32.0dip</dimen>
+    <item type="dimen" name="m3_comp_assist_chip_elevated_container_elevation">@dimen/m3_sys_elevation_level1</item>
+    <item type="dimen" name="m3_comp_assist_chip_flat_container_elevation">@dimen/m3_sys_elevation_level0</item>
+    <dimen name="m3_comp_assist_chip_flat_outline_width">1.0dip</dimen>
+    <dimen name="m3_comp_assist_chip_with_icon_icon_size">18.0dip</dimen>
+    <dimen name="m3_comp_badge_large_size">16.0dip</dimen>
+    <dimen name="m3_comp_badge_size">6.0dip</dimen>
+    <item type="dimen" name="m3_comp_bottom_app_bar_container_elevation">@dimen/m3_sys_elevation_level2</item>
+    <dimen name="m3_comp_bottom_app_bar_container_height">80.0dip</dimen>
+    <item type="dimen" name="m3_comp_checkbox_selected_disabled_container_opacity">0.38</item>
+    <dimen name="m3_comp_date_picker_modal_date_today_container_outline_width">1.0dip</dimen>
+    <dimen name="m3_comp_date_picker_modal_header_container_height">120.0dip</dimen>
+    <dimen name="m3_comp_date_picker_modal_range_selection_header_container_height">128.0dip</dimen>
+    <dimen name="m3_comp_divider_thickness">1.0dip</dimen>
+    <item type="dimen" name="m3_comp_elevated_button_container_elevation">@dimen/m3_sys_elevation_level1</item>
+    <item type="dimen" name="m3_comp_elevated_button_disabled_container_elevation">@dimen/m3_sys_elevation_level0</item>
+    <item type="dimen" name="m3_comp_elevated_card_container_elevation">@dimen/m3_sys_elevation_level1</item>
+    <dimen name="m3_comp_elevated_card_icon_size">24.0dip</dimen>
+    <item type="dimen" name="m3_comp_extended_fab_primary_container_elevation">@dimen/m3_sys_elevation_level3</item>
+    <dimen name="m3_comp_extended_fab_primary_container_height">56.0dip</dimen>
+    <item type="dimen" name="m3_comp_extended_fab_primary_focus_container_elevation">@dimen/m3_sys_elevation_level3</item>
+    <item type="dimen" name="m3_comp_extended_fab_primary_focus_state_layer_opacity">@dimen/m3_sys_state_focus_state_layer_opacity</item>
+    <item type="dimen" name="m3_comp_extended_fab_primary_hover_container_elevation">@dimen/m3_sys_elevation_level4</item>
+    <item type="dimen" name="m3_comp_extended_fab_primary_hover_state_layer_opacity">@dimen/m3_sys_state_hover_state_layer_opacity</item>
+    <dimen name="m3_comp_extended_fab_primary_icon_size">24.0dip</dimen>
+    <item type="dimen" name="m3_comp_extended_fab_primary_pressed_container_elevation">@dimen/m3_sys_elevation_level3</item>
+    <item type="dimen" name="m3_comp_extended_fab_primary_pressed_state_layer_opacity">@dimen/m3_sys_state_pressed_state_layer_opacity</item>
+    <item type="dimen" name="m3_comp_fab_primary_container_elevation">@dimen/m3_sys_elevation_level3</item>
+    <dimen name="m3_comp_fab_primary_container_height">56.0dip</dimen>
+    <item type="dimen" name="m3_comp_fab_primary_focus_state_layer_opacity">@dimen/m3_sys_state_focus_state_layer_opacity</item>
+    <item type="dimen" name="m3_comp_fab_primary_hover_container_elevation">@dimen/m3_sys_elevation_level4</item>
+    <item type="dimen" name="m3_comp_fab_primary_hover_state_layer_opacity">@dimen/m3_sys_state_hover_state_layer_opacity</item>
+    <dimen name="m3_comp_fab_primary_icon_size">24.0dip</dimen>
+    <dimen name="m3_comp_fab_primary_large_container_height">96.0dip</dimen>
+    <dimen name="m3_comp_fab_primary_large_icon_size">36.0dip</dimen>
+    <item type="dimen" name="m3_comp_fab_primary_pressed_container_elevation">@dimen/m3_sys_elevation_level3</item>
+    <item type="dimen" name="m3_comp_fab_primary_pressed_state_layer_opacity">@dimen/m3_sys_state_pressed_state_layer_opacity</item>
+    <dimen name="m3_comp_fab_primary_small_container_height">40.0dip</dimen>
+    <dimen name="m3_comp_fab_primary_small_icon_size">24.0dip</dimen>
+    <item type="dimen" name="m3_comp_filled_autocomplete_menu_container_elevation">@dimen/m3_sys_elevation_level2</item>
+    <item type="dimen" name="m3_comp_filled_button_container_elevation">@dimen/m3_sys_elevation_level0</item>
+    <dimen name="m3_comp_filled_button_with_icon_icon_size">18.0dip</dimen>
+    <item type="dimen" name="m3_comp_filled_card_container_elevation">@dimen/m3_sys_elevation_level0</item>
+    <item type="dimen" name="m3_comp_filled_card_dragged_state_layer_opacity">@dimen/m3_sys_state_dragged_state_layer_opacity</item>
+    <item type="dimen" name="m3_comp_filled_card_focus_state_layer_opacity">@dimen/m3_sys_state_focus_state_layer_opacity</item>
+    <item type="dimen" name="m3_comp_filled_card_hover_state_layer_opacity">@dimen/m3_sys_state_hover_state_layer_opacity</item>
+    <dimen name="m3_comp_filled_card_icon_size">24.0dip</dimen>
+    <item type="dimen" name="m3_comp_filled_card_pressed_state_layer_opacity">@dimen/m3_sys_state_pressed_state_layer_opacity</item>
+    <item type="dimen" name="m3_comp_filled_text_field_disabled_active_indicator_opacity">0.38</item>
+    <dimen name="m3_comp_filter_chip_container_height">32.0dip</dimen>
+    <item type="dimen" name="m3_comp_filter_chip_elevated_container_elevation">@dimen/m3_sys_elevation_level1</item>
+    <item type="dimen" name="m3_comp_filter_chip_flat_container_elevation">@dimen/m3_sys_elevation_level0</item>
+    <dimen name="m3_comp_filter_chip_flat_unselected_outline_width">1.0dip</dimen>
+    <dimen name="m3_comp_filter_chip_with_icon_icon_size">18.0dip</dimen>
+    <item type="dimen" name="m3_comp_input_chip_container_elevation">@dimen/m3_sys_elevation_level0</item>
+    <dimen name="m3_comp_input_chip_container_height">32.0dip</dimen>
+    <dimen name="m3_comp_input_chip_unselected_outline_width">1.0dip</dimen>
+    <dimen name="m3_comp_input_chip_with_avatar_avatar_size">24.0dip</dimen>
+    <dimen name="m3_comp_input_chip_with_leading_icon_leading_icon_size">18.0dip</dimen>
+    <item type="dimen" name="m3_comp_menu_container_elevation">@dimen/m3_sys_elevation_level2</item>
+    <dimen name="m3_comp_navigation_bar_active_indicator_height">32.0dip</dimen>
+    <dimen name="m3_comp_navigation_bar_active_indicator_width">64.0dip</dimen>
+    <item type="dimen" name="m3_comp_navigation_bar_container_elevation">@dimen/m3_sys_elevation_level2</item>
+    <dimen name="m3_comp_navigation_bar_container_height">80.0dip</dimen>
+    <item type="dimen" name="m3_comp_navigation_bar_focus_state_layer_opacity">@dimen/m3_sys_state_focus_state_layer_opacity</item>
+    <item type="dimen" name="m3_comp_navigation_bar_hover_state_layer_opacity">@dimen/m3_sys_state_hover_state_layer_opacity</item>
+    <dimen name="m3_comp_navigation_bar_icon_size">24.0dip</dimen>
+    <item type="dimen" name="m3_comp_navigation_bar_pressed_state_layer_opacity">@dimen/m3_sys_state_pressed_state_layer_opacity</item>
+    <dimen name="m3_comp_navigation_drawer_container_width">360.0dip</dimen>
+    <item type="dimen" name="m3_comp_navigation_drawer_focus_state_layer_opacity">@dimen/m3_sys_state_focus_state_layer_opacity</item>
+    <item type="dimen" name="m3_comp_navigation_drawer_hover_state_layer_opacity">@dimen/m3_sys_state_hover_state_layer_opacity</item>
+    <dimen name="m3_comp_navigation_drawer_icon_size">24.0dip</dimen>
+    <item type="dimen" name="m3_comp_navigation_drawer_modal_container_elevation">@dimen/m3_sys_elevation_level1</item>
+    <item type="dimen" name="m3_comp_navigation_drawer_pressed_state_layer_opacity">@dimen/m3_sys_state_pressed_state_layer_opacity</item>
+    <item type="dimen" name="m3_comp_navigation_drawer_standard_container_elevation">@dimen/m3_sys_elevation_level0</item>
+    <dimen name="m3_comp_navigation_rail_active_indicator_height">32.0dip</dimen>
+    <dimen name="m3_comp_navigation_rail_active_indicator_width">56.0dip</dimen>
+    <item type="dimen" name="m3_comp_navigation_rail_container_elevation">@dimen/m3_sys_elevation_level0</item>
+    <dimen name="m3_comp_navigation_rail_container_width">80.0dip</dimen>
+    <item type="dimen" name="m3_comp_navigation_rail_focus_state_layer_opacity">@dimen/m3_sys_state_focus_state_layer_opacity</item>
+    <item type="dimen" name="m3_comp_navigation_rail_hover_state_layer_opacity">@dimen/m3_sys_state_hover_state_layer_opacity</item>
+    <dimen name="m3_comp_navigation_rail_icon_size">24.0dip</dimen>
+    <item type="dimen" name="m3_comp_navigation_rail_pressed_state_layer_opacity">@dimen/m3_sys_state_pressed_state_layer_opacity</item>
+    <item type="dimen" name="m3_comp_outlined_autocomplete_menu_container_elevation">@dimen/m3_sys_elevation_level2</item>
+    <item type="dimen" name="m3_comp_outlined_button_disabled_outline_opacity">0.12</item>
+    <dimen name="m3_comp_outlined_button_outline_width">1.0dip</dimen>
+    <item type="dimen" name="m3_comp_outlined_card_container_elevation">@dimen/m3_sys_elevation_level0</item>
+    <item type="dimen" name="m3_comp_outlined_card_disabled_outline_opacity">0.12</item>
+    <dimen name="m3_comp_outlined_card_icon_size">24.0dip</dimen>
+    <dimen name="m3_comp_outlined_card_outline_width">1.0dip</dimen>
+    <dimen name="m3_comp_outlined_icon_button_unselected_outline_width">1.0dip</dimen>
+    <item type="dimen" name="m3_comp_outlined_text_field_disabled_input_text_opacity">0.38</item>
+    <item type="dimen" name="m3_comp_outlined_text_field_disabled_label_text_opacity">0.38</item>
+    <item type="dimen" name="m3_comp_outlined_text_field_disabled_supporting_text_opacity">0.38</item>
+    <dimen name="m3_comp_outlined_text_field_focus_outline_width">2.0dip</dimen>
+    <dimen name="m3_comp_outlined_text_field_outline_width">1.0dip</dimen>
+    <item type="dimen" name="m3_comp_primary_navigation_tab_active_focus_state_layer_opacity">@dimen/m3_sys_state_focus_state_layer_opacity</item>
+    <item type="dimen" name="m3_comp_primary_navigation_tab_active_hover_state_layer_opacity">@dimen/m3_sys_state_hover_state_layer_opacity</item>
+    <dimen name="m3_comp_primary_navigation_tab_active_indicator_height">3.0dip</dimen>
+    <item type="dimen" name="m3_comp_primary_navigation_tab_active_pressed_state_layer_opacity">@dimen/m3_sys_state_pressed_state_layer_opacity</item>
+    <item type="dimen" name="m3_comp_primary_navigation_tab_inactive_focus_state_layer_opacity">@dimen/m3_sys_state_focus_state_layer_opacity</item>
+    <item type="dimen" name="m3_comp_primary_navigation_tab_inactive_hover_state_layer_opacity">@dimen/m3_sys_state_hover_state_layer_opacity</item>
+    <item type="dimen" name="m3_comp_primary_navigation_tab_inactive_pressed_state_layer_opacity">@dimen/m3_sys_state_pressed_state_layer_opacity</item>
+    <dimen name="m3_comp_primary_navigation_tab_with_icon_icon_size">24.0dip</dimen>
+    <dimen name="m3_comp_progress_indicator_active_indicator_track_space">4.0dip</dimen>
+    <dimen name="m3_comp_progress_indicator_stop_indicator_size">4.0dip</dimen>
+    <dimen name="m3_comp_progress_indicator_track_thickness">4.0dip</dimen>
+    <item type="dimen" name="m3_comp_radio_button_disabled_selected_icon_opacity">0.38</item>
+    <item type="dimen" name="m3_comp_radio_button_disabled_unselected_icon_opacity">0.38</item>
+    <item type="dimen" name="m3_comp_radio_button_selected_focus_state_layer_opacity">@dimen/m3_sys_state_focus_state_layer_opacity</item>
+    <item type="dimen" name="m3_comp_radio_button_selected_hover_state_layer_opacity">@dimen/m3_sys_state_hover_state_layer_opacity</item>
+    <item type="dimen" name="m3_comp_radio_button_selected_pressed_state_layer_opacity">@dimen/m3_sys_state_pressed_state_layer_opacity</item>
+    <item type="dimen" name="m3_comp_radio_button_unselected_focus_state_layer_opacity">@dimen/m3_sys_state_focus_state_layer_opacity</item>
+    <item type="dimen" name="m3_comp_radio_button_unselected_hover_state_layer_opacity">@dimen/m3_sys_state_hover_state_layer_opacity</item>
+    <item type="dimen" name="m3_comp_radio_button_unselected_pressed_state_layer_opacity">@dimen/m3_sys_state_pressed_state_layer_opacity</item>
+    <item type="dimen" name="m3_comp_scrim_container_opacity">0.32</item>
+    <dimen name="m3_comp_search_bar_avatar_size">30.0dip</dimen>
+    <item type="dimen" name="m3_comp_search_bar_container_elevation">@dimen/m3_sys_elevation_level3</item>
+    <dimen name="m3_comp_search_bar_container_height">56.0dip</dimen>
+    <item type="dimen" name="m3_comp_search_bar_hover_state_layer_opacity">@dimen/m3_sys_state_hover_state_layer_opacity</item>
+    <item type="dimen" name="m3_comp_search_bar_pressed_state_layer_opacity">@dimen/m3_sys_state_pressed_state_layer_opacity</item>
+    <item type="dimen" name="m3_comp_search_view_container_elevation">@dimen/m3_sys_elevation_level3</item>
+    <dimen name="m3_comp_search_view_docked_header_container_height">56.0dip</dimen>
+    <dimen name="m3_comp_search_view_full_screen_header_container_height">72.0dip</dimen>
+    <dimen name="m3_comp_secondary_navigation_tab_active_indicator_height">2.0dip</dimen>
+    <item type="dimen" name="m3_comp_secondary_navigation_tab_focus_state_layer_opacity">@dimen/m3_sys_state_focus_state_layer_opacity</item>
+    <item type="dimen" name="m3_comp_secondary_navigation_tab_hover_state_layer_opacity">@dimen/m3_sys_state_hover_state_layer_opacity</item>
+    <item type="dimen" name="m3_comp_secondary_navigation_tab_pressed_state_layer_opacity">@dimen/m3_sys_state_pressed_state_layer_opacity</item>
+    <dimen name="m3_comp_sheet_bottom_docked_drag_handle_height">4.0dip</dimen>
+    <dimen name="m3_comp_sheet_bottom_docked_drag_handle_width">32.0dip</dimen>
+    <item type="dimen" name="m3_comp_sheet_bottom_docked_modal_container_elevation">@dimen/m3_sys_elevation_level1</item>
+    <item type="dimen" name="m3_comp_sheet_bottom_docked_standard_container_elevation">@dimen/m3_sys_elevation_level1</item>
+    <dimen name="m3_comp_sheet_side_docked_container_width">256.0dip</dimen>
+    <item type="dimen" name="m3_comp_sheet_side_docked_modal_container_elevation">@dimen/m3_sys_elevation_level1</item>
+    <item type="dimen" name="m3_comp_sheet_side_docked_standard_container_elevation">@dimen/m3_sys_elevation_level0</item>
+    <dimen name="m3_comp_slider_active_handle_height">44.0dip</dimen>
+    <dimen name="m3_comp_slider_active_handle_leading_space">6.0dip</dimen>
+    <dimen name="m3_comp_slider_active_handle_width">4.0dip</dimen>
+    <item type="dimen" name="m3_comp_slider_disabled_active_track_opacity">0.38</item>
+    <item type="dimen" name="m3_comp_slider_disabled_handle_opacity">0.38</item>
+    <item type="dimen" name="m3_comp_slider_disabled_inactive_track_opacity">0.12</item>
+    <dimen name="m3_comp_slider_inactive_track_height">16.0dip</dimen>
+    <dimen name="m3_comp_slider_stop_indicator_size">4.0dip</dimen>
+    <item type="dimen" name="m3_comp_snackbar_container_elevation">@dimen/m3_sys_elevation_level3</item>
+    <dimen name="m3_comp_suggestion_chip_container_height">32.0dip</dimen>
+    <item type="dimen" name="m3_comp_suggestion_chip_elevated_container_elevation">@dimen/m3_sys_elevation_level1</item>
+    <item type="dimen" name="m3_comp_suggestion_chip_flat_container_elevation">@dimen/m3_sys_elevation_level0</item>
+    <dimen name="m3_comp_suggestion_chip_flat_outline_width">1.0dip</dimen>
+    <dimen name="m3_comp_suggestion_chip_with_leading_icon_leading_icon_size">18.0dip</dimen>
+    <item type="dimen" name="m3_comp_switch_disabled_selected_handle_opacity">1.0</item>
+    <item type="dimen" name="m3_comp_switch_disabled_selected_icon_opacity">0.38</item>
+    <item type="dimen" name="m3_comp_switch_disabled_track_opacity">0.12</item>
+    <item type="dimen" name="m3_comp_switch_disabled_unselected_handle_opacity">0.38</item>
+    <item type="dimen" name="m3_comp_switch_disabled_unselected_icon_opacity">0.38</item>
+    <item type="dimen" name="m3_comp_switch_selected_focus_state_layer_opacity">@dimen/m3_sys_state_focus_state_layer_opacity</item>
+    <item type="dimen" name="m3_comp_switch_selected_hover_state_layer_opacity">@dimen/m3_sys_state_hover_state_layer_opacity</item>
+    <item type="dimen" name="m3_comp_switch_selected_pressed_state_layer_opacity">@dimen/m3_sys_state_pressed_state_layer_opacity</item>
+    <dimen name="m3_comp_switch_track_height">32.0dip</dimen>
+    <dimen name="m3_comp_switch_track_width">52.0dip</dimen>
+    <item type="dimen" name="m3_comp_switch_unselected_focus_state_layer_opacity">@dimen/m3_sys_state_focus_state_layer_opacity</item>
+    <item type="dimen" name="m3_comp_switch_unselected_hover_state_layer_opacity">@dimen/m3_sys_state_hover_state_layer_opacity</item>
+    <item type="dimen" name="m3_comp_switch_unselected_pressed_state_layer_opacity">@dimen/m3_sys_state_pressed_state_layer_opacity</item>
+    <item type="dimen" name="m3_comp_text_button_focus_state_layer_opacity">@dimen/m3_sys_state_focus_state_layer_opacity</item>
+    <item type="dimen" name="m3_comp_text_button_hover_state_layer_opacity">@dimen/m3_sys_state_hover_state_layer_opacity</item>
+    <item type="dimen" name="m3_comp_text_button_pressed_state_layer_opacity">@dimen/m3_sys_state_pressed_state_layer_opacity</item>
+    <dimen name="m3_comp_time_input_time_input_field_focus_outline_width">2.0dip</dimen>
+    <item type="dimen" name="m3_comp_time_picker_container_elevation">@dimen/m3_sys_elevation_level3</item>
+    <item type="dimen" name="m3_comp_time_picker_period_selector_focus_state_layer_opacity">@dimen/m3_sys_state_focus_state_layer_opacity</item>
+    <item type="dimen" name="m3_comp_time_picker_period_selector_hover_state_layer_opacity">@dimen/m3_sys_state_hover_state_layer_opacity</item>
+    <dimen name="m3_comp_time_picker_period_selector_outline_width">1.0dip</dimen>
+    <item type="dimen" name="m3_comp_time_picker_period_selector_pressed_state_layer_opacity">@dimen/m3_sys_state_pressed_state_layer_opacity</item>
+    <item type="dimen" name="m3_comp_time_picker_time_selector_focus_state_layer_opacity">@dimen/m3_sys_state_focus_state_layer_opacity</item>
+    <item type="dimen" name="m3_comp_time_picker_time_selector_hover_state_layer_opacity">@dimen/m3_sys_state_hover_state_layer_opacity</item>
+    <item type="dimen" name="m3_comp_time_picker_time_selector_pressed_state_layer_opacity">@dimen/m3_sys_state_pressed_state_layer_opacity</item>
+    <dimen name="m3_comp_top_app_bar_large_container_height">152.0dip</dimen>
+    <dimen name="m3_comp_top_app_bar_medium_container_height">112.0dip</dimen>
+    <item type="dimen" name="m3_comp_top_app_bar_small_container_elevation">@dimen/m3_sys_elevation_level0</item>
+    <dimen name="m3_comp_top_app_bar_small_container_height">64.0dip</dimen>
+    <item type="dimen" name="m3_comp_top_app_bar_small_on_scroll_container_elevation">@dimen/m3_sys_elevation_level2</item>
+    <item type="dimen" name="m3_datepicker_elevation">@dimen/m3_sys_elevation_level3</item>
+    <dimen name="m3_divider_heavy_thickness">8.0dip</dimen>
+    <dimen name="m3_extended_fab_bottom_padding">8.0dip</dimen>
+    <dimen name="m3_extended_fab_end_padding">20.0dip</dimen>
+    <dimen name="m3_extended_fab_icon_padding">12.0dip</dimen>
+    <dimen name="m3_extended_fab_min_height">56.0dip</dimen>
+    <dimen name="m3_extended_fab_start_padding">16.0dip</dimen>
+    <dimen name="m3_extended_fab_top_padding">8.0dip</dimen>
+    <dimen name="m3_fab_border_width">0.0dip</dimen>
+    <item type="dimen" name="m3_fab_corner_size">29.999996%</item>
+    <dimen name="m3_fab_translation_z_hovered_focused">2.0dip</dimen>
+    <dimen name="m3_fab_translation_z_pressed">6.0dip</dimen>
+    <dimen name="m3_large_fab_max_image_size">36.0dip</dimen>
+    <dimen name="m3_large_fab_size">96.0dip</dimen>
+    <dimen name="m3_large_text_vertical_offset_adjustment">4.0dip</dimen>
+    <item type="dimen" name="m3_menu_elevation">@dimen/m3_comp_menu_container_elevation</item>
+    <dimen name="m3_nav_badge_with_text_vertical_offset">14.0dip</dimen>
+    <dimen name="m3_navigation_drawer_layout_corner_size">16.0dip</dimen>
+    <dimen name="m3_navigation_item_active_indicator_label_padding">4.0dip</dimen>
+    <dimen name="m3_navigation_item_horizontal_padding">28.0dip</dimen>
+    <dimen name="m3_navigation_item_icon_padding">12.0dip</dimen>
+    <dimen name="m3_navigation_item_shape_inset_bottom">0.0dip</dimen>
+    <dimen name="m3_navigation_item_shape_inset_end">12.0dip</dimen>
+    <dimen name="m3_navigation_item_shape_inset_start">12.0dip</dimen>
+    <dimen name="m3_navigation_item_shape_inset_top">0.0dip</dimen>
+    <dimen name="m3_navigation_item_vertical_padding">4.0dip</dimen>
+    <dimen name="m3_navigation_menu_divider_horizontal_padding">28.0dip</dimen>
+    <dimen name="m3_navigation_menu_headline_horizontal_padding">28.0dip</dimen>
+    <item type="dimen" name="m3_navigation_rail_default_width">@dimen/m3_comp_navigation_rail_container_width</item>
+    <item type="dimen" name="m3_navigation_rail_elevation">@dimen/m3_comp_navigation_rail_container_elevation</item>
+    <item type="dimen" name="m3_navigation_rail_icon_size">@dimen/m3_comp_navigation_rail_icon_size</item>
+    <item type="dimen" name="m3_navigation_rail_item_active_indicator_height">@dimen/m3_comp_navigation_rail_active_indicator_height</item>
+    <dimen name="m3_navigation_rail_item_active_indicator_margin_horizontal">4.0dip</dimen>
+    <item type="dimen" name="m3_navigation_rail_item_active_indicator_width">@dimen/m3_comp_navigation_rail_active_indicator_width</item>
+    <dimen name="m3_navigation_rail_item_min_height">60.0dip</dimen>
+    <dimen name="m3_navigation_rail_item_padding_bottom">12.0dip</dimen>
+    <dimen name="m3_navigation_rail_item_padding_bottom_with_large_font">20.0dip</dimen>
+    <dimen name="m3_navigation_rail_item_padding_top">4.0dip</dimen>
+    <dimen name="m3_navigation_rail_item_padding_top_with_large_font">12.0dip</dimen>
+    <dimen name="m3_navigation_rail_label_padding_horizontal">2.0dip</dimen>
+    <item type="dimen" name="m3_ripple_default_alpha">@dimen/m3_sys_state_dragged_state_layer_opacity</item>
+    <item type="dimen" name="m3_ripple_focused_alpha">@dimen/m3_sys_state_focus_state_layer_opacity</item>
+    <item type="dimen" name="m3_ripple_hovered_alpha">@dimen/m3_sys_state_hover_state_layer_opacity</item>
+    <item type="dimen" name="m3_ripple_pressed_alpha">@dimen/m3_sys_state_pressed_state_layer_opacity</item>
+    <item type="dimen" name="m3_ripple_selectable_pressed_alpha">@dimen/m3_sys_state_pressed_state_layer_opacity</item>
+    <item type="dimen" name="m3_searchbar_elevation">@dimen/m3_comp_search_bar_container_elevation</item>
+    <item type="dimen" name="m3_searchbar_height">@dimen/m3_comp_search_bar_container_height</item>
+    <dimen name="m3_searchbar_margin_horizontal">16.0dip</dimen>
+    <dimen name="m3_searchbar_margin_vertical">16.0dip</dimen>
+    <dimen name="m3_searchbar_outlined_stroke_width">1.0dip</dimen>
+    <dimen name="m3_searchbar_padding_start">4.0dip</dimen>
+    <dimen name="m3_searchbar_text_margin_start_no_navigation_icon">16.0dip</dimen>
+    <dimen name="m3_searchbar_text_size">16.0sp</dimen>
+    <dimen name="m3_searchview_divider_size">1.0dip</dimen>
+    <item type="dimen" name="m3_searchview_elevation">@dimen/m3_comp_search_view_container_elevation</item>
+    <item type="dimen" name="m3_searchview_height">@dimen/m3_comp_search_view_full_screen_header_container_height</item>
+    <dimen name="m3_side_sheet_margin_detached">16.0dip</dimen>
+    <item type="dimen" name="m3_side_sheet_modal_elevation">@dimen/m3_comp_sheet_side_docked_modal_container_elevation</item>
+    <item type="dimen" name="m3_side_sheet_standard_elevation">@dimen/m3_comp_sheet_side_docked_standard_container_elevation</item>
+    <item type="dimen" name="m3_side_sheet_width">@dimen/m3_comp_sheet_side_docked_container_width</item>
+    <item type="dimen" name="m3_simple_item_color_hovered_alpha">0.08</item>
+    <item type="dimen" name="m3_simple_item_color_selected_alpha">0.12</item>
+    <dimen name="m3_slider_thumb_elevation">2.0dip</dimen>
+    <dimen name="m3_small_fab_max_image_size">24.0dip</dimen>
+    <dimen name="m3_small_fab_size">40.0dip</dimen>
+    <item type="dimen" name="m3_snackbar_action_text_color_alpha">1.0</item>
+    <dimen name="m3_snackbar_margin">8.0dip</dimen>
+    <dimen name="m3_sys_elevation_level0">0.0dip</dimen>
+    <dimen name="m3_sys_elevation_level1">1.0dip</dimen>
+    <dimen name="m3_sys_elevation_level2">3.0dip</dimen>
+    <dimen name="m3_sys_elevation_level3">6.0dip</dimen>
+    <dimen name="m3_sys_elevation_level4">8.0dip</dimen>
+    <dimen name="m3_sys_elevation_level5">12.0dip</dimen>
+    <item type="dimen" name="m3_sys_motion_easing_emphasized_accelerate_control_x1">0.3</item>
+    <item type="dimen" name="m3_sys_motion_easing_emphasized_accelerate_control_x2">0.8</item>
+    <item type="dimen" name="m3_sys_motion_easing_emphasized_accelerate_control_y1">0.0</item>
+    <item type="dimen" name="m3_sys_motion_easing_emphasized_accelerate_control_y2">0.2</item>
+    <item type="dimen" name="m3_sys_motion_easing_emphasized_decelerate_control_x1">0.1</item>
+    <item type="dimen" name="m3_sys_motion_easing_emphasized_decelerate_control_x2">0.1</item>
+    <item type="dimen" name="m3_sys_motion_easing_emphasized_decelerate_control_y1">0.7</item>
+    <item type="dimen" name="m3_sys_motion_easing_emphasized_decelerate_control_y2">1.0</item>
+    <item type="dimen" name="m3_sys_motion_easing_legacy_accelerate_control_x1">0.4</item>
+    <item type="dimen" name="m3_sys_motion_easing_legacy_accelerate_control_x2">1.0</item>
+    <item type="dimen" name="m3_sys_motion_easing_legacy_accelerate_control_y1">0.0</item>
+    <item type="dimen" name="m3_sys_motion_easing_legacy_accelerate_control_y2">1.0</item>
+    <item type="dimen" name="m3_sys_motion_easing_legacy_control_x1">0.4</item>
+    <item type="dimen" name="m3_sys_motion_easing_legacy_control_x2">0.2</item>
+    <item type="dimen" name="m3_sys_motion_easing_legacy_control_y1">0.0</item>
+    <item type="dimen" name="m3_sys_motion_easing_legacy_control_y2">1.0</item>
+    <item type="dimen" name="m3_sys_motion_easing_legacy_decelerate_control_x1">0.0</item>
+    <item type="dimen" name="m3_sys_motion_easing_legacy_decelerate_control_x2">0.2</item>
+    <item type="dimen" name="m3_sys_motion_easing_legacy_decelerate_control_y1">0.0</item>
+    <item type="dimen" name="m3_sys_motion_easing_legacy_decelerate_control_y2">1.0</item>
+    <item type="dimen" name="m3_sys_motion_easing_linear_control_x1">0.0</item>
+    <item type="dimen" name="m3_sys_motion_easing_linear_control_x2">1.0</item>
+    <item type="dimen" name="m3_sys_motion_easing_linear_control_y1">0.0</item>
+    <item type="dimen" name="m3_sys_motion_easing_linear_control_y2">1.0</item>
+    <item type="dimen" name="m3_sys_motion_easing_standard_accelerate_control_x1">0.3</item>
+    <item type="dimen" name="m3_sys_motion_easing_standard_accelerate_control_x2">1.0</item>
+    <item type="dimen" name="m3_sys_motion_easing_standard_accelerate_control_y1">0.0</item>
+    <item type="dimen" name="m3_sys_motion_easing_standard_accelerate_control_y2">1.0</item>
+    <item type="dimen" name="m3_sys_motion_easing_standard_control_x1">0.2</item>
+    <item type="dimen" name="m3_sys_motion_easing_standard_control_x2">0.0</item>
+    <item type="dimen" name="m3_sys_motion_easing_standard_control_y1">0.0</item>
+    <item type="dimen" name="m3_sys_motion_easing_standard_control_y2">1.0</item>
+    <item type="dimen" name="m3_sys_motion_easing_standard_decelerate_control_x1">0.0</item>
+    <item type="dimen" name="m3_sys_motion_easing_standard_decelerate_control_x2">0.0</item>
+    <item type="dimen" name="m3_sys_motion_easing_standard_decelerate_control_y1">0.0</item>
+    <item type="dimen" name="m3_sys_motion_easing_standard_decelerate_control_y2">1.0</item>
+    <item type="dimen" name="m3_sys_state_dragged_state_layer_opacity">0.32</item>
+    <item type="dimen" name="m3_sys_state_focus_state_layer_opacity">0.2</item>
+    <item type="dimen" name="m3_sys_state_hover_state_layer_opacity">0.16</item>
+    <item type="dimen" name="m3_sys_state_pressed_state_layer_opacity">0.2</item>
+    <dimen name="m3_timepicker_display_stroke_width">2.0dip</dimen>
+    <item type="dimen" name="m3_timepicker_window_elevation">@dimen/m3_comp_time_picker_container_elevation</item>
+    <dimen name="m3_toolbar_text_size_title">20.0dip</dimen>
+    <dimen name="map_data_dp_12">12.0dip</dimen>
+    <dimen name="map_data_dp_16">16.0dip</dimen>
+    <dimen name="map_data_dp_2">2.0dip</dimen>
+    <dimen name="map_data_dp_20">20.0dip</dimen>
+    <dimen name="map_data_dp_24">24.0dip</dimen>
+    <dimen name="map_data_dp_32">32.0dip</dimen>
+    <dimen name="map_data_dp_36">36.0dip</dimen>
+    <dimen name="map_data_dp_4">4.0dip</dimen>
+    <dimen name="map_data_dp_40">40.0dip</dimen>
+    <dimen name="map_data_dp_44">44.0dip</dimen>
+    <dimen name="map_data_dp_56">56.0dip</dimen>
+    <dimen name="map_data_dp_6">6.0dip</dimen>
+    <dimen name="map_data_dp_72">72.0dip</dimen>
+    <dimen name="map_data_dp_8">8.0dip</dimen>
+    <dimen name="map_data_height_48">48.0dip</dimen>
+    <dimen name="map_data_height_64">64.0dip</dimen>
+    <dimen name="map_data_margin_12">12.0dip</dimen>
+    <dimen name="map_data_margin_16">16.0dip</dimen>
+    <dimen name="map_data_padding_16">16.0dip</dimen>
+    <dimen name="map_data_padding_42">42.0dip</dimen>
+    <dimen name="map_data_sp_12">12.0sp</dimen>
+    <dimen name="map_data_sp_14">14.0sp</dimen>
+    <dimen name="map_data_sp_16">16.0sp</dimen>
+    <dimen name="map_data_sp_18">18.0sp</dimen>
+    <dimen name="map_data_spilt_line_height">0.5dip</dimen>
+    <dimen name="map_data_top_bar_44">44.0dip</dimen>
+    <dimen name="mapbox_defaultMultiTapMovementThreshold">5.0dip</dimen>
+    <dimen name="mapbox_defaultScaleSpanSinceStartThreshold">7.0dip</dimen>
+    <dimen name="mapbox_defaultShovePixelThreshold">16.0dip</dimen>
+    <dimen name="mapbox_internalMinSpan23">10.0mm</dimen>
+    <dimen name="mapbox_internalMinSpan24">6.0mm</dimen>
+    <dimen name="maplibre_angular_velocity_multiplier">1.2999878dip</dimen>
+    <dimen name="maplibre_density_constant">0.28999996dip</dimen>
+    <dimen name="maplibre_eight_dp">8.0dip</dimen>
+    <dimen name="maplibre_four_dp">4.0dip</dimen>
+    <dimen name="maplibre_infowindow_margin">8.0dip</dimen>
+    <dimen name="maplibre_infowindow_tipview_width">8.0dip</dimen>
+    <dimen name="maplibre_locationComponentTrackingInitialMoveThreshold">25.0dip</dimen>
+    <dimen name="maplibre_locationComponentTrackingMultiFingerMoveThreshold">400.0dip</dimen>
+    <dimen name="maplibre_minimum_angled_scale_speed">0.9dip</dimen>
+    <dimen name="maplibre_minimum_angular_velocity">0.100000024dip</dimen>
+    <dimen name="maplibre_minimum_scale_span_when_rotating">75.0dip</dimen>
+    <dimen name="maplibre_minimum_scale_speed">0.6dip</dimen>
+    <dimen name="maplibre_minimum_scale_velocity">225.0dip</dimen>
+    <dimen name="maplibre_my_locationview_outer_circle">18.0dip</dimen>
+    <dimen name="maplibre_ninety_two_dp">92.0dip</dimen>
+    <dimen name="material_bottom_sheet_max_width">640.0dip</dimen>
+    <dimen name="material_clock_display_height">80.0dip</dimen>
+    <dimen name="material_clock_display_padding">24.0dip</dimen>
+    <dimen name="material_clock_display_width">96.0dip</dimen>
+    <dimen name="material_clock_face_margin_bottom">24.0dip</dimen>
+    <dimen name="material_clock_face_margin_top">44.0dip</dimen>
+    <dimen name="material_clock_hand_center_dot_radius">4.0dip</dimen>
+    <dimen name="material_clock_hand_padding">4.0dip</dimen>
+    <dimen name="material_clock_hand_stroke_width">2.0dip</dimen>
+    <dimen name="material_clock_number_text_size">15.0sp</dimen>
+    <dimen name="material_clock_period_toggle_height">96.0dip</dimen>
+    <dimen name="material_clock_period_toggle_horizontal_gap">12.0dip</dimen>
+    <dimen name="material_clock_period_toggle_vertical_gap">12.0dip</dimen>
+    <dimen name="material_clock_period_toggle_width">52.0dip</dimen>
+    <dimen name="material_clock_size">256.0dip</dimen>
+    <dimen name="material_cursor_inset">-4.0dip</dimen>
+    <dimen name="material_cursor_width">2.0dip</dimen>
+    <dimen name="material_divider_thickness">1.0dip</dimen>
+    <item type="dimen" name="material_emphasis_disabled">0.38</item>
+    <item type="dimen" name="material_emphasis_disabled_background">0.12</item>
+    <item type="dimen" name="material_emphasis_high_type">0.87</item>
+    <item type="dimen" name="material_emphasis_medium">0.6</item>
+    <dimen name="material_filled_edittext_font_1_3_padding_bottom">12.0dip</dimen>
+    <dimen name="material_filled_edittext_font_1_3_padding_top">23.0dip</dimen>
+    <dimen name="material_filled_edittext_font_2_0_padding_bottom">8.0dip</dimen>
+    <dimen name="material_filled_edittext_font_2_0_padding_top">32.0dip</dimen>
+    <dimen name="material_font_1_3_box_collapsed_padding_top">4.0dip</dimen>
+    <dimen name="material_font_2_0_box_collapsed_padding_top">8.0dip</dimen>
+    <dimen name="material_helper_text_default_padding_top">4.0dip</dimen>
+    <dimen name="material_helper_text_font_1_3_padding_horizontal">12.0dip</dimen>
+    <dimen name="material_helper_text_font_1_3_padding_top">8.0dip</dimen>
+    <dimen name="material_input_text_to_prefix_suffix_padding">2.0dip</dimen>
+    <dimen name="material_textinput_default_width">245.0dip</dimen>
+    <dimen name="material_textinput_max_width">488.0dip</dimen>
+    <dimen name="material_textinput_min_width">56.0dip</dimen>
+    <dimen name="material_time_picker_minimum_screen_height">560.0dip</dimen>
+    <dimen name="material_time_picker_minimum_screen_width">340.0dip</dimen>
+    <dimen name="mc_actionbar">48.0dip</dimen>
+    <dimen name="mc_divider">0.5dip</dimen>
+    <dimen name="mc_divider_8">8.0dip</dimen>
+    <dimen name="mc_item_height_14">14.0dip</dimen>
+    <dimen name="mc_item_height_16">16.0dip</dimen>
+    <dimen name="mc_item_height_20">20.0dip</dimen>
+    <dimen name="mc_item_height_24">24.0dip</dimen>
+    <dimen name="mc_item_height_28">28.0dip</dimen>
+    <dimen name="mc_item_height_32">36.0dip</dimen>
+    <dimen name="mc_item_height_36">36.0dip</dimen>
+    <dimen name="mc_item_height_40">40.0dip</dimen>
+    <dimen name="mc_item_height_44">44.0dip</dimen>
+    <dimen name="mc_item_height_48">48.0dip</dimen>
+    <dimen name="mc_item_height_52">52.0dip</dimen>
+    <dimen name="mc_item_height_56">56.0dip</dimen>
+    <dimen name="mc_item_height_60">60.0dip</dimen>
+    <dimen name="mc_item_height_64">64.0dip</dimen>
+    <dimen name="mc_item_height_72">72.0dip</dimen>
+    <dimen name="mc_item_height_96">96.0dip</dimen>
+    <dimen name="mc_margin_10">10.0dip</dimen>
+    <dimen name="mc_margin_12">12.0dip</dimen>
+    <dimen name="mc_margin_14">14.0dip</dimen>
+    <dimen name="mc_margin_16">16.0dip</dimen>
+    <dimen name="mc_margin_18">18.0dip</dimen>
+    <dimen name="mc_margin_2">2.0dip</dimen>
+    <dimen name="mc_margin_20">20.0dip</dimen>
+    <dimen name="mc_margin_24">24.0dip</dimen>
+    <dimen name="mc_margin_32">32.0dip</dimen>
+    <dimen name="mc_margin_36">36.0dip</dimen>
+    <dimen name="mc_margin_4">4.0dip</dimen>
+    <dimen name="mc_margin_40">40.0dip</dimen>
+    <dimen name="mc_margin_44">44.0dip</dimen>
+    <dimen name="mc_margin_46">46.0dip</dimen>
+    <dimen name="mc_margin_48">48.0dip</dimen>
+    <dimen name="mc_margin_6">6.0dip</dimen>
+    <dimen name="mc_margin_64">64.0dip</dimen>
+    <dimen name="mc_margin_8">8.0dip</dimen>
+    <item type="dimen" name="mc_padding">@dimen/mc_padding_8</item>
+    <dimen name="mc_padding_10">10.0dip</dimen>
+    <dimen name="mc_padding_12">12.0dip</dimen>
+    <dimen name="mc_padding_16">16.0dip</dimen>
+    <dimen name="mc_padding_2">2.0dip</dimen>
+    <dimen name="mc_padding_20">20.0dip</dimen>
+    <dimen name="mc_padding_24">24.0dip</dimen>
+    <dimen name="mc_padding_36">36.0dip</dimen>
+    <dimen name="mc_padding_4">4.0dip</dimen>
+    <dimen name="mc_padding_48">48.0dip</dimen>
+    <dimen name="mc_padding_8">8.0dip</dimen>
+    <dimen name="mc_radius_12">12.0dip</dimen>
+    <dimen name="mc_radius_16">16.0dip</dimen>
+    <dimen name="mc_radius_2">2.0dip</dimen>
+    <dimen name="mc_radius_20">20.0dip</dimen>
+    <dimen name="mc_radius_24">24.0dip</dimen>
+    <dimen name="mc_radius_4">4.0dip</dimen>
+    <dimen name="mc_radius_8">8.0dip</dimen>
+    <dimen name="mc_text_size_10">10.0sp</dimen>
+    <dimen name="mc_text_size_12">12.0sp</dimen>
+    <dimen name="mc_text_size_14">14.0sp</dimen>
+    <dimen name="mc_text_size_16">16.0sp</dimen>
+    <dimen name="mc_text_size_18">18.0sp</dimen>
+    <dimen name="mc_text_size_20">20.0sp</dimen>
+    <dimen name="mc_text_size_24">24.0sp</dimen>
+    <dimen name="mc_text_size_28">28.0sp</dimen>
+    <dimen name="money_textsize">16.0sp</dimen>
+    <dimen name="mtrl_alert_dialog_background_inset_bottom">80.0dip</dimen>
+    <dimen name="mtrl_alert_dialog_background_inset_end">24.0dip</dimen>
+    <dimen name="mtrl_alert_dialog_background_inset_start">24.0dip</dimen>
+    <dimen name="mtrl_alert_dialog_background_inset_top">80.0dip</dimen>
+    <dimen name="mtrl_alert_dialog_picker_background_inset">24.0dip</dimen>
+    <dimen name="mtrl_badge_horizontal_edge_offset">4.0dip</dimen>
+    <dimen name="mtrl_badge_long_text_horizontal_padding">4.0dip</dimen>
+    <dimen name="mtrl_badge_size">8.0dip</dimen>
+    <dimen name="mtrl_badge_text_horizontal_edge_offset">6.0dip</dimen>
+    <dimen name="mtrl_badge_text_size">10.0sp</dimen>
+    <dimen name="mtrl_badge_toolbar_action_menu_item_horizontal_offset">12.0dip</dimen>
+    <dimen name="mtrl_badge_toolbar_action_menu_item_vertical_offset">12.0dip</dimen>
+    <dimen name="mtrl_badge_with_text_size">16.0dip</dimen>
+    <dimen name="mtrl_bottomappbar_fabOffsetEndMode">60.0dip</dimen>
+    <dimen name="mtrl_bottomappbar_fab_bottom_margin">16.0dip</dimen>
+    <dimen name="mtrl_bottomappbar_fab_cradle_margin">5.0dip</dimen>
+    <dimen name="mtrl_bottomappbar_fab_cradle_rounded_corner_radius">8.0dip</dimen>
+    <dimen name="mtrl_bottomappbar_fab_cradle_vertical_offset">0.0dip</dimen>
+    <dimen name="mtrl_bottomappbar_height">56.0dip</dimen>
+    <dimen name="mtrl_btn_corner_radius">4.0dip</dimen>
+    <dimen name="mtrl_btn_dialog_btn_min_width">64.0dip</dimen>
+    <dimen name="mtrl_btn_disabled_elevation">0.0dip</dimen>
+    <dimen name="mtrl_btn_disabled_z">0.0dip</dimen>
+    <dimen name="mtrl_btn_elevation">2.0dip</dimen>
+    <dimen name="mtrl_btn_focused_z">2.0dip</dimen>
+    <dimen name="mtrl_btn_hovered_z">2.0dip</dimen>
+    <dimen name="mtrl_btn_icon_btn_padding_left">12.0dip</dimen>
+    <dimen name="mtrl_btn_icon_padding">8.0dip</dimen>
+    <dimen name="mtrl_btn_inset">6.0dip</dimen>
+    <item type="dimen" name="mtrl_btn_letter_spacing">0.07</item>
+    <dimen name="mtrl_btn_max_width">320.0dip</dimen>
+    <dimen name="mtrl_btn_padding_bottom">4.0dip</dimen>
+    <dimen name="mtrl_btn_padding_left">16.0dip</dimen>
+    <dimen name="mtrl_btn_padding_right">16.0dip</dimen>
+    <dimen name="mtrl_btn_padding_top">4.0dip</dimen>
+    <dimen name="mtrl_btn_pressed_z">6.0dip</dimen>
+    <dimen name="mtrl_btn_snackbar_margin_horizontal">8.0dip</dimen>
+    <dimen name="mtrl_btn_stroke_size">1.0dip</dimen>
+    <dimen name="mtrl_btn_text_btn_icon_padding">4.0dip</dimen>
+    <dimen name="mtrl_btn_text_btn_padding_left">8.0dip</dimen>
+    <dimen name="mtrl_btn_text_btn_padding_right">8.0dip</dimen>
+    <dimen name="mtrl_btn_text_size">14.0sp</dimen>
+    <dimen name="mtrl_btn_z">0.0dip</dimen>
+    <dimen name="mtrl_calendar_action_confirm_button_min_width">64.0dip</dimen>
+    <dimen name="mtrl_calendar_action_height">52.0dip</dimen>
+    <dimen name="mtrl_calendar_action_padding">8.0dip</dimen>
+    <dimen name="mtrl_calendar_bottom_padding">0.0dip</dimen>
+    <dimen name="mtrl_calendar_content_padding">12.0dip</dimen>
+    <dimen name="mtrl_calendar_day_corner">15.0dip</dimen>
+    <dimen name="mtrl_calendar_day_height">32.0dip</dimen>
+    <dimen name="mtrl_calendar_day_horizontal_padding">3.0dip</dimen>
+    <dimen name="mtrl_calendar_day_today_stroke">1.0dip</dimen>
+    <dimen name="mtrl_calendar_day_vertical_padding">1.0dip</dimen>
+    <dimen name="mtrl_calendar_day_width">36.0dip</dimen>
+    <dimen name="mtrl_calendar_days_of_week_height">24.0dip</dimen>
+    <dimen name="mtrl_calendar_dialog_background_inset">16.0dip</dimen>
+    <dimen name="mtrl_calendar_header_content_padding">12.0dip</dimen>
+    <dimen name="mtrl_calendar_header_content_padding_fullscreen">4.0dip</dimen>
+    <dimen name="mtrl_calendar_header_divider_thickness">1.0dip</dimen>
+    <dimen name="mtrl_calendar_header_height">120.0dip</dimen>
+    <dimen name="mtrl_calendar_header_height_fullscreen">128.0dip</dimen>
+    <dimen name="mtrl_calendar_header_selection_line_height">32.0dip</dimen>
+    <dimen name="mtrl_calendar_header_text_padding">12.0dip</dimen>
+    <dimen name="mtrl_calendar_header_toggle_margin_bottom">8.0dip</dimen>
+    <dimen name="mtrl_calendar_header_toggle_margin_top">24.0dip</dimen>
+    <dimen name="mtrl_calendar_landscape_header_width">0.0dip</dimen>
+    <dimen name="mtrl_calendar_maximum_default_fullscreen_minor_axis">480.0dip</dimen>
+    <dimen name="mtrl_calendar_month_horizontal_padding">2.0dip</dimen>
+    <dimen name="mtrl_calendar_month_vertical_padding">0.0dip</dimen>
+    <dimen name="mtrl_calendar_navigation_bottom_padding">4.0dip</dimen>
+    <dimen name="mtrl_calendar_navigation_height">48.0dip</dimen>
+    <dimen name="mtrl_calendar_navigation_top_padding">4.0dip</dimen>
+    <dimen name="mtrl_calendar_pre_l_text_clip_padding">0.0dip</dimen>
+    <dimen name="mtrl_calendar_selection_baseline_to_top_fullscreen">104.0dip</dimen>
+    <dimen name="mtrl_calendar_selection_text_baseline_to_bottom">20.0dip</dimen>
+    <dimen name="mtrl_calendar_selection_text_baseline_to_bottom_fullscreen">24.0dip</dimen>
+    <dimen name="mtrl_calendar_selection_text_baseline_to_top">100.0dip</dimen>
+    <dimen name="mtrl_calendar_text_input_padding_top">16.0dip</dimen>
+    <dimen name="mtrl_calendar_title_baseline_to_top">28.0dip</dimen>
+    <dimen name="mtrl_calendar_title_baseline_to_top_fullscreen">68.0dip</dimen>
+    <dimen name="mtrl_calendar_year_corner">18.0dip</dimen>
+    <dimen name="mtrl_calendar_year_height">52.0dip</dimen>
+    <dimen name="mtrl_calendar_year_horizontal_padding">8.0dip</dimen>
+    <dimen name="mtrl_calendar_year_vertical_padding">8.0dip</dimen>
+    <dimen name="mtrl_calendar_year_width">88.0dip</dimen>
+    <dimen name="mtrl_card_checked_icon_margin">8.0dip</dimen>
+    <dimen name="mtrl_card_checked_icon_size">24.0dip</dimen>
+    <dimen name="mtrl_card_corner_radius">4.0dip</dimen>
+    <dimen name="mtrl_card_dragged_z">5.0dip</dimen>
+    <dimen name="mtrl_card_elevation">1.0dip</dimen>
+    <dimen name="mtrl_card_spacing">8.0dip</dimen>
+    <dimen name="mtrl_chip_pressed_translation_z">3.0dip</dimen>
+    <dimen name="mtrl_chip_text_size">14.0sp</dimen>
+    <dimen name="mtrl_exposed_dropdown_menu_popup_elevation">8.0dip</dimen>
+    <dimen name="mtrl_exposed_dropdown_menu_popup_vertical_offset">1.0dip</dimen>
+    <dimen name="mtrl_exposed_dropdown_menu_popup_vertical_padding">8.0dip</dimen>
+    <dimen name="mtrl_extended_fab_bottom_padding">12.0dip</dimen>
+    <dimen name="mtrl_extended_fab_disabled_elevation">0.0dip</dimen>
+    <dimen name="mtrl_extended_fab_disabled_translation_z">0.0dip</dimen>
+    <dimen name="mtrl_extended_fab_elevation">6.0dip</dimen>
+    <dimen name="mtrl_extended_fab_end_padding">20.0dip</dimen>
+    <dimen name="mtrl_extended_fab_end_padding_icon">20.0dip</dimen>
+    <dimen name="mtrl_extended_fab_icon_size">24.0dip</dimen>
+    <dimen name="mtrl_extended_fab_icon_text_spacing">12.0dip</dimen>
+    <dimen name="mtrl_extended_fab_min_height">48.0dip</dimen>
+    <dimen name="mtrl_extended_fab_min_width">120.0dip</dimen>
+    <dimen name="mtrl_extended_fab_start_padding">20.0dip</dimen>
+    <dimen name="mtrl_extended_fab_start_padding_icon">12.0dip</dimen>
+    <dimen name="mtrl_extended_fab_top_padding">12.0dip</dimen>
+    <dimen name="mtrl_extended_fab_translation_z_base">0.0dip</dimen>
+    <dimen name="mtrl_extended_fab_translation_z_hovered_focused">2.0dip</dimen>
+    <dimen name="mtrl_extended_fab_translation_z_pressed">6.0dip</dimen>
+    <dimen name="mtrl_fab_elevation">6.0dip</dimen>
+    <dimen name="mtrl_fab_min_touch_target">48.0dip</dimen>
+    <dimen name="mtrl_fab_translation_z_hovered_focused">2.0dip</dimen>
+    <dimen name="mtrl_fab_translation_z_pressed">6.0dip</dimen>
+    <item type="dimen" name="mtrl_high_ripple_default_alpha">0.48</item>
+    <item type="dimen" name="mtrl_high_ripple_focused_alpha">0.48</item>
+    <item type="dimen" name="mtrl_high_ripple_hovered_alpha">0.16</item>
+    <item type="dimen" name="mtrl_high_ripple_pressed_alpha">0.48</item>
+    <item type="dimen" name="mtrl_low_ripple_default_alpha">0.24</item>
+    <item type="dimen" name="mtrl_low_ripple_focused_alpha">0.24</item>
+    <item type="dimen" name="mtrl_low_ripple_hovered_alpha">0.08</item>
+    <item type="dimen" name="mtrl_low_ripple_pressed_alpha">0.24</item>
+    <dimen name="mtrl_min_touch_target_size">48.0dip</dimen>
+    <dimen name="mtrl_navigation_bar_item_default_icon_size">24.0dip</dimen>
+    <dimen name="mtrl_navigation_bar_item_default_margin">8.0dip</dimen>
+    <dimen name="mtrl_navigation_elevation">0.0dip</dimen>
+    <dimen name="mtrl_navigation_item_horizontal_padding">22.0dip</dimen>
+    <dimen name="mtrl_navigation_item_icon_padding">14.0dip</dimen>
+    <dimen name="mtrl_navigation_item_icon_size">24.0dip</dimen>
+    <dimen name="mtrl_navigation_item_shape_horizontal_margin">8.0dip</dimen>
+    <dimen name="mtrl_navigation_item_shape_vertical_margin">4.0dip</dimen>
+    <dimen name="mtrl_navigation_rail_active_text_size">14.0dip</dimen>
+    <dimen name="mtrl_navigation_rail_compact_width">56.0dip</dimen>
+    <dimen name="mtrl_navigation_rail_default_width">72.0dip</dimen>
+    <dimen name="mtrl_navigation_rail_elevation">8.0dip</dimen>
+    <dimen name="mtrl_navigation_rail_icon_margin">14.0dip</dimen>
+    <dimen name="mtrl_navigation_rail_icon_size">24.0dip</dimen>
+    <dimen name="mtrl_navigation_rail_margin">8.0dip</dimen>
+    <dimen name="mtrl_navigation_rail_text_bottom_margin">16.0dip</dimen>
+    <dimen name="mtrl_navigation_rail_text_size">12.0dip</dimen>
+    <dimen name="mtrl_progress_circular_inset">4.0dip</dimen>
+    <dimen name="mtrl_progress_circular_inset_extra_small">2.0dip</dimen>
+    <dimen name="mtrl_progress_circular_inset_medium">4.0dip</dimen>
+    <dimen name="mtrl_progress_circular_inset_small">4.0dip</dimen>
+    <dimen name="mtrl_progress_circular_radius">18.0dip</dimen>
+    <dimen name="mtrl_progress_circular_size">40.0dip</dimen>
+    <dimen name="mtrl_progress_circular_size_extra_small">20.0dip</dimen>
+    <dimen name="mtrl_progress_circular_size_medium">40.0dip</dimen>
+    <dimen name="mtrl_progress_circular_size_small">28.0dip</dimen>
+    <dimen name="mtrl_progress_circular_track_thickness_extra_small">2.5dip</dimen>
+    <dimen name="mtrl_progress_circular_track_thickness_medium">4.0dip</dimen>
+    <dimen name="mtrl_progress_circular_track_thickness_small">3.0dip</dimen>
+    <dimen name="mtrl_progress_indicator_full_rounded_corner_radius">2.0dip</dimen>
+    <dimen name="mtrl_progress_track_thickness">4.0dip</dimen>
+    <dimen name="mtrl_shape_corner_size_large_component">0.0dip</dimen>
+    <dimen name="mtrl_shape_corner_size_medium_component">4.0dip</dimen>
+    <dimen name="mtrl_shape_corner_size_small_component">4.0dip</dimen>
+    <dimen name="mtrl_slider_halo_radius">24.0dip</dimen>
+    <dimen name="mtrl_slider_label_padding">4.0dip</dimen>
+    <dimen name="mtrl_slider_label_radius">13.0dip</dimen>
+    <dimen name="mtrl_slider_label_square_side">26.0dip</dimen>
+    <dimen name="mtrl_slider_thumb_elevation">1.0dip</dimen>
+    <dimen name="mtrl_slider_thumb_radius">10.0dip</dimen>
+    <dimen name="mtrl_slider_tick_min_spacing">8.0dip</dimen>
+    <dimen name="mtrl_slider_tick_radius">1.0dip</dimen>
+    <dimen name="mtrl_slider_track_height">4.0dip</dimen>
+    <dimen name="mtrl_slider_track_side_padding">16.0dip</dimen>
+    <dimen name="mtrl_slider_widget_height">48.0dip</dimen>
+    <item type="dimen" name="mtrl_snackbar_action_text_color_alpha">0.5</item>
+    <dimen name="mtrl_snackbar_background_corner_radius">4.0dip</dimen>
+    <item type="dimen" name="mtrl_snackbar_background_overlay_color_alpha">0.8</item>
+    <dimen name="mtrl_snackbar_margin">8.0dip</dimen>
+    <dimen name="mtrl_snackbar_message_margin_horizontal">8.0dip</dimen>
+    <dimen name="mtrl_snackbar_padding_horizontal">8.0dip</dimen>
+    <dimen name="mtrl_switch_text_padding">16.0dip</dimen>
+    <dimen name="mtrl_switch_thumb_elevation">4.0dip</dimen>
+    <dimen name="mtrl_switch_thumb_icon_size">16.0dip</dimen>
+    <dimen name="mtrl_switch_thumb_size">32.0dip</dimen>
+    <item type="dimen" name="mtrl_switch_track_height">@dimen/m3_comp_switch_track_height</item>
+    <item type="dimen" name="mtrl_switch_track_width">@dimen/m3_comp_switch_track_width</item>
+    <dimen name="mtrl_textinput_box_corner_radius_medium">4.0dip</dimen>
+    <dimen name="mtrl_textinput_box_corner_radius_small">0.0dip</dimen>
+    <dimen name="mtrl_textinput_box_label_cutout_padding">4.0dip</dimen>
+    <item type="dimen" name="mtrl_textinput_box_stroke_width_default">@dimen/m3_comp_outlined_text_field_outline_width</item>
+    <item type="dimen" name="mtrl_textinput_box_stroke_width_focused">@dimen/m3_comp_outlined_text_field_focus_outline_width</item>
+    <dimen name="mtrl_textinput_counter_margin_start">16.0dip</dimen>
+    <dimen name="mtrl_textinput_end_icon_margin_start">4.0dip</dimen>
+    <dimen name="mtrl_textinput_outline_box_expanded_padding">16.0dip</dimen>
+    <dimen name="mtrl_textinput_start_icon_margin_end">4.0dip</dimen>
+    <dimen name="mtrl_toolbar_default_height">56.0dip</dimen>
+    <dimen name="mtrl_tooltip_arrowSize">14.0dip</dimen>
+    <dimen name="mtrl_tooltip_cornerSize">4.0dip</dimen>
+    <dimen name="mtrl_tooltip_minHeight">32.0dip</dimen>
+    <dimen name="mtrl_tooltip_minWidth">32.0dip</dimen>
+    <dimen name="mtrl_tooltip_padding">12.0dip</dimen>
+    <dimen name="mtrl_transition_shared_axis_slide_distance">30.0dip</dimen>
+    <dimen name="notification_action_icon_size">32.0dip</dimen>
+    <dimen name="notification_action_text_size">13.0sp</dimen>
+    <dimen name="notification_big_circle_margin">12.0dip</dimen>
+    <dimen name="notification_content_margin_start">0.0dip</dimen>
+    <dimen name="notification_large_icon_height">64.0dip</dimen>
+    <dimen name="notification_large_icon_width">64.0dip</dimen>
+    <dimen name="notification_main_column_padding_top">0.0dip</dimen>
+    <dimen name="notification_media_narrow_margin">12.0dip</dimen>
+    <dimen name="notification_right_icon_size">16.0dip</dimen>
+    <dimen name="notification_right_side_padding_top">4.0dip</dimen>
+    <dimen name="notification_small_icon_background_padding">3.0dip</dimen>
+    <dimen name="notification_small_icon_size_as_large">24.0dip</dimen>
+    <dimen name="notification_subtext_size">13.0sp</dimen>
+    <dimen name="notification_top_pad">10.0dip</dimen>
+    <dimen name="notification_top_pad_large_text">5.0dip</dimen>
+    <item type="dimen" name="operation_actionbar">@dimen/operation_actionbar_48</item>
+    <dimen name="operation_actionbar_48">48.0dip</dimen>
+    <dimen name="operation_actionbar_64">64.0dip</dimen>
+    <item type="dimen" name="operation_button_height">@dimen/operation_button_height_46</item>
+    <dimen name="operation_button_height_2">2.0dip</dimen>
+    <dimen name="operation_button_height_30">30.0dip</dimen>
+    <dimen name="operation_button_height_36">36.0dip</dimen>
+    <dimen name="operation_button_height_4">4.0dip</dimen>
+    <dimen name="operation_button_height_40">40.0dip</dimen>
+    <dimen name="operation_button_height_44">44.0dip</dimen>
+    <dimen name="operation_button_height_46">46.0dip</dimen>
+    <dimen name="operation_button_height_48">48.0dip</dimen>
+    <dimen name="operation_button_height_50">50.0dip</dimen>
+    <dimen name="operation_button_height_60">60.0dip</dimen>
+    <dimen name="operation_button_height_78">78.0dip</dimen>
+    <dimen name="operation_divider">0.5dip</dimen>
+    <dimen name="operation_divider_8">8.0dip</dimen>
+    <dimen name="operation_dp_05">0.5dip</dimen>
+    <dimen name="operation_dp_20">20.0dip</dimen>
+    <dimen name="operation_item_height_14">14.0dip</dimen>
+    <dimen name="operation_item_height_16">16.0dip</dimen>
+    <dimen name="operation_item_height_20">20.0dip</dimen>
+    <dimen name="operation_item_height_24">24.0dip</dimen>
+    <dimen name="operation_item_height_28">28.0dip</dimen>
+    <dimen name="operation_item_height_30">30.0dip</dimen>
+    <dimen name="operation_item_height_32">36.0dip</dimen>
+    <dimen name="operation_item_height_34">34.0dip</dimen>
+    <dimen name="operation_item_height_36">36.0dip</dimen>
+    <dimen name="operation_item_height_40">40.0dip</dimen>
+    <dimen name="operation_item_height_44">44.0dip</dimen>
+    <dimen name="operation_item_height_48">48.0dip</dimen>
+    <dimen name="operation_item_height_52">52.0dip</dimen>
+    <dimen name="operation_item_height_56">56.0dip</dimen>
+    <dimen name="operation_item_height_60">60.0dip</dimen>
+    <dimen name="operation_item_height_64">64.0dip</dimen>
+    <dimen name="operation_item_height_72">72.0dip</dimen>
+    <dimen name="operation_item_height_76">76.0dip</dimen>
+    <dimen name="operation_item_height_96">96.0dip</dimen>
+    <dimen name="operation_item_width_56">56.0dip</dimen>
+    <item type="dimen" name="operation_map_bound_border">@dimen/operation_map_line_size_2</item>
+    <item type="dimen" name="operation_map_bound_border_split">@dimen/operation_map_line_size_2</item>
+    <dimen name="operation_map_line_size_1">1.0dip</dimen>
+    <dimen name="operation_map_line_size_2">2.0dip</dimen>
+    <dimen name="operation_map_line_size_3">3.0dip</dimen>
+    <dimen name="operation_map_line_size_4">4.0dip</dimen>
+    <item type="dimen" name="operation_map_obstacle_border">@dimen/operation_map_line_size_1</item>
+    <dimen name="operation_map_point_border">2.0dip</dimen>
+    <dimen name="operation_map_point_radius">2.0dip</dimen>
+    <dimen name="operation_map_point_radius_activated">3.0dip</dimen>
+    <dimen name="operation_map_point_radius_last">3.0dip</dimen>
+    <dimen name="operation_map_point_radius_path">4.0dip</dimen>
+    <dimen name="operation_map_point_radius_selected">5.0dip</dimen>
+    <item type="dimen" name="operation_map_route_border">@dimen/operation_map_line_size_2</item>
+    <item type="dimen" name="operation_map_spiral_border">@dimen/operation_map_line_size_1</item>
+    <dimen name="operation_map_text_shadow">1.0dip</dimen>
+    <dimen name="operation_map_text_size_1">8.0sp</dimen>
+    <dimen name="operation_map_text_size_2">10.0sp</dimen>
+    <dimen name="operation_map_text_size_3">12.0sp</dimen>
+    <dimen name="operation_map_text_size_4">14.0sp</dimen>
+    <item type="dimen" name="operation_map_unspray_border">@dimen/operation_map_line_size_1</item>
+    <item type="dimen" name="operation_margin">@dimen/operation_margin_16</item>
+    <dimen name="operation_margin_10">10.0dip</dimen>
+    <dimen name="operation_margin_12">12.0dip</dimen>
+    <dimen name="operation_margin_14">14.0dip</dimen>
+    <dimen name="operation_margin_16">16.0dip</dimen>
+    <dimen name="operation_margin_18">18.0dip</dimen>
+    <dimen name="operation_margin_2">2.0dip</dimen>
+    <dimen name="operation_margin_20">20.0dip</dimen>
+    <dimen name="operation_margin_24">24.0dip</dimen>
+    <dimen name="operation_margin_28">28.0dip</dimen>
+    <dimen name="operation_margin_30">30.0dip</dimen>
+    <dimen name="operation_margin_32">32.0dip</dimen>
+    <dimen name="operation_margin_36">36.0dip</dimen>
+    <dimen name="operation_margin_4">4.0dip</dimen>
+    <dimen name="operation_margin_40">40.0dip</dimen>
+    <dimen name="operation_margin_44">44.0dip</dimen>
+    <dimen name="operation_margin_46">46.0dip</dimen>
+    <dimen name="operation_margin_48">48.0dip</dimen>
+    <dimen name="operation_margin_6">6.0dip</dimen>
+    <dimen name="operation_margin_64">64.0dip</dimen>
+    <dimen name="operation_margin_8">8.0dip</dimen>
+    <dimen name="operation_operation_device_home_content">216.0dip</dimen>
+    <item type="dimen" name="operation_padding">@dimen/operation_padding_8</item>
+    <dimen name="operation_padding_10">10.0dip</dimen>
+    <dimen name="operation_padding_12">12.0dip</dimen>
+    <dimen name="operation_padding_16">16.0dip</dimen>
+    <dimen name="operation_padding_2">2.0dip</dimen>
+    <dimen name="operation_padding_20">20.0dip</dimen>
+    <dimen name="operation_padding_24">24.0dip</dimen>
+    <dimen name="operation_padding_36">36.0dip</dimen>
+    <dimen name="operation_padding_4">4.0dip</dimen>
+    <dimen name="operation_padding_48">48.0dip</dimen>
+    <dimen name="operation_padding_8">8.0dip</dimen>
+    <item type="dimen" name="operation_radius">@dimen/operation_radius_4</item>
+    <dimen name="operation_radius_12">12.0dip</dimen>
+    <dimen name="operation_radius_16">16.0dip</dimen>
+    <dimen name="operation_radius_2">2.0dip</dimen>
+    <dimen name="operation_radius_20">20.0dip</dimen>
+    <dimen name="operation_radius_24">24.0dip</dimen>
+    <dimen name="operation_radius_4">4.0dip</dimen>
+    <dimen name="operation_radius_8">8.0dip</dimen>
+    <dimen name="operation_res_text_size_body">16.0sp</dimen>
+    <dimen name="operation_res_text_size_callout">14.0sp</dimen>
+    <dimen name="operation_res_text_size_caption">10.0sp</dimen>
+    <dimen name="operation_res_text_size_footnote">12.0sp</dimen>
+    <dimen name="operation_res_text_size_tittle1">24.0sp</dimen>
+    <dimen name="operation_res_text_size_tittle2">20.0sp</dimen>
+    <dimen name="operation_res_text_size_tittle3">18.0sp</dimen>
+    <item type="dimen" name="operation_text">@dimen/operation_text_size_14</item>
+    <dimen name="operation_text_size_10">10.0sp</dimen>
+    <dimen name="operation_text_size_12">12.0sp</dimen>
+    <dimen name="operation_text_size_14">14.0sp</dimen>
+    <dimen name="operation_text_size_16">16.0sp</dimen>
+    <dimen name="operation_text_size_18">18.0sp</dimen>
+    <dimen name="operation_text_size_20">20.0sp</dimen>
+    <dimen name="operation_text_size_24">24.0sp</dimen>
+    <dimen name="operation_text_size_28">28.0sp</dimen>
+    <item type="dimen" name="operation_text_small">@dimen/operation_text_size_10</item>
+    <item type="dimen" name="operation_text_title">@dimen/operation_text_size_16</item>
+    <dimen name="operation_uav_v1_dash_board_content">216.0dip</dimen>
+    <item type="dimen" name="padding_horizontal">@dimen/cube_dp_7</item>
+    <item type="dimen" name="padding_vertical">@dimen/cube_dp_5</item>
+    <dimen name="permission_dp_10">10.0dip</dimen>
+    <dimen name="permission_dp_15">15.0dip</dimen>
+    <dimen name="permission_dp_20">20.0dip</dimen>
+    <dimen name="permission_dp_25">25.0dip</dimen>
+    <dimen name="permission_dp_3">3.0dip</dimen>
+    <dimen name="permission_dp_30">30.0dip</dimen>
+    <dimen name="permission_dp_35">35.0dip</dimen>
+    <dimen name="permission_dp_40">40.0dip</dimen>
+    <dimen name="permission_dp_5">5.0dip</dimen>
+    <dimen name="permission_sp_12">12.0sp</dimen>
+    <dimen name="permission_sp_14">14.0sp</dimen>
+    <dimen name="permission_sp_16">16.0sp</dimen>
+    <dimen name="permission_sp_18">18.0sp</dimen>
+    <dimen name="permission_sp_20">20.0sp</dimen>
+    <dimen name="progress_width">6.0dip</dimen>
+    <item type="dimen" name="satisfaction_label_high">@dimen/cube_dp_34</item>
+    <item type="dimen" name="satisfaction_label_radius">@dimen/cube_dp_5</item>
+    <item type="dimen" name="satisfaction_submit_radius">@dimen/cube_dp_5</item>
+    <dimen name="send_picture_button_radius">5.0dip</dimen>
+    <dimen name="sliding_pane_detail_pane_width">300.0dip</dimen>
+    <item type="dimen" name="sobot_DIMEN_108PX">@dimen/cube_dp_50</item>
+    <dimen name="sobot_bbuton_rounded_corner_radius">22.0dip</dimen>
+    <dimen name="sobot_header_titlebar_name_sp">14.0sp</dimen>
+    <dimen name="sobot_text_title">18.0sp</dimen>
+    <dimen name="sp13">13.0sp</dimen>
+    <dimen name="sp16">16.0sp</dimen>
+    <dimen name="start_bt_height">55.0dip</dimen>
+    <dimen name="start_bt_margin_bottom">35.0dip</dimen>
+    <dimen name="start_bt_width">180.0dip</dimen>
+    <dimen name="subtitle_corner_radius">2.0dip</dimen>
+    <dimen name="subtitle_outline_width">2.0dip</dimen>
+    <dimen name="subtitle_shadow_offset">2.0dip</dimen>
+    <dimen name="subtitle_shadow_radius">2.0dip</dimen>
+    <dimen name="survey_button_textSize">14.0sp</dimen>
+    <dimen name="survey_default_dialog_height_sheet">440.0dip</dimen>
+    <dimen name="survey_default_page_height_sheet">360.0dip</dimen>
+    <dimen name="survey_textSize_14sp">14.0sp</dimen>
+    <dimen name="survey_textSize_18sp">18.0sp</dimen>
+    <dimen name="survey_title_textSize">18.0sp</dimen>
+    <dimen name="text_loading_page_title_size">18.0sp</dimen>
+    <dimen name="text_margin_image">21.5dip</dimen>
+    <dimen name="text_margin_text">10.0dip</dimen>
+    <item type="dimen" name="ti_chat_avatar_message_spacing">@dimen/cube_dp_8</item>
+    <item type="dimen" name="ti_chat_avatar_radius">@dimen/cube_dp_4</item>
+    <item type="dimen" name="ti_chat_avatar_screen_spacing">@dimen/cube_dp_8</item>
+    <item type="dimen" name="ti_chat_avatar_size">@dimen/cube_dp_32</item>
+    <dimen name="ti_chat_over_view_height">40.0dip</dimen>
+    <dimen name="ti_chat_over_view_text_size">14.0sp</dimen>
+    <dimen name="ti_chat_username_text_size">13.0sp</dimen>
+    <item type="dimen" name="ti_commodity_card_file">@dimen/cube_dp_30</item>
+    <dimen name="ti_commodity_card_size">14.0sp</dimen>
+    <item type="dimen" name="ti_content_paddingBottom">@dimen/cube_dp_10</item>
+    <item type="dimen" name="ti_content_paddingLeft">@dimen/cube_dp_14</item>
+    <item type="dimen" name="ti_content_paddingRight">@dimen/cube_dp_14</item>
+    <item type="dimen" name="ti_content_paddingTop">@dimen/cube_dp_10</item>
+    <dimen name="ti_dialog_large_size">16.0sp</dimen>
+    <dimen name="ti_dialog_normal_size">14.0sp</dimen>
+    <dimen name="ti_download_progress_circle_width">4.0dip</dimen>
+    <dimen name="ti_download_progress_text_size">16.0sp</dimen>
+    <dimen name="ti_group_question_item_text_size">14.0sp</dimen>
+    <item type="dimen" name="ti_guess_question_span">@dimen/cube_dp_8</item>
+    <dimen name="ti_helpful_tag_space">8.0dip</dimen>
+    <dimen name="ti_hold_description_text_size">12.0sp</dimen>
+    <dimen name="ti_hold_price_text_size">16.0sp</dimen>
+    <dimen name="ti_hold_subtitle_text_size">16.0sp</dimen>
+    <dimen name="ti_hold_view_min_height">114.0dip</dimen>
+    <dimen name="ti_hold_view_padding">12.0dip</dimen>
+    <item type="dimen" name="ti_image_content_padding">@dimen/cube_dp_5</item>
+    <item type="dimen" name="ti_image_cornet_size">@dimen/cube_dp_10</item>
+    <item type="dimen" name="ti_image_drawable_padding">@dimen/cube_dp_10</item>
+    <item type="dimen" name="ti_image_size">@dimen/cube_dp_100</item>
+    <item type="dimen" name="ti_input_area_height">@dimen/cube_dp_56</item>
+    <item type="dimen" name="ti_input_area_icon_size">@dimen/cube_dp_32</item>
+    <item type="dimen" name="ti_input_area_voice_press_border_width">@dimen/cube_dp_1</item>
+    <item type="dimen" name="ti_input_area_voice_press_corner_radius">@dimen/cube_dp_5</item>
+    <dimen name="ti_input_area_voice_press_text_size">14.0sp</dimen>
+    <item type="dimen" name="ti_input_box_border_width">@dimen/cube_dp_1</item>
+    <item type="dimen" name="ti_input_box_corner_radius">@dimen/cube_dp_8</item>
+    <item type="dimen" name="ti_input_box_high_line_height">@dimen/cube_dp_20</item>
+    <item type="dimen" name="ti_input_box_min_height">@dimen/cube_dp_40</item>
+    <dimen name="ti_input_box_text_size">16.0sp</dimen>
+    <item type="dimen" name="ti_max_robot_width">@dimen/cube_dp_260</item>
+    <item type="dimen" name="ti_message_content_max_width">@dimen/cube_dp_260</item>
+    <item type="dimen" name="ti_message_img">@dimen/cube_dp_80</item>
+    <item type="dimen" name="ti_message_max_span">@dimen/cube_dp_58</item>
+    <item type="dimen" name="ti_message_max_width">@dimen/cube_dp_300</item>
+    <dimen name="ti_message_tv_size">12.0sp</dimen>
+    <item type="dimen" name="ti_msg_bubble_background_corner">@dimen/cube_dp_10</item>
+    <item type="dimen" name="ti_msg_horizontal_span">@dimen/cube_dp_10</item>
+    <item type="dimen" name="ti_msg_html_divider">@dimen/cube_dp_4</item>
+    <item type="dimen" name="ti_msg_img_height">@dimen/cube_dp_190</item>
+    <item type="dimen" name="ti_msg_img_one">@dimen/cube_dp_60</item>
+    <dimen name="ti_msg_img_one_radius">6.0dip</dimen>
+    <item type="dimen" name="ti_msg_msg_span">@dimen/cube_dp_16</item>
+    <item type="dimen" name="ti_msg_time_span">@dimen/cube_dp_5</item>
+    <item type="dimen" name="ti_nickname_content_span">@dimen/cube_dp_8</item>
+    <item type="dimen" name="ti_notification_marginHorizontal">@dimen/cube_dp_30</item>
+    <item type="dimen" name="ti_notification_paddingHorizontal">@dimen/cube_dp_10</item>
+    <item type="dimen" name="ti_notification_paddingVertical">@dimen/cube_dp_10</item>
+    <dimen name="ti_notification_size">12.0sp</dimen>
+    <dimen name="ti_order_button_pop_item_space">1.0dip</dimen>
+    <dimen name="ti_order_list_rv_item_space">12.0dip</dimen>
+    <dimen name="ti_order_list_status_max_width">160.0dip</dimen>
+    <dimen name="ti_order_logo_size">28.0dip</dimen>
+    <dimen name="ti_order_product_img_radius">6.0dip</dimen>
+    <dimen name="ti_order_product_space">16.0dip</dimen>
+    <dimen name="ti_order_session_status_max_width">120.0dip</dimen>
+    <dimen name="ti_order_tag_border_width">1.0dip</dimen>
+    <dimen name="ti_order_tag_min_width">40.0dip</dimen>
+    <dimen name="ti_order_title_min_width">40.0dip</dimen>
+    <dimen name="ti_order_title_with_tag_space">4.0dip</dimen>
+    <dimen name="ti_question_question_span">10.0dip</dimen>
+    <item type="dimen" name="ti_question_span">@dimen/cube_dp_10</item>
+    <item type="dimen" name="ti_quick_entry_item_corner_radius">@dimen/cube_dp_10</item>
+    <item type="dimen" name="ti_quick_entry_item_horizontal_spacing">@dimen/cube_dp_10</item>
+    <dimen name="ti_quick_entry_item_text_size">13.0sp</dimen>
+    <item type="dimen" name="ti_quick_entry_vertical_spec">@dimen/cube_dp_10</item>
+    <dimen name="ti_receive_bubble_text_size">16.0sp</dimen>
+    <dimen name="ti_receive_description_text_size">16.0sp</dimen>
+    <dimen name="ti_receive_order_id_text_size">12.0sp</dimen>
+    <dimen name="ti_receive_price_text_size">16.0sp</dimen>
+    <dimen name="ti_receive_status_text_size">16.0sp</dimen>
+    <dimen name="ti_receive_subtitle_text_size">16.0sp</dimen>
+    <dimen name="ti_receive_time_text_size">12.0sp</dimen>
+    <item type="dimen" name="ti_rich_video_height">@dimen/cube_dp_180</item>
+    <item type="dimen" name="ti_rich_video_width">@dimen/cube_dp_150</item>
+    <dimen name="ti_robot_question_span">2.0dip</dimen>
+    <item type="dimen" name="ti_send_btn_bg_corner_radius">@dimen/cube_dp_8</item>
+    <dimen name="ti_send_bubble_text_size">16.0sp</dimen>
+    <item type="dimen" name="ti_send_out_high">@dimen/cube_dp_40</item>
+    <item type="dimen" name="ti_send_out_wide">@dimen/cube_dp_62</item>
+    <dimen name="ti_sender_description_text_size">0.0sp</dimen>
+    <dimen name="ti_sender_order_id_text_size">12.0sp</dimen>
+    <dimen name="ti_sender_price_text_size">10.0sp</dimen>
+    <dimen name="ti_sender_status_text_size">16.0sp</dimen>
+    <dimen name="ti_sender_subtitle_text_size">16.0sp</dimen>
+    <dimen name="ti_sender_time_text_size">12.0sp</dimen>
+    <item type="dimen" name="ti_session_func_item_bg_corner_radius">@dimen/cube_dp_14</item>
+    <item type="dimen" name="ti_session_func_item_bg_size">@dimen/cube_dp_48</item>
+    <item type="dimen" name="ti_session_func_item_img_size">@dimen/cube_dp_24</item>
+    <item type="dimen" name="ti_session_func_item_margin">@dimen/cube_dp_12</item>
+    <dimen name="ti_session_func_item_text_size">12.0sp</dimen>
+    <item type="dimen" name="ti_session_input_paddingBottom">@dimen/cube_dp_2</item>
+    <item type="dimen" name="ti_session_input_paddingLeft">@dimen/cube_dp_10</item>
+    <item type="dimen" name="ti_session_input_paddingRight">@dimen/cube_dp_10</item>
+    <item type="dimen" name="ti_session_input_paddingTop">@dimen/cube_dp_2</item>
+    <item type="dimen" name="ti_session_paddingBottom">@dimen/cube_dp_5</item>
+    <item type="dimen" name="ti_session_paddingEnd">@dimen/cube_dp_10</item>
+    <item type="dimen" name="ti_session_paddingStart">@dimen/cube_dp_10</item>
+    <item type="dimen" name="ti_session_paddingTop">@dimen/cube_dp_5</item>
+    <item type="dimen" name="ti_session_send_button_marginLeft">@dimen/cube_dp_6</item>
+    <item type="dimen" name="ti_session_send_button_marginRight">@dimen/cube_dp_6</item>
+    <dimen name="ti_thumb_image_max_width">198.0dip</dimen>
+    <dimen name="ti_time_size">12.0sp</dimen>
+    <item type="dimen" name="ti_voice_min_width">@dimen/cube_dp_50</item>
+    <item type="dimen" name="ti_voice_padding_horizontal">@dimen/cube_dp_5</item>
+    <item type="dimen" name="ti_voice_padding_vertical">@dimen/cube_dp_5</item>
+    <dimen name="tips_text_size">20.0sp</dimen>
+    <dimen name="title_bar_height">44.0dip</dimen>
+    <dimen name="title_bar_textsize">18.0sp</dimen>
+    <dimen name="title_margin_top">30.0dip</dimen>
+    <dimen name="title_text_width">320.0dip</dimen>
+    <dimen name="tj_button_large">42.0dip</dimen>
+    <dimen name="tj_qr_preview_height">200.0dip</dimen>
+    <dimen name="tj_qr_preview_top">101.0dip</dimen>
+    <dimen name="tj_qr_preview_width">200.0dip</dimen>
+    <dimen name="tj_tabbar_height">49.0dip</dimen>
+    <dimen name="tj_tabbar_title">12.0sp</dimen>
+    <dimen name="tj_toolbar_height">48.0dip</dimen>
+    <dimen name="tj_toolbar_menu">13.0sp</dimen>
+    <dimen name="tj_toolbar_title">17.0sp</dimen>
+    <dimen name="tooltip_corner_radius">2.0dip</dimen>
+    <dimen name="tooltip_horizontal_padding">16.0dip</dimen>
+    <dimen name="tooltip_margin">8.0dip</dimen>
+    <dimen name="tooltip_precise_anchor_extra_offset">8.0dip</dimen>
+    <dimen name="tooltip_precise_anchor_threshold">96.0dip</dimen>
+    <dimen name="tooltip_vertical_padding">6.5dip</dimen>
+    <dimen name="tooltip_y_offset_non_touch">0.0dip</dimen>
+    <dimen name="tooltip_y_offset_touch">16.0dip</dimen>
+    <dimen name="user_agree_margin_bottom">35.0dip</dimen>
+    <dimen name="user_agree_text_margin_left">0.0dip</dimen>
+    <dimen name="user_agree_text_size">12.0sp</dimen>
+    <dimen name="user_border">0.5dip</dimen>
+    <dimen name="user_button_48">48.0dip</dimen>
+    <dimen name="user_button_56">56.0dip</dimen>
+    <dimen name="user_corner_radius_8">8.0dip</dimen>
+    <dimen name="user_item_56">56.0dip</dimen>
+    <dimen name="user_margin_12">12.0dip</dimen>
+    <dimen name="user_margin_14">12.0dip</dimen>
+    <dimen name="user_margin_16">12.0dip</dimen>
+    <dimen name="user_margin_18">18.0dip</dimen>
+    <dimen name="user_margin_24">24.0dip</dimen>
+    <dimen name="user_margin_30">30.0dip</dimen>
+    <dimen name="user_margin_36">36.0dip</dimen>
+    <dimen name="user_margin_8">8.0dip</dimen>
+    <dimen name="user_padding_10">10.0dip</dimen>
+    <dimen name="user_padding_12">12.0dip</dimen>
+    <dimen name="user_padding_16">16.0dip</dimen>
+    <dimen name="user_padding_2">2.0dip</dimen>
+    <dimen name="user_padding_20">20.0dip</dimen>
+    <dimen name="user_padding_4">4.0dip</dimen>
+    <dimen name="user_padding_6">6.0dip</dimen>
+    <dimen name="user_padding_8">8.0dip</dimen>
+    <dimen name="user_radius_20">20.0dip</dimen>
+    <dimen name="user_radius_8">8.0dip</dimen>
+    <dimen name="user_text_12">12.0sp</dimen>
+    <dimen name="user_text_14">14.0sp</dimen>
+    <dimen name="user_text_16">16.0sp</dimen>
+    <dimen name="user_text_18">18.0sp</dimen>
+    <dimen name="user_text_20">20.0sp</dimen>
+    <dimen name="user_top_bar_height">48.0dip</dimen>
+    <dimen name="wv_choose_base_high">48.0dip</dimen>
+    <dimen name="wv_choose_text_size_normal">14.0sp</dimen>
+    <dimen name="wv_content_radius">8.0dip</dimen>
+    <dimen name="wv_content_with_drawable_gap">2.0dip</dimen>
+    <dimen name="xag_face_lib_btn_text_size">20.0sp</dimen>
+    <dimen name="xag_face_lib_msg_text_size">9.0sp</dimen>
+    <dimen name="xag_face_lib_small_text_size">12.0sp</dimen>
+    <dimen name="xag_face_lib_title_text_size">16.0sp</dimen>
+    <item type="dimen" name="xag_sobot_header_titlebar_hight">@dimen/cube_dp_52</item>
+    <dimen name="z_album_item_height">72.0dip</dimen>
+    <dimen name="z_cpb_stroke_width">4.0dip</dimen>
+    <dimen name="z_media_grid_size">48.0dip</dimen>
+    <dimen name="z_media_grid_spacing">4.0dip</dimen>
+</resources>

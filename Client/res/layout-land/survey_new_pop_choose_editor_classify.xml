@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:background="@drawable/ui_shape_container_material_strong_r4444" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/action_choose_bound" android:layout_width="@dimen/cube_dp_160" android:layout_height="@dimen/cube_dp_40" android:paddingStart="@dimen/cube_dp_16">
+        <ImageView android:layout_width="@dimen/cube_dp_20" android:layout_height="@dimen/cube_dp_20" android:src="@drawable/survey_new_editor_type_bound" />
+        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:gravity="center_vertical" android:layout_width="@dimen/cube_dp_80" android:layout_height="@dimen/cube_dp_20" android:text="@string/survey_str_land_bounds" android:singleLine="true" android:layout_marginStart="@dimen/cube_dp_4" android:layout_marginEnd="@dimen/cube_dp_4" style="@style/Cube.Font.Regular.Body" />
+        <ImageView android:id="@id/action_choose_bound_check" android:visibility="invisible" android:layout_width="@dimen/cube_dp_20" android:layout_height="@dimen/cube_dp_20" android:src="@drawable/survey_new_editor_check_mark_green" />
+    </LinearLayout>
+    <View android:background="@color/cube_color_container_fill_deep" android:layout_width="@dimen/cube_dp_160" android:layout_height="1.0px" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/action_choose_obs" android:layout_width="@dimen/cube_dp_160" android:layout_height="@dimen/cube_dp_40" android:paddingStart="@dimen/cube_dp_16">
+        <ImageView android:layout_width="@dimen/cube_dp_20" android:layout_height="@dimen/cube_dp_20" android:src="@drawable/survey_new_editor_type_obs" />
+        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:gravity="center_vertical" android:layout_width="@dimen/cube_dp_80" android:layout_height="@dimen/cube_dp_20" android:text="@string/survey_str_obstacle" android:layout_marginStart="@dimen/cube_dp_4" android:layout_marginEnd="@dimen/cube_dp_4" style="@style/Cube.Font.Regular.Body" />
+        <ImageView android:id="@id/action_choose_obs_check" android:visibility="invisible" android:layout_width="@dimen/cube_dp_20" android:layout_height="@dimen/cube_dp_20" android:src="@drawable/survey_new_editor_check_mark_green" />
+    </LinearLayout>
+    <View android:background="@color/cube_color_container_fill_deep" android:layout_width="@dimen/cube_dp_160" android:layout_height="1.0px" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/action_choose_no_work" android:layout_width="@dimen/cube_dp_160" android:layout_height="@dimen/cube_dp_40" android:paddingStart="@dimen/cube_dp_16">
+        <ImageView android:layout_width="@dimen/cube_dp_20" android:layout_height="@dimen/cube_dp_20" android:src="@drawable/survey_new_editor_type_nowork" />
+        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:gravity="center_vertical" android:layout_width="@dimen/cube_dp_80" android:layout_height="@dimen/cube_dp_20" android:text="@string/survey_str_nospray_zone" android:layout_marginStart="@dimen/cube_dp_4" android:layout_marginEnd="@dimen/cube_dp_4" style="@style/Cube.Font.Regular.Body" />
+        <ImageView android:id="@id/action_choose_no_work_check" android:visibility="invisible" android:layout_width="@dimen/cube_dp_20" android:layout_height="@dimen/cube_dp_20" android:src="@drawable/survey_new_editor_check_mark_green" />
+    </LinearLayout>
+    <View android:background="@color/cube_color_container_fill_deep" android:layout_width="@dimen/cube_dp_160" android:layout_height="1.0px" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/action_choose_marker" android:layout_width="@dimen/cube_dp_160" android:layout_height="@dimen/cube_dp_40" android:paddingStart="@dimen/cube_dp_16">
+        <ImageView android:padding="2.0dip" android:layout_width="@dimen/cube_dp_20" android:layout_height="@dimen/cube_dp_20" android:src="@drawable/survey_editor_marker_small" />
+        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:gravity="center_vertical" android:layout_width="@dimen/cube_dp_80" android:layout_height="@dimen/cube_dp_20" android:text="@string/survey_create_field_label" android:layout_marginStart="@dimen/cube_dp_4" android:layout_marginEnd="@dimen/cube_dp_4" style="@style/Cube.Font.Regular.Body" />
+        <ImageView android:id="@id/action_choose_marker_check" android:visibility="invisible" android:layout_width="@dimen/cube_dp_20" android:layout_height="@dimen/cube_dp_20" android:src="@drawable/survey_new_editor_check_mark_green" />
+    </LinearLayout>
+    <View android:background="@color/cube_color_container_fill_deep" android:layout_width="@dimen/cube_dp_160" android:layout_height="1.0px" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/action_choose_fix_work" android:layout_width="@dimen/cube_dp_160" android:layout_height="@dimen/cube_dp_40" android:paddingStart="@dimen/cube_dp_16">
+        <ImageView android:layout_width="@dimen/cube_dp_20" android:layout_height="@dimen/cube_dp_20" android:src="@drawable/survey_new_editor_type_fix_point" />
+        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:gravity="center_vertical" android:layout_width="@dimen/cube_dp_80" android:layout_height="@dimen/cube_dp_20" android:text="@string/survey_work_point" android:layout_marginStart="@dimen/cube_dp_4" android:layout_marginEnd="@dimen/cube_dp_4" style="@style/Cube.Font.Regular.Body" />
+        <ImageView android:id="@id/action_choose_fix_work_check" android:visibility="invisible" android:layout_width="@dimen/cube_dp_20" android:layout_height="@dimen/cube_dp_20" android:src="@drawable/survey_new_editor_check_mark_green" />
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

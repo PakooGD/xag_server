@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/cube_color_state_green_primary" />
+    <corners android:topLeftRadius="@dimen/cube_dp_8" android:topRightRadius="@dimen/cube_dp_8" android:bottomLeftRadius="@dimen/cube_dp_8" android:bottomRightRadius="@dimen/cube_dp_8" />
+</shape>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:id="@id/panel_source_choose" android:background="@drawable/operation_base_shape_r4444_in_secondary" android:layout_width="wrap_content" android:layout_height="@dimen/cube_dp_32"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/action_choose_source_close" android:padding="@dimen/cube_dp_6" android:layout_width="@dimen/cube_dp_32" android:layout_height="@dimen/cube_dp_32" android:src="@drawable/operation_base_map_menu_close" android:scaleType="centerInside" />
+    <ImageView android:id="@id/action_map_setting" android:background="@drawable/operation_base_shape_r4040_white" android:padding="@dimen/cube_dp_6" android:layout_width="@dimen/cube_dp_32" android:layout_height="@dimen/cube_dp_32" android:src="@drawable/operation_base_map_menu_setting_black" android:scaleType="centerInside" />
+    <View android:background="#ffe6e6e6" android:layout_width="1.0px" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/action_map_move_device" android:background="@color/cube_color_on_primary" android:padding="@dimen/cube_dp_6" android:layout_width="@dimen/cube_dp_32" android:layout_height="@dimen/cube_dp_32" android:src="@drawable/operation_base_map_menu_dev_pos_black" android:scaleType="centerInside" />
+    <View android:background="#ffe6e6e6" android:layout_width="1.0px" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/action_map_move_phone" android:background="@color/cube_color_on_primary" android:padding="@dimen/cube_dp_6" android:layout_width="@dimen/cube_dp_32" android:layout_height="@dimen/cube_dp_32" android:src="@drawable/operation_base_map_menu_phone_pos_black" android:scaleType="centerInside" />
+    <View android:background="#ffe6e6e6" android:layout_width="1.0px" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/action_map_rule" android:background="@drawable/operation_base_shape_r0404_white" android:padding="@dimen/cube_dp_6" android:layout_width="@dimen/cube_dp_32" android:layout_height="@dimen/cube_dp_32" android:src="@drawable/operation_base_map_menu_rule_black" android:scaleType="centerInside" />
+</androidx.appcompat.widget.LinearLayoutCompat>

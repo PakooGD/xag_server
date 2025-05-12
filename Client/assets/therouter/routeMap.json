@@ -1,0 +1,93 @@
+[
+  {
+    "path": "/user/dataSyncPage",
+    "className": "com.xag.agri.v4.user.ui.v5.setting.DataSyncActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "/support-traffic/page/buy",
+    "className": "com.xag.agri.v4.traffic.ui.TrafficBuyActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "/support-traffic/page/home",
+    "className": "com.xag.agri.v4.traffic.ui.TrafficActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "/mapData/prescriptionMap",
+    "className": "com.xag.agri.v4.map.data.ui.prescription.MapDataPrescriptionActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "/mapData/importProgressResult",
+    "className": "com.xag.agri.v4.map.data.ui.importmap.fragment.result.ImportProgressActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "/mapData/importResult",
+    "className": "com.xag.agri.v4.map.data.ui.importmap.ImportResultActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "/mapData/exportResult",
+    "className": "com.xag.agri.v4.map.data.ui.exportresult.ExportResultActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "/mapData/backupPage",
+    "className": "com.xag.agri.v4.map.data.ui.backup.BackupActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "/survey/door/offline",
+    "className": "com.xag.agri.v4.land.business.core.offline.SurveyOfflineActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "/survey/local/hdmap_remote_data/record",
+    "className": "com.xag.agri.v4.land.business.core.local.hdmap.SurveyRemoteHDMapWorkActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "/survey/local/hdmap_remote_data/list",
+    "className": "com.xag.agri.v4.land.business.core.local.hdmap.SurveyRemoteHDMapEnableListActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "/homeCore/homePage",
+    "className": "com.xag.agri.v4.home.core.HomeActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  },
+  {
+    "path": "/device/deviceSrcConfirmPage",
+    "className": "com.xag.agri.v4.devices.components.add.AddSRC4DeviceConfirmActivity",
+    "action": "",
+    "description": "",
+    "params": {}
+  }
+]

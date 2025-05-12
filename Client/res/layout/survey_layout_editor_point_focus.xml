@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="136.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/survey_new_home_blur_r8888_normal" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="52.0dip" android:layout_marginBottom="12.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <com.makeramen.roundedimageview.RoundedImageView android:id="@id/panel_focus_point_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="@drawable/survey_new_home_blur_r8888_normal" android:src="@color/survey_blur_default_bg" android:scaleType="fitXY" app:riv_corner_radius="8.0dip" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/panel_choose_point" android:layout_width="wrap_content" android:layout_height="fill_parent" app:layout_constraintStart_toStartOf="parent">
+            <LinearLayout android:orientation="vertical" android:id="@id/action_focus_point_prev" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginStart="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+                <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/survey_new_editor_point_prev" android:scaleType="fitXY" />
+            </LinearLayout>
+            <com.xa.core.cube.TextView android:textColor="@color/cube_color_on_primary" android:gravity="center" android:id="@id/temp5" android:layout_width="48.0dip" android:layout_height="24.0dip" android:text="@string/survey_str_change_point" app:layout_constraintStart_toEndOf="@id/action_focus_point_prev" app:layout_constraintTop_toTopOf="@id/action_focus_point_prev" style="@style/XagTheme.Typography.MediumFootnote" />
+            <LinearLayout android:orientation="vertical" android:id="@id/action_focus_point_next" android:layout_width="24.0dip" android:layout_height="24.0dip" app:layout_constraintStart_toEndOf="@id/temp5" app:layout_constraintTop_toTopOf="@id/temp5">
+                <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/survey_new_editor_point_next" android:scaleType="fitXY" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/action_focus_point_del" android:layout_width="60.0dip" android:layout_height="24.0dip" android:layout_marginEnd="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <ImageView android:layout_width="24.0dip" android:layout_height="fill_parent" android:src="@drawable/survey_new_editor_point_del" android:scaleType="fitXY" />
+            <com.xa.core.cube.TextView android:textColor="@color/cube_color_state_red_primary" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/survey_delete" android:paddingStart="4.0dip" style="@style/XagTheme.Typography.MediumCallOut" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <FrameLayout android:id="@id/panel_focus_cross" android:background="@drawable/survey_new_home_blur_rmax_weak" android:visibility="visible" android:layout_width="112.0dip" android:layout_height="112.0dip" android:layout_marginBottom="25.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <com.xag.agri.v4.land.business.ui.widget.CircularMenuView android:id="@id/panel_focus_cross_menu" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

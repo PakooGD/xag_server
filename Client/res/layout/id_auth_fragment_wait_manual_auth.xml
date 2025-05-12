@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/face_lib_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/top" layout="@layout/id_auth_common_top_bar" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="24.0sp" android:textStyle="bold" android:textColor="@color/face_lib_text_black" android:id="@id/tv_first_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:text="@string/id_auth_manual_auth" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/face_lib_text_black" android:gravity="center" android:id="@id/tv_auth_main_des" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/id_auth_manual_auth_des" android:lineSpacingExtra="6.0dip" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/face_lib_text_black" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:text="@string/id_auth_audit_time" android:lineSpacingExtra="6.0dip" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_auth_main_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="48.0dip" android:src="@drawable/xag_face_lib_icon_3" />
+</LinearLayout>

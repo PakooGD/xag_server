@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/devices_background" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="@dimen/cube_dp_44">
+        <ImageView android:id="@id/btn_back" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/cube_ic_gen_chevron_left" android:paddingStart="@dimen/cube_dp_16" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <com.xa.core.cube.TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/devices_troubleshooting_submodule_anomalies" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Devices.Text.title" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:id="@id/tv_execution_spread" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/devices_margin_32" android:text="@string/devices_execution_spread" android:layout_marginStart="@dimen/devices_margin_32" android:layout_marginEnd="@dimen/devices_margin_16" style="@style/Cube.Font.Medium.Title2" />
+            <ImageView android:layout_gravity="center" android:id="@id/img_uav" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cube_dp_16" android:layout_marginBottom="@dimen/cube_dp_12" />
+            <LinearLayout android:orientation="vertical" android:id="@id/ll_data" android:background="@drawable/devices_shape_white_round_outline" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/devices_margin_16" android:divider="@drawable/devices_shape_divider" android:showDividers="middle" android:paddingStart="@dimen/devices_padding_16" android:layout_marginStart="@dimen/devices_margin_16" android:layout_marginEnd="@dimen/devices_margin_16" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

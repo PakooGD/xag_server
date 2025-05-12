@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/devices_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_left_menu" android:background="@color/devices_black_04" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <LinearLayout android:id="@id/btn_device_info_back" android:paddingLeft="@dimen/devices_padding_24" android:paddingTop="@dimen/devices_margin_12" android:paddingRight="@dimen/devices_padding_24" android:paddingBottom="@dimen/devices_margin_12" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/devices_padding_24" android:paddingVertical="@dimen/devices_margin_12">
+            <ImageView android:background="@drawable/devices_bg_iv_close" android:padding="@dimen/devices_margin_4" android:layout_width="23.0dip" android:layout_height="23.0dip" android:src="@drawable/devices_dialog_close" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/devices_margin_12" android:layout_marginRight="@dimen/devices_margin_12" android:layout_marginBottom="@dimen/devices_margin_12" android:layout_marginHorizontal="@dimen/devices_margin_12">
+            <q.rorbin.verticaltablayout.VerticalTabLayout android:id="@id/tab_device_info_land" android:visibility="visible" android:layout_width="@dimen/devices_item_height_44" android:layout_height="fill_parent" app:tabIndicatorHeight="0.0dip" app:tabMode="fixed" app:tabPaddingEnd="0.0dip" app:tabPaddingStart="0.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/devices_actionbar">
+            <LinearLayout android:id="@id/btn_device_info_back2" android:paddingLeft="@dimen/devices_padding_24" android:paddingTop="@dimen/devices_margin_12" android:paddingRight="@dimen/devices_padding_24" android:paddingBottom="@dimen/devices_margin_12" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/devices_padding_24" android:paddingVertical="@dimen/devices_margin_12">
+                <ImageView android:background="@drawable/devices_bg_iv_close" android:padding="@dimen/devices_margin_4" android:layout_width="23.0dip" android:layout_height="23.0dip" android:src="@drawable/devices_dialog_close" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.xa.core.cube.TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/devices_dev_state" style="@style/Devices.Text.title" />
+                <com.xa.core.cube.TextView android:textSize="@dimen/devices_text_size_12" android:textColor="@color/devices_green_dark" android:id="@id/tv_working" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/devices_working" />
+                <com.xa.core.cube.TextView android:textSize="@dimen/devices_text_size_12" android:textColor="@color/devices_black_44" android:id="@id/tv_offline" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/devices_main_module_offline" />
+            </LinearLayout>
+            <android.widget.Button android:layout_gravity="end|center" android:id="@id/btn_device_info_system" android:background="@drawable/devices_selector_button_transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/devices_system" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/devices_margin_48" android:layout_marginRight="@dimen/devices_margin_48" android:layout_marginHorizontal="@dimen/devices_margin_48">
+            <androidx.viewpager.widget.ViewPager android:id="@id/vp_device_info_land" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

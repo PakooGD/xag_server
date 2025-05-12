@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="56.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:gravity="center_vertical" android:id="@id/config_name" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:paddingHorizontal="16.0dip" style="@style/Cube.Font.Regular.Body" />
+    <ImageView android:id="@id/config_door" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/gen_system_info" android:paddingHorizontal="16.0dip" app:tint="@color/cube_color_content_primary" />
+</androidx.appcompat.widget.LinearLayoutCompat>

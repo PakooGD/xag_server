@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_parent" android:background="@drawable/traffic_traffic_product_item_check2" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/cube_dp_16" android:paddingTop="@dimen/cube_dp_12" android:paddingRight="@dimen/cube_dp_16" android:paddingBottom="@dimen/cube_dp_12" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/cube_dp_16" android:paddingVertical="@dimen/cube_dp_12">
+        <com.xa.core.cube.TextView android:textSize="@dimen/cube_dp_20" android:textColor="@color/cube_color_state_green_primary" android:id="@id/product_item_traffic_number" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Cube.Font.Medium.Title2" />
+        <com.xa.core.cube.TextView android:textSize="@dimen/cube_dp_16" android:textColor="@color/cube_color_state_green_primary" android:id="@id/product_item_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cube_dp_2" style="@style/Cube.Font.Medium.Body" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/xag_face_lib_shape_cor16_white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:divider="@drawable/id_auth_shape_divider_vertical" android:showDividers="middle">
+        <androidx.appcompat.widget.AppCompatButton android:textSize="16.0sp" android:textColor="@color/face_lib_blue" android:gravity="center" android:id="@id/btn_reUpload_photo" android:layout_width="fill_parent" android:layout_height="56.0dip" android:text="@string/id_auth_reupload_photo" style="@style/Widget.AppCompat.Toolbar.Button.Navigation" />
+        <androidx.appcompat.widget.AppCompatButton android:textSize="16.0sp" android:textColor="@color/face_lib_blue" android:gravity="center" android:id="@id/btn_goto_identity_auth" android:layout_width="fill_parent" android:layout_height="56.0dip" android:text="@string/id_auth_face_auth" style="@style/Widget.AppCompat.Toolbar.Button.Navigation" />
+        <androidx.appcompat.widget.AppCompatButton android:textSize="16.0sp" android:textColor="@color/face_lib_gray2" android:gravity="center" android:id="@id/btn_cancel" android:layout_width="fill_parent" android:layout_height="56.0dip" android:text="@string/id_auth_cancel" style="@style/Widget.AppCompat.Toolbar.Button.Navigation" />
+    </LinearLayout>
+</LinearLayout>

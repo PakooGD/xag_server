@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:orientation="horizontal" android:paddingBottom="@dimen/cube_dp_8" android:layout_width="fill_parent" android:layout_height="@dimen/cube_dp_46"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/time_name" android:layout_width="fill_parent" android:layout_height="@dimen/cube_dp_20" android:maxLines="1" android:layout_marginStart="@dimen/cube_dp_16" style="@style/Cube.Font.Medium.Body" />
+</LinearLayout>

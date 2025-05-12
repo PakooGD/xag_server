@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="@dimen/cube_dp_44">
+        <ImageView android:id="@id/btnBack" android:paddingLeft="@dimen/cube_dp_16" android:paddingRight="@dimen/cube_dp_16" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/cube_ic_gen_chevron_left" android:paddingHorizontal="@dimen/cube_dp_16" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:id="@id/textView11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/records_migrate_title" style="@style/Cube.Font.Medium.Title1" />
+            <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_secondary" android:id="@id/btnSeletor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/records_all" android:drawableEnd="@drawable/cube_ic_gen_triangle_down" style="@style/Cube.Font.Regular.Footnote" />
+        </LinearLayout>
+        <com.xa.core.cube.TextView android:textColor="@color/records_v5_selector_text_color_green_gray" android:gravity="center" android:id="@id/btnNext" android:paddingLeft="@dimen/cube_dp_16" android:paddingRight="@dimen/cube_dp_16" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/records_migrate_next_step" android:paddingHorizontal="@dimen/cube_dp_16" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Cube.Font.Regular.Body" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/lyMain" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_secondary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cube_dp_32" android:layout_marginTop="@dimen/cube_dp_16" android:layout_marginRight="@dimen/cube_dp_32" android:layout_marginBottom="@dimen/cube_dp_8" android:text="@string/records_migrate_warning" android:layout_marginHorizontal="@dimen/cube_dp_32" style="@style/Cube.Font.Regular.Callout" />
+        <cn.bingoogolapple.refreshlayout.BGARefreshLayout android:layout_gravity="center" android:id="@id/refresh" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/rvRecord" android:layout_width="fill_parent" android:layout_height="@dimen/cube_dp_0" android:layout_weight="1.0" />
+        </cn.bingoogolapple.refreshlayout.BGARefreshLayout>
+    </LinearLayout>
+</LinearLayout>

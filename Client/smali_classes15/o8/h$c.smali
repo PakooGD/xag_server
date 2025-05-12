@@ -1,0 +1,298 @@
+.class public abstract Lo8/h$c;
+.super Lo8/e$b;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lo8/h;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x409
+    name = "c"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<C:",
+        "Lo8/h;",
+        "B:",
+        "Lo8/h$c<",
+        "TC;TB;>;>",
+        "Lo8/e$b<",
+        "TC;TB;>;"
+    }
+.end annotation
+
+
+# instance fields
+.field public u:Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "Ljava/lang/String;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public v:Ljava/lang/String;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Lo8/e$b;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+.method public static synthetic S(Lo8/h$c;)Ljava/util/List;
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Lo8/h$c;->u:Ljava/util/List;
+
+    .line 2
+    .line 3
+    return-object p0
+.end method
+
+.method public static synthetic T(Lo8/h$c;)Ljava/lang/String;
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Lo8/h$c;->v:Ljava/lang/String;
+
+    .line 2
+    .line 3
+    return-object p0
+.end method
+
+
+# virtual methods
+.method public bridge synthetic H()Lo8/e;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lo8/h$c;->U()Lo8/h;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v0
+
+    .line 5
+    return-object v0
+.end method
+
+.method public bridge synthetic N()Lo8/e$b;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lo8/h$c;->X()Lo8/h$c;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v0
+
+    .line 5
+    return-object v0
+.end method
+
+.method public abstract U()Lo8/h;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()TC;"
+        }
+    .end annotation
+.end method
+
+.method public V(Ljava/lang/String;)Lo8/h$c;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/String;",
+            ")TB;"
+        }
+    .end annotation
+
+    .line 1
+    iput-object p1, p0, Lo8/h$c;->v:Ljava/lang/String;
+
+    .line 2
+    .line 3
+    invoke-virtual {p0}, Lo8/h$c;->X()Lo8/h$c;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object p1
+
+    .line 7
+    return-object p1
+.end method
+
+.method public W(Ljava/util/List;)Lo8/h$c;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/List<",
+            "Ljava/lang/String;",
+            ">;)TB;"
+        }
+    .end annotation
+
+    .line 1
+    iput-object p1, p0, Lo8/h$c;->u:Ljava/util/List;
+
+    .line 2
+    .line 3
+    invoke-virtual {p0}, Lo8/h$c;->X()Lo8/h$c;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object p1
+
+    .line 7
+    return-object p1
+.end method
+
+.method public abstract X()Lo8/h$c;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()TB;"
+        }
+    .end annotation
+.end method
+
+.method public bridge synthetic j()Lw8/f;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lo8/h$c;->U()Lo8/h;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v0
+
+    .line 5
+    return-object v0
+.end method
+
+.method public bridge synthetic r()Lw8/f$a;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lo8/h$c;->X()Lo8/h$c;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v0
+
+    .line 5
+    return-object v0
+.end method
+
+.method public toString()Ljava/lang/String;
+    .locals 2
+
+    .line 1
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    .line 2
+    .line 3
+    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    const-string v1, "RagApplicationParam.RagApplicationParamBuilder(super="
+
+    .line 7
+    .line 8
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 9
+    .line 10
+    .line 11
+    invoke-super {p0}, Lo8/e$b;->toString()Ljava/lang/String;
+
+    .line 12
+    .line 13
+    .line 14
+    move-result-object v1
+
+    .line 15
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 16
+    .line 17
+    .line 18
+    const-string v1, ", docTagCodes="
+
+    .line 19
+    .line 20
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 21
+    .line 22
+    .line 23
+    iget-object v1, p0, Lo8/h$c;->u:Ljava/util/List;
+
+    .line 24
+    .line 25
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    .line 26
+    .line 27
+    .line 28
+    const-string v1, ", docReferenceType="
+
+    .line 29
+    .line 30
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 31
+    .line 32
+    .line 33
+    iget-object v1, p0, Lo8/h$c;->v:Ljava/lang/String;
+
+    .line 34
+    .line 35
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 36
+    .line 37
+    .line 38
+    const-string v1, ")"
+
+    .line 39
+    .line 40
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 41
+    .line 42
+    .line 43
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 44
+    .line 45
+    .line 46
+    move-result-object v0
+
+    .line 47
+    return-object v0
+.end method

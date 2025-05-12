@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/cube_shape_container_bg_tint_8_bttom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cube_dp_12">
+        <FrameLayout android:background="@mipmap/records_offline_task_title_bg" android:layout_width="fill_parent" android:layout_height="@dimen/cube_dp_48">
+            <com.xa.core.cube.TextView android:textColor="@color/cube_color_container_bg_tint" android:layout_gravity="start|center" android:id="@id/tv_date_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/cube_dp_16" style="@style/Cube.Font.Medium.Footnote" />
+        </FrameLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/cube_dp_96">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <com.xa.core.cube.TextView android:textSize="@dimen/cube_dp_28" android:textColor="@color/cube_color_content_primary" android:id="@id/tv_area" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textFontWeight="400" app:layout_constraintBottom_toTopOf="@id/tv_area_unit" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_secondary" android:id="@id/tv_area_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mine_record_working_area" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="@id/tv_area" app:layout_constraintRight_toRightOf="@id/tv_area" app:layout_constraintTop_toBottomOf="@id/tv_area" style="@style/Cube.Font.Regular.Footnote" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <com.xa.core.cube.TextView android:textSize="@dimen/cube_dp_28" android:textColor="@color/cube_color_content_primary" android:id="@id/tv_dosage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textFontWeight="700" app:layout_constraintBottom_toTopOf="@id/tv_area_unit" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                <com.xa.core.cube.TextView android:textSize="@dimen/cube_dp_12" android:textColor="@color/cube_color_content_secondary" android:id="@id/tv_dosage_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mine_record_use_dosage_spray_unit" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="@id/tv_area" app:layout_constraintRight_toRightOf="@id/tv_area" app:layout_constraintTop_toBottomOf="@id/tv_area" style="@style/Cube.Font.Regular.Footnote" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <com.xa.core.cube.TextView android:textSize="@dimen/cube_dp_28" android:textColor="@color/cube_color_content_primary" android:id="@id/tv_dosage_mu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textFontWeight="700" app:layout_constraintBottom_toTopOf="@id/tv_area_unit" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_secondary" android:id="@id/tv_dosage_mu_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mine_record_use_dosageMu_spray_unit" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="@id/tv_area" app:layout_constraintRight_toRightOf="@id/tv_area" app:layout_constraintTop_toBottomOf="@id/tv_area" style="@style/Cube.Font.Regular.Footnote" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:background="@color/cube_color_container_fill_deep" android:layout_width="fill_parent" android:layout_height="@dimen/cube_dp_0.5" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cube_dp_16" android:layout_marginBottom="@dimen/cube_dp_16" android:layout_marginStart="@dimen/cube_dp_16">
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_secondary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="设备" style="@style/Cube.Font.Regular.Callout" />
+                <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:id="@id/tv_device_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cube_dp_4" style="@style/Cube.Font.Medium.Body" />
+                <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:id="@id/tv_device_sn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cube_dp_4" style="@style/Cube.Font.Regular.Callout" />
+                <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_secondary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cube_dp_24" android:text="@string/mine_operators" style="@style/Cube.Font.Regular.Callout" />
+                <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:id="@id/tv_operation_er" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cube_dp_4" style="@style/Cube.Font.Medium.Body" />
+            </LinearLayout>
+            <ImageView android:layout_gravity="end|bottom|center" android:id="@id/imgUav" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/report_2021uav_p40" />
+        </FrameLayout>
+    </LinearLayout>
+    <ImageView android:layout_gravity="center_horizontal" android:layout_width="@dimen/cube_dp_124" android:layout_height="@dimen/cube_dp_40" android:layout_marginTop="@dimen/cube_dp_16" android:src="@mipmap/records_xag_icon" />
+</LinearLayout>

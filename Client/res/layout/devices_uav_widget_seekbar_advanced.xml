@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/frameLayout" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/devices_button_height_48"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageButton android:id="@id/btn_seekbar_advanced_left" android:background="@drawable/devices_selector_button_transparent" android:padding="0.0dip" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/devices_ic_decrease" android:layout_marginStart="16.0dip" app:layout_constraintBottom_toBottomOf="@id/seekbar_advanced_seekbar" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/seekbar_advanced_seekbar" />
+    <FrameLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center" android:id="@id/linearLayout5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/devices_margin_8" app:layout_constraintBottom_toTopOf="@id/seekbar_advanced_seekbar">
+            <com.xa.core.cube.TextView android:textSize="@dimen/devices_text_size_10" android:textColor="@color/devices_text_light" android:id="@id/tv_seekbar_advanced_min" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Devices.Text" />
+            <LinearLayout android:gravity="bottom|center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <com.xa.core.cube.TextView android:textSize="@dimen/devices_text_size_14" android:textColor="@color/devices_text_1" android:id="@id/tv_seekbar_advanced_text_top" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Devices.Text" />
+                <com.xa.core.cube.TextView android:textSize="@dimen/devices_text_size_10" android:textColor="@color/devices_text_title" android:id="@id/tv_seekbar_advanced_unit" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <com.xa.core.cube.TextView android:textSize="@dimen/devices_text_size_14" android:textColor="@color/devices_text_light" android:id="@id/tv_seekbar_advanced_max" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="@id/seekbar_advanced_seekbar" app:layout_constraintEnd_toEndOf="@id/seekbar_advanced_seekbar" app:layout_constraintTop_toTopOf="@id/seekbar_advanced_seekbar" />
+        </LinearLayout>
+        <androidx.appcompat.widget.AppCompatSeekBar android:layout_gravity="center" android:id="@id/seekbar_advanced_seekbar" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <ImageButton android:id="@id/btn_seekbar_advanced_right" android:background="@drawable/devices_selector_button_transparent" android:padding="0.0dip" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/devices_ic_increase" android:layout_marginEnd="16.0dip" />
+</LinearLayout>

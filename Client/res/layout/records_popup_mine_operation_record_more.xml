@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/lyPop" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:elevation="@dimen/cube_dp_4"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/cube_shape_container_bg_tint_8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cube_dp_12" android:layout_marginRight="@dimen/cube_dp_12" android:divider="@drawable/common_shape_divider_horizontal_left_padding_16dp" android:showDividers="middle" android:layout_marginHorizontal="@dimen/cube_dp_12">
+        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:id="@id/btnMigrate" android:paddingLeft="@dimen/cube_dp_16" android:paddingTop="@dimen/cube_dp_12" android:paddingRight="@dimen/cube_dp_16" android:paddingBottom="@dimen/cube_dp_12" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/records_migrate_title" android:drawablePadding="@dimen/cube_dp_16" android:drawableEnd="@drawable/popup_item_migration" android:paddingHorizontal="@dimen/cube_dp_16" android:paddingVertical="@dimen/cube_dp_12" style="@style/Cube.Font.Regular.Body" />
+    </LinearLayout>
+</LinearLayout>

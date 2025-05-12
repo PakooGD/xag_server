@@ -1,0 +1,211 @@
+.class public final Lkc/b0;
+.super Lkc/f;
+.source "SourceFile"
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Lkc/f;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+
+# virtual methods
+.method public h()J
+    .locals 2
+
+    .line 1
+    const/high16 v0, 0x7fc00000    # Float.NaN
+
+    .line 2
+    .line 3
+    invoke-static {v0}, Ljava/lang/Float;->floatToRawIntBits(F)I
+
+    .line 4
+    .line 5
+    .line 6
+    move-result v0
+
+    .line 7
+    int-to-long v0, v0
+
+    .line 8
+    return-wide v0
+.end method
+
+.method public i()J
+    .locals 2
+
+    .line 1
+    const/high16 v0, -0x800000    # Float.NEGATIVE_INFINITY
+
+    .line 2
+    .line 3
+    invoke-static {v0}, Ljava/lang/Float;->floatToRawIntBits(F)I
+
+    .line 4
+    .line 5
+    .line 6
+    move-result v0
+
+    .line 7
+    int-to-long v0, v0
+
+    .line 8
+    return-wide v0
+.end method
+
+.method public n()J
+    .locals 2
+
+    .line 1
+    const/high16 v0, 0x7f800000    # Float.POSITIVE_INFINITY
+
+    .line 2
+    .line 3
+    invoke-static {v0}, Ljava/lang/Float;->floatToRawIntBits(F)I
+
+    .line 4
+    .line 5
+    .line 6
+    move-result v0
+
+    .line 7
+    int-to-long v0, v0
+
+    .line 8
+    return-wide v0
+.end method
+
+.method public p(Ljava/lang/CharSequence;IIZJIZI)J
+    .locals 0
+
+    .line 1
+    invoke-static/range {p4 .. p9}, Lkc/k;->b(ZJIZI)F
+
+    .line 2
+    .line 3
+    .line 4
+    move-result p4
+
+    .line 5
+    invoke-static {p4}, Ljava/lang/Float;->isNaN(F)Z
+
+    .line 6
+    .line 7
+    .line 8
+    move-result p5
+
+    .line 9
+    if-eqz p5, :cond_0
+
+    .line 10
+    .line 11
+    invoke-interface {p1, p2, p3}, Ljava/lang/CharSequence;->subSequence(II)Ljava/lang/CharSequence;
+
+    .line 12
+    .line 13
+    .line 14
+    move-result-object p1
+
+    .line 15
+    invoke-interface {p1}, Ljava/lang/CharSequence;->toString()Ljava/lang/String;
+
+    .line 16
+    .line 17
+    .line 18
+    move-result-object p1
+
+    .line 19
+    invoke-static {p1}, Ljava/lang/Float;->parseFloat(Ljava/lang/String;)F
+
+    .line 20
+    .line 21
+    .line 22
+    move-result p4
+
+    .line 23
+    :cond_0
+    invoke-static {p4}, Ljava/lang/Float;->floatToRawIntBits(F)I
+
+    .line 24
+    .line 25
+    .line 26
+    move-result p1
+
+    .line 27
+    int-to-long p1, p1
+
+    .line 28
+    return-wide p1
+.end method
+
+.method public q(Ljava/lang/CharSequence;IIZJIZI)J
+    .locals 0
+
+    .line 1
+    invoke-static/range {p4 .. p9}, Lkc/k;->d(ZJIZI)F
+
+    .line 2
+    .line 3
+    .line 4
+    move-result p4
+
+    .line 5
+    invoke-static {p4}, Ljava/lang/Float;->isNaN(F)Z
+
+    .line 6
+    .line 7
+    .line 8
+    move-result p5
+
+    .line 9
+    if-eqz p5, :cond_0
+
+    .line 10
+    .line 11
+    invoke-interface {p1, p2, p3}, Ljava/lang/CharSequence;->subSequence(II)Ljava/lang/CharSequence;
+
+    .line 12
+    .line 13
+    .line 14
+    move-result-object p1
+
+    .line 15
+    invoke-interface {p1}, Ljava/lang/CharSequence;->toString()Ljava/lang/String;
+
+    .line 16
+    .line 17
+    .line 18
+    move-result-object p1
+
+    .line 19
+    invoke-static {p1}, Ljava/lang/Float;->parseFloat(Ljava/lang/String;)F
+
+    .line 20
+    .line 21
+    .line 22
+    move-result p4
+
+    .line 23
+    :cond_0
+    invoke-static {p4}, Ljava/lang/Float;->floatToRawIntBits(F)I
+
+    .line 24
+    .line 25
+    .line 26
+    move-result p1
+
+    .line 27
+    int-to-long p1, p1
+
+    .line 28
+    return-wide p1
+.end method

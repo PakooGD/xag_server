@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/SurveySupportPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/page_bar" layout="@layout/survey_new_layout_page_top_bar" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/ll_no_hava_data" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="418.0dip">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/survey_icon_no_have_farm" />
+        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cube_dp_12" android:text="@string/survey_str_none" style="@style/Cube.Font.Medium.Body" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/ll_hava_data" android:background="@drawable/cube_shape_container_bg_tint_8" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/cube_dp_16" android:layout_marginTop="@dimen/cube_dp_8" android:layout_marginRight="@dimen/cube_dp_16" android:layout_marginBottom="@dimen/cube_dp_16" android:layout_marginHorizontal="@dimen/cube_dp_16">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rcv_data" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</LinearLayout>

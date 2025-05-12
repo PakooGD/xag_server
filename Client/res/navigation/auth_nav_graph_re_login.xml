@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/auth_nav_graph_re_login" app:startDestination="@id/auth_reloginfragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include app:graph="@navigation/auth_nav_graph_forget_password" />
+    <include app:graph="@navigation/auth_nav_graph_verify_code" />
+    <fragment android:label="ReLoginFragment" android:name="com.xag.agri.auth.ui.ReLoginFragment" android:id="@id/auth_reloginfragment">
+        <action android:id="@id/ReLoginToForgetPasswordGraph" app:destination="@id/auth_nav_graph_forget_password" app:enterAnim="@anim/common_fragment_open_enter" app:exitAnim="@anim/common_fragment_open_exit" app:popEnterAnim="@anim/common_fragment_close_enter" app:popExitAnim="@anim/common_fragment_close_exit" />
+        <action android:id="@id/ReLoginToVerifyCodeGraph" app:destination="@id/auth_nav_graph_verify_code" app:enterAnim="@anim/common_fragment_open_enter" app:exitAnim="@anim/common_fragment_open_exit" app:popEnterAnim="@anim/common_fragment_close_enter" app:popExitAnim="@anim/common_fragment_close_exit" />
+    </fragment>
+</navigation>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:gravity="bottom" android:orientation="vertical" android:background="@color/devices_black_80" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/devices_shape_gray_top_round" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/devices_shape_divider" android:showDividers="middle">
+        <androidx.appcompat.widget.AppCompatButton android:textSize="@dimen/devices_text_size_16" android:textColor="?cube_color_project_primary" android:gravity="center" android:id="@id/btn_photograph" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/devices_item_height" android:text="@string/devices_xrtk_photograph" style="@style/Widget.AppCompat.Toolbar.Button.Navigation" />
+        <androidx.appcompat.widget.AppCompatButton android:textSize="@dimen/devices_text_size_16" android:textColor="?cube_color_project_primary" android:gravity="center" android:id="@id/btn_album" android:layout_width="fill_parent" android:layout_height="@dimen/devices_item_height" android:text="@string/devices_xrtk_album" style="@style/Widget.AppCompat.Toolbar.Button.Navigation" />
+        <View android:background="@color/devices_black_10" android:layout_width="fill_parent" android:layout_height="10.0dip" />
+        <androidx.appcompat.widget.AppCompatButton android:textSize="@dimen/devices_text_size_16" android:textColor="?cube_color_project_primary" android:gravity="center" android:id="@id/btn_cancel" android:layout_width="fill_parent" android:layout_height="@dimen/devices_item_height" android:text="@string/devices_cancel" style="@style/Widget.AppCompat.Toolbar.Button.Navigation" />
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/cube_color_container_bg_base" android:layout_width="fill_parent" android:layout_height="fill_parent" android:showDividers="middle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.xag.agri.v4.operation.res.widget.DialogTitleWidget android:id="@id/title_widget" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_marginHorizontal="12.0dip">
+        <com.xag.agri.v4.operation.res.widget.OperationButtonWidget android:id="@id/btn_fc_emu_start" android:background="@drawable/operation_muav_v5_green_bg_selector" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" app:btn_tv="打开" app:btn_tv_color="@color/cube_color_on_primary" app:btn_tv_disable_color="@color/cube_color_content_quaternary" app:btn_tv_size="@dimen/air_survey_text_size_16" />
+        <View android:layout_width="12.0dip" android:layout_height="fill_parent" />
+        <com.xag.agri.v4.operation.res.widget.OperationButtonWidget android:id="@id/btn_fc_emu_stop" android:background="@drawable/operation_muav_v5_white_bg_selector" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" app:btn_tv="关闭" app:btn_tv_color="@color/cube_color_content_primary" app:btn_tv_disable_color="@color/cube_color_content_quaternary" app:btn_tv_size="@dimen/air_survey_text_size_16" />
+    </LinearLayout>
+    <com.xa.core.cube.TextView android:textColor="@color/cube_color_state_red_primary" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="32.0dip" android:text="注意：点打开模拟器后，无人机将会出现在地图红色十字的位置上。" android:layout_weight="1.0" />
+</LinearLayout>

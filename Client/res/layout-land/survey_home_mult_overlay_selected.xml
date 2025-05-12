@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" style="@style/SurveySupportPage"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/page_bar" layout="@layout/survey_new_layout_result_top_bar" />
+    <include layout="@layout/survey_new_layout_home_divide" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_selected" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="12.0dip" android:overScrollMode="never" android:layout_marginHorizontal="16.0dip" android:layout_marginVertical="12.0dip" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+</androidx.appcompat.widget.LinearLayoutCompat>

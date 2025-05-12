@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.smile525.albumcamerarecorder.widget.childclickable.ChildClickableRelativeLayout android:orientation="vertical" android:id="@id/rlMain" android:background="@color/black_eighty_percent" android:paddingTop="1.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

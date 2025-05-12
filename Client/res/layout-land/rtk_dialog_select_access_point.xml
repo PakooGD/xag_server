@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/devices_background" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/devices_actionbar">
+        <ImageButton android:id="@id/btn_back" android:background="@drawable/devices_selector_button_transparent" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/cube_ic_gen_chevron_left" android:paddingStart="@dimen/devices_padding_16" android:paddingEnd="@dimen/devices_padding_16" />
+        <com.xa.core.cube.TextView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/devices_access_point" style="@style/Devices.Text.title" />
+    </FrameLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.1666" />
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.6668">
+            <LinearLayout android:id="@id/ll_have_data" android:padding="@dimen/devices_padding_16" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_data" android:background="@drawable/devices_shape_white_round_outline" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_no_data" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <ImageView android:layout_width="80.0dip" android:layout_height="80.0dip" android:src="@drawable/devices_cors_no_data" />
+                <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:id="@id/tv_error_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/devices_margin_12" android:text="@string/devices_dev_cors_error" style="@style/Cube.Font.Regular.Body" />
+                <com.xa.core.cube.TextView android:textSize="@dimen/devices_text_size_14" android:textColor="@color/cube_color_container_bg_tint" android:gravity="center" android:id="@id/btn_back2" android:background="@drawable/devices_selector_button_green" android:layout_width="96.0dip" android:layout_height="@dimen/devices_item_height_32" android:layout_margin="@dimen/devices_margin_12" android:text="@string/devices_back" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.1666" />
+    </LinearLayout>
+</LinearLayout>

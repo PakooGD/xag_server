@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/frg_session_item_time" />
+    <TextView android:id="@id/tvNotification" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/tinetLeadingWordsStyle" />
+</LinearLayout>

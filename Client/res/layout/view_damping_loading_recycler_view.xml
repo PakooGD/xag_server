@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xa.ability.ui.refreshloading.DampingLayout android:id="@id/refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.xa.ability.ui.refreshloading.loading.LoadingLayout android:id="@id/loading_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </com.xa.ability.ui.refreshloading.loading.LoadingLayout>
+</com.xa.ability.ui.refreshloading.DampingLayout>

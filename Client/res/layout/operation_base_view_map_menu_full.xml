@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="end" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="@dimen/cube_dp_44" android:layout_height="@dimen/cube_dp_44" android:layout_marginBottom="@dimen/cube_dp_12">
+        <com.makeramen.roundedimageview.RoundedImageView android:id="@id/menu_iv_layer_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@color/operation_base_blur_default_color" android:scaleType="fitXY" app:riv_corner_radius="8.0dip" />
+        <ImageView android:id="@id/menu_iv_layer" android:background="@drawable/operation_base_shape_r8888_blur_press" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/operation_base_map_menu_setting_selector" android:scaleType="centerInside" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/menu_device_panel" android:layout_width="fill_parent" android:layout_height="@dimen/cube_dp_88" android:layout_marginBottom="@dimen/cube_dp_12">
+        <com.makeramen.roundedimageview.RoundedImageView android:id="@id/menu_iv_device_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@color/operation_base_blur_default_color" android:scaleType="fitXY" app:riv_corner_radius="8.0dip" />
+        <LinearLayout android:orientation="vertical" android:id="@id/menu_ll_location" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/menu_iv_device" android:background="@drawable/operation_base_shape_r8800_blur_press" android:layout_width="fill_parent" android:layout_height="@dimen/cube_dp_44" android:src="@drawable/operation_base_map_menu_dev_pos_selector" android:scaleType="centerInside" />
+            <View android:id="@id/menu_line_location" android:background="#14000000" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginStart="1.0dip" android:layout_marginEnd="1.0dip" />
+            <ImageView android:id="@id/menu_iv_user" android:background="@drawable/operation_base_shape_r0088_blur_press" android:layout_width="fill_parent" android:layout_height="@dimen/cube_dp_44" android:src="@drawable/operation_base_map_menu_phone_pos_selector" android:scaleType="centerInside" />
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@id/menu_ruler_container" android:layout_width="@dimen/cube_dp_44" android:layout_height="@dimen/cube_dp_44">
+        <com.makeramen.roundedimageview.RoundedImageView android:id="@id/menu_iv_ruler_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@color/operation_base_blur_default_color" android:scaleType="fitXY" app:riv_corner_radius="8.0dip" />
+        <ImageView android:id="@id/menu_iv_ruler" android:background="@drawable/operation_base_shape_r8888_blur_press" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/operation_base_map_menu_rule_selector" android:scaleType="centerInside" />
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/cube_dp_16" android:layout_height="fill_parent" android:src="@drawable/popup_expand_material_left" android:scaleType="centerInside" />
+    </FrameLayout>
+</LinearLayout>

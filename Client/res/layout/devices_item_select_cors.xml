@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_item" android:layout_width="fill_parent" android:layout_height="@dimen/cube_dp_56"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/iv_head" android:layout_width="@dimen/devices_item_height_24" android:layout_height="@dimen/devices_item_height_24" android:layout_marginStart="@dimen/operation_margin_16" />
+    <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:gravity="start" android:id="@id/tv_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/devices_margin_8" style="@style/Cube.Font.Regular.Body" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_more" android:paddingTop="@dimen/devices_padding_12" android:paddingBottom="@dimen/devices_padding_12" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/cube_ic_gen_ellipsis" android:paddingStart="@dimen/devices_padding_16" android:paddingEnd="@dimen/devices_padding_16" />
+</LinearLayout>

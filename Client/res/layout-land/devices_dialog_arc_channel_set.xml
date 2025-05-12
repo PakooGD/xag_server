@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/devices_background" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="@color/devices_background" android:layout_width="fill_parent" android:layout_height="@dimen/devices_actionbar">
+        <ImageButton android:id="@id/btn_back" android:background="@drawable/devices_selector_button_transparent" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/cube_ic_gen_chevron_left" android:paddingStart="@dimen/devices_padding_12" android:paddingEnd="@dimen/devices_padding_12" />
+        <com.xa.core.cube.TextView android:layout_gravity="center" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/devices_rc_channel" style="@style/Devices.Text.title" />
+    </FrameLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/devices_margin_12">
+        <LinearLayout android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <View android:background="@drawable/devices_shape_green_4" android:layout_width="16.0dip" android:layout_height="16.0dip" />
+            <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/devices_rc_channel_now" android:layout_marginStart="@dimen/devices_margin_8" style="@style/Cube.Font.Regular.Callout" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <View android:background="@drawable/devices_shape_purple_4" android:layout_width="16.0dip" android:layout_height="16.0dip" />
+            <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/devices_rc_channel_good" android:layout_marginStart="@dimen/devices_margin_8" style="@style/Cube.Font.Regular.Callout" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <View android:background="@drawable/devices_shape_blue_4" android:layout_width="16.0dip" android:layout_height="16.0dip" />
+            <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/devices_rc_channel_other" android:layout_marginStart="@dimen/devices_margin_8" style="@style/Cube.Font.Regular.Callout" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_margin="@dimen/devices_margin_24" android:layout_weight="1.0">
+            <com.xa.core.cube.TextView android:textSize="@dimen/devices_text_size_18" android:textColor="@color/cube_color_content_primary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/devices_rc_channel_2_4ghz" />
+            <com.xag.agri.v4.devices.components.wiget.ChannelBarChart android:id="@id/cbc_2_4" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_margin="@dimen/devices_margin_24" android:layout_weight="1.0">
+            <com.xa.core.cube.TextView android:textSize="@dimen/devices_text_size_18" android:textColor="@color/cube_color_content_primary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/devices_rc_channel_5_8ghz" />
+            <com.xag.agri.v4.devices.components.wiget.ChannelBarChart android:id="@id/cbc_5_8" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </LinearLayout>
+    </LinearLayout>
+    <Button android:enabled="false" android:textColor="@color/devices_selector_btn_white_gray" android:id="@id/btn_select_channel" android:background="@drawable/devices_selector_button_green" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/devices_margin_16" android:text="@string/devices_select_channel_sure" android:layout_marginStart="@dimen/devices_margin_16" android:layout_marginEnd="@dimen/devices_margin_12" style="@style/Devices.Button" />
+</LinearLayout>

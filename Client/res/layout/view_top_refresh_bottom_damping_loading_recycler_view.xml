@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xa.ability.ui.refreshloading.TopRefreshBottomDampingLayout android:id="@id/refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.scwang.smart.refresh.header.ClassicsHeader android:layout_width="fill_parent" android:layout_height="wrap_content" app:srlClassicsSpinnerStyle="FixedBehind" app:srlDrawableArrow="@drawable/ic_arrow_down" app:srlDrawableArrowSize="20.0dip" app:srlDrawableMarginRight="6.0dip" app:srlDrawableProgressSize="20.0dip" app:srlEnableLastTime="true" app:srlFinishDuration="500" app:srlTextSizeTime="0.0dip" app:srlTextSizeTitle="16.0sp" app:srlTextTimeMarginTop="0.0dip" />
+    <com.xa.ability.ui.refreshloading.loading.LoadingLayout android:id="@id/loading_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </com.xa.ability.ui.refreshloading.loading.LoadingLayout>
+</com.xa.ability.ui.refreshloading.TopRefreshBottomDampingLayout>

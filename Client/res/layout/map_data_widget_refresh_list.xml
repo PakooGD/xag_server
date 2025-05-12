@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.bingoogolapple.refreshlayout.BGARefreshLayout android:orientation="vertical" android:id="@id/refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_list" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    </cn.bingoogolapple.refreshlayout.BGARefreshLayout>
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:id="@id/empty_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/empty_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/map_data_ic_empty" app:layout_constraintTop_toTopOf="parent" />
+        <com.xa.core.cube.TextView android:textSize="16.0sp" android:textColor="@color/cube_color_content_primary" android:layout_gravity="center" android:id="@id/empty_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="1.0" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.constraintlayout.widget.ConstraintLayout>

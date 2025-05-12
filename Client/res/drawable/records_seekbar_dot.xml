@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <layer-list>
+            <item>
+                <shape android:shape="oval">
+                    <padding android:left="@dimen/cube_dp_2" android:top="@dimen/cube_dp_2" android:right="@dimen/cube_dp_2" android:bottom="@dimen/cube_dp_2" />
+                    <solid android:color="@color/cube_color_on_primary" />
+                    <size android:height="@dimen/cube_dp_12" android:width="@dimen/cube_dp_12" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

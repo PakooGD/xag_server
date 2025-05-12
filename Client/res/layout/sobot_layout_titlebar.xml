@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/sobot_layout_titlebar" android:background="@color/cube_color_container_bg_base" android:layout_width="fill_parent" android:layout_height="@dimen/xag_sobot_header_titlebar_hight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerVertical="true">
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/sobot_text_title" android:textColor="@color/sobot_color_title_bar_menu_text" android:gravity="center_vertical" android:id="@id/sobot_tv_left" android:layout_width="wrap_content" android:layout_height="@dimen/sobot_DIMEN_108PX" android:drawableLeft="@drawable/cube_ic_gen_chevron_left" android:drawablePadding="@dimen/cube_dp_5" android:drawableStart="@drawable/cube_ic_gen_chevron_left" android:paddingStart="@dimen/cube_dp_12" />
+        <RelativeLayout android:id="@id/sobot_header_center_ll" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cube_dp_62" android:layout_marginRight="@dimen/cube_dp_62" android:layout_centerInParent="true">
+            <androidx.appcompat.widget.AppCompatTextView android:ellipsize="end" android:id="@id/sobot_text_title" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sobot_jxm" android:singleLine="true" android:layout_centerInParent="true" style="@style/Cube.Font.Medium.Title1" />
+            <ImageView android:id="@id/iv_tel" android:visibility="visible" android:layout_width="@dimen/cube_dp_24" android:layout_height="@dimen/cube_dp_24" android:src="@drawable/xag_sobot_ic_button_airmap" android:layout_toRightOf="@id/sobot_text_title" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/sobot_header_right_ll" android:layout_width="wrap_content" android:layout_height="@dimen/cube_dp_50" android:layout_alignParentRight="true" android:layout_alignParentEnd="true">
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/sobot_header_titlebar_name_sp" android:gravity="end|center" android:id="@id/sobot_tv_right" android:paddingRight="@dimen/cube_dp_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="@dimen/cube_dp_5" android:drawableEnd="@drawable/xag_sobot_delete_hismsg_selector" android:paddingEnd="@dimen/cube_dp_10" android:drawableTint="@color/cube_color_selector_content_primary" />
+        </LinearLayout>
+    </RelativeLayout>
+    <View android:id="@id/sobot_title_line" android:background="@color/cube_color_container_bg_deep" android:layout_width="fill_parent" android:layout_alignParentBottom="true" style="@style/Cube.Divider.Horizontal" />
+</RelativeLayout>

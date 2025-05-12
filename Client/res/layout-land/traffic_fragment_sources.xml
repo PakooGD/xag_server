@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/top" layout="@layout/traffic_commom_top" />
+    <com.scwang.smart.refresh.layout.SmartRefreshLayout android:id="@id/refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.xag.agri.v4.traffic.widget.MyClassicHeader android:orientation="vertical" android:id="@id/srl_header" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cube_dp_120" android:layout_marginTop="@dimen/cube_dp_12" android:layout_marginRight="@dimen/cube_dp_120" android:layout_marginHorizontal="@dimen/cube_dp_120">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_sources" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+            <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_secondary" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tv_empty" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cube_dp_24" android:text="@string/traffic_empty2" android:drawableTop="@drawable/traffic_ic_empty" android:drawablePadding="@dimen/cube_dp_12" style="@style/Cube.Font.Regular.Callout" />
+        </FrameLayout>
+        <com.scwang.smart.refresh.footer.ClassicsFooter android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </com.scwang.smart.refresh.layout.SmartRefreshLayout>
+</LinearLayout>

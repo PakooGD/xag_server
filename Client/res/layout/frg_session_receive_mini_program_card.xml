@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/frg_session_item_time" />
+    <LinearLayout android:layout_gravity="left" android:orientation="horizontal" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.tinet.oskit.widget.UserHeaderView android:id="@id/userHeader" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/tinetHeaderStyle" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <include layout="@layout/frg_session_item_name" />
+            <LinearLayout android:orientation="vertical" android:id="@id/llMiniProgramCard" android:background="@drawable/ti_shape_white_round_card_message_bg" android:paddingTop="@dimen/ti_content_paddingTop" android:paddingBottom="@dimen/ti_content_paddingBottom" android:layout_width="240.0dip" android:layout_height="wrap_content" android:paddingStart="@dimen/ti_content_paddingLeft" android:paddingEnd="@dimen/ti_content_paddingRight">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/ivMiniLogo" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@mipmap/ic_launcher" />
+                    <TextView android:textSize="12.0sp" android:textColor="#ffbfbfbf" android:id="@id/tvMiniName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="领英-全球知名招聘平台" />
+                </LinearLayout>
+                <TextView android:ellipsize="end" android:id="@id/tvMiniTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:text="覆盖全球8亿会员，致力于为求职者和招聘者提供专业的覆盖全球8亿会员，致力于为求职者和招聘者提供专业的" android:maxLines="2" />
+                <androidx.cardview.widget.CardView android:background="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" app:cardCornerRadius="12.0dip" app:cardElevation="0.0dip">
+                    <ImageView android:id="@id/ivMiniPicUrl" android:layout_width="216.0dip" android:layout_height="174.0dip" />
+                </androidx.cardview.widget.CardView>
+                <View android:background="#0f000000" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="4.0dip" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:layout_width="14.0dip" android:layout_height="14.0dip" android:src="@mipmap/ti_mini_program_logo" />
+                    <TextView android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:text="小程序" android:layout_weight="1.0" />
+                    <TextView android:textSize="12.0sp" android:textColor="#ff4385ff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="复制链接" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

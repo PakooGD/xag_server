@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/devices_background" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/devices_actionbar">
+        <ImageButton android:id="@id/btn_back" android:background="@drawable/devices_selector_button_transparent" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/cube_ic_gen_chevron_left" android:paddingStart="@dimen/devices_padding" android:paddingEnd="@dimen/devices_padding" />
+        <com.xa.core.cube.TextView android:layout_gravity="center" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/devices_dev_mesh_device_info" style="@style/Devices.Text.title" />
+    </FrameLayout>
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.1666" />
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.6668">
+                <LinearLayout android:orientation="vertical" android:background="@drawable/devices_shape_white_round_outline" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/devices_shape_divider" android:showDividers="middle" android:paddingStart="@dimen/devices_padding_16" android:layout_marginStart="@dimen/devices_margin_16" android:layout_marginEnd="@dimen/devices_margin_16">
+                    <FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/devices_item_height">
+                        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:gravity="start|center" android:layout_gravity="start|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/devices_dev_name" style="@style/Cube.Font.Regular.Body" />
+                        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_secondary" android:gravity="start|center" android:layout_gravity="end|center" android:id="@id/tv_device_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/devices_margin_16" style="@style/Cube.Font.Regular.Body" />
+                    </FrameLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:background="@drawable/devices_shape_white_round_outline" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/devices_padding_16" android:divider="@drawable/devices_shape_divider" android:showDividers="middle" android:paddingStart="@dimen/devices_padding_16" android:layout_marginStart="@dimen/devices_margin_16" android:layout_marginEnd="@dimen/devices_margin_16">
+                    <FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/devices_item_height">
+                        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:gravity="start|center" android:layout_gravity="start|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/devices_dev_model" style="@style/Cube.Font.Regular.Body" />
+                        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_secondary" android:gravity="start|center" android:layout_gravity="end|center" android:id="@id/tv_device_model" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/devices_margin_16" style="@style/Cube.Font.Regular.Body" />
+                    </FrameLayout>
+                    <FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/devices_item_height">
+                        <com.xa.core.cube.TextView android:textSize="@dimen/devices_text_size_16" android:textColor="@color/cube_color_content_primary" android:gravity="start|center" android:layout_gravity="start|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/devices_dev_serial_simple" style="@style/Cube.Font.Regular.Body" />
+                        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_secondary" android:gravity="start|center" android:layout_gravity="end|center" android:id="@id/tv_device_sn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/devices_margin_16" style="@style/Cube.Font.Regular.Body" />
+                    </FrameLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.1666" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <android.widget.Button android:textColor="@color/devices_text_red" android:layout_gravity="center" android:id="@id/btn_cancel_mesh" android:background="@drawable/devices_shape_white_round12" android:layout_width="@dimen/cube_dp_160" android:layout_height="@dimen/cube_dp_40" android:layout_marginTop="@dimen/devices_margin_24" android:layout_marginBottom="@dimen/devices_margin_36" android:text="@string/devices_dev_mesh_cancel_connect" android:layout_marginStart="@dimen/devices_margin_16" android:layout_marginEnd="@dimen/devices_margin_16" style="@style/Devices.Button" />
+</LinearLayout>

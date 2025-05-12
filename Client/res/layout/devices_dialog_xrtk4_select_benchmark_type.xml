@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:background="@color/devices_background" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/fl_title" android:layout_width="fill_parent" android:layout_height="@dimen/devices_actionbar">
+        <ImageButton android:id="@id/btn_back" android:background="@drawable/devices_selector_button_transparent" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/cube_ic_gen_chevron_left" android:paddingStart="@dimen/devices_padding_8" android:paddingEnd="@dimen/devices_padding_8" />
+        <com.xa.core.cube.TextView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/base_station_select_benchmark" style="@style/Devices.Text.title" />
+    </FrameLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.0" />
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.6668">
+            <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_secondary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/base_station_rtk_location" android:layout_marginStart="@dimen/cube_dp_32" style="@style/Cube.Font.Regular.Callout" />
+            <LinearLayout android:orientation="vertical" android:background="@drawable/devices_shape_white_round_outline" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="@dimen/cube_dp_8" android:layout_marginRight="16.0dip" android:layout_marginHorizontal="16.0dip">
+                <FrameLayout android:id="@id/fl_xrtk_station" android:paddingLeft="@dimen/cube_dp_12" android:paddingRight="@dimen/cube_dp_12" android:layout_width="fill_parent" android:layout_height="@dimen/cube_dp_56" android:paddingHorizontal="@dimen/cube_dp_12">
+                    <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:layout_gravity="center_vertical" android:id="@id/tv_device_name_Txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/base_station_xrtk_station" style="@style/Cube.Font.Regular.Body" />
+                    <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_secondary" android:layout_gravity="end|center" android:id="@id/tv_xrtk_station" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="2.0dip" android:drawableEnd="@drawable/devices_ic_chevron_right" style="@style/Cube.Font.Regular.Body" />
+                </FrameLayout>
+            </LinearLayout>
+            <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_secondary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/base_station_gps_location" android:layout_marginStart="@dimen/cube_dp_32" style="@style/Cube.Font.Regular.Callout" />
+            <LinearLayout android:orientation="vertical" android:background="@drawable/devices_shape_white_round_outline" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="@dimen/cube_dp_8" android:layout_marginRight="16.0dip" android:layout_marginHorizontal="16.0dip">
+                <FrameLayout android:id="@id/fl_gps_station" android:paddingLeft="@dimen/cube_dp_12" android:paddingRight="@dimen/cube_dp_12" android:layout_width="fill_parent" android:layout_height="@dimen/cube_dp_56" android:paddingHorizontal="@dimen/cube_dp_12">
+                    <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:layout_gravity="center_vertical" android:id="@id/tv_gps_Txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/base_station_gps_single_location" style="@style/Cube.Font.Regular.Body" />
+                    <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_secondary" android:layout_gravity="end|center" android:id="@id/tv_gps_station" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="2.0dip" android:drawableEnd="@drawable/devices_ic_chevron_right" style="@style/Cube.Font.Regular.Body" />
+                </FrameLayout>
+            </LinearLayout>
+            <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/base_station_other" android:layout_marginStart="@dimen/cube_dp_32" style="@style/Cube.Font.Regular.Callout" />
+            <LinearLayout android:orientation="vertical" android:background="@drawable/devices_shape_white_round_outline" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="@dimen/cube_dp_8" android:layout_marginRight="16.0dip" android:layout_marginHorizontal="16.0dip">
+                <FrameLayout android:id="@id/fl_coordinate_input" android:paddingLeft="@dimen/cube_dp_12" android:paddingRight="@dimen/cube_dp_12" android:layout_width="fill_parent" android:layout_height="@dimen/cube_dp_56" android:paddingHorizontal="@dimen/cube_dp_12">
+                    <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:layout_gravity="center_vertical" android:id="@id/tv_coordinate_input_Txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/base_station_coordinate_input2" style="@style/Cube.Font.Regular.Body" />
+                    <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_secondary" android:layout_gravity="end|center" android:id="@id/tv_coordinate_input" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="2.0dip" android:drawableEnd="@drawable/devices_ic_chevron_right" style="@style/Cube.Font.Regular.Body" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.0" />
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

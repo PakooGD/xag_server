@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/cube_dp_16" android:width="@dimen/cube_dp_16" android:viewportWidth="16.0" android:viewportHeight="16.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/cube_color_on_primary" android:pathData="M5.207,6.667C4.762,6.667 4.539,7.205 4.854,7.52L7.646,10.313C7.842,10.508 8.158,10.508 8.354,10.313L11.146,7.52C11.461,7.205 11.238,6.667 10.793,6.667L5.207,6.667Z" />
+</vector>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/left_image_btn" android:visibility="gone" android:layout_width="@dimen/cube_dp_56" android:layout_height="fill_parent" android:src="@drawable/map_data_arrow_left" android:scaleType="center" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:orientation="vertical" android:id="@id/title_layout" android:layout_width="@dimen/cube_dp_0" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/cube_dp_80" android:layout_marginRight="@dimen/cube_dp_80" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.xa.core.cube.TextView android:textSize="@dimen/map_data_sp_18" android:textColor="@color/cube_color_content_primary" android:ellipsize="end" android:gravity="center" android:id="@id/title_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minLines="1" android:singleLine="true" android:fontFamily="sans-serif-medium" />
+        <com.xa.core.cube.TextView android:ellipsize="end" android:gravity="center" android:id="@id/sub_title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cube_dp_4" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</merge>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:id="@id/content_root" android:background="@drawable/survey_shape_r16161616_white" android:layout_width="304.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/cube_color_content_primary" android:gravity="center" android:id="@id/dialog_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/cube_color_content_secondary" android:gravity="center" android:id="@id/dialog_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="24.0dip" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" />
+    <View android:background="@color/cube_color_container_fill_deep" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="16.0sp" android:textColor="@color/cube_xone_100" android:gravity="center" android:id="@id/dialog_ok" android:layout_width="fill_parent" android:layout_height="48.0dip" />
+        <View android:background="@color/cube_color_container_fill_deep" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/cube_color_state_red_primary" android:gravity="center" android:id="@id/dialog_no" android:layout_width="fill_parent" android:layout_height="48.0dip" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xa.core.cube.TextView android:textColor="@color/cube_color_content_secondary" android:gravity="center_vertical" android:background="@color/cube_color_container_bg_base" android:paddingBottom="@dimen/cube_dp_8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/cube_dp_32" style="@style/Cube.Font.Regular.Callout"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

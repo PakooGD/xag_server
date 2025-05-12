@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/cube_color_container_bg_base" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="@dimen/mc_item_height_44">
+        <ImageView android:id="@id/iv_back" android:padding="@dimen/mc_padding_12" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mc_icon_back" android:layout_alignParentLeft="true" />
+        <com.xa.core.cube.TextView android:textSize="@dimen/mc_text_size_18" android:textColor="@color/cube_color_content_primary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mc_message" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_have_data" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/mc_margin_12">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_data" android:background="@drawable/mc_bg_radius_white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/cube_dp_16" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_no_data" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_width="@dimen/cube_dp_80" android:layout_height="@dimen/cube_dp_80" android:src="@mipmap/mc_pattern_img_empty_notice" />
+        <com.xa.core.cube.TextView android:textSize="@dimen/mc_text_size_16" android:textColor="@color/cube_color_content_primary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mc_not_found" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/layout_content" android:background="@drawable/sobot_dialog_bg" android:paddingTop="@dimen/cube_dp_24" android:layout_width="304.0dip" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/cube_color_content_primary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sobot_save_success" style="@style/Cube.Font.Medium.Title1" />
+        <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/cube_color_content_secondary" android:id="@id/tv_content" android:paddingLeft="@dimen/cube_dp_24" android:paddingTop="@dimen/cube_dp_8" android:paddingRight="@dimen/cube_dp_24" android:paddingBottom="@dimen/cube_dp_8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cube_dp_12" android:text="@string/sobot_dialog_format_content_save_success" android:paddingHorizontal="@dimen/cube_dp_24" android:paddingVertical="@dimen/cube_dp_8" style="@style/Cube.Font.Regular.Body" />
+        <View android:layout_marginTop="@dimen/cube_dp_24" style="@style/Cube.Divider.Horizontal" />
+        <androidx.appcompat.widget.AppCompatTextView android:gravity="center" android:id="@id/tv_i_know" android:layout_width="fill_parent" android:layout_height="@dimen/cube_dp_48" android:text="@string/sobot_i_know" style="@style/Cube.Font.Regular.Body.ProjectPrimary" />
+    </LinearLayout>
+</LinearLayout>

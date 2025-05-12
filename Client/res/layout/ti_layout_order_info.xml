@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_order_base_info" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.tinet.oskit.widget.round.RoundedImageView android:id="@id/iv_shop_logo" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="8.0dip" android:src="@drawable/ti_ic_shop_icon_blue" app:tinet_corner_radius="10.0dip" />
+        <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/rl_order_base_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="#ff262626" android:ellipsize="end" android:id="@id/tv_shop_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerVertical="true" />
+            <TextView android:textSize="11.0sp" android:textColor="#ff4385ff" android:ellipsize="end" android:gravity="center" android:id="@id/tv_order_tag" android:background="@drawable/ti_shape_blue_radius_3px_border" android:layout_width="wrap_content" android:layout_height="16.0dip" android:maxWidth="108.0dip" android:minWidth="40.0dip" android:height="16.0dip" android:maxEms="10" android:singleLine="true" android:layout_toRightOf="@id/tv_shop_title" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="#ffea5c66" android:ellipsize="end" android:id="@id/tv_order_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="160.0dip" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+        <TextView android:textSize="12.0sp" android:id="@id/tv_order_time" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="12.0sp" android:textColor="#ff8c8c8c" android:gravity="right" android:id="@id/tv_order_number" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/TiOrderNumberStyle" />
+    </LinearLayout>
+</LinearLayout>

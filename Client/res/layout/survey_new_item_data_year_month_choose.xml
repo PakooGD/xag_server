@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@id/item_root" android:paddingBottom="@dimen/cube_dp_8" android:layout_width="fill_parent" android:layout_height="@dimen/cube_dp_50"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/item_check" android:layout_width="@dimen/cube_dp_24" android:layout_height="@dimen/cube_dp_24" android:src="@drawable/survey_new_selector_list_check" android:layout_marginStart="16.0dip" />
+    <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/time_name" android:layout_width="wrap_content" android:layout_height="@dimen/cube_dp_24" android:maxLines="1" android:layout_marginStart="@dimen/cube_dp_12" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" style="@style/Cube.Font.Medium.Body" />
+</LinearLayout>

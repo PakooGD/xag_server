@@ -1,0 +1,34 @@
+version: 2.11.1
+apkFileName: modified.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+  tag: null
+sdkInfo:
+  minSdkVersion: 24
+  targetSdkVersion: 33
+packageInfo:
+  forcedPackageId: 127
+  renameManifestPackage: null
+versionInfo:
+  versionCode: 1252
+  versionName: 6.3.28
+sharedLibrary: false
+sparseResources: false
+compactEntries: false
+doNotCompress:
+- arsc
+- gif
+- jpg
+- m4a
+- mp3
+- ogg
+- png
+- so
+- webp
+- assets/dexopt/baseline.prof
+- assets/dexopt/baseline.profm
+- res/raw/faceidmodel.bin
+- res/raw/meg_bankcard
+- res/raw/meg_idcard

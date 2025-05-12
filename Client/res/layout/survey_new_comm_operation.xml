@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/content_root" android:background="@drawable/ui_shape_container_bg_base_r8800" android:layout_width="fill_parent" android:layout_height="360.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/page_bar" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/survey_new_layout_page_top_bar" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/operation_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/cube_dp_16" android:layout_marginTop="@dimen/cube_dp_4" android:layout_marginRight="@dimen/cube_dp_16" android:layout_marginBottom="@dimen/cube_dp_16" android:layout_marginHorizontal="@dimen/cube_dp_16" />
+</LinearLayout>

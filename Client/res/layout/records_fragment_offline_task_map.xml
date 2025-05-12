@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/fl_map" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/llProgress" android:layout_width="fill_parent" android:layout_height="@dimen/cube_dp_50" android:layout_marginStart="@dimen/cube_dp_6" android:layout_marginEnd="@dimen/dp_4">
+        <ImageView android:id="@id/iv_play_stop" android:padding="6.0dip" android:layout_width="@dimen/cube_dp_30" android:layout_height="@dimen/cube_dp_30" android:src="@drawable/records_play_suspend_selector" />
+        <com.xa.core.cube.TextView android:textColor="@color/cube_color_container_bg_tint" android:gravity="center" android:id="@id/tv_current_fly_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" android:layout_marginStart="@dimen/cube_dp_18" style="@style/Cube.Font.Regular.Caption" />
+        <SeekBar android:id="@id/sb_value_picker_value" android:layout_width="@dimen/cube_dp_0" android:layout_height="wrap_content" android:maxHeight="@dimen/cube_dp_5" android:max="100" android:progress="50" android:progressDrawable="@drawable/records_trajectory_seekbar_shape" android:minHeight="@dimen/cube_dp_5" android:thumb="@drawable/records_trajectory_seekbar_thumb" android:layout_weight="1.0" android:min="0" />
+        <com.xa.core.cube.TextView android:textSize="10.0sp" android:textColor="@color/cube_color_container_bg_tint" android:gravity="center" android:id="@id/tv_total_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" style="@style/Cube.Font.Regular.Caption" />
+        <ImageView android:id="@id/ivMultiple" android:layout_width="@dimen/cube_dp_30" android:layout_height="@dimen/cube_dp_16" android:src="@mipmap/records_multiple_1_icon" android:layout_marginStart="@dimen/dp_4" />
+    </LinearLayout>
+</FrameLayout>

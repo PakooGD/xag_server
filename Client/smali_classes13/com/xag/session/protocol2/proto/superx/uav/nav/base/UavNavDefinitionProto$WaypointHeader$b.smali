@@ -1,0 +1,1568 @@
+.class public final Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+.super Lcom/google/protobuf/GeneratedMessageV3$Builder;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$b;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "b"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/google/protobuf/GeneratedMessageV3$Builder<",
+        "Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;",
+        ">;",
+        "Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$b;"
+    }
+.end annotation
+
+
+# instance fields
+.field public a:Lcom/google/protobuf/ByteString;
+
+.field public b:I
+
+.field public c:I
+
+.field public d:I
+
+.field public e:I
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    .line 3
+    invoke-direct {p0}, Lcom/google/protobuf/GeneratedMessageV3$Builder;-><init>()V
+
+    .line 4
+    sget-object v0, Lcom/google/protobuf/ByteString;->EMPTY:Lcom/google/protobuf/ByteString;
+
+    iput-object v0, p0, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->a:Lcom/google/protobuf/ByteString;
+
+    const/4 v0, 0x0
+
+    .line 5
+    iput v0, p0, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->e:I
+
+    .line 6
+    invoke-direct {p0}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->maybeForceBuilderInitialization()V
+
+    return-void
+.end method
+
+.method public constructor <init>(Lcom/google/protobuf/GeneratedMessageV3$BuilderParent;)V
+    .locals 0
+
+    .line 7
+    invoke-direct {p0, p1}, Lcom/google/protobuf/GeneratedMessageV3$Builder;-><init>(Lcom/google/protobuf/GeneratedMessageV3$BuilderParent;)V
+
+    .line 8
+    sget-object p1, Lcom/google/protobuf/ByteString;->EMPTY:Lcom/google/protobuf/ByteString;
+
+    iput-object p1, p0, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->a:Lcom/google/protobuf/ByteString;
+
+    const/4 p1, 0x0
+
+    .line 9
+    iput p1, p0, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->e:I
+
+    .line 10
+    invoke-direct {p0}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->maybeForceBuilderInitialization()V
+
+    return-void
+.end method
+
+.method public synthetic constructor <init>(Lcom/google/protobuf/GeneratedMessageV3$BuilderParent;Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$a;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0, p1}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;-><init>(Lcom/google/protobuf/GeneratedMessageV3$BuilderParent;)V
+
+    return-void
+.end method
+
+.method public synthetic constructor <init>(Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$a;)V
+    .locals 0
+
+    .line 2
+    invoke-direct {p0}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;-><init>()V
+
+    return-void
+.end method
+
+.method public static final getDescriptor()Lcom/google/protobuf/Descriptors$Descriptor;
+    .locals 1
+
+    .line 1
+    invoke-static {}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto;->a()Lcom/google/protobuf/Descriptors$Descriptor;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v0
+
+    .line 5
+    return-object v0
+.end method
+
+.method private maybeForceBuilderInitialization()V
+    .locals 0
+
+    .line 1
+    invoke-static {}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader;->access$400()Z
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+
+# virtual methods
+.method public A(Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointSegment;)Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+    .locals 0
+
+    .line 1
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 2
+    .line 3
+    .line 4
+    invoke-virtual {p1}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointSegment;->getNumber()I
+
+    .line 5
+    .line 6
+    .line 7
+    move-result p1
+
+    .line 8
+    iput p1, p0, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->e:I
+
+    .line 9
+    .line 10
+    invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageV3$Builder;->onChanged()V
+
+    .line 11
+    .line 12
+    .line 13
+    return-object p0
+.end method
+
+.method public B(I)Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+    .locals 0
+
+    .line 1
+    iput p1, p0, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->e:I
+
+    .line 2
+    .line 3
+    invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageV3$Builder;->onChanged()V
+
+    .line 4
+    .line 5
+    .line 6
+    return-object p0
+.end method
+
+.method public a(Lcom/google/protobuf/Descriptors$FieldDescriptor;Ljava/lang/Object;)Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+    .locals 0
+
+    .line 1
+    invoke-super {p0, p1, p2}, Lcom/google/protobuf/GeneratedMessageV3$Builder;->addRepeatedField(Lcom/google/protobuf/Descriptors$FieldDescriptor;Ljava/lang/Object;)Lcom/google/protobuf/GeneratedMessageV3$Builder;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p1
+
+    .line 5
+    check-cast p1, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+
+    .line 6
+    .line 7
+    return-object p1
+.end method
+
+.method public bridge synthetic addRepeatedField(Lcom/google/protobuf/Descriptors$FieldDescriptor;Ljava/lang/Object;)Lcom/google/protobuf/GeneratedMessageV3$Builder;
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0, p1, p2}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->a(Lcom/google/protobuf/Descriptors$FieldDescriptor;Ljava/lang/Object;)Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public bridge synthetic addRepeatedField(Lcom/google/protobuf/Descriptors$FieldDescriptor;Ljava/lang/Object;)Lcom/google/protobuf/Message$Builder;
+    .locals 0
+
+    .line 2
+    invoke-virtual {p0, p1, p2}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->a(Lcom/google/protobuf/Descriptors$FieldDescriptor;Ljava/lang/Object;)Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public b()Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader;
+    .locals 2
+
+    .line 1
+    invoke-virtual {p0}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->c()Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v0
+
+    .line 5
+    invoke-virtual {v0}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader;->isInitialized()Z
+
+    .line 6
+    .line 7
+    .line 8
+    move-result v1
+
+    .line 9
+    if-eqz v1, :cond_0
+
+    .line 10
+    .line 11
+    return-object v0
+
+    .line 12
+    :cond_0
+    invoke-static {v0}, Lcom/google/protobuf/AbstractMessage$Builder;->newUninitializedMessageException(Lcom/google/protobuf/Message;)Lcom/google/protobuf/UninitializedMessageException;
+
+    .line 13
+    .line 14
+    .line 15
+    move-result-object v0
+
+    .line 16
+    throw v0
+.end method
+
+.method public bridge synthetic build()Lcom/google/protobuf/Message;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->b()Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public bridge synthetic build()Lcom/google/protobuf/MessageLite;
+    .locals 1
+
+    .line 2
+    invoke-virtual {p0}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->b()Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public bridge synthetic buildPartial()Lcom/google/protobuf/Message;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->c()Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public bridge synthetic buildPartial()Lcom/google/protobuf/MessageLite;
+    .locals 1
+
+    .line 2
+    invoke-virtual {p0}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->c()Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public c()Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader;
+    .locals 2
+
+    .line 1
+    new-instance v0, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader;
+
+    .line 2
+    .line 3
+    const/4 v1, 0x0
+
+    .line 4
+    invoke-direct {v0, p0, v1}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader;-><init>(Lcom/google/protobuf/GeneratedMessageV3$Builder;Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$a;)V
+
+    .line 5
+    .line 6
+    .line 7
+    iget-object v1, p0, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->a:Lcom/google/protobuf/ByteString;
+
+    .line 8
+    .line 9
+    invoke-static {v0, v1}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader;->access$602(Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader;Lcom/google/protobuf/ByteString;)Lcom/google/protobuf/ByteString;
+
+    .line 10
+    .line 11
+    .line 12
+    iget v1, p0, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->b:I
+
+    .line 13
+    .line 14
+    invoke-static {v0, v1}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader;->access$702(Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader;I)I
+
+    .line 15
+    .line 16
+    .line 17
+    iget v1, p0, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->c:I
+
+    .line 18
+    .line 19
+    invoke-static {v0, v1}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader;->access$802(Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader;I)I
+
+    .line 20
+    .line 21
+    .line 22
+    iget v1, p0, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->d:I
+
+    .line 23
+    .line 24
+    invoke-static {v0, v1}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader;->access$902(Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader;I)I
+
+    .line 25
+    .line 26
+    .line 27
+    iget v1, p0, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->e:I
+
+    .line 28
+    .line 29
+    invoke-static {v0, v1}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader;->access$1002(Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader;I)I
+
+    .line 30
+    .line 31
+    .line 32
+    invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageV3$Builder;->onBuilt()V
+
+    .line 33
+    .line 34
+    .line 35
+    return-object v0
+.end method
+
+.method public bridge synthetic clear()Lcom/google/protobuf/AbstractMessage$Builder;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->d()Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public bridge synthetic clear()Lcom/google/protobuf/GeneratedMessageV3$Builder;
+    .locals 1
+
+    .line 2
+    invoke-virtual {p0}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->d()Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public bridge synthetic clear()Lcom/google/protobuf/Message$Builder;
+    .locals 1
+
+    .line 3
+    invoke-virtual {p0}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->d()Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public bridge synthetic clear()Lcom/google/protobuf/MessageLite$Builder;
+    .locals 1
+
+    .line 4
+    invoke-virtual {p0}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->d()Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public bridge synthetic clearField(Lcom/google/protobuf/Descriptors$FieldDescriptor;)Lcom/google/protobuf/GeneratedMessageV3$Builder;
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0, p1}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->e(Lcom/google/protobuf/Descriptors$FieldDescriptor;)Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public bridge synthetic clearField(Lcom/google/protobuf/Descriptors$FieldDescriptor;)Lcom/google/protobuf/Message$Builder;
+    .locals 0
+
+    .line 2
+    invoke-virtual {p0, p1}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->e(Lcom/google/protobuf/Descriptors$FieldDescriptor;)Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public bridge synthetic clearOneof(Lcom/google/protobuf/Descriptors$OneofDescriptor;)Lcom/google/protobuf/AbstractMessage$Builder;
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0, p1}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->k(Lcom/google/protobuf/Descriptors$OneofDescriptor;)Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public bridge synthetic clearOneof(Lcom/google/protobuf/Descriptors$OneofDescriptor;)Lcom/google/protobuf/GeneratedMessageV3$Builder;
+    .locals 0
+
+    .line 2
+    invoke-virtual {p0, p1}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->k(Lcom/google/protobuf/Descriptors$OneofDescriptor;)Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public bridge synthetic clearOneof(Lcom/google/protobuf/Descriptors$OneofDescriptor;)Lcom/google/protobuf/Message$Builder;
+    .locals 0
+
+    .line 3
+    invoke-virtual {p0, p1}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->k(Lcom/google/protobuf/Descriptors$OneofDescriptor;)Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public bridge synthetic clone()Lcom/google/protobuf/AbstractMessage$Builder;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->m()Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public bridge synthetic clone()Lcom/google/protobuf/AbstractMessageLite$Builder;
+    .locals 1
+
+    .line 2
+    invoke-virtual {p0}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->m()Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public bridge synthetic clone()Lcom/google/protobuf/GeneratedMessageV3$Builder;
+    .locals 1
+
+    .line 3
+    invoke-virtual {p0}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->m()Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public bridge synthetic clone()Lcom/google/protobuf/Message$Builder;
+    .locals 1
+
+    .line 4
+    invoke-virtual {p0}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->m()Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public bridge synthetic clone()Lcom/google/protobuf/MessageLite$Builder;
+    .locals 1
+
+    .line 5
+    invoke-virtual {p0}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->m()Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public bridge synthetic clone()Ljava/lang/Object;
+    .locals 1
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/CloneNotSupportedException;
+        }
+    .end annotation
+
+    .line 6
+    invoke-virtual {p0}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->m()Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public d()Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+    .locals 1
+
+    .line 1
+    invoke-super {p0}, Lcom/google/protobuf/GeneratedMessageV3$Builder;->clear()Lcom/google/protobuf/GeneratedMessageV3$Builder;
+
+    .line 2
+    .line 3
+    .line 4
+    sget-object v0, Lcom/google/protobuf/ByteString;->EMPTY:Lcom/google/protobuf/ByteString;
+
+    .line 5
+    .line 6
+    iput-object v0, p0, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->a:Lcom/google/protobuf/ByteString;
+
+    .line 7
+    .line 8
+    const/4 v0, 0x0
+
+    .line 9
+    iput v0, p0, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->b:I
+
+    .line 10
+    .line 11
+    iput v0, p0, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->c:I
+
+    .line 12
+    .line 13
+    iput v0, p0, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->d:I
+
+    .line 14
+    .line 15
+    iput v0, p0, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->e:I
+
+    .line 16
+    .line 17
+    return-object p0
+.end method
+
+.method public e(Lcom/google/protobuf/Descriptors$FieldDescriptor;)Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+    .locals 0
+
+    .line 1
+    invoke-super {p0, p1}, Lcom/google/protobuf/GeneratedMessageV3$Builder;->clearField(Lcom/google/protobuf/Descriptors$FieldDescriptor;)Lcom/google/protobuf/GeneratedMessageV3$Builder;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p1
+
+    .line 5
+    check-cast p1, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+
+    .line 6
+    .line 7
+    return-object p1
+.end method
+
+.method public f()Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+    .locals 1
+
+    .line 1
+    invoke-static {}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader;->getDefaultInstance()Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v0
+
+    .line 5
+    invoke-virtual {v0}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader;->getMissionId()Lcom/google/protobuf/ByteString;
+
+    .line 6
+    .line 7
+    .line 8
+    move-result-object v0
+
+    .line 9
+    iput-object v0, p0, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->a:Lcom/google/protobuf/ByteString;
+
+    .line 10
+    .line 11
+    invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageV3$Builder;->onChanged()V
+
+    .line 12
+    .line 13
+    .line 14
+    return-object p0
+.end method
+
+.method public bridge synthetic getDefaultInstanceForType()Lcom/google/protobuf/Message;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->o()Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public bridge synthetic getDefaultInstanceForType()Lcom/google/protobuf/MessageLite;
+    .locals 1
+
+    .line 2
+    invoke-virtual {p0}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->o()Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public getDescriptorForType()Lcom/google/protobuf/Descriptors$Descriptor;
+    .locals 1
+
+    .line 1
+    invoke-static {}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto;->a()Lcom/google/protobuf/Descriptors$Descriptor;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v0
+
+    .line 5
+    return-object v0
+.end method
+
+.method public getMissionId()Lcom/google/protobuf/ByteString;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->a:Lcom/google/protobuf/ByteString;
+
+    .line 2
+    .line 3
+    return-object v0
+.end method
+
+.method public getMissionSeq()I
+    .locals 1
+
+    .line 1
+    iget v0, p0, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->b:I
+
+    .line 2
+    .line 3
+    return v0
+.end method
+
+.method public getMissionSource()I
+    .locals 1
+
+    .line 1
+    iget v0, p0, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->d:I
+
+    .line 2
+    .line 3
+    return v0
+.end method
+
+.method public getMissionType()I
+    .locals 1
+
+    .line 1
+    iget v0, p0, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->c:I
+
+    .line 2
+    .line 3
+    return v0
+.end method
+
+.method public getWaypointSegment()Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointSegment;
+    .locals 1
+
+    .line 1
+    iget v0, p0, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->e:I
+
+    .line 2
+    .line 3
+    invoke-static {v0}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointSegment;->valueOf(I)Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointSegment;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object v0
+
+    .line 7
+    if-nez v0, :cond_0
+
+    .line 8
+    .line 9
+    sget-object v0, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointSegment;->UNRECOGNIZED:Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointSegment;
+
+    .line 10
+    .line 11
+    :cond_0
+    return-object v0
+.end method
+
+.method public getWaypointSegmentValue()I
+    .locals 1
+
+    .line 1
+    iget v0, p0, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->e:I
+
+    .line 2
+    .line 3
+    return v0
+.end method
+
+.method public h()Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+    .locals 1
+
+    .line 1
+    const/4 v0, 0x0
+
+    .line 2
+    iput v0, p0, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->b:I
+
+    .line 3
+    .line 4
+    invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageV3$Builder;->onChanged()V
+
+    .line 5
+    .line 6
+    .line 7
+    return-object p0
+.end method
+
+.method public i()Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+    .locals 1
+
+    .line 1
+    const/4 v0, 0x0
+
+    .line 2
+    iput v0, p0, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->d:I
+
+    .line 3
+    .line 4
+    invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageV3$Builder;->onChanged()V
+
+    .line 5
+    .line 6
+    .line 7
+    return-object p0
+.end method
+
+.method public internalGetFieldAccessorTable()Lcom/google/protobuf/GeneratedMessageV3$FieldAccessorTable;
+    .locals 3
+
+    .line 1
+    invoke-static {}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto;->b()Lcom/google/protobuf/GeneratedMessageV3$FieldAccessorTable;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v0
+
+    .line 5
+    const-class v1, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader;
+
+    .line 6
+    .line 7
+    const-class v2, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+
+    .line 8
+    .line 9
+    invoke-virtual {v0, v1, v2}, Lcom/google/protobuf/GeneratedMessageV3$FieldAccessorTable;->ensureFieldAccessorsInitialized(Ljava/lang/Class;Ljava/lang/Class;)Lcom/google/protobuf/GeneratedMessageV3$FieldAccessorTable;
+
+    .line 10
+    .line 11
+    .line 12
+    move-result-object v0
+
+    .line 13
+    return-object v0
+.end method
+
+.method public final isInitialized()Z
+    .locals 1
+
+    const/4 v0, 0x1
+
+    return v0
+.end method
+
+.method public j()Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+    .locals 1
+
+    .line 1
+    const/4 v0, 0x0
+
+    .line 2
+    iput v0, p0, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->c:I
+
+    .line 3
+    .line 4
+    invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageV3$Builder;->onChanged()V
+
+    .line 5
+    .line 6
+    .line 7
+    return-object p0
+.end method
+
+.method public k(Lcom/google/protobuf/Descriptors$OneofDescriptor;)Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+    .locals 0
+
+    .line 1
+    invoke-super {p0, p1}, Lcom/google/protobuf/GeneratedMessageV3$Builder;->clearOneof(Lcom/google/protobuf/Descriptors$OneofDescriptor;)Lcom/google/protobuf/GeneratedMessageV3$Builder;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p1
+
+    .line 5
+    check-cast p1, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+
+    .line 6
+    .line 7
+    return-object p1
+.end method
+
+.method public l()Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+    .locals 1
+
+    .line 1
+    const/4 v0, 0x0
+
+    .line 2
+    iput v0, p0, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->e:I
+
+    .line 3
+    .line 4
+    invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageV3$Builder;->onChanged()V
+
+    .line 5
+    .line 6
+    .line 7
+    return-object p0
+.end method
+
+.method public m()Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+    .locals 1
+
+    .line 1
+    invoke-super {p0}, Lcom/google/protobuf/GeneratedMessageV3$Builder;->clone()Lcom/google/protobuf/GeneratedMessageV3$Builder;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v0
+
+    .line 5
+    check-cast v0, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+
+    .line 6
+    .line 7
+    return-object v0
+.end method
+
+.method public bridge synthetic mergeFrom(Lcom/google/protobuf/CodedInputStream;Lcom/google/protobuf/ExtensionRegistryLite;)Lcom/google/protobuf/AbstractMessage$Builder;
+    .locals 0
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    .line 1
+    invoke-virtual {p0, p1, p2}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->p(Lcom/google/protobuf/CodedInputStream;Lcom/google/protobuf/ExtensionRegistryLite;)Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public bridge synthetic mergeFrom(Lcom/google/protobuf/Message;)Lcom/google/protobuf/AbstractMessage$Builder;
+    .locals 0
+
+    .line 2
+    invoke-virtual {p0, p1}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->q(Lcom/google/protobuf/Message;)Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public bridge synthetic mergeFrom(Lcom/google/protobuf/CodedInputStream;Lcom/google/protobuf/ExtensionRegistryLite;)Lcom/google/protobuf/AbstractMessageLite$Builder;
+    .locals 0
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    .line 3
+    invoke-virtual {p0, p1, p2}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->p(Lcom/google/protobuf/CodedInputStream;Lcom/google/protobuf/ExtensionRegistryLite;)Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public bridge synthetic mergeFrom(Lcom/google/protobuf/CodedInputStream;Lcom/google/protobuf/ExtensionRegistryLite;)Lcom/google/protobuf/Message$Builder;
+    .locals 0
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    .line 4
+    invoke-virtual {p0, p1, p2}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->p(Lcom/google/protobuf/CodedInputStream;Lcom/google/protobuf/ExtensionRegistryLite;)Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public bridge synthetic mergeFrom(Lcom/google/protobuf/Message;)Lcom/google/protobuf/Message$Builder;
+    .locals 0
+
+    .line 5
+    invoke-virtual {p0, p1}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->q(Lcom/google/protobuf/Message;)Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public bridge synthetic mergeFrom(Lcom/google/protobuf/CodedInputStream;Lcom/google/protobuf/ExtensionRegistryLite;)Lcom/google/protobuf/MessageLite$Builder;
+    .locals 0
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    .line 6
+    invoke-virtual {p0, p1, p2}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->p(Lcom/google/protobuf/CodedInputStream;Lcom/google/protobuf/ExtensionRegistryLite;)Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public bridge synthetic mergeUnknownFields(Lcom/google/protobuf/UnknownFieldSet;)Lcom/google/protobuf/AbstractMessage$Builder;
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0, p1}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->s(Lcom/google/protobuf/UnknownFieldSet;)Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public bridge synthetic mergeUnknownFields(Lcom/google/protobuf/UnknownFieldSet;)Lcom/google/protobuf/GeneratedMessageV3$Builder;
+    .locals 0
+
+    .line 2
+    invoke-virtual {p0, p1}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->s(Lcom/google/protobuf/UnknownFieldSet;)Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public bridge synthetic mergeUnknownFields(Lcom/google/protobuf/UnknownFieldSet;)Lcom/google/protobuf/Message$Builder;
+    .locals 0
+
+    .line 3
+    invoke-virtual {p0, p1}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->s(Lcom/google/protobuf/UnknownFieldSet;)Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public o()Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader;
+    .locals 1
+
+    .line 1
+    invoke-static {}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader;->getDefaultInstance()Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v0
+
+    .line 5
+    return-object v0
+.end method
+
+.method public p(Lcom/google/protobuf/CodedInputStream;Lcom/google/protobuf/ExtensionRegistryLite;)Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+    .locals 2
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    .line 1
+    const/4 v0, 0x0
+
+    .line 2
+    :try_start_0
+    invoke-static {}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader;->access$1200()Lcom/google/protobuf/Parser;
+
+    .line 3
+    .line 4
+    .line 5
+    move-result-object v1
+
+    .line 6
+    invoke-interface {v1, p1, p2}, Lcom/google/protobuf/Parser;->parsePartialFrom(Lcom/google/protobuf/CodedInputStream;Lcom/google/protobuf/ExtensionRegistryLite;)Ljava/lang/Object;
+
+    .line 7
+    .line 8
+    .line 9
+    move-result-object p1
+
+    .line 10
+    check-cast p1, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader;
+    :try_end_0
+    .catch Lcom/google/protobuf/InvalidProtocolBufferException; {:try_start_0 .. :try_end_0} :catch_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    .line 11
+    .line 12
+    if-eqz p1, :cond_0
+
+    .line 13
+    .line 14
+    invoke-virtual {p0, p1}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->r(Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader;)Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+
+    .line 15
+    .line 16
+    .line 17
+    :cond_0
+    return-object p0
+
+    .line 18
+    :catchall_0
+    move-exception p1
+
+    .line 19
+    goto :goto_0
+
+    .line 20
+    :catch_0
+    move-exception p1
+
+    .line 21
+    :try_start_1
+    invoke-virtual {p1}, Lcom/google/protobuf/InvalidProtocolBufferException;->getUnfinishedMessage()Lcom/google/protobuf/MessageLite;
+
+    .line 22
+    .line 23
+    .line 24
+    move-result-object p2
+
+    .line 25
+    check-cast p2, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader;
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+
+    .line 26
+    .line 27
+    :try_start_2
+    invoke-virtual {p1}, Lcom/google/protobuf/InvalidProtocolBufferException;->unwrapIOException()Ljava/io/IOException;
+
+    .line 28
+    .line 29
+    .line 30
+    move-result-object p1
+
+    .line 31
+    throw p1
+    :try_end_2
+    .catchall {:try_start_2 .. :try_end_2} :catchall_1
+
+    .line 32
+    :catchall_1
+    move-exception p1
+
+    .line 33
+    move-object v0, p2
+
+    .line 34
+    :goto_0
+    if-eqz v0, :cond_1
+
+    .line 35
+    .line 36
+    invoke-virtual {p0, v0}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->r(Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader;)Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+
+    .line 37
+    .line 38
+    .line 39
+    :cond_1
+    throw p1
+.end method
+
+.method public q(Lcom/google/protobuf/Message;)Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+    .locals 1
+
+    .line 1
+    instance-of v0, p1, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader;
+
+    .line 2
+    .line 3
+    if-eqz v0, :cond_0
+
+    .line 4
+    .line 5
+    check-cast p1, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader;
+
+    .line 6
+    .line 7
+    invoke-virtual {p0, p1}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->r(Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader;)Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+
+    .line 8
+    .line 9
+    .line 10
+    move-result-object p1
+
+    .line 11
+    return-object p1
+
+    .line 12
+    :cond_0
+    invoke-super {p0, p1}, Lcom/google/protobuf/AbstractMessage$Builder;->mergeFrom(Lcom/google/protobuf/Message;)Lcom/google/protobuf/AbstractMessage$Builder;
+
+    .line 13
+    .line 14
+    .line 15
+    return-object p0
+.end method
+
+.method public r(Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader;)Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+    .locals 2
+
+    .line 1
+    invoke-static {}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader;->getDefaultInstance()Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v0
+
+    .line 5
+    if-ne p1, v0, :cond_0
+
+    .line 6
+    .line 7
+    return-object p0
+
+    .line 8
+    :cond_0
+    invoke-virtual {p1}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader;->getMissionId()Lcom/google/protobuf/ByteString;
+
+    .line 9
+    .line 10
+    .line 11
+    move-result-object v0
+
+    .line 12
+    sget-object v1, Lcom/google/protobuf/ByteString;->EMPTY:Lcom/google/protobuf/ByteString;
+
+    .line 13
+    .line 14
+    if-eq v0, v1, :cond_1
+
+    .line 15
+    .line 16
+    invoke-virtual {p1}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader;->getMissionId()Lcom/google/protobuf/ByteString;
+
+    .line 17
+    .line 18
+    .line 19
+    move-result-object v0
+
+    .line 20
+    invoke-virtual {p0, v0}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->u(Lcom/google/protobuf/ByteString;)Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+
+    .line 21
+    .line 22
+    .line 23
+    :cond_1
+    invoke-virtual {p1}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader;->getMissionSeq()I
+
+    .line 24
+    .line 25
+    .line 26
+    move-result v0
+
+    .line 27
+    if-eqz v0, :cond_2
+
+    .line 28
+    .line 29
+    invoke-virtual {p1}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader;->getMissionSeq()I
+
+    .line 30
+    .line 31
+    .line 32
+    move-result v0
+
+    .line 33
+    invoke-virtual {p0, v0}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->v(I)Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+
+    .line 34
+    .line 35
+    .line 36
+    :cond_2
+    invoke-virtual {p1}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader;->getMissionType()I
+
+    .line 37
+    .line 38
+    .line 39
+    move-result v0
+
+    .line 40
+    if-eqz v0, :cond_3
+
+    .line 41
+    .line 42
+    invoke-virtual {p1}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader;->getMissionType()I
+
+    .line 43
+    .line 44
+    .line 45
+    move-result v0
+
+    .line 46
+    invoke-virtual {p0, v0}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->x(I)Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+
+    .line 47
+    .line 48
+    .line 49
+    :cond_3
+    invoke-virtual {p1}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader;->getMissionSource()I
+
+    .line 50
+    .line 51
+    .line 52
+    move-result v0
+
+    .line 53
+    if-eqz v0, :cond_4
+
+    .line 54
+    .line 55
+    invoke-virtual {p1}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader;->getMissionSource()I
+
+    .line 56
+    .line 57
+    .line 58
+    move-result v0
+
+    .line 59
+    invoke-virtual {p0, v0}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->w(I)Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+
+    .line 60
+    .line 61
+    .line 62
+    :cond_4
+    invoke-static {p1}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader;->access$1000(Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader;)I
+
+    .line 63
+    .line 64
+    .line 65
+    move-result v0
+
+    .line 66
+    if-eqz v0, :cond_5
+
+    .line 67
+    .line 68
+    invoke-virtual {p1}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader;->getWaypointSegmentValue()I
+
+    .line 69
+    .line 70
+    .line 71
+    move-result v0
+
+    .line 72
+    invoke-virtual {p0, v0}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->B(I)Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+
+    .line 73
+    .line 74
+    .line 75
+    :cond_5
+    invoke-static {p1}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader;->access$1100(Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader;)Lcom/google/protobuf/UnknownFieldSet;
+
+    .line 76
+    .line 77
+    .line 78
+    move-result-object p1
+
+    .line 79
+    invoke-virtual {p0, p1}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->s(Lcom/google/protobuf/UnknownFieldSet;)Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+
+    .line 80
+    .line 81
+    .line 82
+    invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageV3$Builder;->onChanged()V
+
+    .line 83
+    .line 84
+    .line 85
+    return-object p0
+.end method
+
+.method public final s(Lcom/google/protobuf/UnknownFieldSet;)Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+    .locals 0
+
+    .line 1
+    invoke-super {p0, p1}, Lcom/google/protobuf/GeneratedMessageV3$Builder;->mergeUnknownFields(Lcom/google/protobuf/UnknownFieldSet;)Lcom/google/protobuf/GeneratedMessageV3$Builder;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p1
+
+    .line 5
+    check-cast p1, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+
+    .line 6
+    .line 7
+    return-object p1
+.end method
+
+.method public bridge synthetic setField(Lcom/google/protobuf/Descriptors$FieldDescriptor;Ljava/lang/Object;)Lcom/google/protobuf/GeneratedMessageV3$Builder;
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0, p1, p2}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->t(Lcom/google/protobuf/Descriptors$FieldDescriptor;Ljava/lang/Object;)Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public bridge synthetic setField(Lcom/google/protobuf/Descriptors$FieldDescriptor;Ljava/lang/Object;)Lcom/google/protobuf/Message$Builder;
+    .locals 0
+
+    .line 2
+    invoke-virtual {p0, p1, p2}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->t(Lcom/google/protobuf/Descriptors$FieldDescriptor;Ljava/lang/Object;)Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public bridge synthetic setRepeatedField(Lcom/google/protobuf/Descriptors$FieldDescriptor;ILjava/lang/Object;)Lcom/google/protobuf/GeneratedMessageV3$Builder;
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0, p1, p2, p3}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->y(Lcom/google/protobuf/Descriptors$FieldDescriptor;ILjava/lang/Object;)Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public bridge synthetic setRepeatedField(Lcom/google/protobuf/Descriptors$FieldDescriptor;ILjava/lang/Object;)Lcom/google/protobuf/Message$Builder;
+    .locals 0
+
+    .line 2
+    invoke-virtual {p0, p1, p2, p3}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->y(Lcom/google/protobuf/Descriptors$FieldDescriptor;ILjava/lang/Object;)Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public bridge synthetic setUnknownFields(Lcom/google/protobuf/UnknownFieldSet;)Lcom/google/protobuf/GeneratedMessageV3$Builder;
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0, p1}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->z(Lcom/google/protobuf/UnknownFieldSet;)Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public bridge synthetic setUnknownFields(Lcom/google/protobuf/UnknownFieldSet;)Lcom/google/protobuf/Message$Builder;
+    .locals 0
+
+    .line 2
+    invoke-virtual {p0, p1}, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->z(Lcom/google/protobuf/UnknownFieldSet;)Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public t(Lcom/google/protobuf/Descriptors$FieldDescriptor;Ljava/lang/Object;)Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+    .locals 0
+
+    .line 1
+    invoke-super {p0, p1, p2}, Lcom/google/protobuf/GeneratedMessageV3$Builder;->setField(Lcom/google/protobuf/Descriptors$FieldDescriptor;Ljava/lang/Object;)Lcom/google/protobuf/GeneratedMessageV3$Builder;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p1
+
+    .line 5
+    check-cast p1, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+
+    .line 6
+    .line 7
+    return-object p1
+.end method
+
+.method public u(Lcom/google/protobuf/ByteString;)Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+    .locals 0
+
+    .line 1
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->a:Lcom/google/protobuf/ByteString;
+
+    .line 5
+    .line 6
+    invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageV3$Builder;->onChanged()V
+
+    .line 7
+    .line 8
+    .line 9
+    return-object p0
+.end method
+
+.method public v(I)Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+    .locals 0
+
+    .line 1
+    iput p1, p0, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->b:I
+
+    .line 2
+    .line 3
+    invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageV3$Builder;->onChanged()V
+
+    .line 4
+    .line 5
+    .line 6
+    return-object p0
+.end method
+
+.method public w(I)Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+    .locals 0
+
+    .line 1
+    iput p1, p0, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->d:I
+
+    .line 2
+    .line 3
+    invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageV3$Builder;->onChanged()V
+
+    .line 4
+    .line 5
+    .line 6
+    return-object p0
+.end method
+
+.method public x(I)Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+    .locals 0
+
+    .line 1
+    iput p1, p0, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;->c:I
+
+    .line 2
+    .line 3
+    invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageV3$Builder;->onChanged()V
+
+    .line 4
+    .line 5
+    .line 6
+    return-object p0
+.end method
+
+.method public y(Lcom/google/protobuf/Descriptors$FieldDescriptor;ILjava/lang/Object;)Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+    .locals 0
+
+    .line 1
+    invoke-super {p0, p1, p2, p3}, Lcom/google/protobuf/GeneratedMessageV3$Builder;->setRepeatedField(Lcom/google/protobuf/Descriptors$FieldDescriptor;ILjava/lang/Object;)Lcom/google/protobuf/GeneratedMessageV3$Builder;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p1
+
+    .line 5
+    check-cast p1, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+
+    .line 6
+    .line 7
+    return-object p1
+.end method
+
+.method public final z(Lcom/google/protobuf/UnknownFieldSet;)Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+    .locals 0
+
+    .line 1
+    invoke-super {p0, p1}, Lcom/google/protobuf/GeneratedMessageV3$Builder;->setUnknownFields(Lcom/google/protobuf/UnknownFieldSet;)Lcom/google/protobuf/GeneratedMessageV3$Builder;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p1
+
+    .line 5
+    check-cast p1, Lcom/xag/session/protocol2/proto/superx/uav/nav/base/UavNavDefinitionProto$WaypointHeader$b;
+
+    .line 6
+    .line 7
+    return-object p1
+.end method

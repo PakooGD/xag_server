@@ -1,0 +1,6 @@
+{
+  "id": "streets",
+  "name": "Streets",
+  "glyphs": "asset://glyphs/{fontstack}/{range}.pbf",
+  "version": 8
+}

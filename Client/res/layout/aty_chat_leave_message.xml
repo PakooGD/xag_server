@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/coordinator_layout" android:background="@color/cube_color_container_bg_base" android:paddingTop="@dimen/cube_dp_40" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/ti_rl_toolbar" android:layout_width="fill_parent" android:layout_height="@dimen/cube_dp_44">
+        <RelativeLayout android:gravity="start" android:id="@id/toolbar_back" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageView android:paddingTop="@dimen/cube_dp_2" android:paddingBottom="@dimen/cube_dp_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/cube_ic_gen_chevron_left" android:layout_centerVertical="true" android:paddingStart="@dimen/cube_dp_8" android:paddingEnd="@dimen/cube_dp_10" />
+        </RelativeLayout>
+        <TextView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ti_chat_leave_message_please" android:layout_centerInParent="true" style="@style/Cube.Font.Medium.Title1" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/tinetContent" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/top" app:layout_constraintTop_toTopOf="parent" layout="@layout/traffic_commom_top" />
+    <LinearLayout android:orientation="vertical" android:id="@id/buy_bottom_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent">
+        <com.xa.core.cube.TextView android:textSize="14.0sp" android:textColor="@color/cube_color_content_primary" android:gravity="center" android:id="@id/product_price_tv" android:layout_width="fill_parent" android:layout_height="@dimen/cube_dp_44" />
+        <FrameLayout android:id="@id/fl_buy" android:background="@drawable/traffic_traffic_buy_btn_bg" android:layout_width="fill_parent" android:layout_height="@dimen/cube_dp_48" android:layout_marginLeft="@dimen/cube_dp_32" android:layout_marginRight="@dimen/cube_dp_32" android:layout_marginBottom="@dimen/cube_dp_24" android:layout_marginHorizontal="@dimen/cube_dp_32" app:layout_constraintBottom_toBottomOf="parent">
+            <com.xa.core.cube.TextView android:textSize="16.0sp" android:textColor="@color/cube_color_on_primary" android:gravity="center" android:layout_gravity="center" android:background="@drawable/traffic_traffic_buy_btn_bg" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/traffic_buy_type_wx" android:drawableLeft="@drawable/traffic_ic_we_chat_pay" android:drawablePadding="@dimen/cube_dp_3" />
+        </FrameLayout>
+    </LinearLayout>
+    <com.scwang.smart.refresh.layout.SmartRefreshLayout android:id="@id/refresh_layout" android:layout_width="fill_parent" android:layout_height="@dimen/cube_dp_0" app:layout_constraintBottom_toTopOf="@id/buy_bottom_layout" app:layout_constraintTop_toBottomOf="@id/top" app:srlEnableAutoLoadMore="false" app:srlEnableLoadMore="false">
+        <com.xag.agri.v4.traffic.widget.MyClassicHeader android:orientation="vertical" android:id="@id/srl_header" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:id="@id/ll_child" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_secondary" android:gravity="center_vertical" android:id="@id/remain_traffic_value" android:layout_width="fill_parent" android:layout_height="@dimen/cube_dp_44" android:layout_marginStart="@dimen/cube_dp_32" android:layout_marginEnd="@dimen/cube_dp_12" style="@style/Cube.Font.Regular.Callout" />
+                <com.xa.core.cube.TextView android:textSize="18.0sp" android:textColor="@color/cube_color_content_primary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cube_dp_12" android:text="@string/traffic_buy_choose_title" android:layout_marginStart="@dimen/cube_dp_32" style="@style/Cube.Font.Medium.Body" />
+                <LinearLayout android:orientation="vertical" android:id="@id/ll_data" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_product" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/cube_dp_16" android:layout_marginTop="@dimen/cube_dp_12" android:layout_marginRight="@dimen/cube_dp_16" android:layout_marginBottom="@dimen/cube_dp_12" android:overScrollMode="never" android:layout_marginHorizontal="@dimen/cube_dp_16" android:layout_marginVertical="@dimen/cube_dp_12" />
+                    <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_secondary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cube_dp_24" android:layout_marginRight="@dimen/cube_dp_24" android:text="@string/traffic_buy_desc" android:lineSpacingExtra="@dimen/cube_dp_2" android:layout_marginHorizontal="@dimen/cube_dp_24" style="@style/Cube.Font.Regular.Footnote" />
+                </LinearLayout>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </androidx.core.widget.NestedScrollView>
+    </com.scwang.smart.refresh.layout.SmartRefreshLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

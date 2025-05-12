@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xag.agri.v4.operation.device.update.view.LineTextView android:textColor="?cube_color_project_primary" android:gravity="center" android:background="@drawable/device_update_shape_panel_end" android:layout_width="fill_parent" android:layout_height="@dimen/dev_update_fm_detail_item_hei" app:line_color="@android:color/transparent" app:line_padding_type="none" app:line_type="top" style="@style/Cube.Font.Regular.Body"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

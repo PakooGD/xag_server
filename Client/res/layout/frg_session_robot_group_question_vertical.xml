@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="14.0sp" android:textColor="@color/ti_black" android:id="@id/tvText" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="14.0dip" android:lineSpacingExtra="2.0dip" android:paddingVertical="5.0dip" />
+    <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/ti_guess_text_color" android:id="@id/tvGuess" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ti_guess" />
+    <com.tinet.oskit.widget.TiCustomExpandableListView android:id="@id/expandableLV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:listSelector="@android:color/transparent" android:groupIndicator="@null" android:divider="@null" />
+</LinearLayout>

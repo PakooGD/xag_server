@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/content_root" android:background="@color/cube_color_container_bg_base" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="44.0dip">
+        <ImageView android:id="@id/topBar_back" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:src="@drawable/survey_icon_back" android:scaleType="centerInside" android:paddingEnd="16.0dip" android:layout_marginHorizontal="16.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textColor="@color/cube_color_content_primary" android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/survey_str_share_record" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/XagTheme.Typography.MediumTittle3" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <include android:id="@id/empty_panel" android:visibility="gone" layout="@layout/survey_new_home_layout_empty_data" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/fl_record" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="16.0dip" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+</LinearLayout>

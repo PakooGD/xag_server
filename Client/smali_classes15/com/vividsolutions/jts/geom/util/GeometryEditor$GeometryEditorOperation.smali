@@ -1,0 +1,19 @@
+.class public interface abstract Lcom/vividsolutions/jts/geom/util/GeometryEditor$GeometryEditorOperation;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/vividsolutions/jts/geom/util/GeometryEditor;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "GeometryEditorOperation"
+.end annotation
+
+
+# virtual methods
+.method public abstract edit(Lcom/vividsolutions/jts/geom/Geometry;Lcom/vividsolutions/jts/geom/GeometryFactory;)Lcom/vividsolutions/jts/geom/Geometry;
+.end method

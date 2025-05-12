@@ -1,0 +1,285 @@
+.class public final Lcom/xag/agri/v4/land/business/data/model/SurveyLand$Base;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/io/Serializable;
+
+
+# annotations
+.annotation build Landroidx/compose/runtime/internal/StabilityInferred;
+    parameters = 0x0
+.end annotation
+
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/xag/agri/v4/land/business/data/model/SurveyLand;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "Base"
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000$\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u0008\n\u0002\u0008\u0005\n\u0002\u0010\u0006\n\u0002\u0008\u0008\n\u0002\u0010\t\n\u0002\u0008\u000e\u0008\u0007\u0018\u00002\u00020\u0001B\u0005\u00a2\u0006\u0002\u0010\u0002R\u001a\u0010\u0003\u001a\u00020\u0004X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0005\u0010\u0006\"\u0004\u0008\u0007\u0010\u0008R\u001a\u0010\t\u001a\u00020\nX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u000b\u0010\u000c\"\u0004\u0008\r\u0010\u000eR\u001a\u0010\u000f\u001a\u00020\u0004X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0010\u0010\u0006\"\u0004\u0008\u0011\u0010\u0008R\u001a\u0010\u0012\u001a\u00020\u0013X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0014\u0010\u0015\"\u0004\u0008\u0016\u0010\u0017R\u001a\u0010\u0018\u001a\u00020\u0013X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0019\u0010\u0015\"\u0004\u0008\u001a\u0010\u0017R\u001a\u0010\u001b\u001a\u00020\nX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u001c\u0010\u000c\"\u0004\u0008\u001d\u0010\u000eR\u001a\u0010\u001e\u001a\u00020\nX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u001f\u0010\u000c\"\u0004\u0008 \u0010\u000e\u00a8\u0006!"
+    }
+    d2 = {
+        "Lcom/xag/agri/v4/land/business/data/model/SurveyLand$Base;",
+        "Ljava/io/Serializable;",
+        "()V",
+        "accuracy",
+        "",
+        "getAccuracy",
+        "()I",
+        "setAccuracy",
+        "(I)V",
+        "alt",
+        "",
+        "getAlt",
+        "()D",
+        "setAlt",
+        "(D)V",
+        "baseType",
+        "getBaseType",
+        "setBaseType",
+        "base_id",
+        "",
+        "getBase_id",
+        "()J",
+        "setBase_id",
+        "(J)V",
+        "bs_id",
+        "getBs_id",
+        "setBs_id",
+        "lat",
+        "getLat",
+        "setLat",
+        "lng",
+        "getLng",
+        "setLng",
+        "survey_release"
+    }
+    k = 0x1
+    mv = {
+        0x1,
+        0x9,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# static fields
+.field public static final $stable:I = 0x8
+
+
+# instance fields
+.field private accuracy:I
+
+.field private alt:D
+
+.field private baseType:I
+
+.field private base_id:J
+
+.field private bs_id:J
+
+.field private lat:D
+
+.field private lng:D
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 0
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 3
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    const-wide/16 v0, -0x1
+
+    .line 5
+    .line 6
+    iput-wide v0, p0, Lcom/xag/agri/v4/land/business/data/model/SurveyLand$Base;->base_id:J
+
+    .line 7
+    .line 8
+    const/4 v2, -0x1
+
+    .line 9
+    iput v2, p0, Lcom/xag/agri/v4/land/business/data/model/SurveyLand$Base;->accuracy:I
+
+    .line 10
+    .line 11
+    iput-wide v0, p0, Lcom/xag/agri/v4/land/business/data/model/SurveyLand$Base;->bs_id:J
+
+    .line 12
+    .line 13
+    return-void
+.end method
+
+
+# virtual methods
+.method public final getAccuracy()I
+    .locals 1
+
+    .line 1
+    iget v0, p0, Lcom/xag/agri/v4/land/business/data/model/SurveyLand$Base;->accuracy:I
+
+    .line 2
+    .line 3
+    return v0
+.end method
+
+.method public final getAlt()D
+    .locals 2
+
+    .line 1
+    iget-wide v0, p0, Lcom/xag/agri/v4/land/business/data/model/SurveyLand$Base;->alt:D
+
+    .line 2
+    .line 3
+    return-wide v0
+.end method
+
+.method public final getBaseType()I
+    .locals 1
+
+    .line 1
+    iget v0, p0, Lcom/xag/agri/v4/land/business/data/model/SurveyLand$Base;->baseType:I
+
+    .line 2
+    .line 3
+    return v0
+.end method
+
+.method public final getBase_id()J
+    .locals 2
+
+    .line 1
+    iget-wide v0, p0, Lcom/xag/agri/v4/land/business/data/model/SurveyLand$Base;->base_id:J
+
+    .line 2
+    .line 3
+    return-wide v0
+.end method
+
+.method public final getBs_id()J
+    .locals 2
+
+    .line 1
+    iget-wide v0, p0, Lcom/xag/agri/v4/land/business/data/model/SurveyLand$Base;->bs_id:J
+
+    .line 2
+    .line 3
+    return-wide v0
+.end method
+
+.method public final getLat()D
+    .locals 2
+
+    .line 1
+    iget-wide v0, p0, Lcom/xag/agri/v4/land/business/data/model/SurveyLand$Base;->lat:D
+
+    .line 2
+    .line 3
+    return-wide v0
+.end method
+
+.method public final getLng()D
+    .locals 2
+
+    .line 1
+    iget-wide v0, p0, Lcom/xag/agri/v4/land/business/data/model/SurveyLand$Base;->lng:D
+
+    .line 2
+    .line 3
+    return-wide v0
+.end method
+
+.method public final setAccuracy(I)V
+    .locals 0
+
+    .line 1
+    iput p1, p0, Lcom/xag/agri/v4/land/business/data/model/SurveyLand$Base;->accuracy:I
+
+    .line 2
+    .line 3
+    return-void
+.end method
+
+.method public final setAlt(D)V
+    .locals 0
+
+    .line 1
+    iput-wide p1, p0, Lcom/xag/agri/v4/land/business/data/model/SurveyLand$Base;->alt:D
+
+    .line 2
+    .line 3
+    return-void
+.end method
+
+.method public final setBaseType(I)V
+    .locals 0
+
+    .line 1
+    iput p1, p0, Lcom/xag/agri/v4/land/business/data/model/SurveyLand$Base;->baseType:I
+
+    .line 2
+    .line 3
+    return-void
+.end method
+
+.method public final setBase_id(J)V
+    .locals 0
+
+    .line 1
+    iput-wide p1, p0, Lcom/xag/agri/v4/land/business/data/model/SurveyLand$Base;->base_id:J
+
+    .line 2
+    .line 3
+    return-void
+.end method
+
+.method public final setBs_id(J)V
+    .locals 0
+
+    .line 1
+    iput-wide p1, p0, Lcom/xag/agri/v4/land/business/data/model/SurveyLand$Base;->bs_id:J
+
+    .line 2
+    .line 3
+    return-void
+.end method
+
+.method public final setLat(D)V
+    .locals 0
+
+    .line 1
+    iput-wide p1, p0, Lcom/xag/agri/v4/land/business/data/model/SurveyLand$Base;->lat:D
+
+    .line 2
+    .line 3
+    return-void
+.end method
+
+.method public final setLng(D)V
+    .locals 0
+
+    .line 1
+    iput-wide p1, p0, Lcom/xag/agri/v4/land/business/data/model/SurveyLand$Base;->lng:D
+
+    .line 2
+    .line 3
+    return-void
+.end method

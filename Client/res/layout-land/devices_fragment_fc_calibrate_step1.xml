@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/devices_background" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.1666" />
+                <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.6668">
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/devices_margin_16">
+                        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:gravity="start|center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/devices_margin_4" android:layout_marginBottom="@dimen/devices_margin_8" android:text="@string/devices_fc_calibration_guide" style="@style/Cube.Font.Regular.Body" />
+                        <ImageView android:background="@drawable/devices_shape_white_c" android:layout_width="wrap_content" android:layout_height="280.0dip" android:src="@drawable/devices_fc_calibrate_tip" />
+                        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_secondary" android:gravity="center" android:id="@id/tv_fc_angle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cube_dp_16" android:layout_marginBottom="@dimen/devices_margin_16" android:text="@string/devices_fc_calibration_angle" android:layout_marginStart="@dimen/devices_margin_16" android:layout_marginEnd="@dimen/devices_margin_16" />
+                        <android.widget.Button android:textColor="@drawable/devices_selector_text_white" android:gravity="center" android:layout_gravity="center" android:id="@id/btn_fc_calibrate" android:background="@drawable/devices_selector_button_green" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/devices_fc_calibration_btn" android:layout_marginStart="@dimen/devices_margin_16" android:layout_marginEnd="@dimen/devices_margin_16" style="@style/Cube.Font.Regular.Body" />
+                    </LinearLayout>
+                </LinearLayout>
+                <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.1666" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+</LinearLayout>

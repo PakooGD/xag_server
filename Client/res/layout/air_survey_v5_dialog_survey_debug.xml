@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:background="@color/cube_color_container_bg_base" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.xag.agri.v4.operation.res.widget.DialogTitleWidget android:id="@id/dialog_title" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.xag.agri.v4.operation.res.widget.DetailLinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="12.0dip">
+            <com.xag.agri.v4.operation.res.widget.DetailItemLayout android:id="@id/item_fc_emulator" android:layout_width="fill_parent" android:layout_height="wrap_content" app:detail_has_arrow="true" app:detail_title="模拟器" />
+            <com.xag.agri.v4.operation.res.widget.DetailItemLayout android:id="@id/item_download_file" android:layout_width="fill_parent" android:layout_height="wrap_content" app:detail_has_arrow="true" app:detail_title="下载文件" />
+            <com.xag.agri.v4.operation.res.widget.DetailItemLayout android:id="@id/item_device_status" android:layout_width="fill_parent" android:layout_height="wrap_content" app:detail_has_arrow="true" app:detail_title="设备状态测试" />
+            <com.xag.agri.v4.operation.res.widget.DetailItemLayout android:id="@id/item_task_progress" android:layout_width="fill_parent" android:layout_height="wrap_content" app:detail_has_box="true" app:detail_title="作业进度显示" />
+            <com.xag.agri.v4.operation.res.widget.DetailItemLayout android:id="@id/item_switch_ms_weak_enable" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:detail_has_box="true" app:detail_title="是否强制弱网流程" />
+            <com.xag.agri.v4.operation.res.widget.DetailItemLayout android:id="@id/item_switch_debug_outside_path" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:detail_has_box="true" app:detail_title="是否显示外扩边界" />
+            <com.xag.agri.v4.operation.res.widget.DetailItemLayout android:id="@id/item_switch_ignore_vip" android:layout_width="fill_parent" android:layout_height="wrap_content" app:detail_has_box="true" app:detail_title="是否忽略VIP检查" />
+            <com.xag.agri.v4.operation.res.widget.DetailItemLayout android:id="@id/item_switch_ignore_battery" android:layout_width="fill_parent" android:layout_height="wrap_content" app:detail_has_box="true" app:detail_title="@string/air_survey_ignore_battery_check" />
+            <com.xag.agri.v4.operation.res.widget.DetailItemLayout android:id="@id/item_switch_trafficPool" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" app:detail_has_box="true" app:detail_title="忽略流量检查" />
+            <com.xag.agri.v4.operation.res.widget.DetailItemLayout android:id="@id/item_switch_flymap_check" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" app:detail_has_box="true" app:detail_title="忽略睿图检查" />
+            <com.xag.agri.v4.operation.res.widget.DetailItemLayout android:id="@id/item_switch_device_survey" android:layout_width="fill_parent" android:layout_height="wrap_content" app:detail_has_box="true" app:detail_title="模拟航测" />
+            <com.xag.agri.v4.operation.res.widget.DetailItemLayout android:id="@id/item_switch_ignore_rtk" android:layout_width="fill_parent" android:layout_height="wrap_content" app:detail_has_box="true" app:detail_title="忽略RTK检查" />
+            <com.xag.agri.v4.operation.res.widget.DetailItemLayout android:id="@id/item_switch_ignore_fw_update" android:layout_width="fill_parent" android:layout_height="wrap_content" app:detail_has_box="true" app:detail_title="忽略固件检查" />
+            <com.xag.agri.v4.operation.res.widget.DetailItemLayout android:id="@id/item_switch_no_flymap" android:layout_width="fill_parent" android:layout_height="wrap_content" app:detail_has_box="true" app:detail_title="@string/air_survey_fly_switch" />
+            <com.xag.agri.v4.operation.res.widget.DetailItemLayout android:id="@id/item_land_boundary_route" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:detail_has_box="true" app:detail_title="地块圈状航线" />
+            <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginHorizontal="16.0dip">
+                <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/black" android:id="@id/tv_land" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="最大切割面积: 100(亩)" />
+                <SeekBar android:id="@id/seekBar_crop_land" android:layout_width="fill_parent" android:layout_height="30.0dip" android:max="500" android:progress="100" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginHorizontal="16.0dip">
+                <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/black" android:id="@id/tv_speed" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/air_survey_speed" />
+                <SeekBar android:id="@id/seekBar_speed" android:layout_width="fill_parent" android:layout_height="30.0dip" android:max="138" android:progress="0" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginHorizontal="16.0dip">
+                <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/black" android:id="@id/tv_gsd" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/air_survey_gsd" />
+                <SeekBar android:id="@id/seekBar_gsd" android:layout_width="fill_parent" android:layout_height="30.0dip" android:max="80" android:progress="3" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginHorizontal="16.0dip">
+                <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/black" android:id="@id/tv_side_overlap" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/air_survey_side_overlap" />
+                <SeekBar android:id="@id/seekBar_side_overlap" android:layout_width="fill_parent" android:layout_height="30.0dip" android:max="100" android:progress="70" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginHorizontal="16.0dip">
+                <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/black" android:id="@id/tv_frontal_overlap" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/air_survey_heading_overlap" />
+                <SeekBar android:id="@id/seekBar_frontal_overlap" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginBottom="12.0dip" android:max="100" android:progress="70" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <com.xa.core.cube.MaterialButton android:id="@id/test_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="弹窗测试" />
+        </com.xag.agri.v4.operation.res.widget.DetailLinearLayout>
+    </ScrollView>
+</androidx.appcompat.widget.LinearLayoutCompat>

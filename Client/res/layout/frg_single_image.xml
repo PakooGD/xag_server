@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.github.chrisbanes.photoview.PhotoView android:layout_gravity="center" android:id="@id/pvImage" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" android:adjustViewBounds="true" android:layout_centerInParent="true" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/ti_red" android:id="@id/tvTime" android:background="@color/ti_image_color_yellow" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <ProgressBar android:id="@id/pbLoadIng" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_margin="5.0dip" android:layout_centerInParent="true" style="?android:progressBarStyleSmall" />
+    <ImageView android:id="@id/ivClose" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="20.0dip" android:layout_marginBottom="20.0dip" android:src="@mipmap/ti_close_icon" android:layout_alignParentBottom="true" />
+</RelativeLayout>

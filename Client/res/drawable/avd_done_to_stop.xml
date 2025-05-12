@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector android:drawable="@drawable/ic_baseline_done"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <target android:name="pathGroup" android:animation="@drawable/$avd_done_to_stop__0" />
+    <target android:name="path" android:animation="@drawable/$avd_done_to_stop__1" />
+</animated-vector>

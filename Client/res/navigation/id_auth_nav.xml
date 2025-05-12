@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/id_auth_nav" app:startDestination="@id/fragmentIdentityAuthDesc"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="FragmentIdentityAuthDesc" android:name="com.xag.faceverify.ui.FragmentIdentityAuthDesc" android:id="@id/fragmentIdentityAuthDesc">
+        <action android:id="@id/action_fragmentIdentityAuthDesc_to_fragmentInputIDCard" app:destination="@id/fragmentInputIDCard" />
+        <action android:id="@id/action_fragmentIdentityAuthDesc_to_fragmentWaitingReview" app:destination="@id/fragmentWaitingReview" />
+    </fragment>
+    <fragment android:label="FragmentInputIDCard" android:name="com.xag.faceverify.ui.FragmentInputIDCard" android:id="@id/fragmentInputIDCard">
+        <action android:id="@id/action_fragmentInputIDCard_to_fragmentIdentityAuthSucceed" app:destination="@id/fragmentIdentityAuthSucceed" />
+        <action android:id="@id/action_fragmentInputIDCard_to_fragmentUploadPhoto" app:destination="@id/fragmentUploadPhoto" />
+    </fragment>
+    <fragment android:label="FragmentIdentityAuthSucceed" android:name="com.xag.faceverify.ui.FragmentIdentityAuthSucceed" android:id="@id/fragmentIdentityAuthSucceed" />
+    <fragment android:label="FragmentWaitingReview" android:name="com.xag.faceverify.ui.FragmentWaitingReview" android:id="@id/fragmentWaitingReview">
+        <action android:id="@id/action_fragmentWaitingReview_to_fragmentInputIDCard" app:destination="@id/fragmentInputIDCard" />
+        <action android:id="@id/action_fragmentWaitingReview_to_fragmentUploadPhoto" app:destination="@id/fragmentUploadPhoto" />
+    </fragment>
+    <fragment android:label="FragmentUploadPhoto" android:name="com.xag.faceverify.ui.FragmentUploadPhoto" android:id="@id/fragmentUploadPhoto">
+        <action android:id="@id/action_fragmentUploadPhoto_to_fragmentWaitingReview" app:destination="@id/fragmentWaitingReview" app:launchSingleTop="true" app:popUpTo="@id/fragmentUploadPhoto" app:popUpToInclusive="true" />
+    </fragment>
+</navigation>

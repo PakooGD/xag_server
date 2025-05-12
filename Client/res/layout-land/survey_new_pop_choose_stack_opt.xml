@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:background="@drawable/ui_shape_container_material_strong_r4444" android:layout_width="wrap_content" android:layout_height="@dimen/cube_dp_32"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/pop_action_undo" android:layout_width="@dimen/cube_dp_32" android:layout_height="@dimen/cube_dp_32">
+        <ImageView android:layout_width="@dimen/cube_dp_20" android:layout_height="@dimen/cube_dp_20" android:src="@drawable/survey_new_selector_editor_undo" />
+    </LinearLayout>
+    <View android:background="@color/cube_color_container_fill_deep" android:layout_width="1.0px" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/pop_action_redo" android:layout_width="@dimen/cube_dp_32" android:layout_height="@dimen/cube_dp_32">
+        <ImageView android:layout_width="@dimen/cube_dp_20" android:layout_height="@dimen/cube_dp_20" android:src="@drawable/survey_new_selector_editor_redo" />
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

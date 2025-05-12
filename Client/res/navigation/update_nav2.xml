@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/udpdate_nav" app:startDestination="@id/dev_update_check"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="DeviceCheck" android:name="com.xag.agri.v4.operation.device.update.mission.fragment.DeviceCheckFragment" android:id="@id/dev_update_check" />
+    <fragment android:label="DeviceUpgrade" android:name="com.xag.agri.v4.operation.device.update.mission.fragment.DeviceUpgradeFragment" android:id="@id/dev_update_work">
+        <action android:id="@id/dev_update_work_2_check" app:destination="@id/dev_update_check" app:popUpTo="@id/dev_update_work" app:popUpToInclusive="true" />
+        <action android:id="@id/dev_update_work_2_reboot_acs" app:destination="@id/dev_update_reboot_acs" app:popUpTo="@id/dev_update_work" app:popUpToInclusive="true" />
+    </fragment>
+    <fragment android:label="DeviceUpgrade2" android:name="com.xag.agri.v4.operation.device.update.mission.fragment.DeviceMileStoneFragment" android:id="@id/dev_update_work_milestone">
+        <action android:id="@id/dev_update_milestone_2_check" app:destination="@id/dev_update_check" app:popUpTo="@id/dev_update_work_milestone" app:popUpToInclusive="true" />
+    </fragment>
+    <fragment android:label="DeviceRebootACS" android:name="com.xag.agri.v4.operation.device.update.mission.fragment.DeviceRebootOtherFragment" android:id="@id/dev_update_reboot_acs" />
+</navigation>

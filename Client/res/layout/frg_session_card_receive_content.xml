@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/ti_receive_order_id_text_size" android:textColor="@color/ti_receive_order_id_text_color" android:id="@id/order_number" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/ti_receive_time_text_size" android:textColor="@color/ti_receive_time_text_color" android:id="@id/time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <View android:id="@id/view_line_card_top" android:background="@color/ti_msg_card_receive_dividing_line_color" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/img" android:layout_width="@dimen/ti_message_img" android:layout_height="@dimen/ti_message_img" android:layout_marginRight="15.0dip" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/ti_receive_subtitle_text_size" android:textColor="@color/ti_receive_subtitle_text_color" android:ellipsize="end" android:id="@id/subTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="2" />
+            <TextView android:textSize="@dimen/ti_receive_description_text_size" android:textColor="@color/ti_receive_description_text_color" android:ellipsize="end" android:id="@id/description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="1" />
+            <TextView android:textSize="@dimen/ti_receive_price_text_size" android:textColor="@color/ti_receive_price_text_color" android:id="@id/price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_alignParentBottom="true" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/view_line_card_bottom" android:background="@color/ti_msg_card_receive_dividing_line_color" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/ti_receive_status_text_size" android:textColor="@color/ti_receive_status_text_color" android:id="@id/status" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/ti_receive_status_text_size" android:textColor="@color/ti_receive_status_text_color" android:id="@id/more" android:paddingLeft="10.0dip" android:paddingRight="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+        <ImageView android:id="@id/open" android:visibility="gone" android:layout_width="17.0dip" android:layout_height="17.0dip" android:src="@mipmap/darkdown" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerView" android:paddingTop="@dimen/padding_vertical" android:paddingBottom="@dimen/padding_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layerType="software" android:paddingVertical="@dimen/padding_vertical" app:layoutManager="com.tinet.oskit.adapter.layout.NoScrollLinearLayoutManager" />
+</LinearLayout>

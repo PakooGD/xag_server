@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_pop" android:paddingLeft="@dimen/user_margin_12" android:paddingRight="@dimen/user_margin_12" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:elevation="@dimen/cube_dp_4" android:paddingHorizontal="@dimen/user_margin_12"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/user_bg_black_radius_6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:divider="@drawable/common_shape_divider_horizontal_left_padding_16dp" android:showDividers="middle">
+        <com.xa.core.cube.TextView android:textSize="@dimen/user_text_16" android:textColor="@color/cube_color_content_primary" android:id="@id/tv_join_team" android:padding="@dimen/cube_dp_14" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/user_join_team" android:drawablePadding="@dimen/cube_dp_8" android:drawableStart="@drawable/user_ic_svg_scan_code" android:layout_marginStart="@dimen/cube_dp_10" />
+        <com.xa.core.cube.TextView android:textSize="@dimen/user_text_16" android:textColor="@color/cube_color_content_primary" android:id="@id/tv_create_team" android:padding="@dimen/cube_dp_14" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/user_create_new_team" android:drawablePadding="@dimen/cube_dp_8" android:drawableStart="@drawable/user_ic_svg_create_team" android:layout_marginStart="@dimen/cube_dp_10" android:layout_marginEnd="@dimen/cube_dp_10" />
+    </LinearLayout>
+</LinearLayout>

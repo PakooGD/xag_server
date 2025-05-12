@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:id="@id/content_root" android:background="@drawable/common_shape_r16161616_white" android:layout_width="304.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.xa.core.cube.TextView android:textStyle="bold" android:textColor="@color/cube_color_content_primary" android:gravity="center" android:id="@id/dialog_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="24.0dip" android:layout_marginHorizontal="24.0dip" style="@style/Cube.Font.Medium.Title1" />
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/ui_shape_container_fill_tint_r8888" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="24.0dip" android:layout_marginHorizontal="24.0dip">
+        <EditText android:id="@id/dialog_input" android:background="@null" android:paddingLeft="12.0dip" android:paddingTop="8.0dip" android:paddingRight="12.0dip" android:paddingBottom="8.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="false" android:layout_weight="1.0" android:paddingHorizontal="12.0dip" android:paddingVertical="8.0dip" style="@style/Cube.Font.Regular.Callout" />
+        <ImageView android:id="@id/dialog_input_clear" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/common_system_circle_clear" android:scaleType="centerInside" />
+    </LinearLayout>
+    <View android:background="@color/cube_color_container_fill_deep" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="24.0dip" />
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="44.0dip">
+        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:gravity="center" android:id="@id/dialog_no" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/Cube.Font.Regular.Body" />
+        <View android:id="@id/dialog_no_div" android:background="@color/cube_color_container_fill_deep" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <com.xa.core.cube.TextView android:textColor="@color/cube_xone_100" android:gravity="center" android:id="@id/dialog_ok" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/Cube.Font.Regular.Body" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

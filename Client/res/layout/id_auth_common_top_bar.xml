@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/top_bar" android:layout_width="fill_parent" android:layout_height="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageButton android:id="@id/top_bar_back" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/xag_face_lib_icon_2" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Widget.AppCompat.Toolbar.Button.Navigation" />
+    <androidx.appcompat.widget.AppCompatImageButton android:id="@id/top_bar_more" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/xag_face_lib_icon_10" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Widget.AppCompat.Toolbar.Button.Navigation" />
+</androidx.constraintlayout.widget.ConstraintLayout>

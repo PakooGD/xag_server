@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/traffic_shape_loading_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/cube_dp_104" android:minHeight="@dimen/cube_dp_78"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateDrawable="@drawable/traffic_loading_anim" android:indeterminateBehavior="repeat" android:rotationY="180.0" style="@style/Widget.AppCompat.ProgressBar" />
+    <com.xa.core.cube.TextView android:textSize="14.0sp" android:textColor="@color/cube_color_container_bg_tint" android:id="@id/load_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cube_dp_4" />
+</LinearLayout>

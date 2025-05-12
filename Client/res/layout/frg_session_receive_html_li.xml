@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/ti_receive_bubble_text_size" android:textColor="@color/ti_receive_msg_text_color" android:id="@id/tvLogo" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageView android:id="@id/ivLogo" android:padding="5.5dip" android:visibility="gone" android:layout_width="19.0dip" android:layout_height="19.0dip" />
+    <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/recyclerView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layerType="software" app:layoutManager="com.tinet.oskit.adapter.layout.NoScrollLinearLayoutManager" />
+</LinearLayout>

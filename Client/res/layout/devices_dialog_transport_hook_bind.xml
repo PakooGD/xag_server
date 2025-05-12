@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/cube_color_container_bg_base" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/status_bar" android:background="@color/devices_background" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+    <FrameLayout android:id="@id/fl_title" android:layout_width="fill_parent" android:layout_height="@dimen/devices_actionbar">
+        <ImageButton android:id="@id/btn_back" android:background="@drawable/devices_selector_button_transparent" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/cube_ic_gen_chevron_left" android:paddingStart="@dimen/devices_padding" android:paddingEnd="@dimen/devices_padding" />
+        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/devices_ship_lift_bind_hook" style="@style/Cube.Font.Medium.Title1" />
+    </FrameLayout>
+    <LinearLayout android:id="@id/sling_bind_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="68.0dip" android:layout_marginTop="56.0dip" android:layout_marginRight="68.0dip" android:layout_marginBottom="@dimen/devices_margin_12" android:layout_marginHorizontal="68.0dip">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/item_tv" android:background="@color/cube_color_container_fill_tint" android:layout_width="244.0dip" android:layout_height="137.0dip" android:src="@drawable/guide_transport_hook" />
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingStart="@dimen/cube_dp_16">
+            <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/devices_ship_lift_bind_hook_desc" style="@style/Cube.Font.Regular.Body" />
+            <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_secondary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cube_dp_4" android:text="@string/devices_ship_lift_bind_hook_desc_additional" style="@style/Cube.Font.Regular.Body" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/sling_bind_fail_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cube_dp_48">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/devices_transport_sling_bind_fail" />
+        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:gravity="center" android:layout_width="wrap_content" android:layout_height="@dimen/cube_dp_20" android:layout_marginTop="@dimen/cube_dp_4" android:text="@string/devices_ship_hook_bind_fail" android:lineSpacingExtra="3.1999817sp" android:fontFamily="sans-serif-medium" style="@style/Cube.Font.Regular.Callout" />
+        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_secondary" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cube_dp_24" android:text="@string/devices_ship_hook_bind_fail_desc" android:lineSpacingExtra="1.5999756sp" style="@style/Cube.Font.Regular.Footnote" />
+        <android.widget.Button android:textColor="@drawable/devices_selector_text_white" android:id="@id/btn_retry" android:background="@drawable/devices_selector_button_green" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/devices_margin_12" android:text="@string/devices_retry" android:layout_marginStart="@dimen/devices_margin_16" android:layout_marginEnd="@dimen/devices_margin_16" style="@style/Devices.Button" />
+    </LinearLayout>
+</LinearLayout>

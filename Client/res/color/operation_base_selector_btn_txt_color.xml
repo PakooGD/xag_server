@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true" android:color="?cube_color_project_primary" />
+    <item android:color="@color/cube_color_content_tertiary" />
+</selector>

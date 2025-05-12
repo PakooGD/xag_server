@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.smile525.albumcamerarecorder.album.widget.SquareFrameLayout android:background="?item.placeholder" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="14.0sp" android:textColor="?capture.textColor" android:gravity="center" android:layout_gravity="center" android:id="@id/hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/z_multi_library_photo_grid_capture" android:drawablePadding="8.0dip" app:drawableTopCompat="@drawable/ic_photo_camera_white_24dp" />
+</com.smile525.albumcamerarecorder.album.widget.SquareFrameLayout>

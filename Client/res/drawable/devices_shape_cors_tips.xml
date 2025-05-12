@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <corners android:topLeftRadius="@dimen/cube_dp_8" android:topRightRadius="@dimen/cube_dp_8" android:bottomLeftRadius="@dimen/cube_dp_8" android:bottomRightRadius="@dimen/cube_dp_8" />
+            <padding android:left="@dimen/cube_dp_1" android:top="@dimen/cube_dp_1" android:right="@dimen/cube_dp_1" android:bottom="@dimen/cube_dp_1" />
+            <solid android:color="#10eeeeee" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <corners android:topLeftRadius="@dimen/cube_dp_8" android:topRightRadius="@dimen/cube_dp_8" android:bottomLeftRadius="@dimen/cube_dp_8" android:bottomRightRadius="@dimen/cube_dp_8" />
+            <padding android:left="@dimen/cube_dp_1" android:top="@dimen/cube_dp_1" android:right="@dimen/cube_dp_1" android:bottom="@dimen/cube_dp_1" />
+            <solid android:color="#10eeeeee" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <corners android:topLeftRadius="@dimen/cube_dp_8" android:topRightRadius="@dimen/cube_dp_8" android:bottomLeftRadius="@dimen/cube_dp_8" android:bottomRightRadius="@dimen/cube_dp_8" />
+            <padding android:left="@dimen/cube_dp_1" android:top="@dimen/cube_dp_1" android:right="@dimen/cube_dp_1" android:bottom="@dimen/cube_dp_1" />
+            <solid android:color="#40eeeeee" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <corners android:topLeftRadius="@dimen/cube_dp_8" android:topRightRadius="@dimen/cube_dp_8" android:bottomLeftRadius="@dimen/cube_dp_8" android:bottomRightRadius="@dimen/cube_dp_8" />
+            <padding android:left="@dimen/cube_dp_1" android:top="@dimen/cube_dp_1" android:right="@dimen/cube_dp_1" android:bottom="@dimen/cube_dp_1" />
+            <solid android:color="#50eeeeee" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <corners android:topLeftRadius="@dimen/cube_dp_8" android:topRightRadius="@dimen/cube_dp_8" android:bottomLeftRadius="@dimen/cube_dp_8" android:bottomRightRadius="@dimen/cube_dp_8" />
+            <padding android:left="@dimen/cube_dp_1" android:top="@dimen/cube_dp_1" android:right="@dimen/cube_dp_1" android:bottom="@dimen/cube_dp_1" />
+            <solid android:color="#60eeeeee" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="@color/cube_color_container_bg_tint" />
+            <corners android:radius="@dimen/cube_dp_8" />
+        </shape>
+    </item>
+</layer-list>

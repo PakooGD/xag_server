@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:id="@id/tvName" android:padding="@dimen/cube_dp_16" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Cube.Font.Regular.Body" />
+    <View android:id="@id/divider" android:background="@color/cube_color_container_fill_deep" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/cube_dp_0.5" android:layout_marginStart="@dimen/cube_dp_16" />
+</LinearLayout>

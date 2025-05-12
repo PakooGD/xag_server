@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="devices_dev_units_day">
+        <item quantity="other">%dgünler</item>
+        <item quantity="one">%dgün</item>
+    </plurals>
+    <plurals name="devices_dev_units_hour">
+        <item quantity="other">%dsaatler</item>
+        <item quantity="one">%dsaat</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d yeni bildirim</item>
+        <item quantity="one">%d yeni bildirim</item>
+    </plurals>
+</resources>

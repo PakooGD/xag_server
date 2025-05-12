@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="@dimen/cube_dp_72"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center" android:id="@id/icon_img" android:layout_width="@dimen/cube_dp_48" android:layout_height="@dimen/cube_dp_48" android:scaleType="fitXY" android:layout_marginStart="@dimen/cube_dp_12" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/cube_dp_8" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toRightOf="@id/icon_img" app:layout_constraintTop_toTopOf="parent">
+        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:layout_gravity="center_vertical" android:id="@id/uav_name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/XagTheme.Typography.RegularBody" />
+        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_secondary" android:layout_gravity="center_vertical" android:id="@id/uav_sn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cube_dp_2" style="@style/Cube.Font.Regular.Callout" />
+    </LinearLayout>
+    <View android:background="@color/basecompat_gray_light" android:layout_width="fill_parent" android:layout_height="1.0dip" app:layout_constraintBottom_toBottomOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

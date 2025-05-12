@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:id="@id/tinetSendFailureContent" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tinet.oskit.widget.CircleImageView android:layout_gravity="center" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_margin="5.0dip" android:src="@drawable/ti_ic_error_hint" />
+    <TextView android:layout_gravity="center" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ti_retry" />
+</LinearLayout>

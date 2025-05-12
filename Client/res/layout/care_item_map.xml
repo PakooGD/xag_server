@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="@dimen/cube_dp_56"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:gravity="center" android:id="@id/tv_map" android:background="@color/cube_color_container_bg_tint" android:layout_width="fill_parent" android:layout_height="@dimen/cube_dp_56" android:layout_marginTop="@dimen/care_margin_8" android:text="@string/care_cancel" app:layout_constraintBottom_toBottomOf="parent" style="@style/Cube.Font.Regular.Body" />
+</androidx.constraintlayout.widget.ConstraintLayout>

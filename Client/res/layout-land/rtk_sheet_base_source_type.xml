@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:background="@color/devices_black_05" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="right" android:orientation="vertical" android:background="@color/devices_background" android:layout_width="308.0dip" android:layout_height="fill_parent">
+        <include android:id="@id/include_title" layout="@layout/rtk_sheet_base_title" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/devices_margin_12" android:layout_marginBottom="@dimen/devices_margin_24">
+            <LinearLayout android:orientation="vertical" android:background="@drawable/devices_shape_white_round_outline" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/devices_margin_8" android:divider="@drawable/devices_shape_divider" android:showDividers="middle" android:paddingStart="@dimen/devices_padding_12" android:layout_marginStart="@dimen/devices_padding_16" android:layout_marginEnd="@dimen/devices_padding_16">
+                <LinearLayout android:gravity="center" android:id="@id/ll_net_rtk_info" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/devices_item_height" android:layout_marginTop="8.0dip" android:layout_marginEnd="@dimen/cube_dp_12">
+                    <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/devices_network_rtk_service" android:layout_weight="1.0" android:layout_marginStart="@dimen/devices_margin_8" style="@style/Cube.Font.Regular.Body" />
+                    <ImageView android:id="@id/iv_check_cloud_station" android:layout_width="@dimen/devices_item_height_24" android:layout_height="@dimen/devices_item_height_24" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:id="@id/ll_cors" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/devices_item_height" android:layout_marginEnd="@dimen/cube_dp_12">
+                    <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/devices_cors" android:layout_weight="1.0" android:layout_marginStart="@dimen/devices_margin_8" style="@style/Cube.Font.Regular.Body" />
+                    <ImageView android:id="@id/iv_check_cors" android:layout_width="@dimen/devices_item_height_24" android:layout_height="@dimen/devices_item_height_24" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:id="@id/ll_rtk" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/devices_item_height" android:layout_marginEnd="@dimen/cube_dp_12">
+                    <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/devices_rtk_mobile" android:layout_weight="1.0" android:layout_marginStart="@dimen/devices_margin_8" style="@style/Cube.Font.Regular.Body" />
+                    <ImageView android:id="@id/iv_check_rtk" android:layout_width="@dimen/devices_item_height_24" android:layout_height="@dimen/devices_item_height_24" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

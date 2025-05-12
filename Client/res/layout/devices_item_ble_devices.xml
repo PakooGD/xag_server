@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/cube_shape_container_bg_tint_8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/devices_item_height_72"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center" android:id="@id/iv_device_icon" android:background="@drawable/devices_shape_circle_stroke_gray" android:layout_width="@dimen/cube_dp_40" android:layout_height="@dimen/cube_dp_40" android:scaleType="centerCrop" android:layout_marginStart="@dimen/devices_margin_16" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/devices_margin_16" android:layout_marginBottom="@dimen/devices_margin_16" android:layout_weight="1.0" android:layout_marginStart="@dimen/devices_margin_16" android:layout_marginVertical="@dimen/devices_margin_16">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:gravity="start" android:id="@id/tv_device_name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Cube.Font.Regular.Body" />
+        </LinearLayout>
+        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_secondary" android:id="@id/tv_device_sn" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_goneMarginStart="@dimen/devices_margin_12" style="@style/Cube.Font.Regular.Callout" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:id="@id/ll_add" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <android.widget.Button android:textSize="@dimen/devices_text_size_14" android:textColor="@drawable/devices_selector_text_green2" android:id="@id/btn_add" android:background="@drawable/devices_shape_gray_1" android:layout_width="@dimen/cube_dp_52" android:layout_height="@dimen/cube_dp_28" android:layout_marginLeft="@dimen/devices_margin_16" android:layout_marginTop="@dimen/devices_margin_10" android:layout_marginRight="@dimen/devices_margin_16" android:layout_marginBottom="@dimen/devices_margin_10" android:text="@string/devices_dev_add2" android:layout_marginHorizontal="@dimen/devices_margin_16" android:layout_marginVertical="@dimen/devices_margin_10" style="@style/Devices.Button" />
+    </LinearLayout>
+</LinearLayout>

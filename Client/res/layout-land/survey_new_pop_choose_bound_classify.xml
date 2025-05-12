@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:background="@drawable/ui_shape_container_material_strong_r8888" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/action_choose_single" android:paddingLeft="@dimen/cube_dp_12" android:paddingRight="@dimen/cube_dp_12" android:layout_width="@dimen/cube_dp_150" android:layout_height="@dimen/cube_dp_40" android:paddingHorizontal="@dimen/cube_dp_12">
+        <ImageView android:layout_width="@dimen/cube_dp_20" android:layout_height="@dimen/cube_dp_20" android:src="@drawable/survey_new_editor_bound_single_0" />
+        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:ellipsize="end" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="@dimen/cube_dp_20" android:text="@string/survey_create_single_field" android:singleLine="true" android:layout_weight="1.0" android:layout_marginStart="@dimen/cube_dp_4" android:layout_marginEnd="@dimen/cube_dp_4" style="@style/Cube.Font.Regular.Body" />
+        <ImageView android:id="@id/action_choose_single_check" android:visibility="invisible" android:layout_width="@dimen/cube_dp_20" android:layout_height="@dimen/cube_dp_20" android:src="@drawable/survey_new_editor_check_mark_green" />
+    </LinearLayout>
+    <View android:background="@color/cube_color_container_fill_deep" android:layout_width="@dimen/cube_dp_150" android:layout_height="1.0px" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/action_choose_multi" android:paddingLeft="@dimen/cube_dp_12" android:paddingRight="@dimen/cube_dp_12" android:layout_width="@dimen/cube_dp_150" android:layout_height="@dimen/cube_dp_40" android:paddingHorizontal="@dimen/cube_dp_12">
+        <ImageView android:layout_width="@dimen/cube_dp_20" android:layout_height="@dimen/cube_dp_20" android:src="@drawable/survey_new_editor_bound_multi_0" />
+        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:ellipsize="end" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="@dimen/cube_dp_20" android:text="@string/survey_create_multi_fields" android:singleLine="true" android:layout_weight="1.0" android:layout_marginStart="@dimen/cube_dp_4" android:layout_marginEnd="@dimen/cube_dp_4" style="@style/Cube.Font.Regular.Body" />
+        <ImageView android:id="@id/action_choose_multi_check" android:visibility="invisible" android:layout_width="@dimen/cube_dp_20" android:layout_height="@dimen/cube_dp_20" android:src="@drawable/survey_new_editor_check_mark_green" />
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

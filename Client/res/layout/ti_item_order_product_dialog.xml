@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/rl_order_img" android:layout_width="72.0dip" android:layout_height="72.0dip" android:layout_marginRight="12.0dip">
+        <com.tinet.oskit.widget.round.RoundedImageView android:id="@id/iv_order_product_img" android:layout_width="72.0dip" android:layout_height="72.0dip" android:src="@mipmap/ti_order_product_default_img" android:scaleType="centerCrop" android:layout_centerVertical="true" app:tinet_corner_radius="@dimen/ti_order_product_img_radius" />
+        <TextView android:textSize="9.0dip" android:textColor="#ffffffff" android:id="@id/tv_order_product_img_tag" android:background="@drawable/ti_shape_black_diagonal_6px" android:padding="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/rl_order_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/rl_order_img">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="14.0sp" android:textColor="#ff262626" android:ellipsize="end" android:id="@id/tv_order_product_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" />
+            <TextView android:textSize="12.0sp" android:textColor="#ff8c8c8c" android:ellipsize="end" android:id="@id/tv_order_product_subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:maxLines="1" />
+            <TextView android:textSize="11.0sp" android:textColor="#ffea5c66" android:id="@id/tv_order_product_remark" android:background="@drawable/ti_shape_red_corner_2_bg" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:layout_width="wrap_content" android:layout_height="16.0dip" android:layout_marginTop="3.0dip" android:singleLine="true" android:paddingHorizontal="4.0dip" />
+        </LinearLayout>
+        <LinearLayout android:gravity="right" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip">
+            <TextView android:textSize="14.0sp" android:textColor="#ff262626" android:id="@id/tv_order_product_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="¥89.00" />
+            <TextView android:textSize="12.0sp" android:textColor="#ff8c8c8c" android:id="@id/tv_order_product_amount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="x2" />
+            <TextView android:textSize="14.0sp" android:textColor="#ff8c8c8c" android:id="@id/tv_order_product_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="退款成功" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.tinet.oskit.widget.tagview.TFlowTagLayout android:id="@id/ftl_order_product_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/rl_order_content" app:firstLineMinWidth="true" app:rtlLayout="true" />
+</RelativeLayout>

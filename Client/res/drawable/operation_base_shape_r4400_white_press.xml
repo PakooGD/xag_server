@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@drawable/operation_base_shape_r4400_gray_tap" />
+    <item>
+        <shape>
+            <corners android:topLeftRadius="@dimen/cube_dp_4" android:bottomLeftRadius="@dimen/cube_dp_4" />
+            <solid android:color="@color/cube_color_container_material_strong" />
+        </shape>
+    </item>
+</selector>

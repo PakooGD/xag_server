@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/lyNormal" android:background="@drawable/cube_shape_container_fill_tint_8" android:layout_width="fill_parent" android:layout_height="@dimen/cube_dp_36">
+        <ImageView android:id="@id/auth_imageview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/cube_ic_gen_magnify" android:layout_marginStart="@dimen/cube_dp_8" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_tertiary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/auth_search" android:layout_marginStart="@dimen/cube_dp_4" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/auth_imageview" app:layout_constraintTop_toTopOf="parent" style="@style/Cube.Font.Regular.Body" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/lySearch" android:layout_width="fill_parent" android:layout_height="@dimen/cube_dp_36">
+        <LinearLayout android:orientation="horizontal" android:background="@drawable/cube_shape_container_fill_tint_8" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/cube_ic_gen_magnify" android:layout_marginStart="@dimen/cube_dp_8" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <com.xag.agri.auth.widget.WatcherClearEditText android:textColor="@color/cube_color_content_primary" android:textColorHint="@color/cube_color_content_tertiary" android:gravity="center_vertical" android:id="@id/etSearch" android:background="@null" android:paddingLeft="@dimen/cube_dp_4" android:paddingRight="@dimen/cube_dp_4" android:layout_width="0.0dip" android:layout_height="fill_parent" android:hint="@string/auth_search" android:singleLine="true" android:layout_weight="1.0" android:drawableEnd="@drawable/cube_ic_gen_xmark_circle_layers_uncover" android:paddingHorizontal="@dimen/cube_dp_4" app:layout_constraintEnd_toStartOf="parent" app:layout_constraintStart_toStartOf="parent" style="@style/Cube.Font.Regular.Body" />
+        </LinearLayout>
+        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:id="@id/btnCancel" android:paddingLeft="@dimen/cube_dp_16" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/id_auth_cancel" style="@style/Cube.Font.Regular.Body" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:id="@id/panel_source_choose" android:background="@drawable/operation_base_map_menu_r8888_shape_fix" android:layout_width="wrap_content" android:layout_height="@dimen/cube_dp_44"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/action_map_gen" android:background="@drawable/ui_shape_container_material_strong_r8888" android:layout_width="@dimen/cube_dp_44" android:layout_height="@dimen/cube_dp_44" android:src="@drawable/operation_base_map_menu_rule_gen" android:scaleType="centerInside" />
+    <ImageView android:id="@id/action_choose_source_close" android:layout_width="@dimen/cube_dp_44" android:layout_height="@dimen/cube_dp_44" android:src="@drawable/operation_base_map_menu_close" android:scaleType="centerInside" />
+</androidx.appcompat.widget.LinearLayoutCompat>

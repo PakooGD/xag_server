@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/cube_color_container_bg_base" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="@dimen/cube_dp_44">
+        <ImageView android:id="@id/iv_back" android:padding="@dimen/cube_dp_10" android:layout_width="@dimen/cube_dp_44" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/cube_dp_2" android:src="@drawable/cube_ic_gen_chevron_left" app:layout_constraintLeft_toLeftOf="parent" />
+        <com.xa.core.cube.TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/cube_color_content_primary" android:gravity="center" android:paddingLeft="@dimen/cube_dp_46" android:paddingRight="@dimen/cube_dp_46" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/cs_select_guarantee_form" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="@dimen/cube_dp_400" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_have_data" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.xa.core.cube.TextView android:textSize="14.0sp" android:textColor="@color/cube_color_content_secondary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cube_dp_24" android:text="@string/cs_select_guarantee_form_tips" android:layout_marginStart="@dimen/cube_dp_24" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_list" android:paddingTop="@dimen/cube_dp_8" android:paddingBottom="@dimen/cube_dp_12" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cube_dp_8" android:layout_marginBottom="@dimen/cube_dp_12" android:layout_marginStart="@dimen/cube_dp_12" android:layout_marginEnd="@dimen/cube_dp_12" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_no_data" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:layout_width="@dimen/cube_dp_80" android:layout_height="@dimen/cube_dp_80" android:src="@mipmap/cs_pattern_img_anomaly_server" />
+            <com.xa.core.cube.TextView android:textSize="16.0sp" android:textColor="@color/cube_color_content_primary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cube_dp_8" android:text="@string/cs_guarantee_form_empty" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

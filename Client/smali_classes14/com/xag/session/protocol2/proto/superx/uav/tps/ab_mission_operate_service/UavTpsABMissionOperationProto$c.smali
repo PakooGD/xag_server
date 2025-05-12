@@ -1,0 +1,17 @@
+.class public interface abstract Lcom/xag/session/protocol2/proto/superx/uav/tps/ab_mission_operate_service/UavTpsABMissionOperationProto$c;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/google/protobuf/MessageOrBuilder;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/xag/session/protocol2/proto/superx/uav/tps/ab_mission_operate_service/UavTpsABMissionOperationProto;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "c"
+.end annotation

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@color/devices_black_00" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:background="@drawable/devices_bg_layout_top" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/include_title" layout="@layout/devices_sheet_base_title" />
+        <LinearLayout android:orientation="vertical" android:background="@drawable/devices_shape_white_round_outline" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/devices_padding_12" android:layout_marginBottom="@dimen/cube_dp_12" android:divider="@color/devices_divider" android:showDividers="middle" android:layout_marginStart="@dimen/devices_margin_16" android:layout_marginEnd="@dimen/devices_margin_16">
+            <FrameLayout android:id="@id/fl_china_tele_1" android:layout_width="fill_parent" android:layout_height="@dimen/devices_item_height">
+                <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:gravity="start|center" android:layout_gravity="start|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/devices_margin_16" android:layout_marginRight="@dimen/devices_margin_16" android:text="@string/devices_dev_china_tele_1" android:layout_marginHorizontal="@dimen/devices_margin_16" style="@style/Cube.Font.Regular.Body" />
+                <ImageView android:layout_gravity="end|center" android:id="@id/iv_china_tele_1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/devices_icon_done2" android:layout_marginEnd="@dimen/devices_margin_16" />
+            </FrameLayout>
+            <FrameLayout android:id="@id/fl_china_tele_2" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/devices_item_height">
+                <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:gravity="start|center" android:layout_gravity="start|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/devices_margin_16" android:layout_marginRight="@dimen/devices_margin_16" android:text="@string/devices_dev_china_tele_2" android:layout_marginHorizontal="@dimen/devices_margin_16" style="@style/Cube.Font.Regular.Body" />
+                <ImageView android:layout_gravity="end|center" android:id="@id/iv_china_tele_2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/devices_icon_done2" android:layout_marginEnd="@dimen/devices_margin_16" />
+            </FrameLayout>
+            <FrameLayout android:id="@id/fl_china_tele_3" android:background="@drawable/devices_selector_button_transparent" android:layout_width="fill_parent" android:layout_height="@dimen/devices_item_height">
+                <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:gravity="start|center" android:layout_gravity="start|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/devices_margin_16" android:layout_marginRight="@dimen/devices_margin_16" android:text="@string/devices_dev_china_tele_3" android:layout_marginHorizontal="@dimen/devices_margin_16" style="@style/Cube.Font.Regular.Body" />
+                <ImageView android:layout_gravity="end|center" android:id="@id/iv_china_tele_3" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/devices_icon_done2" android:layout_marginEnd="@dimen/devices_margin_16" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

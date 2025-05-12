@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetLeft="@dimen/basecompat_margin_3"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape>
+        <solid android:color="@color/basecompat_divider" />
+        <size android:height="0.5dip" />
+    </shape>
+</inset>

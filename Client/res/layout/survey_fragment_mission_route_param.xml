@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/content_root" android:background="@drawable/ui_shape_container_bg_base_r8800" android:layout_width="fill_parent" android:layout_height="380.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="56.0dip" android:paddingHorizontal="16.0dip">
+        <TextView android:textColor="@color/cube_color_content_primary" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/survey_set_flight_line_direction" android:layout_marginStart="12.0dip" style="@style/XagTheme.Typography.MediumTittle3" />
+        <ImageView android:layout_gravity="end|center" android:id="@id/btn_mission_safe_param_close" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/survey_new_system_circle_close" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/vg_mission_safe_param_route_direction" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="12.0dip" android:layout_marginHorizontal="16.0dip" />
+    <FrameLayout android:id="@id/vg_mission_safe_param_obstacle_safe_distance" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="12.0dip" android:layout_marginHorizontal="16.0dip" />
+</LinearLayout>

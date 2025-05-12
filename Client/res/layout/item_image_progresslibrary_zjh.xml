@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/flMain" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.smile525.progresslibrary.widget.MaskProgressView android:id="@id/mpvImage" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="8.0dip" android:src="@drawable/selector_image_add_zhongjh" android:scaleType="fitCenter" />
+    <ImageView android:id="@id/imgClose" android:paddingRight="8.0dip" android:paddingBottom="8.0dip" android:visibility="gone" android:layout_width="32.0dip" android:layout_height="32.0dip" android:contentDescription="@string/z_progress_library_delete_button" app:srcCompat="@drawable/ic_twotone_highlight_off_24dp_zhongjh" />
+    <ImageView android:layout_gravity="end|bottom|center" android:id="@id/imgGif" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:src="@drawable/ic_gif" android:contentDescription="标识是否gif" android:layout_marginEnd="16.0dip" />
+    <TextView android:textSize="12.0sp" android:textColor="@android:color/white" android:layout_gravity="end|bottom|center" android:id="@id/tvVideoDuration" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:layout_marginEnd="16.0dip" />
+</FrameLayout>

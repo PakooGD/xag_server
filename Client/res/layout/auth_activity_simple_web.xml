@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/cube_color_container_bg_tint" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/btnBack" android:paddingLeft="@dimen/cube_dp_16" android:paddingTop="@dimen/cube_dp_10" android:paddingRight="@dimen/cube_dp_16" android:paddingBottom="@dimen/cube_dp_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/cube_ic_gen_chevron_left" android:paddingHorizontal="@dimen/cube_dp_16" android:paddingVertical="@dimen/cube_dp_10" />
+    <WebView android:id="@id/web" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

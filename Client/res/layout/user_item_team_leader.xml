@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/imgUser" android:layout_width="@dimen/cube_dp_48" android:layout_height="@dimen/cube_dp_48" android:layout_marginTop="@dimen/cube_dp_12" android:layout_marginBottom="@dimen/cube_dp_12" android:src="@drawable/user_ic_default_head_image" android:layout_marginStart="@dimen/cube_dp_16" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:id="@id/tvName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/cube_dp_8" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/imgUser" app:layout_constraintTop_toTopOf="parent" style="@style/Cube.Font.Regular.Body" />
+    <ImageView android:id="@id/imgCheck" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/selector_radio_checkmark_selected" android:layout_marginEnd="@dimen/cube_dp_16" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/viewAudit" android:visibility="gone" android:layout_width="146.0dip" android:layout_height="25.0dip" android:layout_marginLeft="49.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="11.0sp" android:textColor="@color/ti_white" android:gravity="center" android:id="@id/tvAuditFailed" android:background="@color/ti_red" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/ti_is_not_qualified" android:layout_weight="1.0" />
+    <TextView android:textSize="11.0sp" android:textColor="@color/ti_white" android:gravity="center" android:id="@id/tvAuditPass" android:background="@color/ti_blue" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/ti_is_pass" android:layout_weight="1.0" />
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:background="@color/cube_color_container_bg_base" style="@style/SurveySupportPage"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginHorizontal="16.0dip">
+        <ImageView android:layout_gravity="end|center" android:id="@id/qrcode_close" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/survey_new_system_circle_close_selector" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </FrameLayout>
+    <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:orientation="vertical" android:id="@id/qrcode_panel" android:background="@color/survey_color_white" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="16.0dip" android:layout_weight="1.0" android:layout_marginHorizontal="16.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/qrcode_close">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="24.0dip">
+            <ImageView android:id="@id/qrcode_user_avator" android:layout_width="24.0dip" android:layout_height="24.0dip" android:scaleType="centerInside" />
+            <TextView android:textColor="@color/cube_color_content_primary" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/qrcode_user_name" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxWidth="150.0dip" android:singleLine="true" android:layout_marginStart="4.0dip" style="@style/XagTheme.Typography.MediumBody" />
+        </LinearLayout>
+        <ImageView android:id="@id/qrcode_imageview" android:layout_width="180.0dip" android:layout_height="180.0dip" android:layout_marginTop="12.0dip" android:scaleType="fitXY" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <TextView android:textColor="@color/cube_color_on_primary" android:gravity="center" android:id="@id/qrcode_save_to_ablum" android:background="@drawable/ui_shape_project_primary_r8888" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_margin="16.0dip" android:text="@string/survey_card_save_to_album" app:layout_constraintBottom_toBottomOf="parent" style="@style/XagTheme.Typography.MediumBody" />
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/devices_background" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="@dimen/devices_actionbar">
+        <ImageView android:id="@id/devices_close" android:background="@drawable/devices_selector_button_transparent" android:padding="@dimen/devices_padding_12" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/cube_ic_gen_chevron_left" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:id="@id/devices_com.xa.core.cube.TextView12" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/devices_setting_rc_net" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Devices.Text.title" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="1.0">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.0" />
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.6668">
+                <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_secondary" android:id="@id/tv_saved_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/devices_margin_12" android:text="@string/devices_saved_network" android:layout_marginStart="@dimen/devices_margin_32" style="@style/Cube.Font.Regular.Callout" />
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_saved_ssid" android:background="@drawable/devices_shape_white_round_outline" android:layout_width="fill_parent" android:layout_height="@dimen/cube_dp_56" android:layout_marginTop="@dimen/devices_margin_12" android:baselineAligned="false" android:layout_marginStart="@dimen/devices_margin_16" android:layout_marginEnd="@dimen/devices_margin_16">
+                    <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:gravity="start" android:id="@id/tv_saved_ssid" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="SSID" android:layout_weight="1.0" android:layout_marginStart="@dimen/devices_margin_16" style="@style/Cube.Font.Regular.Body" />
+                    <Switch android:layout_gravity="end|center" android:id="@id/sc_saved_enable" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/devices_margin_16" style="@style/devices_Switch_1" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/ll_setting_network" android:background="@drawable/devices_shape_white_round_outline" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/devices_margin_12" android:divider="@drawable/devices_shape_divider" android:showDividers="middle" android:paddingStart="@dimen/devices_margin_16" android:layout_marginStart="@dimen/devices_margin_16" android:layout_marginEnd="@dimen/devices_margin_16">
+                    <FrameLayout android:id="@id/fl_setting_network" android:layout_width="fill_parent" android:layout_height="@dimen/devices_item_height">
+                        <com.xa.core.cube.TextView android:textColor="@drawable/devices_selector_text_black" android:gravity="start|center" android:layout_gravity="start|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/devices_setting_network" style="@style/Cube.Font.Regular.Body" />
+                        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_secondary" android:gravity="start|center" android:layout_gravity="end|center" android:id="@id/tv_setting_rc_net_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/devices_margin_16" android:drawableEnd="@drawable/devices_ic_chevron_right" style="@style/Cube.Font.Regular.Body" />
+                    </FrameLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.0" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lcw.library.imagepicker.view.SquareRelativeLayout android:id="@id/srl_item" android:background="@color/text_color_black" android:padding="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.lcw.library.imagepicker.view.SquareImageView android:id="@id/iv_item_image" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginTop="20.0dip" android:src="@mipmap/icon_image_camera" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/text_color_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="60.0dip" android:text="@string/take_photo" android:layout_centerHorizontal="true" />
+</com.lcw.library.imagepicker.view.SquareRelativeLayout>

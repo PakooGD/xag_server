@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:paddingTop="@dimen/cube_dp_12" android:paddingBottom="@dimen/cube_dp_12" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingVertical="@dimen/cube_dp_12"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/device_update_shape_new_r8888_white" android:paddingLeft="@dimen/cube_dp_16" android:paddingRight="@dimen/cube_dp_16" android:layout_width="fill_parent" android:layout_height="@dimen/cube_dp_56" android:paddingHorizontal="@dimen/cube_dp_16">
+        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/device_update_local_firmware_way" app:layout_constraintStart_toStartOf="parent" style="@style/Cube.Font.Regular.Body" />
+        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_secondary" android:id="@id/update_mode" android:layout_width="wrap_content" android:layout_height="fill_parent" android:drawableEnd="@drawable/cube_ic_gen_chevron_right" app:layout_constraintEnd_toEndOf="parent" style="@style/Cube.Font.Regular.Body" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/devices_background" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:background="@color/devices_background" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageButton android:id="@id/btn_back" android:background="@drawable/devices_selector_button_transparent" android:layout_width="@dimen/devices_button_height_48" android:layout_height="@dimen/devices_button_height_48" android:src="@drawable/cube_ic_gen_chevron_left" />
+        <com.xa.core.cube.TextView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="云日志" style="@style/Devices.Text.title" />
+    </FrameLayout>
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:background="@color/devices_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/devices_margin_28" android:paddingStart="@dimen/devices_padding_12" android:paddingEnd="@dimen/devices_padding_12" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="@dimen/devices_button_height_60">
+                    <CheckBox android:id="@id/app_xnet" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="xnet" android:layout_weight="1.0" />
+                    <CheckBox android:id="@id/app_tps" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="tps" android:layout_weight="1.0" />
+                    <CheckBox android:id="@id/app_xpack" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="xpack" android:layout_weight="1.0" />
+                </LinearLayout>
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="@dimen/devices_button_height_60">
+                    <CheckBox android:id="@id/app_cloudlog" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="cloudlog" android:layout_weight="1.0" />
+                    <CheckBox android:id="@id/app_bms" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="bms" android:layout_weight="1.0" />
+                    <CheckBox android:id="@id/app_rc" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="rc" android:layout_weight="1.0" />
+                </LinearLayout>
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="@dimen/devices_button_height_60">
+                    <CheckBox android:id="@id/app_router" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="routuer" android:layout_weight="1.0" />
+                    <CheckBox android:id="@id/app_nav" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="Nav" android:layout_weight="1.0" />
+                    <CheckBox android:id="@id/app_spray" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="spray" android:layout_weight="1.0" />
+                </LinearLayout>
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="@dimen/devices_button_height_60">
+                    <CheckBox android:id="@id/app_actuator" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="actuator" android:layout_weight="1.0" />
+                    <CheckBox android:id="@id/app_datacenter" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="datacenter" android:layout_weight="1.0" />
+                    <CheckBox android:id="@id/app_rtks" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="rtks" android:layout_weight="1.0" />
+                </LinearLayout>
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="@dimen/devices_button_height_60">
+                    <CheckBox android:id="@id/app_dcservices" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="dcservices" android:layout_weight="1.0" />
+                    <CheckBox android:id="@id/app_ems" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="ems" android:layout_weight="1.0" />
+                    <CheckBox android:id="@id/app_radar_app" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="radarApp" android:layout_weight="1.0" />
+                </LinearLayout>
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="@dimen/devices_button_height_60">
+                    <CheckBox android:id="@id/app_cams" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="cams" android:layout_weight="1.0" />
+                    <CheckBox android:id="@id/app_dls" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="dls" android:layout_weight="1.0" />
+                    <CheckBox android:id="@id/app_dlm" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="dlm" android:layout_weight="1.0" />
+                </LinearLayout>
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="@dimen/devices_button_height_60">
+                    <CheckBox android:id="@id/app_wlink" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="wlink" android:layout_weight="1.0" />
+                    <CheckBox android:id="@id/app_cps" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="cps" android:layout_weight="1.0" />
+                    <CheckBox android:id="@id/app_ms" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="ms" android:layout_weight="1.0" />
+                </LinearLayout>
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="@dimen/devices_button_height_60">
+                    <CheckBox android:id="@id/app_spread" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="spread" android:layout_weight="1.0" />
+                    <CheckBox android:id="@id/app_system" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="system" android:layout_weight="1.0" />
+                    <CheckBox android:id="@id/app_flymap" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="flymap" android:layout_weight="1.0" />
+                </LinearLayout>
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="@dimen/devices_button_height_60">
+                    <CheckBox android:id="@id/app_sdk" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="sdk" android:layout_weight="1.0" />
+                    <CheckBox android:id="@id/app_host" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="host" android:layout_weight="1.0" />
+                    <CheckBox android:id="@id/app_stereom" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="stereom" android:layout_weight="1.0" />
+                </LinearLayout>
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="@dimen/devices_button_height_60">
+                    <CheckBox android:id="@id/app_fc" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="fc" android:layout_weight="1.0" />
+                    <CheckBox android:id="@id/app_xag_vio_server" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="xag_vio_server" android:layout_weight="1.0" />
+                    <CheckBox android:id="@id/app_fcs" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="fcs" android:layout_weight="1.0" />
+                </LinearLayout>
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="@dimen/devices_button_height_60">
+                    <CheckBox android:id="@id/app_actuator_server" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="actuator_server" android:layout_weight="1.0" />
+                    <CheckBox android:id="@id/app_RPE" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="RPE" android:layout_weight="1.0" />
+                </LinearLayout>
+            </LinearLayout>
+            <com.xa.core.cube.TextView android:id="@id/tv_progress_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/devices_margin_12" android:layout_marginBottom="@dimen/devices_margin_48" app:layout_constraintBottom_toTopOf="@id/devices_progressbar" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" style="@style/Devices.Text" />
+            <ProgressBar android:id="@id/devices_progressbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/devices_margin_40" android:layout_marginStart="@dimen/devices_margin_12" android:layout_marginEnd="@dimen/devices_margin_12" app:layout_constraintBottom_toTopOf="@id/start_upload" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+            <android.widget.Button android:textColor="@drawable/devices_selector_text_white" android:id="@id/start_upload" android:background="@drawable/devices_selector_button_green" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/devices_margin_40" android:text="@string/devices_dev_ok" android:layout_marginStart="@dimen/devices_margin_12" android:layout_marginEnd="@dimen/devices_margin_12" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" style="@style/Devices.Button" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

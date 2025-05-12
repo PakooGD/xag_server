@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" style="@style/SurveySupportPage"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/page_bar" style="@style/SurveyOrientationItem">
+        <View android:id="@id/page_top_bar_line" android:background="@drawable/ui_shape_content_quaternary_r2222" android:layout_width="@dimen/cube_dp_32" android:layout_height="@dimen/cube_dp_4" android:layout_marginTop="@dimen/cube_dp_4" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <ImageView android:id="@id/page_top_bar_close" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/SurveyOrientationClose" />
+        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:gravity="center" android:id="@id/page_top_bar_title" android:layout_width="wrap_content" android:layout_height="@dimen/cube_dp_28" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Cube.Font.Medium.Title1" />
+        <ImageView android:id="@id/offline_door" android:visibility="invisible" android:layout_width="@dimen/cube_dp_24" android:layout_height="@dimen/cube_dp_24" android:src="@drawable/survey_ic_offline_waiting" android:scaleType="centerInside" android:layout_marginStart="@dimen/cube_dp_2" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/page_top_bar_title" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <include android:id="@id/page_actions" android:layout_width="fill_parent" android:layout_height="@dimen/cube_dp_32" android:layout_marginLeft="@dimen/cube_dp_16" android:layout_marginRight="@dimen/cube_dp_16" android:layout_marginBottom="@dimen/cube_dp_12" android:layout_marginHorizontal="@dimen/cube_dp_16" layout="@layout/survey_new_layout_home_tab3" />
+    <include layout="@layout/survey_new_layout_home_divide" />
+    <FrameLayout android:id="@id/home_data_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/cube_dp_12" />
+</androidx.appcompat.widget.LinearLayoutCompat>

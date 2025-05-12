@@ -1,0 +1,348 @@
+{
+  "version": "1.0",
+  "update_time": 1698765432000,
+  "keys": [],
+  "default_keys": [
+    {
+      "key": 0,
+      "useDevice": [
+      ]
+    },
+    {
+      "key": 1,
+      "useDevice": [
+        {
+          "name": "UAV",
+          "scenarios": [
+            {
+              "scenario": 2,
+              "actions": [
+                {
+                  "key_action": 1,
+                  "function": 3
+                },
+                {
+                  "key_action": 2,
+                  "function": 4
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": 2,
+      "useDevice": [
+        {
+          "name": "UAV",
+          "scenarios": [
+            {
+              "scenario": 0,
+              "actions": [
+                {
+                  "key_action": 2,
+                  "function": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": 3,
+      "useDevice": [
+        {
+          "name": "UAV",
+          "scenarios": [
+          ]
+        }
+      ]
+    },
+    {
+      "key": 4,
+      "useDevice": [
+        {
+          "name": "UAV",
+          "scenarios": [
+          ]
+        }
+      ]
+    },
+    {
+      "key": 5,
+      "useDevice": [
+        {
+          "name": "UAV",
+          "scenarios": [
+            {
+              "scenario": 2,
+              "actions": [
+                {
+                  "key_action": 1,
+                  "function": 11
+                }
+              ]
+            },
+            {
+              "scenario": 5,
+              "actions": [
+                {
+                  "key_action": 1,
+                  "function": 18
+                },
+                {
+                  "key_action": 2,
+                  "function": 19
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "APP",
+          "scenarios": [
+            {
+              "scenario": 2,
+              "actions": [
+                {
+                  "key_action": 1,
+                  "function": 11
+                }
+              ]
+            },
+            {
+              "scenario": 5,
+              "actions": [
+                {
+                  "key_action": 1,
+                  "function": 18
+                },
+                {
+                  "key_action": 2,
+                  "function": 19
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": 6,
+      "useDevice": [
+        {
+          "name": "UAV",
+          "scenarios": [
+            {
+              "scenario": 4,
+              "actions": [
+                {
+                  "key_action": 1,
+                  "function": 14
+                },
+                {
+                  "key_action": 2,
+                  "function": 15
+                }
+              ]
+            },
+            {
+              "scenario": 3,
+              "actions": [
+                {
+                  "key_action": 1,
+                  "function": 12
+                },
+                {
+                  "key_action": 2,
+                  "function": 13
+                }
+              ]
+            },
+            {
+              "scenario": 2,
+              "actions": [
+                {
+                  "key_action": 1,
+                  "function": 10
+                }
+              ]
+            },
+            {
+              "scenario": 5,
+              "actions": [
+                {
+                  "key_action": 1,
+                  "function": 16
+                },
+                {
+                  "key_action": 2,
+                  "function": 17
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "APP",
+          "scenarios": [
+            {
+              "scenario": 4,
+              "actions": [
+                {
+                  "key_action": 1,
+                  "function": 14
+                },
+                {
+                  "key_action": 2,
+                  "function": 15
+                }
+              ]
+            },
+            {
+              "scenario": 3,
+              "actions": [
+                {
+                  "key_action": 1,
+                  "function": 12
+                },
+                {
+                  "key_action": 2,
+                  "function": 13
+                }
+              ]
+            },
+            {
+              "scenario": 2,
+              "actions": [
+                {
+                  "key_action": 1,
+                  "function": 10
+                }
+              ]
+            },
+            {
+              "scenario": 5,
+              "actions": [
+                {
+                  "key_action": 1,
+                  "function": 16
+                },
+                {
+                  "key_action": 2,
+                  "function": 17
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": 7,
+      "useDevice": [
+        {
+          "name": "UAV",
+          "scenarios": [
+            {
+              "scenario": 0,
+              "actions": [
+                {
+                  "key_action": 1,
+                  "function": 9
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": 8,
+      "useDevice": [
+        {
+          "name": "UAV",
+          "scenarios": [
+            {
+              "scenario": 2,
+              "actions": [
+                {
+                  "key_action": 1,
+                  "function": 21
+                }
+              ]
+            },
+            {
+              "scenario": 5,
+              "actions": [
+                {
+                  "key_action": 1,
+                  "function": 22
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": 9,
+      "useDevice": [
+        {
+          "name": "UAV",
+          "scenarios": [
+            {
+              "scenario": 0,
+              "actions": [
+                {
+                  "key_action": 1,
+                  "function": 2
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": 10,
+      "useDevice": [
+        {
+          "name": "UAV",
+          "scenarios": [
+            {
+              "scenario": 2,
+              "actions": [
+                {
+                  "key_action": 4,
+                  "function": 20
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": 11,
+      "useDevice": [
+        {
+          "name": "UAV",
+          "scenarios": [
+            {
+              "scenario": 0,
+              "actions": [
+                {
+                  "key_action": 4,
+                  "function": 8
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

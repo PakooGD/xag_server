@@ -1,0 +1,365 @@
+.class public final Lcom/xag/session/protocol2/superx/uav/nav/v1/model/NavRangeInfo;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lc70/l;
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/xag/session/protocol2/superx/uav/nav/v1/model/NavRangeInfo$RangePoint;
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000*\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u0008\n\u0002\u0008\t\n\u0002\u0010!\n\u0002\u0018\u0002\n\u0002\u0008\n\u0018\u00002\u00020\u0001:\u0001\u001bB\u0007\u00a2\u0006\u0004\u0008\u0019\u0010\u001aJ\u0017\u0010\u0005\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u0002H\u0016\u00a2\u0006\u0004\u0008\u0005\u0010\u0006R\"\u0010\u0008\u001a\u00020\u00078\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\u0008\u0010\t\u001a\u0004\u0008\n\u0010\u000b\"\u0004\u0008\u000c\u0010\rR\"\u0010\u000e\u001a\u00020\u00078\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\u000e\u0010\t\u001a\u0004\u0008\u000f\u0010\u000b\"\u0004\u0008\u0010\u0010\rR(\u0010\u0013\u001a\u0008\u0012\u0004\u0012\u00020\u00120\u00118\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\u0013\u0010\u0014\u001a\u0004\u0008\u0015\u0010\u0016\"\u0004\u0008\u0017\u0010\u0018\u00a8\u0006\u001c"
+    }
+    d2 = {
+        "Lcom/xag/session/protocol2/superx/uav/nav/v1/model/NavRangeInfo;",
+        "Lc70/l;",
+        "La70/h;",
+        "responseBody",
+        "Lkotlin/z1;",
+        "setResponseBody",
+        "(La70/h;)V",
+        "",
+        "count",
+        "I",
+        "getCount",
+        "()I",
+        "setCount",
+        "(I)V",
+        "reserved",
+        "getReserved",
+        "setReserved",
+        "",
+        "Lcom/xag/session/protocol2/superx/uav/nav/v1/model/NavRangeInfo$RangePoint;",
+        "points",
+        "Ljava/util/List;",
+        "getPoints",
+        "()Ljava/util/List;",
+        "setPoints",
+        "(Ljava/util/List;)V",
+        "<init>",
+        "()V",
+        "RangePoint",
+        "lib_protocol_release"
+    }
+    k = 0x1
+    mv = {
+        0x1,
+        0x7,
+        0x1
+    }
+.end annotation
+
+
+# instance fields
+.field private count:I
+
+.field private points:Ljava/util/List;
+    .annotation build Las0/k;
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "Lcom/xag/session/protocol2/superx/uav/nav/v1/model/NavRangeInfo$RangePoint;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private reserved:I
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    new-instance v0, Ljava/util/ArrayList;
+
+    .line 5
+    .line 6
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+
+    .line 7
+    .line 8
+    .line 9
+    iput-object v0, p0, Lcom/xag/session/protocol2/superx/uav/nav/v1/model/NavRangeInfo;->points:Ljava/util/List;
+
+    .line 10
+    .line 11
+    return-void
+.end method
+
+
+# virtual methods
+.method public final getCount()I
+    .locals 1
+
+    .line 1
+    iget v0, p0, Lcom/xag/session/protocol2/superx/uav/nav/v1/model/NavRangeInfo;->count:I
+
+    .line 2
+    .line 3
+    return v0
+.end method
+
+.method public final getPoints()Ljava/util/List;
+    .locals 1
+    .annotation build Las0/k;
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "Lcom/xag/session/protocol2/superx/uav/nav/v1/model/NavRangeInfo$RangePoint;",
+            ">;"
+        }
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Lcom/xag/session/protocol2/superx/uav/nav/v1/model/NavRangeInfo;->points:Ljava/util/List;
+
+    .line 2
+    .line 3
+    return-object v0
+.end method
+
+.method public final getReserved()I
+    .locals 1
+
+    .line 1
+    iget v0, p0, Lcom/xag/session/protocol2/superx/uav/nav/v1/model/NavRangeInfo;->reserved:I
+
+    .line 2
+    .line 3
+    return v0
+.end method
+
+.method public final setCount(I)V
+    .locals 0
+
+    .line 1
+    iput p1, p0, Lcom/xag/session/protocol2/superx/uav/nav/v1/model/NavRangeInfo;->count:I
+
+    .line 2
+    .line 3
+    return-void
+.end method
+
+.method public final setPoints(Ljava/util/List;)V
+    .locals 1
+    .param p1    # Ljava/util/List;
+        .annotation build Las0/k;
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/List<",
+            "Lcom/xag/session/protocol2/superx/uav/nav/v1/model/NavRangeInfo$RangePoint;",
+            ">;)V"
+        }
+    .end annotation
+
+    .line 1
+    const-string v0, "<set-?>"
+
+    .line 2
+    .line 3
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 4
+    .line 5
+    .line 6
+    iput-object p1, p0, Lcom/xag/session/protocol2/superx/uav/nav/v1/model/NavRangeInfo;->points:Ljava/util/List;
+
+    .line 7
+    .line 8
+    return-void
+.end method
+
+.method public final setReserved(I)V
+    .locals 0
+
+    .line 1
+    iput p1, p0, Lcom/xag/session/protocol2/superx/uav/nav/v1/model/NavRangeInfo;->reserved:I
+
+    .line 2
+    .line 3
+    return-void
+.end method
+
+.method public setResponseBody(La70/h;)V
+    .locals 6
+    .param p1    # La70/h;
+        .annotation build Las0/k;
+        .end annotation
+    .end param
+
+    .line 1
+    const-string v0, "responseBody"
+
+    .line 2
+    .line 3
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 4
+    .line 5
+    .line 6
+    invoke-virtual {p1}, La70/h;->e()[B
+
+    .line 7
+    .line 8
+    .line 9
+    move-result-object p1
+
+    .line 10
+    new-instance v0, Lcom/xag/session2/util/c;
+
+    .line 11
+    .line 12
+    invoke-direct {v0, p1}, Lcom/xag/session2/util/c;-><init>([B)V
+
+    .line 13
+    .line 14
+    .line 15
+    invoke-virtual {v0}, Lcom/xag/session2/util/c;->i()I
+
+    .line 16
+    .line 17
+    .line 18
+    move-result p1
+
+    .line 19
+    iput p1, p0, Lcom/xag/session/protocol2/superx/uav/nav/v1/model/NavRangeInfo;->count:I
+
+    .line 20
+    .line 21
+    invoke-virtual {v0}, Lcom/xag/session2/util/c;->i()I
+
+    .line 22
+    .line 23
+    .line 24
+    move-result p1
+
+    .line 25
+    iput p1, p0, Lcom/xag/session/protocol2/superx/uav/nav/v1/model/NavRangeInfo;->reserved:I
+
+    .line 26
+    .line 27
+    iget-object p1, p0, Lcom/xag/session/protocol2/superx/uav/nav/v1/model/NavRangeInfo;->points:Ljava/util/List;
+
+    .line 28
+    .line 29
+    invoke-interface {p1}, Ljava/util/List;->clear()V
+
+    .line 30
+    .line 31
+    .line 32
+    iget p1, p0, Lcom/xag/session/protocol2/superx/uav/nav/v1/model/NavRangeInfo;->count:I
+
+    .line 33
+    .line 34
+    if-gtz p1, :cond_0
+
+    .line 35
+    .line 36
+    return-void
+
+    .line 37
+    :cond_0
+    new-instance p1, Lcom/xag/session/protocol2/superx/uav/nav/v1/model/NavRangeInfo$RangePoint;
+
+    .line 38
+    .line 39
+    invoke-direct {p1}, Lcom/xag/session/protocol2/superx/uav/nav/v1/model/NavRangeInfo$RangePoint;-><init>()V
+
+    .line 40
+    .line 41
+    .line 42
+    invoke-virtual {p1}, Lcom/xag/session/protocol2/superx/uav/nav/v1/model/NavRangeInfo$RangePoint;->getBuffer()[B
+
+    .line 43
+    .line 44
+    .line 45
+    move-result-object p1
+
+    .line 46
+    array-length p1, p1
+
+    .line 47
+    iget v1, p0, Lcom/xag/session/protocol2/superx/uav/nav/v1/model/NavRangeInfo;->count:I
+
+    .line 48
+    .line 49
+    const/4 v2, 0x0
+
+    .line 50
+    :goto_0
+    if-ge v2, v1, :cond_1
+
+    .line 51
+    .line 52
+    new-instance v3, Lcom/xag/session/protocol2/superx/uav/nav/v1/model/NavRangeInfo$RangePoint;
+
+    .line 53
+    .line 54
+    invoke-direct {v3}, Lcom/xag/session/protocol2/superx/uav/nav/v1/model/NavRangeInfo$RangePoint;-><init>()V
+
+    .line 55
+    .line 56
+    .line 57
+    invoke-virtual {v0, p1}, Lcom/xag/session2/util/c;->b(I)[B
+
+    .line 58
+    .line 59
+    .line 60
+    move-result-object v4
+
+    .line 61
+    const-string v5, "bc.getBytes(sizePoint)"
+
+    .line 62
+    .line 63
+    invoke-static {v4, v5}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 64
+    .line 65
+    .line 66
+    invoke-virtual {v3, v4}, Lcom/xag/session/protocol2/superx/uav/nav/v1/model/NavRangeInfo$RangePoint;->setBuffer([B)V
+
+    .line 67
+    .line 68
+    .line 69
+    iget-object v4, p0, Lcom/xag/session/protocol2/superx/uav/nav/v1/model/NavRangeInfo;->points:Ljava/util/List;
+
+    .line 70
+    .line 71
+    invoke-interface {v4, v3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+
+    .line 72
+    .line 73
+    .line 74
+    add-int/lit8 v2, v2, 0x1
+
+    .line 75
+    .line 76
+    goto :goto_0
+
+    .line 77
+    :cond_1
+    return-void
+.end method

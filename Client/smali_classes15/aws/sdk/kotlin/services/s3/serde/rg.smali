@@ -1,0 +1,271 @@
+.class public final Laws/sdk/kotlin/services/s3/serde/rg;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/SourceDebugExtension;
+    value = "SMAP\nRedirectAllRequestsToDocumentSerializer.kt\nKotlin\n*S Kotlin\n*F\n+ 1 RedirectAllRequestsToDocumentSerializer.kt\naws/sdk/kotlin/services/s3/serde/RedirectAllRequestsToDocumentSerializerKt\n+ 2 SdkObjectDescriptor.kt\naws/smithy/kotlin/runtime/serde/SdkObjectDescriptor$Companion\n+ 3 Serializer.kt\naws/smithy/kotlin/runtime/serde/SerializerKt\n+ 4 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,36:1\n22#2:37\n504#3,2:38\n506#3,2:41\n1#4:40\n*S KotlinDebug\n*F\n+ 1 RedirectAllRequestsToDocumentSerializer.kt\naws/sdk/kotlin/services/s3/serde/RedirectAllRequestsToDocumentSerializerKt\n*L\n24#1:37\n31#1:38,2\n31#1:41,2\n*E\n"
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u0014\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0003\u001a\u001f\u0010\u0005\u001a\u00020\u00042\u0006\u0010\u0001\u001a\u00020\u00002\u0006\u0010\u0003\u001a\u00020\u0002H\u0000\u00a2\u0006\u0004\u0008\u0005\u0010\u0006\u00a8\u0006\u0007"
+    }
+    d2 = {
+        "Le1/q;",
+        "serializer",
+        "Laws/sdk/kotlin/services/s3/model/RedirectAllRequestsTo;",
+        "input",
+        "Lkotlin/z1;",
+        "a",
+        "(Le1/q;Laws/sdk/kotlin/services/s3/model/RedirectAllRequestsTo;)V",
+        "s3"
+    }
+    k = 0x2
+    mv = {
+        0x2,
+        0x0,
+        0x0
+    }
+.end annotation
+
+.annotation build Lkotlin/jvm/internal/t0;
+    value = {
+        "SMAP\nRedirectAllRequestsToDocumentSerializer.kt\nKotlin\n*S Kotlin\n*F\n+ 1 RedirectAllRequestsToDocumentSerializer.kt\naws/sdk/kotlin/services/s3/serde/RedirectAllRequestsToDocumentSerializerKt\n+ 2 SdkObjectDescriptor.kt\naws/smithy/kotlin/runtime/serde/SdkObjectDescriptor$Companion\n+ 3 Serializer.kt\naws/smithy/kotlin/runtime/serde/SerializerKt\n+ 4 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,36:1\n22#2:37\n504#3,2:38\n506#3,2:41\n1#4:40\n*S KotlinDebug\n*F\n+ 1 RedirectAllRequestsToDocumentSerializer.kt\naws/sdk/kotlin/services/s3/serde/RedirectAllRequestsToDocumentSerializerKt\n*L\n24#1:37\n31#1:38,2\n31#1:41,2\n*E\n"
+    }
+.end annotation
+
+
+# direct methods
+.method public static final a(Le1/q;Laws/sdk/kotlin/services/s3/model/RedirectAllRequestsTo;)V
+    .locals 7
+    .param p0    # Le1/q;
+        .annotation build Las0/k;
+        .end annotation
+    .end param
+    .param p1    # Laws/sdk/kotlin/services/s3/model/RedirectAllRequestsTo;
+        .annotation build Las0/k;
+        .end annotation
+    .end param
+
+    .line 1
+    const-string v0, "serializer"
+
+    .line 2
+    .line 3
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 4
+    .line 5
+    .line 6
+    const-string v0, "input"
+
+    .line 7
+    .line 8
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 9
+    .line 10
+    .line 11
+    new-instance v0, Le1/j;
+
+    .line 12
+    .line 13
+    sget-object v1, Le1/p$p;->a:Le1/p$p;
+
+    .line 14
+    .line 15
+    new-instance v2, Laws/smithy/kotlin/runtime/serde/xml/v0;
+
+    .line 16
+    .line 17
+    const-string v3, "HostName"
+
+    .line 18
+    .line 19
+    invoke-direct {v2, v3}, Laws/smithy/kotlin/runtime/serde/xml/v0;-><init>(Ljava/lang/String;)V
+
+    .line 20
+    .line 21
+    .line 22
+    const/4 v3, 0x1
+
+    .line 23
+    new-array v4, v3, [Le1/d;
+
+    .line 24
+    .line 25
+    const/4 v5, 0x0
+
+    .line 26
+    aput-object v2, v4, v5
+
+    .line 27
+    .line 28
+    invoke-direct {v0, v1, v4}, Le1/j;-><init>(Le1/p;[Le1/d;)V
+
+    .line 29
+    .line 30
+    .line 31
+    new-instance v1, Le1/j;
+
+    .line 32
+    .line 33
+    sget-object v2, Le1/p$h;->a:Le1/p$h;
+
+    .line 34
+    .line 35
+    new-instance v4, Laws/smithy/kotlin/runtime/serde/xml/v0;
+
+    .line 36
+    .line 37
+    const-string v6, "Protocol"
+
+    .line 38
+    .line 39
+    invoke-direct {v4, v6}, Laws/smithy/kotlin/runtime/serde/xml/v0;-><init>(Ljava/lang/String;)V
+
+    .line 40
+    .line 41
+    .line 42
+    new-array v3, v3, [Le1/d;
+
+    .line 43
+    .line 44
+    aput-object v4, v3, v5
+
+    .line 45
+    .line 46
+    invoke-direct {v1, v2, v3}, Le1/j;-><init>(Le1/p;[Le1/d;)V
+
+    .line 47
+    .line 48
+    .line 49
+    sget-object v2, Le1/l;->f:Le1/l$b;
+
+    .line 50
+    .line 51
+    new-instance v2, Le1/l$a;
+
+    .line 52
+    .line 53
+    invoke-direct {v2}, Le1/l$a;-><init>()V
+
+    .line 54
+    .line 55
+    .line 56
+    new-instance v3, Laws/smithy/kotlin/runtime/serde/xml/v0;
+
+    .line 57
+    .line 58
+    const-string v4, "RedirectAllRequestsTo"
+
+    .line 59
+    .line 60
+    invoke-direct {v3, v4}, Laws/smithy/kotlin/runtime/serde/xml/v0;-><init>(Ljava/lang/String;)V
+
+    .line 61
+    .line 62
+    .line 63
+    invoke-virtual {v2, v3}, Le1/l$a;->e(Le1/d;)V
+
+    .line 64
+    .line 65
+    .line 66
+    new-instance v3, Laws/smithy/kotlin/runtime/serde/xml/j0;
+
+    .line 67
+    .line 68
+    const/4 v4, 0x0
+
+    .line 69
+    const/4 v5, 0x2
+
+    .line 70
+    const-string v6, "http://s3.amazonaws.com/doc/2006-03-01/"
+
+    .line 71
+    .line 72
+    invoke-direct {v3, v6, v4, v5, v4}, Laws/smithy/kotlin/runtime/serde/xml/j0;-><init>(Ljava/lang/String;Ljava/lang/String;ILkotlin/jvm/internal/u;)V
+
+    .line 73
+    .line 74
+    .line 75
+    invoke-virtual {v2, v3}, Le1/l$a;->e(Le1/d;)V
+
+    .line 76
+    .line 77
+    .line 78
+    invoke-virtual {v2, v0}, Le1/l$a;->b(Le1/j;)V
+
+    .line 79
+    .line 80
+    .line 81
+    invoke-virtual {v2, v1}, Le1/l$a;->b(Le1/j;)V
+
+    .line 82
+    .line 83
+    .line 84
+    invoke-virtual {v2}, Le1/l$a;->a()Le1/l;
+
+    .line 85
+    .line 86
+    .line 87
+    move-result-object v2
+
+    .line 88
+    invoke-interface {p0, v2}, Le1/q;->k(Le1/j;)Le1/t;
+
+    .line 89
+    .line 90
+    .line 91
+    move-result-object p0
+
+    .line 92
+    invoke-virtual {p1}, Laws/sdk/kotlin/services/s3/model/RedirectAllRequestsTo;->getHostName()Ljava/lang/String;
+
+    .line 93
+    .line 94
+    .line 95
+    move-result-object v2
+
+    .line 96
+    invoke-interface {p0, v0, v2}, Le1/t;->b0(Le1/j;Ljava/lang/String;)V
+
+    .line 97
+    .line 98
+    .line 99
+    invoke-virtual {p1}, Laws/sdk/kotlin/services/s3/model/RedirectAllRequestsTo;->getProtocol()Laws/sdk/kotlin/services/s3/model/Protocol;
+
+    .line 100
+    .line 101
+    .line 102
+    move-result-object p1
+
+    .line 103
+    if-eqz p1, :cond_0
+
+    .line 104
+    .line 105
+    invoke-virtual {p1}, Laws/sdk/kotlin/services/s3/model/Protocol;->getValue()Ljava/lang/String;
+
+    .line 106
+    .line 107
+    .line 108
+    move-result-object p1
+
+    .line 109
+    invoke-interface {p0, v1, p1}, Le1/t;->b0(Le1/j;Ljava/lang/String;)V
+
+    .line 110
+    .line 111
+    .line 112
+    :cond_0
+    invoke-interface {p0}, Le1/t;->U()V
+
+    .line 113
+    .line 114
+    .line 115
+    return-void
+.end method

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.AppCompat" parent="@style/Base.V26.Theme.AppCompat" />
+    <style name="Base.Theme.AppCompat.Light" parent="@style/Base.V26.Theme.AppCompat.Light" />
+    <style name="Base.Widget.AppCompat.Toolbar" parent="@style/Base.V26.Widget.AppCompat.Toolbar" />
+    <style name="Cube.Button.Body" parent="@style/Cube.Button">
+        <item name="android:textSize">?cube_font_body</item>
+        <item name="android:minHeight">@dimen/cube_dp_44</item>
+        <item name="android:lineSpacingExtra">-6.0dip</item>
+        <item name="android:paddingVertical">@dimen/cube_space_10</item>
+        <item name="iconSize">?cube_icon_030</item>
+    </style>
+    <style name="Cube.Button.Callout" parent="@style/Cube.Button">
+        <item name="android:textSize">?cube_font_callout</item>
+        <item name="android:minHeight">@dimen/cube_dp_36</item>
+        <item name="android:lineSpacingExtra">-5.0dip</item>
+        <item name="android:paddingVertical">@dimen/cube_space_8</item>
+        <item name="iconSize">?cube_icon_010</item>
+    </style>
+    <style name="Operation.Button.Base" parent="@style/BaseCompat.Button">
+        <item name="android:textSize">@dimen/operation_text_size_16</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/operation_button_height_48</item>
+        <item name="android:fontWeight">500</item>
+        <item name="android:textFontWeight">500</item>
+    </style>
+    <style name="Operation.Text.Item.Content" parent="@style/Operation.Text">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@color/cube_color_content_secondary</item>
+        <item name="android:fontWeight">400</item>
+        <item name="android:textFontWeight">400</item>
+    </style>
+    <style name="Operation.Text.Item.Title" parent="@style/Operation.Text">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@drawable/operation_selector_text_e0</item>
+        <item name="android:fontWeight">400</item>
+        <item name="android:textFontWeight">400</item>
+    </style>
+    <style name="Widget.Design.AppBarLayout" parent="@android:style/Widget">
+        <item name="android:background">?colorPrimary</item>
+        <item name="android:stateListAnimator">@animator/design_appbar_state_list_animator</item>
+        <item name="android:touchscreenBlocksFocus">true</item>
+        <item name="android:keyboardNavigationCluster">true</item>
+    </style>
+    <style name="tinetLeadingWordsStyle">
+        <item name="android:textSize">?cube_font_footnote</item>
+        <item name="android:textColor">@color/cube_color_content_secondary</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/ti_shape_notification_bg</item>
+        <item name="android:lineSpacingExtra">@dimen/cube_dp_1</item>
+        <item name="android:layout_marginHorizontal">@dimen/cube_dp_30</item>
+        <item name="android:layout_marginVertical">@dimen/cube_dp_0</item>
+        <item name="android:paddingHorizontal">@dimen/cube_dp_10</item>
+        <item name="android:paddingVertical">@dimen/cube_dp_10</item>
+    </style>
+    <style name="tinetNotifyStyle">
+        <item name="android:textSize">?cube_font_footnote</item>
+        <item name="android:textColor">@color/cube_color_content_secondary</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/ti_shape_notification_bg</item>
+        <item name="android:lineSpacingExtra">@dimen/cube_dp_1</item>
+        <item name="android:layout_marginHorizontal">@dimen/cube_dp_30</item>
+        <item name="android:layout_marginVertical">@dimen/cube_dp_0</item>
+        <item name="android:paddingHorizontal">@dimen/cube_dp_10</item>
+        <item name="android:paddingVertical">@dimen/cube_dp_10</item>
+    </style>
+    <style name="Base.V26.Theme.AppCompat" parent="@style/Base.V23.Theme.AppCompat">
+        <item name="colorError">?android:colorError</item>
+    </style>
+    <style name="Base.V26.Theme.AppCompat.Light" parent="@style/Base.V23.Theme.AppCompat.Light">
+        <item name="colorError">?android:colorError</item>
+    </style>
+    <style name="Base.V26.Widget.AppCompat.Toolbar" parent="@style/Base.V7.Widget.AppCompat.Toolbar">
+        <item name="android:touchscreenBlocksFocus">true</item>
+        <item name="android:keyboardNavigationCluster">true</item>
+    </style>
+</resources>

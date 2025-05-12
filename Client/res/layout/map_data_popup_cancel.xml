@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="2.0dip" app:cardCornerRadius="8.0dip" app:cardElevation="4.0dip">
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/v_cancel" android:background="@color/cube_color_container_bg_tint" android:paddingLeft="@dimen/cube_dp_16" android:paddingTop="@dimen/cube_dp_12" android:paddingRight="@dimen/cube_dp_16" android:paddingBottom="@dimen/cube_dp_12" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/cube_dp_16" android:paddingVertical="@dimen/cube_dp_12">
+            <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/cube_color_content_primary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/map_data_import_cancel" style="@style/Cube.Font.Regular.Body" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/cube_ic_gen_xmark" android:layout_marginStart="@dimen/cube_dp_48" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

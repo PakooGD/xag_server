@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/cube_dp_4" android:width="@dimen/cube_dp_16" android:viewportWidth="16.0" android:viewportHeight="4.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <clip-path android:pathData="M0,0h16v4h-16z" />
+        <path android:fillColor="@color/cube_color_content_primary" android:pathData="M4.854,3.146C4.539,3.461 4.762,4 5.207,4L10.793,4C11.238,4 11.461,3.461 11.146,3.146L8.354,0.354C8.158,0.158 7.842,0.158 7.646,0.354L4.854,3.146Z" />
+    </group>
+</vector>

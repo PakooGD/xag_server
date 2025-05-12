@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="30.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/ti_group_question_item_text_size" android:textColor="#ff4385ff" android:id="@id/tvChildName" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="bottom" android:background="@drawable/air_survey_v5_dialog_gray_bg_16" android:layout_width="fill_parent" android:layout_height="336.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.xag.agri.v4.operation.res.widget.DialogTitleWidget android:id="@id/title_widget" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginBottom="@dimen/cube_dp_16" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/title_widget">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/device_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cube_dp_16" android:layout_marginTop="@dimen/cube_dp_12" android:layout_marginRight="@dimen/cube_dp_16" android:layout_marginBottom="@dimen/cube_dp_12" android:layout_marginHorizontal="@dimen/cube_dp_16" android:layout_marginVertical="@dimen/cube_dp_12" />
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

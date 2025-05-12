@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/xag_face_lib_shape_cor16_white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/face_lib_px_16">
+        <TextView android:textSize="@dimen/face_lib_px_32" android:textColor="@color/face_lib_blue" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tv_bottom_title" android:layout_width="fill_parent" android:layout_height="@dimen/face_lib_px_112" android:text="@string/id_auth_from_album" />
+        <ProgressBar android:id="@id/progressBar" android:layout_width="fill_parent" android:layout_height="@dimen/face_lib_px_8" android:max="3" android:progressDrawable="@drawable/id_auth_progress_gray" android:layout_marginStart="@dimen/face_lib_px_48" android:layout_marginEnd="@dimen/face_lib_px_48" style="?android:progressBarStyleHorizontal" />
+        <TextView android:textSize="@dimen/face_lib_px_32" android:textColor="@color/face_lib_gray2" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tv_bottom_cancel" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/face_lib_px_112" android:text="取消" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@color/devices_black_00" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:background="@drawable/devices_bg_layout_top" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/include_title" layout="@layout/rtk_sheet_base_title" />
+        <com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:gravity="center" android:id="@id/btn_edit" android:background="@drawable/devices_shape_white_round_outline" android:layout_width="fill_parent" android:layout_height="@dimen/devices_item_height" android:layout_marginLeft="@dimen/cube_dp_16" android:layout_marginTop="@dimen/cube_dp_12" android:layout_marginRight="@dimen/cube_dp_16" android:text="@string/devices_edit" android:layout_marginHorizontal="@dimen/cube_dp_16" style="@style/Cube.Font.Regular.Body" />
+        <com.xa.core.cube.TextView android:textColor="@color/cube_color_chromatic_red_primary" android:gravity="center" android:id="@id/btn_delete" android:background="@drawable/devices_shape_white_round_outline" android:layout_width="fill_parent" android:layout_height="@dimen/devices_item_height" android:layout_marginLeft="@dimen/cube_dp_16" android:layout_marginTop="@dimen/cube_dp_12" android:layout_marginRight="@dimen/cube_dp_16" android:layout_marginBottom="@dimen/cube_dp_24" android:text="@string/devices_dev_spread_act_del" android:layout_marginHorizontal="@dimen/cube_dp_16" style="@style/Cube.Font.Regular.Body" />
+    </LinearLayout>
+</FrameLayout>

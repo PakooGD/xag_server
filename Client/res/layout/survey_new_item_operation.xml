@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xa.core.cube.TextView android:textColor="@color/cube_color_content_primary" android:gravity="center" android:id="@id/info" android:background="@drawable/cube_shape_container_bg_tint_8" android:text="@string/survey_merge_land" style="@style/SurveyOrientationItemSmallText"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

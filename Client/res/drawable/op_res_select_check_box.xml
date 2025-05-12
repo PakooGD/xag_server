@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:state_checked="true" android:drawable="@drawable/sl_checkbox_slc_disabled" />
+    <item android:state_checked="true" android:drawable="@drawable/slct_checkbox_slc_enb" />
+    <item android:state_enabled="false" android:state_checked="false" android:drawable="@drawable/sl_checkbox_unslc_disabled" />
+    <item android:state_checked="false" android:drawable="@drawable/slct_checkbox_unslc_enb" />
+</selector>

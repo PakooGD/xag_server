@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/cube_shape_container_bg_tint_8" android:paddingTop="@dimen/cube_dp_8" android:paddingBottom="@dimen/cube_dp_8" android:layout_width="@dimen/cube_dp_84" android:layout_height="wrap_content" android:layout_marginRight="@dimen/cube_dp_8" android:paddingVertical="@dimen/cube_dp_8"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_card_logo" android:layout_width="@dimen/cube_dp_28" android:layout_height="@dimen/cube_dp_28" android:scaleType="centerCrop" />
+    <TextView android:textColor="@color/cube_color_content_secondary" android:ellipsize="end" android:id="@id/tv_card_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cube_dp_0" android:maxEms="4" android:singleLine="true" />
+</LinearLayout>

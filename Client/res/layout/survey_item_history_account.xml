@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="@dimen/cube_dp_40" android:paddingStart="@dimen/cube_dp_12" android:paddingEnd="@dimen/cube_dp_12" style="@style/Cube.Font.Regular.Body"
+  xmlns:android="http://schemas.android.com/apk/res/android" />
