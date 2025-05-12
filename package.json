@@ -1,0 +1,43 @@
+{
+  "dependencies": {
+    "@foxglove/cdr": "^3.3.0",
+    "@foxglove/rosmsg-serialization": "^2.0.3",
+    "@foxglove/rosmsg2-serialization": "^3.0.2",
+    "@foxglove/ulog": "^2.1.5",
+    "@foxglove/ws-protocol": "^0.8.0",
+    "@sequelize/postgres": "^7.0.0-alpha.45",
+    "axios": "^1.8.3",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "echarts": "^5.6.0",
+    "echarts-for-react": "^3.0.2",
+    "events": "^3.3.0",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "lodash": "^4.17.21",
+    "mongodb": "^6.15.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.10.0",
+    "pg": "^8.14.0",
+    "pg-hstore": "^2.3.4",
+    "protobufjs": "^7.4.0",
+    "sequelize": "^6.37.6",
+    "sqlite3": "^5.1.7",
+    "uuid": "^11.1.0",
+    "ws": "^8.18.1"
+  },
+  "scripts": {
+    "start": "nodemon"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.10",
+    "@types/ws": "^8.18.0",
+    "nodemon": "^3.1.9",
+    "sequelize-cli": "^6.6.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
+}
