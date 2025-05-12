@@ -89,4 +89,32 @@ export class AuthController {
       });
     }
   }
+
+  static async getIotUserSession(req: Request, res: Response): Promise<void> {
+    try {
+      const token = req.headers['token'] as string;
+      const xaToken = req.headers['xa_token'] as string;
+
+      if (!token || !xaToken) {
+        res.status(400).json({
+          data: null,
+          message: 'token and xa_token are required',
+          status: 400
+        });
+      }
+
+    res.json({
+      data: {},
+      message: "Successful",
+      status:200
+    });
+
+  } catch (error) {
+    console.error('Login error:', error);
+    res.status(500).json({
+      message: 'Internal server error',
+      status: 500,
+    });
+  }
+}
 }
