@@ -27,4 +27,16 @@ export class DroneController {
             next(err)
         }
     }
+
+
+    public static async loadLogs(req: any, res: any, next: NextFunction) {
+        if (!req.query) {
+            throw new BadRequest('Missing data');  
+        }
+        try {  
+            await DroneHandler.loadLogs(req.query, res)
+        } catch (err) {
+            next(err)
+        }
+    }
 }
