@@ -23,4 +23,23 @@ export class ExternalApiService {
     });
     return response.data;
   }
+
+  static async register(token:any, xaToken:any, alias:any, app:any, app_id:any, platform:any, registration_id:any, tags:any, version:any): Promise<any> {
+    const response = await axios.post(`${this.baseUrl}/api/account/v1/user/token/login`, {
+      alias,
+      app,
+      app_id,
+      platform,
+      registration_id,
+      tags,
+      version
+    }, {
+      headers: {
+        'token': token,
+        'xa_token': xaToken,
+        'Content-Type': 'application/x-www-form-urlencoded',
+      },
+    });
+    return response.data;
+  }
 }
