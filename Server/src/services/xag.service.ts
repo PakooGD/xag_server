@@ -5,45 +5,42 @@ import axios from 'axios';
 import { TokenService } from './token.service';
 
 export class XagService {
-  static async getDeviceLists(headers:any) {
+  static async getDeviceLists(headers: any) {
     try {
       const token = headers.token
-
       const user = await User.findOne({ where: { token } });
+
       if (!user) {
-        return {
-          status: 404,
-          message: 'User not found',
-          data: null,
-        };
+        throw new Error('User not found');
       }
 
-      // // Check if the token is expired
-      // if (!TokenService.verifyToken(user.expire_in)) {
-      //   // Try to refresh the token
-      //   const result = await TokenService.refreshToken(user.refresh_token_expire_in);
-      //   if (result != null) {
-      //     // Update the user with the new token information
-      //     await user.update({
-      //       access_token: result.access_token,
-      //       refresh_token: result.refresh_token,
-      //       expire_in: result.expire_in,
-      //       refresh_token_expire_in: result.refresh_token_expire_in,
-      //     });
-      //   } else {
-      //     return {
-      //       status: 401,
-      //       message: 'Token expired and refresh failed',
-      //       data: null,
-      //     };
-      //   }
-      // }
+      // Check if the token is expired
+      if (!TokenService.verifyToken(user.expire_in)) {
+        // Try to refresh the token
+        const result = await TokenService.refreshToken(user.refresh_token_expire_in);
+        if (result != null) {
+          // Update the user with the new token information
+          await user.update({
+            access_token: result.access_token,
+            refresh_token: result.refresh_token,
+            expire_in: result.expire_in,
+            refresh_token_expire_in: result.refresh_token_expire_in,
+          });
+        } else {
+          return {
+            status: 401,
+            message: 'Token expired and refresh failed',
+            data: null,
+          };
+        }
+      }
 
       // Find devices associated with the user
       const devices = await Device.findAll({
         where: { user_id: user.id },
       });
 
+      // Return existed local devices
       if (devices && devices.length > 0) {
         return {
           status: 200,
@@ -54,9 +51,11 @@ export class XagService {
         };
       }
 
+      // Если локальных устройств нет, запрашиваем с внешнего API
       const response = await axios.get('https://dservice.xa.com/api/equipment/device/lists', {
         headers: headers
       });
+
 
       // Save devices to database if fetch from external api successfull
       if (response.data.data?.lists) {
