@@ -15,10 +15,11 @@ export class XagController {
                     message: 'token and xa_token are required',
                     status: 400
                 });
-                return; // Don't forget to return here
+                return; 
             }
 
             const result = await XagService.getDeviceLists(token, xaToken);
+
             res.json(result);
 
         } catch (error) {
