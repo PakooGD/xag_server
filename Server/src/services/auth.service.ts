@@ -33,7 +33,7 @@ export class AuthService {
     };
   }
 
-  static async login(loginData: LoginData) {
+  static async login( headers:any ,loginData: LoginData) {
     const { phone, password, icc } = loginData;
 
     // const existingUser = await User.findOne({
@@ -54,7 +54,7 @@ export class AuthService {
     // }
 
     try {
-      const loginResponse = await ExternalApiService.login(phone, password, icc);
+      const loginResponse = await ExternalApiService.login(headers, phone, password, icc);
 
       // if (loginResponse.status === 200) {
       //   const userData = loginResponse.data;
@@ -100,8 +100,7 @@ export class AuthService {
   static async register(loginData: any) {
     try {
       return await ExternalApiService.register(
-        loginData.token,
-        loginData.xaToken,
+        loginData.headers,
         loginData.alias,
         loginData.app,
         loginData.app_id,
@@ -120,9 +119,17 @@ export class AuthService {
     }
   }
 
-  static async getUserSettings(token: string, xaToken: string) {
+  static async getUserSettings(headers:any) {
     try {
-      return await ExternalApiService.getUserSettings(token, xaToken)
+      const response = await axios.get('https://passport.xag.cn/api/account/v1/common/user/setting/get', {
+        headers
+      });
+      
+      return {
+        data: response.data.data,
+        message: response.data.message,
+        status: response.status,
+      };
     } catch (error) {
       if (axios.isAxiosError(error)) {
         console.error('XAG Settings Error:', error.response?.data);
