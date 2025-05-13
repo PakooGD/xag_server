@@ -286,7 +286,7 @@
     .end annotation
 
     .annotation runtime Lretrofit2/http/POST;
-        value = "http:127.0.0.1:5000/api/equipment/rtk/deleteCoordinate"
+        value = "http://127.0.0.1:5000/api/equipment/rtk/deleteCoordinate"
     .end annotation
 .end method
 
@@ -465,7 +465,7 @@
     .end annotation
 
     .annotation runtime Lretrofit2/http/GET;
-        value = "http:127.0.0.1:5000/api/equipment/rtk/getCoordinateList"
+        value = "http://127.0.0.1:5000/api/equipment/rtk/getCoordinateList"
     .end annotation
 
     .annotation runtime Lretrofit2/http/Headers;
@@ -620,7 +620,7 @@
     .end annotation
 
     .annotation runtime Lretrofit2/http/POST;
-        value = "http:127.0.0.1:5000/api/equipment/rtk/saveCoordinate"
+        value = "http://127.0.0.1:5000/api/equipment/rtk/saveCoordinate"
     .end annotation
 .end method
 
@@ -738,7 +738,7 @@
     .end annotation
 
     .annotation runtime Lretrofit2/http/POST;
-        value = "http:127.0.0.1:5000/api/equipment/rtk/updateCoordinate"
+        value = "http://127.0.0.1:5000/api/equipment/rtk/updateCoordinate"
     .end annotation
 
     .annotation build Luf0/o;
