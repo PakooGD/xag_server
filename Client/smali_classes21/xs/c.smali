@@ -116,7 +116,7 @@
     .end annotation
 
     .annotation runtime Lretrofit2/http/GET;
-        value = "/api/equipment/device/searchInfo"
+        value = "http://127.0.0.1:5000/api/equipment/device/searchInfo"
     .end annotation
 
     .annotation runtime Lretrofit2/http/Headers;
@@ -164,7 +164,7 @@
     .end annotation
 
     .annotation runtime Lretrofit2/http/GET;
-        value = "/api/equipment/device/searchStatus"
+        value = "http://127.0.0.1:5000/api/equipment/device/searchStatus"
     .end annotation
 
     .annotation runtime Lretrofit2/http/Headers;
@@ -208,7 +208,7 @@
     .end annotation
 
     .annotation runtime Lretrofit2/http/POST;
-        value = "/api/equipment/device/create"
+        value = "http://127.0.0.1:5000/api/equipment/device/create"
     .end annotation
 .end method
 
