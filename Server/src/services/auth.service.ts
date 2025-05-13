@@ -52,43 +52,15 @@ export class AuthService {
   
       // Если пользователь найден, проверяем пароль
       if (existingUser) {
+        const isPasswordValid = await bcrypt.compare(password, existingUser.password);
 
-          if(existingUser.access_token == headers.token){
-            if(!TokenService.verifyToken(existingUser.expire_in)){
-              const result = await TokenService.refreshToken(existingUser.refresh_token_expire_in)
-              if(result != null){
-                await existingUser.update({
-                  access_token: result.access_token,
-                  refresh_token: result.refresh_token,
-                  expire_in: result.expire_in,
-                  refresh_token_expire_in: result.refresh_token_expire_in,
-                });
-              } else {
-                return {
-                  data: null,
-                  message: 'Failed while refreshing tokens',
-                  status: 401,
-              };
-              }
-            }
-            // Сравниваем хешированный пароль из БД с предоставленным паролем
-            const isPasswordValid = await bcrypt.compare(password, existingUser.password);
-
-            if (!isPasswordValid) {
-              return {
-                  data: null,
-                  message: 'Invalid password',
-                  status: 401,
-              };
-            }
-
-          } else {
-            return {
-              data: {},
-              message: 'Invalid tokens',
+        if (!isPasswordValid) {
+          return {
+              data: null,
+              message: 'Invalid password',
               status: 401,
           };
-          }
+        }
           return {
               data: this.formatUserResponse(existingUser),
               message: 'success',
@@ -146,6 +118,35 @@ export class AuthService {
 
   static async register(loginData: any) {
     try {
+
+        const existingUser = await User.findOne({
+          where: {
+              [Op.or]: [
+                  { token: loginData.headers.token },
+              ],
+          },
+        });
+
+        if (existingUser) {
+            if(!TokenService.verifyToken(existingUser.expire_in)){
+              const result = await TokenService.refreshToken(existingUser.refresh_token_expire_in)
+              if(result != null){
+                await existingUser.update({
+                  access_token: result.access_token,
+                  refresh_token: result.refresh_token,
+                  expire_in: result.expire_in,
+                  refresh_token_expire_in: result.refresh_token_expire_in,
+                });
+              } 
+            }
+            return {
+              "success": false,
+              "data": null,
+              "message": "注册id不能为空",
+              "status": 1017
+            };
+        }
+
       return await ExternalApiService.register(
         loginData.headers,
         loginData.alias,
@@ -168,6 +169,33 @@ export class AuthService {
 
   static async getUserSettings(headers:any) {
     try {
+      const existingUser = await User.findOne({
+        where: {
+            [Op.or]: [
+                { token: headers.token },
+            ],
+        },
+      });
+
+      if (existingUser) {
+        if(!TokenService.verifyToken(existingUser.expire_in)){
+          const result = await TokenService.refreshToken(existingUser.refresh_token_expire_in)
+          if(result != null){
+            await existingUser.update({
+              access_token: result.access_token,
+              refresh_token: result.refresh_token,
+              expire_in: result.expire_in,
+              refresh_token_expire_in: result.refresh_token_expire_in,
+            });
+          } 
+        }
+        return {
+          "data": null,
+          "message": "success",
+          "status": 200
+        };
+    }
+
       const response = await axios.get('https://passport.xag.cn/api/account/v1/common/user/setting/get', {
         headers
       });
