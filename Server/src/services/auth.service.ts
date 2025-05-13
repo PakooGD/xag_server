@@ -3,6 +3,8 @@ import axios from 'axios';
 import { ExternalApiService } from './';
 import { Op } from 'sequelize';
 import { LoginData } from '../types/ITypes';
+import { TokenService } from './token.service';
+import { error } from 'console';
 
 const bcrypt = require('bcrypt');
 
@@ -50,17 +52,43 @@ export class AuthService {
   
       // Если пользователь найден, проверяем пароль
       if (existingUser) {
-          // Сравниваем хешированный пароль из БД с предоставленным паролем
-          const isPasswordValid = await bcrypt.compare(password, existingUser.password);
-          
-          if (!isPasswordValid) {
+
+          if(existingUser.access_token == headers.token){
+            if(!TokenService.verifyToken(existingUser.expire_in)){
+              const result = await TokenService.refreshToken(existingUser.refresh_token_expire_in)
+              if(result != null){
+                await existingUser.update({
+                  access_token: result.access_token,
+                  refresh_token: result.refresh_token,
+                  expire_in: result.expire_in,
+                  refresh_token_expire_in: result.refresh_token_expire_in,
+                });
+              } else {
+                return {
+                  data: null,
+                  message: 'Failed while refreshing tokens',
+                  status: 401,
+              };
+              }
+            }
+            // Сравниваем хешированный пароль из БД с предоставленным паролем
+            const isPasswordValid = await bcrypt.compare(password, existingUser.password);
+
+            if (!isPasswordValid) {
               return {
                   data: null,
                   message: 'Invalid password',
                   status: 401,
               };
+            }
+
+          } else {
+            return {
+              data: {},
+              message: 'Invalid tokens',
+              status: 401,
+          };
           }
-  
           return {
               data: this.formatUserResponse(existingUser),
               message: 'success',
