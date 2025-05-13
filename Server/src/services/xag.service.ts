@@ -7,27 +7,46 @@ import { Op } from 'sequelize';
 import { LoginData } from '../types/ITypes';
 
 export class XagService {
-  static async getDeviceLists(headers:any) {
+  static async getDeviceLists(headers: any) {
     try {
-      const response = await axios.get('https://dservice.xa.com/api/equipment/device/lists', {
-        headers: headers
-      });
-      const token = headers.token
-      // Find user by token (assuming token is stored in User model)
+      // Сначала проверяем локальную базу данных
+      const token = headers.token;
       const user = await User.findOne({ where: { token } });
+
       if (!user) {
         throw new Error('User not found');
       }
 
-      // Save devices to database
+      // Получаем устройства из локальной базы
+      const localDevices = await Device.findAll({
+        where: { user_id: user.id }
+      });
+
+      // Если есть локальные устройства, возвращаем их
+      if (localDevices && localDevices.length > 0) {
+        return {
+          status: 200,
+          message: 'Devices loaded from own server',
+          data: {
+            lists: localDevices.map(device => device.get({ plain: true }))
+          }
+        };
+      }
+
+      // Если локальных устройств нет, запрашиваем с внешнего API
+      const response = await axios.get('https://dservice.xa.com/api/equipment/device/lists', {
+        headers: headers
+      });
+
+      // Сохраняем устройства в базу данных
       if (response.data.data?.lists) {
         await Promise.all(
-          response.data.data.lists.map(async (deviceData: any) => {
-            await Device.upsert({
-              ...deviceData,
-              user_id: user.id,
-            });
-          })
+            response.data.data.lists.map(async (deviceData: any) => {
+              await Device.upsert({
+                ...deviceData,
+                user_id: user.id,
+              });
+            })
         );
       }
 
@@ -46,7 +65,7 @@ export class XagService {
           headers: error.response?.headers
         };
       }
-      
+
       throw {
         data: null,
         message: error instanceof Error ? error.message : 'Internal server error',
