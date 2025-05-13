@@ -213,120 +213,12 @@
 .end method
 
 .method public final d(Landroid/content/Context;)V
-    .locals 3
+    .locals 0
     .param p1    # Landroid/content/Context;
         .annotation build Las0/k;
         .end annotation
     .end param
-
-    .line 1
-    const-string v0, "context"
-
-    .line 2
-    .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/f0;->p(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 4
-    .line 5
-    .line 6
-    new-instance v0, Ls70/d;
-
-    .line 7
-    .line 8
-    const-string v1, "iot_session"
-
-    .line 9
-    .line 10
-    invoke-direct {v0, p1, v1}, Ls70/d;-><init>(Landroid/content/Context;Ljava/lang/String;)V
-
-    .line 11
-    .line 12
-    .line 13
-    sget-object v1, Lq40/c;->a:Lq40/c;
-
-    .line 14
-    .line 15
-    invoke-virtual {v1, p1}, Lq40/c;->a(Landroid/content/Context;)Lq40/b;
-
-    .line 16
-    .line 17
-    .line 18
-    move-result-object p1
-
-    .line 19
-    invoke-interface {p1}, Lq40/b;->a()Lretrofit2/Call;
-
-    .line 20
-    .line 21
-    .line 22
-    move-result-object p1
-
-    .line 23
-    invoke-interface {p1}, Lretrofit2/Call;->execute()Lretrofit2/Response;
-
-    .line 24
-    .line 25
-    .line 26
-    move-result-object p1
-
-    .line 27
-    sget-object v1, Lq40/a;->a:Lq40/a;
-
-    .line 28
-    .line 29
-    const-string v2, "response"
-
-    .line 30
-    .line 31
-    invoke-static {p1, v2}, Lkotlin/jvm/internal/f0;->o(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 32
-    .line 33
-    .line 34
-    invoke-virtual {v1, p1}, Lq40/a;->a(Lretrofit2/Response;)Ljava/lang/Object;
-
-    .line 35
-    .line 36
-    .line 37
-    move-result-object p1
-
-    .line 38
-    check-cast p1, Lcom/xag/session/protocol2/iot/api/IotAgriApiResult;
-
-    .line 39
-    .line 40
-    invoke-virtual {p1}, Lcom/xag/session/protocol2/iot/api/IotAgriApiResult;->getNotNullBody()Ljava/lang/Object;
-
-    .line 41
-    .line 42
-    .line 43
-    move-result-object p1
-
-    .line 44
-    check-cast p1, Lcom/xag/session/protocol2/iot/api/model/IotSessionBean;
-
-    .line 45
-    .line 46
-    invoke-virtual {p1}, Lcom/xag/session/protocol2/iot/api/model/IotSessionBean;->getIot_user_session()Ljava/lang/String;
-
-    .line 47
-    .line 48
-    .line 49
-    move-result-object p1
-
-    .line 50
-    sput-object p1, Lp40/i;->c:Ljava/lang/String;
-
-    .line 51
-    .line 52
-    const-string v1, "IOT_SESSION"
-
-    .line 53
-    .line 54
-    invoke-virtual {v0, v1, p1}, Ls70/d;->p(Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 55
-    .line 56
-    .line 57
+    
     return-void
 .end method
+
