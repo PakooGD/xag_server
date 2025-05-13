@@ -6,19 +6,10 @@ import { User } from '../models/user.model';
 export class XagController {
     static async getDeviceLists(req: Request, res: Response): Promise<void> {
         try {
-            const token = req.headers['token'] as string;
-            const xaToken = req.headers['xa_token'] as string;
+            const headers = { ...req.headers };
+            headers.host = 'dservice.xa.com'
 
-            if (!token || !xaToken) {
-                res.status(400).json({
-                    data: null,
-                    message: 'token and xa_token are required',
-                    status: 400
-                });
-                return; 
-            }
-
-            const result = await XagService.getDeviceLists(token, xaToken);
+            const result = await XagService.getDeviceLists(headers);
 
             res.json(result);
 

@@ -7,17 +7,15 @@ import { Op } from 'sequelize';
 import { LoginData } from '../types/ITypes';
 
 export class XagService {
-  static async getDeviceLists(token: string, xaToken: string) {
+  static async getDeviceLists(headers:any) {
     try {
-      const headers: any = {
-        'token': token,
-        'xa_token': xaToken,
-      };
-
       const response = await axios.get('https://dservice.xa.com/api/equipment/device/lists', {
         headers: headers
       });
 
+      console.log(response)
+
+      const token = headers.token
       // Find user by token (assuming token is stored in User model)
       const user = await User.findOne({ where: { token } });
       if (!user) {
