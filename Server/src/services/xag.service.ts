@@ -7,9 +7,8 @@ import { TokenService } from './token.service';
 export class XagService {
   static async getDeviceLists(headers:any) {
     try {
-
       const token = headers.token
-      // Find user by token (assuming token is stored in User model)
+
       const user = await User.findOne({ where: { token } });
       if (!user) {
         return {
