@@ -3,8 +3,6 @@ import { LoginResponse } from '../types/ITypes';
 
 export class ExternalApiService {
   static async login(headers:any, phone: string, password: string, icc: string): Promise<LoginResponse> {
-
-
     const response = await axios.post(`https://passport.xag.cn/api/account/v1/user/token/login`, {
       phone,
       password,
