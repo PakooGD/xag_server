@@ -12,9 +12,6 @@ export class XagService {
       const response = await axios.get('https://dservice.xa.com/api/equipment/device/lists', {
         headers: headers
       });
-
-      console.log(response)
-
       const token = headers.token
       // Find user by token (assuming token is stored in User model)
       const user = await User.findOne({ where: { token } });

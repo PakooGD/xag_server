@@ -4,6 +4,8 @@ import { ExternalApiService } from './';
 import { Op } from 'sequelize';
 import { LoginData } from '../types/ITypes';
 
+const bcrypt = require('bcrypt');
+
 export class AuthService {
   private static formatUserResponse(user: User) {
     return {
@@ -33,68 +35,85 @@ export class AuthService {
     };
   }
 
-  static async login( headers:any ,loginData: LoginData) {
-    const { phone, password, icc } = loginData;
-
-    const existingUser = await User.findOne({
-      where: {
-        [Op.or]: [
-          { phone },
-          { mobile: phone },
-        ],
-      },
-    });
-
-    if (existingUser) {
-      return {    
-        data: this.formatUserResponse(existingUser),
-        message: 'success',
-        status: 200,
-      };
-    }
-
-    try {
-      const loginResponse = await ExternalApiService.login(headers, phone, password, icc);
-
-      if (loginResponse.status === 200) {
-        const userData = loginResponse.data;
-        await User.create({
-          guid: userData.guid,
-          account_key: '',
-          name: userData.name,
-          nickname: userData.nickname,
-          icc: userData.icc,
-          mobile: userData.mobile,
-          phone: userData.phone,
-          intro: userData.intro,
-          username: userData.username,
-          token: userData.token,
-          access_token: userData.access_token,
-          expire_in: userData.expire_in,
-          refresh_token: userData.refresh_token,
-          refresh_token_expire_in: userData.refresh_token_expire_in,
-          identity: userData.identity,
-          wechat_bind: userData.wechat_bind,
-          real_name: userData.real_name,
-          gender: userData.gender,
-          avatar: userData.avatar,
-          area: userData.area,
-          level: userData.level,
-          language: userData.language,
-          country_code: userData.country_code,
-          password,
-        });
+  static async login(headers: any, loginData: LoginData) {
+      const { phone, password, icc } = loginData;
+        
+      // Ищем пользователя по телефону
+      const existingUser = await User.findOne({
+          where: {
+              [Op.or]: [
+                  { phone },
+                  { mobile: phone },
+              ],
+          },
+      });
+  
+      // Если пользователь найден, проверяем пароль
+      if (existingUser) {
+          // Сравниваем хешированный пароль из БД с предоставленным паролем
+          const isPasswordValid = await bcrypt.compare(password, existingUser.password);
+          
+          if (!isPasswordValid) {
+              return {
+                  data: null,
+                  message: 'Invalid password',
+                  status: 401,
+              };
+          }
+  
+          return {
+              data: this.formatUserResponse(existingUser),
+              message: 'success',
+              status: 200,
+          };
       }
-
-      return loginResponse;
-    } catch (error) {
-      console.error('External API login error:', error);
-      return {
-        data: null,
-        message: 'Failed to authenticate with external service',
-        status: 500,
-      };
-    }
+  
+      try {
+          const loginResponse = await ExternalApiService.login(headers, phone, password, icc);
+  
+          if (loginResponse.status === 200) {
+              const userData = loginResponse.data;
+              
+              // Хешируем пароль перед сохранением в БД
+              const hashedPassword = await bcrypt.hash(password, 10);
+              
+              await User.create({
+                  guid: userData.guid,
+                  account_key: '',
+                  name: userData.name,
+                  nickname: userData.nickname,
+                  icc: userData.icc,
+                  mobile: userData.mobile,
+                  phone: userData.phone,
+                  intro: userData.intro,
+                  username: userData.username,
+                  token: userData.token,
+                  access_token: userData.access_token,
+                  expire_in: userData.expire_in,
+                  refresh_token: userData.refresh_token,
+                  refresh_token_expire_in: userData.refresh_token_expire_in,
+                  identity: userData.identity,
+                  wechat_bind: userData.wechat_bind,
+                  real_name: userData.real_name,
+                  gender: userData.gender,
+                  avatar: userData.avatar,
+                  area: userData.area,
+                  level: userData.level,
+                  language: userData.language,
+                  country_code: userData.country_code,
+                  password: hashedPassword, 
+              });
+          }
+  
+          return loginResponse;
+      } catch (error) {
+          console.error('External API login error:', error);
+          return {
+              data: null,
+              message: 'Failed to authenticate with external service',
+              status: 500,
+          };
+      }
   }
 
   static async register(loginData: any) {
